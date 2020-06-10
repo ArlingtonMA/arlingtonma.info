@@ -5,8 +5,8 @@ description: "Vetted and source-annotated open data for Arlington, MA town gover
 
 # Build, theme, style settings
 url: "https://arlingtonma.info" # jekyll-sitemap
-#repository: "ArlingtonMA/arligntonma.info/"
-#branch: "master"
+repository: "ArlingtonMA/arligntonma.info"
+branch: "master"
 remote_theme: "mmistakes/minimal-mistakes@4.19.2"
 plugins:
   - jekyll-paginate

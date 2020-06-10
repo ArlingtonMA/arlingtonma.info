@@ -6,3 +6,4 @@ docs/vendor
 docs/.bundle
 docs/_site
 
+.DS_Store

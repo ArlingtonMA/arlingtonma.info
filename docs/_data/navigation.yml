@@ -1,0 +1,29 @@
+main:
+  - title: Open Data Concepts
+    children: &conceptnav
+      - title: What is Open Data?
+        url: https://opendatahandbook.org/guide/en/what-is-open-data/
+      - title: TBD - Why important
+        url: /about/
+  - title: Government Sites
+    children: &statenav
+      - title: US data.gov Portal
+        url: https://www.data.gov/open-gov/
+      - title: Mass.gov Open Data Portal
+        url: https://opendata.digital.mass.gov/#/
+      - title: Arlington GIS Maps
+        url: https://www.arlingtonma.gov/departments/information-technology/geographic-information-system-gis
+      - title: Arlington Finances
+        url: https://www.arlingtonma.gov/town-governance/financial-budget-information
+  - title: About This Site
+    children: &aboutnav
+      - title: About This Site
+        url: /about/
+      - title: Data Catalog
+        url: /data/
+      - title: Credits
+        url: /colophon/
+      - title: Terms / Legal
+        url: /terms/
+      - title: Code
+        url: https://github.com/ArlingtonMA/arligntonma.info/

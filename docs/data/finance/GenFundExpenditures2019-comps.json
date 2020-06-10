@@ -1,0 +1,21 @@
+{
+  "id": "arlingtonma:finance/GenFundExpenditures2019-comps",
+  "name": "GenFundExpenditures2019-comps",
+  "title": "Schedule A General Fund municipality categorized Expenditures; by Town; Arlington and comparable municipalities",
+  "temporal": "2019",
+  "landingPage": "https://arlingtonma.info/data/finance/",
+  "author": "Massachusetts Department of Revenue’s Division of Local Services",
+  "sameAs": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=ScheduleA.GenFund_MAIN",
+  "url": "https://arlingtonma.info/data/finance/GenFundExpenditures2019-comps",
+  "metadata_created": "2020-06-10T00:00:00",
+  "type": "Dataset",
+  "resources": [
+    {
+      "url": "https://arlingtonma.info/data/finance/GenFundExpenditures2019-comps.csv",
+      "name": "GenFundExpenditures2019-comps",
+      "format": "csv",
+      "mimetype": "text/csv",
+      "revision_timestamp": "2020-06-10T00:00:00"
+    }
+  ]
+}
