@@ -1,12 +1,11 @@
-# ArlingtonMA.info - independent open data portal
-title: "Open Data Portal For Arlington, MA"
-tagline: "Transparency in town government through open data."
-description: "Vetted and source-annotated open data for Arlington, MA town government."
+title: Open Data Portal For Arlington, MA
+tagline: Transparency in town government through open data.
+description: Vetted and source-annotated open data for Arlington, MA town government.
 
 # Build, theme, style settings
-url: "https://arlingtonma.info" # jekyll-sitemap
-repository: "ArlingtonMA/arligntonma.info"
-branch: "master"
+url: https://arlingtonma.info # jekyll-sitemap
+repository: ArlingtonMA/arligntonma.info
+branch: master
 remote_theme: "mmistakes/minimal-mistakes@4.19.2"
 plugins:
   - jekyll-paginate
@@ -22,7 +21,7 @@ permalink: /:categories/:title/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 analytics:
-  provider: "google-universal" # false (default), "google", "google-universal", "custom"
+  provider: google-universal # false (default), google, google-universal, custom
   google:
     tracking_id:
     anonymize_ip: true
@@ -32,15 +31,15 @@ google:
 
 footer:
   links:
-    - label: "About"
-      icon: "fa fa-fw fa-address-card"
-      url: "/about/"
-    - label: "Terms & Privacy"
-      icon: "fa fa-fw fa-gavel"
-      url: "/terms/"
-    - label: "Code"
-      icon: "fa fa-fw fa-file-code"
-      url: "https://github.com/ArlingtonMA/arligntonma.info/"
+    - label: About
+      icon: fa fa-fw fa-address-card
+      url: /about/
+    - label: Terms & Privacy
+      icon: fa fa-fw fa-gavel
+      url: /terms/
+    - label: Code
+      icon: fa fa-fw fa-file-code
+      url: https://github.com/ArlingtonMA/arligntonma.info/
 
 # jekyll-seo-tag
 logo: &logo /assets/images/logo.jpg
@@ -56,7 +55,7 @@ defaults:
       share: true
       related: false
       sidebar:
-        nav: "defnav"
+        nav: main
   - scope: # default - posts
       path: ""
       type: posts
@@ -68,9 +67,9 @@ defaults:
       share: false
       related: false
       sidebar:
-        nav: "defnav"
+        nav: main
   - scope: # _pages path
-      path: "_pages"
+      path: _pages
       type: pages
     values:
       layout: single
@@ -78,7 +77,7 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: "defnav"
+        nav: main
 
 include:
   - _pages

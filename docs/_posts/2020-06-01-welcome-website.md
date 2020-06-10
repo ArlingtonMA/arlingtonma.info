@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Arlington's independent open data portal"
+title: Welcome to Arlington's independent open data portal
 tags:
   - Welcome
 ---
