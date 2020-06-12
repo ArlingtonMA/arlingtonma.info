@@ -1,8 +1,9 @@
-title: Open Data Portal For Arlington, MA
+title: Open Data For Arlington, MA
 tagline: Transparency in town government through open data.
 description: Vetted and source-annotated open data for Arlington, MA town government.
 
 # Build, theme, style settings
+data_source: data # Override standard location
 url: https://arlingtonma.info # jekyll-sitemap
 repository: ArlingtonMA/arligntonma.info
 branch: master
