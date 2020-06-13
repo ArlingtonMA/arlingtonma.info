@@ -38,11 +38,10 @@ A comparison of annual (2019) expenses by department between Arlington and selec
   </tr>
 </table>
 
-[View the data](/data/finance/GenFundExpenditures2019-comps.csv) for expenses per town department for all comparable towns, as reported using standard classifications [from the MA Department of Revenue](https://www.mass.gov/orgs/division-of-local-services).  
-
-Download this data, or find the [original source data on mass.gov](https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=ScheduleA.GenFund_MAIN).  Comparable towns to Arlington (Belmont, Brookline, Medford, Melrose, Milton, Natick, Needham, North Andover, Reading, Stoneham, Watertown, Winchester) are defined in the [Town Manager's Annual Reports](https://www.arlingtonma.gov/departments/town-manager/town-manager-s-annual-budget-financial-report).
+[Download this data as a CSV spreadsheet](/data/finance/GenFundExpenditures2019-comps.csv), or find the [original source data on mass.gov](https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=ScheduleA.GenFund_MAIN) as reported using standard classifications [from the MA Department of Revenue](https://www.mass.gov/orgs/division-of-local-services).  Comparable towns to Arlington (Belmont, Brookline, Medford, Melrose, Milton, Natick, Needham, North Andover, Reading, Stoneham, Watertown, Winchester) are defined in the [Town Manager's Annual Reports](https://www.arlingtonma.gov/departments/town-manager/town-manager-s-annual-budget-financial-report).
 
 <div id="csvtable"></div>
 
-<!-- Actually load our charts -->
+<!-- Actually load our charts/tables -->
+<script src="/assets/js/dataread.js"></script>
 <script src="/assets/js/test.js"></script>
