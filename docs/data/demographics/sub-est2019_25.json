@@ -1,7 +1,7 @@
 {
   "id": "arlingtonma:demographics/sub-est2019_25",
   "name": "sub-est2019_25.csv",
-  "title": "",
+  "title": "US Census estimated population by Mass towns, 2010-2019",
   "temporal": "2019",
   "landingPage": "https://arlingtonma.info/data/demographics/",
   "author": "US Census Bureau Population Estimates Program",

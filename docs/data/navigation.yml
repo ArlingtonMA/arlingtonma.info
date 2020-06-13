@@ -3,8 +3,10 @@ main:
     children: &conceptnav
       - title: What is Open Data?
         url: https://opendatahandbook.org/guide/en/what-is-open-data/
-      - title: TBD - Why important
-        url: /about/
+      - title: Project Roadmap
+        url: https://github.com/ArlingtonMA/arlingtonma.info/wiki/Project-Roadmap
+      - title: Example Page - Expenses
+        url: /test/
   - title: Government Sites
     children: &statenav
       - title: US data.gov Portal

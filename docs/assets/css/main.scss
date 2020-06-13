@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+# Modified 202006-sc
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// If you are a CSS/design guru, please volunteer to improve my cheezy design! -sc
+.pullrightbox {
+  float: right;
+  width: 180px;
+  padding: 5px;
+  margin: 5px !important;
+  font-size: $type-size-6 !important; // Slightly smaller to stand out
+  border: 1px solid #717D7E; // Darker than theme to stand out
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
