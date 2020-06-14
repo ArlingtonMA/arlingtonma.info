@@ -1,3 +1,7 @@
+/**
+ * Prototype code for using C3 to make simple charts
+ * Since this is an early prototype, I'm just hardcoding a lot of the data here
+ */
 // Headers to output in order (sort descending by Amount for Arlington's own expenses)
 const expenseHeaders = [
   'Municipality',
@@ -87,4 +91,10 @@ addDonutChart('#winchester', [
   ['Human Services', '647889'],
   ['Other Public Safety', '274465']
 ], 'Expenses (2019)', 400, expenseColors)
-addCSVTable('#csvtable', '/data/finance/GenFundExpenditures2019-comps.csv', expenseHeaders)
+console.log('DEBUG: charts done, building table')
+const csvpromise = addCSVTable('#csvtable', '/data/finance/GenFundExpenditures2019-comps.csv', expenseHeaders)
+csvpromise.then(function (x) {
+  console.log('TESTING: How to get the underlying array from the CSV read above into local data - from the Promise!')
+  console.log(JSON.stringify(x))
+})
+console.log('TESTING: execution continues after promises')
