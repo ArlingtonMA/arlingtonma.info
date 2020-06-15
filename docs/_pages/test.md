@@ -42,6 +42,12 @@ A comparison of annual (2019) expenses by department between Arlington and selec
 
 <div id="csvtable"></div>
 
+## Police Spending Per Capita
+
+_Approximate_ police budgets per capita and as a %age of total budget for comparable towns.
+
+<div id="pchart"></div>
+
 <!-- Actually load our charts/tables -->
 <script src="/assets/js/dataread.js"></script>
 <script src="/assets/js/test.js"></script>
