@@ -91,12 +91,15 @@ addDonutChart('#winchester', [
   ['Human Services', '647889'],
   ['Other Public Safety', '274465']
 ], 'Expenses (2019)', 400, expenseColors)
-console.log('DEBUG: charts done, building table')
+console.log('TESTING: charts done, building table')
+// addCSVTable returns a Promise from the underlying d3.csv function...
 const csvpromise = addCSVTable('#csvtable', '/data/finance/GenFundExpenditures2019-comps.csv', expenseHeaders)
+// ... which we can ask to wait for, and .then we will get called once it's done ...
 csvpromise.then(function (x) {
   console.log('TESTING: How to get the underlying array from the CSV read above into local data - from the Promise!')
   console.log(JSON.stringify(x))
 })
+// ... but our script execution will continue while d3.csv loads in the background
 console.log('TESTING: execution continues after promises')
 
 // Hack: static data for police expenditures per town / per capita
@@ -115,44 +118,66 @@ const towns = [
   'Watertown',
   'Winchester'
 ]
-const policeComps = [
-  ['Municipality', 'Police $ Per Capita', 'Police Budget %'],
-  ['Arlington', '179.92', '0.0542'],
-  ['Belmont', '268.28', '0.0717'],
-  ['Brookline', '283.12', '0.0623'],
-  ['Medford', '240.52', '0.0870'],
-  ['Melrose', '177.69', '0.0573'],
-  ['Milton', '263.63', '0.0786'],
-  ['Natick', '223.37', '0.0554'],
-  ['Needham', '211.25', '0.0428'],
-  ['North Andover', '163.71', '0.0536'],
-  ['Reading', '237.85', '0.0627'],
-  ['Stoneham', '175.08', '0.0617'],
-  ['Watertown', '270.59', '0.0746'],
-  ['Winchester', '211.75', '0.0441']
+const policePerCapita = [ // Figures rounded
+  ['Municipality', 'Police $ Per Capita'],
+  ['North Andover', '164'],
+  ['Stoneham', '175'],
+  ['Melrose', '178'],
+  ['Arlington', '180'],
+  ['Needham', '211'],
+  ['Winchester', '212'],
+  ['Natick', '223'],
+  ['Reading', '238'],
+  ['Medford', '241'],
+  ['Milton', '264'],
+  ['Belmont', '268'],
+  ['Watertown', '271'],
+  ['Brookline', '283']
+]
+const policePercent = [
+  ['Municipality', 'Police Budget %'],
+  ['Needham', '0.0428'],
+  ['Winchester', '0.0441'],
+  ['North Andover', '0.0536'],
+  ['Arlington', '0.0542'],
+  ['Natick', '0.0554'],
+  ['Melrose', '0.0573'],
+  ['Stoneham', '0.0617'],
+  ['Brookline', '0.0623'],
+  ['Reading', '0.0627'],
+  ['Belmont', '0.0717'],
+  ['Watertown', '0.0746'],
+  ['Milton', '0.0786'],
+  ['Medford', '0.0870']
 ]
 c3.generate({
-  bindto: '#pchart',
+  bindto: '#ppercapita',
   data: {
     x: 'Municipality',
-    rows: policeComps,
+    rows: policePerCapita,
     type: 'bar',
-    types: {
-      'Police Budget %': 'line'
+    colors: {
+      Arlington: '#008000'
     },
     labels: {
       format: {
-        'Police $ Per Capita': d3.format('$'),
-        'Police Budget %': d3.format('.2%')
+        'Police $ Per Capita': d3.format('$')
       }
-    },
-    axes: {
-      'Police $ Per Capita': 'y',
-      'Police Budget %': 'y2'
     }
-
+  },
+  grid: {
+    y: {
+      lines: [
+        {
+          value: 180,
+          class: 'gridGreen',
+          text: ''
+        }
+      ]
+    }
   },
   axis: {
+    rotated: true,
     x: {
       type: 'category',
       categories: towns,
@@ -161,16 +186,92 @@ c3.generate({
       }
     },
     y: {
-      label: {
-        text: '$ Per capita',
-        position: 'outer-middle'
+      show: false
+    }
+  }
+})
+c3.generate({
+  bindto: '#ppercent',
+  data: {
+    x: 'Municipality',
+    rows: policePercent,
+    type: 'bar',
+    labels: {
+      format: {
+        'Police Budget %': d3.format('.2%')
+      }
+    }
+  },
+  grid: {
+    y: {
+      lines: [
+        {
+          value: 0.0542,
+          class: 'gridGreen',
+          text: ''
+        }
+      ]
+    }
+  },
+  axis: {
+    rotated: true,
+    x: {
+      type: 'category',
+      categories: towns,
+      tick: {
+        centered: true
       }
     },
-    y2: {
+    y: {
+      show: false,
       label: {
-        text: '%age of budget',
-        position: 'outer-middle'
+        text: '% of Total Expense'
       }
     }
   }
 })
+
+// Combo bar and line chart (but missing extra y axis)
+// c3.generate({
+//   bindto: '#pchart',
+//   data: {
+//     x: 'Municipality',
+//     rows: policeComps,
+//     type: 'bar',
+//     types: {
+//       'Police Budget %': 'line'
+//     },
+//     labels: {
+//       format: {
+//         'Police $ Per Capita': d3.format('$'),
+//         'Police Budget %': d3.format('.2%')
+//       }
+//     },
+//     axes: {
+//       'Police $ Per Capita': 'y',
+//       'Police Budget %': 'y2'
+//     }
+
+//   },
+//   axis: {
+//     x: {
+//       type: 'category',
+//       categories: towns,
+//       tick: {
+//         centered: true
+//       }
+//     },
+//     y: {
+//       label: {
+//         text: '$ Per capita',
+//         position: 'outer-middle'
+//       }
+//     },
+//     y2: {
+//       label: {
+//         text: '%age of budget',
+//         position: 'outer-middle'
+//       }
+//     }
+//   }
+// })

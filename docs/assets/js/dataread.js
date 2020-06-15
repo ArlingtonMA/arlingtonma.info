@@ -28,9 +28,9 @@ function addDonutChart (id, data, title, width, colorHash) {
     donut: {
       title: title
     },
-    size: {
-      width: width
-    },
+    // size: {
+    //   width: width
+    // },
     legend: {
       position: 'bottom'
     }
