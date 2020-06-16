@@ -54,6 +54,13 @@ For example, depending on the town, costs for Crossing Guards may be in the Educ
   <figcaption>A couple of other towns</figcaption>
 </figure>
 
+## Police Staffing Per Capita
+
+NOTE: this data is not cross-checked, so is only an approximation.  Some towns do not easily post their staffing levels, and some towns may have subtly different classifications between staff, sworn officers, and patrol officers.
+
+<div id="policestaff"></div>
+
+
 [Download this data as a CSV spreadsheet](/data/finance/GenFundExpenditures2019-comps.csv), or find the [original source data on mass.gov](https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=ScheduleA.GenFund_MAIN) as reported using standard classifications [from the MA Department of Revenue](https://www.mass.gov/orgs/division-of-local-services).  **Comparable towns** to Arlington (Belmont, Brookline, Medford, Melrose, Milton, Natick, Needham, North Andover, Reading, Stoneham, Watertown, Winchester) are defined in the [Town Manager's Annual Reports](https://www.arlingtonma.gov/departments/town-manager/town-manager-s-annual-budget-financial-report).
 
 <div id="csvtable"></div>

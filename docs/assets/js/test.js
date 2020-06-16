@@ -275,3 +275,240 @@ c3.generate({
 //     }
 //   }
 // })
+
+const policeStaff = [ // NOTE: Data not fully sourced yet
+  {
+    Town: 'Milton',
+    Chief: 0,
+    'Captains or superintendents': 0,
+    Lieutenants: 0,
+    Sergeants: 0,
+    'Patrol officers': 0,
+    'Total Sworn': 0,
+    Other: 0,
+    Dispatch: 0,
+    'Total Civilian': 0,
+    'Total All': 0,
+    Population: 27593,
+    'All Police Staff per 1000 residents': 0,
+    'Patrol officers per 1000 residents': 0
+  },
+  {
+    Town: 'Medford',
+    Chief: 0,
+    'Captains or superintendents': 0,
+    Lieutenants: 0,
+    Sergeants: 0,
+    'Patrol officers': 0,
+    'Total Sworn': 0,
+    Other: 0,
+    Dispatch: 0,
+    'Total Civilian': 0,
+    'Total All': 0,
+    Population: 57341,
+    'All Police Staff per 1000 residents': 0,
+    'Patrol officers per 1000 residents': 0
+  },
+  {
+    Town: 'Watertown',
+    Chief: 1,
+    'Captains or superintendents': 2,
+    Lieutenants: 5,
+    Sergeants: 6,
+    'Patrol officers': 26,
+    'Total Sworn': 40,
+    Other: 7,
+    Dispatch: 9,
+    'Total Civilian': 16,
+    'Total All': 56,
+    Population: 35939,
+    'All Police Staff per 1000 residents': 1.56,
+    'Patrol officers per 1000 residents': 0.72
+  },
+  {
+    Town: 'Melrose',
+    Chief: 1,
+    'Captains or superintendents': 0,
+    Lieutenants: 4,
+    Sergeants: 8,
+    'Patrol officers': 30,
+    'Total Sworn': 43,
+    Other: 4,
+    Dispatch: '',
+    'Total Civilian': 4,
+    'Total All': 47,
+    Population: 28016,
+    'All Police Staff per 1000 residents': 1.68,
+    'Patrol officers per 1000 residents': 1.07
+  },
+  {
+    Town: 'North Andover',
+    Chief: 1,
+    'Captains or superintendents': 0,
+    Lieutenants: 2,
+    Sergeants: 8,
+    'Patrol officers': 29,
+    'Total Sworn': 40,
+    Other: 4,
+    Dispatch: 9,
+    'Total Civilian': 13,
+    'Total All': 53,
+    Population: 31188,
+    'All Police Staff per 1000 residents': 1.7,
+    'Patrol officers per 1000 residents': 0.93
+  },
+  {
+    Town: 'Arlington',
+    Chief: 1,
+    'Captains or superintendents': 3,
+    Lieutenants: 6,
+    Sergeants: 9,
+    'Patrol officers': 50,
+    'Total Sworn': 69,
+    Other: 6.7,
+    Dispatch: 10,
+    'Total Civilian': 16.7,
+    'Total All': 85.7,
+    Population: 45531,
+    'All Police Staff per 1000 residents': 1.88,
+    'Patrol officers per 1000 residents': 1.1
+  },
+  {
+    Town: 'Natick',
+    Chief: 1,
+    'Captains or superintendents': 0,
+    Lieutenants: 4,
+    Sergeants: 10,
+    'Patrol officers': 40,
+    'Total Sworn': 55,
+    Other: 9,
+    Dispatch: 10,
+    'Total Civilian': 19,
+    'Total All': 74,
+    Population: 36050,
+    'All Police Staff per 1000 residents': 2.05,
+    'Patrol officers per 1000 residents': 1.11
+  },
+  {
+    Town: 'Needham',
+    Chief: 1,
+    'Captains or superintendents': 0,
+    Lieutenants: 4,
+    Sergeants: 7,
+    'Patrol officers': 35,
+    'Total Sworn': 47,
+    Other: 13,
+    Dispatch: 5,
+    'Total Civilian': 18,
+    'Total All': 65,
+    Population: 31388,
+    'All Police Staff per 1000 residents': 2.07,
+    'Patrol officers per 1000 residents': 1.12
+  },
+  {
+    Town: 'Stoneham',
+    Chief: 1,
+    'Captains or superintendents': 0,
+    Lieutenants: 2,
+    Sergeants: 7,
+    'Patrol officers': 30,
+    'Total Sworn': 40,
+    Other: 7.8,
+    Dispatch: 6,
+    'Total Civilian': 13.8,
+    'Total All': 53.8,
+    Population: 24126,
+    'All Police Staff per 1000 residents': 2.23,
+    'Patrol officers per 1000 residents': 1.24
+  },
+  {
+    Town: 'Reading',
+    Chief: 1,
+    'Captains or superintendents': 1,
+    Lieutenants: 4,
+    Sergeants: 7,
+    'Patrol officers': 31,
+    'Total Sworn': 44,
+    Other: 3,
+    Dispatch: 11,
+    'Total Civilian': 14,
+    'Total All': 58,
+    Population: 25400,
+    'All Police Staff per 1000 residents': 2.28,
+    'Patrol officers per 1000 residents': 1.22
+  },
+  {
+    Town: 'Belmont',
+    Chief: 1,
+    'Captains or superintendents': 1,
+    Lieutenants: 4,
+    Sergeants: 10,
+    'Patrol officers': 31,
+    'Total Sworn': 47,
+    Other: 4,
+    Dispatch: 10,
+    'Total Civilian': 14,
+    'Total All': 61,
+    Population: 26116,
+    'All Police Staff per 1000 residents': 2.34,
+    'Patrol officers per 1000 residents': 1.19
+  },
+  {
+    Town: 'Brookline',
+    Chief: 1,
+    'Captains or superintendents': 5,
+    Lieutenants: 11,
+    Sergeants: 16,
+    'Patrol officers': 106,
+    'Total Sworn': 139,
+    Other: 31.7,
+    Dispatch: 15,
+    'Total Civilian': 46.7,
+    'Total All': 185.7,
+    Population: 59121,
+    'All Police Staff per 1000 residents': 3.14,
+    'Patrol officers per 1000 residents': 1.79
+  },
+  {
+    Town: 'Winchester',
+    Chief: 1,
+    'Captains or superintendents': 0,
+    Lieutenants: 12,
+    Sergeants: 0,
+    'Patrol officers': 27,
+    'Total Sworn': 40,
+    Other: 31.5,
+    Dispatch: 8,
+    'Total Civilian': 39.5,
+    'Total All': 79.5,
+    Population: 22799,
+    'All Police Staff per 1000 residents': 3.49,
+    'Patrol officers per 1000 residents': 1.18
+  }
+]
+// Multi bar chart for staffing levels
+c3.generate({
+  bindto: '#policestaff',
+  data: {
+    x: 'Municipality',
+    json: policeStaff,
+    type: 'bar',
+    keys: {
+      x: 'Town', // it's possible to specify 'x' when category axis
+      value: ['All Police Staff per 1000 residents', 'Patrol officers per 1000 residents']
+    }
+  },
+  axis: {
+    rotated: true,
+    x: {
+      type: 'category',
+      categories: towns,
+      tick: {
+        centered: true
+      }
+    },
+    y: {
+      show: true
+    }
+  }
+})
