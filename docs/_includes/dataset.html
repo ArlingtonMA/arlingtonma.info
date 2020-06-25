@@ -1,0 +1,20 @@
+<div class="dataset">
+  <div class="datasetheader"><h3 class="header-link" id="{{ include.dataset.title | url_param_escape }}">Dataset: {{ include.dataset.title }}</h3></div>
+  <p>
+    <span class="datasetdescription">{{ include.dataset.description }}</span><br/>
+    From: <a href="{{ include.dataset.landingPage }}">{{ include.dataset.publisher.name }}</a> 
+  </p>
+  <small>
+    Keywords: 
+    {% for k in include.dataset.keyword %}
+      {{ k }},
+    {% endfor %}
+  </small>
+  <hr/>
+  {% assign distributions = include.dataset.distribution %}
+  <ul>
+  {% for d in distributions %}
+  {% include distribution.html distribution=d %}
+  {% endfor %}
+  </ul>
+</div>

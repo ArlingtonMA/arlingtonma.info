@@ -1,0 +1,8 @@
+<div class="datasetheader"><h3 class="header-link">Data Catalog Listing</h3></div>
+
+<span class="datasetdescription">{{ include.catalog.description }}</span>
+
+{% assign datasets = include.catalog.dataset %}
+{% for ds in datasets %}
+  {% include dataset.html dataset=ds %}
+{% endfor %}

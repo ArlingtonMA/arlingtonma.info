@@ -1,0 +1,281 @@
+{
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "description": "Datasets pointing to municipality annual reports for Arlington and comparable towns.",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, Arlington, MA",
+      "description": "Links to individual annual reports published by Arlington to Town Meeting, from 2005-current.",
+      "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports",
+      "identifier": "http://arlingtonma.info/governance/annual-reports/arlington",
+      "landingPage": "https://www.arlingtonma.gov/town-governance/annual-reports",
+      "references": [
+        "http://arlingtonma.info/governance/"
+      ],
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Arlington"
+      },
+      "spatial": "Arlington, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "temporal": "2005-03-01T12:00:00Z/2019-03-01T12:00:00Z",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "arlington"
+      ],
+      "theme": [
+        "annualreport"
+      ],
+      "language": [
+        "en-US"
+      ],
+      "distribution": [
+        {
+          "description": "Town Of Arlington, Annual Report, 2019 (125pp)",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2019",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=51658",
+          "title": "2019AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p1": ""
+          }
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2018",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2018",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=46209",
+          "title": "2018AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2017",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2017",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=41542",
+          "title": "2017AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2016",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2016",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=34244",
+          "title": "2016AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2015",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2015",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=29549",
+          "title": "2015AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2014",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2014",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=24557",
+          "title": "2014AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2013",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2013",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=19955",
+          "title": "2013AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2012",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2012",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=13068",
+          "title": "2012AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2011",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2011",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=2690",
+          "title": "2011AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2010",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2010",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=17378",
+          "title": "2010AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2009",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2009",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=17348",
+          "title": "2009AnnualReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2008",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2008",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=17320",
+          "title": "AnnualReport_2008.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2007",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2007",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=17318",
+          "title": "2007AR.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2006",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2006",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=17264",
+          "title": "2006AR.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Arlington, Annual Report, 2005",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports/2005",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=17236",
+          "title": "AnnualReport2005final.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, Belmont, MA",
+      "description": "Links to individual annual reports published by Belmont to Town Meeting.",
+      "describedBy": "https://www.belmont-ma.gov/annual-reports",
+      "identifier": "http://arlingtonma.info/governance/annual-reports/belmont",
+      "landingPage": "https://www.belmont-ma.gov/annual-reports",
+      "references": [
+        "http://arlingtonma.info/governance/"
+      ],
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Belmont"
+      },
+      "spatial": "Belmont, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "temporal": "2019-03-01T12:00:00Z/2019-03-01T12:00:00Z",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "belmont"
+      ],
+      "theme": [
+        "annualreport"
+      ],
+      "language": [
+        "en-US"
+      ],
+      "distribution": [
+        {
+          "description": "Town Of Belmont, Annual Report, 2019",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/uploads/2018_annual_report_-_with_covers.pdf",
+          "title": "2018_annual_report_-_with_covers.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2107",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/uploads/annual_report_total_-_final_-_for_web.pdf",
+          "title": "annual_report_total_-_final_-_for_web.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2016",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/u736/final_-_town_of_belmont_annual_report_-_4-28-2017-_with_treasurer.pdf",
+          "title": "final_-_town_of_belmont_annual_report_-_4-28-2017-_with_treasurer.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2015",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/uploads/",
+          "title": "",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2014",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/final_report_web_version_0.pdf",
+          "title": "final_report_web_version_0.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2013",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/2013annualreport.pdf",
+          "title": "2013annualreport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2012",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/2012annualreport.pdf",
+          "title": "2012annualreport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2011",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/2011annualreport.pdf",
+          "title": "2011annualreport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2010",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/2010annualreport.pdf",
+          "title": "2010annualreport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2009",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/2009annualreport.pdf",
+          "title": "2009annualreport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        },
+        {
+          "description": "Town Of Belmont, Annual Report, 2008",
+          "describedBy": "https://www.belmont-ma.gov/annual-reports",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/2008annualreport.pdf",
+          "title": "2008annualreport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}
