@@ -1,6 +1,12 @@
 
 <li>
   {{ include.distribution.description }} <a href="{{ include.distribution.downloadURL }}">Download source ({{ include.distribution.format }})</a>
+  {% if include.distribution.tableOfContents %}
+    <br/><small>{% for toc in include.distribution.tableOfContents %}
+      {{ toc[0] }}: {{ toc[1] }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    </small>
+  {% endif %}
 </li>
 
 

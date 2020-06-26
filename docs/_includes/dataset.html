@@ -2,12 +2,12 @@
   <div class="datasetheader"><h3 class="header-link" id="{{ include.dataset.title | url_param_escape }}">Dataset: {{ include.dataset.title }}</h3></div>
   <p>
     <span class="datasetdescription">{{ include.dataset.description }}</span><br/>
-    From: <a href="{{ include.dataset.landingPage }}">{{ include.dataset.publisher.name }}</a> 
+    Data From: {{ include.dataset.publisher.name }} | <a href="{{ include.dataset.landingPage }}">Overview / Landing Page</a>{% if include.dataset.describedBy %} | <a href="{{ include.dataset.describedBy }}">Description / Visualization</a>{% endif %}
   </p>
   <small>
     Keywords: 
     {% for k in include.dataset.keyword %}
-      {{ k }},
+      {{ k }}{% unless forloop.last %},{% endunless %}
     {% endfor %}
   </small>
   <hr/>

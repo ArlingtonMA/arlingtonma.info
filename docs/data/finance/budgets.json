@@ -1,0 +1,409 @@
+{
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "description": "Datasets pointing to municipality budgets or financial reports for Arlington and comparable towns.",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Arlington, MA",
+      "description": "Links to individual official budgets and other financial reports for Arlington.",
+      "describedBy": "http://arlingtonvisualbudget.org/",
+      "landingPage": "https://www.arlingtonma.gov/town-governance/financial-budget-information",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Arlington"
+      },
+      "spatial": "Arlington, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "arlington"
+      ],
+      "distribution": [
+        {
+          "description": "Fiscal Year 2020 Town Manager’s Annual Budget & Financial Plan (pp247)",
+          "describedBy": "https://www.arlingtonma.gov/departments/town-manager/town-manager-s-annual-budget-financial-report/fy2020",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=46092",
+          "title": "FY20FinancialPlanFull.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p129": "Police Department Staffing Levels, FY2018-FY2020"
+          }
+        },
+        {
+          "description": "Fiscal Year 2019 Town Manager’s Annual Budget & Financial Plan",
+          "describedBy": "https://www.arlingtonma.gov/departments/town-manager/town-manager-s-annual-budget-financial-report/fy2020",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=41404",
+          "title": "FY19FinancialPlanFull.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2019"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Belmont, MA",
+      "description": "Links to individual official budgets and other financial reports for Belmont.",
+      "describedBy": "https://www.cleargov.com/massachusetts/middlesex/town/belmont",
+      "landingPage": "https://www.belmont-ma.gov/town-administration/pages/budget-information",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Belmont"
+      },
+      "spatial": "Belmont, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "belmont"
+      ],
+      "distribution": [
+        {
+          "description": "Fiscal Year 2020 Town Administrator’s Budget Recommendation",
+          "describedBy": "https://www.belmont-ma.gov/town-administration/pages/budget-information",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/uploads/budget_book_rollup_-_to_send.pdf",
+          "title": "budget_book_rollup_-_to_send.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p12": "Five Year Revenue Projection",
+            "p14": "Five Year Expense Projection",
+            "p184": "Police Staffing FTE Levels, FY2014-FY2020",
+            "p205": "Belmont Public Schools Budget Totals"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Brookline, MA",
+      "description": "Links to individual official budgets and other financial reports for Brookline.",
+      "landingPage": "https://www.brooklinema.gov/851/Budget-Central",
+      "describedBy": "https://www.cleargov.com/massachusetts/norfolk/town/brookline",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Brookline"
+      },
+      "spatial": "Brookline, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Brookline"
+      ],
+      "distribution": [
+        {
+          "description": "Town of Brookline FV-2020 FINANCIAL PLAN (pp362)",
+          "downloadURL": "https://www.brooklinema.gov/DocumentCenter/View/18641/FY2020-Financial-Plan-Complete",
+          "title": "BROOKLINE-Town of Brookline MA FY 2020 Financial Plan_a11y_201912301425377110.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p158": "Police Staffing FTE Levels, FY2019-FY2020"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Medford, MA",
+      "description": "Links to individual official budgets and other financial reports for Medford.",
+      "landingPage": "http://www.medfordma.org/mayor/city-budget/",
+      "describedBy": "https://www.cleargov.com/massachusetts/middlesex/city/medford",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "City of Medford"
+      },
+      "spatial": "Medford, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Medford"
+      ],
+      "distribution": [
+        {
+          "description": "City of Medford Fiscal Year 2020 Budget (pp138)",
+          "downloadURL": "http://www.medfordma.org/storage/2019/07/BUDGET-BOOK-2020.pdf",
+          "title": "BUDGET-BOOK-2020.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {}
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Melrose, MA",
+      "description": "Links to individual official budgets and other financial reports for Melrose.",
+      "landingPage": "https://www.cityofmelrose.org/budget-information-resources",
+      "describedBy": "http://www.melrose.visgov.com/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "City of Melrose"
+      },
+      "spatial": "Melrose, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Melrose"
+      ],
+      "distribution": [
+        {
+          "description": "TODO - can't find on website",
+          "downloadURL": "",
+          "title": "",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Milton, MA",
+      "description": "Links to individual official budgets and other financial reports for Milton.",
+      "landingPage": "https://www.townofmilton.org/accounting/pages/financial-transparency",
+      "describedBy": "https://www.cleargov.com/massachusetts/norfolk/town/milton",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Milton"
+      },
+      "spatial": "Milton, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Milton"
+      ],
+      "distribution": [
+        {
+          "description": "TODO - can't find on website",
+          "downloadURL": "",
+          "title": "",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Natick, MA",
+      "description": "Links to individual official budgets and other financial reports for Natick.",
+      "landingPage": "https://www.natickma.gov/390/Budget",
+      "describedBy": "https://www.cleargov.com/massachusetts/middlesex/town/natick",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Natick"
+      },
+      "spatial": "Natick, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Natick"
+      ],
+      "distribution": [
+        {
+          "description": "Town of Natick FY 2020 Town Administrator’s Budget (pp278)",
+          "downloadURL": "https://www.natickma.gov/DocumentCenter/View/7604/FY2020-Town-Administrators-Budget",
+          "title": "FY20 Budget Book Web - March Update 2_201904010851567910.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p69": "Police Staffing Levels And Org Chart"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Needham, MA",
+      "description": "Links to individual official budgets and other financial reports for Needham.",
+      "landingPage": "https://www.needhamma.gov/1676/Budget-Documents",
+      "describedBy": "https://www.cleargov.com/massachusetts/norfolk/town/needham",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Needham"
+      },
+      "spatial": "Needham, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Needham"
+      ],
+      "distribution": [
+        {
+          "description": "PROPOSED ANNUAL BUDGET FISCAL YEAR 2020 - Department Submissions Section 3 (pp313)",
+          "downloadURL": "https://needhamma.gov/DocumentCenter/View/17693",
+          "title": "Section 3.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p119": "Police Staffing Levels And Org Chart "
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, North Andover, MA",
+      "description": "Links to individual official budgets and other financial reports for North Andover.",
+      "landingPage": "https://www.northandoverma.gov/accounting-budget-office",
+      "describedBy": "https://northandover.cleargov.com/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of North Andover"
+      },
+      "spatial": "North Andover, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "North Andover"
+      ],
+      "distribution": [
+        {
+          "description": "Town Meeting Adopted Budget Fiscal Year 2020 (pp274)",
+          "downloadURL": "https://drive.google.com/file/d/19omHSkwEIJXvZ1RS_LggnkjpaPZki-s1/view?usp=sharing",
+          "title": "FY20_gfoa_Budget Book Adopted_FINAL.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p179": "Police Staffing Levels And Org Chart, FY2017-FY2020"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Reading, MA",
+      "description": "Links to individual official budgets and other financial reports for Reading.",
+      "landingPage": "https://www.readingma.gov/administrative-services/town-manager/pages/budgets",
+      "describedBy": "https://www.cleargov.com/massachusetts/middlesex/town/reading",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Reading"
+      },
+      "spatial": "Reading, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Reading"
+      ],
+      "distribution": [
+        {
+          "description": "Town Manager's Recommended Budget FY2020 (pp98)",
+          "downloadURL": "https://www.readingma.gov/sites/g/files/vyhlif1116/f/pages/fy20_town_manager_budget_0.pdf",
+          "title": "fy20_town_manager_budget_0.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p46": "Police Staffing Count"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Stoneham, MA",
+      "description": "Links to individual official budgets and other financial reports for Stoneham.",
+      "landingPage": "http://www.stoneham-ma.gov/216/Town-Administrator",
+      "describedBy": "https://www.cleargov.com/massachusetts/middlesex/town/stoneham",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Stoneham"
+      },
+      "spatial": "Stoneham, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Stoneham"
+      ],
+      "distribution": [
+        {
+          "description": "Proposed Operating Budget and Capital Improvement Plan Fiscal Year 2020 (pp114)",
+          "downloadURL": "http://www.stoneham-ma.gov/documentcenter/view/1282",
+          "title": "STONEHAM-FY2020 Town Administrator Proposed Budget.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p61": "Police Staffing Count"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Watertown, MA",
+      "description": "Links to individual official budgets and other financial reports for Watertown.",
+      "landingPage": "https://www.watertown-ma.gov/254/Town-Manager",
+      "describedBy": "https://www.cleargov.com/massachusetts/middlesex/city/watertown",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Watertown"
+      },
+      "spatial": "Watertown, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Watertown"
+      ],
+      "distribution": [
+        {
+          "description": "Annual Budget 2019 – 2020 Submitted by the Town Manager (pp196)",
+          "downloadURL": "https://www.watertown-ma.gov/DocumentCenter/View/27036/Annual-Town-Budget-FY2020",
+          "describedBy": "https://www.watertown-ma.gov/DocumentCenter/Index/1570",
+          "title": "Budget Message - FY20.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p62": "Police Staffing Levels"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Budgets and Financial Reports, Winchester, MA",
+      "description": "Links to individual official budgets and other financial reports for Winchester.",
+      "landingPage": "https://www.winchester.us/335/Finance-Committee",
+      "describedBy": "https://www.cleargov.com/massachusetts/middlesex/town/winchester",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town of Winchester"
+      },
+      "spatial": "Winchester, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "budget",
+        "Winchester"
+      ],
+      "distribution": [
+        {
+          "description": "Town Manager's Financial Plan FISCAL 2020 (pp179)",
+          "downloadURL": "https://www.winchester.us/documentcenter/view/3714",
+          "title": "Town Manager Financial Plan FY2020.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p44": "Police Staffing Levels"
+          }
+        }
+      ]
+    }
+  ]
+}

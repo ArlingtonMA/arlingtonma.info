@@ -8,12 +8,8 @@
       "@type": "dcat:Dataset",
       "title": "Annual Reports To Town Meeting, Arlington, MA",
       "description": "Links to individual annual reports published by Arlington to Town Meeting, from 2005-current.",
-      "describedBy": "https://www.arlingtonma.gov/town-governance/annual-reports",
       "identifier": "http://arlingtonma.info/governance/annual-reports/arlington",
       "landingPage": "https://www.arlingtonma.gov/town-governance/annual-reports",
-      "references": [
-        "http://arlingtonma.info/governance/"
-      ],
       "publisher": {
         "@type": "org:Organization",
         "name": "Town Of Arlington"
@@ -25,12 +21,6 @@
         "annualreport",
         "townmeeting",
         "arlington"
-      ],
-      "theme": [
-        "annualreport"
-      ],
-      "language": [
-        "en-US"
       ],
       "distribution": [
         {
@@ -162,7 +152,6 @@
       "@type": "dcat:Dataset",
       "title": "Annual Reports To Town Meeting, Belmont, MA",
       "description": "Links to individual annual reports published by Belmont to Town Meeting.",
-      "describedBy": "https://www.belmont-ma.gov/annual-reports",
       "identifier": "http://arlingtonma.info/governance/annual-reports/belmont",
       "landingPage": "https://www.belmont-ma.gov/annual-reports",
       "references": [
@@ -179,12 +168,6 @@
         "annualreport",
         "townmeeting",
         "belmont"
-      ],
-      "theme": [
-        "annualreport"
-      ],
-      "language": [
-        "en-US"
       ],
       "distribution": [
         {
