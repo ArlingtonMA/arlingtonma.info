@@ -4,11 +4,14 @@ title: Open Data Catalog
 classes: wide
 ---
 
-**TODO**
+This site hosts or organizes open data pointers to a variety of statistics and other factual information and reports about Arlington, MA and some nearby comparable towns.  A brief selection of data available currently:
 
-This page might be a landing page for this data catalog, with sections explaining how to use it, how to find the different datasets available, and a listing of featured data visualizations.
+- [Annual Reports for Arlington](/governance/) and comparable communities.
+- [Budgets for Arlington](/finance/) (including historical) and recent year budgets for comparable communities.
+- Some [prototype visualizations of policing budgets and staffing](/test/).
 
-Some visualization ideas to start with.
+
+## Future Plans / Ideas
 
 - High-level finances/expenses, compared to comparable municipalities; especially %ages of budget expense per town department (compare schools, police, dpw, debt, etc).  [Data already uploaded as CSV](/data/finance/GenFundExpenditures2019-comps.csv) and [sample metadata](/data/finance/GenFundExpenditures2019-comps.json) (roughly based on mass.gov).
 - Police budgets per category - salaries, training, equipment, etc.  Topical subject.
