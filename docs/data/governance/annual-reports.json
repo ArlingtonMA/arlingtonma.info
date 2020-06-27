@@ -176,7 +176,8 @@
           "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/uploads/2018_annual_report_-_with_covers.pdf",
           "title": "2018_annual_report_-_with_covers.pdf",
           "format": "PDF",
-          "mediaType": "application/pdf"
+          "mediaType": "application/pdf",
+          "temporal": "FY2019"
         },
         {
           "description": "Town Of Belmont, Annual Report, 2107",
@@ -197,16 +198,16 @@
         {
           "description": "Town Of Belmont, Annual Report, 2015",
           "describedBy": "https://www.belmont-ma.gov/annual-reports",
-          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/uploads/",
-          "title": "",
+          "downloadURL": "https://www.belmont-ma.gov/sites/g/files/vyhlif2801/f/file/file/final_report_web_version_0.pdf",
+          "title": "final_report_web_version_0.pdf",
           "format": "PDF",
           "mediaType": "application/pdf"
         },
         {
           "description": "Town Of Belmont, Annual Report, 2014",
           "describedBy": "https://www.belmont-ma.gov/annual-reports",
-          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/final_report_web_version_0.pdf",
-          "title": "final_report_web_version_0.pdf",
+          "downloadURL": "https://www.belmont-ma.gov/sites/g/files/vyhlif2801/f/file/file/full_document_with_covers_0.pdf",
+          "title": "full_document_with_covers_0.pdf",
           "format": "PDF",
           "mediaType": "application/pdf"
         },
@@ -255,6 +256,168 @@
           "describedBy": "https://www.belmont-ma.gov/annual-reports",
           "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/file/file/2008annualreport.pdf",
           "title": "2008annualreport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, Brookline, MA",
+      "description": "Links to individual annual reports published by Brookline to Town Meeting.",
+      "landingPage": "",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Brookline"
+      },
+      "spatial": "Brookline, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "brookline"
+      ],
+      "distribution": [
+        {
+          "description": "Town Of Brookline 2018 Annual Report (153pp)",
+          "downloadURL": "https://www.brooklinema.gov/DocumentCenter/View/19170/2018-Annual-Report-PDF",
+          "title": "Compiled - For Web.pdf",
+          "temporal": "2018",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, Milton, MA",
+      "description": "Links to individual annual reports published by Milton to Town Meeting.",
+      "landingPage": "https://www.townofmilton.org/town-moderator/pages/town-reports",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Milton"
+      },
+      "spatial": "Milton, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "milton"
+      ],
+      "distribution": [
+        {
+          "description": "TOWN OF MILTON The ONE HUNDRED EIGHTY-THIRD ANNUAL REPORT FOR FY 2019 (pp299)",
+          "downloadURL": "https://www.townofmilton.org/town-moderator/files/2019-annual-report",
+          "title": "milton_annual_report_2019_final.pdf",
+          "temporal": "FY2019",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, Natick, MA",
+      "description": "Links to individual annual reports published by Natick to Town Meeting.",
+      "landingPage": "https://www.natickma.gov/659/Annual-Town-Reports",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Natick"
+      },
+      "spatial": "Natick, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "natick"
+      ],
+      "distribution": [
+        {
+          "description": "TOWN OF NATICK 2018 Annual Report (pp332)",
+          "downloadURL": "https://www.natickma.gov/DocumentCenter/View/10073/2018-Annual-Town-Report",
+          "title": "_NATICK--2018.pdf",
+          "temporal": "FY2018",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, North Andover, MA",
+      "description": "Links to individual annual reports published by North Andover to Town Meeting.",
+      "landingPage": "https://www.needhamma.gov/2682/Annual-Reports",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of North Andover"
+      },
+      "spatial": "North Andover, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "north-andover"
+      ],
+      "distribution": [
+        {
+          "description": "Town of North Andover 2019 Annual Report",
+          "downloadURL": "https://records.northandoverma.gov/WebLink/DocView.aspx?id=403481&dbid=0&repo=TownOfNorthAndover",
+          "title": "TODO - not downloadable by URL",
+          "temporal": "FY2019",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, Reading, MA",
+      "description": "Links to individual annual reports published by Reading to Town Meeting.",
+      "landingPage": "http://webdocs.readingma.gov/weblink/Browse.aspx?startid=61&dbid=0",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Reading"
+      },
+      "spatial": "Reading, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "reading"
+      ],
+      "distribution": [
+        {
+          "description": "Town Of Reading 2019 Annual Report",
+          "downloadURL": "http://webdocs.readingma.gov/weblink/0/doc/500750/Page1.aspx",
+          "title": "TODO - Not downloadable by URL",
+          "temporal": "2019",
+          "format": "PDF",
+          "mediaType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Annual Reports To Town Meeting, Stoneham, MA",
+      "description": "Links to individual annual reports published by Stoneham to Town Meeting.",
+      "landingPage": "https://ma-stoneham.civicplus.com/Archive.aspx?AMID=48",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Stoneham"
+      },
+      "spatial": "Stoneham, MA",
+      "accrualPeriodicity": "R/P1Y",
+      "keyword": [
+        "annualreport",
+        "townmeeting",
+        "stoneham"
+      ],
+      "distribution": [
+        {
+          "description": "Town of Stoneham Annual Report 2017 (pp131)",
+          "downloadURL": "https://ma-stoneham.civicplus.com/Archive.aspx?ADID=106",
+          "title": "Annual",
+          "temporal": "2017",
           "format": "PDF",
           "mediaType": "application/pdf"
         }
