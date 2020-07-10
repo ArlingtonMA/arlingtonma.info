@@ -1,0 +1,380 @@
+{
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "description": "Datasets pointing to police department staffing and organizational information for Arlington and comparable towns.",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Staffing Levels, Arlington and Comparable Towns",
+      "description": "Spreadsheet of police staffing levels per 1K residents (2019 Census estimates)",
+      "keyword": [
+        "police",
+        "staffing"
+      ],
+      "distribution": [
+        {
+          "description": "Spreadsheet of police officers by rank/type; some numbers are approximate due to how staffing categories listed differently per town.",
+          "downloadURL": "https://www.arlingtonma.info/data/police/police-staffing.csv",
+          "title": "police-staffing.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Arlington, MA",
+      "description": "Links to various official documents about the Arlington Police Department",
+      "landingPage": "https://www.arlingtonma.gov/town-governance/annual-reports",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Arlington"
+      },
+      "spatial": "Arlington, MA",
+      "keyword": [
+        "police",
+        "arlington"
+      ],
+      "distribution": [
+        {
+          "description": "Fiscal Year 2021 Budget Arlington Police Department (16pp)",
+          "describedBy": "https://www.arlingtonma.gov/police",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=50783",
+          "title": "FY21CommunitySafety",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p1": "Count of FTE personnel per type of position.",
+            "p3": "Departmental Organization Chart."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Belmont, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Belmont.",
+      "landingPage": "https://www.belmontpd.org/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Belmont"
+      },
+      "spatial": "Belmont, MA",
+      "keyword": [
+        "police",
+        "belmont"
+      ],
+      "distribution": [
+        {
+          "description": "Town Of Belmont, Annual Report, 2019",
+          "describedBy": "https://www.belmontpd.org/",
+          "downloadURL": "https://www.belmont-ma.gov/sites/belmontma/files/uploads/budget_book_rollup_-_to_send.pdf",
+          "title": "budget_book_rollup_-_to_send.pdf",
+          "temporal": "2019",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p184": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Brookline, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Brookline.",
+      "landingPage": "https://www.brooklinepolice.com/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Brookline"
+      },
+      "spatial": "Brookline, MA",
+      "keyword": [
+        "police",
+        "brookline"
+      ],
+      "distribution": [
+        {
+          "description": "Town Of Brookline 2019 Program Budget (141pp)",
+          "downloadURL": "https://www.brooklinema.gov/DocumentCenter/View/13711/Sec-IV_-FY19-Deptl-Budgets-PDF",
+          "title": "Sec-IV_ FY19 (Deptl Budgets)_201806110934313324.pdf",
+          "temporal": "2019",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p49;IV-49": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Cambridge, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Cambridge.",
+      "landingPage": "https://www.cambridgema.gov/Departments/cambridgepolice",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "City Of Cambridge"
+      },
+      "spatial": "Cambridge, MA",
+      "keyword": [
+        "police",
+        "cambridge"
+      ],
+      "distribution": [
+        {
+          "description": "FY21 OPERATING BUDGET – EXPENDITURES BY FUNCTION (188pp)",
+          "downloadURL": "https://www.cambridgema.gov/-/media/Files/budgetdepartment/FinancePDFs/fy21submittedbudget/5expendituresfy21submittedbudget.pdf",
+          "title": "5expendituresfy21submittedbudget.pdf",
+          "temporal": "2021",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p77": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Lexington, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Lexington.",
+      "landingPage": "https://www.lexingtonma.gov/police",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Lexington"
+      },
+      "spatial": "Lexington, MA",
+      "keyword": [
+        "police",
+        "lexington"
+      ],
+      "distribution": [
+        {
+          "description": "Fiscal Year 2021 Town Manager's Preliminary Recommended Budget & Financing Plan (252pp)",
+          "downloadURL": "https://www.lexingtonma.gov/sites/lexingtonma/files/uploads/final_draft_of_fy2021_wb.pdf",
+          "title": "final_draft_of_fy2021_wb.pdf",
+          "temporal": "2021",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p133;VI-5": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Medford, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Medford.",
+      "landingPage": "https://medfordpolice.com/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "City Of Medford"
+      },
+      "spatial": "Medford, MA",
+      "keyword": [
+        "police",
+        "medford"
+      ],
+      "distribution": [
+        {
+          "description": "Fiscal Year 2091 Budget (129pp)",
+          "downloadURL": "https://drive.google.com/file/d/15SF90VBYOZ0rmTap8yhRKbLH3zU70Q_U/view",
+          "title": "Fiscal Year 2019 (July 1, 2018-June 30, 2019).pdf",
+          "temporal": "2019",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p65": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Needham, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Needham.",
+      "landingPage": "https://www.needhamma.gov/78/Police",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "City Of Needham"
+      },
+      "spatial": "Needham, MA",
+      "keyword": [
+        "police",
+        "needham"
+      ],
+      "distribution": [
+        {
+          "description": "Departmental Budget Submissions (360pp)",
+          "downloadURL": "https://www.needhamma.gov/DocumentCenter/View/14638/Section-3---Departamental-Submissions-Final?bidId=",
+          "title": "Section 3 - Departamental Submissions Final.pdf",
+          "temporal": "2018",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p119": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Somerville, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Somerville.",
+      "landingPage": "https://www.somervillepd.com/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "City Of Somerville"
+      },
+      "spatial": "Somerville, MA",
+      "keyword": [
+        "police",
+        "somerville"
+      ],
+      "distribution": [
+        {
+          "description": "City of Somerville Municipal Budget FY2020 Proposed (255pp)",
+          "downloadURL": "https://www.somervillema.gov/sites/default/files/fy20-budget.pdf",
+          "title": "fy20-budget.pdf",
+          "temporal": "2020",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p166": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Watertown, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Watertown.",
+      "landingPage": "https://www.watertownpd.org/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Watertown"
+      },
+      "spatial": "Watertown, MA",
+      "keyword": [
+        "police",
+        "watertown"
+      ],
+      "distribution": [
+        {
+          "description": "Police Department Directory",
+          "downloadURL": "https://www.watertownpd.org/Directory.aspx",
+          "title": "(HTML page with departmental directory)",
+          "format": "HTML",
+          "mediaType": "text/html"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Natick, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Natick.",
+      "landingPage": "https://www.natickma.gov/184/Police-Department",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Natick"
+      },
+      "spatial": "Natick, MA",
+      "keyword": [
+        "police",
+        "natick"
+      ],
+      "distribution": [
+        {
+          "description": "FY 2021 Town Administrator’s Preliminary Budget (pp259)",
+          "downloadURL": "https://www.natickma.gov/DocumentCenter/View/9023/FY-2021-Town-Administrators-Preliminary-Budget",
+          "title": "FY21 Budget.pdf",
+          "temporal": "FY2021",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p59": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, North Andover, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for North Andover.",
+      "landingPage": "https://www.northandoverma.gov/police",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of North Andover"
+      },
+      "spatial": "North Andover, MA",
+      "keyword": [
+        "police",
+        "north-andover"
+      ],
+      "distribution": [
+        {
+          "description": "Police Department Directory",
+          "downloadURL": "https://www.northandoverma.gov/police/pages/napd-staff",
+          "title": "(HTML page with departmental directory)",
+          "format": "HTML",
+          "mediaType": "text/html"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Reading, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Reading.",
+      "landingPage": "https://www.readingma.gov/police-department",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Reading"
+      },
+      "spatial": "Reading, MA",
+      "keyword": [
+        "police",
+        "reading"
+      ],
+      "distribution": [
+        {
+          "description": "Police Department Directory",
+          "downloadURL": "http://webdocs.readingma.gov/weblink/0/doc/500750/Page1.aspx",
+          "title": "(HTML page with departmental directory)",
+          "format": "HTML",
+          "mediaType": "text/html"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Police Department Documentation, Stoneham, MA",
+      "description": "Datasets pointing to police department staffing and organizational information for Stoneham.",
+      "landingPage": "http://www.stoneham-ma.gov/215/Police-Department",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Stoneham"
+      },
+      "spatial": "Stoneham, MA",
+      "keyword": [
+        "police",
+        "stoneham"
+      ],
+      "distribution": [
+        {
+          "description": "Proposed Operating Budget and Capital Improvement Plan (pp121)",
+          "downloadURL": "https://www.stoneham-ma.gov/DocumentCenter/View/2653/Town-of-Stoneham-Proposed-FY21-Budget-022520-Final?bidId=",
+          "title": "Town of Stoneham Proposed FY21 Budget Book Final_202002270803376042.pdf",
+          "temporal": "2021",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "tableOfContents": {
+            "p52": "Count of FTE personnel per type of position."
+          }
+        }
+      ]
+    }
+  ]
+}

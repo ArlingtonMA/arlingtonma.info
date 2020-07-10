@@ -41,6 +41,52 @@
           "format": "PDF",
           "mediaType": "application/pdf",
           "temporal": "FY2019"
+        },
+        {
+          "description": "Report of the Finance Committee To Town Meeting, June 2020, including warrant article details and budget appendicies (pp49)",
+          "describedBy": "https://www.arlingtonma.gov/town-governance/town-meeting/town-meeting-calendar/2020-town-meeting",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=51585",
+          "title": "FinanceCommitteeReporttoTo.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2021",
+          "tableOfContents": {
+            "p28": "Fiscal Year 2021 Budget Overview",
+            "p48": "Long Range Projection FY2021-FY2025"
+          }
+        },
+        {
+          "description": "Public Annual Financial Report, Fiscal Year Ending June 30, 2019 (pp2)",
+          "describedBy": "https://www.arlingtonma.gov/departments/town-manager/public-annual-financial-report-pafr",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=50795",
+          "title": "FY2019PAFRPublicAnnualFina.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2019",
+          "tableOfContents": {
+            "p2": "Comparisons of Arlington budget/expenses/taxes/growth to other comparable towns."
+          }
+        },       
+        {
+          "description": "COMPREHENSIVE ANNUAL FINANCIAL REPORT Year Ended June 30, 2019 (pp144), a detailed look at town finances, funds, pensions, and statistics.",
+          "describedBy": "https://www.arlingtonma.gov/departments/comptroller/audited-financial-statements",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=49845",
+          "title": "FY2018ComprehensiveAnnualF.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2019",
+          "tableOfContents": {
+            "p36": "High level statement of net position of all funds and liabilities."
+          }
+        },       
+        {
+          "description": "Calendar 2019 Salary Report (pp69) Detailed salary report (regular, overtime, other) for all town positions",
+          "describedBy": "",
+          "downloadURL": "https://www.arlingtonma.gov/home/showdocument?id=51034",
+          "title": "2019EarningsReport.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2019"
         }
       ]
     },
@@ -72,6 +118,7 @@
           "tableOfContents": {
             "p12": "Five Year Revenue Projection",
             "p14": "Five Year Expense Projection",
+            "p137": "Town Administration Department Budget (FY2020 Town Administrator salary: $174,788)",
             "p184": "Police Staffing FTE Levels, FY2014-FY2020",
             "p205": "Belmont Public Schools Budget Totals"
           }
@@ -103,6 +150,7 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
+            "p112": "Select Board Department Budget (FY2020 Town Administrator salary: $206,772)",
             "p158": "Police Staffing FTE Levels, FY2019-FY2020"
           }
         }
@@ -132,7 +180,10 @@
           "format": "PDF",
           "mediaType": "application/pdf",
           "temporal": "FY2020",
-          "tableOfContents": {}
+          "tableOfContents": {
+            "p20": "City Council member salaries / stipends",
+            "p25": "Mayor's office expenses (FY2020 Mayor's salary: $136,453)"
+          }
         }
       ]
     },
@@ -161,6 +212,7 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
+
           }
         }
       ]
@@ -219,7 +271,19 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
-            "p69": "Police Staffing Levels And Org Chart"
+            "p69": "Police Staffing Levels And Org Chart",
+            "p126": "Select Board & Town Administrator department budgets"
+          }
+        },
+        {
+          "description": "Town of Natick Classification And Pay Plan (pp1)",
+          "downloadURL": "https://www.natickma.gov/DocumentCenter/View/8976/Full-Time-Pay-Plan",
+          "title": "FY20 Budget Book Web - March Update 2_201904010851567910.pdf",
+          "format": "PDF",
+          "mediaType": "application/pdf",
+          "temporal": "FY2020",
+          "tableOfContents": {
+            "p1": "Town Employee pay bands (FY2019 Grade 6 - Town Administrator - range: $125,000 - $165,000)"
           }
         }
       ]
@@ -249,7 +313,8 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
-            "p119": "Police Staffing Levels And Org Chart "
+            "p40": "Select Board and Town Manager department budget",
+            "p119": "Police Staffing Levels And Org Chart"
           }
         }
       ]
@@ -279,6 +344,7 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
+            "p145": "Town Manager Department annual budget",
             "p179": "Police Staffing Levels And Org Chart, FY2017-FY2020"
           }
         }
@@ -309,6 +375,7 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
+            "p29": "Town Manager Office Budget (FY2020 Town Manager salary: $187,000)",
             "p46": "Police Staffing Count"
           }
         }
@@ -339,6 +406,7 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
+            "p43": "Select Board and Town Administrator Budgets",
             "p61": "Police Staffing Count"
           }
         }
@@ -370,7 +438,8 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
-            "p62": "Police Staffing Levels"
+            "p62": "Police Staffing Levels",
+            "p146": "Town Manager's Office Budget"
           }
         }
       ]
@@ -400,6 +469,7 @@
           "mediaType": "application/pdf",
           "temporal": "FY2020",
           "tableOfContents": {
+            "p13": "Town Manager department budget & staffing",
             "p44": "Police Staffing Levels"
           }
         }

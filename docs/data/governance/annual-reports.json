@@ -31,7 +31,17 @@
           "format": "PDF",
           "mediaType": "application/pdf",
           "tableOfContents": {
-            "p1": ""
+            "p16-17": "Financial management services - listing of Arlington's cash, deposit, and other assets; and bonds payable.",
+            "p21-23": "Property tax rates, levy, and categories of tax base.",
+            "p33-39": "Police Department overview and crime report.",
+            "p44": "Inspectional Services overview and overview of construction/building and related permits.",
+            "p50": "Legal Department overview and listing of claims dealt with.",
+            "p52-53": "Health & Human Services overview and listing of permits, inspections, and diseases reported.",
+            "p62-63": "Recreation Department overview and skate hours and program participation.",
+            "p70": "Libraries overview and total circulation numbers.",
+            "p101": "Zoning Board Of Appeals overview and number of petitions heard.",
+            "p108-114": "Town Meeting attendance and voting statistics.",
+            "p116": "Town Clerk count of registered voters by party."
           }
         },
         {
