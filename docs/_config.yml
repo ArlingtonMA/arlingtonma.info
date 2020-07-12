@@ -34,10 +34,10 @@ footer:
   links:
     - label: About
       icon: fa fa-fw fa-address-card
-      url: /about/
+      url: /about
     - label: Terms & Privacy
       icon: fa fa-fw fa-gavel
-      url: /terms/
+      url: /terms
     - label: Code
       icon: fa fa-fw fa-file-code
       url: https://github.com/ArlingtonMA/arligntonma.info/

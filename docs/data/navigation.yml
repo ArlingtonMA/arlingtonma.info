@@ -1,12 +1,12 @@
 main:
-  - title: Open Data Concepts
+  - title: Open Data In Arlington
     children: &conceptnav
       - title: What is Open Data?
         url: https://opendatahandbook.org/guide/en/what-is-open-data/
       - title: Project Roadmap
         url: https://github.com/ArlingtonMA/arlingtonma.info/wiki/Project-Roadmap
-      - title: Example Page - Expenses
-        url: /test/
+      - title: Our Data Catalog
+        url: /catalog
   - title: Government Sites
     children: &statenav
       - title: US data.gov Portal
@@ -20,12 +20,12 @@ main:
   - title: About This Site
     children: &aboutnav
       - title: About This Site
-        url: /about/
+        url: /about
       - title: Data Catalog
-        url: /data/
+        url: /catalog
       - title: Credits
-        url: /colophon/
+        url: /colophon
       - title: Terms / Legal
-        url: /terms/
+        url: /terms
       - title: Code
         url: https://github.com/ArlingtonMA/arligntonma.info/

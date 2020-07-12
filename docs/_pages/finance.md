@@ -1,5 +1,5 @@
 ---
-permalink: /finance/
+permalink: /finance
 title: Financial Data For Arlington And Comparable Towns
 classes: wide
 ---

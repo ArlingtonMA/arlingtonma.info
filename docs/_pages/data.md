@@ -1,6 +1,6 @@
 ---
-permalink: /data/
-title: Open Data Catalog
+permalink: /data
+title: Our Plans For Open Data In Arlington
 classes: wide
 ---
 
