@@ -1,0 +1,35 @@
+{
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "description": "Datasets from the Massachusetts Department of Education, as CSV files transformed from HTML tables.",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": "Student Discipline Data Report, showing number of students disciplined by demographic, year, and type of discipline.",
+      "description": "The Student Discipline Data Report reports the disciplines that public school students in Massachusetts received for the offenses committed, as reported by school districts in the School Safety Discipline Report (SSDR).",
+      "landingPage": "http://profiles.doe.mass.edu/general/general.aspx?topNavID=1&leftNavId=100&orgcode=00100000&orgtypecode=5",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Massachusetts Department of Elementary and Secondary Education"
+      },
+      "spatial": "Arlington, MA",
+      "temporal": "2013/2019",
+      "keyword": [
+        "education",
+        "discipline"
+      ],
+      "distribution": [
+        {
+          "description": "Student Discipline report for Arlington, MA for years 2013-2019, transformed to a single CSV by Year column.",
+          "sameAs": "http://profiles.doe.mass.edu/ssdr/default.aspx?orgcode=00100000&orgtypecode=5&=00100000&",
+          "describedBy": "http://www.doe.mass.edu/infoservices/data/ssdr/",
+          "downloadURL": "https://www.arlingtonma.info/data/education/MADOE-StudentDiscipline.csv",
+          "title": "MADOE-StudentDiscipline.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
+    }
+  ]
+}
