@@ -57,7 +57,7 @@ function addCSVTable (id, csvfile, headerArr) {
 }
 
 /**
- * Use D3 to display
+ * Use D3 to display a table
  * @param {string} id to insert in
  * @param {*} data array to read
  * @param {string[]} headerArr ['Headers', 'to', 'include']
