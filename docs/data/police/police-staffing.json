@@ -8,6 +8,10 @@
       "@type": "dcat:Dataset",
       "title": "Police Department Staffing Levels, Arlington and Comparable Towns",
       "description": "Spreadsheet of police staffing levels per 1K residents (2019 Census estimates)",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Arlington Open Data Volunteers"
+      },
       "keyword": [
         "police",
         "staffing"
@@ -15,8 +19,8 @@
       "distribution": [
         {
           "description": "Spreadsheet of police officers by rank/type; some numbers are approximate due to how staffing categories listed differently per town.",
-          "downloadURL": "https://www.arlingtonma.info/data/police/police-staffing.csv",
-          "title": "police-staffing.csv",
+          "downloadURL": "https://www.arlingtonma.info/data/police/police-staffing-levels.csv",
+          "title": "police-staffing-levels.csv",
           "format": "csv",
           "mediaType": "text/csv"
         }
