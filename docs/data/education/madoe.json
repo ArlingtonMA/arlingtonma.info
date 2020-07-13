@@ -30,6 +30,33 @@
           "mediaType": "text/csv"
         }
       ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "School Staffing By Race",
+      "description": "Staffing Data by Race, Ethnicity, Gender by Full-time Equivalents (2008-20)",
+      "landingPage": "http://profiles.doe.mass.edu/general/general.aspx?topNavID=1&leftNavId=100&orgcode=00100000&orgtypecode=5",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Massachusetts Department of Elementary and Secondary Education"
+      },
+      "spatial": "Arlington, MA",
+      "temporal": "2008/2019",
+      "keyword": [
+        "education",
+        "discipline"
+      ],
+      "distribution": [
+        {
+          "description": "Staffing Data by race report for Arlington, MA for years 2008-2020, transformed to a single CSV by Year column.",
+          "sameAs": "http://profiles.doe.mass.edu/profiles/teacher.aspx?orgcode=00100000&orgtypecode=5&leftNavId=817&&fycode=2020",
+          "describedBy": "http://profiles.doe.mass.edu/statereport/teacherbyracegender.aspx",
+          "downloadURL": "https://www.arlingtonma.info/data/education/MADOE-StaffingData.csv",
+          "title": "MADOE-StaffingData.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
     }
   ]
 }
