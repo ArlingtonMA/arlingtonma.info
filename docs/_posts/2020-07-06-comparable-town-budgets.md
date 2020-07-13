@@ -1,16 +1,13 @@
 ---
 title: Comparable Town Expenses By Department
+excerpt: Town Budgets as a percentage of total budget for comparable towns. 
 classes: wide
 categories:
   - Finance
 tags:
-  - Police
   - Budgets
   - Comparable
 ---
-
-<!-- Load d3/c3 stylesheets first -->
-<link href="/assets/css/c3.css" rel="stylesheet">
 
 The [Massachusetts Division of Local Services](https://www.mass.gov/orgs/division-of-local-services) (DLS) provides a variety of data about Massachusetts municipalities, along with other financial visualizations and tools for local governments to use.
 
@@ -103,6 +100,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
 <div id="csvtable"></div>
 
 <!-- Load d3/c3 tools and our visualizations -->
+<link href="/assets/css/c3.css" rel="stylesheet">
 <script src="/assets/js/d3.min.js" charset="utf-8"></script>
 <script src="/assets/js/c3.min.js"></script>
 <script src="/assets/js/dataread.js"></script>
