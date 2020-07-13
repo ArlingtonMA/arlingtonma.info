@@ -26,7 +26,7 @@ See our [basic datasets about police department budgets and staffing](/police) f
 
 ## Datasets About Schools
 
-We are working on publishing some of the [MA Department of Education's data](http://www.doe.mass.edu/DataAccountability.html) in a machine readable format.
+See a few of our [basic datasets about educational statistics](/police) for Arlington from the Massachusetts DOE.
 
 
 
