@@ -1,0 +1,151 @@
+Town,Year,Teacher Group,District,DistrictPct
+Medford,2020,African American,8,1.17%
+Medford,2020,Asian,9,1.32%
+Medford,2020,Hispanic,4,0.59%
+Medford,2020,White,659.9,96.63%
+Medford,2020,Native American,0,0.00%
+Medford,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Medford,2020,"Multi-Race, Non-Hispanic",2,0.29%
+Medford,2020,Males,136,19.92%
+Medford,2020,Females,547,80.10%
+Medford,2020,FTE Count,682.9,100.00%
+Belmont,2020,African American,8.8,1.72%
+Belmont,2020,Asian,18,3.52%
+Belmont,2020,Hispanic,10.2,2.00%
+Belmont,2020,White,461.2,90.29%
+Belmont,2020,Native American,0,0.00%
+Belmont,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Belmont,2020,"Multi-Race, Non-Hispanic",12.6,2.47%
+Belmont,2020,Males,103.9,20.34%
+Belmont,2020,Females,406.9,79.66%
+Belmont,2020,FTE Count,510.8,100.00%
+Brookline,2020,African American,108,7.84%
+Brookline,2020,Asian,79.2,5.75%
+Brookline,2020,Hispanic,59.5,4.32%
+Brookline,2020,White,1118.9,81.17%
+Brookline,2020,Native American,0,0.00%
+Brookline,2020,"Native Hawaiian, Pacific Islander",2,0.15%
+Brookline,2020,"Multi-Race, Non-Hispanic",10.8,0.78%
+Brookline,2020,Males,286,20.75%
+Brookline,2020,Females,1090.6,79.12%
+Brookline,2020,FTE Count,1378.4,100.00%
+Melrose,2020,African American,3,0.60%
+Melrose,2020,Asian,7.1,1.43%
+Melrose,2020,Hispanic,6.8,1.37%
+Melrose,2020,White,479.1,96.40%
+Melrose,2020,Native American,0,0.00%
+Melrose,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Melrose,2020,"Multi-Race, Non-Hispanic",1,0.20%
+Melrose,2020,Males,91.5,18.41%
+Melrose,2020,Females,405.5,81.59%
+Melrose,2020,FTE Count,497,100.00%
+Milton,2020,African American,34.8,7.05%
+Milton,2020,Asian,7,1.42%
+Milton,2020,Hispanic,10.8,2.19%
+Milton,2020,White,438.9,88.95%
+Milton,2020,Native American,1,0.20%
+Milton,2020,"Native Hawaiian, Pacific Islander",1,0.20%
+Milton,2020,"Multi-Race, Non-Hispanic",0,0.00%
+Milton,2020,Males,96.5,19.56%
+Milton,2020,Females,397,80.46%
+Milton,2020,FTE Count,493.4,100.00%
+Natick,2020,African American,6,0.76%
+Natick,2020,Asian,11.6,1.48%
+Natick,2020,Hispanic,2,0.25%
+Natick,2020,White,764.1,97.25%
+Natick,2020,Native American,2,0.25%
+Natick,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Natick,2020,"Multi-Race, Non-Hispanic",0,0.00%
+Natick,2020,Males,154.4,19.65%
+Natick,2020,Females,631.3,80.35%
+Natick,2020,FTE Count,785.7,100.00%
+Needham,2020,African American,20.7,2.46%
+Needham,2020,Asian,19.7,2.35%
+Needham,2020,Hispanic,16.8,2.00%
+Needham,2020,White,774.7,92.25%
+Needham,2020,Native American,0,0.00%
+Needham,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Needham,2020,"Multi-Race, Non-Hispanic",8,0.95%
+Needham,2020,Males,162.1,19.30%
+Needham,2020,Females,676.7,80.58%
+Needham,2020,FTE Count,839.8,100.00%
+North Andover,2020,African American,1,0.16%
+North Andover,2020,Asian,4,0.66%
+North Andover,2020,Hispanic,2,0.33%
+North Andover,2020,White,603,98.85%
+North Andover,2020,Native American,0,0.00%
+North Andover,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+North Andover,2020,"Multi-Race, Non-Hispanic",0,0.00%
+North Andover,2020,Males,101.1,16.57%
+North Andover,2020,Females,508.8,83.41%
+North Andover,2020,FTE Count,610,100.00%
+Reading,2020,African American,1,0.18%
+Reading,2020,Asian,3.9,0.71%
+Reading,2020,Hispanic,2.6,0.47%
+Reading,2020,White,541.2,98.27%
+Reading,2020,Native American,1,0.18%
+Reading,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Reading,2020,"Multi-Race, Non-Hispanic",1,0.18%
+Reading,2020,Males,81.7,14.84%
+Reading,2020,Females,469.1,85.18%
+Reading,2020,FTE Count,550.7,100.00%
+Stoneham,2020,African American,1,0.27%
+Stoneham,2020,Asian,4,1.07%
+Stoneham,2020,Hispanic,1,0.27%
+Stoneham,2020,White,368,98.13%
+Stoneham,2020,Native American,0,0.00%
+Stoneham,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Stoneham,2020,"Multi-Race, Non-Hispanic",1,0.27%
+Stoneham,2020,Males,72.8,19.41%
+Stoneham,2020,Females,302.2,80.59%
+Stoneham,2020,FTE Count,375,100.00%
+Watertown,2020,African American,4,0.89%
+Watertown,2020,Asian,6,1.33%
+Watertown,2020,Hispanic,8,1.78%
+Watertown,2020,White,428.5,95.33%
+Watertown,2020,Native American,0,0.00%
+Watertown,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Watertown,2020,"Multi-Race, Non-Hispanic",3,0.67%
+Watertown,2020,Males,104.1,23.16%
+Watertown,2020,Females,345.5,76.86%
+Watertown,2020,FTE Count,449.5,100.00%
+Winchester,2020,African American,3,0.51%
+Winchester,2020,Asian,3.4,0.58%
+Winchester,2020,Hispanic,4,0.68%
+Winchester,2020,White,577.5,97.90%
+Winchester,2020,Native American,0,0.00%
+Winchester,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Winchester,2020,"Multi-Race, Non-Hispanic",2,0.34%
+Winchester,2020,Males,103.8,17.60%
+Winchester,2020,Females,485.1,82.23%
+Winchester,2020,FTE Count,589.9,100.00%
+Lexington,2020,African American,33.6,2.90%
+Lexington,2020,Asian,56.9,4.92%
+Lexington,2020,Hispanic,35.5,3.07%
+Lexington,2020,White,1018.3,88.00%
+Lexington,2020,Native American,0.9,0.08%
+Lexington,2020,"Native Hawaiian, Pacific Islander",0.5,0.04%
+Lexington,2020,"Multi-Race, Non-Hispanic",11.4,0.99%
+Lexington,2020,Males,216.4,18.70%
+Lexington,2020,Females,940.7,81.30%
+Lexington,2020,FTE Count,1157.1,100.00%
+Cambridge,2020,African American,209.1,14.78%
+Cambridge,2020,Asian,83.5,5.90%
+Cambridge,2020,Hispanic,107,7.56%
+Cambridge,2020,White,1006.7,71.15%
+Cambridge,2020,Native American,4,0.28%
+Cambridge,2020,"Native Hawaiian, Pacific Islander",2,0.14%
+Cambridge,2020,"Multi-Race, Non-Hispanic",2.5,0.18%
+Cambridge,2020,Males,285,20.14%
+Cambridge,2020,Females,1115.4,78.83%
+Cambridge,2020,FTE Count,1414.9,100.00%
+Somerville,2020,African American,42,5.31%
+Somerville,2020,Asian,12.5,1.58%
+Somerville,2020,Hispanic,83.6,10.58%
+Somerville,2020,White,643.5,81.40%
+Somerville,2020,Native American,1,0.13%
+Somerville,2020,"Native Hawaiian, Pacific Islander",0,0.00%
+Somerville,2020,"Multi-Race, Non-Hispanic",8,1.01%
+Somerville,2020,Males,168,21.25%
+Somerville,2020,Females,622.5,78.75%
+Somerville,2020,FTE Count,790.5,100.00%
