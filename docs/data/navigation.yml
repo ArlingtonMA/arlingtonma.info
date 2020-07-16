@@ -1,23 +1,15 @@
 main:
-  - title: Open Data In Arlington
+  - title: Open Data for Arlington
+    url: /catalog
     children: &conceptnav
-      - title: What is Open Data?
-        url: https://opendatahandbook.org/guide/en/what-is-open-data/
-      - title: Project Roadmap
-        url: https://github.com/ArlingtonMA/arlingtonma.info/wiki/Project-Roadmap
+      - title: Latest Posts
+        url: https://arlingtonma.info/
       - title: Our Data Catalog
         url: /catalog
-  - title: Government Sites
-    children: &statenav
-      - title: US data.gov Portal
-        url: https://www.data.gov/open-gov/
-      - title: Mass.gov Open Data Portal
-        url: https://opendata.digital.mass.gov/#/
-      - title: Arlington GIS Maps
-        url: https://www.arlingtonma.gov/departments/information-technology/geographic-information-system-gis
-      - title: Arlington Finances
-        url: https://www.arlingtonma.gov/town-governance/financial-budget-information
+      - title: Project Roadmap
+        url: https://github.com/ArlingtonMA/arlingtonma.info/wiki/Project-Roadmap
   - title: About This Site
+    url: /about
     children: &aboutnav
       - title: About This Site
         url: /about
@@ -29,3 +21,16 @@ main:
         url: /terms
       - title: Code
         url: https://github.com/ArlingtonMA/arligntonma.info/
+  - title: OpenGov Data
+    url: https://opendata.digital.mass.gov/#/
+    children: &statenav
+      - title: US data.gov Portal
+        url: https://www.data.gov/open-gov/
+      - title: Mass.gov Open Data Portal
+        url: https://opendata.digital.mass.gov/#/
+      - title: Arlington GIS Maps
+        url: https://www.arlingtonma.gov/departments/information-technology/geographic-information-system-gis
+      - title: Arlington Finances
+        url: https://www.arlingtonma.gov/town-governance/financial-budget-information
+      - title: Arlington Visual Budget
+        url: http://arlingtonvisualbudget.org/

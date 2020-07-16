@@ -12,6 +12,8 @@ classes: wide
 - **Project volunteers:** List yourself!
 - Town of Arlington Public Records Officer and other officials - for helping us find the data!
 
+[Contact Us with suggestions or improvements](mailto:ArlingtonMAInfo@gmail.com?Subject=[Credits] Website Suggestion) for this site.
+
 ## Tools
 
 - Website build tools by [Jekyll](https://jekyllrb.com/)

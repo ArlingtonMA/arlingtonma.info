@@ -1,7 +1,10 @@
 title: Open Data For Arlington, MA
 tagline: Transparency in town government through open data.
 description: Vetted and source-annotated open data for Arlington, MA town government.
-
+email: ArlingtonMAInfo@gmail.com
+social:
+  links:
+    - https://twitter.com/ArlingtonMAInfo
 # Build, theme, style settings
 data_source: data # Override standard location
 url: https://arlingtonma.info # jekyll-sitemap
@@ -35,9 +38,15 @@ footer:
     - label: About
       icon: fa fa-fw fa-address-card
       url: /about
+    - label: "Credits"
+      icon: "fa fa-fw fa-hand-holding-heart"
+      url: "/colophon"
     - label: Terms & Privacy
       icon: fa fa-fw fa-gavel
       url: /terms
+    - label: Twitter
+      icon: fab fa-twitter
+      url: https://github.com/ArlingtonMA/arligntonma.info/
     - label: Code
       icon: fa fa-fw fa-file-code
       url: https://github.com/ArlingtonMA/arligntonma.info/
