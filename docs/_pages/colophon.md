@@ -8,7 +8,7 @@ classes: wide
 ## Credits
 
 - **Founder:** Shane Curcuru
-- **Project manager:** AL
+- **Project manager:** Annie LaCourt
 - **Project volunteers:** List yourself!
 - Town of Arlington Public Records Officer and other officials - for helping us find the data!
 
