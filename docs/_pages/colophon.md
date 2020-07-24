@@ -9,7 +9,7 @@ classes: wide
 
 - **Founder:** Shane Curcuru
 - **Project manager:** Annie LaCourt
-- **Project volunteers:** Steve Berczuk
+- **Project volunteers:** Steve Berczuk, Greg Christiana, Alan Jones
 - Town of Arlington Public Records Officer and other officials - for helping us find the data!
 
 [Contact Us with suggestions or improvements](mailto:ArlingtonMAInfo@gmail.com?Subject=[Credits] Website Suggestion) for this site.
