@@ -1,0 +1,21 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    <!-- Modified 202007-sc -->
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright"><!-- Modified 202007-sc -->
+  &copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }} | License: <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a>
+  <br/>
+  <strong><i class="fa fa-edit" aria-hidden="true"></i> <a href="{{ site.github.repository_url }}/blob/{{ site.branch }}/docs/{{ page.path }}" title="View Code {{ page.path }}">See the code under this page</a>, or</strong> <a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/docs/{{ page.path }}" title="Open GitHub Issue on {{ page.path }}">Propose change on GitHub</a></p>
+</div>
