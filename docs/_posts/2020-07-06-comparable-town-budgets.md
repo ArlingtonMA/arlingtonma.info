@@ -11,7 +11,7 @@ tags:
 
 The [Massachusetts Division of Local Services](https://www.mass.gov/orgs/division-of-local-services) (DLS) provides a variety of data about Massachusetts municipalities, along with other financial visualizations and tools for local governments to use.
 
-One useful comparison is where towns and cities spend their budget, especially when looking at roughly comparable municipalities.  **Comparable towns** to Arlington (Belmont, Brookline, Medford, Melrose, Milton, Natick, Needham, North Andover, Reading, Stoneham, Watertown, Winchester) are defined in the [Town Manager's Annual Reports](https://www.arlingtonma.gov/departments/town-manager/town-manager-s-annual-budget-financial-report).
+One useful comparison is where towns and cities spend their budget, especially when looking at roughly comparable municipalities.  **Comparable towns** to Arlington (Belmont, Brookline, Medford, Melrose, Milton, Natick, Needham, North Andover, Reading, Stoneham, Watertown, Winchester) are defined in the [Town Manager's Annual Reports](https://www.arlingtonma.gov/departments/town-manager/town-manager-s-annual-budget-financial-report).  See also a [listing of comparable towns websites](https://menotomymatters.com/comparable/) - with school, police, budget, and more links about each town or city.
 
 ## Town Expenses By Department
 
