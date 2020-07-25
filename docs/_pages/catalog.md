@@ -26,7 +26,7 @@ See our [basic datasets about police department budgets and staffing](/police) f
 
 ## Datasets About Schools
 
-See a few of our [basic datasets about educational statistics](/police) for Arlington from the Massachusetts DOE.
+See a few of our [basic datasets about educational statistics](/education) for Arlington from the Massachusetts DOE.
 
 
 
