@@ -1,6 +1,6 @@
 main:
   - title: Open Data for Arlington
-    url: /catalog
+    url: https://arlingtonma.info/
     children: &conceptnav
       - title: Latest Posts
         url: https://arlingtonma.info/
