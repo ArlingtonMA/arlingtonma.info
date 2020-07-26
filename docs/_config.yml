@@ -54,9 +54,6 @@ footer:
     - label: Twitter
       icon: fab fa-twitter
       url: https://twitter.com/ArlingtonMAInfo
-    - label: Code
-      icon: fa fa-fw fa-file-code
-      url: https://github.com/ArlingtonMA/arligntonma.info/
 
 # jekyll-seo-tag
 logo: *logo
