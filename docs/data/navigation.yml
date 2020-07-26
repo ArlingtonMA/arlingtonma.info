@@ -6,15 +6,13 @@ main:
         url: https://arlingtonma.info/
       - title: Our Data Catalog
         url: /catalog
-      - title: Project Roadmap
-        url: https://github.com/ArlingtonMA/arlingtonma.info/wiki/Project-Roadmap
+      - title: How To Help
+        url: /help
   - title: About This Site
     url: /about
     children: &aboutnav
       - title: About This Site
         url: /about
-      - title: Data Catalog
-        url: /catalog
       - title: Credits
         url: /colophon
       - title: Terms / Legal
