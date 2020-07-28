@@ -1,0 +1,31 @@
+{
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "description": "Datasets from the US Census.",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": "US Census estimated population by Massachusetts municipalities.",
+      "description": "US Census 2010 population and official yearly estimates through 2019.",
+      "landingPage": "https://arlingtonma.info/data/demographics/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "US Census Bureau Population Estimates Program"
+      },
+      "spatial": "Commonwealth Of Massachusetts",
+      "temporal": "2010/2019",
+      "distribution": [
+        {
+          "description": "US Census estimated population by Mass towns, 2010-2019",
+          "sameAs": "https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/cities/totals/sub-est2019_25.csv",
+          "describedBy": "https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html",
+          "downloadURL": "https://arlingtonma.info/data/demographics/sub-est2019_25.csv",
+          "title": "sub-est2019_25.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
+    }
+  ]
+}
