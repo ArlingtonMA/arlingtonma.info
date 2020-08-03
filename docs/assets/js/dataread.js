@@ -14,25 +14,52 @@
  * @param {string} id to insert in
  * @param {string[]} data to chart [ ['name', '123'], ...]
  * @param {string} title to display inside donut
- * @param {number} width to display at
- * @param {hash} colorHash for mapping 'name' to html color
+ * @param {hash} colors for mapping 'name' to html color
  */
-function addDonutChart (id, data, title, width, colorHash) {
+function addDonutChart (id, data, title, colors) {
   var chart = c3.generate({
     bindto: id,
     data: {
-      columns: data,
       type: 'donut',
-      colors: colorHash
+      columns: data,
+      colors: colors
     },
     donut: {
       title: title
     },
-    // size: {
-    //   width: width
-    // },
     legend: {
       position: 'bottom'
+    }
+  })
+  return chart
+}
+
+/**
+ * Insert a C3 timeseries area chart using 'Date' as axis of dates
+ * @param {string} id to insert in
+ * @param {string[]} data to chart [ ['name', '123'], ...]
+ * @param {hash} yopts for options y axis
+ * @param {hash} colors for mapping 'name' to html color
+ */
+function addTimeseriesPercentChart (id, data, yopts, colors) {
+  var chart = c3.generate({
+    bindto: id,
+    data: {
+      x: 'Date',
+      type: 'area',
+      columns: data,
+      groups: [Object.keys(colors)],
+      colors: colors,
+      order: null
+    },
+    axis: {
+      y: yopts,
+      x: {
+        type: 'timeseries',
+        tick: {
+          format: '%Y '
+        }
+      }
     }
   })
   return chart
