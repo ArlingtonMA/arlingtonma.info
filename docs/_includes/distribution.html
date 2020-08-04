@@ -1,6 +1,8 @@
 
 <li>
   {{ include.distribution.description }} <a href="{{ include.distribution.downloadURL }}">Download source ({{ include.distribution.format }})</a>
+  {% if include.distribution.sameAs %} | <a href="{{ include.distribution.sameAs }}">Original data derived from</a>{% endif %}
+  {% if include.distribution.describedBy %} | <a href="{{ include.distribution.describedBy }}">Original data description/schema</a>{% endif %}
   {% if include.distribution.tableOfContents %}
     <br/><small>{% for toc in include.distribution.tableOfContents %}
       {{ toc[0] }}: {{ toc[1] }}{% unless forloop.last %},{% endunless %}

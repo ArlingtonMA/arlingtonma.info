@@ -3,13 +3,17 @@
   <p>
     <span class="datasetdescription">{{ include.dataset.description }}</span><br/>
     Data From: {{ include.dataset.publisher.name }} | <a href="{{ include.dataset.landingPage }}">Overview / Landing Page</a>{% if include.dataset.describedBy %} | <a href="{{ include.dataset.describedBy }}">Description / Visualization</a>{% endif %}
+    {% if include.dataset.keyword %}
+    <br/>
+    <small>
+      Keywords: 
+      {% for k in include.dataset.keyword %}
+        {{ k }}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </small>
+    {% endif %}
   </p>
-  <small>
-    Keywords: 
-    {% for k in include.dataset.keyword %}
-      {{ k }}{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  </small>
+
   <hr/>
   {% assign distributions = include.dataset.distribution %}
   <ul>
