@@ -12,9 +12,9 @@ The [Massachusetts Department of Elementary and Secondary Education](https://www
 
 ## APS Staff And Student Demographics
 
-Using the most recent ESE data for 2019 we can show the disparity in relative percentages of different racial/ethnic categores between the diverse student population and relatively less-diverse staff population here in Arlngton Public Schools (APS).  
+Using the most recent ESE data for 2019 we can show the disparity in relative percentages of different racial/ethnic categores between the diverse town and student population, and relatively less-diverse teacher/staff population here in Arlngton Public Schools (APS).  
 
-<figure class="half">
+<figure class="third">
   <div class='chartfigure'>
     <h3 style='text-align: center;'>APS Students By Race/Ethnicity - 2019</h3>
     <div id="arl-students-2019"></div>
@@ -23,6 +23,11 @@ Using the most recent ESE data for 2019 we can show the disparity in relative pe
     <h3 style='text-align: center;'>APS Staffing By Race/Ethnicity - 2019</h3>
     <div id="arl-staff-2019"></div>
   </div>
+  <div class='chartfigure'>
+    <h3 style='text-align: center;'>Arlington Residents By Race/Ethnicity - 2019</h3>
+    <div id="arl-census-2019"></div>
+  </div>
+  <figcaption>Note that US Census race/ethnic categories may not all directly match MA ESE figures for APS in some cases, so this is just a general comparison.</figcaption>
 </figure>
 
 <figure class="half">
@@ -40,6 +45,8 @@ Using the most recent ESE data for 2019 we can show the disparity in relative pe
 ## Data Sources
 
 See our [Education data catalog](/catalog#datasets-about-schools) for sources derived from MA ESE data.  Race/Ethnicity names have been normalized to use full versions from the Staffing data.  MA ESE data includes male/female breakdowns for staff and students, as well as other categories for student populations including English Learner, Economically disadvantaged, Students w/disabilities, and High needs.
+
+Arlington resident estimated race/ethnicity breakdown comes from [US Census Bureau Quick Facts](/catalog#datasets-about-demographics) estimates of Arlington for 2019. 
 
 
 <!-- Load d3/c3 tools and our visualizations -->
@@ -79,6 +86,15 @@ addDonutChart('#arl-staff-2019', [
     ['African American', '1.69'],
     ['Native Hawaiian, Pacific Islander', '0.13'],
     ['Native American', '0.00']
+  ], donutTitle, colors)
+addDonutChart('#arl-census-2019', [
+    ['White', '76.50'],
+    ['Asian', '11.80'],
+    ['Multi-Race, Non-Hispanic', '3.90'],
+    ['Hispanic/Latino', '5.10'],
+    ['African American', '2.70'],
+    ['Native Hawaiian, Pacific Islander', '0.0'],
+    ['Native American', '0.0']
   ], donutTitle, colors)
 
 // Build historical timeseries charts

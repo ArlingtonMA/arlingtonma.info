@@ -26,6 +26,29 @@
           "mediaType": "text/csv"
         }
       ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "US Census quickfacts Arlington CDP, Massachusetts.",
+      "description": "US Census 2019 demographic racial/ethinic estimates for Arlington CDP.",
+      "landingPage": "https://arlingtonma.info/data/demographics/",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "US Census Bureau Population Estimates Program"
+      },
+      "spatial": "Commonwealth Of Massachusetts",
+      "temporal": "2019",
+      "distribution": [
+        {
+          "description": "US Census estimated racial demographics for Arlington in 2019.",
+          "sameAs": "https://www.census.gov/quickfacts/arlingtoncdpmassachusetts",
+          "describedBy": "https://www.census.gov/quickfacts/arlingtoncdpmassachusetts",
+          "downloadURL": "https://arlingtonma.info/data/demographics/censusquickfacts-arlington.csv",
+          "title": "censusquickfacts-arlington.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
     }
   ]
 }
