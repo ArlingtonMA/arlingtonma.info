@@ -44,7 +44,7 @@ Using the most recent ESE data for 2019 we can show the disparity in relative pe
 
 ## Data Sources
 
-See our [Education data catalog](/catalog#datasets-about-schools) for sources derived from MA ESE data.  Race/Ethnicity names have been normalized to use full versions from the Staffing data.  MA ESE data includes male/female breakdowns for staff and students, as well as other categories for student populations including English Learner, Economically disadvantaged, Students w/disabilities, and High needs.
+See our [Education data catalog](/catalog#datasets-about-schools) for sources derived from MA ESE data.  Race/Ethnicity names have been normalized to use full versions from the Staffing data.  MA ESE data includes male/female breakdowns for staff and students, as well as other categories for student populations including English Learner, Economically disadvantaged, Students w/disabilities, and High needs.  Read the [FAQ on MA ESE racial and ethnic classifications](http://www.doe.mass.edu/infoservices/data/guides/race-faq.html).
 
 Arlington resident estimated race/ethnicity breakdown comes from [US Census Bureau Quick Facts](/catalog#datasets-about-demographics) estimates of Arlington for 2019. 
 
