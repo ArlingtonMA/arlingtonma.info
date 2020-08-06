@@ -137,7 +137,6 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
     'Other Expenditures': 'darkgray'
   }
   const donutTitle = 'Expenses (2019)'
-  const donutSize = 400
   // Build our page TODO: draw directly from csv instead of hardcoding
   addDonutChart('#arlington', [
       ['Education', '65792139'],
@@ -152,7 +151,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '1218442'],
       ['Other Public Safety', '503117'],
       ['Other Expenditures', '33028']
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#belmont', [
       ['Education', '50138431'],
       ['Fixed Costs', '8547462'],
@@ -166,7 +165,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '828031'],
       ['Other Public Safety', '550924'],
       ['Other Expenditures', '19900']
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#brookline', [
       ['Education', '116389275'],
       ['Fixed Costs', '59972119'],
@@ -180,7 +179,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '2318926'],
       ['Other Public Safety', '2074485'],
       ['Other Expenditures', '0'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#medford', [
     ['Education', '58680558'],
     ['Fixed Costs', '32798178'],
@@ -193,7 +192,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
     ['Intergovernmental Assessments', '10286228'],
     ['Human Services', '1293611'],
     ['Other Public Safety', '1301949']
-  ], donutTitle, donutSize, expenseColors)
+  ], donutTitle, expenseColors)
   addDonutChart('#melrose', [
       ['Education', '32463997'],
       ['Fixed Costs', '18331091'],
@@ -207,7 +206,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '1470738'],
       ['Other Public Safety', '343880'],
       ['Other Expenditures', '989830'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#milton', [
       ['Education', '50551792'],
       ['Fixed Costs', '8503732'],
@@ -221,7 +220,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '573038'],
       ['Other Public Safety', '614154'],
       ['Other Expenditures', '0'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#natick', [
       ['Education', '67522977'],
       ['Fixed Costs', '25053777'],
@@ -235,7 +234,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '1884459'],
       ['Other Public Safety', '174946'],
       ['Other Expenditures', '0'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#needham', [
       ['Education', '78619687'],
       ['Fixed Costs', '29149912'],
@@ -249,7 +248,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '1747253'],
       ['Other Public Safety', '2386779'],
       ['Other Expenditures', '556798'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#northandover', [
       ['Education', '49857184'],
       ['Fixed Costs', '15783342'],
@@ -263,7 +262,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '1198761'],
       ['Other Public Safety', '351341'],
       ['Other Expenditures', '852765'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#reading', [
       ['Education', '47701011'],
       ['Fixed Costs', '17401913'],
@@ -277,7 +276,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '606862'],
       ['Other Public Safety', '186104'],
       ['Other Expenditures', '26182'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#stoneham', [
       ['Education', '30354467'],
       ['Fixed Costs', '15735022'],
@@ -291,7 +290,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '597535'],
       ['Other Public Safety', '789081'],
       ['Other Expenditures', '195387'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#watertown', [
       ['Education', '48695534'],
       ['Fixed Costs', '33033733'],
@@ -305,7 +304,7 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
       ['Human Services', '1345444'],
       ['Other Public Safety', '23855'],
       ['Other Expenditures', '4100'],
-    ], donutTitle, donutSize, expenseColors)
+    ], donutTitle, expenseColors)
   addDonutChart('#winchester', [
     ['Education', '49974412'],
     ['Fixed Costs', '17500519'],
@@ -318,6 +317,6 @@ For a more in depth look, see [Arlington Visual Budget](http://arlingtonvisualbu
     ['Intergovernmental Assessments', '573680'],
     ['Human Services', '647889'],
     ['Other Public Safety', '274465']
-  ], donutTitle, donutSize, expenseColors)
+  ], donutTitle, expenseColors)
   const csvpromise = addCSVTable('#csvtable', '/data/finance/GenFundExpenditures2019-comps.csv', expenseHeaders)
 </script>
