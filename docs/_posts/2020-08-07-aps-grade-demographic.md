@@ -12,7 +12,7 @@ The [Massachusetts Department of Elementary and Secondary Education](https://www
 
 ## APS Student Demographics By Grade
 
-Using the most recent ESE data for student populations by grade level in 2019 shows potential trends changing the racial and ethnic makeup of the student body in future enrollments as younger classes graduate each year.  
+Using the most recent ESE data for student populations by grade level in 2019 shows likely trends changing the racial and ethnic makeup of the student body in future enrollments as younger classes graduate and move up each year.  
 
 <figure>
   <div id="studentsbygrade"></div>
