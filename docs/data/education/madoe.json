@@ -47,7 +47,7 @@
       "temporal": "2008/2019",
       "keyword": [
         "education",
-        "discipline"
+        "demographics"
       ],
       "distribution": [
         {
@@ -56,6 +56,36 @@
           "describedBy": "http://profiles.doe.mass.edu/statereport/teacherbyracegender.aspx",
           "downloadURL": "https://www.arlingtonma.info/data/education/MADOE-StaffingData.csv",
           "title": "MADOE-StaffingData.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Student population by Grade",
+      "description": "Student Population by Race & Ethnicity per Grade Level, 2019",
+      "landingPage": "http://www.doe.mass.edu/infoservices/reports/enroll/",
+      "references": [
+        "http://www.doe.mass.edu/infoservices/data/guides/race-faq.html"
+      ],
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Massachusetts Department of Elementary and Secondary Education"
+      },
+      "spatial": "Massachusetts",
+      "temporal": "2019",
+      "keyword": [
+        "education",
+        "demographics"
+      ],
+      "distribution": [
+        {
+          "description": "Student Population by Race & Ethnicity per Grade Level, 2019, with %age columns calculated.",
+          "sameAs": "http://www.doe.mass.edu/InfoServices/reports/enroll/2020/district-graderace.xlsx",
+          "describedBy": "http://www.doe.mass.edu/infoservices/reports/enroll/default.html?yr=1920",
+          "downloadURL": "https://www.arlingtonma.info/data/education/MADOE-district-graderace.csv",
+          "title": "MADOE-district-graderace.csv",
           "format": "csv",
           "mediaType": "text/csv"
         }
