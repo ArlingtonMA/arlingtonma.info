@@ -9,6 +9,10 @@
       "title": "Student Discipline Data Report, showing number of students disciplined by demographic, year, and type of discipline.",
       "description": "The Student Discipline Data Report reports the disciplines that public school students in Massachusetts received for the offenses committed, as reported by school districts in the School Safety Discipline Report (SSDR).",
       "landingPage": "http://profiles.doe.mass.edu/general/general.aspx?topNavID=1&leftNavId=100&orgcode=00100000&orgtypecode=5",
+      "references": [
+        "http://www.doe.mass.edu/lawsregs/advisory/discipline/StudentDiscipline.html",
+        "http://www.doe.mass.edu/lawsregs/advisory/discipline/QA.html"
+      ],
       "publisher": {
         "@type": "org:Organization",
         "name": "Massachusetts Department of Elementary and Secondary Education"
