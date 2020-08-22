@@ -1,0 +1,77 @@
+{
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "description": "Datasets about property ownership and zoning maps in Arlington.",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": "Real Property ownership official records for Arlington, MA.",
+      "description": "Real property ownership assessments and mapping by parcel ID for Arlington, MA.",
+      "describedBy": "http://gis-arlingtonma.opendata.arcgis.com",
+      "landingPage": "https://www.arlingtonma.gov/departments/information-technology/geographic-information-system-gis",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Arlington"
+      },
+      "spatial": "Arlington, MA",
+      "keyword": [
+        "property",
+        "assessments",
+        "arlington"
+      ],
+      "distribution": [
+        {
+          "description": "ArlingtonMA Assess: assessment valuations, structural data, year built, zoning, and more by parcel ID.",
+          "describedBy": "http://gis-arlingtonma.opendata.arcgis.com/datasets/85750255a7894d50b10c0b03aa2059e0_0",
+          "downloadURL": "https://opendata.arcgis.com/datasets/85750255a7894d50b10c0b03aa2059e0_0.csv",
+          "title": "ArlingtonMA_Assess.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "Zoning maps and designations official records for Arlington, MA.",
+      "description": "Zoning maps and areas for Arlington, MA.",
+      "describedBy": "http://gis-arlingtonma.opendata.arcgis.com",
+      "landingPage": "https://www.arlingtonma.gov/departments/information-technology/geographic-information-system-gis",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Town Of Arlington"
+      },
+      "spatial": "Arlington, MA",
+      "keyword": [
+        "zoning",
+        "maps",
+        "arlington"
+      ],
+      "distribution": [
+        {
+          "description": "ArlingtonMA Zoning: official zoning districts table of areas.",
+          "describedBy": "http://gis-arlingtonma.opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0",
+          "downloadURL": "https://opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D",
+          "title": "ArlingtonMA_Zoning.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        },
+        {
+          "description": "ArlingtonMA Zoning: official zoning districts KML map.",
+          "describedBy": "http://gis-arlingtonma.opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0",
+          "downloadURL": "https://opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D",
+          "title": "ArlingtonMA_Zoning.",
+          "format": "kml",
+          "mediaType": "application/vnd.google-earth.kml+xml"
+        },
+        {
+          "description": "ArlingtonMA Zoning: official zoning districts GIS shapefile map.",
+          "describedBy": "http://gis-arlingtonma.opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0",
+          "downloadURL": "https://opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D",
+          "title": "ArlingtonMA_Zoning.zip",
+          "format": "zip"
+        }
+      ]
+    }
+  ]
+}

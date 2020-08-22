@@ -32,4 +32,8 @@ See a few of our [basic datasets about educational statistics](/education) for A
 
 See a few of our [basic datasets about demographics and population](/demographics) for Arlington from the US Census and other sources.
 
+## Datasets About Real Property
+
+See a few of our [basic datasets about real property ownership and valuation](/property) for Arlington from the GIS department and other sources.
+
 
