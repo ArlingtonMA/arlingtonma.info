@@ -14,7 +14,7 @@ As one of the most densely built towns in the Commonwealth, it's interesting to 
 
 ## Top Land Owners In Arlington
 
-Note that the Town of Arlington itself is by far the largest holder of land in town by an order of magnitude, and is not included in the below charts.  For comparison, the Town and it's various departments (including DPW, Schools, parks, cemetary, public safety, and more) holds 351.63 acres of land (out of ~4,300 acres of land total) with an assessed value of over $571,000,000!
+Note that the Town of Arlington itself is by far the largest holder of land in town by an order of magnitude, and is not included in the below charts.  For comparison, the Town and its various departments (including DPW, Schools, parks, cemetery, public safety, and more) holds 351.63 acres of land (out of ~4,300 acres of land in town total) with an assessed value of over $571,000,000!
 
 See [By Assessed Value](#assessment), [By Size (Acres)](#acres), or [Data Sources](#data-sources).
 
@@ -34,7 +34,7 @@ See [By Assessed Value](#assessment), [By Size (Acres)](#acres), or [Data Source
 
 ## Data Sources
 
-All figures are derived from [official data sources from the Town's GIS department](/property) including the most recent assessed value of parcels.  Using a simple [Ruby programming script](https://github.com/ArlingtonMA/arlingtonma.info/blob/master/src/assessorparser.rb), we have analyzed the core ArlingtonMA_Assessor table of all owners to sum up overall ownership records.  Since many commercial properties are owned by trusts or LLC corporations, we have also consolidated beneficial ownership in selected cases for some major property owners in town.  Entries in UPPERCASE are exact parcel owners; entries In Mixed Case are beneficial owners of various companies or realty trusts.  Note that our beneficial owner research may be incomplete or inaccurate depending on actual ownership structures.
+All figures are derived from [official data sources from the Town's GIS department](/property) including the most recently _assessed_ value of parcels.  Using a simple [Ruby programming script](https://github.com/ArlingtonMA/arlingtonma.info/blob/master/src/assessorparser.rb), we have analyzed the core ArlingtonMA_Assessor table of all owners of land in town to sum up overall ownership records.  Since many commercial properties are owned by trusts or LLC corporations, we have also consolidated beneficial ownership in selected cases for some major property owners in town.  Entries in _UPPERCASE_ are exact parcel owners directly in Assessor rolls; entries _In Mixed Case_ are beneficial owners of various companies or realty trusts.  Note that our beneficial owner research may be incomplete or inaccurate depending on actual ownership structures.
 
 Property ownership records are public.  However data being public and publishing that data are not the same thing.  Therefore we have focused our analysis on large property owners only - who are all commercial organizations, non-profits, or major family holdings of commercial developers or landlords.  While we would not want to needlessly publish personal information like a home address, analyzing and publishing commercially-focused property ownership helps residents understand the impact that new developments can have on our town.
 
