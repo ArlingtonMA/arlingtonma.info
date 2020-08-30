@@ -15,7 +15,7 @@
 # limitations under the License.
 
 module AssessorParser
-  VERSION = '0.1f'
+  VERSION = '0.1g'
   DESCRIPTION = <<-HEREDOC
   AssessorParser: Parse ArlingtonMA Assess CSV file into indexed hash, and create 
     various other ownership or zoning related data hashes 
@@ -43,6 +43,8 @@ module AssessorParser
   ZONING = 'ZONING'
   VAL = 'val'
   SIZE = 'size'
+  SIZE_OFFSET = 0
+  VAL_OFFSET = 1
   PARCELS = 'parcels'
   ZONES = 'zones'
   ROUND_TO = 4 # Rounding lot sizes in ownership
@@ -123,9 +125,6 @@ module AssessorParser
         zones[zname] = row['Acres'].to_f
       end
     end
-    zones.each do |z, s|
-      z[s] = z[s].round(ROUND_TO + 1) # Arbitrary rounding for simplification
-    end
     data << zones.sort.to_h # Ensure output file has a stable order of Zone name
     return data
   end
@@ -133,6 +132,7 @@ module AssessorParser
   # Create crossindex of owner name to property id 
   # @param assessor hash to read
   # @return hash of owner names with lists of properties owned
+  # Passed to sumup_owners() to then output ArlingtonMA_Owners.json full list
   def crossindex_owners(data)
     records = data[1]
     owners = {}
@@ -151,7 +151,8 @@ module AssessorParser
   
   # Sum up crossindex for owners with multiple properties  
   # @param owners hash to annotate; @sideeffect adds fields
-  # @return owners hasn for chaining
+  # @return owners hash for chaining
+  #   ArlingtonMA_Owners.json: { parcels: {...}, val, size, zones: { zone: [size, val], ...}}
   def sumup_owners(owners)
     owners.each do |owner, owned|
       val = 0
@@ -160,7 +161,12 @@ module AssessorParser
       owned[PARCELS].each do |k, property|
         val += property[TOTAL_VAL]
         size += property[LOT_SIZE]
-        zones.has_key?(property[ZONING]) ? zones[property[ZONING]] += property[LOT_SIZE] : zones[property[ZONING]] = property[LOT_SIZE]
+        if zones.has_key?(property[ZONING])
+          zones[property[ZONING]][SIZE_OFFSET] += property[LOT_SIZE]
+          zones[property[ZONING]][VAL_OFFSET] += property[TOTAL_VAL]
+        else
+          zones[property[ZONING]] = [property[LOT_SIZE], property[TOTAL_VAL]]
+        end
       end
       owned[VAL] = val
       owned[SIZE] = size.round(ROUND_TO)
@@ -169,11 +175,12 @@ module AssessorParser
     return owners
   end
 
-  # Find top X owners by value, size, or parcels, and by %age of total zoned land
+  # Find top X owners by value, size, or parcels, and by %age of total zoned land types
   # @param owners hash 
   # @param zones total acres per zoning type
   # @param num of top owners to output 
-  # @return topbysize hasn with just comparison data
+  # @return TopOwners hasn with just comparison data by parcels/size/value
+  #   ArlingtonMA_TopOwners.json: { parcels: {owner: count,...}, size: {owner: {size: acres, B2: percent of zoneB2},...}, val: {owner: v},...}
   def top_owners(owners, zones, max)
     valsize = {VAL => {}, PARCELS => {}, SIZE => {}}
     ctr = 0
@@ -196,12 +203,69 @@ module AssessorParser
       valsize[SIZE][owner] = {}
       valsize[SIZE][owner][SIZE] = hash[SIZE]
       hash[ZONES].each do |z, acres|
-        valsize[SIZE][owner][z] = (acres / zones[z]).round(ROUND_TO) if zones.has_key?(z) # Note: oddly, some parcels have null for ZONING
+        valsize[SIZE][owner][z] = (acres[SIZE_OFFSET] / zones[z]).round(ROUND_TO) if zones.has_key?(z) # Note: oddly, some parcels have null for ZONING
       end
       ctr += 1
       break if ctr > max
     end
     return valsize
+  end
+
+  # Find top X owners per zoned land type
+  # @param owners hash 
+  # @param zones total acres per zoning type
+  # @param num of top owners to output 
+  # @return TopZoneOwners hasn with just comparison data per zoning area
+  #   ArlingtonMA_TopZoneOwners.json: {  TBD  }
+  def top_zone_owners(owners, zones, max)
+    valsize = {VAL => {}, SIZE => {}}
+    ctr = 0
+    zones.each do |zone, unused|
+      valsize[VAL][zone] = {}
+      val = owners.sort_by { |owner, hash| - (hash[ZONES].has_key?(zone) ? hash[ZONES][zone][VAL_OFFSET] : 0) }
+      ctr = 0
+      val.each do |owner, hash|
+        break unless hash[ZONES].has_key?(zone)
+        valsize[VAL][zone][owner] = hash[ZONES][zone][VAL_OFFSET]
+        ctr += 1
+        break if ctr > max
+      end
+
+      valsize[SIZE][zone] = {}
+      val = owners.sort_by { |owner, hash| - (hash[ZONES].has_key?(zone) ? hash[ZONES][zone][SIZE_OFFSET] : 0) }
+      ctr = 0
+      val.each do |owner, hash|
+        break unless hash[ZONES].has_key?(zone)
+        acres = hash[ZONES][zone][SIZE_OFFSET]
+        valsize[SIZE][zone][owner] = [ acres.round(ROUND_TO), (acres / zones[zone]).round(ROUND_TO) ]
+        ctr += 1
+        break if ctr > max
+      end
+    end
+    return valsize
+  end
+
+  # Compare total acreage per zone with official zone record
+  # @param owners hash 
+  # @param zones total acres per zoning type
+  # @param num of top owners to output 
+  # @return hash comparison by zone, with listing of properties with zonenull or zonemissing
+  def sum_zones(owners, zones)
+    zonecomp = { 'zonenull' => {}, 'zonemissing' => {} }
+    ctr = 0
+    zones.each do |zone, zsize|
+      zonecomp[zone] = [zsize, 0]
+    end
+    owners.each do |owner, hash|
+      hash[PARCELS].each do |parcel, phash|
+        if phash[ZONING]
+          zonecomp.has_key?(phash[ZONING]) ? zonecomp[phash[ZONING]][1] += phash[LOT_SIZE] : zonecomp['zonemissing'][parcel] = [phash[ZONING], phash[LOT_SIZE]]
+        else
+          zonecomp['zonenull'][parcel] = phash[LOT_SIZE]
+        end
+      end
+    end
+    return zonecomp
   end
 
   # Bottleneck pretty JSON output
@@ -280,11 +344,15 @@ module AssessorParser
       options[:input] ||= "dld/ArlingtonMA_Assess.json"
       options[:owners] ||= "dld/ArlingtonMA_Owners.json"
       options[:topowners] ||= "docs/data/property/ArlingtonMA_TopOwners.json"
+      options[:topzowners] ||= "docs/data/property/ArlingtonMA_TopZOwners.json"
+      options[:zonecomp] ||= "docs/data/property/ArlingtonMA_ZoneComp.json"
       options[:zoning] ||= "docs/data/property/ArlingtonMA_Zoning.json"
       owners = crossindex_owners(JSON.parse(File.read(options[:input])))
       output_json(sumup_owners(owners), options[:owners], true)
       zones = JSON.parse(File.read(options[:zoning]))
       output_json(top_owners(owners, zones[1], NUM_TOP), options[:topowners], true)
+      output_json(top_zone_owners(owners, zones[1], NUM_TOP), options[:topzowners], true)
+      output_json(sum_zones(owners, zones[1]), options[:zonecomp], true)
 
     else
       puts "Please specify an option, use -h for help."
