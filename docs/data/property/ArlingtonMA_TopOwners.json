@@ -1,583 +1,4 @@
 {
-  "parcels": {
-    "Town Of Arlington": 237,
-    "OLD COLONY REALTY PARTNERS LLC": 155,
-    "BRENTWOOD REALTY PARTNERS LLC": 97,
-    "Mirak Family": 31,
-    "COLARUSSO PROPERTIES LLC": 27,
-    "HOUSING CORP OF ARLINGTON": 21,
-    "ARLINGTON HOUSING AUTHORITY": 15,
-    "NOSTALGIA PROPERTIES LLC": 15,
-    "GALVIN SEAN D/TRUSTEE": 14,
-    "Henry E. Davidson, Jr.": 13,
-    "Paul Caruso": 12,
-    "Mugar Family": 11,
-    "CARNEY JOHN A": 9,
-    "ROMAN CATHOLIC ARCH OF BOS": 9,
-    "CAMBRIDGE SAVINGS BANK": 9,
-    "BROOKS AVENUE LLC": 8,
-    "MASS BAY TRANSIT AUTHORITY": 6,
-    "ARLINGTON COAL & LUMBER CO": 6,
-    "Frank Pasciuto": 6,
-    "MASS ARLINGTON REALTY INC": 6,
-    "LOMBARDI KEITH E": 5,
-    "MOUNT AUBURN PROF SERVICES": 5,
-    "CARRIG ROBERT/JAMES/NANCY JANE": 5,
-    "HIGHROCK CHURCH INC": 5,
-    "KO NAI NAN ETAL/ TRUSTEES": 5,
-    "MORRISSETTE LAURA--ETAL": 5,
-    "CAMPOBASSO PROPERTIES LLC": 5,
-    "R A JOHNSON REALTY INC": 5,
-    "ATINIZIAN NIGOGHOS & CAROLYN": 5,
-    "VALERI ROBERT E TRS--ETAL": 4,
-    "864 MASS AVENUE LLC": 4,
-    "ORDER OF SAINT ANNE": 4,
-    "CONSERVATION COMMISSION": 4,
-    "LEADER BANK N.A.": 4,
-    "ARLINGTON HISTORICAL SOCIET": 4,
-    "STORLAZZI EDMUND/TRUSTEE": 4,
-    "HOUSING CORPORATION OF": 4,
-    "KARMEN LLC": 4,
-    "GALVIN SEAN D TRUSTEE": 4,
-    "SEAVER PROPERTIES LLC": 4,
-    "TAURO WALTER J JR &DANIEL ETAL": 4,
-    "POULOS THEODORE": 4,
-    "GOODWIN NANCY C/TRUSTEE": 4,
-    "JOHNSON ARTHUR W TR": 4,
-    "LOMBARDI KEITH": 4,
-    "WINCHESTER COUNTRY CLUB": 4,
-    "LEADER BANK NA": 4,
-    "FAMOLARE GEORGE R & SUSAN P": 4,
-    "TERRY JAAN T/ TRUSTEE": 3,
-    "THE GREEK ORTHODOX CHURCH": 3,
-    "SULLIVAN KARA": 3,
-    "RIBEIRO JOSE & MARIA": 3,
-    "FOSTER-BATES REALTY LLC": 3,
-    "24 EPPING STREET LLC": 3,
-    "BOUBOULIS JAMES & STEFANOS": 3,
-    "MCNULTY JOHN R &": 3,
-    "REILLY JOHN F & MARIA C/TRS": 3,
-    "KUHN JAMES E": 3,
-    "DINUCCI DARIN P": 3,
-    "MCLAUGHLIN LIMITED LLC": 3,
-    "CHOU SONG & CLAIRE": 3,
-    "JOHNS SON LLC": 3,
-    "WATARI HIROMICHI": 3,
-    "ZAGANJORI HAKI & FERIDA TRUSTE": 3,
-    "DINGEE GRACE M/ TRUSTEE": 3,
-    "PINE DANIEL R": 3,
-    "WHITING LORI L & PETER W": 3,
-    "FITZPATRICK MICHAEL F": 3,
-    "NYBERG JONATHAN": 3,
-    "JACQUES BUSINESS PROPERTY LLC": 3,
-    "ENGLISH JEAN": 3,
-    "James F. Doherty": 3,
-    "LACOURT ENTERPRISES LLC": 3,
-    "BROOKS PAUL C & URSZULA M": 3,
-    "PAPAGNI MARGARET TRUSTEE": 3,
-    "BOSTON EDISON CO": 3,
-    "MANSFIELD REALTY MANAGEMENT": 3,
-    "GERMAINE LAWRENCE INCORPORATED": 3,
-    "BITTEKER STEVEN A & EVA B": 3,
-    "BOWES ROBERT E": 3,
-    "ARLINGTON - DUDLEY REALTY LLC": 3,
-    "SENCHURY LLC": 3,
-    "BOSTON GAS COMPANY": 3,
-    "MASS-ARLINGTON REALTY INC": 3,
-    "GALVIN SEAN D/ TRUSTEE": 3,
-    "BHX LLC/TRUSTEE": 3,
-    "BOUBOULIS SAM & AIDA": 3,
-    "GINIVISIAN GEORGE P--ETAL": 3,
-    "CAROWELL LLC": 3,
-    "DIETRICH STEPHAN &": 3,
-    "OUELLETTE MARY F & ROBERT L JR": 3,
-    "HUANG ADRIAN": 3,
-    "AMINI MOUSSA": 3,
-    "CUMMINS JOHN J JR & STACIA J/": 3,
-    "ASCP LLC": 3,
-    "TRAN NANCY H": 3,
-    "PUZZANGHERA PAUL": 3,
-    "HANLON DANIEL J & SUSAN E": 3,
-    "BERLINGHIERI JOSEPH": 3,
-    "ROSSELLI MARCIA C": 3,
-    "ONE EIGHTY LLC": 3
-  },
-  "size": {
-    "Town Of Arlington": {
-      "size": 351.63,
-      "OS": 0.2663,
-      "R1": 0.0875,
-      "R2": 0.0063,
-      "R6": 0.0002,
-      "B3": 0.0147,
-      "B2A": 0.0045,
-      "R5": 0.0005,
-      "I": 0.16,
-      "B5": 0.0948,
-      "B1": 0.0127,
-      "B2": 0.0083,
-      "R7": 0.1489,
-      "R0": 0.0002
-    },
-    "WINCHESTER COUNTRY CLUB": {
-      "size": 48.22,
-      "R0": 0.2027
-    },
-    "Mirak Family": {
-      "size": 20.11,
-      "B5": 0.2101,
-      "B4": 0.0792,
-      "B2A": 0.1035,
-      "R6": 0.0031,
-      "B3": 0.0351,
-      "I": 0.2303,
-      "R2": 0.0002
-    },
-    "ROMAN CATHOLIC ARCH OF BOS": {
-      "size": 19.92,
-      "R2": 0.004,
-      "R1": 0.0063
-    },
-    "ARLINGTON HOUSING AUTHORITY": {
-      "size": 19.48,
-      "R2": 0.0075,
-      "R5": 0.1103,
-      "R7": 0.1426,
-      "R6": 0.0915,
-      "R1": 0.0001
-    },
-    "Mugar Family": {
-      "size": 17.83,
-      "PUD": 0.9627,
-      "OS": 0.0029,
-      "R1": 0.0002
-    },
-    "FHF 1 ARLINGTON 360 LLC": {
-      "size": 16.17,
-      "MU": 0.8857
-    },
-    "CATHOLIC CEMETARY ASSOC": {
-      "size": 14.92,
-      "R1": 0.0054
-    },
-    "BELMONT COUNTRY CLUB INC": {
-      "size": 11.32,
-      "R1": 0.0041
-    },
-    "NOSTALGIA PROPERTIES LLC": {
-      "size": 5.74,
-      "R6": 0.0224,
-      "R7": 0.0289,
-      "I": 0.0258,
-      "R5": 0.0376,
-      "R1": 0.0001
-    },
-    "CONSERVATION FOOD & HEALTH": {
-      "size": 5.29,
-      "R5": 0.083
-    },
-    "US REIF BRIGHAM SQUARE": {
-      "size": 3.87,
-      "B2A": 0.1741
-    },
-    "Paul Caruso": {
-      "size": 3.43,
-      "I": 0.0085,
-      "R2": 0.0011,
-      "R1": 0.0002,
-      "R0": 0.008
-    },
-    "HOUSING CORP OF ARLINGTON": {
-      "size": 3.32,
-      "R2": 0.0023,
-      "B4": 0.0081,
-      "R7": 0.0397,
-      "R1": 0.0001,
-      "R6": 0.0047,
-      "R5": 0.0038
-    },
-    "THE GREEK ORTHODOX CHURCH": {
-      "size": 3.31,
-      "R1": 0.0012
-    },
-    "GALVIN SEAN D/TRUSTEE": {
-      "size": 3.09,
-      "R1": 0.0002,
-      "B2": 0.013,
-      "R2": 0.0031,
-      "R5": 0.006
-    },
-    "ARLINGTON COAL & LUMBER CO": {
-      "size": 3.09,
-      "I": 0.0563,
-      "B3": 0.0107
-    },
-    "30 PARK AVE ASSOC LLP": {
-      "size": 2.95,
-      "I": 0.06
-    },
-    "JOHNSON ARTHUR W TR": {
-      "size": 2.48,
-      "R5": 0.0389
-    },
-    "MILLBROOK SQ APARTMENTS CO": {
-      "size": 2.43,
-      "R7": 0.1096
-    },
-    "MARLEY WILLIAM GNC": {
-      "size": 2.32,
-      "B2A": 0.1044
-    },
-    "BOSTON GAS COMPANY": {
-      "size": 2.27,
-      "I": 0.0081,
-      "R1": 0.0007
-    },
-    "Henry E. Davidson, Jr.": {
-      "size": 2.21,
-      "B1": 0.0364,
-      "R2": 0.0013,
-      "R6": 0.0077
-    },
-    "STERLING KATHARINE PARKS": {
-      "size": 2.15,
-      "R1": 0.0008
-    },
-    "MBC REALTY LLC": {
-      "size": 2.14,
-      "R5": 0.0336
-    },
-    "CAMPOBASSO PROPERTIES LLC": {
-      "size": 2.1,
-      "B1": 0.0113,
-      "R5": 0.019,
-      "B2": 0.0336
-    },
-    "ARLINGTON LAND TRUST/ INC": {
-      "size": 2.0,
-      "R1": 0.0007
-    },
-    "SUNRISE ASSISTED LIVING INC": {
-      "size": 1.96,
-      "R7": 0.0884
-    },
-    "THE STOP&SHOP SUPERMRKT LESSEE": {
-      "size": 1.94,
-      "B2A": 0.0873
-    },
-    "ARMENIAN CULTURAL": {
-      "size": 1.9,
-      "R0": 0.008
-    },
-    "BRIGHTVIEW ARLINGTON LLC": {
-      "size": 1.84
-    },
-    "NOYES REALTY LLLP": {
-      "size": 1.83,
-      "B4": 0.0596
-    },
-    "KELWYN MANOR ASSOCIATION IN": {
-      "size": 1.78,
-      "R1": 0.0006
-    },
-    "GERMAINE LAWRENCE INCORPORATED": {
-      "size": 1.77,
-      "R1": 0.0006
-    },
-    "SCHOOLS FOR CHILDREN INC": {
-      "size": 1.73,
-      "R1": 0.0006
-    },
-    "METROPOLITIAN DIST COMM": {
-      "size": 1.72,
-      "R1": 0.0006
-    },
-    "ORDER OF SAINT ANNE": {
-      "size": 1.64,
-      "R1": 0.0006
-    },
-    "JOHNSON SANDRA A-TR--ETAL": {
-      "size": 1.63,
-      "R5": 0.0256
-    },
-    "30 PARK AVE ASSOCIATES LLC": {
-      "size": 1.56,
-      "I": 0.0317
-    },
-    "R A JOHNSON REALTY INC": {
-      "size": 1.49,
-      "R2": 0.0017,
-      "R6": 0.0092
-    },
-    "DE VINCENT ARTHUR TRS-ETAL": {
-      "size": 1.48,
-      "B2A": 0.0666
-    },
-    "BROOKS AVENUE LLC": {
-      "size": 1.46,
-      "R2": 0.0007,
-      "R6": 0.0208
-    },
-    "FIRST CONGREGATIONAL PARISH": {
-      "size": 1.43,
-      "R1": 0.0005
-    },
-    "DEJESUS JOHN ANDREW TRS": {
-      "size": 1.39,
-      "B2A": 0.0625
-    },
-    "ATINIZIAN NIGOGHOS & CAROLYN": {
-      "size": 1.38,
-      "B2": 0.0336,
-      "B3": 0.0124,
-      "R5": 0.0069
-    },
-    "NWCA ARLINGTON LLC": {
-      "size": 1.37,
-      "B2A": 0.0616
-    },
-    "HOLMES JOHN K": {
-      "size": 1.32,
-      "R0": 0.0055
-    },
-    "BRUNO RAFFAELE & SILVANA": {
-      "size": 1.29,
-      "R0": 0.0054
-    },
-    "ST PAUL EVANGELICAL LUTHERA": {
-      "size": 1.28,
-      "R1": 0.0005
-    },
-    "MORRISSETTE LAURA--ETAL": {
-      "size": 1.26,
-      "R2": 0.002
-    },
-    "MASS BAY TRANSIT AUTHORITY": {
-      "size": 1.24,
-      "OS": 0.0006,
-      "T": 1.3636
-    },
-    "P&D REALTY": {
-      "size": 1.23,
-      "B3": 0.0411
-    },
-    "CARNEY JOHN A": {
-      "size": 1.23,
-      "R2": 0.0002,
-      "R6": 0.0033,
-      "B4": 0.0075,
-      "R7": 0.0059,
-      "R1": 0.0002
-    },
-    "CLAREMONT ARLINGTON SUITES LLC": {
-      "size": 1.19,
-      "B2A": 0.0535
-    },
-    "Frank Pasciuto": {
-      "size": 1.17,
-      "B1": 0.0039,
-      "B3": 0.0244,
-      "B2": 0.0195
-    },
-    "BOWERS SUTER TERESA": {
-      "size": 1.1,
-      "R1": 0.0004
-    },
-    "PARK AVE HEALTH CENTER": {
-      "size": 1.06,
-      "R2": 0.0017
-    },
-    "LALICATA REALTY LLC": {
-      "size": 1.05,
-      "I": 0.0213
-    },
-    "GOODWIN NANCY C/TRUSTEE": {
-      "size": 1.05,
-      "R0": 0.0044
-    },
-    "HARTES LLC": {
-      "size": 1.03,
-      "R1": 0.0004
-    },
-    "SANTINI MARK & GARY--TRS": {
-      "size": 1.0,
-      "I": 0.0203
-    },
-    "RASMUSSEN HELEN M": {
-      "size": 0.98,
-      "R1": 0.0004
-    },
-    "GENERATIONS PROPERTIES": {
-      "size": 0.98,
-      "R6": 0.02
-    },
-    "FIRST BAPTIST CHURCH": {
-      "size": 0.95,
-      "R1": 0.0003
-    },
-    "BOWEN RODERIC/BARBARA": {
-      "size": 0.95,
-      "R0": 0.004
-    },
-    "PIAZZA LOUISE": {
-      "size": 0.94,
-      "R0": 0.004
-    },
-    "CAMBRIDGE SAVINGS BANK": {
-      "size": 0.93,
-      "B3": 0.0104,
-      "B5": 0.0474
-    },
-    "SANTINI FABRIZIO": {
-      "size": 0.93,
-      "R0": 0.0039
-    },
-    "87 MYSTIC STREET LLC": {
-      "size": 0.92,
-      "I": 0.0187
-    },
-    "ARONSON RICHARD B/ TRUSTEE": {
-      "size": 0.92,
-      "R1": 0.0003
-    },
-    "SHEFFIELD PARTNERS LLC": {
-      "size": 0.92,
-      "B3": 0.0308
-    },
-    "FARRELL DANIEL J/TRUSTEE": {
-      "size": 0.91,
-      "I": 0.0185
-    },
-    "HIGHROCK CHURCH INC": {
-      "size": 0.91,
-      "I": 0.0169,
-      "B1": 0.0028
-    },
-    "AKBARIAN MOHAMMED MD": {
-      "size": 0.9,
-      "B3": 0.0301
-    },
-    "ST PAULS LUTHERAN CHURCH": {
-      "size": 0.89,
-      "R1": 0.0003
-    },
-    "JBBP MASS AVE LLC": {
-      "size": 0.88,
-      "R6": 0.0133,
-      "R2": 0.0004
-    },
-    "LOMBARDI KEITH E": {
-      "size": 0.88,
-      "R2": 0.0011,
-      "R1": 0.0001
-    },
-    "KOLLIGIAN JOAN E": {
-      "size": 0.87,
-      "R0": 0.0037
-    },
-    "VAN THONG JEAN-MANUEL": {
-      "size": 0.86,
-      "R0": 0.0036
-    },
-    "TEUBER ANDREAS": {
-      "size": 0.85,
-      "R0": 0.0036
-    },
-    "OCKERBLOOM GAIL": {
-      "size": 0.84,
-      "R0": 0.0035
-    },
-    "SEAVER PROPERTIES LLC": {
-      "size": 0.84,
-      "R1": 0.0003,
-      "R2": 0.0002
-    },
-    "JOHNSON LIMITED PARTNERSHIP": {
-      "size": 0.83,
-      "R6": 0.0169
-    },
-    "FAMOLARE GEORGE R & SUSAN P": {
-      "size": 0.83,
-      "R1": 0.0001,
-      "B3": 0.0094,
-      "R2": 0.0004,
-      "B2": 0.0071
-    },
-    "James F. Doherty": {
-      "size": 0.82,
-      "B4": 0.0072,
-      "R1": 0.0002,
-      "B1": 0.0053
-    },
-    "1398 MASSACHUSETTS AVE. LLC": {
-      "size": 0.82,
-      "B3": 0.0274
-    },
-    "275 BROADWAY LLC": {
-      "size": 0.81,
-      "R5": 0.0105,
-      "R2": 0.0002
-    },
-    "ARLINGTON-GROVE REALTY LLC": {
-      "size": 0.81,
-      "R5": 0.0127
-    },
-    "VERIZON NEW ENGLAND INC.": {
-      "size": 0.8,
-      "R1": 0.0003
-    },
-    "FOUGERE RICHARD J/SUSAN M": {
-      "size": 0.79,
-      "R0": 0.0033
-    },
-    "ARLINGTON-FREMONT RLTY INC": {
-      "size": 0.79,
-      "R5": 0.0124
-    },
-    "34 DUDLEY STREET LLC": {
-      "size": 0.77,
-      "I": 0.0157
-    },
-    "DINGEE GRACE M/ TRUSTEE": {
-      "size": 0.77,
-      "R1": 0.0003
-    },
-    "GALVIN SEAN D TRUSTEE": {
-      "size": 0.76,
-      "B2": 0.0047,
-      "R2": 0.0011
-    },
-    "LOMBARDI KEITH": {
-      "size": 0.75,
-      "R2": 0.0006,
-      "R0": 0.0014,
-      "R1": 0.0
-    },
-    "TRINITY BAPTIST CHURCH": {
-      "size": 0.75,
-      "R1": 0.0003
-    },
-    "KO NAI NAN ETAL/ TRUSTEES": {
-      "size": 0.74,
-      "B4": 0.0241
-    },
-    "BURGE ROBERT S": {
-      "size": 0.74,
-      "R1": 0.0003
-    },
-    "JOHNSON SANDRA A--ETAL": {
-      "size": 0.74,
-      "R5": 0.0116
-    },
-    "WHITING LORI L & PETER W": {
-      "size": 0.73,
-      "R1": 0.0003
-    },
-    "MCKEE ANDREW O": {
-      "size": 0.72,
-      "R1": 0.0003
-    }
-  },
   "val": {
     "Town Of Arlington": 571349500,
     "Mirak Family": 82444000,
@@ -585,13 +6,12 @@
     "ARLINGTON HOUSING AUTHORITY": 53547800,
     "ROMAN CATHOLIC ARCH OF BOS": 47729400,
     "US REIF BRIGHAM SQUARE": 47352400,
+    "Henry E. Davidson, Jr.": 42576800,
     "NOSTALGIA PROPERTIES LLC": 42307900,
     "OLD COLONY REALTY PARTNERS LLC": 35668400,
     "BRENTWOOD REALTY PARTNERS LLC": 32345200,
     "MILLBROOK SQ APARTMENTS CO": 22719400,
     "CLAREMONT ARLINGTON SUITES LLC": 22326400,
-    "BROOKS AVENUE LLC": 18647100,
-    "Henry E. Davidson, Jr.": 16661400,
     "CONSERVATION FOOD & HEALTH": 16281100,
     "JOHNSON ARTHUR W TR": 14424300,
     "WINCHESTER COUNTRY CLUB": 14123862,
@@ -623,7 +43,6 @@
     "GERMAINE LAWRENCE INCORPORATED": 6077400,
     "FIRST CONGREGATIONAL PARISH": 5827000,
     "R A JOHNSON REALTY INC": 5807400,
-    "30 PARK AVE ASSOC LLP": 5531200,
     "STOREY PROPERTIES LLC": 5466500,
     "MVC PROPERTY 1 LLC": 5372300,
     "JBBP MASS AVE LLC": 5332300,
@@ -679,6 +98,589 @@
     "TAKACS EDWARD W": 3232700,
     "FREEDOM REALTY PARTNERSHIP LLP": 3201600,
     "LEADER BANK N.A.": 3194600,
-    "ARONSON RICHARD B/ TRUSTEE": 3153600
+    "ARONSON RICHARD B/ TRUSTEE": 3153600,
+    "1406 MASS AVE LLC": 3149300,
+    "WATERTOWN SAVINGS BANK": 3134000
+  },
+  "parcels": {
+    "Town Of Arlington": 237,
+    "OLD COLONY REALTY PARTNERS LLC": 155,
+    "BRENTWOOD REALTY PARTNERS LLC": 97,
+    "Mirak Family": 31,
+    "COLARUSSO PROPERTIES LLC": 27,
+    "Henry E. Davidson, Jr.": 23,
+    "HOUSING CORP OF ARLINGTON": 21,
+    "ARLINGTON HOUSING AUTHORITY": 15,
+    "NOSTALGIA PROPERTIES LLC": 15,
+    "GALVIN SEAN D/TRUSTEE": 14,
+    "Paul Caruso": 12,
+    "Mugar Family": 11,
+    "ROMAN CATHOLIC ARCH OF BOS": 9,
+    "CARNEY JOHN A": 9,
+    "CAMBRIDGE SAVINGS BANK": 9,
+    "ARLINGTON COAL & LUMBER CO": 6,
+    "MASS BAY TRANSIT AUTHORITY": 6,
+    "MASS ARLINGTON REALTY INC": 6,
+    "Frank Pasciuto": 6,
+    "HIGHROCK CHURCH INC": 5,
+    "MOUNT AUBURN PROF SERVICES": 5,
+    "CAMPOBASSO PROPERTIES LLC": 5,
+    "MORRISSETTE LAURA--ETAL": 5,
+    "R A JOHNSON REALTY INC": 5,
+    "CARRIG ROBERT/JAMES/NANCY JANE": 5,
+    "LOMBARDI KEITH E": 5,
+    "ATINIZIAN NIGOGHOS & CAROLYN": 5,
+    "KO NAI NAN ETAL/ TRUSTEES": 5,
+    "HOUSING CORPORATION OF": 4,
+    "VALERI ROBERT E TRS--ETAL": 4,
+    "TAURO WALTER J JR &DANIEL ETAL": 4,
+    "ARLINGTON HISTORICAL SOCIET": 4,
+    "SEAVER PROPERTIES LLC": 4,
+    "GOODWIN NANCY C/TRUSTEE": 4,
+    "POULOS THEODORE": 4,
+    "WINCHESTER COUNTRY CLUB": 4,
+    "FAMOLARE GEORGE R & SUSAN P": 4,
+    "GALVIN SEAN D TRUSTEE": 4,
+    "864 MASS AVENUE LLC": 4,
+    "KARMEN LLC": 4,
+    "CONSERVATION COMMISSION": 4,
+    "LOMBARDI KEITH": 4,
+    "ORDER OF SAINT ANNE": 4,
+    "LEADER BANK N.A.": 4,
+    "LEADER BANK NA": 4,
+    "JOHNSON ARTHUR W TR": 4,
+    "STORLAZZI EDMUND/TRUSTEE": 4,
+    "ASCP LLC": 3,
+    "HUANG ADRIAN": 3,
+    "MASS-ARLINGTON REALTY INC": 3,
+    "ENGLISH JEAN": 3,
+    "BOSTON EDISON CO": 3,
+    "BOSTON GAS COMPANY": 3,
+    "MCLAUGHLIN LIMITED LLC": 3,
+    "MANSFIELD REALTY MANAGEMENT": 3,
+    "BITTEKER STEVEN A & EVA B": 3,
+    "TERRY JAAN T/ TRUSTEE": 3,
+    "WATARI HIROMICHI": 3,
+    "AMINI MOUSSA": 3,
+    "SANTINI MARK & GARY--TRS": 3,
+    "SENCHURY LLC": 3,
+    "ONE EIGHTY LLC": 3,
+    "DIETRICH STEPHAN &": 3,
+    "DINGEE GRACE M/ TRUSTEE": 3,
+    "WHITING LORI L & PETER W": 3,
+    "FITZPATRICK MICHAEL F": 3,
+    "HANLON DANIEL J & SUSAN E": 3,
+    "RIBEIRO JOSE & MARIA": 3,
+    "JACQUES BUSINESS PROPERTY LLC": 3,
+    "FOSTER-BATES REALTY LLC": 3,
+    "ZAGANJORI HAKI & FERIDA TRUSTE": 3,
+    "PUZZANGHERA PAUL": 3,
+    "BHX LLC/TRUSTEE": 3,
+    "NYBERG JONATHAN": 3,
+    "LACOURT ENTERPRISES LLC": 3,
+    "MYATT CHARLES L": 3,
+    "BOUBOULIS JAMES & STEFANOS": 3,
+    "BROOKS PAUL C & URSZULA M": 3,
+    "TRAN NANCY H": 3,
+    "ROSSELLI MARCIA C": 3,
+    "OUELLETTE MARY F & ROBERT L JR": 3,
+    "DINUCCI DARIN P": 3,
+    "PINE DANIEL R": 3,
+    "GINIVISIAN GEORGE P--ETAL": 3,
+    "THE GREEK ORTHODOX CHURCH": 3,
+    "CHOU SONG & CLAIRE": 3,
+    "BERLINGHIERI JOSEPH": 3,
+    "24 EPPING STREET LLC": 3,
+    "James F. Doherty": 3,
+    "BOUBOULIS SAM & AIDA": 3,
+    "KUHN JAMES E": 3,
+    "CUMMINS JOHN J JR & STACIA J/": 3,
+    "ARLINGTON - DUDLEY REALTY LLC": 3,
+    "SULLIVAN KARA": 3,
+    "GERMAINE LAWRENCE INCORPORATED": 3,
+    "CAROWELL LLC": 3,
+    "PAPAGNI MARGARET TRUSTEE": 3,
+    "MCNULTY JOHN R &": 3,
+    "REILLY JOHN F & MARIA C/TRS": 3,
+    "GALVIN SEAN D/ TRUSTEE": 3,
+    "JOHNS SON LLC": 3
+  },
+  "size": {
+    "Town Of Arlington": {
+      "size": 351.63,
+      "OS": 0.987,
+      "R1": 0.1635,
+      "R2": 0.0108,
+      "R6": 0.0005,
+      "B3": 0.0277,
+      "B2A": 0.0053,
+      "R5": 0.0009,
+      "I": 0.1805,
+      "B5": 0.1533,
+      "B1": 0.0231,
+      "B2": 0.0161,
+      "R7": 0.234,
+      "R0": 0.0002
+    },
+    "WINCHESTER COUNTRY CLUB": {
+      "size": 48.22,
+      "R0": 0.237
+    },
+    "Mirak Family": {
+      "size": 20.11,
+      "B5": 0.3399,
+      "B4": 0.1301,
+      "B2A": 0.1226,
+      "R6": 0.0071,
+      "B3": 0.0662,
+      "I": 0.2599,
+      "R2": 0.0003
+    },
+    "ROMAN CATHOLIC ARCH OF BOS": {
+      "size": 19.92,
+      "R2": 0.0069,
+      "R1": 0.0119
+    },
+    "ARLINGTON HOUSING AUTHORITY": {
+      "size": 19.48,
+      "R2": 0.0129,
+      "R5": 0.209,
+      "R7": 0.2241,
+      "R6": 0.2129,
+      "R1": 0.0001
+    },
+    "Mugar Family": {
+      "size": 17.83,
+      "PUD": 1.0,
+      "OS": 0.0108,
+      "O": 1.0,
+      "R1": 0.0004
+    },
+    "FHF 1 ARLINGTON 360 LLC": {
+      "size": 16.17,
+      "MU": 1.0
+    },
+    "CATHOLIC CEMETARY ASSOC": {
+      "size": 14.92,
+      "R1": 0.0101
+    },
+    "BELMONT COUNTRY CLUB INC": {
+      "size": 11.32,
+      "R1": 0.0077
+    },
+    "Henry E. Davidson, Jr.": {
+      "size": 8.18,
+      "B1": 0.0661,
+      "R2": 0.0034,
+      "R6": 0.0664,
+      "I": 0.1034
+    },
+    "NOSTALGIA PROPERTIES LLC": {
+      "size": 5.74,
+      "R6": 0.0522,
+      "R7": 0.0454,
+      "I": 0.0291,
+      "R5": 0.0713,
+      "R1": 0.0002
+    },
+    "CONSERVATION FOOD & HEALTH": {
+      "size": 5.29,
+      "R5": 0.1573
+    },
+    "US REIF BRIGHAM SQUARE": {
+      "size": 3.87,
+      "B2A": 0.2063
+    },
+    "Paul Caruso": {
+      "size": 3.43,
+      "I": 0.0096,
+      "R2": 0.0019,
+      "R1": 0.0003,
+      "R0": 0.0094
+    },
+    "HOUSING CORP OF ARLINGTON": {
+      "size": 3.32,
+      "R2": 0.0039,
+      "B4": 0.0134,
+      "R7": 0.0624,
+      "R1": 0.0002,
+      "R6": 0.0109,
+      "R5": 0.0071
+    },
+    "THE GREEK ORTHODOX CHURCH": {
+      "size": 3.31,
+      "R1": 0.0023
+    },
+    "ARLINGTON COAL & LUMBER CO": {
+      "size": 3.09,
+      "I": 0.0635,
+      "B3": 0.0202
+    },
+    "GALVIN SEAN D/TRUSTEE": {
+      "size": 3.09,
+      "R1": 0.0004,
+      "B2": 0.0253,
+      "R2": 0.0053,
+      "R5": 0.0113
+    },
+    "JOHNSON ARTHUR W TR": {
+      "size": 2.48,
+      "R5": 0.0737
+    },
+    "MILLBROOK SQ APARTMENTS CO": {
+      "size": 2.43,
+      "R7": 0.1723
+    },
+    "MARLEY WILLIAM GNC": {
+      "size": 2.32,
+      "B2A": 0.1237
+    },
+    "BOSTON GAS COMPANY": {
+      "size": 2.27,
+      "I": 0.0092,
+      "R1": 0.0013
+    },
+    "STERLING KATHARINE PARKS": {
+      "size": 2.15,
+      "R1": 0.0015
+    },
+    "MBC REALTY LLC": {
+      "size": 2.14,
+      "R5": 0.0636
+    },
+    "CAMPOBASSO PROPERTIES LLC": {
+      "size": 2.1,
+      "B1": 0.0205,
+      "R5": 0.036,
+      "B2": 0.0656
+    },
+    "ARLINGTON LAND TRUST/ INC": {
+      "size": 2.0,
+      "R1": 0.0014
+    },
+    "SUNRISE ASSISTED LIVING INC": {
+      "size": 1.96,
+      "R7": 0.139
+    },
+    "THE STOP&SHOP SUPERMRKT LESSEE": {
+      "size": 1.94,
+      "B2A": 0.1034
+    },
+    "ARMENIAN CULTURAL": {
+      "size": 1.9,
+      "R0": 0.0093
+    },
+    "BRIGHTVIEW ARLINGTON LLC": {
+      "size": 1.84,
+      "H": 1.0
+    },
+    "NOYES REALTY LLLP": {
+      "size": 1.83,
+      "B4": 0.098
+    },
+    "KELWYN MANOR ASSOCIATION IN": {
+      "size": 1.78,
+      "R1": 0.0012
+    },
+    "GERMAINE LAWRENCE INCORPORATED": {
+      "size": 1.77,
+      "R1": 0.0012
+    },
+    "SCHOOLS FOR CHILDREN INC": {
+      "size": 1.73,
+      "R1": 0.0012
+    },
+    "METROPOLITIAN DIST COMM": {
+      "size": 1.72,
+      "R1": 0.0012
+    },
+    "ORDER OF SAINT ANNE": {
+      "size": 1.64,
+      "R1": 0.0011
+    },
+    "JOHNSON SANDRA A-TR--ETAL": {
+      "size": 1.63,
+      "R5": 0.0485
+    },
+    "R A JOHNSON REALTY INC": {
+      "size": 1.49,
+      "R2": 0.0029,
+      "R6": 0.0213
+    },
+    "DE VINCENT ARTHUR TRS-ETAL": {
+      "size": 1.48,
+      "B2A": 0.0789
+    },
+    "FIRST CONGREGATIONAL PARISH": {
+      "size": 1.43,
+      "R1": 0.001
+    },
+    "DEJESUS JOHN ANDREW TRS": {
+      "size": 1.39,
+      "B2A": 0.0741
+    },
+    "ATINIZIAN NIGOGHOS & CAROLYN": {
+      "size": 1.38,
+      "B2": 0.0656,
+      "B3": 0.0233,
+      "R5": 0.0131
+    },
+    "NWCA ARLINGTON LLC": {
+      "size": 1.37,
+      "B2A": 0.073
+    },
+    "HOLMES JOHN K": {
+      "size": 1.32,
+      "R0": 0.0065
+    },
+    "BRUNO RAFFAELE & SILVANA": {
+      "size": 1.29,
+      "R0": 0.0063
+    },
+    "ST PAUL EVANGELICAL LUTHERA": {
+      "size": 1.28,
+      "R1": 0.0009
+    },
+    "MORRISSETTE LAURA--ETAL": {
+      "size": 1.26,
+      "R2": 0.0035
+    },
+    "MASS BAY TRANSIT AUTHORITY": {
+      "size": 1.24,
+      "OS": 0.0021,
+      "T": 0.7027
+    },
+    "P&D REALTY": {
+      "size": 1.23,
+      "B3": 0.0776
+    },
+    "CARNEY JOHN A": {
+      "size": 1.23,
+      "R2": 0.0003,
+      "R6": 0.0076,
+      "B4": 0.0123,
+      "R7": 0.0092,
+      "R1": 0.0004
+    },
+    "CLAREMONT ARLINGTON SUITES LLC": {
+      "size": 1.19,
+      "B2A": 0.0634
+    },
+    "Frank Pasciuto": {
+      "size": 1.17,
+      "B1": 0.0071,
+      "B3": 0.046,
+      "B2": 0.038
+    },
+    "BOWERS SUTER TERESA": {
+      "size": 1.1,
+      "R1": 0.0007
+    },
+    "PARK AVE HEALTH CENTER": {
+      "size": 1.06,
+      "R2": 0.0029
+    },
+    "GOODWIN NANCY C/TRUSTEE": {
+      "size": 1.05,
+      "R0": 0.0052
+    },
+    "LALICATA REALTY LLC": {
+      "size": 1.05,
+      "I": 0.0241
+    },
+    "HARTES LLC": {
+      "size": 1.03,
+      "R1": 0.0007
+    },
+    "SANTINI MARK & GARY--TRS": {
+      "size": 1.0,
+      "I": 0.0229
+    },
+    "RASMUSSEN HELEN M": {
+      "size": 0.98,
+      "R1": 0.0007
+    },
+    "GENERATIONS PROPERTIES": {
+      "size": 0.98,
+      "R6": 0.0465
+    },
+    "BOWEN RODERIC/BARBARA": {
+      "size": 0.95,
+      "R0": 0.0047
+    },
+    "FIRST BAPTIST CHURCH": {
+      "size": 0.95,
+      "R1": 0.0006
+    },
+    "PIAZZA LOUISE": {
+      "size": 0.94,
+      "R0": 0.0046
+    },
+    "SANTINI FABRIZIO": {
+      "size": 0.93,
+      "R0": 0.0046
+    },
+    "CAMBRIDGE SAVINGS BANK": {
+      "size": 0.93,
+      "B3": 0.0195,
+      "B5": 0.0766
+    },
+    "87 MYSTIC STREET LLC": {
+      "size": 0.92,
+      "I": 0.0211
+    },
+    "SHEFFIELD PARTNERS LLC": {
+      "size": 0.92,
+      "B3": 0.058
+    },
+    "ARONSON RICHARD B/ TRUSTEE": {
+      "size": 0.92,
+      "R1": 0.0006
+    },
+    "HIGHROCK CHURCH INC": {
+      "size": 0.91,
+      "I": 0.019,
+      "B1": 0.0051
+    },
+    "FARRELL DANIEL J/TRUSTEE": {
+      "size": 0.91,
+      "I": 0.0209
+    },
+    "AKBARIAN MOHAMMED MD": {
+      "size": 0.9,
+      "B3": 0.0567
+    },
+    "ST PAULS LUTHERAN CHURCH": {
+      "size": 0.89,
+      "R1": 0.0006
+    },
+    "LOMBARDI KEITH E": {
+      "size": 0.88,
+      "R2": 0.0019,
+      "R1": 0.0001
+    },
+    "JBBP MASS AVE LLC": {
+      "size": 0.88,
+      "R6": 0.0308,
+      "R2": 0.0006
+    },
+    "KOLLIGIAN JOAN E": {
+      "size": 0.87,
+      "R0": 0.0043
+    },
+    "VAN THONG JEAN-MANUEL": {
+      "size": 0.86,
+      "R0": 0.0042
+    },
+    "TEUBER ANDREAS": {
+      "size": 0.85,
+      "R0": 0.0042
+    },
+    "SEAVER PROPERTIES LLC": {
+      "size": 0.84,
+      "R1": 0.0005,
+      "R2": 0.0004
+    },
+    "OCKERBLOOM GAIL": {
+      "size": 0.84,
+      "R0": 0.0041
+    },
+    "JOHNSON LIMITED PARTNERSHIP": {
+      "size": 0.83,
+      "R6": 0.0394
+    },
+    "FAMOLARE GEORGE R & SUSAN P": {
+      "size": 0.83,
+      "R1": 0.0001,
+      "B3": 0.0177,
+      "R2": 0.0007,
+      "B2": 0.0138
+    },
+    "1398 MASSACHUSETTS AVE. LLC": {
+      "size": 0.82,
+      "B3": 0.0517
+    },
+    "James F. Doherty": {
+      "size": 0.82,
+      "B4": 0.0118,
+      "R1": 0.0003,
+      "B1": 0.0096
+    },
+    "275 BROADWAY LLC": {
+      "size": 0.81,
+      "R5": 0.0199,
+      "R2": 0.0004
+    },
+    "ARLINGTON-GROVE REALTY LLC": {
+      "size": 0.81,
+      "R5": 0.0241
+    },
+    "VERIZON NEW ENGLAND INC.": {
+      "size": 0.8,
+      "R1": 0.0005
+    },
+    "ARLINGTON-FREMONT RLTY INC": {
+      "size": 0.79,
+      "R5": 0.0235
+    },
+    "FOUGERE RICHARD J/SUSAN M": {
+      "size": 0.79,
+      "R0": 0.0039
+    },
+    "DINGEE GRACE M/ TRUSTEE": {
+      "size": 0.77,
+      "R1": 0.0005
+    },
+    "34 DUDLEY STREET LLC": {
+      "size": 0.77,
+      "I": 0.0177
+    },
+    "GALVIN SEAN D TRUSTEE": {
+      "size": 0.76,
+      "B2": 0.0092,
+      "R2": 0.0019
+    },
+    "TRINITY BAPTIST CHURCH": {
+      "size": 0.75,
+      "R1": 0.0005
+    },
+    "LOMBARDI KEITH": {
+      "size": 0.75,
+      "R2": 0.001,
+      "R0": 0.0017,
+      "R1": 0.0
+    },
+    "BURGE ROBERT S": {
+      "size": 0.74,
+      "R1": 0.0005
+    },
+    "JOHNSON SANDRA A--ETAL": {
+      "size": 0.74,
+      "R5": 0.022
+    },
+    "KO NAI NAN ETAL/ TRUSTEES": {
+      "size": 0.74,
+      "B4": 0.0396
+    },
+    "WHITING LORI L & PETER W": {
+      "size": 0.73,
+      "R1": 0.0005
+    },
+    "MCKEE ANDREW O": {
+      "size": 0.72,
+      "R1": 0.0005
+    },
+    "RONAYNE BRENDAN": {
+      "size": 0.71,
+      "R1": 0.0005
+    },
+    "UNITED STATES GOVERNMENT": {
+      "size": 0.71,
+      "B1": 0.0455
+    },
+    "CARTER E EUGENE--ETAL": {
+      "size": 0.7,
+      "R1": 0.0005
+    }
   }
 }

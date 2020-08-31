@@ -26,6 +26,7 @@ module AssessorParser
   - Run this program like so, in order:
     ruby src/AssessorParser.rb -a    (Generates dld/ArlingtonMA_Assess.json)
     ruby src/AssessorParser.rb -z    (Generates docs/data/property/ArlingtonMA_Zoning.json)
+      Note: Zoning information may not directly match Assess information, so we count zone area twice
     ruby src/AssessorParser.rb -g    (Generates docs/data/property/ArlingtonMA_TopOwners.json)
   HEREDOC
   extend self
@@ -47,6 +48,7 @@ module AssessorParser
   VAL_OFFSET = 1
   PARCELS = 'parcels'
   ZONES = 'zones'
+  ZONESIZE = 'zonesize'
   ROUND_TO = 4 # Rounding lot sizes in ownership
   NUM_TOP = 100 # How many top owners to output
   OWNER_MAP = { # From corporate ownership records, mapping beneficial or effective ownership for selected town or developer properties
@@ -89,6 +91,9 @@ module AssessorParser
     "CARUSO PAUL & MARIA A" => "Paul Caruso",
     "JASON TERRACE LLC" => "Henry E. Davidson, Jr.",
     "DAVIDSON MANAGEMENT" => "Henry E. Davidson, Jr.",
+    "30 PARK AVE ASSOC LLP" => "Henry E. Davidson, Jr.",
+    "30 PARK AVE ASSOCIATES LLC" => "Henry E. Davidson, Jr.",
+    "BROOKS AVENUE LLC" => "Henry E. Davidson, Jr.",
     "DAVIDSON HENRY E TRS-ETAL" => "Henry E. Davidson, Jr.", # Not confirmed from corporation records, but shares address/name
     "ARLINGTON LAND REALTY LLC" => "Mugar Family"
   }
@@ -149,11 +154,12 @@ module AssessorParser
     return owners
   end
   
-  # Sum up crossindex for owners with multiple properties  
+  # Sum up crossindex for owners with multiple properties; also calculate ZONESIZE
   # @param owners hash to annotate; @sideeffect adds fields
-  # @return owners hash for chaining
-  #   ArlingtonMA_Owners.json: { parcels: {...}, val, size, zones: { zone: [size, val], ...}}
+  # @return owners, zonesize hashes 
+  #   ArlingtonMA_Owners.json: { owner: {parcels: {...}, val, size, zones: { zone: [size, val], ...}},... ZONESIZE: {}}
   def sumup_owners(owners)
+    zonesize = {}
     owners.each do |owner, owned|
       val = 0
       size = 0
@@ -167,12 +173,20 @@ module AssessorParser
         else
           zones[property[ZONING]] = [property[LOT_SIZE], property[TOTAL_VAL]]
         end
+        if property[ZONING] # Some properties have a null value
+          if zonesize.has_key?(property[ZONING])
+          zonesize[property[ZONING]][SIZE_OFFSET] += property[LOT_SIZE]
+          zonesize[property[ZONING]][VAL_OFFSET] += property[TOTAL_VAL]
+          else
+            zonesize[property[ZONING]] = [property[LOT_SIZE], property[TOTAL_VAL]]
+          end
+        end
       end
       owned[VAL] = val
       owned[SIZE] = size.round(ROUND_TO)
       owned[ZONES] = zones
     end
-    return owners
+    return owners.sort.to_h, zonesize.sort.to_h # Pre-sort here for simplicity
   end
 
   # Find top X owners by value, size, or parcels, and by %age of total zoned land types
@@ -203,7 +217,7 @@ module AssessorParser
       valsize[SIZE][owner] = {}
       valsize[SIZE][owner][SIZE] = hash[SIZE]
       hash[ZONES].each do |z, acres|
-        valsize[SIZE][owner][z] = (acres[SIZE_OFFSET] / zones[z]).round(ROUND_TO) if zones.has_key?(z) # Note: oddly, some parcels have null for ZONING
+        valsize[SIZE][owner][z] = (acres[SIZE_OFFSET] / zones[z][SIZE_OFFSET]).round(ROUND_TO) if zones.has_key?(z) # Note: oddly, some parcels have null for ZONING
       end
       ctr += 1
       break if ctr > max
@@ -237,7 +251,7 @@ module AssessorParser
       val.each do |owner, hash|
         break unless hash[ZONES].has_key?(zone)
         acres = hash[ZONES][zone][SIZE_OFFSET]
-        valsize[SIZE][zone][owner] = [ acres.round(ROUND_TO), (acres / zones[zone]).round(ROUND_TO) ]
+        valsize[SIZE][zone][owner] = [ acres.round(ROUND_TO), (acres / zones[zone][SIZE_OFFSET]).round(ROUND_TO) ]
         ctr += 1
         break if ctr > max
       end
@@ -245,7 +259,7 @@ module AssessorParser
     return valsize
   end
 
-  # Compare total acreage per zone with official zone record
+  # Compare total acreage per zone with total size of each zone
   # @param owners hash 
   # @param zones total acres per zoning type
   # @param num of top owners to output 
@@ -345,14 +359,18 @@ module AssessorParser
       options[:owners] ||= "dld/ArlingtonMA_Owners.json"
       options[:topowners] ||= "docs/data/property/ArlingtonMA_TopOwners.json"
       options[:topzowners] ||= "docs/data/property/ArlingtonMA_TopZOwners.json"
+      options[:zonesize] ||= "docs/data/property/ArlingtonMA_ZoneSize.json"
       options[:zonecomp] ||= "docs/data/property/ArlingtonMA_ZoneComp.json"
       options[:zoning] ||= "docs/data/property/ArlingtonMA_Zoning.json"
       owners = crossindex_owners(JSON.parse(File.read(options[:input])))
-      output_json(sumup_owners(owners), options[:owners], true)
+      owners, zonesize = sumup_owners(owners)
+      output_json(owners, options[:owners], true)
+      output_json(zonesize, options[:zonesize], false)
+      output_json(top_owners(owners, zonesize, NUM_TOP), options[:topowners], false)
+      output_json(top_zone_owners(owners, zonesize, NUM_TOP / 5), options[:topzowners], false)
+       # Zoning area sizes and Assessor-summed Owner sizes don't match, but we'll calculate anyway
       zones = JSON.parse(File.read(options[:zoning]))
-      output_json(top_owners(owners, zones[1], NUM_TOP), options[:topowners], true)
-      output_json(top_zone_owners(owners, zones[1], NUM_TOP), options[:topzowners], true)
-      output_json(sum_zones(owners, zones[1]), options[:zonecomp], true)
+      output_json(sum_zones(owners, zonesize), options[:zonecomp], true)
 
     else
       puts "Please specify an option, use -h for help."

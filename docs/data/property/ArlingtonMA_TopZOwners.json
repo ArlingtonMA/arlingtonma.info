@@ -1,3500 +1,4 @@
 {
-  "size": {
-    "B1": {
-      "Henry E. Davidson, Jr.": [
-        1.03,
-        0.0364
-      ],
-      "UNITED STATES GOVERNMENT": [
-        0.71,
-        0.0251
-      ],
-      "NYBERG JONATHAN M &": [
-        0.59,
-        0.0209
-      ],
-      "1021 MASSACHUSETTS AVENUE LLC": [
-        0.5,
-        0.0177
-      ],
-      "Town Of Arlington": [
-        0.36,
-        0.0127
-      ],
-      "U.S. OF AMERICA POST OFFICE": [
-        0.35,
-        0.0124
-      ],
-      "SAMPSON  MARTHA /TRUSTEE": [
-        0.32,
-        0.0113
-      ],
-      "CAMPOBASSO PROPERTIES LLC": [
-        0.32,
-        0.0113
-      ],
-      "58-60 MEDFORD STREET LLC": [
-        0.29,
-        0.0103
-      ],
-      "H.A.F. INC.": [
-        0.29,
-        0.0103
-      ],
-      "HIGHROCK CHURCH": [
-        0.28,
-        0.0099
-      ],
-      "CHESTNUT REALTY TRUST #1": [
-        0.27,
-        0.0095
-      ],
-      "KEEFE CHARLES D--ETAL": [
-        0.27,
-        0.0095
-      ],
-      "HARMAN ALICE M & GERLAD/TRS": [
-        0.26,
-        0.0092
-      ],
-      "55 KENSINGTON LLC": [
-        0.24,
-        0.0085
-      ],
-      "ANNESE ROBERT J TR J-JUDITH": [
-        0.24,
-        0.0085
-      ],
-      "BHATIA NEERAJ TRUSTEE": [
-        0.23,
-        0.0081
-      ],
-      "KOZELIAN JOHN & SILVA": [
-        0.23,
-        0.0081
-      ],
-      "754 MASS AVE LLC": [
-        0.22,
-        0.0078
-      ],
-      "COURTNEY SARAH L / ETAL TRS": [
-        0.21,
-        0.0074
-      ],
-      "SHAPIRO JANE L TRUSTEE": [
-        0.21,
-        0.0074
-      ],
-      "13 CHESTNUT STREET LLC": [
-        0.2,
-        0.0071
-      ],
-      "HUTCHINS PROPERTIES LLC": [
-        0.2,
-        0.0071
-      ],
-      "ARLINGTON POST NO 39": [
-        0.2,
-        0.0071
-      ],
-      "LANZILLOTTI PALMAR": [
-        0.19,
-        0.0067
-      ],
-      "GRASSI ARMANDO & ANGELA": [
-        0.19,
-        0.0067
-      ],
-      "DE VITO ALFRED M TRUSTEE": [
-        0.19,
-        0.0067
-      ],
-      "WRIGHT ALAN J & MARIE R TRS": [
-        0.18,
-        0.0064
-      ],
-      "ARCHAMBAULT N RICHARD TR": [
-        0.18,
-        0.0064
-      ],
-      "BOBCO LLC": [
-        0.18,
-        0.0064
-      ],
-      "GIUFFRE JANICE M": [
-        0.17,
-        0.006
-      ],
-      "ROGARIS PETER J /TRUSTEE": [
-        0.17,
-        0.006
-      ],
-      "STATHOPOULOS HARALAMBOS N ETAL": [
-        0.17,
-        0.006
-      ],
-      "JOVELLAS ARTHUR S/ TRUSTEE": [
-        0.16,
-        0.0057
-      ],
-      "GNEWUCH CHRISTINA & SCOT C": [
-        0.16,
-        0.0057
-      ],
-      "ERCOLINI MICHAEL": [
-        0.16,
-        0.0057
-      ],
-      "TARANTINO KAREN J": [
-        0.15,
-        0.0053
-      ],
-      "POON CHRISTOPHER/WAN YUK": [
-        0.15,
-        0.0053
-      ],
-      "BOIT NICHOLAS B TRUSTEE": [
-        0.15,
-        0.0053
-      ],
-      "HSU CHENG-PEI & MAGGIE W": [
-        0.15,
-        0.0053
-      ],
-      "PYLE SERENA": [
-        0.15,
-        0.0053
-      ],
-      "James F. Doherty": [
-        0.15,
-        0.0053
-      ],
-      "DE SIMONE DAVID M MD": [
-        0.15,
-        0.0053
-      ],
-      "ZAGANJORI HAKI & FERIDA TRUSTE": [
-        0.14,
-        0.0049
-      ],
-      "BOWES ROBERT E/TRUSTEE": [
-        0.14,
-        0.0049
-      ],
-      "LACOURT ENTERPRISES LLC": [
-        0.14,
-        0.0049
-      ],
-      "1500 MASS AVE LLC": [
-        0.14,
-        0.0049
-      ],
-      "315-317 MASS AVE LLC": [
-        0.13,
-        0.0046
-      ],
-      "TAURO WALTER J JR &DANIEL ETAL": [
-        0.13,
-        0.0046
-      ],
-      "DINIS CHARLES": [
-        0.13,
-        0.0046
-      ],
-      "BICUSPID LLC": [
-        0.13,
-        0.0046
-      ],
-      "HART MICHAEL A/TRUSTEE": [
-        0.13,
-        0.0046
-      ],
-      "HENDERSON ST PROPERTIES LLC": [
-        0.12,
-        0.0042
-      ],
-      "PRVITERA PHILIP J/TRUSTEE": [
-        0.12,
-        0.0042
-      ],
-      "286-288 MASS-ARLINGTON LLC": [
-        0.12,
-        0.0042
-      ],
-      "QUINN PATRICK J & AMY L TRS": [
-        0.12,
-        0.0042
-      ],
-      "DEROSAS DOLORES EILEEN": [
-        0.12,
-        0.0042
-      ],
-      "89 MASS AVE LLC": [
-        0.12,
-        0.0042
-      ],
-      "WF PIGOTT REALTY 2010 LLC": [
-        0.12,
-        0.0042
-      ],
-      "FAN SHUN": [
-        0.11,
-        0.0039
-      ],
-      "CITIZENS BANK": [
-        0.11,
-        0.0039
-      ],
-      "FAKHARZADEH MARYA M/TRUSTEE": [
-        0.11,
-        0.0039
-      ],
-      "CAMPBELL DIONNE M/DEVON L": [
-        0.11,
-        0.0039
-      ],
-      "BAYERL ELIZABETH A": [
-        0.11,
-        0.0039
-      ],
-      "CALIENDO ANTHONY R & MARY JANE": [
-        0.11,
-        0.0039
-      ],
-      "319 MASS AVE LLC": [
-        0.11,
-        0.0039
-      ],
-      "Frank Pasciuto": [
-        0.11,
-        0.0039
-      ],
-      "MIGALA COLT CAROLYN": [
-        0.11,
-        0.0039
-      ],
-      "STATHAKIS NICHOLAS --ETAL": [
-        0.11,
-        0.0039
-      ],
-      "VENTURA SALVATORE &": [
-        0.11,
-        0.0039
-      ],
-      "MULHERN ROBERT & TINA": [
-        0.11,
-        0.0039
-      ],
-      "HEDLUND PETER/MAILE": [
-        0.11,
-        0.0039
-      ],
-      "RATHBUN JENNIE H": [
-        0.1,
-        0.0035
-      ],
-      "GINIVISIAN GEORGE P-JANET L": [
-        0.1,
-        0.0035
-      ],
-      "DIBLASI GERARD J": [
-        0.09,
-        0.0032
-      ],
-      "GROSSMAN ROBERT H--ETAL": [
-        0.09,
-        0.0032
-      ],
-      "HOUSING CORPORATION OF": [
-        0.08,
-        0.0028
-      ],
-      "HIGHROCK CHURCH INC": [
-        0.08,
-        0.0028
-      ],
-      "PANNESI DAVID J/DARIA A": [
-        0.07,
-        0.0025
-      ],
-      "KWAN JOSEPH F": [
-        0.07,
-        0.0025
-      ],
-      "KEEFE KATHERINE G & ROBERT": [
-        0.07,
-        0.0025
-      ],
-      "HEALEY JAMES T & JOSEPHINE": [
-        0.06,
-        0.0021
-      ],
-      "SUGRUE TERESA ETAL/ TRUSTEES": [
-        0.06,
-        0.0021
-      ],
-      "WAGNER BARBARA/CARL/STEPHEN": [
-        0.04,
-        0.0014
-      ],
-      "STATHOPOULOS DIMITRIOS": [
-        0.03,
-        0.0011
-      ]
-    },
-    "B2": {
-      "CAMPOBASSO PROPERTIES LLC": [
-        0.57,
-        0.0336
-      ],
-      "ATINIZIAN NIGOGHOS & CAROLYN": [
-        0.57,
-        0.0336
-      ],
-      "KADETS PHILIP L/ELAINE/TRS": [
-        0.36,
-        0.0213
-      ],
-      "BLAKE RICHARD A JR TR": [
-        0.34,
-        0.0201
-      ],
-      "Frank Pasciuto": [
-        0.33,
-        0.0195
-      ],
-      "LOCKE PLACE LLC": [
-        0.27,
-        0.0159
-      ],
-      "PARTH ENTERPRISES LLC": [
-        0.25,
-        0.0148
-      ],
-      "TOULOPOULOS JOHN  W/TRS/ETAL": [
-        0.24,
-        0.0142
-      ],
-      "GOBOOK INC": [
-        0.24,
-        0.0142
-      ],
-      "SUMMER REALTY SERVICES LLC": [
-        0.23,
-        0.0136
-      ],
-      "THE CHILDRENS CENTER": [
-        0.23,
-        0.0136
-      ],
-      "ROGARIS PETER J/TRUSTEE": [
-        0.22,
-        0.013
-      ],
-      "GALVIN SEAN D/TRUSTEE": [
-        0.22,
-        0.013
-      ],
-      "NEXT GENERATION LLC": [
-        0.19,
-        0.0112
-      ],
-      "BOUBOULIS MICHAEL TRUSTEE": [
-        0.18,
-        0.0106
-      ],
-      "BOSTON MAJORDOMO LLC": [
-        0.18,
-        0.0106
-      ],
-      "GALVIN SEAN /TRUSTEE": [
-        0.17,
-        0.01
-      ],
-      "CARBONELL PABLO F ETAL / TRS": [
-        0.17,
-        0.01
-      ],
-      "MOSS BEATRICE A TR": [
-        0.17,
-        0.01
-      ],
-      "ABIDIAN LLC": [
-        0.16,
-        0.0094
-      ],
-      "TRICKEY EILEEN CARR/TRS": [
-        0.14,
-        0.0083
-      ],
-      "BOUBOULIS JAMES & STEFANOS": [
-        0.14,
-        0.0083
-      ],
-      "Town Of Arlington": [
-        0.14,
-        0.0083
-      ],
-      "94 MASSACHUSETTS AVENUE LLC": [
-        0.14,
-        0.0083
-      ],
-      "J&C 189 LLC": [
-        0.13,
-        0.0077
-      ],
-      "FOOD LINK INC": [
-        0.13,
-        0.0077
-      ],
-      "BOYLES ENTERPRISES LLC": [
-        0.12,
-        0.0071
-      ],
-      "SHEN YALING": [
-        0.12,
-        0.0071
-      ],
-      "WHITTEMORE EDWINP/JANICE M": [
-        0.12,
-        0.0071
-      ],
-      "VIGLAS CHARLES J/ TRUSTEE": [
-        0.12,
-        0.0071
-      ],
-      "KELJIKIAN MALCOLM/JEAN": [
-        0.12,
-        0.0071
-      ],
-      "FAMOLARE GEORGE R & SUSAN P": [
-        0.12,
-        0.0071
-      ],
-      "AIELLO ROBERT B & LINDA M": [
-        0.12,
-        0.0071
-      ],
-      "WANG YI": [
-        0.12,
-        0.0071
-      ],
-      "STEPANIAN KRIKOR & ARMINE": [
-        0.11,
-        0.0065
-      ],
-      "TDR REAL ESTATE MANAGEMENT LLC": [
-        0.11,
-        0.0065
-      ],
-      "SHARMA DAVINDER K/TRUSTEE": [
-        0.1,
-        0.0059
-      ],
-      "TRACANNA NICOLA TR": [
-        0.1,
-        0.0059
-      ],
-      "EAST ARLINGTON REALTY LLC": [
-        0.1,
-        0.0059
-      ],
-      "GRIFFIN CHRISTOPHER J/TRUSTEE": [
-        0.09,
-        0.0053
-      ],
-      "191 BROADWAY LLC": [
-        0.09,
-        0.0053
-      ],
-      "918-920 MASSACHUSETTS AVE LLC": [
-        0.09,
-        0.0053
-      ],
-      "GALVIN SEAN D TRUSTEE": [
-        0.08,
-        0.0047
-      ],
-      "SHIFF JEFFREY/STIEGLITZ DONNA": [
-        0.08,
-        0.0047
-      ],
-      "POULOS THEODORE": [
-        0.08,
-        0.0047
-      ],
-      "MARTIN ALICE V & DOROTHY": [
-        0.06,
-        0.0035
-      ],
-      "SAHAI JILL & SHANKER": [
-        0.06,
-        0.0035
-      ],
-      "CARACASHIAN GARABED & ZAINI": [
-        0.06,
-        0.0035
-      ],
-      "SPC REALTY LLC": [
-        0.06,
-        0.0035
-      ],
-      "MAIDA LAWRENCE G/TRUSTEE": [
-        0.06,
-        0.0035
-      ],
-      "MINNITI ANTHONY": [
-        0.06,
-        0.0035
-      ],
-      "LEADER BANK": [
-        0.06,
-        0.0035
-      ],
-      "ROGARIS PETER J--ETAL": [
-        0.05,
-        0.003
-      ],
-      "PELLEGRINO FRANK J & SANDRA M": [
-        0.05,
-        0.003
-      ],
-      "BORETOS THEMISTOKLIS/GEORGIOS": [
-        0.05,
-        0.003
-      ],
-      "QUAN JAMES B.T/DOROTHY E": [
-        0.02,
-        0.0012
-      ]
-    },
-    "B2A": {
-      "US REIF BRIGHAM SQUARE": [
-        3.87,
-        0.1741
-      ],
-      "MARLEY WILLIAM GNC": [
-        2.32,
-        0.1044
-      ],
-      "Mirak Family": [
-        2.3,
-        0.1035
-      ],
-      "THE STOP&SHOP SUPERMRKT LESSEE": [
-        1.94,
-        0.0873
-      ],
-      "DE VINCENT ARTHUR TRS-ETAL": [
-        1.48,
-        0.0666
-      ],
-      "DEJESUS JOHN ANDREW TRS": [
-        1.39,
-        0.0625
-      ],
-      "NWCA ARLINGTON LLC": [
-        1.37,
-        0.0616
-      ],
-      "CLAREMONT ARLINGTON SUITES LLC": [
-        1.19,
-        0.0535
-      ],
-      "WHEATLEY REAL ESTATE LLC": [
-        0.56,
-        0.0252
-      ],
-      "ODONOGHUE JOHN & KEVIN": [
-        0.35,
-        0.0157
-      ],
-      "TARLIN LLOYD ETAL TRUSTEES": [
-        0.33,
-        0.0148
-      ],
-      "THE STOP & SHOP COMPANIES INC": [
-        0.31,
-        0.0139
-      ],
-      "FRAGER ALBERT S ETAL/ TRUSTEES": [
-        0.26,
-        0.0117
-      ],
-      "KENTURY VENTURES LLC": [
-        0.25,
-        0.0112
-      ],
-      "FAIOLA LOUIS R ETAL TRS": [
-        0.2,
-        0.009
-      ],
-      "MERCATOR NORTH CORPORATION": [
-        0.19,
-        0.0085
-      ],
-      "XENOS NICHOLAS G/ TRUSTEE": [
-        0.17,
-        0.0076
-      ],
-      "Town Of Arlington": [
-        0.1,
-        0.0045
-      ],
-      "KOWERT PAUL": [
-        0.09,
-        0.004
-      ],
-      "XENOS NICHOLAS G ETAL /TRS": [
-        0.05,
-        0.0022
-      ],
-      "FOOD LINK INC": [
-        0.04,
-        0.0018
-      ]
-    },
-    "B3": {
-      "P&D REALTY": [
-        1.23,
-        0.0411
-      ],
-      "Mirak Family": [
-        1.05,
-        0.0351
-      ],
-      "SHEFFIELD PARTNERS LLC": [
-        0.92,
-        0.0308
-      ],
-      "AKBARIAN MOHAMMED MD": [
-        0.9,
-        0.0301
-      ],
-      "1398 MASSACHUSETTS AVE. LLC": [
-        0.82,
-        0.0274
-      ],
-      "Frank Pasciuto": [
-        0.73,
-        0.0244
-      ],
-      "STOREY PROPERTIES LLC": [
-        0.55,
-        0.0184
-      ],
-      "Town Of Arlington": [
-        0.44,
-        0.0147
-      ],
-      "1406 MASS AVE LLC": [
-        0.41,
-        0.0137
-      ],
-      "LEVOSKY CAROLYN TR": [
-        0.38,
-        0.0127
-      ],
-      "TRITON-ARLINGTON LLC": [
-        0.38,
-        0.0127
-      ],
-      "RIKIA LLC": [
-        0.37,
-        0.0124
-      ],
-      "ATINIZIAN NIGOGHOS & CAROLYN": [
-        0.37,
-        0.0124
-      ],
-      "HAJJAR CHARLES C /TRUSTEE": [
-        0.32,
-        0.0107
-      ],
-      "ARLINGTON COAL & LUMBER CO": [
-        0.32,
-        0.0107
-      ],
-      "ARLINGTON REDEVELOP/BOARD": [
-        0.31,
-        0.0104
-      ],
-      "CAMBRIDGE SAVINGS BANK": [
-        0.31,
-        0.0104
-      ],
-      "FAMOLARE GEORGE R & SUSAN P": [
-        0.28,
-        0.0094
-      ],
-      "BRANTWOOD HOLDINGS LLC": [
-        0.27,
-        0.009
-      ],
-      "B&G CORSET COMPANY LLC": [
-        0.24,
-        0.008
-      ],
-      "ANDRE (MASS AVE) LIMITED PARTN": [
-        0.24,
-        0.008
-      ],
-      "1309-1323 MASS AVE LLC": [
-        0.23,
-        0.0077
-      ],
-      "ELIOT COMMUNITY HUMAN SERVICES": [
-        0.21,
-        0.007
-      ],
-      "BARKAN JONATHAN L": [
-        0.2,
-        0.0067
-      ],
-      "MASS AVENUE 465 LLC": [
-        0.19,
-        0.0064
-      ],
-      "LECAIN ELEANOR &": [
-        0.18,
-        0.006
-      ],
-      "MEGUERDITCHIAN MARO": [
-        0.18,
-        0.006
-      ],
-      "397 MASS AVE LLC": [
-        0.18,
-        0.006
-      ],
-      "DONAHUE BERNARD TRUSTEE": [
-        0.17,
-        0.0057
-      ],
-      "MERCIER DONALD H TR": [
-        0.17,
-        0.0057
-      ],
-      "CANDELAS ALEXANDRA": [
-        0.16,
-        0.0054
-      ],
-      "RAMSEY RICHARD TRUSTEE": [
-        0.15,
-        0.005
-      ],
-      "WIENER ANDREW J/ TRUSTEE": [
-        0.15,
-        0.005
-      ],
-      "GEO-CHAR REALTY LLC": [
-        0.15,
-        0.005
-      ],
-      "WANAMAKER JOHN R": [
-        0.14,
-        0.0047
-      ],
-      "D`AGOSTINO PAUL/TRUSTEE": [
-        0.14,
-        0.0047
-      ],
-      "SAVARESE STEVEN P": [
-        0.14,
-        0.0047
-      ],
-      "11 PRESCOTT STREET LLC": [
-        0.14,
-        0.0047
-      ],
-      "GALVIN SEAN/TRUSTEE": [
-        0.13,
-        0.0043
-      ],
-      "HAJJAR CHARLES C/TRUSTEE": [
-        0.13,
-        0.0043
-      ],
-      "WANAMAKER JOHN & MARK-TRS": [
-        0.12,
-        0.004
-      ],
-      "VIGLAS CHARLES J": [
-        0.12,
-        0.004
-      ],
-      "PERHANIDIS NICOLAOS/ TRUSTEE": [
-        0.12,
-        0.004
-      ],
-      "ARLINGTON 1331 REALTY LLC": [
-        0.12,
-        0.004
-      ],
-      "CHIOCCARIELLO JOHN B": [
-        0.11,
-        0.0037
-      ],
-      "VAKALFOTIS THOMAS TRUSTEE": [
-        0.11,
-        0.0037
-      ],
-      "ROGARIS PETER--ETAL": [
-        0.11,
-        0.0037
-      ],
-      "1370 MASS AVE INC": [
-        0.09,
-        0.003
-      ],
-      "POULOS NICHOLAS": [
-        0.09,
-        0.003
-      ],
-      "MONTANA VENTURES LLC": [
-        0.09,
-        0.003
-      ],
-      "JACOBSON ERIC": [
-        0.09,
-        0.003
-      ],
-      "EPSTEIN SARA B TRUSTEE": [
-        0.09,
-        0.003
-      ],
-      "WINER JERROLD L--TRUSTEE": [
-        0.08,
-        0.0027
-      ],
-      "787-793 MASS AVE LLC": [
-        0.07,
-        0.0023
-      ],
-      "G. V. REALTY CORP": [
-        0.07,
-        0.0023
-      ],
-      "ARLINGTON BAPTIST SOCIETY": [
-        0.07,
-        0.0023
-      ],
-      "HIGHROCK CHURCH": [
-        0.07,
-        0.0023
-      ],
-      "MARK KONRAD A": [
-        0.07,
-        0.0023
-      ],
-      "DRISCOLL- RAKUTIS KAREN ANN &": [
-        0.06,
-        0.002
-      ],
-      "PURINTON JAYME S/ TRUSTEE": [
-        0.06,
-        0.002
-      ],
-      "CAMARANO NANCY A--TRUSTEE": [
-        0.05,
-        0.0017
-      ],
-      "ARLINGTON CONSERVATION": [
-        0.02,
-        0.0007
-      ]
-    },
-    "B4": {
-      "Mirak Family": [
-        2.43,
-        0.0792
-      ],
-      "NOYES REALTY LLLP": [
-        1.83,
-        0.0596
-      ],
-      "KO NAI NAN ETAL/ TRUSTEES": [
-        0.74,
-        0.0241
-      ],
-      "BAYSTATE CONDOMINIUMS LLC": [
-        0.69,
-        0.0225
-      ],
-      "864 MASS AVENUE LLC": [
-        0.66,
-        0.0215
-      ],
-      "JK HOLDINGS LLC": [
-        0.51,
-        0.0166
-      ],
-      "TD BANKNORTH NA": [
-        0.49,
-        0.016
-      ],
-      "BOSTON EDISON CO": [
-        0.47,
-        0.0153
-      ],
-      "1420 MASSACHUSETTS AVE LLC": [
-        0.45,
-        0.0147
-      ],
-      "ARLINGTON AUTOS LLC": [
-        0.43,
-        0.014
-      ],
-      "KALOOSDIAN ROBERT A TRUSTEE": [
-        0.43,
-        0.014
-      ],
-      "WATERTOWN SAVINGS BANK": [
-        0.41,
-        0.0134
-      ],
-      "93 BROADWAY ARLINGTON LLC": [
-        0.4,
-        0.013
-      ],
-      "POWER TEST REALTY COMPANY": [
-        0.4,
-        0.013
-      ],
-      "22-26 SUNNYSIDE AVENUE LLC": [
-        0.39,
-        0.0127
-      ],
-      "MB REALTY GROUP LLC": [
-        0.38,
-        0.0124
-      ],
-      "MIMINOS MARK M & JAMES": [
-        0.38,
-        0.0124
-      ],
-      "EAST CAMBRIDGE SAVINGS BANK": [
-        0.38,
-        0.0124
-      ],
-      "CENTRAL COOPERATIVE BANK": [
-        0.33,
-        0.0108
-      ],
-      "PMG NORTHEAST LLC": [
-        0.28,
-        0.0091
-      ],
-      "KELJIKIAN MALCOLM & JEAN": [
-        0.28,
-        0.0091
-      ],
-      "HUNT PATRICK & KEEGAN MICHAEL": [
-        0.28,
-        0.0091
-      ],
-      "JAMMAL ANTOINE": [
-        0.28,
-        0.0091
-      ],
-      "KOZELIAN JOHN": [
-        0.27,
-        0.0088
-      ],
-      "CERUNDOLO  RALPH/TRUSTEE": [
-        0.25,
-        0.0081
-      ],
-      "HOUSING CORP OF ARLINGTON": [
-        0.25,
-        0.0081
-      ],
-      "LYONS FUEL INC": [
-        0.25,
-        0.0081
-      ],
-      "MIMINOS MARK & JAMES": [
-        0.24,
-        0.0078
-      ],
-      "ELKHAOULI ELIAS/LILLIAN": [
-        0.23,
-        0.0075
-      ],
-      "CARNEY JOHN A": [
-        0.23,
-        0.0075
-      ],
-      "CERUNDOLO PASQUALE/TRUSTEE": [
-        0.23,
-        0.0075
-      ],
-      "James F. Doherty": [
-        0.22,
-        0.0072
-      ],
-      "1132 MASS AVE LLC": [
-        0.22,
-        0.0072
-      ],
-      "MYATT CHARLES L": [
-        0.21,
-        0.0068
-      ],
-      "BOLANOS KIMON/LIBERTY": [
-        0.21,
-        0.0068
-      ],
-      "CAHILL MARY ANN TRS--ETAL": [
-        0.18,
-        0.0059
-      ],
-      "CAROWELL LLC": [
-        0.17,
-        0.0055
-      ],
-      "PANDOLFO JOSEPH P": [
-        0.16,
-        0.0052
-      ],
-      "BROWN KEVIN & THOMAS F TRS": [
-        0.16,
-        0.0052
-      ],
-      "CARVELLI WILLIAM S & MARGARET": [
-        0.15,
-        0.0049
-      ],
-      "J & G PRENTISS LLC": [
-        0.15,
-        0.0049
-      ],
-      "CERENDULO RALPH--TRUSTEE": [
-        0.15,
-        0.0049
-      ],
-      "POULOS THEODORE": [
-        0.14,
-        0.0046
-      ],
-      "ROONEY ROBERT A/LIFE ESTATE": [
-        0.14,
-        0.0046
-      ],
-      "BOYLE DAVID T/TRUSTEE": [
-        0.13,
-        0.0042
-      ],
-      "TOBIL REALTY LLC": [
-        0.12,
-        0.0039
-      ],
-      "CASAGRANDE DIRK R": [
-        0.11,
-        0.0036
-      ],
-      "PAPATHANASIOU DEMETRIOS TR": [
-        0.11,
-        0.0036
-      ],
-      "JOHNSON SANDRA & RICHARD": [
-        0.1,
-        0.0033
-      ],
-      "CHAN CHOON WENG ETAL/ TRUSTEES": [
-        0.09,
-        0.0029
-      ],
-      "NIRMALA & NIRMALA LLC": [
-        0.09,
-        0.0029
-      ],
-      "BOUBOULIS JAMES & STEFANOS": [
-        0.09,
-        0.0029
-      ],
-      "ZHOU JIAN": [
-        0.09,
-        0.0029
-      ],
-      "DELONG SARA & STEFFAN N": [
-        0.09,
-        0.0029
-      ],
-      "DIENG HAM CHI": [
-        0.09,
-        0.0029
-      ],
-      "SILVERA CHRISTOPHER B": [
-        0.04,
-        0.0013
-      ]
-    },
-    "B5": {
-      "Mirak Family": [
-        2.75,
-        0.2101
-      ],
-      "Town Of Arlington": [
-        1.24,
-        0.0948
-      ],
-      "CAMBRIDGE SAVINGS BANK": [
-        0.62,
-        0.0474
-      ],
-      "BANK OF AMERICA": [
-        0.56,
-        0.0428
-      ],
-      "JOHNS SON LLC": [
-        0.43,
-        0.0329
-      ],
-      "LACOURT ENTERPRISES LLC": [
-        0.38,
-        0.029
-      ],
-      "450 MASS AVE LLC": [
-        0.34,
-        0.026
-      ],
-      "COHEN MAX R TRUSTEE": [
-        0.33,
-        0.0252
-      ],
-      "BLUMSACK CHARLES E/ETAL": [
-        0.3,
-        0.0229
-      ],
-      "MEGUERDITCHIAN RICHARD": [
-        0.22,
-        0.0168
-      ],
-      "GECHIJIAN ARA K": [
-        0.21,
-        0.016
-      ],
-      "KEY WEST REALTY LLC": [
-        0.15,
-        0.0115
-      ],
-      "SWEET PETER/KATHLEEN": [
-        0.13,
-        0.0099
-      ],
-      "ARLINGTON CENTER CROSSING LLC": [
-        0.13,
-        0.0099
-      ],
-      "ARLINGTON POST #1775": [
-        0.12,
-        0.0092
-      ],
-      "LCW ARLINGTON GROUP LLC": [
-        0.09,
-        0.0069
-      ],
-      "POULOS THEODORE": [
-        0.09,
-        0.0069
-      ]
-    },
-    "I": {
-      "Mirak Family": [
-        11.33,
-        0.2303
-      ],
-      "Town Of Arlington": [
-        7.87,
-        0.16
-      ],
-      "30 PARK AVE ASSOC LLP": [
-        2.95,
-        0.06
-      ],
-      "ARLINGTON COAL & LUMBER CO": [
-        2.77,
-        0.0563
-      ],
-      "30 PARK AVE ASSOCIATES LLC": [
-        1.56,
-        0.0317
-      ],
-      "NOSTALGIA PROPERTIES LLC": [
-        1.27,
-        0.0258
-      ],
-      "LALICATA REALTY LLC": [
-        1.05,
-        0.0213
-      ],
-      "SANTINI MARK & GARY--TRS": [
-        1.0,
-        0.0203
-      ],
-      "87 MYSTIC STREET LLC": [
-        0.92,
-        0.0187
-      ],
-      "FARRELL DANIEL J/TRUSTEE": [
-        0.91,
-        0.0185
-      ],
-      "HIGHROCK CHURCH INC": [
-        0.83,
-        0.0169
-      ],
-      "34 DUDLEY STREET LLC": [
-        0.77,
-        0.0157
-      ],
-      "NCH HOLDINGS LLC": [
-        0.5,
-        0.0102
-      ],
-      "47 DUDLEY STREET LLC": [
-        0.44,
-        0.0089
-      ],
-      "ZERVOGLOS ANTHONY N--ETAL": [
-        0.44,
-        0.0089
-      ],
-      "Paul Caruso": [
-        0.42,
-        0.0085
-      ],
-      "BOSTON GAS COMPANY": [
-        0.4,
-        0.0081
-      ],
-      "DEEHAN ANTHONY-VALERIE V": [
-        0.38,
-        0.0077
-      ],
-      "MYSTIC STREET 91 LLC": [
-        0.37,
-        0.0075
-      ],
-      "GREENE BRUCE": [
-        0.35,
-        0.0071
-      ],
-      "DEEHAN ANTHONY J": [
-        0.34,
-        0.0069
-      ],
-      "CASTELLUCCIO R/LORUSSO S": [
-        0.34,
-        0.0069
-      ],
-      "MALONEY SEAN P/TRUSTEE": [
-        0.34,
-        0.0069
-      ],
-      "POCHINI SCOTT A TRUSTEE": [
-        0.31,
-        0.0063
-      ],
-      "LONG JOEL C/TRUSTEE": [
-        0.28,
-        0.0057
-      ],
-      "VALERI ROBERT E TRS--ETAL": [
-        0.27,
-        0.0055
-      ],
-      "KENNEDY MARY G--TRUSTEE": [
-        0.26,
-        0.0053
-      ],
-      "70 BOW ST LLC": [
-        0.23,
-        0.0047
-      ],
-      "LYONS SEAN": [
-        0.22,
-        0.0045
-      ],
-      "FINOCHETTI JOHN": [
-        0.22,
-        0.0045
-      ],
-      "DEEHAN ANTHONY TR": [
-        0.22,
-        0.0045
-      ],
-      "14 DUDLEY COURT LLC": [
-        0.22,
-        0.0045
-      ],
-      "MIMINOS MARK & JAMES": [
-        0.2,
-        0.0041
-      ],
-      "JONES KEVIN J & J THOMAS/ TRS": [
-        0.2,
-        0.0041
-      ],
-      "LAWSON J & HUTCHINSON R": [
-        0.18,
-        0.0037
-      ],
-      "MUZZIOLI DANTE & BARBER LEE": [
-        0.17,
-        0.0035
-      ],
-      "KRITSEPIS STAN--ETAL": [
-        0.17,
-        0.0035
-      ],
-      "BOUDREAU BARBARA": [
-        0.16,
-        0.0033
-      ],
-      "18 BECK ROAD LLC": [
-        0.15,
-        0.003
-      ],
-      "MUZZIOLI DANTE S/TRUSTEE": [
-        0.15,
-        0.003
-      ],
-      "PUOPOLO STEPHEN L/TRUSTEE": [
-        0.15,
-        0.003
-      ],
-      "FARRELL DANIELJ/TRUSTEE": [
-        0.14,
-        0.0028
-      ],
-      "JOHNSTON LEROY N JR": [
-        0.14,
-        0.0028
-      ],
-      "CAMPBELL RICHARD A & SETA": [
-        0.14,
-        0.0028
-      ],
-      "COSTA GERTRUDE C/TRUSTEE": [
-        0.14,
-        0.0028
-      ],
-      "HANSEN LESLIE CHRISTINE": [
-        0.14,
-        0.0028
-      ],
-      "SANTINI REALTY LLC": [
-        0.14,
-        0.0028
-      ],
-      "LYNCH FRANCIS/BEATRICE/L EST": [
-        0.13,
-        0.0026
-      ],
-      "CHILLEMI JUSTIN P": [
-        0.13,
-        0.0026
-      ],
-      "SPRAGUE MARY M": [
-        0.13,
-        0.0026
-      ],
-      "PRETZER XAVID": [
-        0.13,
-        0.0026
-      ],
-      "PIGOTT CHARLES A & JANE F": [
-        0.13,
-        0.0026
-      ],
-      "VENUTO NICOLINO & ANGELA": [
-        0.12,
-        0.0024
-      ],
-      "4 DUDLEY PLACE LLC": [
-        0.12,
-        0.0024
-      ],
-      "MERJANIAN PAUL D": [
-        0.12,
-        0.0024
-      ],
-      "CHILLEMI JUSTIN": [
-        0.11,
-        0.0022
-      ],
-      "FINOCHETTI JOHN V": [
-        0.11,
-        0.0022
-      ],
-      "3 BROTHERS REALTY LLC": [
-        0.11,
-        0.0022
-      ],
-      "BECK ROAD LLC": [
-        0.06,
-        0.0012
-      ],
-      "ARLINGTON - DUDLEY REALTY LLC": [
-        0.05,
-        0.001
-      ]
-    },
-    "MU": {
-      "FHF 1 ARLINGTON 360 LLC": [
-        16.17,
-        0.8857
-      ]
-    },
-    "OS": {
-      "Town Of Arlington": [
-        92.81,
-        0.2663
-      ],
-      "Mugar Family": [
-        1.02,
-        0.0029
-      ],
-      "MASS BAY TRANSIT AUTHORITY": [
-        0.2,
-        0.0006
-      ]
-    },
-    "PUD": {
-      "Mugar Family": [
-        15.56,
-        0.9627
-      ]
-    },
-    "R0": {
-      "WINCHESTER COUNTRY CLUB": [
-        48.22,
-        0.2027
-      ],
-      "Paul Caruso": [
-        1.91,
-        0.008
-      ],
-      "ARMENIAN CULTURAL": [
-        1.9,
-        0.008
-      ],
-      "HOLMES JOHN K": [
-        1.32,
-        0.0055
-      ],
-      "BRUNO RAFFAELE & SILVANA": [
-        1.29,
-        0.0054
-      ],
-      "GOODWIN NANCY C/TRUSTEE": [
-        1.05,
-        0.0044
-      ],
-      "BOWEN RODERIC/BARBARA": [
-        0.95,
-        0.004
-      ],
-      "PIAZZA LOUISE": [
-        0.94,
-        0.004
-      ],
-      "SANTINI FABRIZIO": [
-        0.93,
-        0.0039
-      ],
-      "KOLLIGIAN JOAN E": [
-        0.87,
-        0.0037
-      ],
-      "VAN THONG JEAN-MANUEL": [
-        0.86,
-        0.0036
-      ],
-      "TEUBER ANDREAS": [
-        0.85,
-        0.0036
-      ],
-      "OCKERBLOOM GAIL": [
-        0.84,
-        0.0035
-      ],
-      "FOUGERE RICHARD J/SUSAN M": [
-        0.79,
-        0.0033
-      ],
-      "DEYST JOHN J JR & MARY A/ TRS": [
-        0.67,
-        0.0028
-      ],
-      "LAW MARGARET E/TRUSTEE": [
-        0.67,
-        0.0028
-      ],
-      "FULMER ANDREA J & SANDRA A": [
-        0.65,
-        0.0027
-      ],
-      "RAFFI JAMES C & JOAN M/TR": [
-        0.62,
-        0.0026
-      ],
-      "MCGEOGHEAN TIMOTHY/ TRUSTEE": [
-        0.59,
-        0.0025
-      ],
-      "HELMES THOMAS R &": [
-        0.58,
-        0.0024
-      ],
-      "CASTOR TREVOR/ETAL": [
-        0.58,
-        0.0024
-      ],
-      "CHANDLER CHUCK L": [
-        0.55,
-        0.0023
-      ],
-      "BONNELL PATRICIA & STEVEN": [
-        0.54,
-        0.0023
-      ],
-      "TIKARE SEEMA S &": [
-        0.54,
-        0.0023
-      ],
-      "CAROWELL LLC": [
-        0.52,
-        0.0022
-      ],
-      "PERDUCAT CYRIL": [
-        0.52,
-        0.0022
-      ],
-      "LACROIX RICHARD L J & ELLEN": [
-        0.51,
-        0.0021
-      ],
-      "PARL GAIL D GRUNBERG--ETAL": [
-        0.5,
-        0.0021
-      ],
-      "MEDFORD BOAT CLUB INC": [
-        0.5,
-        0.0021
-      ],
-      "MAC GILLIVRAY NORMA": [
-        0.5,
-        0.0021
-      ],
-      "CAREY MARYE/ROBERTJ/RICHARD F": [
-        0.49,
-        0.0021
-      ],
-      "BROOKS PAUL C & URSZULA M": [
-        0.49,
-        0.0021
-      ],
-      "CAMPAGNA RONALD J & LINDA M": [
-        0.48,
-        0.002
-      ],
-      "CONNEELY DARA & KRISTEN": [
-        0.48,
-        0.002
-      ],
-      "OSBORN LAURELEE--ETAL": [
-        0.48,
-        0.002
-      ],
-      "GRASSI ARMANDO & ANGELINA": [
-        0.48,
-        0.002
-      ],
-      "STEVE FUSTOLO/TRUSTEE": [
-        0.47,
-        0.002
-      ],
-      "AYVAZIAN BERGE/TRS/AYVAZIAN TR": [
-        0.46,
-        0.0019
-      ],
-      "HARRINGTON STEPHEN/ETAL": [
-        0.46,
-        0.0019
-      ],
-      "RIFFELMACHER GERALD J-ETAL": [
-        0.46,
-        0.0019
-      ],
-      "MEDFORD BOAT CLUB CORP": [
-        0.46,
-        0.0019
-      ],
-      "RAFFI JAMES C & JOAN M": [
-        0.44,
-        0.0018
-      ],
-      "PAUS CRISTOPH & ANA B": [
-        0.44,
-        0.0018
-      ],
-      "KINDLE BRANDON G & PAULA J": [
-        0.43,
-        0.0018
-      ],
-      "SHEEHAN PHILLIP E": [
-        0.43,
-        0.0018
-      ],
-      "SHEA THOMAS P & SUSAN M": [
-        0.43,
-        0.0018
-      ],
-      "GOSSELIN JOHN T/ TRUSTEE": [
-        0.43,
-        0.0018
-      ],
-      "COOK LORING A III": [
-        0.43,
-        0.0018
-      ],
-      "KILFOYLE THOMAS & PATRICIA D": [
-        0.43,
-        0.0018
-      ],
-      "KELLEY JAMES P--ETAL": [
-        0.43,
-        0.0018
-      ],
-      "TOWLE ANNE E/TRUSTEE": [
-        0.42,
-        0.0018
-      ],
-      "DEVLIN ROBERT G & JULIA R": [
-        0.42,
-        0.0018
-      ],
-      "LOWENSTEIN CARROLL M JR": [
-        0.42,
-        0.0018
-      ],
-      "TURNER DOUGLAS R & HOPE A /TRS": [
-        0.42,
-        0.0018
-      ],
-      "PRIVITERA FRANK D JR/TR": [
-        0.41,
-        0.0017
-      ],
-      "MATHAI TERESA": [
-        0.41,
-        0.0017
-      ],
-      "BARSAMIAN EDWARD V--ETAL": [
-        0.41,
-        0.0017
-      ],
-      "CURTIN CHERYL D": [
-        0.41,
-        0.0017
-      ],
-      "MOELLERING KARIN T": [
-        0.41,
-        0.0017
-      ],
-      "KELLY MAGDOLEN R": [
-        0.41,
-        0.0017
-      ],
-      "HAMZIC SENAD & AMIRA": [
-        0.4,
-        0.0017
-      ],
-      "COUGHLIN BRIAN J ETAL/ TRS": [
-        0.4,
-        0.0017
-      ],
-      "TRAINOR MATTHEW & SARAH": [
-        0.4,
-        0.0017
-      ],
-      "DEVEREAUX JOSEPH L--ETAL": [
-        0.39,
-        0.0016
-      ],
-      "PINE JOHN/ LIFE ESTATE": [
-        0.39,
-        0.0016
-      ],
-      "SCHRAMM BETSY L": [
-        0.39,
-        0.0016
-      ],
-      "BURKE BRIAN P": [
-        0.39,
-        0.0016
-      ],
-      "YEE TIMOTHY": [
-        0.39,
-        0.0016
-      ],
-      "ZUCKERMAN KATHERINE": [
-        0.39,
-        0.0016
-      ],
-      "LEPORE BARBARA A": [
-        0.39,
-        0.0016
-      ],
-      "WISNIEWSKI LEONARD F JR": [
-        0.39,
-        0.0016
-      ],
-      "CONNEELY MARTIN K": [
-        0.39,
-        0.0016
-      ],
-      "STEFANELLI RITA N": [
-        0.39,
-        0.0016
-      ],
-      "DUFFY MARK S & ELAINE M/TRS": [
-        0.39,
-        0.0016
-      ],
-      "AXTMAN GORDON C--ETAL": [
-        0.38,
-        0.0016
-      ],
-      "PRIVITERA PHILIP J/TRUSTEE": [
-        0.38,
-        0.0016
-      ],
-      "SHINE DANIEL J & THERESA M": [
-        0.38,
-        0.0016
-      ],
-      "VICKERS SUSAN": [
-        0.37,
-        0.0016
-      ],
-      "BRENNAN CHRISTOPHER & MEGAN": [
-        0.37,
-        0.0016
-      ],
-      "BARTLE DYLAN C/ETAL": [
-        0.37,
-        0.0016
-      ],
-      "BRAUN PETER & LINDA A": [
-        0.37,
-        0.0016
-      ],
-      "BOYD TOBY L & CARRIE/TR": [
-        0.37,
-        0.0016
-      ],
-      "CARAMANIS MICHAEL C--ETAL": [
-        0.37,
-        0.0016
-      ],
-      "FRENCH WILLIAM JR & CHRISTINE": [
-        0.37,
-        0.0016
-      ],
-      "SIRRINGHAUS WINFRED/URSULA": [
-        0.37,
-        0.0016
-      ],
-      "SWOBODA PAUL T & VIVIAN H": [
-        0.37,
-        0.0016
-      ],
-      "DRUMMA GREGG A &": [
-        0.37,
-        0.0016
-      ],
-      "LOMBARDO PAULINE MARIE": [
-        0.37,
-        0.0016
-      ],
-      "IRANI SAROOSH": [
-        0.37,
-        0.0016
-      ],
-      "KALIK STEVEN & DIANE": [
-        0.37,
-        0.0016
-      ],
-      "ENGLISHER LARRY S ETAL/TRUSTEE": [
-        0.36,
-        0.0015
-      ],
-      "THOMSON TY M /TRUSTEE": [
-        0.36,
-        0.0015
-      ],
-      "LEONE JANET D TRUSTEE": [
-        0.36,
-        0.0015
-      ],
-      "ROCCI FRANK A  JR": [
-        0.36,
-        0.0015
-      ],
-      "CONTI ILARIA": [
-        0.36,
-        0.0015
-      ],
-      "SCIACCA JOSEPH A & LENORA A/TR": [
-        0.36,
-        0.0015
-      ],
-      "LANNIN ANGELA &": [
-        0.36,
-        0.0015
-      ],
-      "MCISAAC LILLIAN D & ROBERT": [
-        0.36,
-        0.0015
-      ],
-      "ARSLANIAN NORAIR/TRUSTEE": [
-        0.36,
-        0.0015
-      ],
-      "GOSHGARIAN GARY--ETAL": [
-        0.36,
-        0.0015
-      ],
-      "KIRBY THOMAS M/RUTHANN": [
-        0.35,
-        0.0015
-      ]
-    },
-    "R1": {
-      "Town Of Arlington": [
-        240.46,
-        0.0875
-      ],
-      "ROMAN CATHOLIC ARCH OF BOS": [
-        17.44,
-        0.0063
-      ],
-      "CATHOLIC CEMETARY ASSOC": [
-        14.92,
-        0.0054
-      ],
-      "BELMONT COUNTRY CLUB INC": [
-        11.32,
-        0.0041
-      ],
-      "THE GREEK ORTHODOX CHURCH": [
-        3.31,
-        0.0012
-      ],
-      "STERLING KATHARINE PARKS": [
-        2.15,
-        0.0008
-      ],
-      "ARLINGTON LAND TRUST/ INC": [
-        2.0,
-        0.0007
-      ],
-      "BOSTON GAS COMPANY": [
-        1.87,
-        0.0007
-      ],
-      "KELWYN MANOR ASSOCIATION IN": [
-        1.78,
-        0.0006
-      ],
-      "GERMAINE LAWRENCE INCORPORATED": [
-        1.77,
-        0.0006
-      ],
-      "SCHOOLS FOR CHILDREN INC": [
-        1.73,
-        0.0006
-      ],
-      "METROPOLITIAN DIST COMM": [
-        1.72,
-        0.0006
-      ],
-      "ORDER OF SAINT ANNE": [
-        1.64,
-        0.0006
-      ],
-      "FIRST CONGREGATIONAL PARISH": [
-        1.43,
-        0.0005
-      ],
-      "ST PAUL EVANGELICAL LUTHERA": [
-        1.28,
-        0.0005
-      ],
-      "BOWERS SUTER TERESA": [
-        1.1,
-        0.0004
-      ],
-      "HARTES LLC": [
-        1.03,
-        0.0004
-      ],
-      "RASMUSSEN HELEN M": [
-        0.98,
-        0.0004
-      ],
-      "FIRST BAPTIST CHURCH": [
-        0.95,
-        0.0003
-      ],
-      "ARONSON RICHARD B/ TRUSTEE": [
-        0.92,
-        0.0003
-      ],
-      "ST PAULS LUTHERAN CHURCH": [
-        0.89,
-        0.0003
-      ],
-      "VERIZON NEW ENGLAND INC.": [
-        0.8,
-        0.0003
-      ],
-      "DINGEE GRACE M/ TRUSTEE": [
-        0.77,
-        0.0003
-      ],
-      "TRINITY BAPTIST CHURCH": [
-        0.75,
-        0.0003
-      ],
-      "BURGE ROBERT S": [
-        0.74,
-        0.0003
-      ],
-      "WHITING LORI L & PETER W": [
-        0.73,
-        0.0003
-      ],
-      "MCKEE ANDREW O": [
-        0.72,
-        0.0003
-      ],
-      "RONAYNE BRENDAN": [
-        0.71,
-        0.0003
-      ],
-      "SEAVER PROPERTIES LLC": [
-        0.7,
-        0.0003
-      ],
-      "CARTER E EUGENE--ETAL": [
-        0.7,
-        0.0003
-      ],
-      "BROWN VERNON R": [
-        0.69,
-        0.0003
-      ],
-      "DIETRICH STEPHAN &": [
-        0.67,
-        0.0002
-      ],
-      "GRAZIANO GERALD--ETAL": [
-        0.66,
-        0.0002
-      ],
-      "CLARKE HALL BRADLEY": [
-        0.63,
-        0.0002
-      ],
-      "BHX LLC/TRUSTEE": [
-        0.63,
-        0.0002
-      ],
-      "WORDEN JOHN L III & PATRICI": [
-        0.62,
-        0.0002
-      ],
-      "JONES ANDREW D": [
-        0.62,
-        0.0002
-      ],
-      "BERNOFF JOSHUA D": [
-        0.61,
-        0.0002
-      ],
-      "RIVEST RONALD L & GAIL D": [
-        0.61,
-        0.0002
-      ],
-      "CARNEY JOHN A": [
-        0.6,
-        0.0002
-      ],
-      "POKRESS MATTHEW C & SHAILEEN": [
-        0.6,
-        0.0002
-      ],
-      "RIBEIRO JOSE & MARIA": [
-        0.6,
-        0.0002
-      ],
-      "LYNCH CHRISTOPHER P & VIRGINIA": [
-        0.6,
-        0.0002
-      ],
-      "KUHN JAMES E": [
-        0.6,
-        0.0002
-      ],
-      "GALVIN SEAN D/TRUSTEE": [
-        0.59,
-        0.0002
-      ],
-      "PHILLIPS MICHAEL P & CARMEN L": [
-        0.59,
-        0.0002
-      ],
-      "SCHNELLDORFER THOMAS": [
-        0.59,
-        0.0002
-      ],
-      "TAKACS EDWARD W": [
-        0.59,
-        0.0002
-      ],
-      "CALVARY METHODIST EPISCOPAL": [
-        0.57,
-        0.0002
-      ],
-      "SULLIVAN KARA": [
-        0.56,
-        0.0002
-      ],
-      "SHEEHAN ROBERT M": [
-        0.56,
-        0.0002
-      ],
-      "Mugar Family": [
-        0.55,
-        0.0002
-      ],
-      "JARBEAU GEOFFREY S & LAURA T": [
-        0.55,
-        0.0002
-      ],
-      "HARRIS CHRISTOPHER J": [
-        0.54,
-        0.0002
-      ],
-      "HED LEGACY LLC": [
-        0.54,
-        0.0002
-      ],
-      "CARPENTER SCOTT D": [
-        0.53,
-        0.0002
-      ],
-      "HALPERIN BERTRAND I & HELENA S": [
-        0.52,
-        0.0002
-      ],
-      "RICHARDSON SUSAN L & BURT": [
-        0.52,
-        0.0002
-      ],
-      "MCISAAC DOMINIQUE M/TR": [
-        0.52,
-        0.0002
-      ],
-      "GRINNELL CHARLES & CAROLINE": [
-        0.52,
-        0.0002
-      ],
-      "DOHERTY STEPHEN / TRUSTEE": [
-        0.51,
-        0.0002
-      ],
-      "BERMAN JUDITH L/TRUSTEE": [
-        0.51,
-        0.0002
-      ],
-      "GERMAINE LAWRENCE SCHOOL": [
-        0.5,
-        0.0002
-      ],
-      "RABINOWITZ JONATHAN & NATALEE": [
-        0.5,
-        0.0002
-      ],
-      "IVERS LOUISE RUMA / ESTATE": [
-        0.49,
-        0.0002
-      ],
-      "SWEDER JUSTIN D": [
-        0.49,
-        0.0002
-      ],
-      "HIBBETT AKIKO Y": [
-        0.49,
-        0.0002
-      ],
-      "O DAY MICHELLE C/BRENDAN F": [
-        0.49,
-        0.0002
-      ],
-      "CURA FRANK J & MARY A": [
-        0.49,
-        0.0002
-      ],
-      "SCHWARTZ LORI F &": [
-        0.49,
-        0.0002
-      ],
-      "GERMAINE LAWRENCE INC": [
-        0.49,
-        0.0002
-      ],
-      "TAYLOR HALSTON W & KATHERINE D": [
-        0.48,
-        0.0002
-      ],
-      "24 EPPING STREET LLC": [
-        0.48,
-        0.0002
-      ],
-      "DE NAPOLI JOHN W & MARIE F": [
-        0.47,
-        0.0002
-      ],
-      "TURANO RONA B": [
-        0.47,
-        0.0002
-      ],
-      "LEES SUSAN W/TRUSTEE": [
-        0.47,
-        0.0002
-      ],
-      "DELLA TERZA DANTE & MOLLIE": [
-        0.47,
-        0.0002
-      ],
-      "PALMER JOSEPH E/TRUSTEE": [
-        0.47,
-        0.0002
-      ],
-      "MCKINNON GARRETT & MAURA": [
-        0.46,
-        0.0002
-      ],
-      "ROCHE ELLEN T & KEVIN /TR": [
-        0.46,
-        0.0002
-      ],
-      "LEWIS RICHARD/ETAL": [
-        0.46,
-        0.0002
-      ],
-      "KENNEY EDWARD C": [
-        0.46,
-        0.0002
-      ],
-      "MURRAY MARILYN B/TRUSTEE": [
-        0.46,
-        0.0002
-      ],
-      "SCHULTZ NEIL J/CHRISTINA L": [
-        0.46,
-        0.0002
-      ],
-      "TEE DAVID F & CAROL S": [
-        0.46,
-        0.0002
-      ],
-      "PERELI JULIUS R & MARTHA G": [
-        0.46,
-        0.0002
-      ],
-      "BICHAJIAN MARY ANNE": [
-        0.46,
-        0.0002
-      ],
-      "James F. Doherty": [
-        0.45,
-        0.0002
-      ],
-      "WILLEMIN ROBERT D": [
-        0.45,
-        0.0002
-      ],
-      "CHRISTOPOULOS ELIAS &": [
-        0.44,
-        0.0002
-      ],
-      "TAURO WALTER J JR &DANIEL ETAL": [
-        0.44,
-        0.0002
-      ],
-      "JAMM II LLC": [
-        0.44,
-        0.0002
-      ],
-      "FOLEY MICHAEL T & ANNE H": [
-        0.44,
-        0.0002
-      ],
-      "CARR DAVID W & MARGARET A": [
-        0.44,
-        0.0002
-      ],
-      "OROURKE DANIEL & ALYSSA": [
-        0.44,
-        0.0002
-      ],
-      "GAFFEY ROSE M/TRUSTEE": [
-        0.44,
-        0.0002
-      ],
-      "KOLEV VIHREN ETAL- UNIT 1": [
-        0.44,
-        0.0002
-      ],
-      "GOLDSMITH GARY O--ETAL": [
-        0.44,
-        0.0002
-      ],
-      "CONVENT OF SAINT ANNE": [
-        0.44,
-        0.0002
-      ],
-      "AVESON HEATHER A": [
-        0.44,
-        0.0002
-      ],
-      "CONSERVATION COMMISSION": [
-        0.44,
-        0.0002
-      ]
-    },
-    "R2": {
-      "ARLINGTON HOUSING AUTHORITY": [
-        4.66,
-        0.0075
-      ],
-      "Town Of Arlington": [
-        3.92,
-        0.0063
-      ],
-      "ROMAN CATHOLIC ARCH OF BOS": [
-        2.48,
-        0.004
-      ],
-      "GALVIN SEAN D/TRUSTEE": [
-        1.9,
-        0.0031
-      ],
-      "HOUSING CORP OF ARLINGTON": [
-        1.41,
-        0.0023
-      ],
-      "MORRISSETTE LAURA--ETAL": [
-        1.26,
-        0.002
-      ],
-      "PARK AVE HEALTH CENTER": [
-        1.06,
-        0.0017
-      ],
-      "R A JOHNSON REALTY INC": [
-        1.04,
-        0.0017
-      ],
-      "Henry E. Davidson, Jr.": [
-        0.8,
-        0.0013
-      ],
-      "LOMBARDI KEITH E": [
-        0.7,
-        0.0011
-      ],
-      "GALVIN SEAN D TRUSTEE": [
-        0.68,
-        0.0011
-      ],
-      "Paul Caruso": [
-        0.67,
-        0.0011
-      ],
-      "GOOD ENERGY LLC": [
-        0.64,
-        0.001
-      ],
-      "ARLINGTON BOYS CLUB INC": [
-        0.63,
-        0.001
-      ],
-      "ARLINGTON HISTORICAL SOCIET": [
-        0.61,
-        0.001
-      ],
-      "RUBINSON ANDY A": [
-        0.57,
-        0.0009
-      ],
-      "BOUBOULIS SAM & AIDA": [
-        0.55,
-        0.0009
-      ],
-      "ARLINGTON MASONIC TEMPLE": [
-        0.54,
-        0.0009
-      ],
-      "SAHAN HERMAN I": [
-        0.5,
-        0.0008
-      ],
-      "HOOK JULIE M": [
-        0.5,
-        0.0008
-      ],
-      "TERRY JAAN T/ TRUSTEE": [
-        0.49,
-        0.0008
-      ],
-      "BERLINGHIERI JOSEPH": [
-        0.49,
-        0.0008
-      ],
-      "GALVIN SEAN D/ TRUSTEE": [
-        0.47,
-        0.0008
-      ],
-      "BONUGLI PELLEGRINO--ETAL": [
-        0.44,
-        0.0007
-      ],
-      "DECATUR-UNION REALTY LLC": [
-        0.44,
-        0.0007
-      ],
-      "BROOKS AVENUE LLC": [
-        0.44,
-        0.0007
-      ],
-      "LEONE LORNA L & MARIE-ETAL": [
-        0.42,
-        0.0007
-      ],
-      "SUGRUE TERESA TRUSTEE": [
-        0.41,
-        0.0007
-      ],
-      "HARRINGTON CAROL ANN": [
-        0.41,
-        0.0007
-      ],
-      "THE 1871 CO LLC": [
-        0.39,
-        0.0006
-      ],
-      "KIERNAN BRENDAN": [
-        0.39,
-        0.0006
-      ],
-      "TREMBLY GRAY C": [
-        0.38,
-        0.0006
-      ],
-      "PERGANTIS MICHAEL": [
-        0.38,
-        0.0006
-      ],
-      "DONEGAN GEOFFREY & IDIL": [
-        0.38,
-        0.0006
-      ],
-      "LOMBARDI KEITH": [
-        0.37,
-        0.0006
-      ],
-      "BAGHDADY CAMILLE S": [
-        0.37,
-        0.0006
-      ],
-      "WATARI HIROMICHI": [
-        0.36,
-        0.0006
-      ],
-      "VATAN KAMBIZ & GERALDINE": [
-        0.35,
-        0.0006
-      ],
-      "LAZAR STEVEN R": [
-        0.33,
-        0.0005
-      ],
-      "TOBIN ROGER L--ETAL": [
-        0.33,
-        0.0005
-      ],
-      "GEARIN W. MICHAEL": [
-        0.33,
-        0.0005
-      ],
-      "KAPSALIS STEVEN": [
-        0.32,
-        0.0005
-      ],
-      "JOHNSON CHARLES/ETAL--TRS": [
-        0.32,
-        0.0005
-      ],
-      "HORGAN JEREMIAH F--ETAL": [
-        0.31,
-        0.0005
-      ],
-      "MCGLASHING ANGELA": [
-        0.31,
-        0.0005
-      ],
-      "STRAYHORN JOHN M--ETAL": [
-        0.31,
-        0.0005
-      ],
-      "KENNEY MARGARET T/LIFE ESTATE": [
-        0.31,
-        0.0005
-      ],
-      "ABBOTT WALTER R JR": [
-        0.31,
-        0.0005
-      ],
-      "BITTEKER STEVEN A & EVA B": [
-        0.3,
-        0.0005
-      ],
-      "MAHONEY JOHN & PHYLLIS &": [
-        0.3,
-        0.0005
-      ],
-      "LIU WENYUN & CHEN YUZHI": [
-        0.3,
-        0.0005
-      ],
-      "GINIVISIAN GEORGE P--ETAL": [
-        0.3,
-        0.0005
-      ],
-      "SMITH SCOTT J/HEATHER A": [
-        0.3,
-        0.0005
-      ],
-      "ACCARDI GERALDINE": [
-        0.29,
-        0.0005
-      ],
-      "VENEZIANO DANIELE--TRUSTEE": [
-        0.29,
-        0.0005
-      ],
-      "PLUMMER JOHN C/TRUSTEE": [
-        0.29,
-        0.0005
-      ],
-      "OU WANMEI &": [
-        0.29,
-        0.0005
-      ],
-      "SENDER RONALD S--ETAL": [
-        0.29,
-        0.0005
-      ],
-      "LAGERWEY MARCIA  A &": [
-        0.28,
-        0.0005
-      ],
-      "MCCABE DANIEL H": [
-        0.28,
-        0.0005
-      ],
-      "SALHI BRAHIM": [
-        0.28,
-        0.0005
-      ],
-      "POLITANO FELICE": [
-        0.28,
-        0.0005
-      ],
-      "KEPLER PATRICIA BUDD/ LIFE EST": [
-        0.28,
-        0.0005
-      ],
-      "ROUCHI KEYHAN": [
-        0.28,
-        0.0005
-      ],
-      "MAGGIE ASH LLC": [
-        0.28,
-        0.0005
-      ],
-      "KWAN HARRY C.W./TRUSTEE": [
-        0.28,
-        0.0005
-      ],
-      "COHEN RICHARD A": [
-        0.28,
-        0.0005
-      ],
-      "STOCKER KATHLEEN/TRUSTEE": [
-        0.27,
-        0.0004
-      ],
-      "BOWNS HELEN E ETAL/ TRUSTEES": [
-        0.27,
-        0.0004
-      ],
-      "CARITAS COMMUNITIES  INC.": [
-        0.27,
-        0.0004
-      ],
-      "ABRAMS HALL SUSAN LAURIE/TR": [
-        0.27,
-        0.0004
-      ],
-      "VAUGHAN TERESA M/ TRUSTEE": [
-        0.27,
-        0.0004
-      ],
-      "VERIKIOS PETER/VASILIKI": [
-        0.27,
-        0.0004
-      ],
-      "FAMOLARE GEORGE R & SUSAN P": [
-        0.27,
-        0.0004
-      ],
-      "GRIECO ANGELO J": [
-        0.27,
-        0.0004
-      ],
-      "REILLY JOHN F & MARIA C/TRS": [
-        0.26,
-        0.0004
-      ],
-      "53 PARK ST LLC": [
-        0.26,
-        0.0004
-      ],
-      "LAU WAI-CHUEN ERNIE/ETAL": [
-        0.26,
-        0.0004
-      ],
-      "PULLMAN JACKY": [
-        0.26,
-        0.0004
-      ],
-      "POULAKIDAS CHARLES D": [
-        0.26,
-        0.0004
-      ],
-      "NELSON DENISE M/TRUSTEE": [
-        0.26,
-        0.0004
-      ],
-      "LEE HARVEY SHUI-HONG": [
-        0.26,
-        0.0004
-      ],
-      "TREMBLY EDWARD D & BETTY L": [
-        0.26,
-        0.0004
-      ],
-      "NEWMAN ALISON B": [
-        0.26,
-        0.0004
-      ],
-      "ELLIOTT MARIE": [
-        0.26,
-        0.0004
-      ],
-      "CADOTTE DENISE B/TRUSTEE": [
-        0.26,
-        0.0004
-      ],
-      "FRASER DAVID S": [
-        0.26,
-        0.0004
-      ],
-      "HANLON DANIEL J & SUSAN E": [
-        0.26,
-        0.0004
-      ],
-      "COUGHLIN JOHN P": [
-        0.26,
-        0.0004
-      ],
-      "HAMIZIDES ANASTASIA": [
-        0.26,
-        0.0004
-      ],
-      "HRYNOWSKI JOHN & MARY F": [
-        0.26,
-        0.0004
-      ],
-      "DINUCCI DARIN P": [
-        0.26,
-        0.0004
-      ],
-      "MATLACK WILLIAM T": [
-        0.25,
-        0.0004
-      ],
-      "MCCLUSKEY KEITH": [
-        0.25,
-        0.0004
-      ],
-      "MAKOWKA STEPHEN/ETAL": [
-        0.25,
-        0.0004
-      ],
-      "ALEO RICHARD P": [
-        0.25,
-        0.0004
-      ],
-      "CHELARIU CARMEN & CRISTIAN": [
-        0.25,
-        0.0004
-      ],
-      "ASCP LLC": [
-        0.25,
-        0.0004
-      ],
-      "DOYLE CYNTHIA J": [
-        0.25,
-        0.0004
-      ],
-      "CHAKRABARTY DEEPTO": [
-        0.25,
-        0.0004
-      ],
-      "24 APPLETON PLACE LLC": [
-        0.25,
-        0.0004
-      ]
-    },
-    "R3": {
-      "GOSHDIGIAN REALTY LLC": [
-        0.45,
-        0.0545
-      ],
-      "POLITANO FRANCESCO": [
-        0.22,
-        0.0267
-      ],
-      "FOLEY CAROLE A &": [
-        0.2,
-        0.0242
-      ],
-      "A & B MARBLE DESIGN": [
-        0.19,
-        0.023
-      ],
-      "GEANNARIS ANTHONY": [
-        0.16,
-        0.0194
-      ],
-      "WEBER MARK A": [
-        0.15,
-        0.0182
-      ],
-      "DILLON JEANNE": [
-        0.13,
-        0.0158
-      ],
-      "GRASSIA MARK A": [
-        0.13,
-        0.0158
-      ],
-      "KLEUTSCH LAUREN": [
-        0.13,
-        0.0158
-      ],
-      "CONTE RICHARD A": [
-        0.12,
-        0.0145
-      ],
-      "ZEVITAS NICHOLAS J": [
-        0.12,
-        0.0145
-      ],
-      "MELKI SAMIR & RANIA": [
-        0.12,
-        0.0145
-      ],
-      "GRASSO ERNESTINE C/TRS": [
-        0.12,
-        0.0145
-      ],
-      "65 BROADWAY LLC": [
-        0.12,
-        0.0145
-      ],
-      "IAKOVOU CRYSTAL M/ TRUSTEE": [
-        0.12,
-        0.0145
-      ],
-      "LACOURT ENTERPRISES LLC": [
-        0.11,
-        0.0133
-      ],
-      "LA COURT ENTERPRISE LLC": [
-        0.11,
-        0.0133
-      ],
-      "CATALPA INC": [
-        0.11,
-        0.0133
-      ],
-      "TOKADJIAN SALPHIE T & PANOS": [
-        0.11,
-        0.0133
-      ],
-      "TEEL STREET LLC": [
-        0.1,
-        0.0121
-      ],
-      "DELLO RUSSO ANTHONY & SIMONA": [
-        0.1,
-        0.0121
-      ],
-      "PESIRIDIS ANGELA": [
-        0.1,
-        0.0121
-      ],
-      "DIVICO-PIANTEDOSI ELVIRA A": [
-        0.1,
-        0.0121
-      ],
-      "MARINO PAUL J & PAULINE TRS": [
-        0.1,
-        0.0121
-      ],
-      "391 BROADWAY LLC": [
-        0.09,
-        0.0109
-      ],
-      "EDWARDS STANLEY S": [
-        0.09,
-        0.0109
-      ],
-      "LACOURT ORPHANAGE TRUST LLC": [
-        0.09,
-        0.0109
-      ],
-      "HASTINGS JAMES L JR/TR &": [
-        0.09,
-        0.0109
-      ],
-      "OSHIMA MICHELE": [
-        0.09,
-        0.0109
-      ],
-      "RINN JUNE F/ LIFE ESTATE": [
-        0.09,
-        0.0109
-      ],
-      "14-16 LAUREL ST LLC": [
-        0.08,
-        0.0097
-      ],
-      "CASARJIAN ARMEN": [
-        0.08,
-        0.0097
-      ],
-      "TSAFOULIAS NICHOLAS P &": [
-        0.08,
-        0.0097
-      ],
-      "LUCARELLI STEPHANIE L": [
-        0.08,
-        0.0097
-      ],
-      "WEINTRAUB SARAH": [
-        0.08,
-        0.0097
-      ],
-      "JOHNSON LINNEA": [
-        0.08,
-        0.0097
-      ],
-      "NIGRO FRANK J": [
-        0.06,
-        0.0073
-      ],
-      "COELHO EMANUEL": [
-        0.06,
-        0.0073
-      ]
-    },
-    "R4": {
-      "COYNER KARL B": [
-        0.63,
-        0.0325
-      ],
-      "THE BOSTON CHURCH OF CHRIST": [
-        0.6,
-        0.031
-      ],
-      "119 PLEASANT STREET LLC": [
-        0.58,
-        0.0299
-      ],
-      "CALVERT/ELLENHORN/PRAKASH LLC": [
-        0.52,
-        0.0268
-      ],
-      "COLUMBUS CLUB INC": [
-        0.49,
-        0.0253
-      ],
-      "118 PLEASANT ST REALTY LLC": [
-        0.46,
-        0.0237
-      ],
-      "KAPLAN ANNETTE TR": [
-        0.42,
-        0.0217
-      ],
-      "PRIVITERA PHILIP J/TR": [
-        0.42,
-        0.0217
-      ],
-      "FREDIEU ROBERT L/ETAL": [
-        0.37,
-        0.0191
-      ],
-      "MCMAHON AMBER & JOHN": [
-        0.3,
-        0.0155
-      ],
-      "CARITAS COMMUNITIES  INC": [
-        0.29,
-        0.015
-      ],
-      "PENG XIAOJUN": [
-        0.29,
-        0.015
-      ],
-      "PROTESTANT EPISCOPAL CHURCH": [
-        0.28,
-        0.0144
-      ],
-      "SALVATION ARMY": [
-        0.27,
-        0.0139
-      ],
-      "NYBERG JONATHAN": [
-        0.25,
-        0.0129
-      ],
-      "WHITFORD DAVID S/ETAL": [
-        0.24,
-        0.0124
-      ],
-      "C.J.M. MANAGEMENT INC": [
-        0.24,
-        0.0124
-      ],
-      "ALBERTO DOROTHY G": [
-        0.22,
-        0.0114
-      ],
-      "MEGUERDITCHIAN DIKRAN": [
-        0.21,
-        0.0108
-      ],
-      "AMES CHRISTOPHER JOHN": [
-        0.19,
-        0.0098
-      ],
-      "SHOVLIN THOMAS D--ETAL": [
-        0.18,
-        0.0093
-      ],
-      "BOUBOULIS JAMES": [
-        0.18,
-        0.0093
-      ],
-      "BCF WATER ST LLC": [
-        0.17,
-        0.0088
-      ],
-      "HAAS RUTH S & JASON G": [
-        0.17,
-        0.0088
-      ],
-      "COLLINS DANIEL F": [
-        0.16,
-        0.0083
-      ],
-      "YOUNG ROBERT S & ERIKO": [
-        0.16,
-        0.0083
-      ],
-      "MISHKIN NATHANIEL/JUDITH": [
-        0.16,
-        0.0083
-      ],
-      "9 RUSSELL TERRACE LLC": [
-        0.16,
-        0.0083
-      ],
-      "ST JOHNS EPISCOPAL CHURCH": [
-        0.15,
-        0.0077
-      ],
-      "CHU CHUNG-CHI": [
-        0.15,
-        0.0077
-      ],
-      "STIFFLER DANA E": [
-        0.15,
-        0.0077
-      ],
-      "LEE PHILIP Q & JENNY S Y": [
-        0.14,
-        0.0072
-      ],
-      "CERRATO CARLA M": [
-        0.14,
-        0.0072
-      ],
-      "SHUKLA RAHUL": [
-        0.14,
-        0.0072
-      ],
-      "PETKOV VENTZISLAV &": [
-        0.14,
-        0.0072
-      ],
-      "KWAN RICKY C --ETAL": [
-        0.14,
-        0.0072
-      ],
-      "ARYAL SAROJ K & NIRU B": [
-        0.14,
-        0.0072
-      ],
-      "WILKE MARK & SHARON": [
-        0.13,
-        0.0067
-      ],
-      "HAZEL KEVIN J/ETAL": [
-        0.11,
-        0.0057
-      ],
-      "CHIN PHILIP L/ETAL": [
-        0.11,
-        0.0057
-      ],
-      "ALLEN GLEISSER E": [
-        0.05,
-        0.0026
-      ]
-    },
-    "R5": {
-      "ARLINGTON HOUSING AUTHORITY": [
-        7.03,
-        0.1103
-      ],
-      "CONSERVATION FOOD & HEALTH": [
-        5.29,
-        0.083
-      ],
-      "JOHNSON ARTHUR W TR": [
-        2.48,
-        0.0389
-      ],
-      "NOSTALGIA PROPERTIES LLC": [
-        2.4,
-        0.0376
-      ],
-      "MBC REALTY LLC": [
-        2.14,
-        0.0336
-      ],
-      "JOHNSON SANDRA A-TR--ETAL": [
-        1.63,
-        0.0256
-      ],
-      "CAMPOBASSO PROPERTIES LLC": [
-        1.21,
-        0.019
-      ],
-      "ARLINGTON-GROVE REALTY LLC": [
-        0.81,
-        0.0127
-      ],
-      "ARLINGTON-FREMONT RLTY INC": [
-        0.79,
-        0.0124
-      ],
-      "JOHNSON SANDRA A--ETAL": [
-        0.74,
-        0.0116
-      ],
-      "275 BROADWAY LLC": [
-        0.67,
-        0.0105
-      ],
-      "CARRIG ROBERT/JAMES/NANCY JANE": [
-        0.63,
-        0.0099
-      ],
-      "TOULOPOULOS JOHN W/TRS -ETAL": [
-        0.62,
-        0.0097
-      ],
-      "TOULOPOULOS JOHN  W/TRS-ETAL": [
-        0.61,
-        0.0096
-      ],
-      "LOMBARD LEON E JR TRUSTEE": [
-        0.47,
-        0.0074
-      ],
-      "LOMBARD LEON E & SHIRLEY/TRS": [
-        0.46,
-        0.0072
-      ],
-      "LOMBARD LEON E JR/TRUSTEE": [
-        0.44,
-        0.0069
-      ],
-      "FREEDOM REALTY PARTNERSHIP LLP": [
-        0.44,
-        0.0069
-      ],
-      "ATINIZIAN NIGOGHOS & CAROLYN": [
-        0.44,
-        0.0069
-      ],
-      "CAMPOBASSO RICHARD S": [
-        0.42,
-        0.0066
-      ],
-      "GALVIN SEAN D/TRUSTEE": [
-        0.38,
-        0.006
-      ],
-      "SANMARTINO LIMITED PARTNERSHIP": [
-        0.38,
-        0.006
-      ],
-      "ARLINGTON - DUDLEY REALTY LLC": [
-        0.34,
-        0.0053
-      ],
-      "109 OXFORD ST LLC": [
-        0.29,
-        0.0045
-      ],
-      "HOUSING CORP OF ARLINGTON": [
-        0.24,
-        0.0038
-      ],
-      "LEONE DONALD J": [
-        0.22,
-        0.0035
-      ],
-      "VARALLO DANIEL C/EUGENIO M": [
-        0.21,
-        0.0033
-      ],
-      "B.F. ARLINGTON PROPERTIES LLC": [
-        0.19,
-        0.003
-      ],
-      "JOHNSON SANDRA ANN TRS-ETAL": [
-        0.17,
-        0.0027
-      ],
-      "PANICO JAMES V/RAMALHO ANA L.": [
-        0.16,
-        0.0025
-      ],
-      "PAULINO STEPHEN--ETAL": [
-        0.15,
-        0.0024
-      ],
-      "GORMLEY MAUREEN E": [
-        0.14,
-        0.0022
-      ],
-      "SOFRONAS JEAN D": [
-        0.12,
-        0.0019
-      ],
-      "TOULOPOULOS JOHN & PAULINE": [
-        0.12,
-        0.0019
-      ],
-      "SAINI SARBJIT S &": [
-        0.12,
-        0.0019
-      ],
-      "BANKS JOAN  L/TRUSTEE": [
-        0.11,
-        0.0017
-      ],
-      "SLEBODNICK GARY & ANNE": [
-        0.11,
-        0.0017
-      ],
-      "MORSE TODD S & HARIVOLOLONA": [
-        0.09,
-        0.0014
-      ],
-      "MYATT CHARLES L": [
-        0.09,
-        0.0014
-      ],
-      "YORKE DAVID G/SAYA O": [
-        0.09,
-        0.0014
-      ],
-      "BROWN PAULA G": [
-        0.09,
-        0.0014
-      ],
-      "OSTERWEIS BURTON/TRUSTEE": [
-        0.08,
-        0.0013
-      ],
-      "Town Of Arlington": [
-        0.03,
-        0.0005
-      ]
-    },
-    "R6": {
-      "ARLINGTON HOUSING AUTHORITY": [
-        4.49,
-        0.0915
-      ],
-      "NOSTALGIA PROPERTIES LLC": [
-        1.1,
-        0.0224
-      ],
-      "BROOKS AVENUE LLC": [
-        1.02,
-        0.0208
-      ],
-      "GENERATIONS PROPERTIES": [
-        0.98,
-        0.02
-      ],
-      "JOHNSON LIMITED PARTNERSHIP": [
-        0.83,
-        0.0169
-      ],
-      "HIGHLAND COURT REALTY LLC": [
-        0.66,
-        0.0135
-      ],
-      "HCA CAPITOL SQUARE APARTMENTS": [
-        0.66,
-        0.0135
-      ],
-      "JBBP MASS AVE LLC": [
-        0.65,
-        0.0133
-      ],
-      "MVC PROPERTY 1 LLC": [
-        0.52,
-        0.0106
-      ],
-      "R A JOHNSON REALTY INC": [
-        0.45,
-        0.0092
-      ],
-      "SULLIVAN WILLIAM H TRS-ETAL": [
-        0.44,
-        0.009
-      ],
-      "ARLINGTON MINUTEMAN TOWERS LLC": [
-        0.43,
-        0.0088
-      ],
-      "LOMBARD LEON E-SHIRLEY E": [
-        0.42,
-        0.0086
-      ],
-      "ARLINGTON MINUTEMAN TOWERS LL": [
-        0.4,
-        0.0082
-      ],
-      "Henry E. Davidson, Jr.": [
-        0.38,
-        0.0077
-      ],
-      "JOHNSTON LEROY N JR": [
-        0.36,
-        0.0073
-      ],
-      "ROGARIS PETER J & CHRISTOS": [
-        0.36,
-        0.0073
-      ],
-      "PIGOTT CHARLES A TRS-ETAL": [
-        0.31,
-        0.0063
-      ],
-      "1033 MASS AVE ARLINGTON LLC": [
-        0.3,
-        0.0061
-      ],
-      "KANE WALTER & CHRISTIAN / TRS": [
-        0.3,
-        0.0061
-      ],
-      "PIGOTT CHARLES+CAHILL MARY": [
-        0.27,
-        0.0055
-      ],
-      "JOHNSON JUDITH N": [
-        0.26,
-        0.0053
-      ],
-      "MANSFIELD REALTY MANAGEMENT": [
-        0.25,
-        0.0051
-      ],
-      "PIGOTT CHARLES A TRS--ETAL": [
-        0.25,
-        0.0051
-      ],
-      "SUGRUE TERESA/TR &": [
-        0.25,
-        0.0051
-      ],
-      "339 MASS AVENUE LLC": [
-        0.24,
-        0.0049
-      ],
-      "HOUSING CORP OF ARLINGTON": [
-        0.23,
-        0.0047
-      ],
-      "ARLINGTON MINUTEMAN TOWERS LL.": [
-        0.21,
-        0.0043
-      ],
-      "MASS AVE 3XL7 LLC": [
-        0.21,
-        0.0043
-      ],
-      "SULLIVAN WILLIAM H JR/TRS": [
-        0.2,
-        0.0041
-      ],
-      "HATZIKOSTANTIS NICHOLAS G": [
-        0.19,
-        0.0039
-      ],
-      "MAHER DAVID F/TRUSTEE": [
-        0.19,
-        0.0039
-      ],
-      "CARNEY CHRISTINE C": [
-        0.19,
-        0.0039
-      ],
-      "43 BROADWAY ARLINGTON LLC": [
-        0.18,
-        0.0037
-      ],
-      "HARMAN ALICE M /TRUSTEE": [
-        0.18,
-        0.0037
-      ],
-      "KATZ ALAN H/TRUSTEE": [
-        0.18,
-        0.0037
-      ],
-      "LEGER GEORGE F/ ESTATE": [
-        0.17,
-        0.0035
-      ],
-      "B F ARLINGTON PROPERTIES LLC": [
-        0.17,
-        0.0035
-      ],
-      "ALEXANDER ARTHUR P/TRUSTEE": [
-        0.16,
-        0.0033
-      ],
-      "CARNEY JOHN A": [
-        0.16,
-        0.0033
-      ],
-      "KELJIKIAN MALCOLM/JEAN": [
-        0.16,
-        0.0033
-      ],
-      "Mirak Family": [
-        0.15,
-        0.0031
-      ],
-      "READY SUSAN A": [
-        0.14,
-        0.0029
-      ],
-      "CRONIN LISA/TRUSTEE": [
-        0.13,
-        0.0027
-      ],
-      "WFPIGOTT REALTY 2010 LLC": [
-        0.13,
-        0.0027
-      ],
-      "VROTSOS GARY J TRUSTEE": [
-        0.13,
-        0.0027
-      ],
-      "PIGOTT CHARLES A--TRS/ETAL": [
-        0.12,
-        0.0024
-      ],
-      "JOHNSON REALTY  INC": [
-        0.12,
-        0.0024
-      ],
-      "MANCINI PETER P & ZENDA M": [
-        0.12,
-        0.0024
-      ],
-      "HILL ROBERT F JR": [
-        0.11,
-        0.0022
-      ],
-      "BOWES ROBERT E/TRUSTEE": [
-        0.11,
-        0.0022
-      ],
-      "TARKINGTON HAROLDD W": [
-        0.1,
-        0.002
-      ],
-      "PESIRIDIS EFTHIMIA/TRUSTEE": [
-        0.1,
-        0.002
-      ],
-      "TOLPIN DANIEL W TRS--ETAL": [
-        0.09,
-        0.0018
-      ],
-      "BOYER ERIC & SOFIA": [
-        0.09,
-        0.0018
-      ],
-      "MAC LEOD NORMAN J TRUSTEE": [
-        0.08,
-        0.0016
-      ],
-      "Town Of Arlington": [
-        0.01,
-        0.0002
-      ]
-    },
-    "R7": {
-      "Town Of Arlington": [
-        3.3,
-        0.1489
-      ],
-      "ARLINGTON HOUSING AUTHORITY": [
-        3.16,
-        0.1426
-      ],
-      "MILLBROOK SQ APARTMENTS CO": [
-        2.43,
-        0.1096
-      ],
-      "SUNRISE ASSISTED LIVING INC": [
-        1.96,
-        0.0884
-      ],
-      "HOUSING CORP OF ARLINGTON": [
-        0.88,
-        0.0397
-      ],
-      "NOSTALGIA PROPERTIES LLC": [
-        0.64,
-        0.0289
-      ],
-      "CEDAR CREST ARLINGTON LLC": [
-        0.49,
-        0.0221
-      ],
-      "GALVIN SEAN D /TRUSTEE": [
-        0.26,
-        0.0117
-      ],
-      "SCHWAMB MILL PRESERVATION": [
-        0.21,
-        0.0095
-      ],
-      "PIECHOTA DENNIS V--ETAL": [
-        0.16,
-        0.0072
-      ],
-      "CARNEY JOHN A": [
-        0.13,
-        0.0059
-      ],
-      "ALLEN NANCY M/TRUSTEE": [
-        0.11,
-        0.005
-      ],
-      "KELLERMAN LOIS": [
-        0.11,
-        0.005
-      ],
-      "CRAIG CAROLINE": [
-        0.09,
-        0.0041
-      ],
-      "ADAMIAN CONSTRUCTION &": [
-        0.06,
-        0.0027
-      ],
-      "J P G DEVELOPMENT": [
-        0.06,
-        0.0027
-      ],
-      "ALLEN HAROLD J JR /TRUSTEE": [
-        0.05,
-        0.0023
-      ]
-    },
-    "T": {
-      "MASS BAY TRANSIT AUTHORITY": [
-        1.04,
-        1.3636
-      ],
-      "MEGUERDITCHIAN RICHARD": [
-        0.44,
-        0.5769
-      ]
-    },
-    "W": {
-    },
-    "WATER": {
-    }
-  },
   "val": {
     "B1": {
       "Henry E. Davidson, Jr.": 5393700,
@@ -3517,87 +21,7 @@
       "ROGARIS PETER J /TRUSTEE": 1224000,
       "ANNESE ROBERT J TR J-JUDITH": 1214200,
       "55 KENSINGTON LLC": 1192300,
-      "FAKHARZADEH MARYA M/TRUSTEE": 1190700,
-      "COURTNEY SARAH L / ETAL TRS": 1188000,
-      "CHESTNUT REALTY TRUST #1": 1173200,
-      "DE VITO ALFRED M TRUSTEE": 1170900,
-      "Frank Pasciuto": 1160900,
-      "89 MASS AVE LLC": 1153900,
-      "Town Of Arlington": 1144500,
-      "CLAVENNA ROBERT SCOTT": 1130700,
-      "BOIT NICHOLAS B TRUSTEE": 1126420,
-      "HEDLUND PETER/MAILE": 1119700,
-      "GNEWUCH CHRISTINA & SCOT C": 1103300,
-      "QUINN PATRICK J & AMY L TRS": 1101100,
-      "CAMPOBASSO PROPERTIES LLC": 1092600,
-      "KEEFE CHARLES D--ETAL": 1091300,
-      "BICUSPID LLC": 1090200,
-      "HENDERSON ST PROPERTIES LLC": 1089600,
-      "HSU CHENG-PEI & MAGGIE W": 1087800,
-      "HUTCHINS PROPERTIES LLC": 1083800,
-      "GRASSI ARMANDO & ANGELA": 1076100,
-      "ZAGANJORI HAKI & FERIDA TRUSTE": 1051400,
-      "58-60 MEDFORD STREET LLC": 1044600,
-      "DINIS CHARLES": 1030800,
-      "U.S. OF AMERICA POST OFFICE": 1009000,
-      "PRVITERA PHILIP J/TRUSTEE": 1006100,
-      "LACOURT ENTERPRISES LLC": 1005000,
-      "STATHAKIS NICHOLAS --ETAL": 1004700,
-      "DEROSAS DOLORES EILEEN": 1002900,
-      "42 PLEASANT STREET LLC": 999100,
-      "POON CHRISTOPHER/WAN YUK": 996000,
-      "286-288 MASS-ARLINGTON LLC": 976300,
-      "JOVELLAS ARTHUR S/ TRUSTEE": 969500,
-      "LANZILLOTTI PALMAR": 966600,
-      "DE SIMONE DAVID M MD": 957300,
-      "1500 MASS AVE LLC": 953900,
-      "TARANTINO KAREN J": 943100,
-      "SHAPIRO JANE L TRUSTEE": 922600,
-      "MIGALA COLT CAROLYN": 918500,
-      "WRIGHT ALAN J & MARIE R TRS": 915800,
-      "James F. Doherty": 912400,
-      "WF PIGOTT REALTY 2010 LLC": 890800,
-      "TAURO WALTER J JR &DANIEL ETAL": 886200,
-      "ARCHAMBAULT N RICHARD TR": 879400,
-      "319 MASS AVE LLC": 873800,
-      "DOUGHERTY CYRA PERRY": 856600,
-      "FAN SHUN": 855300,
-      "BOBCO LLC": 853400,
-      "MULHERN ROBERT & TINA": 847200,
-      "DAVIS MICHAEL J JR &": 840800,
-      "POTTER RALPH": 832100,
-      "H.A.F. INC.": 822300,
-      "WYMAN DAVID G & MARYELLEN/ TRS": 821200,
-      "BAYERL ELIZABETH A": 821100,
-      "GROSSMAN ROBERT H--ETAL": 819000,
-      "DIBLASI GERARD J": 817400,
-      "STATHOPOULOS HARALAMBOS N ETAL": 817300,
-      "LEA REBEKAH & DOYLE DEREK": 811500,
-      "ARELLANO JERONIMO & ANUSHKA": 810700,
-      "CALIENDO ANTHONY R & MARY JANE": 776400,
-      "HART MICHAEL A/TRUSTEE": 764000,
-      "ERCOLINI MICHAEL": 749000,
-      "BARNOON BARAK ISRAEL &": 743600,
-      "KWAN JOSEPH F": 731200,
-      "GINIVISIAN GEORGE P-JANET L": 730300,
-      "KEEFE KATHERINE G & ROBERT": 709900,
-      "KROMER MATTHEW A & MEGAN": 683800,
-      "SUGRUE TERESA ETAL/ TRUSTEES": 682700,
-      "40 PLEASANT STREET UNIT 1 LLC": 682700,
-      "KIMPEL CAROLYN M &": 681200,
-      "ARLINGTON POST NO 39": 659500,
-      "VENTURA SALVATORE &": 647100,
-      "NAM YEOLIM &": 626500,
-      "MANTY WILLIAM/TRACY YUEN": 625300,
-      "BACHANOWSKI JOHN S &": 624300,
-      "LUSTIG DAVID &": 624300,
-      "CAMPBELL DIONNE M/DEVON L": 614600,
-      "O`NEILL PATRICIA": 591700,
-      "O`NEILL JOHN": 589000,
-      "RATHBUN JENNIE H": 571000,
-      "PANNESI DAVID J/DARIA A": 561000,
-      "WAGNER BARBARA/CARL/STEPHEN": 546700,
-      "HEALEY JAMES T & JOSEPHINE": 531700
+      "FAKHARZADEH MARYA M/TRUSTEE": 1190700
     },
     "B2": {
       "ATINIZIAN NIGOGHOS & CAROLYN": 2960100,
@@ -3620,53 +44,7 @@
       "TDR REAL ESTATE MANAGEMENT LLC": 1188900,
       "FAMOLARE GEORGE R & SUSAN P": 1176800,
       "PARTH ENTERPRISES LLC": 1166500,
-      "GRIFFIN CHRISTOPHER J/TRUSTEE": 1153300,
-      "TOULOPOULOS JOHN  W/TRS/ETAL": 1140000,
-      "LEADER BANK": 1109000,
-      "WHITTEMORE EDWINP/JANICE M": 1071400,
-      "TRACANNA NICOLA TR": 1062900,
-      "SHIFF JEFFREY/STIEGLITZ DONNA": 1050300,
-      "AIELLO ROBERT B & LINDA M": 1040800,
-      "THE CHILDRENS CENTER": 1031600,
-      "918-920 MASSACHUSETTS AVE LLC": 1026900,
-      "CARACASHIAN GARABED & ZAINI": 1019700,
-      "BOYLES ENTERPRISES LLC": 1013100,
-      "ABIDIAN LLC": 1003000,
-      "KELJIKIAN MALCOLM/JEAN": 985400,
-      "BOUBOULIS MICHAEL TRUSTEE": 971700,
-      "EAST ARLINGTON REALTY LLC": 924200,
-      "VIGLAS CHARLES J/ TRUSTEE": 923200,
-      "ROGARIS PETER J/TRUSTEE": 906100,
-      "SUMMER REALTY SERVICES LLC": 893900,
-      "SPC REALTY LLC": 888400,
-      "191 BROADWAY LLC": 840600,
-      "WANG YI": 839400,
-      "STEPANIAN KRIKOR & ARMINE": 837300,
-      "SHEN YALING": 835900,
-      "SAHAI JILL & SHANKER": 833600,
-      "POULOS THEODORE": 831600,
-      "94 MASSACHUSETTS AVENUE LLC": 802500,
-      "MAIDA LAWRENCE G/TRUSTEE": 773100,
-      "BORETOS THEMISTOKLIS/GEORGIOS": 761700,
-      "SHARMA DAVINDER K/TRUSTEE": 760600,
-      "MARTIN ALICE V & DOROTHY": 755600,
-      "COPE JOSHUA D &": 725200,
-      "BOUBOULIS JAMES & STEFANOS": 680400,
-      "PELLEGRINO FRANK J & SANDRA M": 679800,
-      "FOOD LINK INC": 655200,
-      "J&C 189 LLC": 627800,
-      "ROGARIS PETER J--ETAL": 621400,
-      "BEECHER JOEL T": 620000,
-      "MINNITI ANTHONY": 564600,
-      "PARITSKY LEONID & SARAH H": 563500,
-      "Town Of Arlington": 546200,
-      "BURTCH MICHAEL F &": 470800,
-      "EYE ASSOCIATES REALTY": 420200,
-      "MASS ARLINGTON REALTY  INC": 324200,
-      "FORMWORKS LLC": 302200,
-      "201 BROADWAY LLC": 300900,
-      "POIRIER LISA M & KELLY A": 276900,
-      "QUAN JAMES B.T/DOROTHY E": 268100
+      "GRIFFIN CHRISTOPHER J/TRUSTEE": 1153300
     },
     "B2A": {
       "US REIF BRIGHAM SQUARE": 47352400,
@@ -3689,25 +67,7 @@
       "LUTZ ROMAN": 842900,
       "MILEY DANIEL H JR & ANNE B TRS": 842200,
       "ALI HOSSAM": 760300,
-      "GOULDER ALISON": 757800,
-      "SLOVIN ZACHARY P": 756500,
-      "YAN MINGDI": 750900,
-      "MECHLING JERRY E &": 750900,
-      "WU QIFENG": 743000,
-      "BROWN THOMAS K/ LIFE ESTATE": 741700,
-      "KALUSTIAN JEFFREY R ETAL/ TRS": 737100,
-      "ABERDEEN JOHN S": 735500,
-      "RICHARDSON KENNETH/SUSAN": 735200,
-      "MA PEI TAK & SHEU MAY": 728600,
-      "TERRY EILEEN": 728300,
-      "GREASON MELINDA": 727100,
-      "TUNGSIRIPAT SUTA": 721500,
-      "TARLIN LLOYD ETAL TRUSTEES": 634800,
-      "THE STOP & SHOP COMPANIES INC": 583400,
-      "FRAGER ALBERT S ETAL/ TRUSTEES": 505300,
-      "Town Of Arlington": 441600,
-      "XENOS NICHOLAS G ETAL /TRS": 140500,
-      "FOOD LINK INC": 116100
+      "GOULDER ALISON": 757800
     },
     "B3": {
       "AKBARIAN MOHAMMED MD": 7459100,
@@ -3730,87 +90,7 @@
       "FAMOLARE GEORGE R & SUSAN P": 2017900,
       "BRANTWOOD HOLDINGS LLC": 1877500,
       "SAVARESE STEVEN P": 1866500,
-      "1309-1323 MASS AVE LLC": 1839300,
-      "LEVOSKY CAROLYN TR": 1825600,
-      "ARLINGTON 1331 REALTY LLC": 1726400,
-      "MASS AVENUE 465 LLC": 1713700,
-      "ELIOT COMMUNITY HUMAN SERVICES": 1705300,
-      "397 MASS AVE LLC": 1608700,
-      "MEGUERDITCHIAN MARO": 1567000,
-      "GEO-CHAR REALTY LLC": 1549500,
-      "RAMSEY RICHARD TRUSTEE": 1512400,
-      "WANAMAKER JOHN & MARK-TRS": 1448700,
-      "MERCIER DONALD H TR": 1440800,
-      "WIENER ANDREW J/ TRUSTEE": 1440000,
-      "WINER JERROLD L--TRUSTEE": 1402400,
-      "DONAHUE BERNARD TRUSTEE": 1341600,
-      "D`AGOSTINO PAUL/TRUSTEE": 1214800,
-      "HAJJAR CHARLES C /TRUSTEE": 1214500,
-      "HAJJAR CHARLES C/TRUSTEE": 1179600,
-      "VAKALFOTIS THOMAS TRUSTEE": 1162400,
-      "ROBERTIE WILLIAM G/PATRICE": 1159200,
-      "EPSTEIN SARA B TRUSTEE": 1118900,
-      "VIGLAS CHARLES J": 1111100,
-      "B&G CORSET COMPANY LLC": 1110300,
-      "BARKAN JONATHAN L": 1088500,
-      "PERHANIDIS NICOLAOS/ TRUSTEE": 1073300,
-      "ROGARIS PETER--ETAL": 1068100,
-      "HIGHROCK CHURCH": 1063400,
-      "G. V. REALTY CORP": 1062300,
-      "POULOS NICHOLAS": 1039500,
-      "CHIOCCARIELLO JOHN B": 984000,
-      "MONTANA VENTURES LLC": 924100,
-      "787-793 MASS AVE LLC": 916700,
-      "1370 MASS AVE INC": 912900,
-      "GALVIN SEAN/TRUSTEE": 876700,
-      "WANAMAKER JOHN R": 869100,
-      "LECAIN ELEANOR &": 841900,
-      "DRISCOLL- RAKUTIS KAREN ANN &": 823200,
-      "SCHARF BETTY M": 770700,
-      "YAVUZ OZGE &": 770700,
-      "CANDELAS ALEXANDRA": 770100,
-      "CARLSTROM ERIC H & SATOKO": 760100,
-      "KELLERT KEVIN L/LIFE ESTATE": 753600,
-      "JACOBSON ERIC": 749900,
-      "PURINTON JAYME S/ TRUSTEE": 738300,
-      "ROHANI MOJDEH": 734100,
-      "ARLINGTON REDEVELOP/BOARD": 659100,
-      "GRABSCHEID BENJAMIN": 653100,
-      "WEI YILIN": 629700,
-      "SHIMADA MASAKO": 629700,
-      "MARK KONRAD A": 614200,
-      "11 PRESCOTT STREET LLC": 610600,
-      "STENTA MATTHEW T": 581000,
-      "STUMPF MAURA C": 578000,
-      "LIVSHIN LAURIE A": 577100,
-      "CAMARANO NANCY A--TRUSTEE": 576000,
-      "MARASIGAN MANUEL A": 571600,
-      "PARTRIDGE SARAH": 566900,
-      "PAPOULIAS CATHY": 564900,
-      "TERENZIO CHARLES": 551700,
-      "HELETER CHRISTINE M": 547500,
-      "ZABEL GARY J & DANIELLE": 547400,
-      "BRAM BRIAN J": 543300,
-      "GARTLAND MARY E/TRUSTEE": 539500,
-      "RAMRAS MARK B& ELIZABETH A/TRS": 538800,
-      "WU RUIRUO": 537400,
-      "GAMBHIR JYOTIN & RUPA": 535300,
-      "HAASE CAMILLA B": 531900,
-      "TEGLAS RUSSELL": 525400,
-      "LENZI LAWRENCE B": 521800,
-      "SUGARMAN BARRY N": 520800,
-      "SAOUD ROBERT J &": 517500,
-      "LIN CHIOU C &": 508100,
-      "DAVIDSON BRUCE": 507000,
-      "VAIL JULIA J": 506600,
-      "SIMONS VIRGINIA W": 503600,
-      "NELSON LAUREN ELIZABETH": 494200,
-      "MCGARRY  JAMES": 493500,
-      "SHAPIRO ANNIE N": 489400,
-      "MCGARRY LLOYD SUSAN": 486400,
-      "DOWNEY IAN C/TRUSTEE": 485500,
-      "KRAY DONNA L TRUSTEE": 483200,
-      "GOODMAN ANDREA I": 483100
+      "1309-1323 MASS AVE LLC": 1839300
     },
     "B4": {
       "NOYES REALTY LLLP": 7568300,
@@ -3833,87 +113,7 @@
       "POWER TEST REALTY COMPANY": 1388800,
       "CENTRAL COOPERATIVE BANK": 1355400,
       "JAMMAL ANTOINE": 1311000,
-      "KALOOSDIAN ROBERT A TRUSTEE": 1289700,
-      "22-26 SUNNYSIDE AVENUE LLC": 1284200,
-      "PAPATHANASIOU DEMETRIOS TR": 1242700,
-      "1132 MASS AVE LLC": 1221300,
-      "CERENDULO RALPH--TRUSTEE": 1186400,
-      "MYATT CHARLES L": 1182700,
-      "MB REALTY GROUP LLC": 1153200,
-      "KOZELIAN JOHN": 1152500,
-      "ELKHAOULI ELIAS/LILLIAN": 1114200,
-      "ARLINGTON AUTOS LLC": 1085900,
-      "BOLANOS KIMON/LIBERTY": 1072800,
-      "HOUSING CORP OF ARLINGTON": 1068500,
-      "PANDOLFO JOSEPH P": 1067000,
-      "LYONS FUEL INC": 1063300,
-      "BROWN KEVIN & THOMAS F TRS": 1051500,
-      "TOBIL REALTY LLC": 1008500,
-      "BOUBOULIS JAMES & STEFANOS": 995300,
-      "CARVELLI WILLIAM S & MARGARET": 988600,
-      "ROONEY ROBERT A/LIFE ESTATE": 986100,
-      "JOHNSON SANDRA & RICHARD": 985100,
-      "CAHILL MARY ANN TRS--ETAL": 938300,
-      "PMG NORTHEAST LLC": 935900,
-      "HUNT PATRICK & KEEGAN MICHAEL": 929900,
-      "ZHOU JIAN": 926900,
-      "NIRMALA & NIRMALA LLC": 925900,
-      "James F. Doherty": 910100,
-      "BANDA HARSHWARDHAN": 878500,
-      "CASAGRANDE DIRK R": 875100,
-      "MIMINOS MARK M & JAMES": 859400,
-      "TILNEY FRANCIS": 821500,
-      "LIN SHANWERN STEVE": 813400,
-      "KING KAREN": 802800,
-      "HESS JOHN LLOYD & ANN L/TR": 802800,
-      "CERUNDOLO PASQUALE/TRUSTEE": 796000,
-      "DANIELS GLEN": 795900,
-      "CARNEY JOHN A": 782900,
-      "CHAN CHOON WENG ETAL/ TRUSTEES": 776800,
-      "DIMITRI CHRISTOPHER &": 768600,
-      "GANGI JESS &": 738400,
-      "KALYANARAMAN AVINASH": 736900,
-      "DIENG HAM CHI": 728200,
-      "J & G PRENTISS LLC": 660600,
-      "BOYLE DAVID T/TRUSTEE": 572900,
-      "BARE KATHLEEN A": 562200,
-      "MAROTTA LAUREN M": 562200,
-      "DELONG SARA & STEFFAN N": 554600,
-      "LEWIS JOHN & RACHEL": 536200,
-      "GOLDSMITH KEVIN J/TR &": 534100,
-      "MORAIS ANGELA S": 525800,
-      "HOEFER ROBERT F/TRUSTEE": 524500,
-      "WANG LISI": 524500,
-      "ALI SULEIMAN": 518700,
-      "CHAUDHURI MEERA/ TRUSTEE": 498600,
-      "DAVIDSON PATRICIA S": 498600,
-      "ZMIJEWSKI DAVID T": 494000,
-      "DING XIAOJUAN": 494000,
-      "TOPAZ DONALD I": 494000,
-      "MATSUI AKIRA": 494000,
-      "MARTIN GWENDOLYN": 493800,
-      "YANG HONG": 493800,
-      "LIPTON SHARON R & AMITAI": 493400,
-      "STERN SALLY R": 493200,
-      "JULIER WILLIAM/WALBURGA MABEY": 492400,
-      "SPRINGS CAROL C": 483100,
-      "DUNN JULIE B": 478300,
-      "KUIN JAMES": 478300,
-      "TORPEY MARY L": 477300,
-      "BASU BIJAY/SANKARI": 476200,
-      "HODGDON LAWRENCE A JR/TRUSTEE": 476200,
-      "MACMILLAN LYNMARIE": 476200,
-      "LANDSKOV ERIK L & GEOFFREY": 475400,
-      "DELANO ROBERT J/TRUSTEE": 469300,
-      "FOLEY JAMES & KATHLEEN/TRS": 468800,
-      "DAVIDOVITZ MICHAEL/MARA": 468800,
-      "LEE BARBARA Y T /TRUSTEE": 468800,
-      "GOULD MURIEL B": 468800,
-      "KAWATE TOMOHIKO": 467300,
-      "FONTAINE KENNETH": 465500,
-      "WELCH CHERYL A/TRUSTEE": 465500,
-      "DIMINO MICHAEL /TRUSTEE": 465500,
-      "DICIACCIO FRANK N & NANCY": 465500
+      "KALOOSDIAN ROBERT A TRUSTEE": 1289700
     },
     "B5": {
       "Mirak Family": 38057900,
@@ -3934,10 +134,13 @@
       "ARLINGTON POST #1775": 869600,
       "SWEET PETER/KATHLEEN": 851000
     },
+    "H": {
+      "BRIGHTVIEW ARLINGTON LLC": 13446200
+    },
     "I": {
       "Mirak Family": 24144500,
       "Town Of Arlington": 8981000,
-      "30 PARK AVE ASSOC LLP": 5531200,
+      "Henry E. Davidson, Jr.": 7268300,
       "ARLINGTON COAL & LUMBER CO": 4894700,
       "NOSTALGIA PROPERTIES LLC": 4680600,
       "87 MYSTIC STREET LLC": 3863800,
@@ -3945,7 +148,6 @@
       "SANTINI MARK & GARY--TRS": 2426800,
       "VALERI ROBERT E TRS--ETAL": 2418000,
       "MOUNT AUBURN PROF SERVICES": 2090800,
-      "30 PARK AVE ASSOCIATES LLC": 1737100,
       "FARRELL DANIEL J/TRUSTEE": 1687500,
       "LALICATA REALTY LLC": 1650900,
       "47 DUDLEY STREET LLC": 1427700,
@@ -3956,89 +158,13 @@
       "BOSTON GAS COMPANY": 1196600,
       "DEEHAN ANTHONY-VALERIE V": 1195500,
       "VENUTO NICOLINO & ANGELA": 1193400,
-      "BLUE WHALE REALTY LLC": 1174600,
-      "FITZPATRICK MICHAEL F": 1113000,
-      "34 DUDLEY STREET LLC": 1091200,
-      "ZERVOGLOS ANTHONY N--ETAL": 1052000,
-      "JONES KEVIN J & J THOMAS/ TRS": 1040400,
-      "LEXI REALTY LLC": 940800,
-      "MILL ST/BEACON ST LLC": 908900,
-      "CASTELLUCCIO R/LORUSSO S": 870100,
-      "JOHNSTON LEROY N JR": 862700,
-      "LONG JOEL C/TRUSTEE": 855200,
-      "PIGOTT CHARLES A & JANE F": 850800,
-      "COLARUSSO PROPERTIES LLC": 781600,
-      "18 BECK ROAD LLC": 773000,
-      "MIMINOS MARK & JAMES": 768800,
-      "49 BRATTLE STREET LLC": 768600,
-      "MUZZIOLI DANTE & BARBER LEE": 739600,
-      "MERJANIAN PAUL D": 738400,
-      "PUOPOLO STEPHEN L/TRUSTEE": 737100,
-      "FARRELL DANIELJ/TRUSTEE": 727000,
-      "CAO LAN & XU QING": 724200,
-      "LU HONGFAN & GUO BIN": 724200,
-      "70 BOW ST LLC": 719200,
-      "SAMSON DEVON C & VIVIAN L": 716000,
-      "KENNEDY MARY G--TRUSTEE": 712100,
-      "TALWAR AKHIL &": 711800,
-      "SERRA ILARIA": 710000,
-      "FINOCHETTI JOHN V": 708600,
-      "51 BRATTLE STREET LLC": 707800,
-      "MUZZIOLI DANTE S/TRUSTEE": 705500,
-      "TALREJA TINA": 704600,
-      "FLYNN WILLIAM F JR/ TRUSTEE": 704500,
-      "ELVHEDE FREDRIK &": 703600,
-      "DEEHAN ANTHONY J": 703200,
-      "MENG YUXI &": 701800,
-      "VAIDYA PRASAD ANIL & PRIYA": 701700,
-      "EVEREST HEALTHCARE SPECIALISTS": 696300,
-      "MULLEN ALVIN S III & ANN M": 692800,
-      "DASTI IRFAN": 690100,
-      "CHEN TONG & WAN MIN": 680500,
-      "BLOCK D S-WOLF M TRS-ETAL": 677300,
-      "MCCULLOIGH MARK J": 676500,
-      "SPRAGUE MARY M": 668100,
-      "CAMPBELL RICHARD A & SETA": 663600,
-      "GOHABA LLC": 654100,
-      "3 BROTHERS REALTY LLC": 643200,
-      "KRITSEPIS STAN--ETAL": 642100,
-      "NCH HOLDINGS LLC": 629000,
-      "DEEHAN ANTHONY TR": 626300,
-      "BOUDREAU BARBARA": 600500,
-      "MALONEY SEAN P/TRUSTEE": 595000,
-      "SANTINI REALTY LLC": 580700,
-      "HANSEN LESLIE CHRISTINE": 577500,
-      "KATZ ALAN H TR": 573700,
-      "GREENE BRUCE": 570500,
-      "PIEROG MARY E": 569300,
-      "LYONS SEAN": 568500,
-      "LYNCH FRANCIS/BEATRICE/L EST": 565100,
-      "WAN ZHAOKUI": 565000,
-      "COSTA GERTRUDE C/TRUSTEE": 555400,
-      "ERTEL GERALDINE": 507900,
-      "14 DUDLEY COURT LLC": 491200,
-      "RAJ REALTY GROUP LLC": 477900,
-      "WETHREE LLC": 470800,
-      "ARLINGTON DENTAL GROUP P.C.": 468800,
-      "FULLER MICHAEL J--M D": 457000,
-      "POWELL SANDRA R": 457000,
-      "POCHINI SCOTT A TRUSTEE": 456800,
-      "GILMARTIN MARY/ TRUSTEE": 446000,
-      "AUSTIN ROBERT P & ELLEN E/ TRS": 441600,
-      "BECK ROAD LLC": 429000,
-      "BAILEY HAMILTON T JR&CAROLYNNE": 411300,
-      "RUANE THOMAS M TRUSTEE": 409300,
-      "MOUNT AUBURN HOSPITAL": 408500,
-      "CHILLEMI JUSTIN": 397500,
-      "PEMBROKE PROPERTIES LLC": 362700,
-      "GRANT THOMAS DARCY": 337600,
-      "VENUTO NICK & ANGELA": 337600,
-      "LAWSON J & HUTCHINSON R": 335700,
-      "CHILLEMI JUSTIN P": 334300,
-      "4 DUDLEY PLACE LLC": 324000
+      "BLUE WHALE REALTY LLC": 1174600
     },
     "MU": {
       "FHF 1 ARLINGTON 360 LLC": 77839500
+    },
+    "O": {
+      "Mugar Family": 2400000
     },
     "OS": {
       "Town Of Arlington": 124663200,
@@ -4069,87 +195,7 @@
       "LAW MARGARET E/TRUSTEE": 1794100,
       "MAGLIOZZI RAYMOND F&MONIQUE A": 1768900,
       "OCKERBLOOM GAIL": 1765900,
-      "MARBOUX YVES-PIERRE": 1765600,
-      "TULI JAY & BINDI / TRUSTEES": 1760700,
-      "FOUGERE RICHARD J/SUSAN M": 1751000,
-      "TIKARE SEEMA S &": 1742700,
-      "PIAZZA LOUISE": 1690600,
-      "GRASSI ARMANDO & ANGELINA": 1638000,
-      "HARRINGTON STEPHEN/ETAL": 1625800,
-      "KENNEDY KATHLEEN A": 1625500,
-      "CONNEELY MARTIN K": 1618000,
-      "YI SHUJIAN": 1616100,
-      "CURTIN CHERYL D": 1608100,
-      "KELLY MAGDOLEN R": 1604700,
-      "FULMER ANDREA J & SANDRA A": 1590900,
-      "OSBORN LAURELEE--ETAL": 1588000,
-      "PERDUCAT CYRIL": 1578100,
-      "TURNER DOUGLAS R & HOPE A /TRS": 1572100,
-      "ASLANOBA EDA": 1570200,
-      "CONNEELY DARA & KRISTEN": 1566600,
-      "CAROWELL LLC": 1562900,
-      "COOK LORING A III": 1540500,
-      "CAREY MARYE/ROBERTJ/RICHARD F": 1534300,
-      "PRIVITERA PHILIP J": 1528000,
-      "HERRMANN LARS &": 1526900,
-      "CAMPAGNA RONALD J & LINDA M": 1522400,
-      "ECKTON MICHAEL A & MANISHA C": 1520400,
-      "DEYST JOHN J JR & MARY A/ TRS": 1505400,
-      "MELKONIAN SEVAK & EILEEN": 1473100,
-      "CASTOR TREVOR/ETAL": 1445700,
-      "TALANIAN GAAR E & LORI": 1444500,
-      "TEUBER ANDREAS": 1422500,
-      "VAN THONG JEAN-MANUEL": 1414600,
-      "FRENCH WILLIAM JR/CHRISTINE M": 1408500,
-      "GRIFFITHS PAUL & PASCHA": 1399600,
-      "KREMER BRUCE S & SUSAN H": 1397600,
-      "ZONA MEREDITH S & JOSEPH J": 1397500,
-      "MILNER RICHARD A": 1388900,
-      "RIFFELMACHER GERALD J-ETAL": 1385800,
-      "KOPACZ JEFFREY L/TRUSTEE": 1381400,
-      "BAIG GHAZANFER & ALYSSA": 1380400,
-      "YANG BO": 1379500,
-      "YUNGHANS YANG LIU": 1378800,
-      "MCHUGH CHERYL & ANDREW": 1371600,
-      "DESOUZA CYNTHIA M &": 1370100,
-      "NATHAN MICHAEL T & MICHELE": 1366800,
-      "TRAINOR MATTHEW & SARAH": 1364400,
-      "ENGLISH JEAN A/TRUSTEE": 1362000,
-      "TRONSKY KRISTEN R": 1360300,
-      "SHEEHAN PHILLIP E": 1357600,
-      "SAIA CHARLENE CAPUTO": 1349200,
-      "PEREZ-MERCADOR JUAN": 1346600,
-      "KOURTZ RICHARD W & KATHRYN C": 1343900,
-      "DRUMMA GREGG A &": 1341800,
-      "HELMES THOMAS R &": 1340500,
-      "LYNE PAUL": 1338300,
-      "ANZALONE COURTNEY & RYAN": 1334600,
-      "PRIVITERA PHILIP J/TRUSTEE": 1329500,
-      "ANDREW CHARLES D &": 1325200,
-      "PARL GAIL D GRUNBERG--ETAL": 1323500,
-      "MITRI THOMAS J/MARY E": 1322900,
-      "PLESUR GREGORY H &": 1321600,
-      "KEUSSEYAN KHOREN & DORIEN M": 1321300,
-      "SCIARAFFA ANTHONY & DESPINA": 1320400,
-      "BRAUN PETER & LINDA A": 1314200,
-      "DANGREMOND DENISE M/TRUSTEE": 1310300,
-      "MAHONEY TIMOTHY/MAURA": 1308500,
-      "GOSSELIN JOHN T/ TRUSTEE": 1308400,
-      "MIRACCO EDWARD J & AMY R": 1306500,
-      "CALLAHAN-LYDON JEANNE": 1302000,
-      "FEFFER DOROTHEA": 1301700,
-      "THOMPSON MICHAEL G": 1300700,
-      "AYVAZIAN BERGE/TRS/AYVAZIAN TR": 1296900,
-      "HARRINGTON DEAN E--ETAL": 1294900,
-      "DANAGHER SEAN L & PAMELA L": 1290000,
-      "DOLAN SARA Q/DAVID D": 1288800,
-      "GORDON MARTIN S & ALICE": 1287000,
-      "TAYLOR MARY": 1286700,
-      "LEE VINCENT/SARAH BOTT": 1283000,
-      "CHANDLER CHUCK L": 1281500,
-      "KING MARYANNE & JULIE M": 1280400,
-      "ARSLANIAN NORAIR/TRUSTEE": 1276500,
-      "KLOSINSKI YVONNE ANN": 1273900
+      "MARBOUX YVES-PIERRE": 1765600
     },
     "R1": {
       "Town Of Arlington": 413145100,
@@ -4172,92 +218,11 @@
       "LYNCH CHRISTOPHER P & VIRGINIA": 2806600,
       "DIETRICH STEPHAN &": 2724000,
       "TRINITY BAPTIST CHURCH": 2607600,
-      "SULLIVAN KARA": 2545400,
-      "MCKEE ANDREW O": 2487800,
-      "BOSTON GAS COMPANY": 2459800,
-      "CALVARY METHODIST EPISCOPAL": 2437700,
-      "TAURO WALTER J JR &DANIEL ETAL": 2352200,
-      "24 EPPING STREET LLC": 2343400,
-      "LEES SUSAN W/TRUSTEE": 2280900,
-      "BOWERS SUTER TERESA": 2267200,
-      "RIVEST RONALD L & GAIL D": 2255600,
-      "HARTES LLC": 2215000,
-      "POTTER MARGARET J": 2157000,
-      "WIXTED MARY": 2141000,
-      "KOKINOS G STEVEN & DEBORAH": 2115800,
-      "VAN SCHOOR MARCELLE &": 2090900,
-      "WORDEN JOHN L III & PATRICI": 2057700,
-      "RICCI GERALDINE R": 2048500,
-      "SACHDEV SUBIR": 2021000,
-      "DINGEE GRACE M/ TRUSTEE": 2016300,
-      "WILLEMIN ROBERT D": 2015800,
-      "LAVALLEY ZACHERY ALAN": 1953300,
-      "CATHOLIC CEMETARY ASSOC": 1953100,
-      "HED LEGACY LLC": 1944100,
-      "LOPES-FERNANDES EMILIE BEAUMON": 1939800,
-      "ARMONY IZHAR": 1928000,
-      "STERLING KATHARINE PARKS": 1914600,
-      "FOLEY MICHAEL T & ANNE H": 1913300,
-      "JARBEAU GEOFFREY S & LAURA T": 1908200,
-      "TRAN NANCY H": 1884500,
-      "SCHIPKE ALFRED": 1870000,
-      "SEAVER PROPERTIES LLC": 1866300,
-      "GHUGASIAN VARTAN & ARMEN J": 1804700,
-      "OUELLETTE MARY F & ROBERT L JR": 1796700,
-      "TEE DAVID F & CAROL S": 1755500,
-      "KUHN JAMES E": 1748900,
-      "LOH SALLY WO-KWUN": 1742800,
-      "TURANO RONA B": 1732000,
-      "SRIDHAR SRAVISH": 1731100,
-      "GERMAINE LAWRENCE SCHOOL": 1724400,
-      "HOFNER MARC & BRANDEE": 1723800,
-      "BROWN VERNON R": 1720300,
-      "WIEAND THOMAS M &": 1711400,
-      "MC NIFF ALFRED J JR-MAURA C": 1710700,
-      "DREDGE C PAUL & NANCY TATE": 1704200,
-      "THOMPSON ANNE KINSELLA": 1698900,
-      "FRANCHI ALBERT V/SUSAN M": 1696100,
-      "VALDES EDUARDO A/NYREE G": 1692600,
-      "KAMIO MARIKO": 1689400,
-      "MARGOSIAN ARA H II & HEGHENE H": 1686900,
-      "COLQUHOUN HELEN": 1685000,
-      "TSYMBAL  ILYA/JESSICA": 1677900,
-      "LEWIS RICHARD/ETAL": 1673900,
-      "RUMA-IVERS LOUISE/ ESTATE": 1672700,
-      "PRESTI JOHN B &": 1670500,
-      "FRANO PASQUALE": 1668600,
-      "MAVALVALA NERGIS": 1667100,
-      "KANTOR MARK D": 1661700,
-      "LEICH CHRISTOPHER/JUDITH E": 1660000,
-      "MANSUR RONI & SABRINA M": 1654800,
-      "SHEEHY DANIEL J/ETAL": 1654500,
-      "PERELI JULIUS R & MARTHA G": 1651700,
-      "ALI MOHAMAD S & KECIA TRUSTEES": 1651400,
-      "SYMONDS CAROLE A": 1649600,
-      "ANGELAKIS NICKOLITSA & JOSEPH": 1649400,
-      "BURDEN DOUGLAS W/ELIZA": 1634900,
-      "ALLEN THOMAS H & CAROLE E": 1634600,
-      "CHRISTOPOULOS ELIAS &": 1633500,
-      "BHX LLC/TRUSTEE": 1625800,
-      "FENNER JASON R & JULIE A": 1623400,
-      "CARDOOS NATHAN": 1618900,
-      "CHICCARELLI REAL ESTATE INC 1": 1615500,
-      "FAY CHRISTIAN M & KARA E": 1614400,
-      "LEONE LORNA L": 1608100,
-      "ST PAULS LUTHERAN CHURCH": 1605200,
-      "RONAYNE ARTHUR R & ELEANOR M": 1601800,
-      "CHAREST ROBERT J &": 1600600,
-      "FOSTER-BATES REALTY LLC": 1588400,
-      "AARON ARTHUR & DEBORAH MARIE": 1586300,
-      "WILLIAMS DOROTHY": 1585100,
-      "COVAULT JUSTINE L": 1576900,
-      "ROCHE ELLEN T & KEVIN /TR": 1574000,
-      "SAMADANI AFSANEH &": 1563000
+      "SULLIVAN KARA": 2545400
     },
     "R2": {
       "ROMAN CATHOLIC ARCH OF BOS": 16523900,
-      "BROOKS AVENUE LLC": 6536900,
-      "Henry E. Davidson, Jr.": 6524500,
+      "Henry E. Davidson, Jr.": 13061400,
       "ARLINGTON HOUSING AUTHORITY": 6497800,
       "GALVIN SEAN D/TRUSTEE": 6188800,
       "HOUSING CORP OF ARLINGTON": 4678560,
@@ -4276,86 +241,7 @@
       "MORRISSETTE LAURA--ETAL": 2325500,
       "SERABIAN DAVID A": 2265900,
       "ARLINGTON BOYS CLUB INC": 2240700,
-      "LAZAR STEVEN R": 2192600,
-      "PERGANTIS MICHAEL": 2132400,
-      "GALVIN SEAN D TRUSTEE": 2057500,
-      "MAGGIE ASH LLC": 2044700,
-      "ONEILL DOROTHY R M/TRUSTEE": 2027400,
-      "FOTOPOULOS ARTHUR/ETAL": 2001200,
-      "HATZILIADIS GEORGE TRUSTEE": 1981600,
-      "VERIKIOS PETER/VASILIKI": 1968500,
-      "LOMBARDI KEITH": 1964000,
-      "ELLIOTT MARIE": 1959800,
-      "MKRTCHYAN HAKOB": 1957900,
-      "VATAN KAMBIZ & GERALDINE": 1955800,
-      "POULAKIDAS CHARLES D": 1941300,
-      "ASCP LLC": 1933000,
-      "SANTOS ADALGISA C": 1922500,
-      "HAMIZIDES ANASTASIA": 1921100,
-      "SWAN REALTY TRUST LLC": 1906500,
-      "TERRY JAAN T/ TRUSTEE": 1868000,
-      "MANZELLI THOMAS P & ARLENE": 1862500,
-      "KATSABIRIS ARTHUR & MARIA": 1860800,
-      "KARABATSAS CLIO/TRUSTEE": 1852000,
-      "BONUGLI PELLEGRINO--ETAL": 1851800,
-      "ATHANASIADIS GEORGE & LENA TRS": 1834700,
-      "ROSSELLI MARCIA C": 1829100,
-      "CURIEL RAFAEL E": 1806200,
-      "BAGHDADY CAMILLE S": 1796200,
-      "MCLAUGHLIN LIMITED LLC": 1764800,
-      "CARELLA VINCENZO A  ETAL": 1732800,
-      "SUGRUE TERESA TRUSTEE": 1729300,
-      "FAVIER JEAN-PAUL & SANDRINE": 1721300,
-      "GINIVISIAN GEORGE P--ETAL": 1703300,
-      "BROOKS PAUL C & URSZULA M": 1672400,
-      "TREMBLY GRAY C": 1671300,
-      "ZACHARAKIS GREGORY/LIFE ESTATE": 1662900,
-      "DECATUR-UNION REALTY LLC": 1618000,
-      "DINUCCI DARIN P": 1614700,
-      "FIGUEIREDO JAMES A": 1607000,
-      "SMITH SCOTT J/HEATHER A": 1603600,
-      "HOLLIDAY RUSSELL A &": 1595700,
-      "KAPSALIS STEVEN": 1589900,
-      "WANG KEVIN": 1585000,
-      "VAUGHAN TERESA M/ TRUSTEE": 1584300,
-      "MCGLASHING ANGELA": 1576300,
-      "DIXON MARY PATRICIA": 1569400,
-      "KAMIO MARIKO": 1558100,
-      "DECILIO CHRISTOPHER": 1556700,
-      "HURLEY ROBERT J": 1548600,
-      "CANTAGALLO LISA M": 1537100,
-      "VENEZIANO DANIELE--TRUSTEE": 1530600,
-      "LEONE LORNA L & MARIE-ETAL": 1527000,
-      "MCLAUGHLIN KEVIN J": 1503200,
-      "DI NITTO CIVITA/TRUSTEE": 1486200,
-      "CADOTTE DENISE B/TRUSTEE": 1484600,
-      "MERCER WILLIAM W & DIANE W/TRS": 1449200,
-      "ZHU HONGXIN": 1445900,
-      "BRUCE BARTON F & HEATHER A": 1442200,
-      "LINDHOLM JEFFREY C & AKIKO S": 1441300,
-      "HYDE RICHARD W JR & VIVIAN/TRS": 1441100,
-      "TCHOUIKEVITCH MARGARYTA": 1417300,
-      "ARLINGTON MASONIC TEMPLE": 1409500,
-      "BATMASIAN JAMES H & MARTA": 1405200,
-      "GOOD ENERGY LLC": 1402700,
-      "RYAN BERNARD C & KATHLEEN M": 1402600,
-      "BUCKLER ALAN J & MABEL P/TR": 1401100,
-      "CAUTERUCCIO JOSEPH U - UNIT 32": 1386100,
-      "WODLINGER NICOLA H &": 1385800,
-      "53 PARK ST LLC": 1380500,
-      "VAUDO GIOVANNI & MICHELINA": 1376900,
-      "BEAVER ADAM G &": 1373000,
-      "TREVENS THEODORE &": 1367200,
-      "BYRNE LAURENCE W & KATE F- #18": 1354700,
-      "PESIRIDIS VASILIOS &ELEFTHERIA": 1353200,
-      "LITWACK PETER S &": 1344900,
-      "YOUNG PHILIP/SULLIVAN LORRAINE": 1340400,
-      "HARRINGTON CAROL ANN": 1340200,
-      "VONDRAS GEMMA & PETER": 1333200,
-      "ENGLISH JEAN A": 1332100,
-      "PESIRIDIS JAMES & JOANNE": 1323700,
-      "O`BRIEN JENNIFER WILSON B/TR": 1323400,
-      "DONEGAN GEOFFREY & IDIL": 1321800
+      "LAZAR STEVEN R": 2192600
     },
     "R3": {
       "GOSHDIGIAN REALTY LLC": 2026200,
@@ -4378,63 +264,7 @@
       "DELLO RUSSO ANTHONY & SIMONA": 931300,
       "ZEVITAS NICHOLAS J": 929700,
       "LACOURT ORPHANAGE TRUST LLC": 920200,
-      "14-16 LAUREL ST LLC": 912900,
-      "EDWARDS STANLEY S": 906700,
-      "COELHO EMANUEL": 876400,
-      "HASTINGS JAMES L JR/TR &": 875400,
-      "GEANNARIS ANTHONY": 870800,
-      "JOHNSON LINNEA": 865200,
-      "IAKOVOU CRYSTAL M/ TRUSTEE": 856900,
-      "CASARJIAN ARMEN": 853300,
-      "OSHIMA MICHELE": 834500,
-      "DIVICO-PIANTEDOSI ELVIRA A": 807500,
-      "LUCARELLI STEPHANIE L": 792700,
-      "RINN JUNE F/ LIFE ESTATE": 782800,
-      "NIGRO FRANK J": 772500,
-      "391 BROADWAY LLC": 763600,
-      "YEPEZ OSCAR": 732900,
-      "FREITAS LUIZ & BRANDY A": 691300,
-      "WEBER MARK A": 674200,
-      "JAVARAS KRISTIN N": 631200,
-      "WONG MAN YAN": 611900,
-      "TSAFOULIAS NICHOLAS P &": 611100,
-      "WEINTRAUB SARAH": 608100,
-      "DILLON JEANNE": 601900,
-      "JOHNSON KRISTEN E &": 513000,
-      "KELLEY BRIAN M": 499900,
-      "SUNDELL BENJAMIN J & COURTNEY": 499900,
-      "D`AMBROSIO MICHAEL": 499900,
-      "DONNELLY SUSAN H": 497100,
-      "GREEN DANIEL RUSSELL": 486700,
-      "DEMERS DEREK J": 484300,
-      "NG CECILIA LOK-SZE &": 484100,
-      "GREGORIO RACHEL E": 483100,
-      "KAKKAR DEVIKA": 477600,
-      "NEUMANN SHAUN E": 472100,
-      "GOLDSTEIN JENNIE A": 472100,
-      "SHEPARDSON LINDSEY GAIL": 470000,
-      "CROSSEN MELISSA J": 463200,
-      "ASENCAO MARIA A &": 462800,
-      "PENNARUN KRISTIN A & BODVAEL E": 462400,
-      "GUYTON ROY C & GE PEI": 462400,
-      "LEDEEN JENNIFER SIMMONS": 457900,
-      "LANCIANI ARLENE": 435100,
-      "EFTEKHARI PARVIZ": 434200,
-      "RI JASON & CHIE": 433300,
-      "LUO YU ETAL/TRUSTEES": 422900,
-      "NATHAN LANCE E & MICHELLE D": 418500,
-      "CRAY JAMES": 418300,
-      "SAPKAL ATUL B & TRACY A": 417000,
-      "JIAO YANG &": 414700,
-      "SAWAJI CHINMAY": 411500,
-      "JOYCE CHRIS": 411500,
-      "DARLING VANESSA ELLIOTT": 382600,
-      "OUELLETTE MICHELLE": 368100,
-      "MONJU JOSEPH": 364500,
-      "SHANAHAN CATHERINE": 364500,
-      "SRIRAM RADHIKA": 363200,
-      "MA XIAOHE": 344800,
-      "JOSEPHS GREGORY R &": 344800
+      "14-16 LAUREL ST LLC": 912900
     },
     "R4": {
       "THE BOSTON CHURCH OF CHRIST": 2774900,
@@ -4457,87 +287,7 @@
       "C.J.M. MANAGEMENT INC": 1089100,
       "BCF WATER ST LLC": 1047700,
       "NILES THOMAS L & JOHANNA T": 1040900,
-      "HAAS RUTH S & JASON G": 986400,
-      "SHOVLIN THOMAS D--ETAL": 980200,
-      "9 RUSSELL TERRACE LLC": 970000,
-      "NYBERG JONATHAN": 956800,
-      "SCHUELLER OLIVIER &": 951600,
-      "COLLINS DANIEL F": 941200,
-      "TELLO RAFAEL &": 927000,
-      "PENG XIAOJUN": 918100,
-      "MAHONEY SEAN & KATHRYN A": 912500,
-      "ANASTOS CHRISTINE G": 910900,
-      "WHITFORD DAVID S/ETAL": 904900,
-      "ST JOHNS EPISCOPAL CHURCH": 884700,
-      "SHUKLA RAHUL": 878700,
-      "HAWKINS MONIQUE": 863300,
-      "OKUMURA LEAH": 847500,
-      "MACKS AARON D &": 837700,
-      "PETKOV VENTZISLAV &": 826700,
-      "LEE PHILIP Q & JENNY S Y": 823000,
-      "STIFFLER DANA E": 810200,
-      "CERRATO CARLA M": 806800,
-      "ARYAL SAROJ K & NIRU B": 805600,
-      "WILKE MARK & SHARON": 797400,
-      "AMES CHRISTOPHER JOHN": 791600,
-      "KWAN RICKY C --ETAL": 790000,
-      "ALBERTO DOROTHY G": 787700,
-      "CHU CHUNG-CHI": 781200,
-      "MEGUERDITCHIAN DIKRAN": 775100,
-      "YOUNG ROBERT S & ERIKO": 749400,
-      "STORM CHRISTOPHER CHARLES &": 741200,
-      "HAZEL KEVIN J/ETAL": 740000,
-      "CHIN PHILIP L/ETAL": 737700,
-      "SHAH RIDDHI & BHAVIN U": 728200,
-      "LONKAR AJINKYA": 727500,
-      "SUL YOUNGJO": 726500,
-      "CHUNG JANET &": 723000,
-      "DHAMANKAR HIMANSHU HEMANT": 720900,
-      "DABU FERDINAND": 720100,
-      "ZHANG YUN & DING RU &": 719800,
-      "BOYCHENKO SERGEY &": 719200,
-      "JOHNSON ROY & GEORGIANA/TRS": 718900,
-      "ZHAO SONGPING": 718000,
-      "MARTIN GILBERT": 698100,
-      "BARGLOW DAMON C": 697000,
-      "ADHIYA ANUJ": 696900,
-      "QIN KE &": 693600,
-      "FERLAND RYAN C &": 692900,
-      "STEINBERG HOWARD &": 692700,
-      "CHOI JOHN &": 691600,
-      "PARSA PARISA D": 690600,
-      "LOWER MARGARET G/ TRUSTEE": 687600,
-      "STELIN INNA": 683100,
-      "BLOOM  PETER": 664200,
-      "HELLER MICHAEL CHARLES": 650300,
-      "RILEY WILLIAM H JR": 649600,
-      "BALLMAN CHRISTOPHER ETAL": 641100,
-      "SMITH-FLORENTINI DARIO ETAL": 634400,
-      "ALLEN GLEISSER E": 614100,
-      "BRIGGS JENNY": 605300,
-      "JIA FAN": 599100,
-      "GRAY GARY P & MARCIA": 589200,
-      "SWARNA KARTHIK &": 586700,
-      "CROWDER ELAINE M": 586200,
-      "CHEN CHIA-YEN": 585400,
-      "FINLAYSON IAN &": 582300,
-      "BALANTRAPU KRISHNA &": 580400,
-      "AHMAD MARYAM &": 579400,
-      "CHENG CHRISTOPHER J/EMILY A": 578700,
-      "ROBINSON LINDA W/TRUSTEE": 577900,
-      "DISCHINO MARY P": 577300,
-      "HECK JUDITH E": 574100,
-      "HAYES KATHLEEN": 574100,
-      "YOSHIDA AKIHIRO/YUKO": 574100,
-      "LIU ZHU-JIANG LIYING": 574100,
-      "TSIHLIS JAMES P & MARIA S": 574100,
-      "TIERNEY SUSAN B": 573700,
-      "GILBERT SUSAN R": 573700,
-      "MULLINS LISA J": 573700,
-      "HORN GEORGE D": 573700,
-      "MAHON MARIE T--ETAL": 573700,
-      "ROBINSON KEZIAH & LINDA W": 573700,
-      "DOUHAN BEVERLY A": 573700
+      "HAAS RUTH S & JASON G": 986400
     },
     "R5": {
       "OLD COLONY REALTY PARTNERS LLC": 35668400,
@@ -4560,91 +310,11 @@
       "FREEDOM REALTY PARTNERSHIP LLP": 3201600,
       "TOULOPOULOS JOHN  W/TRS-ETAL": 3030400,
       "TOULOPOULOS JOHN W/TRS -ETAL": 2948800,
-      "LOMBARD LEON E & SHIRLEY/TRS": 2909100,
-      "ATINIZIAN NIGOGHOS & CAROLYN": 2893100,
-      "ARLINGTON-FREMONT RLTY INC": 2818200,
-      "SANMARTINO LIMITED PARTNERSHIP": 2780500,
-      "GALVIN SEAN D/TRUSTEE": 2727500,
-      "109 OXFORD ST LLC": 1931900,
-      "LEONE DONALD J": 1356900,
-      "B.F. ARLINGTON PROPERTIES LLC": 1269500,
-      "PANICO JAMES V/RAMALHO ANA L.": 1134500,
-      "VARALLO DANIEL C/EUGENIO M": 1062400,
-      "SHAW FRANK &": 1037600,
-      "TOULOPOULOS JOHN & PAULINE": 1036100,
-      "JOHNSON SANDRA ANN TRS-ETAL": 1020600,
-      "SOFRONAS JEAN D": 976900,
-      "MYATT CHARLES L": 959100,
-      "PAULINO STEPHEN--ETAL": 941500,
-      "BANKS JOAN  L/TRUSTEE": 912900,
-      "GORMLEY MAUREEN E": 879200,
-      "HOUSING CORP OF ARLINGTON": 874300,
-      "SAINI SARBJIT S &": 837800,
-      "OSTERWEIS BURTON/TRUSTEE": 796000,
-      "MORSE TODD S & HARIVOLOLONA": 787100,
-      "COLEY JOHN D": 711900,
-      "SLEBODNICK GARY & ANNE": 692600,
-      "AMINI MOUSSA": 687800,
-      "LOAYZA JORGE I-MARIA J-ETAL": 654700,
-      "LIU SHU-LIN": 642000,
-      "KANAREYKIN SERGEY": 642000,
-      "BAGHERZADEH MANSOUR": 610500,
-      "YORKE DAVID G/SAYA O": 606800,
-      "MCCAULEY JAMES & BARBARA B": 599200,
-      "FOLEY FRANCIS X & JANE E/": 599200,
-      "KIM YOON KYUNG": 597300,
-      "JIMENEZ MICHAEL": 578100,
-      "BRADLEY MILDENE/ TRUSTEE": 576900,
-      "TREMBLAY MARY C/MARK R": 574800,
-      "MULLOY SHERRY YEE/ TRUSTEE": 560500,
-      "DAVIDSON HOWARD J": 550400,
-      "ANANDAN SRINIVASAN &": 549600,
-      "WINKLER CAROL M": 534900,
-      "BROWN PAULA G": 531300,
-      "HASKELL ROBERT A & PENELOPE E": 531300,
-      "LONDON GENE & SARAH S": 530200,
-      "LIBERMAN JAMES B & ELLEN D": 526400,
-      "HAMILTON SHARON S/ TRUSTEE": 520900,
-      "WANG ROBERT T & KATHY K/TRS": 513600,
-      "LOPEZ DAVID F": 513400,
-      "WANG PINGLANG & YING": 513200,
-      "KOPPEL ANDREW W / TRUSTEE": 512100,
-      "PAPAGNI MARGARET TRUSTEE": 506200,
-      "SHRIVER BEATRICE M": 501700,
-      "SOUTHARD RYAN/TRUSTEE": 501200,
-      "LOCKWOOD BARBARA L": 486900,
-      "ALJURE ELSA R": 486400,
-      "REMOFF HEATHER T": 483900,
-      "BAKER RALPH R &": 472300,
-      "CAINES REGINA A": 466900,
-      "MAHONEY LAURA M": 465400,
-      "CHIN LINDA M": 464700,
-      "VALDES GREENWOOD DAVID": 464500,
-      "YESHMAN JOEL S": 459700,
-      "XIANG JASON": 457700,
-      "HERLIHY EILEEN M": 455300,
-      "FIEDLER LORI": 454100,
-      "VITALE ELIZABETH G": 451400,
-      "DROUET MARTHA L": 450800,
-      "WOEBCKE NICHOLAS": 446300,
-      "DALE KAREN K": 445900,
-      "MAXWELL BARBARA": 437000,
-      "PECK ELIZABETH A": 436000,
-      "WRIGHT LINDSAY": 430700,
-      "XIONG YANFEI": 427200,
-      "BALDERAS TERESITA GUZMAN/TR": 425600,
-      "WONG WAI PONG": 423400,
-      "GLENN KATHLEEN": 421700,
-      "TU WENHONG": 416400,
-      "LEVINE MARK L": 398700,
-      "N & A FRAZER REALTY TR": 398700,
-      "RUAN SHIYUN": 396200,
-      "WALTERS CHRISTEN": 395500,
-      "HUANG ADRIAN": 394500
+      "LOMBARD LEON E & SHIRLEY/TRS": 2909100
     },
     "R6": {
       "BRENTWOOD REALTY PARTNERS LLC": 32345200,
-      "BROOKS AVENUE LLC": 12110200,
+      "Henry E. Davidson, Jr.": 16853400,
       "GENERATIONS PROPERTIES": 11393000,
       "ARLINGTON HOUSING AUTHORITY": 8878400,
       "NOSTALGIA PROPERTIES LLC": 8389400,
@@ -4652,7 +322,6 @@
       "MVC PROPERTY 1 LLC": 5372300,
       "ARLINGTON MINUTEMAN TOWERS LL.": 5240700,
       "ARLINGTON MINUTEMAN TOWERS LL": 4770000,
-      "Henry E. Davidson, Jr.": 4743200,
       "JBBP MASS AVE LLC": 4118100,
       "HIGHLAND COURT REALTY LLC": 3844900,
       "LOMBARD LEON E-SHIRLEY E": 3616100,
@@ -4664,86 +333,7 @@
       "ROGARIS PETER J & CHRISTOS": 2276000,
       "MANSFIELD REALTY MANAGEMENT": 2129300,
       "JOHNSON JUDITH N": 1995100,
-      "MASS AVE 3XL7 LLC": 1952800,
-      "1033 MASS AVE ARLINGTON LLC": 1915100,
-      "339 MASS AVENUE LLC": 1908400,
-      "SULLIVAN WILLIAM H JR/TRS": 1755200,
-      "R A JOHNSON REALTY INC": 1679500,
-      "CRONIN LISA/TRUSTEE": 1233500,
-      "SUGRUE TERESA/TR &": 1218200,
-      "JOHNSON REALTY  INC": 1200700,
-      "BOYER ERIC & SOFIA": 1197300,
-      "BOWES ROBERT E/TRUSTEE": 1161100,
-      "PESIRIDIS EFTHIMIA/TRUSTEE": 1131200,
-      "B F ARLINGTON PROPERTIES LLC": 1126200,
-      "BROCKMAN MATTHEW": 1074800,
-      "A SEA BORN UNICORN LLC": 1064500,
-      "VROTSOS GARY J TRUSTEE": 1062800,
-      "CARNEY JOHN A": 1053500,
-      "MANCINI PETER P & ZENDA M": 1023100,
-      "PUZZANGHERA PAUL": 1014700,
-      "KEMPF JAMES G &": 1013100,
-      "TEZEL SELIM ETAL / TRUSTEES": 1003000,
-      "KANE WALTER & CHRISTIAN / TRS": 983200,
-      "TOLPIN DANIEL W TRS--ETAL": 977700,
-      "CARNEY CHRISTINE C": 972300,
-      "MAHER DAVID F/TRUSTEE": 971300,
-      "PIGOTT CHARLES+CAHILL MARY": 959800,
-      "KATZ ALAN H/TRUSTEE": 941300,
-      "HOUSING CORP OF ARLINGTON": 934900,
-      "GUTHERMANN JOSHUA": 919600,
-      "LEGER GEORGE F/ ESTATE": 908900,
-      "STORLAZZI EDMUND/TRUSTEE": 899500,
-      "TARKINGTON HAROLDD W": 895000,
-      "READY SUSAN A": 882800,
-      "PIGOTT CHARLES A TRS-ETAL": 877900,
-      "WFPIGOTT REALTY 2010 LLC": 869300,
-      "ZHANG CHUNHUI &": 869300,
-      "FATEMI SARMAD": 869300,
-      "HILL ROBERT F JR": 862600,
-      "43 BROADWAY ARLINGTON LLC": 844700,
-      "SCHAEFER DIANNE JAQUITH/ TR": 844200,
-      "WHEELER ROBERT V & LORRAINE S": 844000,
-      "PIGOTT CHARLES A TRS--ETAL": 844000,
-      "ROLFE ERIC G": 843800,
-      "YEGULALP ALI": 842800,
-      "PIGOTT CHARLES A--TRS/ETAL": 841700,
-      "BING EDWARD A &": 841100,
-      "ANANTHAKRISHNAN VASANTHA": 836200,
-      "FRADER MARC A": 836200,
-      "MATTHEWS PAUL/VALEH": 836000,
-      "ABEDINEJAD MELODY": 835200,
-      "BRAIDA LOUIS D": 814500,
-      "LESHIN JONAH B &": 812800,
-      "ZHAO ZHENG": 807100,
-      "COLEMAN DIANA T": 806600,
-      "ANDREWS ELIZABETH M/TRS": 801600,
-      "CHIAMPO MATTEO & ASHLEY CROSS": 801600,
-      "HESTIA PROPERTIES LLC": 795900,
-      "DO HA LINH": 794100,
-      "WONG WENDY Y": 791900,
-      "SULLIVAN DIANE M": 789200,
-      "BAGHDADI REZA": 787100,
-      "KUMAR ANAND &": 781800,
-      "PIETRANTONI DAVID F": 776200,
-      "AHMED ERFANUDDIN": 774700,
-      "VAN PARYS BART & JULIA": 767100,
-      "KELJIKIAN MALCOLM/JEAN": 766500,
-      "BEST AMY JOAN TORRES &": 761500,
-      "MAC LEOD NORMAN J TRUSTEE": 760100,
-      "NOE DENNIS A ETAL/ TRUSTEES": 759300,
-      "HORTON ERIN C & JOSHUA B": 757200,
-      "ALEXANDER ARTHUR P/TRUSTEE": 753100,
-      "SCHMIDT JAMES": 750300,
-      "GARDNER THOMAS J": 749000,
-      "BROCKMAN ADAM/JENNIFER": 741300,
-      "STRINGFELLOW RICHARD G &": 740300,
-      "BAKEY CHERYL A TRUSTEE": 736700,
-      "KELLY GERALDINE J": 735400,
-      "ZHU JIUHONG": 727200,
-      "ONE EIGHTY LLC": 726400,
-      "ALEXANDER JUDITH D & MICHAEL N": 701400,
-      "MATTHEWS PAUL KARL": 690800
+      "MASS AVE 3XL7 LLC": 1952800
     },
     "R7": {
       "ARLINGTON HOUSING AUTHORITY": 26574800,
@@ -4766,96 +356,1331 @@
       "ELLIS LEI-ANNE": 582000,
       "ADAMIAN CONSTRUCTION &": 558900,
       "UCCELLO MICHAEL": 555200,
-      "BRADLEY VINCENT": 551100,
-      "GAVRILLES BESSIE": 544900,
-      "KEELER MARY L": 544900,
-      "DOHERTY JOHN J & ANN/LIFE ESTA": 542300,
-      "TOSTI ALLAN & BARBARA A": 538400,
-      "MCSWEENEY MICHAEL & JUDITH": 537100,
-      "LERMAN SCOTT M": 533400,
-      "CHAO ALAN I": 530700,
-      "FISHER CHRISTINA/ TRUSTEE": 527200,
-      "NARASIMHAN KAMALA": 519500,
-      "FRENIER SARA A": 516900,
-      "MULLANE-ROBINSON KAREN": 516900,
-      "SCHRAMM ALLAN N & MARGARET": 516700,
-      "BOUDREAU LORRAINE": 516700,
-      "D SOUZA ERIC B/ TRUSTEE": 516700,
-      "FEHLAN MAUREEN E": 516700,
-      "HOCHMUTH CHARLES H": 516700,
-      "KIM DAVID E TRUSTEE": 515700,
-      "LEE TSENG-CHUNG ETAL /TRUSTEES": 515700,
-      "MORELAND RHOMANCE E TRUSTEE": 514700,
-      "MAKKI SALMAN MUHYEDIN ETAL": 513300,
-      "MENSAH ROBERT D": 513300,
-      "KEZERIAN KAREN A/TRUSTEE": 511200,
-      "GREENE SHERRY A": 510700,
-      "KELLEHER MARIA D": 510700,
-      "YANG SHENGYUAN &": 508500,
-      "OSOFSKY DAVID": 506500,
-      "LIN YAN-TING": 506500,
-      "GOPALAN MADHAVAN S": 506500,
-      "FLAMM BARRY E": 506500,
-      "JOYCE MARY TARA": 506500,
-      "WEBBER SUSAN D": 505900,
-      "GAVIN TERRI M": 505900,
-      "BEAUCHESNE DIANE L": 505900,
-      "LIEPKALNS ERIKA A": 505900,
-      "MOJAHED SHAHRIYAR": 505900,
-      "MCLEAN JAMES E/ TRUSTEE": 505900,
-      "KARGER EVA R": 505900,
-      "DUBE CATHERINE": 505900,
-      "LEFEBVRE LEONARD S": 505900,
-      "WHALEN FRANCIS T": 505900,
-      "LENNOX MIRIAN C": 505900,
-      "BACZKOWSKI DANIEL & ROSEMARIE": 505300,
-      "LUDWIG SUSAN B/TRUSTEE": 504400,
-      "BERLINSKY MARCIA GAIL": 504000,
-      "NAVOLODSKAYA LUDMILA": 503300,
-      "MUGNAI DONALD J": 503300,
-      "GIAUQUE MICHAEL & ANN": 503300,
-      "GIBBONS JOAN F/TRUSTEE": 503300,
-      "MIGAUSKY MARJORIE R": 503300,
-      "MINSON RYAN T & JULIA": 503300,
-      "BIRD DAVID G": 503300,
-      "CHELIKANI RAHUL &": 503300,
-      "BUSH ARTHUR H/ TRUSTEE": 503300,
-      "RAO DEVULAPALLI V & LALITHA D": 502800,
-      "ZASLAVSKY PAUL/ LIFE ESTATE": 499900,
-      "ONE WATERMILL PLACE LLC": 498300,
-      "JABR REEM Z": 498300,
-      "ODONNELL LORRAINE": 498300,
-      "DAMICO MARIANNE": 490700,
-      "STANLEY STEPHANIE M & WILLIAM": 489700,
-      "O SULLIVAN COLIN/KATHERINE R": 488100,
-      "HARTIG DAVID": 486300,
-      "SULLIVAN TERRANCE": 486300,
-      "SRETER FRANK & ALBERT TRS": 482300,
-      "LIARDONI ALBERT L": 482300,
-      "TOMPKINS MARIANNE R/ TRUSTEE": 481200,
-      "CARO SUZANNE D": 481200,
-      "LONG DENISE A/TRUSTEE": 474300,
-      "HOGAN DOROTHY E/TRUSTEE": 470200,
-      "ELADHARI FRANCINE": 470200,
-      "FRASER WILLIAM  & BRUCE": 468100,
-      "WALKER HELEN R": 468100,
-      "FLANAGAN JEAN P": 468100,
-      "VIGLAS CHARLES J/ TRUSTEE": 468100,
-      "GILL KENNETH J": 468100,
-      "CHAMBERLAIN JOHN T": 468100,
-      "DOHERTY ANNE C/MACPHERSON E": 468100,
-      "CORNETTA LENA & RAFFAELA/ TRS": 468100,
-      "DRISCOLL KATHLEEN/ LIFE ESTATE": 468100,
-      "MURRAY RICHARD B/MAUREEN F": 468100
+      "BRADLEY VINCENT": 551100
     },
     "T": {
       "MASS BAY TRANSIT AUTHORITY": 2356200,
       "MEGUERDITCHIAN RICHARD": 495600,
       "COMM.OF MASS": 3300
     },
-    "W": {
+    "b4": {
+      "WEIGEL JOHN A": 802800,
+      "FELDMAN RONALD E": 795900
     },
-    "WATER": {
+    "r2": {
+      "RUDERMAN SUSAN CRONIN--ETAL": 421000
+    }
+  },
+  "size": {
+    "B1": {
+      "Henry E. Davidson, Jr.": [
+        1.03,
+        0.0661
+      ],
+      "UNITED STATES GOVERNMENT": [
+        0.71,
+        0.0455
+      ],
+      "NYBERG JONATHAN M &": [
+        0.59,
+        0.0378
+      ],
+      "1021 MASSACHUSETTS AVENUE LLC": [
+        0.5,
+        0.0321
+      ],
+      "Town Of Arlington": [
+        0.36,
+        0.0231
+      ],
+      "U.S. OF AMERICA POST OFFICE": [
+        0.35,
+        0.0225
+      ],
+      "SAMPSON  MARTHA /TRUSTEE": [
+        0.32,
+        0.0205
+      ],
+      "CAMPOBASSO PROPERTIES LLC": [
+        0.32,
+        0.0205
+      ],
+      "58-60 MEDFORD STREET LLC": [
+        0.29,
+        0.0186
+      ],
+      "H.A.F. INC.": [
+        0.29,
+        0.0186
+      ],
+      "HIGHROCK CHURCH": [
+        0.28,
+        0.018
+      ],
+      "KEEFE CHARLES D--ETAL": [
+        0.27,
+        0.0173
+      ],
+      "CHESTNUT REALTY TRUST #1": [
+        0.27,
+        0.0173
+      ],
+      "HARMAN ALICE M & GERLAD/TRS": [
+        0.26,
+        0.0167
+      ],
+      "55 KENSINGTON LLC": [
+        0.24,
+        0.0154
+      ],
+      "ANNESE ROBERT J TR J-JUDITH": [
+        0.24,
+        0.0154
+      ],
+      "KOZELIAN JOHN & SILVA": [
+        0.23,
+        0.0148
+      ],
+      "BHATIA NEERAJ TRUSTEE": [
+        0.23,
+        0.0148
+      ],
+      "754 MASS AVE LLC": [
+        0.22,
+        0.0141
+      ],
+      "COURTNEY SARAH L / ETAL TRS": [
+        0.21,
+        0.0135
+      ],
+      "SHAPIRO JANE L TRUSTEE": [
+        0.21,
+        0.0135
+      ]
+    },
+    "B2": {
+      "CAMPOBASSO PROPERTIES LLC": [
+        0.57,
+        0.0656
+      ],
+      "ATINIZIAN NIGOGHOS & CAROLYN": [
+        0.57,
+        0.0656
+      ],
+      "KADETS PHILIP L/ELAINE/TRS": [
+        0.36,
+        0.0414
+      ],
+      "BLAKE RICHARD A JR TR": [
+        0.34,
+        0.0391
+      ],
+      "Frank Pasciuto": [
+        0.33,
+        0.038
+      ],
+      "LOCKE PLACE LLC": [
+        0.27,
+        0.0311
+      ],
+      "PARTH ENTERPRISES LLC": [
+        0.25,
+        0.0288
+      ],
+      "TOULOPOULOS JOHN  W/TRS/ETAL": [
+        0.24,
+        0.0276
+      ],
+      "GOBOOK INC": [
+        0.24,
+        0.0276
+      ],
+      "THE CHILDRENS CENTER": [
+        0.23,
+        0.0265
+      ],
+      "SUMMER REALTY SERVICES LLC": [
+        0.23,
+        0.0265
+      ],
+      "ROGARIS PETER J/TRUSTEE": [
+        0.22,
+        0.0253
+      ],
+      "GALVIN SEAN D/TRUSTEE": [
+        0.22,
+        0.0253
+      ],
+      "NEXT GENERATION LLC": [
+        0.19,
+        0.0219
+      ],
+      "BOUBOULIS MICHAEL TRUSTEE": [
+        0.18,
+        0.0207
+      ],
+      "BOSTON MAJORDOMO LLC": [
+        0.18,
+        0.0207
+      ],
+      "GALVIN SEAN /TRUSTEE": [
+        0.17,
+        0.0196
+      ],
+      "MOSS BEATRICE A TR": [
+        0.17,
+        0.0196
+      ],
+      "CARBONELL PABLO F ETAL / TRS": [
+        0.17,
+        0.0196
+      ],
+      "ABIDIAN LLC": [
+        0.16,
+        0.0184
+      ],
+      "94 MASSACHUSETTS AVENUE LLC": [
+        0.14,
+        0.0161
+      ]
+    },
+    "B2A": {
+      "US REIF BRIGHAM SQUARE": [
+        3.87,
+        0.2063
+      ],
+      "MARLEY WILLIAM GNC": [
+        2.32,
+        0.1237
+      ],
+      "Mirak Family": [
+        2.3,
+        0.1226
+      ],
+      "THE STOP&SHOP SUPERMRKT LESSEE": [
+        1.94,
+        0.1034
+      ],
+      "DE VINCENT ARTHUR TRS-ETAL": [
+        1.48,
+        0.0789
+      ],
+      "DEJESUS JOHN ANDREW TRS": [
+        1.39,
+        0.0741
+      ],
+      "NWCA ARLINGTON LLC": [
+        1.37,
+        0.073
+      ],
+      "CLAREMONT ARLINGTON SUITES LLC": [
+        1.19,
+        0.0634
+      ],
+      "WHEATLEY REAL ESTATE LLC": [
+        0.56,
+        0.0299
+      ],
+      "ODONOGHUE JOHN & KEVIN": [
+        0.35,
+        0.0187
+      ],
+      "TARLIN LLOYD ETAL TRUSTEES": [
+        0.33,
+        0.0176
+      ],
+      "THE STOP & SHOP COMPANIES INC": [
+        0.31,
+        0.0165
+      ],
+      "FRAGER ALBERT S ETAL/ TRUSTEES": [
+        0.26,
+        0.0139
+      ],
+      "KENTURY VENTURES LLC": [
+        0.25,
+        0.0133
+      ],
+      "FAIOLA LOUIS R ETAL TRS": [
+        0.2,
+        0.0107
+      ],
+      "MERCATOR NORTH CORPORATION": [
+        0.19,
+        0.0101
+      ],
+      "XENOS NICHOLAS G/ TRUSTEE": [
+        0.17,
+        0.0091
+      ],
+      "Town Of Arlington": [
+        0.1,
+        0.0053
+      ],
+      "KOWERT PAUL": [
+        0.09,
+        0.0048
+      ],
+      "XENOS NICHOLAS G ETAL /TRS": [
+        0.05,
+        0.0027
+      ],
+      "FOOD LINK INC": [
+        0.04,
+        0.0021
+      ]
+    },
+    "B3": {
+      "P&D REALTY": [
+        1.23,
+        0.0776
+      ],
+      "Mirak Family": [
+        1.05,
+        0.0662
+      ],
+      "SHEFFIELD PARTNERS LLC": [
+        0.92,
+        0.058
+      ],
+      "AKBARIAN MOHAMMED MD": [
+        0.9,
+        0.0567
+      ],
+      "1398 MASSACHUSETTS AVE. LLC": [
+        0.82,
+        0.0517
+      ],
+      "Frank Pasciuto": [
+        0.73,
+        0.046
+      ],
+      "STOREY PROPERTIES LLC": [
+        0.55,
+        0.0347
+      ],
+      "Town Of Arlington": [
+        0.44,
+        0.0277
+      ],
+      "1406 MASS AVE LLC": [
+        0.41,
+        0.0259
+      ],
+      "LEVOSKY CAROLYN TR": [
+        0.38,
+        0.024
+      ],
+      "TRITON-ARLINGTON LLC": [
+        0.38,
+        0.024
+      ],
+      "RIKIA LLC": [
+        0.37,
+        0.0233
+      ],
+      "ATINIZIAN NIGOGHOS & CAROLYN": [
+        0.37,
+        0.0233
+      ],
+      "HAJJAR CHARLES C /TRUSTEE": [
+        0.32,
+        0.0202
+      ],
+      "ARLINGTON COAL & LUMBER CO": [
+        0.32,
+        0.0202
+      ],
+      "CAMBRIDGE SAVINGS BANK": [
+        0.31,
+        0.0195
+      ],
+      "ARLINGTON REDEVELOP/BOARD": [
+        0.31,
+        0.0195
+      ],
+      "FAMOLARE GEORGE R & SUSAN P": [
+        0.28,
+        0.0177
+      ],
+      "BRANTWOOD HOLDINGS LLC": [
+        0.27,
+        0.017
+      ],
+      "B&G CORSET COMPANY LLC": [
+        0.24,
+        0.0151
+      ],
+      "ANDRE (MASS AVE) LIMITED PARTN": [
+        0.24,
+        0.0151
+      ]
+    },
+    "B4": {
+      "Mirak Family": [
+        2.43,
+        0.1301
+      ],
+      "NOYES REALTY LLLP": [
+        1.83,
+        0.098
+      ],
+      "KO NAI NAN ETAL/ TRUSTEES": [
+        0.74,
+        0.0396
+      ],
+      "BAYSTATE CONDOMINIUMS LLC": [
+        0.69,
+        0.0369
+      ],
+      "864 MASS AVENUE LLC": [
+        0.66,
+        0.0353
+      ],
+      "JK HOLDINGS LLC": [
+        0.51,
+        0.0273
+      ],
+      "TD BANKNORTH NA": [
+        0.49,
+        0.0262
+      ],
+      "BOSTON EDISON CO": [
+        0.47,
+        0.0252
+      ],
+      "1420 MASSACHUSETTS AVE LLC": [
+        0.45,
+        0.0241
+      ],
+      "ARLINGTON AUTOS LLC": [
+        0.43,
+        0.023
+      ],
+      "KALOOSDIAN ROBERT A TRUSTEE": [
+        0.43,
+        0.023
+      ],
+      "WATERTOWN SAVINGS BANK": [
+        0.41,
+        0.0219
+      ],
+      "93 BROADWAY ARLINGTON LLC": [
+        0.4,
+        0.0214
+      ],
+      "POWER TEST REALTY COMPANY": [
+        0.4,
+        0.0214
+      ],
+      "22-26 SUNNYSIDE AVENUE LLC": [
+        0.39,
+        0.0209
+      ],
+      "MIMINOS MARK M & JAMES": [
+        0.38,
+        0.0203
+      ],
+      "MB REALTY GROUP LLC": [
+        0.38,
+        0.0203
+      ],
+      "EAST CAMBRIDGE SAVINGS BANK": [
+        0.38,
+        0.0203
+      ],
+      "CENTRAL COOPERATIVE BANK": [
+        0.33,
+        0.0177
+      ],
+      "JAMMAL ANTOINE": [
+        0.28,
+        0.015
+      ],
+      "KELJIKIAN MALCOLM & JEAN": [
+        0.28,
+        0.015
+      ]
+    },
+    "B5": {
+      "Mirak Family": [
+        2.75,
+        0.3399
+      ],
+      "Town Of Arlington": [
+        1.24,
+        0.1533
+      ],
+      "CAMBRIDGE SAVINGS BANK": [
+        0.62,
+        0.0766
+      ],
+      "BANK OF AMERICA": [
+        0.56,
+        0.0692
+      ],
+      "JOHNS SON LLC": [
+        0.43,
+        0.0532
+      ],
+      "LACOURT ENTERPRISES LLC": [
+        0.38,
+        0.047
+      ],
+      "450 MASS AVE LLC": [
+        0.34,
+        0.042
+      ],
+      "COHEN MAX R TRUSTEE": [
+        0.33,
+        0.0408
+      ],
+      "BLUMSACK CHARLES E/ETAL": [
+        0.3,
+        0.0371
+      ],
+      "MEGUERDITCHIAN RICHARD": [
+        0.22,
+        0.0272
+      ],
+      "GECHIJIAN ARA K": [
+        0.21,
+        0.026
+      ],
+      "KEY WEST REALTY LLC": [
+        0.15,
+        0.0185
+      ],
+      "ARLINGTON CENTER CROSSING LLC": [
+        0.13,
+        0.0161
+      ],
+      "SWEET PETER/KATHLEEN": [
+        0.13,
+        0.0161
+      ],
+      "ARLINGTON POST #1775": [
+        0.12,
+        0.0148
+      ],
+      "POULOS THEODORE": [
+        0.09,
+        0.0111
+      ],
+      "LCW ARLINGTON GROUP LLC": [
+        0.09,
+        0.0111
+      ]
+    },
+    "H": {
+      "BRIGHTVIEW ARLINGTON LLC": [
+        1.84,
+        1.0
+      ]
+    },
+    "I": {
+      "Mirak Family": [
+        11.33,
+        0.2599
+      ],
+      "Town Of Arlington": [
+        7.87,
+        0.1805
+      ],
+      "Henry E. Davidson, Jr.": [
+        4.51,
+        0.1034
+      ],
+      "ARLINGTON COAL & LUMBER CO": [
+        2.77,
+        0.0635
+      ],
+      "NOSTALGIA PROPERTIES LLC": [
+        1.27,
+        0.0291
+      ],
+      "LALICATA REALTY LLC": [
+        1.05,
+        0.0241
+      ],
+      "SANTINI MARK & GARY--TRS": [
+        1.0,
+        0.0229
+      ],
+      "87 MYSTIC STREET LLC": [
+        0.92,
+        0.0211
+      ],
+      "FARRELL DANIEL J/TRUSTEE": [
+        0.91,
+        0.0209
+      ],
+      "HIGHROCK CHURCH INC": [
+        0.83,
+        0.019
+      ],
+      "34 DUDLEY STREET LLC": [
+        0.77,
+        0.0177
+      ],
+      "NCH HOLDINGS LLC": [
+        0.5,
+        0.0115
+      ],
+      "ZERVOGLOS ANTHONY N--ETAL": [
+        0.44,
+        0.0101
+      ],
+      "47 DUDLEY STREET LLC": [
+        0.44,
+        0.0101
+      ],
+      "Paul Caruso": [
+        0.42,
+        0.0096
+      ],
+      "BOSTON GAS COMPANY": [
+        0.4,
+        0.0092
+      ],
+      "DEEHAN ANTHONY-VALERIE V": [
+        0.38,
+        0.0087
+      ],
+      "MYSTIC STREET 91 LLC": [
+        0.37,
+        0.0085
+      ],
+      "GREENE BRUCE": [
+        0.35,
+        0.008
+      ],
+      "CASTELLUCCIO R/LORUSSO S": [
+        0.34,
+        0.0078
+      ],
+      "DEEHAN ANTHONY J": [
+        0.34,
+        0.0078
+      ]
+    },
+    "MU": {
+      "FHF 1 ARLINGTON 360 LLC": [
+        16.17,
+        1.0
+      ]
+    },
+    "O": {
+      "Mugar Family": [
+        0.7,
+        1.0
+      ]
+    },
+    "OS": {
+      "Town Of Arlington": [
+        92.81,
+        0.987
+      ],
+      "Mugar Family": [
+        1.02,
+        0.0108
+      ],
+      "MASS BAY TRANSIT AUTHORITY": [
+        0.2,
+        0.0021
+      ]
+    },
+    "PUD": {
+      "Mugar Family": [
+        15.56,
+        1.0
+      ]
+    },
+    "R0": {
+      "WINCHESTER COUNTRY CLUB": [
+        48.22,
+        0.237
+      ],
+      "Paul Caruso": [
+        1.91,
+        0.0094
+      ],
+      "ARMENIAN CULTURAL": [
+        1.9,
+        0.0093
+      ],
+      "HOLMES JOHN K": [
+        1.32,
+        0.0065
+      ],
+      "BRUNO RAFFAELE & SILVANA": [
+        1.29,
+        0.0063
+      ],
+      "GOODWIN NANCY C/TRUSTEE": [
+        1.05,
+        0.0052
+      ],
+      "BOWEN RODERIC/BARBARA": [
+        0.95,
+        0.0047
+      ],
+      "PIAZZA LOUISE": [
+        0.94,
+        0.0046
+      ],
+      "SANTINI FABRIZIO": [
+        0.93,
+        0.0046
+      ],
+      "KOLLIGIAN JOAN E": [
+        0.87,
+        0.0043
+      ],
+      "VAN THONG JEAN-MANUEL": [
+        0.86,
+        0.0042
+      ],
+      "TEUBER ANDREAS": [
+        0.85,
+        0.0042
+      ],
+      "OCKERBLOOM GAIL": [
+        0.84,
+        0.0041
+      ],
+      "FOUGERE RICHARD J/SUSAN M": [
+        0.79,
+        0.0039
+      ],
+      "LAW MARGARET E/TRUSTEE": [
+        0.67,
+        0.0033
+      ],
+      "DEYST JOHN J JR & MARY A/ TRS": [
+        0.67,
+        0.0033
+      ],
+      "FULMER ANDREA J & SANDRA A": [
+        0.65,
+        0.0032
+      ],
+      "RAFFI JAMES C & JOAN M/TR": [
+        0.62,
+        0.003
+      ],
+      "MCGEOGHEAN TIMOTHY/ TRUSTEE": [
+        0.59,
+        0.0029
+      ],
+      "HELMES THOMAS R &": [
+        0.58,
+        0.0029
+      ],
+      "CASTOR TREVOR/ETAL": [
+        0.58,
+        0.0029
+      ]
+    },
+    "R1": {
+      "Town Of Arlington": [
+        240.46,
+        0.1635
+      ],
+      "ROMAN CATHOLIC ARCH OF BOS": [
+        17.44,
+        0.0119
+      ],
+      "CATHOLIC CEMETARY ASSOC": [
+        14.92,
+        0.0101
+      ],
+      "BELMONT COUNTRY CLUB INC": [
+        11.32,
+        0.0077
+      ],
+      "THE GREEK ORTHODOX CHURCH": [
+        3.31,
+        0.0023
+      ],
+      "STERLING KATHARINE PARKS": [
+        2.15,
+        0.0015
+      ],
+      "ARLINGTON LAND TRUST/ INC": [
+        2.0,
+        0.0014
+      ],
+      "BOSTON GAS COMPANY": [
+        1.87,
+        0.0013
+      ],
+      "KELWYN MANOR ASSOCIATION IN": [
+        1.78,
+        0.0012
+      ],
+      "GERMAINE LAWRENCE INCORPORATED": [
+        1.77,
+        0.0012
+      ],
+      "SCHOOLS FOR CHILDREN INC": [
+        1.73,
+        0.0012
+      ],
+      "METROPOLITIAN DIST COMM": [
+        1.72,
+        0.0012
+      ],
+      "ORDER OF SAINT ANNE": [
+        1.64,
+        0.0011
+      ],
+      "FIRST CONGREGATIONAL PARISH": [
+        1.43,
+        0.001
+      ],
+      "ST PAUL EVANGELICAL LUTHERA": [
+        1.28,
+        0.0009
+      ],
+      "BOWERS SUTER TERESA": [
+        1.1,
+        0.0007
+      ],
+      "HARTES LLC": [
+        1.03,
+        0.0007
+      ],
+      "RASMUSSEN HELEN M": [
+        0.98,
+        0.0007
+      ],
+      "FIRST BAPTIST CHURCH": [
+        0.95,
+        0.0006
+      ],
+      "ARONSON RICHARD B/ TRUSTEE": [
+        0.92,
+        0.0006
+      ],
+      "ST PAULS LUTHERAN CHURCH": [
+        0.89,
+        0.0006
+      ]
+    },
+    "R2": {
+      "ARLINGTON HOUSING AUTHORITY": [
+        4.66,
+        0.0129
+      ],
+      "Town Of Arlington": [
+        3.92,
+        0.0108
+      ],
+      "ROMAN CATHOLIC ARCH OF BOS": [
+        2.48,
+        0.0069
+      ],
+      "GALVIN SEAN D/TRUSTEE": [
+        1.9,
+        0.0053
+      ],
+      "HOUSING CORP OF ARLINGTON": [
+        1.41,
+        0.0039
+      ],
+      "MORRISSETTE LAURA--ETAL": [
+        1.26,
+        0.0035
+      ],
+      "Henry E. Davidson, Jr.": [
+        1.24,
+        0.0034
+      ],
+      "PARK AVE HEALTH CENTER": [
+        1.06,
+        0.0029
+      ],
+      "R A JOHNSON REALTY INC": [
+        1.04,
+        0.0029
+      ],
+      "LOMBARDI KEITH E": [
+        0.7,
+        0.0019
+      ],
+      "GALVIN SEAN D TRUSTEE": [
+        0.68,
+        0.0019
+      ],
+      "Paul Caruso": [
+        0.67,
+        0.0019
+      ],
+      "GOOD ENERGY LLC": [
+        0.64,
+        0.0018
+      ],
+      "ARLINGTON BOYS CLUB INC": [
+        0.63,
+        0.0017
+      ],
+      "ARLINGTON HISTORICAL SOCIET": [
+        0.61,
+        0.0017
+      ],
+      "RUBINSON ANDY A": [
+        0.57,
+        0.0016
+      ],
+      "BOUBOULIS SAM & AIDA": [
+        0.55,
+        0.0015
+      ],
+      "ARLINGTON MASONIC TEMPLE": [
+        0.54,
+        0.0015
+      ],
+      "HOOK JULIE M": [
+        0.5,
+        0.0014
+      ],
+      "SAHAN HERMAN I": [
+        0.5,
+        0.0014
+      ],
+      "TERRY JAAN T/ TRUSTEE": [
+        0.49,
+        0.0014
+      ]
+    },
+    "R3": {
+      "GOSHDIGIAN REALTY LLC": [
+        0.45,
+        0.0987
+      ],
+      "POLITANO FRANCESCO": [
+        0.22,
+        0.0482
+      ],
+      "FOLEY CAROLE A &": [
+        0.2,
+        0.0439
+      ],
+      "A & B MARBLE DESIGN": [
+        0.19,
+        0.0417
+      ],
+      "GEANNARIS ANTHONY": [
+        0.16,
+        0.0351
+      ],
+      "WEBER MARK A": [
+        0.15,
+        0.0329
+      ],
+      "GRASSIA MARK A": [
+        0.13,
+        0.0285
+      ],
+      "DILLON JEANNE": [
+        0.13,
+        0.0285
+      ],
+      "KLEUTSCH LAUREN": [
+        0.13,
+        0.0285
+      ],
+      "65 BROADWAY LLC": [
+        0.12,
+        0.0263
+      ],
+      "MELKI SAMIR & RANIA": [
+        0.12,
+        0.0263
+      ],
+      "IAKOVOU CRYSTAL M/ TRUSTEE": [
+        0.12,
+        0.0263
+      ],
+      "ZEVITAS NICHOLAS J": [
+        0.12,
+        0.0263
+      ],
+      "CONTE RICHARD A": [
+        0.12,
+        0.0263
+      ],
+      "GRASSO ERNESTINE C/TRS": [
+        0.12,
+        0.0263
+      ],
+      "LACOURT ENTERPRISES LLC": [
+        0.11,
+        0.0241
+      ],
+      "CATALPA INC": [
+        0.11,
+        0.0241
+      ],
+      "LA COURT ENTERPRISE LLC": [
+        0.11,
+        0.0241
+      ],
+      "TOKADJIAN SALPHIE T & PANOS": [
+        0.11,
+        0.0241
+      ],
+      "MARINO PAUL J & PAULINE TRS": [
+        0.1,
+        0.0219
+      ],
+      "DIVICO-PIANTEDOSI ELVIRA A": [
+        0.1,
+        0.0219
+      ]
+    },
+    "R4": {
+      "COYNER KARL B": [
+        0.63,
+        0.0612
+      ],
+      "THE BOSTON CHURCH OF CHRIST": [
+        0.6,
+        0.0583
+      ],
+      "119 PLEASANT STREET LLC": [
+        0.58,
+        0.0563
+      ],
+      "CALVERT/ELLENHORN/PRAKASH LLC": [
+        0.52,
+        0.0505
+      ],
+      "COLUMBUS CLUB INC": [
+        0.49,
+        0.0476
+      ],
+      "118 PLEASANT ST REALTY LLC": [
+        0.46,
+        0.0447
+      ],
+      "PRIVITERA PHILIP J/TR": [
+        0.42,
+        0.0408
+      ],
+      "KAPLAN ANNETTE TR": [
+        0.42,
+        0.0408
+      ],
+      "FREDIEU ROBERT L/ETAL": [
+        0.37,
+        0.0359
+      ],
+      "MCMAHON AMBER & JOHN": [
+        0.3,
+        0.0291
+      ],
+      "PENG XIAOJUN": [
+        0.29,
+        0.0282
+      ],
+      "CARITAS COMMUNITIES  INC": [
+        0.29,
+        0.0282
+      ],
+      "PROTESTANT EPISCOPAL CHURCH": [
+        0.28,
+        0.0272
+      ],
+      "SALVATION ARMY": [
+        0.27,
+        0.0262
+      ],
+      "NYBERG JONATHAN": [
+        0.25,
+        0.0243
+      ],
+      "C.J.M. MANAGEMENT INC": [
+        0.24,
+        0.0233
+      ],
+      "WHITFORD DAVID S/ETAL": [
+        0.24,
+        0.0233
+      ],
+      "ALBERTO DOROTHY G": [
+        0.22,
+        0.0214
+      ],
+      "MEGUERDITCHIAN DIKRAN": [
+        0.21,
+        0.0204
+      ],
+      "AMES CHRISTOPHER JOHN": [
+        0.19,
+        0.0184
+      ],
+      "SHOVLIN THOMAS D--ETAL": [
+        0.18,
+        0.0175
+      ]
+    },
+    "R5": {
+      "ARLINGTON HOUSING AUTHORITY": [
+        7.03,
+        0.209
+      ],
+      "CONSERVATION FOOD & HEALTH": [
+        5.29,
+        0.1573
+      ],
+      "JOHNSON ARTHUR W TR": [
+        2.48,
+        0.0737
+      ],
+      "NOSTALGIA PROPERTIES LLC": [
+        2.4,
+        0.0713
+      ],
+      "MBC REALTY LLC": [
+        2.14,
+        0.0636
+      ],
+      "JOHNSON SANDRA A-TR--ETAL": [
+        1.63,
+        0.0485
+      ],
+      "CAMPOBASSO PROPERTIES LLC": [
+        1.21,
+        0.036
+      ],
+      "ARLINGTON-GROVE REALTY LLC": [
+        0.81,
+        0.0241
+      ],
+      "ARLINGTON-FREMONT RLTY INC": [
+        0.79,
+        0.0235
+      ],
+      "JOHNSON SANDRA A--ETAL": [
+        0.74,
+        0.022
+      ],
+      "275 BROADWAY LLC": [
+        0.67,
+        0.0199
+      ],
+      "CARRIG ROBERT/JAMES/NANCY JANE": [
+        0.63,
+        0.0187
+      ],
+      "TOULOPOULOS JOHN W/TRS -ETAL": [
+        0.62,
+        0.0184
+      ],
+      "TOULOPOULOS JOHN  W/TRS-ETAL": [
+        0.61,
+        0.0181
+      ],
+      "LOMBARD LEON E JR TRUSTEE": [
+        0.47,
+        0.014
+      ],
+      "LOMBARD LEON E & SHIRLEY/TRS": [
+        0.46,
+        0.0137
+      ],
+      "FREEDOM REALTY PARTNERSHIP LLP": [
+        0.44,
+        0.0131
+      ],
+      "LOMBARD LEON E JR/TRUSTEE": [
+        0.44,
+        0.0131
+      ],
+      "ATINIZIAN NIGOGHOS & CAROLYN": [
+        0.44,
+        0.0131
+      ],
+      "CAMPOBASSO RICHARD S": [
+        0.42,
+        0.0125
+      ],
+      "GALVIN SEAN D/TRUSTEE": [
+        0.38,
+        0.0113
+      ]
+    },
+    "R6": {
+      "ARLINGTON HOUSING AUTHORITY": [
+        4.49,
+        0.2129
+      ],
+      "Henry E. Davidson, Jr.": [
+        1.4,
+        0.0664
+      ],
+      "NOSTALGIA PROPERTIES LLC": [
+        1.1,
+        0.0522
+      ],
+      "GENERATIONS PROPERTIES": [
+        0.98,
+        0.0465
+      ],
+      "JOHNSON LIMITED PARTNERSHIP": [
+        0.83,
+        0.0394
+      ],
+      "HIGHLAND COURT REALTY LLC": [
+        0.66,
+        0.0313
+      ],
+      "HCA CAPITOL SQUARE APARTMENTS": [
+        0.66,
+        0.0313
+      ],
+      "JBBP MASS AVE LLC": [
+        0.65,
+        0.0308
+      ],
+      "MVC PROPERTY 1 LLC": [
+        0.52,
+        0.0247
+      ],
+      "R A JOHNSON REALTY INC": [
+        0.45,
+        0.0213
+      ],
+      "SULLIVAN WILLIAM H TRS-ETAL": [
+        0.44,
+        0.0209
+      ],
+      "ARLINGTON MINUTEMAN TOWERS LLC": [
+        0.43,
+        0.0204
+      ],
+      "LOMBARD LEON E-SHIRLEY E": [
+        0.42,
+        0.0199
+      ],
+      "ARLINGTON MINUTEMAN TOWERS LL": [
+        0.4,
+        0.019
+      ],
+      "ROGARIS PETER J & CHRISTOS": [
+        0.36,
+        0.0171
+      ],
+      "JOHNSTON LEROY N JR": [
+        0.36,
+        0.0171
+      ],
+      "PIGOTT CHARLES A TRS-ETAL": [
+        0.31,
+        0.0147
+      ],
+      "1033 MASS AVE ARLINGTON LLC": [
+        0.3,
+        0.0142
+      ],
+      "KANE WALTER & CHRISTIAN / TRS": [
+        0.3,
+        0.0142
+      ],
+      "PIGOTT CHARLES+CAHILL MARY": [
+        0.27,
+        0.0128
+      ],
+      "JOHNSON JUDITH N": [
+        0.26,
+        0.0123
+      ]
+    },
+    "R7": {
+      "Town Of Arlington": [
+        3.3,
+        0.234
+      ],
+      "ARLINGTON HOUSING AUTHORITY": [
+        3.16,
+        0.2241
+      ],
+      "MILLBROOK SQ APARTMENTS CO": [
+        2.43,
+        0.1723
+      ],
+      "SUNRISE ASSISTED LIVING INC": [
+        1.96,
+        0.139
+      ],
+      "HOUSING CORP OF ARLINGTON": [
+        0.88,
+        0.0624
+      ],
+      "NOSTALGIA PROPERTIES LLC": [
+        0.64,
+        0.0454
+      ],
+      "CEDAR CREST ARLINGTON LLC": [
+        0.49,
+        0.0348
+      ],
+      "GALVIN SEAN D /TRUSTEE": [
+        0.26,
+        0.0184
+      ],
+      "SCHWAMB MILL PRESERVATION": [
+        0.21,
+        0.0149
+      ],
+      "PIECHOTA DENNIS V--ETAL": [
+        0.16,
+        0.0113
+      ],
+      "CARNEY JOHN A": [
+        0.13,
+        0.0092
+      ],
+      "ALLEN NANCY M/TRUSTEE": [
+        0.11,
+        0.0078
+      ],
+      "KELLERMAN LOIS": [
+        0.11,
+        0.0078
+      ],
+      "CRAIG CAROLINE": [
+        0.09,
+        0.0064
+      ],
+      "ADAMIAN CONSTRUCTION &": [
+        0.06,
+        0.0043
+      ],
+      "J P G DEVELOPMENT": [
+        0.06,
+        0.0043
+      ],
+      "ALLEN HAROLD J JR /TRUSTEE": [
+        0.05,
+        0.0035
+      ]
+    },
+    "T": {
+      "MASS BAY TRANSIT AUTHORITY": [
+        1.04,
+        0.7027
+      ],
+      "MEGUERDITCHIAN RICHARD": [
+        0.44,
+        0.2973
+      ]
+    },
+    "b4": {
+    },
+    "r2": {
     }
   }
 }
