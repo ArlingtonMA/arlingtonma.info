@@ -12,7 +12,7 @@ tags:
 
 As one of the most densely built towns in the Commonwealth, it's interesting to see who the major commercial, non-profit, or other organizational landowners are, and what kinds of effects they may have on our town.
 
-## Top Land Owners In Arlington
+## Top Landowners In Arlington
 
 Note that the Town of Arlington itself is by far the largest holder of land in town by an order of magnitude, and is not included in the below charts.  For comparison, the Town and its various departments (including DPW, Schools, parks, cemetery, public safety, and more) holds 351.63 acres of land (out of ~4,300 acres of land in town total) with an assessed value of over $571,000,000!
 
@@ -20,14 +20,14 @@ See [By Assessed Value](#assessment), [By Size (Acres)](#acres), or [Data Source
 
 <figure id="assessment">
   <div class='chartfigure'>
-    <h3 style='text-align: center;'>Land Owners By Assessment ($)</h3>
+    <h3 style='text-align: center;'>Landowners By Assessment ($)</h3>
     <div id="landval"></div>
   </div>
 </figure>
 
 <figure id="acres">
   <div class='chartfigure'>
-    <h3 style='text-align: center;'>Land Owners By Acreage</h3>
+    <h3 style='text-align: center;'>Landowners By Acreage</h3>
     <div id="landsize"></div>
   </div>
 </figure>

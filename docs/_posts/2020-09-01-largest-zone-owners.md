@@ -10,9 +10,9 @@ tags:
   - Zoning
 ---
 
-While Arlington is primarily a residential town, there are plenty of district or even industrial districts here.  But who owns what kind of land - that is, in which zoning areas?
+While Arlington is primarily a residential town, there are plenty of business even industrial districts here.  But who owns what kind of land - that is, in which zoning areas?
 
-## Top Land Owners In Arlington
+## Top Landowners In Arlington
 
 Unlike our [earlier comparison of the top landowners in Arlington](https://arlingtonma.info/property/largest-property-owners/), these charts include the Town of Arlington itself in calculations.  Charts include the top 10 owners by land size in each zoning area.  For example, in zone _B4 - Vehicular Oriented Business_, the Mirak family's various auto properties comprise 13% of all _B4_-zoned land in Arlington by size.  The percentage of **All Others** is then shown in black for all smaller holders combined in each zone's chart.
 
