@@ -27,7 +27,7 @@ module AssessorParser
     ruby src/AssessorParser.rb -a    (Generates dld/ArlingtonMA_Assess.json)
     ruby src/AssessorParser.rb -z    (Generates docs/data/property/ArlingtonMA_Zoning.json)
       Note: Zoning information may not directly match Assess information, so we count zone area twice
-    ruby src/AssessorParser.rb -g    (Generates docs/data/property/ArlingtonMA_TopOwners.json)
+    ruby src/AssessorParser.rb -g    (Generates various docs/data/property/ArlingtonMA_*.json files and more)
   HEREDOC
   extend self
   require 'csv'
@@ -51,6 +51,29 @@ module AssessorParser
   ZONESIZE = 'zonesize'
   ROUND_TO = 4 # Rounding lot sizes in ownership
   NUM_TOP = 100 # How many top owners to output
+  ZONE_KEY = {
+    "B1": "Neighborhood Office",
+    "B2": "Neighborhood Business",
+    "B2A": "Major Business",
+    "B3": "Village Business",
+    "B4": "Vehicular Oriented Business",
+    "B5": "Central Business",
+    "I": "Industrial",
+    "MU": "Multi-Use",
+    "OS": "Open Space",
+    "PUD": "Planned Unit Development",
+    "R0": "Large Lot Single Family",
+    "R1": "Single Family",
+    "R2": "Two Family",
+    "R3": "Three Family",
+    "R4": "Town House",
+    "R5": "Apartments Low Density",
+    "R6": "Apartments Med Density",
+    "R7": "Apartments High Density",
+    "T": "Transportation",
+    "W": "Water",
+    "WATER": "Water"
+  }
   OWNER_MAP = { # From corporate ownership records, mapping beneficial or effective ownership for selected town or developer properties
     "TOWN OF ARLINGTON PARK" => "Town Of Arlington",
     "TOWN OF ARLINGTON SCHOOL" => "Town Of Arlington",
@@ -116,10 +139,11 @@ module AssessorParser
   
   # Parse CSV zoning area file to hash
   # @param f filename to read
-  # @return data[0] of status information; data[1] of csv hashified 
+  # @return data[0] of status information and key; data[1] of csv summed hashified
   def parse_zoning(f)
     data = []
-    data << { id: f, version: VERSION, generated: "#{Time.now}"  }
+    zkey = {}
+    data << { id: f, version: VERSION, generated: "#{Time.now}"}
     zones = {}
     CSV.foreach(f, headers: true) do |row|
       zname = row['ZoneAbbr'].strip
@@ -128,9 +152,11 @@ module AssessorParser
         zones[zname] += row['Acres'].to_f
       else
         zones[zname] = row['Acres'].to_f
+        zkey[zname] = row['ZoneName']
       end
     end
-    data << zones.sort.to_h # Ensure output file has a stable order of Zone name
+    data[0]['key'] = zkey.sort.to_h
+    data << zones.sort.to_h # Ensure output file has a stable order of Zone abbreviation
     return data
   end
   
@@ -282,6 +308,30 @@ module AssessorParser
     return zonecomp
   end
 
+  # Output Markdown / Javascript to build largest-zone-owners blog post data
+  def output_zoneownersjs(zone_owners, filename)
+    data = ''
+    ZONE_KEY.each do |zone, name| # Hack out the markdown as well
+      data << "<div class='chartfigure'><h3 style='text-align: center;'>#{zone} - #{name}</h3><div id='zone#{zone}'></div></div>\n"
+    end
+    data << "\n\n"
+    zone_owners[SIZE].each do |zone, owners|
+      data << "addDonutChart('#zone#{zone}', [\n"
+      ctr = 0
+      totpct = 0.0
+      owners.each do |owner, sizepct|
+        totpct += sizepct[1]
+        data << "  ['#{owner}', #{sizepct[1]}],\n"
+        ctr += 1
+        break if ctr > 10 # Arbitrary to make charts look OK
+      end
+      # Add in remainder as a specific value
+      data << "  ['All Others', #{(1.0 - totpct).round(4)}]\n"
+      data << "], 'Zone #{zone}', {'All Others': 'black'})\n\n"
+    end
+    puts data
+  end
+
   # Bottleneck pretty JSON output
   # @param data to output
   # @param path/filename to output
@@ -367,8 +417,14 @@ module AssessorParser
       output_json(owners, options[:owners], true)
       output_json(zonesize, options[:zonesize], false)
       output_json(top_owners(owners, zonesize, NUM_TOP), options[:topowners], false)
-      output_json(top_zone_owners(owners, zonesize, NUM_TOP / 5), options[:topzowners], false)
-       # Zoning area sizes and Assessor-summed Owner sizes don't match, but we'll calculate anyway
+      zone_owners = top_zone_owners(owners, zonesize, NUM_TOP / 5)
+      output_json(zone_owners, options[:topzowners], false)
+
+      # Also output JavaScript to build largest-zone-owners charts
+      options[:zownerjs] ||= "docs/assets/js/largest-zone-owners.js"
+      output_zoneownersjs(zone_owners, options[:zownerjs])
+
+      # Zoning area sizes and Assessor-summed Owner sizes don't match, but we'll calculate anyway
       zones = JSON.parse(File.read(options[:zoning]))
       output_json(sum_zones(owners, zonesize), options[:zonecomp], true)
 

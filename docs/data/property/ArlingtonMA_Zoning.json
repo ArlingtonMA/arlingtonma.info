@@ -2,7 +2,30 @@
   {
     "id": "dld/ArlingtonMA_Zoning.csv",
     "version": "0.1g",
-    "generated": "2020-08-30 11:54:31 -0400"
+    "generated": "2020-09-01 07:27:21 -0400",
+    "key": {
+      "B1": "Neighborhood Office",
+      "B2": "Neighborhood Business",
+      "B2A": "Major Business",
+      "B3": "Village Business",
+      "B4": "Vehicular Oriented Business",
+      "B5": "Central Business",
+      "I": "Industrial",
+      "MU": "Multi-Use",
+      "OS": "Open Space",
+      "PUD": "Planned Unit Development",
+      "R0": "Large Lot Single Family",
+      "R1": "Single Family",
+      "R2": "Two Family",
+      "R3": "Three Family",
+      "R4": "Town House",
+      "R5": "Apartments Low Density",
+      "R6": "Apartments Med Density",
+      "R7": "Apartments High Density",
+      "T": "Transportation",
+      "W": "Water",
+      "WATER": "Water"
+    }
   },
   {
     "B1": 28.286860024935,
