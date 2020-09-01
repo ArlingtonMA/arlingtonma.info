@@ -17,13 +17,16 @@
  * @param {hash} colors for mapping 'name' to html color
  */
 function addDonutChart (id, data, title, colors) {
+  var datahash = {
+    type: 'donut',
+    columns: data
+  }
+  if (colors) {
+    datahash.colors = colors
+  }
   var chart = c3.generate({
     bindto: id,
-    data: {
-      type: 'donut',
-      columns: data,
-      colors: colors
-    },
+    data: datahash,
     donut: {
       title: title
     },
