@@ -78,7 +78,6 @@ module AssessorParser
     "TOWN OF ARLINGTON PARK" => "Town Of Arlington",
     "TOWN OF ARLINGTON SCHOOL" => "Town Of Arlington",
     "TOWN OF ARLINGTON" => "Town Of Arlington",
-    "DEPT/CONSERVATION & RECREATION" => "Town Of Arlington",
     "TOWN OF ARLINGTON CEMETERY" => "Town Of Arlington",
     "TOWN OF ARLINGTON CON COM" => "Town Of Arlington",
     "TOWN OF ARLINGTON-PARK" => "Town Of Arlington",

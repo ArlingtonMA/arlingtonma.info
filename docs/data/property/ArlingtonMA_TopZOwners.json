@@ -139,7 +139,7 @@
     },
     "I": {
       "Mirak Family": 24144500,
-      "Town Of Arlington": 8981000,
+      "Town Of Arlington": 7440800,
       "Henry E. Davidson, Jr.": 7268300,
       "ARLINGTON COAL & LUMBER CO": 4894700,
       "NOSTALGIA PROPERTIES LLC": 4680600,
@@ -150,6 +150,7 @@
       "MOUNT AUBURN PROF SERVICES": 2090800,
       "FARRELL DANIEL J/TRUSTEE": 1687500,
       "LALICATA REALTY LLC": 1650900,
+      "DEPT/CONSERVATION & RECREATION": 1540200,
       "47 DUDLEY STREET LLC": 1427700,
       "FINOCHETTI JOHN": 1403400,
       "MYSTIC STREET 91 LLC": 1378100,
@@ -157,8 +158,7 @@
       "JACQUES BUSINESS PROPERTY LLC": 1252800,
       "BOSTON GAS COMPANY": 1196600,
       "DEEHAN ANTHONY-VALERIE V": 1195500,
-      "VENUTO NICOLINO & ANGELA": 1193400,
-      "BLUE WHALE REALTY LLC": 1174600
+      "VENUTO NICOLINO & ANGELA": 1193400
     },
     "MU": {
       "FHF 1 ARLINGTON 360 LLC": 77839500
@@ -167,7 +167,8 @@
       "Mugar Family": 2400000
     },
     "OS": {
-      "Town Of Arlington": 124663200,
+      "Town Of Arlington": 82637200,
+      "DEPT/CONSERVATION & RECREATION": 42026000,
       "Mugar Family": 1412700,
       "MASS BAY TRANSIT AUTHORITY": 955300
     },
@@ -198,8 +199,9 @@
       "MARBOUX YVES-PIERRE": 1765600
     },
     "R1": {
-      "Town Of Arlington": 413145100,
+      "Town Of Arlington": 395852000,
       "ROMAN CATHOLIC ARCH OF BOS": 31205500,
+      "DEPT/CONSERVATION & RECREATION": 17293100,
       "THE GREEK ORTHODOX CHURCH": 9057200,
       "SCHOOLS FOR CHILDREN INC": 8217800,
       "GERMAINE LAWRENCE INCORPORATED": 6077400,
@@ -217,8 +219,7 @@
       "FIRST BAPTIST CHURCH": 2933500,
       "LYNCH CHRISTOPHER P & VIRGINIA": 2806600,
       "DIETRICH STEPHAN &": 2724000,
-      "TRINITY BAPTIST CHURCH": 2607600,
-      "SULLIVAN KARA": 2545400
+      "TRINITY BAPTIST CHURCH": 2607600
     },
     "R2": {
       "ROMAN CATHOLIC ARCH OF BOS": 16523900,
@@ -229,7 +230,7 @@
       "LOMBARDI KEITH E": 4366700,
       "PARK AVE HEALTH CENTER": 4317200,
       "R A JOHNSON REALTY INC": 4127900,
-      "Town Of Arlington": 3758900,
+      "Town Of Arlington": 3754400,
       "Paul Caruso": 3566400,
       "BOUBOULIS SAM & AIDA": 3317500,
       "BERLINGHIERI JOSEPH": 3035800,
@@ -397,11 +398,11 @@
         0.35,
         0.0225
       ],
-      "SAMPSON  MARTHA /TRUSTEE": [
+      "CAMPOBASSO PROPERTIES LLC": [
         0.32,
         0.0205
       ],
-      "CAMPOBASSO PROPERTIES LLC": [
+      "SAMPSON  MARTHA /TRUSTEE": [
         0.32,
         0.0205
       ],
@@ -437,11 +438,11 @@
         0.24,
         0.0154
       ],
-      "KOZELIAN JOHN & SILVA": [
+      "BHATIA NEERAJ TRUSTEE": [
         0.23,
         0.0148
       ],
-      "BHATIA NEERAJ TRUSTEE": [
+      "KOZELIAN JOHN & SILVA": [
         0.23,
         0.0148
       ],
@@ -487,11 +488,11 @@
         0.25,
         0.0288
       ],
-      "TOULOPOULOS JOHN  W/TRS/ETAL": [
+      "GOBOOK INC": [
         0.24,
         0.0276
       ],
-      "GOBOOK INC": [
+      "TOULOPOULOS JOHN  W/TRS/ETAL": [
         0.24,
         0.0276
       ],
@@ -515,13 +516,17 @@
         0.19,
         0.0219
       ],
+      "BOSTON MAJORDOMO LLC": [
+        0.18,
+        0.0207
+      ],
       "BOUBOULIS MICHAEL TRUSTEE": [
         0.18,
         0.0207
       ],
-      "BOSTON MAJORDOMO LLC": [
-        0.18,
-        0.0207
+      "CARBONELL PABLO F ETAL / TRS": [
+        0.17,
+        0.0196
       ],
       "GALVIN SEAN /TRUSTEE": [
         0.17,
@@ -531,15 +536,11 @@
         0.17,
         0.0196
       ],
-      "CARBONELL PABLO F ETAL / TRS": [
-        0.17,
-        0.0196
-      ],
       "ABIDIAN LLC": [
         0.16,
         0.0184
       ],
-      "94 MASSACHUSETTS AVENUE LLC": [
+      "Town Of Arlington": [
         0.14,
         0.0161
       ]
@@ -675,19 +676,19 @@
         0.38,
         0.024
       ],
-      "RIKIA LLC": [
-        0.37,
-        0.0233
-      ],
       "ATINIZIAN NIGOGHOS & CAROLYN": [
         0.37,
         0.0233
       ],
-      "HAJJAR CHARLES C /TRUSTEE": [
+      "RIKIA LLC": [
+        0.37,
+        0.0233
+      ],
+      "ARLINGTON COAL & LUMBER CO": [
         0.32,
         0.0202
       ],
-      "ARLINGTON COAL & LUMBER CO": [
+      "HAJJAR CHARLES C /TRUSTEE": [
         0.32,
         0.0202
       ],
@@ -707,11 +708,11 @@
         0.27,
         0.017
       ],
-      "B&G CORSET COMPANY LLC": [
+      "ANDRE (MASS AVE) LIMITED PARTN": [
         0.24,
         0.0151
       ],
-      "ANDRE (MASS AVE) LIMITED PARTN": [
+      "B&G CORSET COMPANY LLC": [
         0.24,
         0.0151
       ]
@@ -765,11 +766,11 @@
         0.41,
         0.0219
       ],
-      "93 BROADWAY ARLINGTON LLC": [
+      "POWER TEST REALTY COMPANY": [
         0.4,
         0.0214
       ],
-      "POWER TEST REALTY COMPANY": [
+      "93 BROADWAY ARLINGTON LLC": [
         0.4,
         0.0214
       ],
@@ -781,11 +782,11 @@
         0.38,
         0.0203
       ],
-      "MB REALTY GROUP LLC": [
+      "EAST CAMBRIDGE SAVINGS BANK": [
         0.38,
         0.0203
       ],
-      "EAST CAMBRIDGE SAVINGS BANK": [
+      "MB REALTY GROUP LLC": [
         0.38,
         0.0203
       ],
@@ -793,11 +794,11 @@
         0.33,
         0.0177
       ],
-      "JAMMAL ANTOINE": [
+      "KELJIKIAN MALCOLM & JEAN": [
         0.28,
         0.015
       ],
-      "KELJIKIAN MALCOLM & JEAN": [
+      "JAMMAL ANTOINE": [
         0.28,
         0.015
       ]
@@ -851,11 +852,11 @@
         0.15,
         0.0185
       ],
-      "ARLINGTON CENTER CROSSING LLC": [
+      "SWEET PETER/KATHLEEN": [
         0.13,
         0.0161
       ],
-      "SWEET PETER/KATHLEEN": [
+      "ARLINGTON CENTER CROSSING LLC": [
         0.13,
         0.0161
       ],
@@ -884,8 +885,8 @@
         0.2599
       ],
       "Town Of Arlington": [
-        7.87,
-        0.1805
+        6.05,
+        0.1388
       ],
       "Henry E. Davidson, Jr.": [
         4.51,
@@ -894,6 +895,10 @@
       "ARLINGTON COAL & LUMBER CO": [
         2.77,
         0.0635
+      ],
+      "DEPT/CONSERVATION & RECREATION": [
+        1.82,
+        0.0417
       ],
       "NOSTALGIA PROPERTIES LLC": [
         1.27,
@@ -955,11 +960,7 @@
         0.35,
         0.008
       ],
-      "CASTELLUCCIO R/LORUSSO S": [
-        0.34,
-        0.0078
-      ],
-      "DEEHAN ANTHONY J": [
+      "MALONEY SEAN P/TRUSTEE": [
         0.34,
         0.0078
       ]
@@ -978,8 +979,12 @@
     },
     "OS": {
       "Town Of Arlington": [
-        92.81,
-        0.987
+        66.61,
+        0.7084
+      ],
+      "DEPT/CONSERVATION & RECREATION": [
+        26.2,
+        0.2786
       ],
       "Mugar Family": [
         1.02,
@@ -1084,8 +1089,8 @@
     },
     "R1": {
       "Town Of Arlington": [
-        240.46,
-        0.1635
+        230.31,
+        0.1566
       ],
       "ROMAN CATHOLIC ARCH OF BOS": [
         17.44,
@@ -1098,6 +1103,10 @@
       "BELMONT COUNTRY CLUB INC": [
         11.32,
         0.0077
+      ],
+      "DEPT/CONSERVATION & RECREATION": [
+        10.15,
+        0.0069
       ],
       "THE GREEK ORTHODOX CHURCH": [
         3.31,
@@ -1162,10 +1171,6 @@
       "ARONSON RICHARD B/ TRUSTEE": [
         0.92,
         0.0006
-      ],
-      "ST PAULS LUTHERAN CHURCH": [
-        0.89,
-        0.0006
       ]
     },
     "R2": {
@@ -1174,7 +1179,7 @@
         0.0129
       ],
       "Town Of Arlington": [
-        3.92,
+        3.91,
         0.0108
       ],
       "ROMAN CATHOLIC ARCH OF BOS": [
@@ -1291,11 +1296,11 @@
         0.13,
         0.0285
       ],
-      "65 BROADWAY LLC": [
+      "CONTE RICHARD A": [
         0.12,
         0.0263
       ],
-      "MELKI SAMIR & RANIA": [
+      "GRASSO ERNESTINE C/TRS": [
         0.12,
         0.0263
       ],
@@ -1307,11 +1312,11 @@
         0.12,
         0.0263
       ],
-      "CONTE RICHARD A": [
+      "65 BROADWAY LLC": [
         0.12,
         0.0263
       ],
-      "GRASSO ERNESTINE C/TRS": [
+      "MELKI SAMIR & RANIA": [
         0.12,
         0.0263
       ],
@@ -1331,7 +1336,7 @@
         0.11,
         0.0241
       ],
-      "MARINO PAUL J & PAULINE TRS": [
+      "TEEL STREET LLC": [
         0.1,
         0.0219
       ],
@@ -1381,11 +1386,11 @@
         0.3,
         0.0291
       ],
-      "PENG XIAOJUN": [
+      "CARITAS COMMUNITIES  INC": [
         0.29,
         0.0282
       ],
-      "CARITAS COMMUNITIES  INC": [
+      "PENG XIAOJUN": [
         0.29,
         0.0282
       ],
@@ -1401,11 +1406,11 @@
         0.25,
         0.0243
       ],
-      "C.J.M. MANAGEMENT INC": [
+      "WHITFORD DAVID S/ETAL": [
         0.24,
         0.0233
       ],
-      "WHITFORD DAVID S/ETAL": [
+      "C.J.M. MANAGEMENT INC": [
         0.24,
         0.0233
       ],
@@ -1421,7 +1426,7 @@
         0.19,
         0.0184
       ],
-      "SHOVLIN THOMAS D--ETAL": [
+      "BOUBOULIS JAMES": [
         0.18,
         0.0175
       ]
@@ -1643,11 +1648,11 @@
         0.13,
         0.0092
       ],
-      "ALLEN NANCY M/TRUSTEE": [
+      "KELLERMAN LOIS": [
         0.11,
         0.0078
       ],
-      "KELLERMAN LOIS": [
+      "ALLEN NANCY M/TRUSTEE": [
         0.11,
         0.0078
       ],
@@ -1655,11 +1660,11 @@
         0.09,
         0.0064
       ],
-      "ADAMIAN CONSTRUCTION &": [
+      "J P G DEVELOPMENT": [
         0.06,
         0.0043
       ],
-      "J P G DEVELOPMENT": [
+      "ADAMIAN CONSTRUCTION &": [
         0.06,
         0.0043
       ],
