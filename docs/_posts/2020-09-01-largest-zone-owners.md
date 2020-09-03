@@ -10,13 +10,13 @@ tags:
   - Zoning
 ---
 
-While Arlington is primarily a residential town, there are plenty of business even industrial districts here.  But who owns what kind of land - that is, in which zoning areas?
+While Arlington is primarily a residential town, there are plenty of business and even industrial districts too.  But who owns what kind of land - that is, in which [zoning districts or areas](https://www.arlingtonma.gov/town-governance/laws-and-regulations/zoning-bylaws)?
 
 ## Top Landowners In Arlington
 
-Unlike our [earlier comparison of the top landowners in Arlington](https://arlingtonma.info/property/largest-property-owners/), these charts include the Town of Arlington itself in calculations.  Charts include the top 10 owners by land size in each zoning area.  For example, in zone _B4 - Vehicular Oriented Business_, the Mirak family's various auto properties comprise 13% of all _B4_-zoned land in Arlington by size.  The percentage of **All Others** is then shown in black for all smaller holders combined in each zone's chart.
+We charted the top 10 landowners by size in each type of zone.  For example, in zone _B4 - Vehicular Oriented Business_, the Mirak family's various auto properties comprise 13% of all _B4_-zoned land in Arlington by size, with Noyes Realty LLLC coming in next with 9.8%, and so on.  The percentage of **All Others** (51.1% in B4) is then shown in black for all other smaller holders combined in each zone's chart.
 
-See [Business districts](#business), [Industrial or Other districts](#industrial), [Residential districts](#residential), or [Data Sources](#data-sources).  Not shown is the Transportation district (MBTA, mainly) or W/WATER areas (like Spy pond or the Res).  Note that the _MU - Multi-Use_ and _PUD - Planned Unit Development_ zones are effectively only single owners.
+See [Business districts](#business), [Industrial or Other districts](#industrial), [Residential districts](#residential), or [Data Sources](#data-sources).  Not shown is the Transportation district (MBTA, mainly) or W/WATER areas (like Spy pond or the Res).  Note that the _MU - Multi-Use_ and _PUD - Planned Unit Development_ zones are effectively only single owners.  Note, unlike our [earlier comparison of the top landowners in Arlington](https://arlingtonma.info/property/largest-property-owners/), these charts _include_ the Town of Arlington itself in calculations. 
 
 ## Business Districts
 
@@ -65,7 +65,7 @@ See [Business districts](#business), [Industrial or Other districts](#industrial
 
 ## Data Sources
 
-All figures are derived from [official data sources from the Town's GIS department](/property) including the most recently _assessed_ value of parcels.  Using a simple [Ruby programming script](https://github.com/ArlingtonMA/arlingtonma.info/blob/master/src/assessorparser.rb), we have analyzed the core ArlingtonMA_Assessor table of all owners of land in town to sum up overall ownership records.  Since many commercial properties are owned by trusts or LLC corporations, we have also consolidated beneficial ownership in selected cases for some major property owners in town.  Entries in _UPPERCASE_ are exact parcel owners directly in Assessor rolls; entries _In Mixed Case_ are beneficial owners of various companies or realty trusts.  Note that our beneficial owner research may be incomplete or inaccurate depending on actual ownership structures.
+All figures are derived from [official data sources from the Town's GIS department](/property) using the lot size of all parcels.  Using a simple [Ruby programming script](https://github.com/ArlingtonMA/arlingtonma.info/blob/master/src/assessorparser.rb), we have analyzed the core ArlingtonMA_Assessor table of all owners of land in town to sum up overall ownership records.  Since many commercial properties are owned by trusts or LLC corporations, we have also consolidated beneficial ownership in selected cases for some major property owners in town.  Entries in _UPPERCASE_ are exact parcel owners directly in Assessor rolls; entries _In Mixed Case_ are beneficial owners of various companies or realty trusts that we have combined.  Note that our beneficial owner research may be incomplete or inaccurate depending on actual ownership structures.
 
 Property size percentage of a zone is calculated against a summing up of all property LOT_SIZE within a zone.  Note that comparisons against the separate ArlingtonMA_Zoning file don't work (not sure why; we've asked the GIS department for comment).
 
