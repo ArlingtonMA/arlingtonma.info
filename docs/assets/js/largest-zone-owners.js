@@ -6,8 +6,8 @@ addDonutChart('#zoneB1', [
   ['1021 MASSACHUSETTS AVENUE LLC', 0.0321],
   ['Town Of Arlington', 0.0231],
   ['U.S. OF AMERICA POST OFFICE', 0.0225],
-  ['SAMPSON  MARTHA /TRUSTEE', 0.0205],
   ['CAMPOBASSO PROPERTIES LLC', 0.0205],
+  ['SAMPSON  MARTHA /TRUSTEE', 0.0205],
   ['58-60 MEDFORD STREET LLC', 0.0186],
   ['H.A.F. INC.', 0.0186],
   ['HIGHROCK CHURCH', 0.018],
@@ -22,8 +22,8 @@ addDonutChart('#zoneB2', [
   ['Frank Pasciuto', 0.038],
   ['LOCKE PLACE LLC', 0.0311],
   ['PARTH ENTERPRISES LLC', 0.0288],
-  ['TOULOPOULOS JOHN  W/TRS/ETAL', 0.0276],
   ['GOBOOK INC', 0.0276],
+  ['TOULOPOULOS JOHN  W/TRS/ETAL', 0.0276],
   ['THE CHILDRENS CENTER', 0.0265],
   ['SUMMER REALTY SERVICES LLC', 0.0265],
   ['All Others', 0.5822]
@@ -96,17 +96,17 @@ addDonutChart('#zoneH', [
 
 addDonutChart('#zoneI', [
   ['Mirak Family', 0.2599],
-  ['Town Of Arlington', 0.1805],
+  ['Town Of Arlington', 0.1388],
   ['Henry E. Davidson, Jr.', 0.1034],
   ['ARLINGTON COAL & LUMBER CO', 0.0635],
+  ['DEPT/CONSERVATION & RECREATION', 0.0417],
   ['NOSTALGIA PROPERTIES LLC', 0.0291],
   ['LALICATA REALTY LLC', 0.0241],
   ['SANTINI MARK & GARY--TRS', 0.0229],
   ['87 MYSTIC STREET LLC', 0.0211],
   ['FARRELL DANIEL J/TRUSTEE', 0.0209],
   ['HIGHROCK CHURCH INC', 0.019],
-  ['34 DUDLEY STREET LLC', 0.0177],
-  ['All Others', 0.2379]
+  ['All Others', 0.2556]
 ], 'Zone I', { 'All Others': 'black' })
 
 addDonutChart('#zoneMU', [
@@ -120,7 +120,8 @@ addDonutChart('#zoneO', [
 ], 'Zone O', { 'All Others': 'black' })
 
 addDonutChart('#zoneOS', [
-  ['Town Of Arlington', 0.987],
+  ['Town Of Arlington', 0.7084],
+  ['DEPT/CONSERVATION & RECREATION', 0.2786],
   ['Mugar Family', 0.0108],
   ['MASS BAY TRANSIT AUTHORITY', 0.0021],
   ['All Others', 0.0001]
@@ -147,18 +148,18 @@ addDonutChart('#zoneR0', [
 ], 'Zone R0', { 'All Others': 'black' })
 
 addDonutChart('#zoneR1', [
-  ['Town Of Arlington', 0.1635],
+  ['Town Of Arlington', 0.1566],
   ['ROMAN CATHOLIC ARCH OF BOS', 0.0119],
   ['CATHOLIC CEMETARY ASSOC', 0.0101],
   ['BELMONT COUNTRY CLUB INC', 0.0077],
+  ['DEPT/CONSERVATION & RECREATION', 0.0069],
   ['THE GREEK ORTHODOX CHURCH', 0.0023],
   ['STERLING KATHARINE PARKS', 0.0015],
   ['ARLINGTON LAND TRUST/ INC', 0.0014],
   ['BOSTON GAS COMPANY', 0.0013],
   ['KELWYN MANOR ASSOCIATION IN', 0.0012],
   ['GERMAINE LAWRENCE INCORPORATED', 0.0012],
-  ['SCHOOLS FOR CHILDREN INC', 0.0012],
-  ['All Others', 0.7967]
+  ['All Others', 0.7979]
 ], 'Zone R1', { 'All Others': 'black' })
 
 addDonutChart('#zoneR2', [
@@ -186,8 +187,8 @@ addDonutChart('#zoneR3', [
   ['GRASSIA MARK A', 0.0285],
   ['DILLON JEANNE', 0.0285],
   ['KLEUTSCH LAUREN', 0.0285],
-  ['65 BROADWAY LLC', 0.0263],
-  ['MELKI SAMIR & RANIA', 0.0263],
+  ['CONTE RICHARD A', 0.0263],
+  ['GRASSO ERNESTINE C/TRS', 0.0263],
   ['All Others', 0.5614]
 ], 'Zone R3', { 'All Others': 'black' })
 
@@ -202,7 +203,7 @@ addDonutChart('#zoneR4', [
   ['KAPLAN ANNETTE TR', 0.0408],
   ['FREDIEU ROBERT L/ETAL', 0.0359],
   ['MCMAHON AMBER & JOHN', 0.0291],
-  ['PENG XIAOJUN', 0.0282],
+  ['CARITAS COMMUNITIES  INC', 0.0282],
   ['All Others', 0.5066]
 ], 'Zone R4', { 'All Others': 'black' })
 
