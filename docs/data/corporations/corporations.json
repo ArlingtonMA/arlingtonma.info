@@ -1,0 +1,3579 @@
+{
+  "000072504": {
+    "id": "000072504",
+    "name": "YOUTH VILLAGES-GERMAINE LAWRENCE INCORPORATED",
+    "nameexact": "YOUTH VILLAGES-GERMAINE LAWRENCE INCORPORATED",
+    "orgtype": "School",
+    "orgdate": "01-01-1978",
+    "pstreet": "18 CLAREMONT AVENUE",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "00000",
+    "pcountry": "USA",
+    "aname": "UNKNOWN",
+    "astreet": "NONE",
+    "acity": "NONE,",
+    "astate": "MA",
+    "azip": "00000",
+    "acountry": "USA",
+    "officers": {
+      "DAVID  HIRSHBERG": {
+        "addr": "SAME SAME, MA 00000 USA19 TEMPLETON PARKWAY WATERTOWN, MA 02472 USA",
+        "type": "DIRECTOR"
+      },
+      "MEAGHAN  GALLAGHER": {
+        "addr": "SAME SAME, NH 00000 USA349 HANOVER ST. #4 PORTSMOUTH, NH 03801 USA",
+        "type": "TREASURER"
+      },
+      "JACK  EIFERMAN": {
+        "addr": "SAME SAME, MA 00000 USA242 CLARK RD. BROOKLINE, MA 02445 USA",
+        "type": "CLERK"
+      },
+      "JANET  GLIDDEN": {
+        "addr": "SAME SAME, MA 00000 USA326 SARGENT RD. BOXBOROUGH, MA 01719 USA",
+        "type": "DIRECTOR"
+      },
+      "KRIS  MONTGOMERY": {
+        "addr": "SAME SAME, MA 00000 USA6 NORWOOD ST. WINCHESTER, MA 01890 USA",
+        "type": "DIRECTOR"
+      },
+      "SEE DOCUMENT FOR ADDITIONAL NAMES": {
+        "addr": "SAME SAME, MA 00000 USASAME SAME, MA 00000 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "UNKNOWN",
+      "DAVID HIRSHBERG",
+      "MEAGHAN GALLAGHER",
+      "JACK EIFERMAN",
+      "JANET GLIDDEN",
+      "KRIS MONTGOMERY",
+      "SEE DOCUMENT FOR ADDITIONAL NAMES"
+    ],
+    "parsed": "2020-08-21 15:08:06 -0400"
+  },
+  "000103805": {
+    "id": "000103805",
+    "name": "SCHOOLS FOR CHILDREN, INC.",
+    "nameexact": "SCHOOLS FOR CHILDREN, INC.",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "02-27-1981",
+    "pstreet": "8 WINCHESTER PLACE SUITE 202",
+    "pcity": "WINCHESTER,",
+    "pstate": "MA",
+    "pzip": "01890",
+    "pcountry": "USA",
+    "officers": {
+      "PAUL  STEIN": {
+        "addr": "4 PARK RD WINCHESTER, MA 01890 USA",
+        "type": "PRESIDENT"
+      },
+      "ROBERT  GASS": {
+        "addr": "1 GLOVERS BROOK ROAD RANDOLPH, MA 02368 USA",
+        "type": "TREASURER"
+      },
+      "SARAH  WHITE": {
+        "addr": "32 PONDVIEW RD ARLINGTON, MA 02474 USA",
+        "type": "VICE CHAIR OF THE BOARD"
+      },
+      "BEVERLY  BENO": {
+        "addr": "44 HANKS ST LOWELL, MA 01852 USA",
+        "type": "CLERK"
+      },
+      "ALAN  OLIFF": {
+        "addr": "WHITE PINE LANE LEXINGTON, MA 02421 USA",
+        "type": "CHAIR OF THE BOARD"
+      },
+      "MARI  BADGER": {
+        "addr": "19 FLORENCE STREET CAMBRIDGE, MA 02139 USA",
+        "type": "DIRECTOR"
+      },
+      "REGINA  CAINES": {
+        "addr": "120 DECATUR STREET ARLINGTON, MA 02474 USA",
+        "type": "DIRECTOR"
+      },
+      "NANCI  BRODY": {
+        "addr": "250 EAST 87TH STREET NEW YORK, NY 10128 USA",
+        "type": "DIRECTOR"
+      },
+      "NADINE  BONDA": {
+        "addr": "47 RAYMOND ST CAMBRIDGE, MA 02140 USA",
+        "type": "DIRECTOR"
+      },
+      "PHILIP  CHEVALIER": {
+        "addr": "177 HARVARD ST CAMBRIDGE, MA 02139 USA",
+        "type": "DIRECTOR"
+      },
+      "JOSHUA  GOULD": {
+        "addr": "26 PLYMOUTH AVE BELMONT, MA 02478 USA",
+        "type": "DIRECTOR"
+      },
+      "EDWARD  RAPACKI": {
+        "addr": "575 HIGH ST MEDFORD, MA 02155 USA",
+        "type": "DIRECTOR"
+      },
+      "SUSAN LOCONTO PENTA": {
+        "addr": "171 ORCHARD STREET BELMONT, MA 02478 USA",
+        "type": "DIRECTOR"
+      },
+      "PETER  PRODROMOU": {
+        "addr": "20 ALDEN LANE WINCHESTER, MA 01890 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "PAUL STEIN",
+      "ROBERT GASS",
+      "SARAH WHITE",
+      "BEVERLY BENO",
+      "ALAN OLIFF",
+      "MARI BADGER",
+      "REGINA CAINES",
+      "NANCI BRODY",
+      "NADINE BONDA",
+      "PHILIP CHEVALIER",
+      "JOSHUA GOULD",
+      "EDWARD RAPACKI",
+      "SUSAN LOCONTO PENTA",
+      "PETER PRODROMOU"
+    ],
+    "parsed": "2020-08-31 07:41:27 -0400"
+  },
+  "000639857": {
+    "id": "000639857",
+    "name": "JOHN'S SON, LLC",
+    "nameexact": "JOHN'S SON, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "12-16-1998",
+    "rstreet": "600 MASSACHUSETTS AVE.",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "PAUL CAMPBELL",
+    "astreet": "600 MASSACHUSETTS",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "PAUL  CAMPBELL": {
+        "addr": "831 WATERSIDE DR. #201 VENICE, FL 34285 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "PAUL  CAMPBELL": {
+        "addr": "831 WATERSIDE DR. #201 VENICE, FL 34285 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "PAUL  CAMPBELL": {
+        "addr": "831 WATERSIDE DR. #201 VENICE, FL 34285 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "PAUL CAMPBELL"
+    ],
+    "parsed": "2020-08-31 07:37:08 -0400"
+  },
+  "000746262": {
+    "id": "000746262",
+    "name": "CATALPA, INC.",
+    "nameexact": "CATALPA, INC.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "03-20-2001",
+    "pstreet": "33 WEBSTER ST.",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02474",
+    "pcountry": "USA",
+    "aname": "STEPHEN BOSCO",
+    "astreet": "33 WEBSTER STREET, #2",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "officers": {
+      "STEPHEN BOSCO": {
+        "addr": "33 WEBSTER ST., ARLINGTON, MA 02474 USA",
+        "type": "SECRETARY"
+      }
+    },
+    "names": [
+      "STEPHEN BOSCO"
+    ],
+    "parsed": "2020-08-31 07:45:42 -0400"
+  },
+  "000760311": {
+    "id": "000760311",
+    "name": "MBC REALTY, LLC",
+    "nameexact": "MBC REALTY, LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "07-05-2001",
+    "jurisdiction": "Organized under the laws of:      State: ME      Country: USA     on: 04-17-2001",
+    "pstreet": "12 BROOK ST.",
+    "pcity": "WELLESLEY,",
+    "pstate": "MA",
+    "pzip": "02482-0000",
+    "pcountry": "USA",
+    "aname": "MARGARET B. CONNOR",
+    "astreet": "12 BROOK ST.",
+    "acity": "WELLESLEY,",
+    "astate": "MA",
+    "azip": "02482-0000",
+    "acountry": "USA",
+    "managers": {
+      "MARGARET B. CONNOR": {
+        "addr": "12 BROOK ST. WELLESLEY, MA 02482-0000 USA12 BROOK ST. WELLESLEY, MA 02482-0000 USA",
+        "type": "MANAGER"
+      }
+    },
+    "names": [
+      "MARGARET B. CONNOR"
+    ],
+    "parsed": "2020-08-21 15:03:47 -0400"
+  },
+  "000920799": {
+    "id": "000920799",
+    "name": "30 PARK AVENUE ASSOCIATES LLC",
+    "nameexact": "30 PARK AVENUE ASSOCIATES LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "04-03-2006",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 12-21-2004",
+    "pstreet": "792 MASSACHUSETTS AVE 2ND FLOOR",
+    "pcity": "ARLIGNTON,",
+    "pstate": "MA",
+    "pzip": "02476",
+    "pcountry": "USA",
+    "ostreet": "792 MASSACHUSETTS AVE 2ND FLOOR",
+    "ocity": "ARLINGTON,",
+    "ostate": "MA",
+    "ozip": "02476",
+    "ocountry": "USA",
+    "aname": "HENRY E. DAVIDSON, JR.",
+    "astreet": "60 LOWELL ST. 2ND FLOOR",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "signatories": {
+      "HENRY E. DAVIDSON JR.": {
+        "addr": "792 MASSACHUSETTS AVE ARLIGNTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "HENRY E. DAVIDSON JR"
+    ],
+    "parsed": "2020-08-31 07:39:43 -0400"
+  },
+  "000920801": {
+    "id": "000920801",
+    "name": "DAVIDSON MANAGEMENT HOLDING LLC",
+    "nameexact": "DAVIDSON MANAGEMENT HOLDING LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "04-03-2006",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 12-21-2004",
+    "pstreet": "792 MASSACHUSETTS AVE 2ND FLOOR",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02476",
+    "pcountry": "USA",
+    "ostreet": "792 MASSACHUSETTS AVE 2ND FLOOR",
+    "ocity": "ARLINGTON,",
+    "ostate": "MA",
+    "ozip": "02476",
+    "ocountry": "USA",
+    "aname": "HENRY E. DAVIDSON, JR.",
+    "astreet": "60 LOWELL ST. 2ND FLOOR",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "HENRY E. DAVIDSON JR.": {
+        "addr": "792 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "HENRY E. DAVIDSON  JR": {
+        "addr": "792 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "HENRY E. DAVIDSON JR"
+    ],
+    "parsed": "2020-08-21 14:02:17 -0400"
+  },
+  "000972101": {
+    "id": "000972101",
+    "name": "NOYES REALTY, LLLP",
+    "nameexact": "NOYES REALTY, LLLP",
+    "orgtype": "Foreign Limited Partnership (LP)",
+    "orgdate": "02-25-2008",
+    "jurisdiction": "Organized under the laws of:      State: FL      Country: USA     on: 06-29-2007",
+    "pstreet": "114 ANDROS ROAD",
+    "pcity": "KEY LARGO,",
+    "pstate": "FL",
+    "pzip": "33037",
+    "pcountry": "USA",
+    "aname": "GEOFFREY P NOYES",
+    "astreet": "208 BEACON ST",
+    "acity": "MARBLEHEAD,",
+    "astate": "MA",
+    "azip": "01945",
+    "acountry": "USA",
+    "partners": {
+      "GEOFFREY P NOYES": {
+        "addr": "114 ANDROS RD KEY LARGO, FL 33037 USA114 ANDROS RD KEY LARGO, FL 33037 USA",
+        "type": "GENERAL PARTNER"
+      }
+    },
+    "names": [
+      "GEOFFREY P NOYES"
+    ],
+    "parsed": "2020-08-31 07:34:59 -0400"
+  },
+  "000994247": {
+    "id": "000994247",
+    "name": "ARLINGTON MINUTEMAN TOWERS, LLC",
+    "nameexact": "ARLINGTON MINUTEMAN TOWERS, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "01-22-2009",
+    "rstreet": "59 UNION SQUARE",
+    "rcity": "SOMERVILLE,",
+    "rstate": "MA",
+    "rzip": "02143",
+    "rcountry": "USA",
+    "aname": "PHILIP J. PRIVITERA",
+    "astreet": "59 UNION SQUARE",
+    "acity": "SOMERVILLE,",
+    "astate": "MA",
+    "azip": "02143",
+    "acountry": "USA",
+    "managers": {
+      "PHILIP J. PRIVITERA": {
+        "addr": "59 UNION SQUARE SOMERVILLE, MA 02143 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "PHILIP J. PRIVITERA": {
+        "addr": "59 UNION SQUARE SOMERVILLE, MA 02143 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "PHILIP J. PRIVITERA": {
+        "addr": "59 UNION SQUARE SOMERVILLE, MA 02143 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "PHILIP J. PRIVITERA"
+    ],
+    "parsed": "2020-08-31 07:52:29 -0400"
+  },
+  "001018472": {
+    "id": "001018472",
+    "name": "FREEDOM REALTY PARTNERSHIP, LLP",
+    "nameexact": "FREEDOM REALTY PARTNERSHIP, LLP",
+    "orgtype": "Registered Domestic Limited Liability Partnership (LLP)",
+    "orgdate": "12-29-2009",
+    "pstreet": "47-49 BROADWAY",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02474",
+    "pcountry": "USA",
+    "aname": "STEVEN D. EIMERT",
+    "astreet": "101 FEDERAL ST.",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02110",
+    "acountry": "USA",
+    "partners": {
+      "ELIZABETH PAINE TRUSTEE": {
+        "addr": "10 LEE ISLAND VIEW PIPPSBURG, ME 04562 USA",
+        "type": "PARTNER"
+      },
+      "PATRICIA A. PAINE": {
+        "addr": "19 ALBION RD. WINDHAM, ME 04062 USA",
+        "type": "PARTNER"
+      },
+      "JOHN D. PAINE FAMILY TRUST": {
+        "addr": "10 LEE ISLAND VIEW PIPPSBURG, ME 04562 USA",
+        "type": "PARTNER"
+      }
+    },
+    "names": [
+      "STEVEN D. EIMERT",
+      "ELIZABETH PAINE TRUSTEE",
+      "PATRICIA A. PAINE",
+      "JOHN D. PAINE FAMILY TRUST"
+    ],
+    "parsed": "2020-08-31 07:50:07 -0400"
+  },
+  "001038153": {
+    "id": "001038153",
+    "name": "CAROWELL LLC",
+    "nameexact": "CAROWELL LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "10-14-2010",
+    "rstreet": "1193 MASSACHUSETTS AVENUE",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "DEBORAH NOWELL, ESQ",
+    "astreet": "1193 MASSACHUSETTS AVE.",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "JOHN A. CARNEY": {
+        "addr": "1193 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      },
+      "DEBORAH  NOWELL": {
+        "addr": "1193 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "DEBORAH  NOWELL": {
+        "addr": "1193 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "JOHN A. CARNEY": {
+        "addr": "1193 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "JOHN A. CARNEY": {
+        "addr": "1193 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      },
+      "DEBORAH  NOWELL": {
+        "addr": "1193 MASSACHUSETTS AVE ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "DEBORAH NOWELL, ESQ",
+      "JOHN A. CARNEY",
+      "DEBORAH NOWELL"
+    ],
+    "parsed": "2020-08-31 07:36:04 -0400"
+  },
+  "001040454": {
+    "id": "001040454",
+    "name": "NEXT GENERATION, LLC",
+    "nameexact": "NEXT GENERATION, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "11-18-2010",
+    "rstreet": "1189 MASSACHUSETTS AVE.",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "WILLIAM F. COPITHORNE",
+    "astreet": "1191 MASSACHUSETTS AVE.",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02174",
+    "acountry": "USA",
+    "managers": {
+      "WILLIAM F COPITHORNE": {
+        "addr": "1189 MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "WILLAIM F COPITHORNE": {
+        "addr": "1189 MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "WILLIAM F COPITHORNE": {
+        "addr": "1189 MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "WILLIAM F. COPITHORNE",
+      "WILLIAM F COPITHORNE",
+      "WILLAIM F COPITHORNE"
+    ],
+    "parsed": "2020-08-31 07:33:41 -0400"
+  },
+  "001040927": {
+    "id": "001040927",
+    "name": "NOSTALGIA PROPERTIES, LLC",
+    "nameexact": "NOSTALGIA PROPERTIES, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "11-29-2010",
+    "rstreet": "39 BRIGHTON AVE.",
+    "rcity": "BOSTON,",
+    "rstate": "MA",
+    "rzip": "02134",
+    "rcountry": "USA",
+    "aname": "THE HAMILTON COMPANY, INC.",
+    "astreet": "39 BRIGHTON AVE.",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02134",
+    "acountry": "USA",
+    "managers": {
+      "AERTSEN VENTURES LLC": {
+        "addr": "175 WEST BROOKLINE ST. BOSTON, MA 02118 USA",
+        "type": "MANAGER"
+      },
+      "THE HAMILTON COMPANY, INC.": {
+        "addr": "39 BRIGHTON AVE. BOSTON, MA 02134 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "AERTSEN VENTURES LLC": {
+        "addr": "175 WEST BROOKLINE ST. BOSTON, MA 02118 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "THE HAMILTON COMPANY, INC.": {
+        "addr": "39 BRIGHTON AVE. BOSTON, MA 02134 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "AERTSEN VENTURES LLC": {
+        "addr": "175 WEST BROOKLINE ST. BOSTON, MA 02118 USA",
+        "type": "REAL PROPERTY"
+      },
+      "THE HAMILTON COMPANY, INC.": {
+        "addr": "39 BRIGHTON AVE. BOSTON, MA 02134 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "THE HAMILTON COMPANY, INC.",
+      "AERTSEN VENTURES LLC"
+    ],
+    "parsed": "2020-08-21 14:00:08 -0400"
+  },
+  "001054865": {
+    "id": "001054865",
+    "name": "CAMPOBASSO PROPERTIES LLC",
+    "nameexact": "CAMPOBASSO PROPERTIES LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "06-09-2011",
+    "jurisdiction": "Organized under the laws of:      State: FL      Country: USA     on: 04-08-2011",
+    "pstreet": "1714 PERSIMMON DR.",
+    "pcity": "NAPLES,",
+    "pstate": "FL",
+    "pzip": "34109",
+    "pcountry": "USA",
+    "ostreet": "290 MASSACHUSETTS AVE.",
+    "ocity": "ARLINGTON,",
+    "ostate": "MA",
+    "ozip": "02474",
+    "ocountry": "USA",
+    "aname": "CYNTHIA CAMPOBASSO",
+    "astreet": "290 MASSACHUSETTS AVE.",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "HELEN G. CAMPOBASSO": {
+        "addr": "1714 PERSIMMON DR. NAPLES, FL 34109 USA",
+        "type": "MANAGER"
+      },
+      "RICHARD S. CAMPOBASSO": {
+        "addr": "1714 PERSIMMON DR. NAPLES, FL 34109 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "RICHARD S. CAMPOBASSO": {
+        "addr": "1714 PERSIMMON DR. NAPLES, FL 34109 USA",
+        "type": "REAL PROPERTY"
+      },
+      "HELEN G. CAMPOBASSO": {
+        "addr": "1714 PERSIMMON DR. NAPLES, FL 34109 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "CYNTHIA CAMPOBASSO",
+      "HELEN G. CAMPOBASSO",
+      "RICHARD S. CAMPOBASSO"
+    ],
+    "parsed": "2020-08-31 07:32:55 -0400"
+  },
+  "001067974": {
+    "id": "001067974",
+    "name": "ARLINGTON 360, L.L.C.",
+    "nameexact": "ARLINGTON 360, L.L.C.",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "12-27-2011",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 07-12-2011",
+    "pstreet": "591 WEST PUTNAM AVENUE",
+    "pcity": "GREENWICH,",
+    "pstate": "CT",
+    "pzip": "06830",
+    "pcountry": "USA",
+    "aname": "C T CORPORATION SYSTEM",
+    "astreet": "155 FEDERAL ST., SUITE 700",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02110",
+    "acountry": "USA",
+    "signatories": {
+      "BARRY  STERNLICHT": {
+        "addr": "591 WEST PUTNAM AVENUE GREENWICH, CT 06830 USA",
+        "type": "REAL PROPERTY"
+      },
+      "JAMES N. DUNCAN": {
+        "addr": "1420 SPRING HILL RD., STE 420 MCLEAN, VA 22102 USA",
+        "type": "REAL PROPERTY"
+      },
+      "GREGORY G. LAMB": {
+        "addr": "1420 SPRING HILL RD., STE 420 MCLEAN, VA 22102 USA",
+        "type": "REAL PROPERTY"
+      },
+      "JAMES A. BUTZ": {
+        "addr": "1420 SPRING HILL RD., STE 420 MCLEAN, VA 22102 USA",
+        "type": "REAL PROPERTY"
+      },
+      "CHRISTOPHER  GRAHAM": {
+        "addr": "591 WEST PUTNAM AVENUE GREENWICH, CT 06830 USA",
+        "type": "REAL PROPERTY"
+      },
+      "JEROME  SILVEY": {
+        "addr": "591 WEST PUTNAM AVENUE GREENWICH, CT 06830 USA",
+        "type": "REAL PROPERTY"
+      },
+      "ETHAN  BING": {
+        "addr": "591 WEST PUTNAM AVENUE GREENWICH, CT 06830 USA",
+        "type": "REAL PROPERTY"
+      },
+      "JEFFREY  DISHNER": {
+        "addr": "591 WEST PUTNAM AVENUE GREENWICH, CT 06830 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "C T CORPORATION SYSTEM",
+      "BARRY STERNLICHT",
+      "JAMES N. DUNCAN",
+      "GREGORY G. LAMB",
+      "JAMES A. BUTZ",
+      "CHRISTOPHER GRAHAM",
+      "JEROME SILVEY",
+      "ETHAN BING",
+      "JEFFREY DISHNER"
+    ],
+    "parsed": "2020-08-21 14:00:27 -0400"
+  },
+  "001075535": {
+    "id": "001075535",
+    "name": "P&M CARUSO FAMILY, LLC",
+    "nameexact": "P&M CARUSO FAMILY, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "03-27-2012",
+    "aname": "ARTHUR GOLDBERG, ESQ.",
+    "astreet": "TWO ATLANTIC AVE. 5TH FLR. NATHANSON & GOLDBERG.P.C.",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02110",
+    "acountry": "USA",
+    "managers": {
+      "PAUL  CARUSO": {
+        "addr": "63 MORNINGSIDE DR. ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "PAUL  CARUSO": {
+        "addr": "63 MORNINGSIDE DR. ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "ARTHUR GOLDBERG, ESQ.",
+      "PAUL CARUSO"
+    ],
+    "parsed": "2020-08-21 14:00:57 -0400"
+  },
+  "001075971": {
+    "id": "001075971",
+    "name": "ARLINGTON-GROVE REALTY, LLC",
+    "nameexact": "ARLINGTON-GROVE REALTY, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "04-02-2012",
+    "rstreet": "59 UNION SQ.",
+    "rcity": "SOMERVILLE,",
+    "rstate": "MA",
+    "rzip": "02143",
+    "rcountry": "USA",
+    "aname": "PHILIP J. PRIVITERA",
+    "astreet": "59 UNION SQ.",
+    "acity": "SOMERVILLE,",
+    "astate": "MA",
+    "azip": "02143",
+    "acountry": "USA",
+    "managers": {
+      "PHILIP J PRIVITERA": {
+        "addr": "59 UNION SQ. SOMERVILLE, MA 02143 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "PHILIP J PRIVITERA": {
+        "addr": "59 UNION SQ. SOMERVILLE, MA 02143 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "PHILIP J PRIVITERA": {
+        "addr": "59 UNION SQ. SOMERVILLE, MA 02143",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "PHILIP J. PRIVITERA",
+      "PHILIP J PRIVITERA"
+    ],
+    "parsed": "2020-08-31 07:48:44 -0400"
+  },
+  "001081191": {
+    "id": "001081191",
+    "name": "HCA CAPITOL SQUARE APARTMENTS, LLC",
+    "nameexact": "HCA CAPITOL SQUARE APARTMENTS, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "06-11-2012",
+    "rstreet": "252 MASS AVE, OFC",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "HOUSING CORPORATION OF ARLINGTON",
+    "astreet": "252 MASS AVE, OFC",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "252, 258-260 MASS AVE LLC": {
+        "addr": "252 MASS AVE, OFC ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "PAMELA  HALLETT": {
+        "addr": "252 MASS AVE, OFC ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "252, 258-260 MASS AVE LLC": {
+        "addr": "252 MASS AVE, OFC ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "HOUSING CORPORATION OF ARLINGTON",
+      "252, 258-260 MASS AVE LLC",
+      "PAMELA HALLETT"
+    ],
+    "parsed": "2020-08-31 07:53:45 -0400"
+  },
+  "001086413": {
+    "id": "001086413",
+    "name": "BRIGHTVIEW ARLINGTON, LLC",
+    "nameexact": "BRIGHTVIEW ARLINGTON, LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "08-23-2012",
+    "jurisdiction": "Organized under the laws of:      State: MD      Country: USA     on: 04-17-2012",
+    "pstreet": "218 N CHARLES ST. SUITE 220",
+    "pcity": "BALTIMORE,",
+    "pstate": "MD",
+    "pzip": "21201",
+    "pcountry": "USA",
+    "aname": "COGENCY GLOBAL INC.",
+    "astreet": "45 SCHOOL STREET STE 202",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02108",
+    "acountry": "USA",
+    "managers": {
+      "JEFFREY K. HETTLEMAN": {
+        "addr": "218 N CHARLES ST. SUITE 220 BALTIMORE, MD 21201 USA",
+        "type": "MANAGER"
+      }
+    },
+    "names": [
+      "COGENCY GLOBAL INC.",
+      "JEFFREY K. HETTLEMAN"
+    ],
+    "parsed": "2020-08-21 15:06:16 -0400"
+  },
+  "001087846": {
+    "id": "001087846",
+    "name": "252, 258-260 MASS. AVE., LLC",
+    "nameexact": "252, 258-260 MASS. AVE., LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-13-2012",
+    "rstreet": "252 MASS AVE, OFC",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "HOUSING CORPORATION OF ARLINGTON",
+    "astreet": "252 MASS. AVE., OFFICE",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "PAMELA  HALLETT": {
+        "addr": "252 MASS AVE ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "PAMELA  HALLETT": {
+        "addr": "252 MASS AVE ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "PAMELA  HALLETT": {
+        "addr": "252 MASS AVE ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      },
+      "THOMAS  NEE": {
+        "addr": "76 RIVER STREET ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "HOUSING CORPORATION OF ARLINGTON",
+      "PAMELA HALLETT",
+      "THOMAS NEE"
+    ],
+    "parsed": "2020-08-31 07:54:08 -0400"
+  },
+  "001093868": {
+    "id": "001093868",
+    "name": "CEDAR CREST ARLINGTON, LLC",
+    "nameexact": "CEDAR CREST ARLINGTON, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "12-07-2012",
+    "rstreet": "382 MASSACHUSETTS AVENUE",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "SAMI J. BAGHDADY",
+    "astreet": "382 MASSACHUSETTS AVENUE",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "SAMI J. BAGHDADY": {
+        "addr": "382 MASSACHUSETTS AVENUE ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "SAMI J. BAGHDADY": {
+        "addr": "382 MASSACHUSETTS AVENUE ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "SAMI J. BAGHDADY"
+    ],
+    "parsed": "2020-08-31 07:54:59 -0400"
+  },
+  "001107227": {
+    "id": "001107227",
+    "name": "CLAREMONT ARLINGTON SUITES LLC",
+    "nameexact": "CLAREMONT ARLINGTON SUITES LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "05-15-2013",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 01-23-2013",
+    "pstreet": "TWO LAKESHORE CENTER",
+    "pcity": "BRIDGEWATER,",
+    "pstate": "MA",
+    "pzip": "02324",
+    "pcountry": "USA",
+    "ostreet": "TWO LAKESHORE CENTER",
+    "ocity": "BRIDGEWATER,",
+    "ostate": "MA",
+    "ozip": "02324",
+    "ocountry": "USA",
+    "aname": "ELIAS PATOUCHEAS",
+    "astreet": "TWO LAKESHORE CENTER",
+    "acity": "BRIDGEWATER,",
+    "astate": "MA",
+    "azip": "02324",
+    "acountry": "USA",
+    "managers": {
+      "THE CLAREMONT  COMPANY, INC.": {
+        "addr": "TWO LAKESHORE CENTER BRIDGEWATER, MA 02324 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "THE CLAREMONT  COMPANY, INC.": {
+        "addr": "TWO LAKESHORE CENTER BRIDGEWATER, MA 02324 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "ELIAS PATOUCHEAS",
+      "THE CLAREMONT COMPANY, INC."
+    ],
+    "parsed": "2020-08-21 15:11:32 -0400"
+  },
+  "001115947": {
+    "id": "001115947",
+    "name": "119 PLEASANT STREET LLC",
+    "nameexact": "119 PLEASANT STREET LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-10-2013",
+    "rstreet": "626 MAIN STREET",
+    "rcity": "ACTON,",
+    "rstate": "MA",
+    "rzip": "01720",
+    "rcountry": "USA",
+    "aname": "DIANE POULOS HARPELL",
+    "astreet": "626 MAIN STREET",
+    "acity": "ACTON,",
+    "astate": "MA",
+    "azip": "01720",
+    "acountry": "USA",
+    "managers": {
+      "DIANE POULOS HARPELL": {
+        "addr": "626 MAIN STREET ACTON, MA 01720 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "DIANE POULOS HARPELL": {
+        "addr": "626 MAIN STREET ACTON, MA 01720 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "DIANE POULOS HARPELL": {
+        "addr": "626 MAIN STREET ACTON, MA 01720 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "DIANE POULOS HARPELL"
+    ],
+    "parsed": "2020-08-31 07:46:54 -0400"
+  },
+  "001120955": {
+    "id": "001120955",
+    "name": "HIGHLAND COURT REALTY, LLC",
+    "nameexact": "HIGHLAND COURT REALTY, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "11-14-2013",
+    "rstreet": "376 MASSACHUSETTS AVENUE",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "PAUL C. BIJKERSMA",
+    "astreet": "MORISI & OATWAY, P.C. 730 HANCOCK STREET",
+    "acity": "QUINCY,",
+    "astate": "MA",
+    "azip": "02170",
+    "acountry": "USA",
+    "managers": {
+      "NICHOLAS B. BOIT": {
+        "addr": "376 MASSACHUSETTS AVENUE ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "NICHOLAS B. BOIT": {
+        "addr": "376 MASSACHUSETTS AVENUE ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "PAUL C. BIJKERSMA",
+      "NICHOLAS B. BOIT"
+    ],
+    "parsed": "2020-08-31 07:53:17 -0400"
+  },
+  "001121844": {
+    "id": "001121844",
+    "name": "U.S. REIF BRIGHAM SQUARE MASSACHUSETTS, LLC",
+    "nameexact": "U.S. REIF BRIGHAM SQUARE MASSACHUSETTS, LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "11-26-2013",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 11-22-2013",
+    "pstreet": "1270 SOLDIERS FIELD ROAD",
+    "pcity": "BOSTON,",
+    "pstate": "MA",
+    "pzip": "02135",
+    "pcountry": "USA",
+    "aname": "INTERCONTINENTAL REAL ESTATE CORPORATION",
+    "astreet": "1270 SOLDIERS FIELD ROAD",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02135",
+    "acountry": "USA",
+    "managers": {
+      "U.S. REAL ESTATE INVESTMENT FUND REIT, INC.": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "PETER  PALANDJIAN": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "INTERCONTINENTAL REAL ESTATE CORPORATION",
+      "U.S. REAL ESTATE INVESTMENT FUND REIT, INC.",
+      "PETER PALANDJIAN"
+    ],
+    "parsed": "2020-08-21 14:00:44 -0400"
+  },
+  "001144536": {
+    "id": "001144536",
+    "name": "U.S. REAL ESTATE INVESTMENT FUND REIT, INC.",
+    "nameexact": "U.S. REAL ESTATE INVESTMENT FUND REIT, INC.",
+    "orgtype": "Foreign Corporation",
+    "orgdate": "08-15-2014",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 03-24-2014",
+    "pstreet": "1270 SOLDIERS FIELD RD.",
+    "pcity": "BOSTON,",
+    "pstate": "MA",
+    "pzip": "02135",
+    "pcountry": "USA",
+    "aname": "INTERCONTINENTAL REAL ESTATE CORPORATION",
+    "astreet": "1270 SOLDIERS FIELD RD.",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02135",
+    "acountry": "USA",
+    "officers": {
+      "PETER  PALANDJIAN": {
+        "addr": "1270 SOLDIERS FIELD RD. BOSTON, MA 02135 USA",
+        "type": "DIRECTOR"
+      },
+      "THOMAS  TARANTO": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "DIRECTOR"
+      },
+      "PAUL  NASSER": {
+        "addr": "1270 SOLDIERS FIELD RD. BOSTON, MA 02135 USA",
+        "type": "DIRECTOR"
+      },
+      "MANON  PALANDJIAN": {
+        "addr": "1270 SOLDIERS FIELD RD. BOSTON, MA 02135 USA",
+        "type": "ASSISTANT SECRETARY"
+      }
+    },
+    "names": [
+      "INTERCONTINENTAL REAL ESTATE CORPORATION",
+      "PETER PALANDJIAN",
+      "THOMAS TARANTO",
+      "PAUL NASSER",
+      "MANON PALANDJIAN"
+    ],
+    "parsed": "2020-08-21 17:03:37 -0400"
+  },
+  "001156131": {
+    "id": "001156131",
+    "name": "65 BROADWAY LLC",
+    "nameexact": "65 BROADWAY LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "01-05-2015",
+    "rstreet": "405 WALTHAM STREET SUITE 401",
+    "rcity": "LEXINGTON,",
+    "rstate": "MA",
+    "rzip": "02421",
+    "rcountry": "USA",
+    "aname": "DAVID E. BURNS",
+    "astreet": "405 WALTHAM STREET SUITE 401",
+    "acity": "LEXINGTON,",
+    "astate": "MA",
+    "azip": "02421",
+    "acountry": "USA",
+    "managers": {
+      "DAVID E. BURNS": {
+        "addr": "405 WALTHAM STREET LEXINGTON, MA 02421 USA",
+        "type": "MANAGER"
+      },
+      "DAVID E BURNS": {
+        "addr": "405 WALTHAM STREET LEXINGTON, MA 02421 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "DONNA H BURNS": {
+        "addr": "405 WALTHAM STREET LEXINGTON, MA 02421 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "DONNA H. BURNS": {
+        "addr": "405 WALTHAM STREET LEXINGTON, MA 02421 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "DAVID E BURNS": {
+        "addr": "405 WALTHAM STREET LEXINGTON, MA 02421 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "DAVID E. BURNS",
+      "DAVID E BURNS",
+      "DONNA H BURNS",
+      "DONNA H. BURNS"
+    ],
+    "parsed": "2020-08-31 07:44:36 -0400"
+  },
+  "001163511": {
+    "id": "001163511",
+    "name": "LACOURT ENTERPRISES LLC",
+    "nameexact": "LACOURT ENTERPRISES LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "03-06-2015",
+    "rstreet": "30 COLLEGE AVENUE",
+    "rcity": "SOMERVILLE,",
+    "rstate": "MA",
+    "rzip": "02144",
+    "rcountry": "USA",
+    "aname": "MOUHAB RIZKALLAH",
+    "astreet": "30 COLLEGE AVENUE",
+    "acity": "SOMERVILLE,",
+    "astate": "MA",
+    "azip": "02144",
+    "acountry": "USA",
+    "managers": {
+      "MOUHAB  RIZKALLAH": {
+        "addr": "30 COLLEGE AVENUE SOMERVILLE, MA 02144 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "LAURA  RIZKALLAH": {
+        "addr": "30 COLLEGE AVENUE SOMERVILLE, MA 02144 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "MOUHAB  RIZKALLAH": {
+        "addr": "30 COLLEGE AVENUE SOMERVILLE, MA 02144 USA",
+        "type": "REAL PROPERTY"
+      },
+      "LAURA  RIZKALLAH": {
+        "addr": "30 COLLEGE AVENUE SOMERVILLE, MA 02144 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "MOUHAB RIZKALLAH",
+      "LAURA RIZKALLAH"
+    ],
+    "parsed": "2020-08-21 14:03:22 -0400"
+  },
+  "001166696": {
+    "id": "001166696",
+    "name": "13 CHESTNUT STREET LLC",
+    "nameexact": "13 CHESTNUT STREET LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "03-27-2015",
+    "rstreet": "1 CHESTNUT STREET",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "WALTER R. ABBOTT, JR.",
+    "astreet": "28 TANAGER ST.",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "WALTER R. ABBOTT JR.": {
+        "addr": "28 TANAGER ST. ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "WALTER R. ABBOTT JR.": {
+        "addr": "28 TANAGER ST. ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "WALTER R. ABBOTT JR.": {
+        "addr": "28 TANAGER ST. ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "WALTER R. ABBOTT JR"
+    ],
+    "parsed": "2020-08-31 07:32:25 -0400"
+  },
+  "001173475": {
+    "id": "001173475",
+    "name": "ARLINGTON LAND REALTY LLC",
+    "nameexact": "ARLINGTON LAND REALTY LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "05-15-2015",
+    "rstreet": "222 BERKELEY STREET, C/O MUGAR ENTEPRISES",
+    "rcity": "BOSTON,",
+    "rstate": "MA",
+    "rzip": "02116",
+    "rcountry": "USA",
+    "aname": "DAVID T. TING",
+    "astreet": "222 BERKELEY ST.",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02116",
+    "acountry": "USA",
+    "managers": {
+      "PETER S. MUGAR": {
+        "addr": "222 BERKELEY ST. BOSTON, MA 02116 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "PETER S. MUGAR": {
+        "addr": "222 BERKELEY ST. BOSTON, MA 02116 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "DAVID T. TING": {
+        "addr": "222 BERKELEY ST. BOSTON, MA 02116 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "PETER S. MUGAR": {
+        "addr": "222 BERKELEY ST. BOSTON, MA 02116 USA",
+        "type": "REAL PROPERTY"
+      },
+      "DAVID T. TING": {
+        "addr": "222 BERKELEY ST. BOSTON, MA 02116 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "DAVID T. TING",
+      "PETER S. MUGAR"
+    ],
+    "parsed": "2020-08-21 14:03:06 -0400"
+  },
+  "001242221": {
+    "id": "001242221",
+    "name": "93 BROADWAY ARLINGTON, LLC",
+    "nameexact": "93 BROADWAY ARLINGTON, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-30-2016",
+    "rstreet": "508 GROTON ROAD",
+    "rcity": "WESTFORD,",
+    "rstate": "MA",
+    "rzip": "01886",
+    "rcountry": "USA",
+    "aname": "KEVIN FLYNN",
+    "astreet": "508 GROTON ROAD",
+    "acity": "WESTFORD,",
+    "astate": "MA",
+    "azip": "01886",
+    "acountry": "USA",
+    "managers": {
+      "KEVIN  FLYNN": {
+        "addr": "508 GROTON ROAD WESTFORD, MA 01886 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "KEVIN  FLYNN": {
+        "addr": "508 GROTON ROAD WESTFORD, MA 01886 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "KEVIN FLYNN"
+    ],
+    "parsed": "2020-08-31 07:35:45 -0400"
+  },
+  "001261089": {
+    "id": "001261089",
+    "name": "FFP REALTY CORP.",
+    "nameexact": "FFP REALTY CORP.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "02-17-2017",
+    "pstreet": "455 MASSACHUSETTS AVE., SUITE 1",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02474",
+    "pcountry": "USA",
+    "aname": "CYNTHIA PASCIUTO",
+    "astreet": "455 MASSACHUSETTS AVENUE SUITE 1",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "officers": {
+      "FRANK  PASCIUTO": {
+        "addr": "455 MASSACHUSETTS AVE., SUITE 1 ARLINGTON, MA 02474 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "CYNTHIA PASCIUTO",
+      "FRANK PASCIUTO"
+    ],
+    "parsed": "2020-08-21 14:04:15 -0400"
+  },
+  "001268133": {
+    "id": "001268133",
+    "name": "118 PLEASANT STREET REALTY LLC",
+    "nameexact": "118 PLEASANT STREET REALTY LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "04-05-2017",
+    "rstreet": "235 SUDBURY ROAD",
+    "rcity": "CONCORD,",
+    "rstate": "MA",
+    "rzip": "01742",
+    "rcountry": "USA",
+    "aname": "JON A. SIROTOF",
+    "astreet": "235 SUDBURY ROAD",
+    "acity": "CONCORD,",
+    "astate": "MA",
+    "azip": "01742",
+    "acountry": "USA",
+    "managers": {
+      "JON A. SIROTOF": {
+        "addr": "235 SUDBURY ROAD CONCORD, MA 01742 USA",
+        "type": "MANAGER"
+      },
+      "SUZANNE M. FOLEY": {
+        "addr": "235 SUDBURY ROAD CONCORD, MA 01742 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "SUZANNE M. FOLEY": {
+        "addr": "235 SUDBURY ROAD CONCORD, MA 01742 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "JON A. SIROTOF": {
+        "addr": "235 SUDBURY ROAD CONCORD, MA 01742 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "JON A. SIROTOF": {
+        "addr": "235 SUDBURY ROAD CONCORD, MA 01742 USA",
+        "type": "REAL PROPERTY"
+      },
+      "SUZANNE M. FOLEY": {
+        "addr": "235 SUDBURY ROAD CONCORD, MA 01742 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "JON A. SIROTOF",
+      "SUZANNE M. FOLEY"
+    ],
+    "parsed": "2020-08-31 07:47:27 -0400"
+  },
+  "001269383": {
+    "id": "001269383",
+    "name": "TEEL STREET, LLC",
+    "nameexact": "TEEL STREET, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "04-13-2017",
+    "rstreet": "188 JASON STREET",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "DOROTHY B. COMMONS",
+    "astreet": "188 JASON STREET",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "DOROTHY B. COMMONS": {
+        "addr": "188 JASON STREET ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      },
+      "ROBERT P. COMMONS": {
+        "addr": "188 JASON STREET ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "ROBERT P. COMMONS": {
+        "addr": "188 JASON STREET ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "DOROTHY B. COMMONS": {
+        "addr": "188 JASON STREET ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "DOROTHY B. COMMONS": {
+        "addr": "188 JASON STREET ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      },
+      "ROBERT P. COMMONS": {
+        "addr": "188 JASON STREET ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "DOROTHY B. COMMONS",
+      "ROBERT P. COMMONS"
+    ],
+    "parsed": "2020-08-31 07:45:15 -0400"
+  },
+  "001301570": {
+    "id": "001301570",
+    "name": "HED LEGACY, LLC",
+    "nameexact": "HED LEGACY, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "12-04-2017",
+    "rstreet": "792 MASSACHUSETTS AVENUE UNIT #2",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "HENRY E. DAVIDSON, JR.",
+    "astreet": "792 MASSACHUSETTS AVENUE UNIT #2",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "MEGAN L. BLOCH": {
+        "addr": "792 MASSACHUSETTS AVENUE ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "MEGAN L. BLOCH": {
+        "addr": "792 MASSACHUSETTS AVENUE ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "MEGAN L. BLOCH": {
+        "addr": "792 MASSACHUSETTS AVENUE ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "HENRY E. DAVIDSON JR",
+      "MEGAN L. BLOCH"
+    ],
+    "parsed": "2020-08-21 14:01:46 -0400"
+  },
+  "001301884": {
+    "id": "001301884",
+    "name": "882-892 MASSACHUSETTS AVENUE, LLC",
+    "nameexact": "882-892 MASSACHUSETTS AVENUE, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "12-05-2017",
+    "rstreet": "455 MASSACHUSETTS AVE., STE. 1",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "FRANK PASCIUTO",
+    "astreet": "455 MASSACHUSETTS AVE. STE. 1",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "FFP REALTY CORP.": {
+        "addr": "455 MASSACHUSETTS AVE., STE. 1 ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "DANIEL W. DOHERTY ESQ": {
+        "addr": "8 ESSEX CENTER DR. PEABODY, MA 01960 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "CYNTHIA  PASCIUTO": {
+        "addr": "455 MASSACHUSETTS AVE STE 2 ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "FFP REALTY CORP.": {
+        "addr": "455 MASSACHUSETTS AVE., STE. 1 ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "FFP REALTY CORP.": {
+        "addr": "455 MASSACHUSETTS AVE., STE. 1 ARLINGTON, MA 02474",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "FRANK PASCIUTO",
+      "FFP REALTY CORP.",
+      "DANIEL W. DOHERTY ESQ",
+      "CYNTHIA PASCIUTO"
+    ],
+    "parsed": "2020-08-21 16:41:52 -0400"
+  },
+  "001347748": {
+    "id": "001347748",
+    "name": "DAVPOST1207 LLC",
+    "nameexact": "DAVPOST1207 LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-25-2018",
+    "rstreet": "1122 MASSACHUSETTS AV",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "JAMES DOHERTY",
+    "astreet": "1122 MASSACHUSETTS AV",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "JAMES FRANCIS DOHERTY SR": {
+        "addr": "1122 MASSACHUSETTS AV ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "JAMES FRANCIS DOHERTY SR": {
+        "addr": "1122 MASSACHUSETTS AV ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "JAMES FRANCIS DOHERTY SR": {
+        "addr": "1122 MASSACHUSETTS AV ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "JAMES DOHERTY",
+      "JAMES FRANCIS DOHERTY SR"
+    ],
+    "parsed": "2020-08-21 14:04:48 -0400"
+  },
+  "001361267": {
+    "id": "001361267",
+    "name": "NWCA ARLINGTON LLC",
+    "nameexact": "NWCA ARLINGTON LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "01-01-2019",
+    "rstreet": "TWO PARK PLAZA, NO. 415",
+    "rcity": "BOSTON,",
+    "rstate": "MA",
+    "rzip": "02116",
+    "rcountry": "USA",
+    "aname": "CLIFFORD E. MOSKOW",
+    "astreet": "TWO PARK PLAZA, NO. 415",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02116",
+    "acountry": "USA",
+    "managers": {
+      "CLIFFORD E. MOSKOW": {
+        "addr": "TWO PARK PLAZA, NO. 415 BOSTON, MA 02116 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "CLIFFORD E. MOSKOW": {
+        "addr": "TWO PARK PLAZA, NO. 415 BOSTON, MA 02116 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "CLIFFORD E. MOSKOW": {
+        "addr": "TWO PARK PLAZA, NO. 415 BOSTON, MA 02116 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "CLIFFORD E. MOSKOW"
+    ],
+    "parsed": "2020-08-31 07:34:24 -0400"
+  },
+  "001364417": {
+    "id": "001364417",
+    "name": "1021 MASSACHUSETTS AVENUE, L.L.C.",
+    "nameexact": "1021 MASSACHUSETTS AVENUE, L.L.C.",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "01-17-2019",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 01-16-2019",
+    "pstreet": "1021 MASSACHUSETTS AVE.",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02476",
+    "pcountry": "USA",
+    "ostreet": "1021 MASSACHUSETTS AVE.",
+    "ocity": "ARLINGTON,",
+    "ostate": "MA",
+    "ozip": "02476",
+    "ocountry": "USA",
+    "aname": "CORPORATION SERVICE COMPANY",
+    "astreet": "84 STATE STREET",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02109",
+    "acountry": "USA",
+    "signatories": {
+      "JOHN H. CHAGLASSIAN": {
+        "addr": "1021 MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      },
+      "ANN  CHAGLASSIAN": {
+        "addr": "1021 MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      },
+      "EDWARD  CHAGLASSIAN": {
+        "addr": "1021 MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "CORPORATION SERVICE COMPANY",
+      "JOHN H. CHAGLASSIAN",
+      "ANN CHAGLASSIAN",
+      "EDWARD CHAGLASSIAN"
+    ],
+    "parsed": "2020-08-31 07:32:00 -0400"
+  },
+  "001367907": {
+    "id": "001367907",
+    "name": "MVC PROPERTY 1 LLC",
+    "nameexact": "MVC PROPERTY 1 LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "02-08-2019",
+    "rstreet": "1200 SOLDIERS FIELD RD. STE. 102",
+    "rcity": "BOSTON,",
+    "rstate": "MA",
+    "rzip": "02134",
+    "rcountry": "USA",
+    "aname": "THE MOUNT VERNON COMPANY, INC.",
+    "astreet": "1200 SOLDIERS FIELD RD., STE. 102",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02134",
+    "acountry": "USA",
+    "managers": {
+      "THE MOUNT VERNON COMPANY, INC.": {
+        "addr": "1200 SOLDIERS FIELD RD. STE. 102 BOSTON, MA 02134 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "THE MOUNT VERNON COMPANY, INC.": {
+        "addr": "1200 SOLDIERS FIELD RD. STE. 102 BOSTON, MA 02134 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "THE MOUNT VERNON COMPANY, INC.": {
+        "addr": "1200 SOLDIERS FIELD RD. STE. 102 BOSTON, MA 02134 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "THE MOUNT VERNON COMPANY, INC."
+    ],
+    "parsed": "2020-08-31 07:51:37 -0400"
+  },
+  "001393603": {
+    "id": "001393603",
+    "name": "JBBP MASS AVE LLC",
+    "nameexact": "JBBP MASS AVE LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "07-18-2019",
+    "rstreet": "101 ARCH STREET SUITE 1950",
+    "rcity": "BOSTON,",
+    "rstate": "MA",
+    "rzip": "02110-1118",
+    "rcountry": "USA",
+    "aname": "OS MANAGEMENT LLC",
+    "astreet": "101 ARCH STREET SUITE 1950",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02110-1118",
+    "acountry": "USA",
+    "managers": {
+      "OS MANAGEMENT LLC": {
+        "addr": "101 ARCH STREET, SUITE 1950 BOSTON, MA 02110-1118 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "OS MANAGEMENT LLC": {
+        "addr": "101 ARCH STREET, SUITE 1950 BOSTON, MA 02110-1118 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "OS MANAGEMENT LLC"
+    ],
+    "parsed": "2020-08-31 07:52:52 -0400"
+  },
+  "001412601": {
+    "id": "001412601",
+    "name": "KARMEN, LLC",
+    "nameexact": "KARMEN, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "11-22-2019",
+    "rstreet": "259 MASSACHUSETTS AVE.",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "JOSEPH A. LOPISI, ESQ.",
+    "astreet": "2343 MASSACHUSETTS AVE.",
+    "acity": "CAMBRIDGE,",
+    "astate": "MA",
+    "azip": "02140",
+    "acountry": "USA",
+    "managers": {
+      "AIDA  KHAN": {
+        "addr": "259 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "AIDA  KHAN": {
+        "addr": "259 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "AIDA  KHAN": {
+        "addr": "259 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "JOSEPH A. LOPISI, ESQ.",
+      "AIDA KHAN"
+    ],
+    "parsed": "2020-08-31 07:31:26 -0400"
+  },
+  "030403943": {
+    "id": "030403943",
+    "name": "BAYSTATE CONDOMINIUMS, LLC",
+    "nameexact": "BAYSTATE CONDOMINIUMS, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "03-15-2002",
+    "rstreet": "1 BROADWAY",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "ERIK P. KONDO",
+    "astreet": "1 BROADWAY",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "KATHERINE M. VENZKE": {
+        "addr": "397 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      },
+      "ERIK P. KONDO": {
+        "addr": "1 BROADWAY ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "KATHERINE M. VENZKE": {
+        "addr": "397 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "ERIK P. KONDO": {
+        "addr": "1 BROADWAY ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "KATHERINE M. VENZKE": {
+        "addr": "397 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      },
+      "ERIK P. KONDO": {
+        "addr": "1 BROADWAY ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "ERIK P. KONDO",
+      "KATHERINE M. VENZKE"
+    ],
+    "parsed": "2020-08-31 07:36:24 -0400"
+  },
+  "041040820": {
+    "id": "041040820",
+    "name": "ARLINGTON COAL & LUMBER CO.",
+    "nameexact": "ARLINGTON COAL & LUMBER CO.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "09-03-1914",
+    "pstreet": "41 PARK AVENUE",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02476",
+    "pcountry": "USA",
+    "aname": "ROBERT W. MCNAMARA",
+    "astreet": "41 PARK AVENUE",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "officers": {
+      "ROBERT W. MCNAMARA": {
+        "addr": "109 FOLLEN RD., LEXINGTON, MA 02421 USA",
+        "type": "DIRECTOR"
+      },
+      "JOHN E. MCNAMARA": {
+        "addr": "30 SUMMIT ROAD LEXINGTON, MA 02421 USA",
+        "type": "TREASURER"
+      }
+    },
+    "names": [
+      "ROBERT W. MCNAMARA",
+      "JOHN E. MCNAMARA"
+    ],
+    "parsed": "2020-08-21 15:00:20 -0400"
+  },
+  "041978080": {
+    "id": "041978080",
+    "name": "WINCHESTER COUNTRY CLUB",
+    "nameexact": "WINCHESTER COUNTRY CLUB",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "05-05-1902",
+    "pstreet": "468 MYSTIC ST.",
+    "pcity": "WINCHESTER,",
+    "pstate": "MA",
+    "pzip": "01890",
+    "pcountry": "USA",
+    "officers": {
+      "WILLIAM D. CHIN": {
+        "addr": "261 PAYSON ROAD BELMONT, MA 02478 USA",
+        "type": "PRESIDENT"
+      },
+      "JOHN W. PEER": {
+        "addr": "269 CAMBRIDGE ROAD WOBURN, MA 01801 USA",
+        "type": "TREASURER"
+      },
+      "DAVID P. HOOD": {
+        "addr": "284 HIGHLAND AVE WINCHESTER, MA 01890 USA",
+        "type": "DIRECTOR - POOL & SPORTS CENTER"
+      },
+      "MEGAN E KOTWICKI": {
+        "addr": "8 DANA AVENUE WINCHESTER, MA 01890 USA",
+        "type": "DIRECTOR- RACQUESTS"
+      },
+      "BRENDAN S MONAHAN": {
+        "addr": "40 CALUMET ROAD WINCHESTER, MA 01890 USA",
+        "type": "DIRECTOR - GREENS & CARTS"
+      },
+      "PAUL F. KELLY": {
+        "addr": "5 DIX TERRACE WINCHESTER, MA 01890 USA",
+        "type": "CLERK"
+      },
+      "JOSEPH C. PETERS": {
+        "addr": "64 SALISBURY STREET WINCHESTER, MA 01890 USA",
+        "type": "COMMUNICATIONS"
+      },
+      "DAVID A FIORENTINO": {
+        "addr": "82 BACON ST WINCHESTER, MA 01890 USA",
+        "type": "FINANCE"
+      },
+      "LEONARD F. NOLAN": {
+        "addr": "11 WOOD LANE WINCHESTER, MA 01890 USA",
+        "type": "HOUSE DIRECTOR"
+      },
+      "MARTIN W. HILL": {
+        "addr": "10 SAMOSET ROAD WINCHESTER, MA 01890 USA",
+        "type": "FACILITIES DIRECTOR"
+      },
+      "WILLIAM P. CROWE": {
+        "addr": "22 MANOMET ROAD WINCHESTER, MA 01890 USA",
+        "type": "VICE PRESIDENT"
+      },
+      "DAVID T. SAVAGE JR.": {
+        "addr": "8 FROTHINGHAM ROAD BURLINGTON, MA 01803 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "WILLIAM D. CHIN",
+      "JOHN W. PEER",
+      "DAVID P. HOOD",
+      "MEGAN E KOTWICKI",
+      "BRENDAN S MONAHAN",
+      "PAUL F. KELLY",
+      "JOSEPH C. PETERS",
+      "DAVID A FIORENTINO",
+      "LEONARD F. NOLAN",
+      "MARTIN W. HILL",
+      "WILLIAM P. CROWE",
+      "DAVID T. SAVAGE JR"
+    ],
+    "parsed": "2020-08-31 07:40:35 -0400"
+  },
+  "042001984": {
+    "id": "042001984",
+    "name": "DAVIDSON MANAGEMENT COMPANY, LLP",
+    "nameexact": "DAVIDSON MANAGEMENT COMPANY, LLP",
+    "orgtype": "Registered Domestic Limited Liability Partnership (LLP)",
+    "orgdate": "03-19-1996",
+    "pstreet": "HENRY E. DAVIDSON JR. 60 LOWELL ST.",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02476-0000",
+    "pcountry": "USA",
+    "aname": "HENRY E. DAVIDSON, JR.",
+    "astreet": "60 LOWELL STREET",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02174-0000",
+    "acountry": "USA",
+    "partners": {
+      "HENRY E. DAVIDSON JR.": {
+        "addr": "HENRY E. DAVIDSON JR. ARLINGTON, MA 02476-0000 USA",
+        "type": "NONE GIVEN - P"
+      }
+    },
+    "names": [
+      "HENRY E. DAVIDSON JR"
+    ],
+    "parsed": "2020-08-21 14:01:59 -0400"
+  },
+  "042371081": {
+    "id": "042371081",
+    "name": "ARLINGTON CENTER GARAGE AND SERVICE CORPORATION",
+    "nameexact": "ARLINGTON CENTER GARAGE AND SERVICE CORPORATION",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "09-02-1932",
+    "pstreet": "438 MASSACHUSETTS AVE.",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02174",
+    "pcountry": "USA",
+    "aname": "JULIA MIRAK KEW",
+    "astreet": "111 HIGH STREET",
+    "acity": "WINCHESTER,",
+    "astate": "MA",
+    "azip": "01890",
+    "acountry": "USA",
+    "officers": {
+      "ROBERT  MIRAK": {
+        "addr": "7 WAINWRIGHT RD WINCHESTER, MA 01890 USA",
+        "type": "DIRECTOR"
+      },
+      "JULIA MIRAK KEW": {
+        "addr": "21 SHEFFIELD WEST WINCHESTER, MA 01890 USA",
+        "type": "DIRECTOR"
+      },
+      "JENNIFER MIRAK LEACH": {
+        "addr": "421 ALDERBROOK DR WAYNE, PA 19087 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "JULIA MIRAK KEW",
+      "ROBERT MIRAK",
+      "JENNIFER MIRAK LEACH"
+    ],
+    "parsed": "2020-08-21 14:58:27 -0400"
+  },
+  "042529272": {
+    "id": "042529272",
+    "name": "COLUMBUS CLUB, INC. OF ARLINGTON MASSACHUSETTS",
+    "nameexact": "COLUMBUS CLUB, INC. OF ARLINGTON MASSACHUSETTS",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "02-15-1939",
+    "pstreet": "15 WINSLOW STREET",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02474",
+    "pcountry": "USA",
+    "officers": {
+      "ROBERT  BYRNE": {
+        "addr": "51 GLEASON ST MEDFORD, MA 02155 USA",
+        "type": "PRESIDENT"
+      },
+      "DAVID  COUTURE": {
+        "addr": "13 PEMBROKE ST WILMINGTON, MA 01887 USA",
+        "type": "TREASURER"
+      },
+      "JOHN  DOYLE": {
+        "addr": "26 BELLEVUE RD ARLINGTON, MA 02476 USA",
+        "type": "CLERK"
+      },
+      "DAVID  LANATA": {
+        "addr": "26 LAWRENCE LANE ARLINGTON, MA 02474 USA",
+        "type": "VICE PRESIDENT"
+      },
+      "KEVIN  HICKEY": {
+        "addr": "27 PONDVIEW RD ARLINGTON, MA 02474 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "ROBERT BYRNE",
+      "DAVID COUTURE",
+      "JOHN DOYLE",
+      "DAVID LANATA",
+      "KEVIN HICKEY"
+    ],
+    "parsed": "2020-08-31 07:46:33 -0400"
+  },
+  "042893431": {
+    "id": "042893431",
+    "name": "THE MOUNT VERNON COMPANY, INC.",
+    "nameexact": "THE MOUNT VERNON COMPANY, INC.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "11-18-1985",
+    "pstreet": "1200 SOLDIERS FIELD ROAD SUITE 102",
+    "pcity": "BOSTON,",
+    "pstate": "MA",
+    "pzip": "02134",
+    "pcountry": "USA",
+    "aname": "BRUCE A. PERCELAY",
+    "astreet": "1200 SOLDIERS FIELD ROAD SUITE 102",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02134",
+    "acountry": "USA",
+    "officers": {
+      "BRUCE A. PERCELAY": {
+        "addr": "1200 SOLDIERS FIELD ROAD, SUITE 102 BOSTON, MA 02134 USA",
+        "type": "DIRECTOR"
+      },
+      "MOHSEN  VESSALI": {
+        "addr": "1200 SOLDIERS FIELD ROAD, SUITE 102 BOSTON, MA 02134 USA",
+        "type": "TREASURER"
+      }
+    },
+    "names": [
+      "BRUCE A. PERCELAY",
+      "MOHSEN VESSALI"
+    ],
+    "parsed": "2020-08-31 07:52:09 -0400"
+  },
+  "042895544": {
+    "id": "042895544",
+    "name": "INTERCONTINENTAL REAL ESTATE CORPORATION",
+    "nameexact": "INTERCONTINENTAL REAL ESTATE CORPORATION",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "12-18-1985",
+    "pstreet": "1270 SOLDIERS FIELD RD.",
+    "pcity": "BOSTON,",
+    "pstate": "MA",
+    "pzip": "02135",
+    "pcountry": "USA",
+    "aname": "PETER PALANDJIAN",
+    "astreet": "1270 SOLDIERS FIELD ROAD",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02135",
+    "acountry": "USA",
+    "officers": {
+      "PETER  PALANDJIAN": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "DIRECTOR"
+      },
+      "PAUL J. NASSER": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "VICE PRESIDENT"
+      },
+      "THOMAS R. TARANTO JR.": {
+        "addr": "1270 SOLDIERS FIELD RD BOSTON, MA 02135 USA",
+        "type": "VICE PRESIDENT"
+      },
+      "THOMAS R. TARANTO, JR.": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "ASSISTANT SECRETARY"
+      },
+      "MANON  PALANDJIAN": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "ASSISTANT SECRETARY"
+      },
+      "DAVID S. CARELLA": {
+        "addr": "1270 SOLDIERS FIELD ROAD BOSTON, MA 02135 USA",
+        "type": "ASSISTANT SECRETARY"
+      }
+    },
+    "names": [
+      "PETER PALANDJIAN",
+      "PAUL J. NASSER",
+      "THOMAS R. TARANTO JR",
+      "MANON PALANDJIAN",
+      "DAVID S. CARELLA"
+    ],
+    "parsed": "2020-08-21 17:04:39 -0400"
+  },
+  "042908515": {
+    "id": "042908515",
+    "name": "GMA FOUNDATIONS, INC.",
+    "nameexact": "GMA FOUNDATIONS, INC.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "01-01-1986",
+    "pstreet": "2 LIBERTY SQUARE SUITE 500",
+    "pcity": "BOSTON,",
+    "pstate": "MA",
+    "pzip": "02109",
+    "pcountry": "USA",
+    "aname": "PAMELA LABONTE MAKSY",
+    "astreet": "C/O GMA FOUNDATIONS, INC. 2 LIBERTY SQUARE, SUITE 500",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02109",
+    "acountry": "USA",
+    "officers": {
+      "MARY  PHILLIPS": {
+        "addr": "431 BANK STREET, EXT ATTLEBORO, MA 00000 USA",
+        "type": "DIRECTOR"
+      },
+      "PAMELA LABONTE MAKSY": {
+        "addr": "12 PARKHURST DRIVE LAKEVILLE, MA 00000 USA",
+        "type": "DIRECTOR"
+      },
+      "PRENTICE  ZINN": {
+        "addr": "65 CORNWALL STREET JAMAICA PLAIN, MA 00000 USA",
+        "type": "DIRECTOR"
+      },
+      "CAROLYN  RAU": {
+        "addr": "42 SAYBROOK STREET BRIGHTON, MA 02135 USA",
+        "type": "ASSISTANT SECRETARY"
+      },
+      "PHILIP W HALL": {
+        "addr": "6 SKYLINE DRIVE FRANKLIN, MA 02038 USA",
+        "type": "DIRECTOR"
+      },
+      "AMY  SEGAL SHOREY": {
+        "addr": "144 GLOUCESTER STREET ARLINGTON, MA 02476 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "PAMELA LABONTE MAKSY",
+      "MARY PHILLIPS",
+      "PRENTICE ZINN",
+      "CAROLYN RAU",
+      "PHILIP W HALL",
+      "AMY SEGAL SHOREY"
+    ],
+    "parsed": "2020-08-21 17:06:52 -0400"
+  },
+  "042944144": {
+    "id": "042944144",
+    "name": "HOUSING CORPORATION OF ARLINGTON",
+    "nameexact": "HOUSING CORPORATION OF ARLINGTON",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "10-14-1986",
+    "pstreet": "252 MASS. AVE., OFFICE",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02474",
+    "pcountry": "USA",
+    "aname": "DEIRDRE WESTCOTT",
+    "astreet": "252 MASS. AVE, OFFICE",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "officers": {
+      "THOMAS  NEE": {
+        "addr": "76 RIVER ROAD ARLINGTON, MA 02474 US",
+        "type": "PRESIDENT"
+      },
+      "JONATHAN  WALLACH": {
+        "addr": "11 WEBSTER STREET ARLINGTON, MA 02474 US",
+        "type": "TREASURER"
+      },
+      "PAMELA  HALLETT": {
+        "addr": "1 GILBOA ROAD ARLINGTON, MA 02474 USA",
+        "type": "CEO"
+      },
+      "DEIDRE  WESCOTT": {
+        "addr": "27 ACTON STREET #2 ARLINGTON, MA 02476 US",
+        "type": "CLERK"
+      },
+      "JAN  BLODGETT": {
+        "addr": "16 GLOUCESTER STREET ARLINGTON, MA 02476 US",
+        "type": "DIRECTOR"
+      },
+      "MARY-ANNE  MORRISON": {
+        "addr": "56 PINE RIDGE ROAD ARLINGTON, MA 02476 US",
+        "type": "DIRECTOR"
+      },
+      "ALEX  HASSINGER": {
+        "addr": "45 MAGNOLIA ST ARLINGTON, MA 02474 USA",
+        "type": "DIRECTOR"
+      },
+      "JILLIAN  FLYNN": {
+        "addr": "15 FARMER ROAD ARLINGTON, MA 02476 US",
+        "type": "DIRECTOR"
+      },
+      "MATTHEW  PEIRCE": {
+        "addr": "11 BADGER ROAD MEDFORD, MA 02155 US",
+        "type": "DIRECTOR"
+      },
+      "BRIAN  SMITH": {
+        "addr": "252 MASS AVE #2 ARLINGTON, MA 002474 US",
+        "type": "DIRECTOR"
+      },
+      "FRANCIS  TADLEY": {
+        "addr": "260 MASS AVE #8 ARLINGTON, MA 02474 US",
+        "type": "DIRECTOR"
+      },
+      "ABHIDNYA  KURVE": {
+        "addr": "14 ADAMS STREET ARLINGTON, MA 02474 US",
+        "type": "DIRECTOR"
+      },
+      "NEAL  MONGOLD": {
+        "addr": "12 BRATTLE PLACE ARLINGTON, MA 02474 US",
+        "type": "DIRECTOR"
+      },
+      "RICH  BERTOLUCCI": {
+        "addr": "4 THEODORE COURT BILLERICA, MA 01821 US",
+        "type": "DIRECTOR"
+      },
+      "JACK  COOPER": {
+        "addr": "11 JASON COURT ARLINGTON, MA 02476 US",
+        "type": "DIRECTOR"
+      },
+      "MARESHIA  DONALD PHD": {
+        "addr": "112 HIGHLAND AVE ARLINGTON, MA 02476 US",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "DEIRDRE WESTCOTT",
+      "THOMAS NEE",
+      "JONATHAN WALLACH",
+      "PAMELA HALLETT",
+      "DEIDRE WESCOTT",
+      "JAN BLODGETT",
+      "MARY-ANNE MORRISON",
+      "ALEX HASSINGER",
+      "JILLIAN FLYNN",
+      "MATTHEW PEIRCE",
+      "BRIAN SMITH",
+      "FRANCIS TADLEY",
+      "ABHIDNYA KURVE",
+      "NEAL MONGOLD",
+      "RICH BERTOLUCCI",
+      "JACK COOPER",
+      "MARESHIA DONALD PHD"
+    ],
+    "parsed": "2020-08-21 14:59:39 -0400"
+  },
+  "043043304": {
+    "id": "043043304",
+    "name": "ARLINGTON HOUSING ASSOCIATES, INC.",
+    "nameexact": "ARLINGTON HOUSING ASSOCIATES, INC.",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "12-14-1988",
+    "pstreet": "P. O. BOX 1402 4 WINSLOW ST.",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02174",
+    "pcountry": "USA",
+    "officers": {
+      "RICHARD B. MURRAY": {
+        "addr": "38 MARION RD. ARLINGTON, MA 02474 USA",
+        "type": "PRESIDENT"
+      },
+      "NICHOLAS  MITROPOULOS": {
+        "addr": "17 JEAN RD. ARLINGTON, MA 02474 USA",
+        "type": "TREASURER"
+      },
+      "PATRICIA  WORDEN": {
+        "addr": "27 JASON ST. ARLINGTON, MA 02474 USA",
+        "type": "SECRETARY"
+      },
+      "FREELAND  ABBOTT": {
+        "addr": "104 MADISON AVE. ARLINGTON, MA 02474 USA",
+        "type": "DIRECTOR"
+      },
+      "JOHN  GRIFFIN": {
+        "addr": "111 WILDWOOD AVE. ARLINGTON, MA 02474 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "RICHARD B. MURRAY",
+      "NICHOLAS MITROPOULOS",
+      "PATRICIA WORDEN",
+      "FREELAND ABBOTT",
+      "JOHN GRIFFIN"
+    ],
+    "parsed": "2020-08-21 15:09:03 -0400"
+  },
+  "043130754": {
+    "id": "043130754",
+    "name": "MASS-ARLINGTON REALTY INC.",
+    "nameexact": "MASS-ARLINGTON REALTY INC.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "04-10-1990",
+    "pstreet": "59 UNION SQUARE",
+    "pcity": "SOMERVILLE,",
+    "pstate": "MA",
+    "pzip": "02143",
+    "pcountry": "USA",
+    "aname": "PHILIP J. PRIVITERA",
+    "astreet": "59 UNION SQUARE",
+    "acity": "SOMERVILLE,",
+    "astate": "MA",
+    "azip": "02143",
+    "acountry": "USA",
+    "officers": {
+      "PHILIP J PRIVITERA": {
+        "addr": "59 UNION SQUARE SOMERVILLE, MA 02143 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "PHILIP J. PRIVITERA",
+      "PHILIP J PRIVITERA"
+    ],
+    "parsed": "2020-08-31 07:33:18 -0400"
+  },
+  "043166275": {
+    "id": "043166275",
+    "name": "GENERATIONS PROPERTIES, INC.",
+    "nameexact": "GENERATIONS PROPERTIES, INC.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "09-24-1992",
+    "pstreet": "33 CAVANAUGH RD.",
+    "pcity": "WELLESLEY,",
+    "pstate": "MA",
+    "pzip": "02481",
+    "pcountry": "USA",
+    "aname": "SCOTT HUTCHINSON",
+    "astreet": "33 CAVANAGH ROAD",
+    "acity": "WELLESLEY,",
+    "astate": "MA",
+    "azip": "02481",
+    "acountry": "USA",
+    "officers": {
+      "TOM  SAWYER JR": {
+        "addr": "6 LODGE LN. NATICK, MA 01760 USA",
+        "type": "DIRECTOR"
+      },
+      "JOHN  SAWYER": {
+        "addr": "107 WEONA RD. N. ATTLEBORO, MA 02760 USA",
+        "type": "DIRECTOR"
+      },
+      "MARK  SAWYER": {
+        "addr": "33 CAVANAUGH RD WELLESLEY, MA 02481 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "SCOTT HUTCHINSON",
+      "TOM SAWYER JR",
+      "JOHN SAWYER",
+      "MARK SAWYER"
+    ],
+    "parsed": "2020-08-21 15:13:28 -0400"
+  },
+  "043168136": {
+    "id": "043168136",
+    "name": "THE HAMILTON COMPANY, INC.",
+    "nameexact": "THE HAMILTON COMPANY, INC.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "10-09-1992",
+    "pstreet": "39 BRIGHTON AVE.",
+    "pcity": "ALLSTON,",
+    "pstate": "MA",
+    "pzip": "02134",
+    "pcountry": "USA",
+    "aname": "JAMESON BROWN",
+    "astreet": "39 BRIGHTON AVNUE",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02134",
+    "acountry": "USA",
+    "officers": {
+      "JAMESON  BROWN": {
+        "addr": "39 BRIGHTON AVENUE ALLSTON, MA 02134 USA",
+        "type": "DIRECTOR"
+      },
+      "ANDREW L. BLOCH": {
+        "addr": "39 BRIGHTON AVENUE ALLSTON, MA 02134 USA",
+        "type": "DIRECTOR"
+      },
+      "SALLY A. STARR": {
+        "addr": "39 BRIGHTON AVENUE ALLSTON, MA 02134 USA",
+        "type": "SECRETARY"
+      },
+      "GUILLIAEM  AERTSEN IV": {
+        "addr": "39 BRIGHTON AVENUE ALLSTON, MA 02134 USA",
+        "type": "DIRECTOR"
+      },
+      "ROBERT  SOMMA": {
+        "addr": "39 BRIGHTON AVENUE ALLSTON, MA 02134 USA",
+        "type": "DIRECTOR"
+      },
+      "SALLY E. MICHAEL": {
+        "addr": "39 BRIGHTON AVENUE ALLSTON, MA 02134 USA",
+        "type": "DIRECTOR"
+      },
+      "RONALD  BROWN": {
+        "addr": "39 BRIGHTON AVENUE ALLSTON, MA 02134 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "JAMESON BROWN",
+      "ANDREW L. BLOCH",
+      "SALLY A. STARR",
+      "GUILLIAEM AERTSEN IV",
+      "ROBERT SOMMA",
+      "SALLY E. MICHAEL",
+      "RONALD BROWN"
+    ],
+    "parsed": "2020-08-21 17:08:04 -0400"
+  },
+  "043305872": {
+    "id": "043305872",
+    "name": "30 PARK AVENUE ASSOCIATES, LLP",
+    "nameexact": "30 PARK AVENUE ASSOCIATES, LLP",
+    "orgtype": "Registered Domestic Limited Liability Partnership (LLP)",
+    "orgdate": "03-19-1996",
+    "pstreet": "HENRY E. DAVIDSON, JR. 60 LOWELL STREET",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02174-0000",
+    "pcountry": "USA",
+    "aname": "HENRY E. DAVIDSON, JR.",
+    "astreet": "60 LOWELL ST.",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02174-0000",
+    "acountry": "USA",
+    "partners": {
+      "HENRY E. DAVIDSON JR.": {
+        "addr": "60 LOWELL ST. ARLINGTON, MA 02174-0000 USA",
+        "type": "NONE GIVEN - P"
+      }
+    },
+    "names": [
+      "HENRY E. DAVIDSON JR"
+    ],
+    "parsed": "2020-08-31 07:37:57 -0400"
+  },
+  "043486255": {
+    "id": "043486255",
+    "name": "ARLINGTON LAND TRUST, INC.",
+    "nameexact": "ARLINGTON LAND TRUST, INC.",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "10-08-1999",
+    "pstreet": "54 BRANTWOOD RD.",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02476",
+    "pcountry": "USA",
+    "officers": {
+      "CLARISSA  ROWE": {
+        "addr": "54 BRANTWOOD RD.,  ARLINGTON, MA 02476 USA",
+        "type": "PRESIDENT"
+      },
+      "BRIAN H. REHRIG": {
+        "addr": "28 ACADEMY ST.,  ARLINGTON, MA 02476 USA",
+        "type": "TREASURER"
+      },
+      "NELLIE  AIKENHEAD": {
+        "addr": "137 HERBERT RD ARLINGTON, MA 02474 USA",
+        "type": "CLERK"
+      },
+      "CAROL  KOWALSKI": {
+        "addr": "182 SCITUATE ST ARLINGTON, MA 02476 USA",
+        "type": "DIRECTOR"
+      },
+      "BEN  REEVE": {
+        "addr": "21 VALLEY RD ARLINGTON, MA 02476 USA",
+        "type": "DIRECTOR"
+      },
+      "ANN  LEROYER": {
+        "addr": "12 PEIRCE ST ARLINGTON, MA 02476 USA",
+        "type": "DIRECTOR"
+      },
+      "TED  SIEGAN": {
+        "addr": "46 HIGH HAITH RD ARLINGTON, MA 02476 USA",
+        "type": "DIRECTOR"
+      },
+      "CAROL  HAUSER": {
+        "addr": "25 LINWOOD ST ARLINGTON, MA 02474 USA",
+        "type": "DIRECTOR"
+      },
+      "KEVIN  KNOBLOCH": {
+        "addr": "35 ACADEMY ST ARLINGTON, MA 02476 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "CLARISSA ROWE",
+      "BRIAN H. REHRIG",
+      "NELLIE AIKENHEAD",
+      "CAROL KOWALSKI",
+      "BEN REEVE",
+      "ANN LEROYER",
+      "TED SIEGAN",
+      "CAROL HAUSER",
+      "KEVIN KNOBLOCH"
+    ],
+    "parsed": "2020-08-21 15:05:53 -0400"
+  },
+  "043486785": {
+    "id": "043486785",
+    "name": "MIRAK-BENDETSON DEVELOPMENT LLC",
+    "nameexact": "MIRAK-BENDETSON DEVELOPMENT LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-15-1999",
+    "rstreet": "438 MASS AVE., STE 127",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474-0000",
+    "rcountry": "USA",
+    "aname": "ROBERT MIRAK",
+    "astreet": "438 MASS AVE., STE 127",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474-0000",
+    "acountry": "USA",
+    "managers": {
+      "ROBERT  MIRAK": {
+        "addr": "438 MASS AVE., STE 127 ARLINGTON, MA 02474-0000 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "ROBERT  MIRAK": {
+        "addr": "438 MASS AVE., STE 127 ARLINGTON, MA 02474-0000 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "JULIA MIRAK  KEW": {
+        "addr": "21 SHEFFIELD WEST WINCHESTER, MA 01890 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "ROBERT  MIRAK": {
+        "addr": "438 MASS AVE., STE 127 ARLINGTON, MA 02474-0000 USA",
+        "type": "REAL PROPERTY"
+      },
+      "JULIA MIRAK  KEW": {
+        "addr": "21 SHEFFIELD WEST WINCHESTER, MA 01890 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "ROBERT MIRAK",
+      "JULIA MIRAK KEW"
+    ],
+    "parsed": "2020-08-21 17:29:11 -0400"
+  },
+  "043499771": {
+    "id": "043499771",
+    "name": "AERTSEN VENTURES LLC",
+    "nameexact": "AERTSEN VENTURES LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-16-1999",
+    "rstreet": "175 W. BROOKLINE ST.",
+    "rcity": "BOSTON,",
+    "rstate": "MA",
+    "rzip": "02118",
+    "rcountry": "USA",
+    "aname": "GUILLIAEM AERTSEN, IV",
+    "astreet": "175 W. BROOKLINE ST.",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02118",
+    "acountry": "USA",
+    "managers": {
+      "GUILLIAEM  AERTSEN IV": {
+        "addr": "175 WEST BROOKLINE ST. BOSTON, MA 02118 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "GUILLIAEM  AERTSEN IV": {
+        "addr": "175 WEST BROOKLINE ST. BOSTON, MA 02118 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "GUILLIAEM AERTSEN, IV",
+      "GUILLIAEM AERTSEN IV"
+    ],
+    "parsed": "2020-08-21 17:08:35 -0400"
+  },
+  "202191235": {
+    "id": "202191235",
+    "name": "JASON TERRACE LLC",
+    "nameexact": "JASON TERRACE LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "12-21-2004",
+    "rstreet": "792 MASSACHUSETTS AVE 2ND FLOOR",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476-4131",
+    "rcountry": "USA",
+    "aname": "HENRY E. DAVIDSON, JR.",
+    "astreet": "60 LOWELL ST., 2ND FLOOR",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476-4131",
+    "acountry": "USA",
+    "managers": {
+      "HENRY E. DAVIDSON JR.": {
+        "addr": "792 MASSACHUSETTS AVE 2ND FLOOR ARLINGTON, MA 02476-4131 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "HENRY E. DAVIDSON JR.": {
+        "addr": "792 MASSACHUSETTS AVE 2ND FLOOR ARLINGTON, MA 02476-4131 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "HENRY E. DAVIDSON JR.": {
+        "addr": "792 MASSACHUSETTS AVE 2ND FLOOR ARLINGTON, MA 02476-4131 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "HENRY E. DAVIDSON JR"
+    ],
+    "parsed": "2020-08-21 14:01:12 -0400"
+  },
+  "202191284": {
+    "id": "202191284",
+    "name": "BROOKS AVENUE LLC",
+    "nameexact": "BROOKS AVENUE LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "12-21-2004",
+    "rstreet": "792 MASSACHUSETTS AVE 2ND FLOOR",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476-4131",
+    "rcountry": "USA",
+    "aname": "HENRY E. DAVIDSON, JR.",
+    "astreet": "60 LOWELL ST.,2ND FLOOR",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476-4131",
+    "acountry": "USA",
+    "managers": {
+      "HENRY E. DAVIDSON JR": {
+        "addr": "792 MASSACHUSETTS AVE ARLINGTON, MA 02476-4131 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "HENRY E. DAVIDSON JR": {
+        "addr": "792 MASSACHUSETTS AVE 2ND FLOOR ARLINGTON, MA 02476-4131 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "names": [
+      "HENRY E. DAVIDSON JR"
+    ],
+    "parsed": "2020-08-31 07:42:46 -0400"
+  },
+  "204105623": {
+    "id": "204105623",
+    "name": "GOSHDIGIAN REALTY LLC",
+    "nameexact": "GOSHDIGIAN REALTY LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "01-03-2006",
+    "rstreet": "63 MINUTEMAN DRIVE",
+    "rcity": "CONCORD,",
+    "rstate": "MA",
+    "rzip": "01742",
+    "rcountry": "USA",
+    "aname": "JOHN H GOSHDIGIAN",
+    "astreet": "63 MINUTEMAN DRIVE",
+    "acity": "CONCORD,",
+    "astate": "MA",
+    "azip": "01742",
+    "acountry": "USA",
+    "managers": {
+      "JOHN H GOSHDIGIAN": {
+        "addr": "63 MINUTEMAN DRIVE CONCORD, MA 01742",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "JOHN H. GOSHDIGIAN": {
+        "addr": "63 MINUTEMAN DRIVE CONCORD, MA 01742 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "JOHN H. GOSHDIGIAN": {
+        "addr": "63 MINUTEMAN DRIVE CONCORD, MA 01742 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "JOHN H GOSHDIGIAN",
+      "JOHN H. GOSHDIGIAN"
+    ],
+    "parsed": "2020-08-31 07:30:40 -0400"
+  },
+  "222625024": {
+    "id": "222625024",
+    "name": "CONSERVATION, FOOD AND HEALTH FOUNDATION, INC.",
+    "nameexact": "CONSERVATION, FOOD AND HEALTH FOUNDATION, INC.",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "06-21-1985",
+    "pstreet": "C/O GMA FOUNDATIONS 2 LIBERTY SQUARE SUITE 500",
+    "pcity": "BOSTON,",
+    "pstate": "MA",
+    "pzip": "02109",
+    "pcountry": "USA",
+    "aname": "GMA FOUNDATIONS, INC",
+    "astreet": "77 SUMMER ST., 8TH FL.",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02122",
+    "acountry": "USA",
+    "officers": {
+      "PHILIP M. FEARNSIDE": {
+        "addr": "2 LIBERTY SQUARE SUITE 500 BOSTON, MA 02109 USA",
+        "type": "DIRECTOR"
+      },
+      "WENDY A. FEARNSIDE": {
+        "addr": "2 LIBERTY SQUARE SUITE 500 BOSTON, MA 02109 USA",
+        "type": "DIRECTOR"
+      },
+      "TRACY E. FEARNSIDE": {
+        "addr": "2 LIBERTY SQUARE SUITE 500 BOSTON, MA 02109 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "GMA FOUNDATIONS, INC",
+      "PHILIP M. FEARNSIDE",
+      "WENDY A. FEARNSIDE",
+      "TRACY E. FEARNSIDE"
+    ],
+    "parsed": "2020-08-21 14:59:11 -0400"
+  },
+  "237056098": {
+    "id": "237056098",
+    "name": "KELWYN MANOR ASSOCIATION, INC.",
+    "nameexact": "KELWYN MANOR ASSOCIATION, INC.",
+    "orgtype": "Nonprofit Corporation",
+    "orgdate": "04-13-1944",
+    "pstreet": "88 SPY POND PKWY",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02474",
+    "pcountry": "USA",
+    "officers": {
+      "WYNDHAM  AYARES": {
+        "addr": "53 COLONIAL DRIVE ARLINGTON, MA 02474 US",
+        "type": "DIRECTOR"
+      },
+      "PATRICIA  BOSIA": {
+        "addr": "88 SPY POND PKWY ARLINGTON, MA 02424 USA",
+        "type": "TREASURER"
+      },
+      "CAROLYN  DOBBYN": {
+        "addr": "43 SPY POND PKWY ARLINGTON, MA 02474 USA",
+        "type": "CLERK"
+      }
+    },
+    "names": [
+      "WYNDHAM AYARES",
+      "PATRICIA BOSIA",
+      "CAROLYN DOBBYN"
+    ],
+    "parsed": "2020-08-31 07:42:20 -0400"
+  },
+  "260840498": {
+    "id": "260840498",
+    "name": "KEY WEST REALTY, LLC",
+    "nameexact": "KEY WEST REALTY, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-05-2007",
+    "rstreet": "645R MASSACHUSETTS AVE.",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "RICHARD R. RAMSEY, JR.",
+    "astreet": "645R MASSACHUSETTS AVENUE",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "ROBERT J. RAMSEY": {
+        "addr": "63 TRAPELO RD. BELMONT, MA 02478 USA",
+        "type": "MANAGER"
+      },
+      "RICHARD R. RAMSEY JR.": {
+        "addr": "645R MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "RICHARD R. RAMSEY JR.": {
+        "addr": "645R MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "ROBERT J. RAMSEY": {
+        "addr": "63 TRAPELO RD. BELMONT, MA 02478 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "ROBERT J. RAMSEY": {
+        "addr": "63 TRAPELO RD. BELMONT, MA 02478",
+        "type": "REAL PROPERTY"
+      },
+      "RICHARD R. RAMSEY JR.": {
+        "addr": "645R MASSACHUSETTS AVE. ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "RICHARD R. RAMSEY JR",
+      "ROBERT J. RAMSEY"
+    ],
+    "parsed": "2020-08-31 07:36:48 -0400"
+  },
+  "271141548": {
+    "id": "271141548",
+    "name": "275 BROADWAY LLC",
+    "nameexact": "275 BROADWAY LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "09-29-2009",
+    "rstreet": "438 MASSACHUSETTS AVE. STE. 127",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "ROBERT MIRAK",
+    "astreet": "438 MASSACHUSETTS AVE.  STE. 127",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "ROBERT  MIRAK": {
+        "addr": "438 MASSACHUSETTS AVE. STE. 127 ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      },
+      "JULIA MIRAK  KEW": {
+        "addr": "21 SHEEFIELD WEST WINCHESTER, MA 01890 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "ROBERT  MIRAK": {
+        "addr": "438 MASSACHUSETTS AVE. STE. 127 ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "JULIA MIRAK  KEW": {
+        "addr": "21 SHEFFIELD WEST WINCHESTER, MA 01890 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "JULIA MIRAK  KEW": {
+        "addr": "21 SHEFFIELD WEST WINCHESTER, MA 01890 USA",
+        "type": "REAL PROPERTY"
+      },
+      "ROBERT  MIRAK": {
+        "addr": "438 MASSACHUSETTS AVE. STE. 127 ARLINGTON, MA 02474",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "ROBERT MIRAK",
+      "JULIA MIRAK KEW"
+    ],
+    "parsed": "2020-08-31 07:49:36 -0400"
+  },
+  "271722024": {
+    "id": "271722024",
+    "name": "COLARUSSO PROPERTIES LLC",
+    "nameexact": "COLARUSSO PROPERTIES LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "01-21-2010",
+    "rstreet": "22 MILL STREET SUITE 305",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02476",
+    "rcountry": "USA",
+    "aname": "ANTHONY M COLARUSSO",
+    "astreet": "22 MILL STREET SUITE 407",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02476",
+    "acountry": "USA",
+    "managers": {
+      "ANTHONY MICHAEL COLARUSSO": {
+        "addr": "22 MILL STREET ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      },
+      "ALAN W COLARUSSO": {
+        "addr": "22 MILL STREET ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "ANTHONY MICHAEL COLARUSSO": {
+        "addr": "22 MILL STREET ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "ALAN W COLARUSSO": {
+        "addr": "22 MILL STREET ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "ALAN W COLARUSSO": {
+        "addr": "22 MILL STREET ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      },
+      "ANTHONY MICHAEL COLARUSSO": {
+        "addr": "22 MILL STREET ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "ANTHONY M COLARUSSO",
+      "ANTHONY MICHAEL COLARUSSO",
+      "ALAN W COLARUSSO"
+    ],
+    "parsed": "2020-08-31 07:49:12 -0400"
+  },
+  "454864293": {
+    "id": "454864293",
+    "name": "864 MASS AVENUE LLC",
+    "nameexact": "864 MASS AVENUE LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "03-27-2012",
+    "rstreet": "180 MASSACHUSETTS AVENUE, 2D FLOOR ATTN:  SUSHIL K. TULI",
+    "rcity": "ARLINGTON,",
+    "rstate": "MA",
+    "rzip": "02474",
+    "rcountry": "USA",
+    "aname": "SUSHIL K. TULI",
+    "astreet": "180 MASSACHUSETS AVENUE, 2D FLOOR",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "SUSHIL K TULI": {
+        "addr": "180 MASSACHUSETTS AVENUE, 2D FLOOR ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "SUSHIL K. TULI": {
+        "addr": "180 MASSACHUSETTS AVENUE, 2D FLOOR ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      },
+      "BRIAN R. TAYLOR": {
+        "addr": "180 MASSACHUSETTS AVENUE, 2D FLOOR ARLINGTON, MA 02474 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "SUSHIL K. TULI": {
+        "addr": "180 MASSACHUSETTS AVENUE, 2D FLOOR ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      },
+      "BRIAN R. TAYLOR": {
+        "addr": "180 MASSACHUSETTS AVENUE, 2D FLOOR ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "SUSHIL K. TULI",
+      "SUSHIL K TULI",
+      "BRIAN R. TAYLOR"
+    ],
+    "parsed": "2020-08-31 07:35:25 -0400"
+  },
+  "460829650": {
+    "id": "460829650",
+    "name": "14-16 LAUREL STREET, LLC",
+    "nameexact": "14-16 LAUREL STREET, LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "08-21-2012",
+    "rstreet": "20 HUTCHINSON RD",
+    "rcity": "WINCHESTER,",
+    "rstate": "MA",
+    "rzip": "01890",
+    "rcountry": "USA",
+    "aname": "FRANK GOGUEN",
+    "astreet": "20 HUTCHINSON RD",
+    "acity": "WINCHESTER,",
+    "astate": "MA",
+    "azip": "01890",
+    "acountry": "USA",
+    "managers": {
+      "FRANK  GOGUEN": {
+        "addr": "14-16 LAUREL STREET ARLINGTON, MA 02476 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "FRANK  GOGUEN": {
+        "addr": "14-16 LAUREL STREET ARLINGTON, MA 02476 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "FRANK  GOGUEN": {
+        "addr": "14-16 LAUREL STREET ARLINGTON, MA 02476 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "FRANK GOGUEN"
+    ],
+    "parsed": "2020-08-31 07:46:06 -0400"
+  },
+  "462407461": {
+    "id": "462407461",
+    "name": "BRENTWOOD REALTY PARTNERS LLC",
+    "nameexact": "BRENTWOOD REALTY PARTNERS LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "03-29-2013",
+    "rstreet": "C/O SEAN WILDER 44 GLEN AVENUE",
+    "rcity": "NEWTON CENTRE,",
+    "rstate": "MA",
+    "rzip": "02459",
+    "rcountry": "USA",
+    "aname": "SEAN WILDER",
+    "astreet": "44 GLEN AVENUE",
+    "acity": "NEWTON,",
+    "astate": "MA",
+    "azip": "02459",
+    "acountry": "USA",
+    "managers": {
+      "SONYA  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "MANAGER"
+      },
+      "SEAN  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "ROB  RUDNICK": {
+        "addr": "C/O SEAN WILDER NEWTON CENTRE, MA 02459 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "SEAN  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "REAL PROPERTY"
+      },
+      "SONYA  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "SEAN WILDER",
+      "SONYA WILDER",
+      "ROB RUDNICK"
+    ],
+    "parsed": "2020-08-21 15:10:37 -0400"
+  },
+  "462407523": {
+    "id": "462407523",
+    "name": "OLD COLONY REALTY PARTNERS LLC",
+    "nameexact": "OLD COLONY REALTY PARTNERS LLC",
+    "orgtype": "Domestic Limited Liability Company (LLC)",
+    "orgdate": "03-29-2013",
+    "rstreet": "C/O SEAN WILDER 44 GLEN AVENUE",
+    "rcity": "NEWTON CENTRE,",
+    "rstate": "MA",
+    "rzip": "02459",
+    "rcountry": "USA",
+    "aname": "SEAN WILDER",
+    "astreet": "44 GLEN AVENUE",
+    "acity": "NEWTON,",
+    "astate": "MA",
+    "azip": "02459",
+    "acountry": "USA",
+    "managers": {
+      "SONYA  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "MANAGER"
+      },
+      "SEAN  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "MANAGER"
+      }
+    },
+    "filings": {
+      "ROB  RUDNICK": {
+        "addr": "C/O SEAN WILDER NEWTON CENTRE, MA 02459 USA",
+        "type": "SOC SIGNATORY"
+      }
+    },
+    "signatories": {
+      "SONYA  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "REAL PROPERTY"
+      },
+      "SEAN  WILDER": {
+        "addr": "44 GLEN AVENUE NEWTON, MA 02459 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "SEAN WILDER",
+      "SONYA WILDER",
+      "ROB RUDNICK"
+    ],
+    "parsed": "2020-08-21 15:09:57 -0400"
+  },
+  "471155601": {
+    "id": "471155601",
+    "name": "MBC REALTY CO., INC.",
+    "nameexact": "MBC REALTY CO., INC.",
+    "orgtype": "Domestic Profit Corporation",
+    "orgdate": "06-20-2014",
+    "pstreet": "1024 CENTRAL STREET",
+    "pcity": "PALMER,",
+    "pstate": "MA",
+    "pzip": "01069",
+    "pcountry": "USA",
+    "aname": "PETER MIELE",
+    "astreet": "1024 CENTRAL STREET",
+    "acity": "PALMER,",
+    "astate": "MA",
+    "azip": "01069",
+    "acountry": "USA",
+    "officers": {
+      "PETER  MIELE": {
+        "addr": "1025 CENTRAL STREET PALMER, MA 01069 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "PETER MIELE"
+    ],
+    "parsed": "2020-08-21 15:04:41 -0400"
+  },
+  "510006522": {
+    "id": "510006522",
+    "name": "C T CORPORATION SYSTEM",
+    "nameexact": "C T CORPORATION SYSTEM",
+    "orgtype": "Foreign Corporation",
+    "orgdate": "09-04-1936",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 08-11-1936",
+    "pstreet": "C/O WKUS LAW DEPT 28 LIBERTY ST",
+    "pcity": "NEW YORK,",
+    "pstate": "NY",
+    "pzip": "10005",
+    "pcountry": "USA",
+    "aname": "OLGA HINKEL",
+    "astreet": "155 FEDERAL ST., SUITE 700",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02110",
+    "acountry": "USA",
+    "officers": {
+      "JOHN  WEBER": {
+        "addr": "28 LIBERTY ST NEW YORK, NY 10005 USA",
+        "type": "PRESIDENT"
+      },
+      "IRVING  FELDMAN": {
+        "addr": "2700 LAKE COOK ROAD RIVERWOODS, IL 60015 USA",
+        "type": "TREASURER"
+      },
+      "ROBERT  INGATO": {
+        "addr": "28 LIBERTY ST NEW YORK, NY 10005 USA",
+        "type": "SECRETARY"
+      },
+      "ERIN M SANDERS": {
+        "addr": "2700 LAKE COOK ROAD RIVERWOODS, IL 60015 USA",
+        "type": "ASSISTANT SECRETARY"
+      },
+      "J. MICHELE  BALNIUS": {
+        "addr": "2700 LAKE COOK ROAD RIVERWOODS, IL 60015 USA",
+        "type": "DIRECTOR"
+      }
+    },
+    "names": [
+      "OLGA HINKEL",
+      "JOHN WEBER",
+      "IRVING FELDMAN",
+      "ROBERT INGATO",
+      "ERIN M SANDERS",
+      "J. MICHELE BALNIUS"
+    ],
+    "parsed": "2020-08-21 17:05:47 -0400"
+  },
+  "651165447": {
+    "id": "651165447",
+    "name": "YUKON REALTY ASSOCIATES, LLC",
+    "nameexact": "YUKON REALTY ASSOCIATES, LLC",
+    "orgtype": "Foreign Limited Liability Company (LLC)",
+    "orgdate": "12-30-2002",
+    "jurisdiction": "Organized under the laws of:      State: DE      Country: USA     on: 12-18-2002",
+    "pstreet": "1125 MASSACHUSETTS AVE.",
+    "pcity": "ARLINGTON,",
+    "pstate": "MA",
+    "pzip": "02474",
+    "pcountry": "USA",
+    "ostreet": "1125 MASSACHUSETTS AVE",
+    "ocity": "ARLINGTON,",
+    "ostate": "MA",
+    "ozip": "02476",
+    "ocountry": "USA",
+    "aname": "EDWARD Y. MIRAK",
+    "astreet": "1125 MASSACHUSETTS AVE.",
+    "acity": "ARLINGTON,",
+    "astate": "MA",
+    "azip": "02474",
+    "acountry": "USA",
+    "managers": {
+      "EDWARD Y. MIRAK": {
+        "addr": "1125 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "MANAGER"
+      }
+    },
+    "signatories": {
+      "EDWARD Y. MIRAK": {
+        "addr": "1125 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      },
+      "ROB  MIRAK": {
+        "addr": "1125 MASSACHUSETTS AVE. ARLINGTON, MA 02474 USA",
+        "type": "REAL PROPERTY"
+      }
+    },
+    "names": [
+      "EDWARD Y. MIRAK",
+      "ROB MIRAK"
+    ],
+    "parsed": "2020-08-21 17:28:51 -0400"
+  },
+  "L86296026": {
+    "id": "L86296026",
+    "name": "MILLBROOK SQUARE APARTMENTS COMPANY LIMITED PARTNERSHIP",
+    "nameexact": "MILLBROOK SQUARE APARTMENTS COMPANY LIMITED PARTNERSHIP",
+    "orgtype": "Domestic Limited Partnership (LP)",
+    "orgdate": "08-05-1980",
+    "aname": "CORCORAN JENNISON COMPANY INC",
+    "astreet": "150 MT. VERNON ST., SUITE 500",
+    "acity": "BOSTON,",
+    "astate": "MA",
+    "azip": "02125",
+    "acountry": "USA",
+    "partners": {
+      "MILLBROOK GP  LLC": {
+        "addr": "BAYSIDE OFFICE CENTER, 150 MT. VERNON ST., SUITE 500 BOSTON, MA 02171 USA",
+        "type": "GENERAL PARTNER"
+      }
+    },
+    "names": [
+      "CORCORAN JENNISON COMPANY INC",
+      "MILLBROOK GP LLC"
+    ],
+    "parsed": "2020-08-31 07:55:47 -0400"
+  },
+  "L97598684": {
+    "id": "L97598684",
+    "name": "JOHNSON LIMITED PARTNERSHIP",
+    "nameexact": "JOHNSON LIMITED PARTNERSHIP",
+    "orgtype": "Domestic Limited Partnership (LP)",
+    "orgdate": "12-19-1997",
+    "aname": "CHRISTINE M. JOHNSON-BATTISTA",
+    "astreet": "1090 NORTH ROAD",
+    "acity": "CARLISLE,",
+    "astate": "MA",
+    "azip": "01741",
+    "acountry": "USA",
+    "partners": {
+      "CHRISTINE M JOHNSON-BATTISTA": {
+        "addr": "17 BRATTLE ST. ARLINGTON, MA 02476 USA",
+        "type": "GENERAL PARTNER"
+      },
+      "PHILIP C JOHNSON": {
+        "addr": "17 BRATTLE ST. ARLINGTON, MA 02476 USA",
+        "type": "GENERAL PARTNER"
+      }
+    },
+    "names": [
+      "CHRISTINE M. JOHNSON-BATTISTA",
+      "CHRISTINE M JOHNSON-BATTISTA",
+      "PHILIP C JOHNSON"
+    ],
+    "parsed": "2020-08-31 07:51:13 -0400"
+  },
+  "names": {
+    "parsed": "2020-08-31 12:37:34 -0400",
+    "names": [
+      "252, 258-260 MASS AVE LLC",
+      "ABHIDNYA KURVE",
+      "AERTSEN VENTURES LLC",
+      "AIDA KHAN",
+      "ALAN OLIFF",
+      "ALAN W COLARUSSO",
+      "ALEX HASSINGER",
+      "AMY SEGAL SHOREY",
+      "ANDREW L. BLOCH",
+      "ANN CHAGLASSIAN",
+      "ANN LEROYER",
+      "ANTHONY M COLARUSSO",
+      "ANTHONY MICHAEL COLARUSSO",
+      "ARTHUR GOLDBERG, ESQ.",
+      "BARRY STERNLICHT",
+      "BEN REEVE",
+      "BEVERLY BENO",
+      "BRENDAN S MONAHAN",
+      "BRIAN H. REHRIG",
+      "BRIAN R. TAYLOR",
+      "BRIAN SMITH",
+      "BRUCE A. PERCELAY",
+      "C T CORPORATION SYSTEM",
+      "CAROL HAUSER",
+      "CAROL KOWALSKI",
+      "CAROLYN DOBBYN",
+      "CAROLYN RAU",
+      "CHRISTINE M JOHNSON-BATTISTA",
+      "CHRISTINE M. JOHNSON-BATTISTA",
+      "CHRISTOPHER GRAHAM",
+      "CLARISSA ROWE",
+      "CLIFFORD E. MOSKOW",
+      "COGENCY GLOBAL INC.",
+      "CORCORAN JENNISON COMPANY INC",
+      "CORPORATION SERVICE COMPANY",
+      "CYNTHIA CAMPOBASSO",
+      "CYNTHIA PASCIUTO",
+      "DANIEL W. DOHERTY ESQ",
+      "DAVID A FIORENTINO",
+      "DAVID COUTURE",
+      "DAVID E BURNS",
+      "DAVID E. BURNS",
+      "DAVID HIRSHBERG",
+      "DAVID LANATA",
+      "DAVID P. HOOD",
+      "DAVID S. CARELLA",
+      "DAVID T. SAVAGE JR",
+      "DAVID T. TING",
+      "DEBORAH NOWELL",
+      "DEBORAH NOWELL, ESQ",
+      "DEIDRE WESCOTT",
+      "DEIRDRE WESTCOTT",
+      "DIANE POULOS HARPELL",
+      "DONNA H BURNS",
+      "DONNA H. BURNS",
+      "DOROTHY B. COMMONS",
+      "EDWARD CHAGLASSIAN",
+      "EDWARD RAPACKI",
+      "EDWARD Y. MIRAK",
+      "ELIAS PATOUCHEAS",
+      "ELIZABETH PAINE TRUSTEE",
+      "ERIK P. KONDO",
+      "ERIN M SANDERS",
+      "ETHAN BING",
+      "FFP REALTY CORP.",
+      "FRANCIS TADLEY",
+      "FRANK GOGUEN",
+      "FRANK PASCIUTO",
+      "FREELAND ABBOTT",
+      "GEOFFREY P NOYES",
+      "GMA FOUNDATIONS, INC",
+      "GREGORY G. LAMB",
+      "GUILLIAEM AERTSEN IV",
+      "GUILLIAEM AERTSEN, IV",
+      "HELEN G. CAMPOBASSO",
+      "HENRY E. DAVIDSON JR",
+      "HOUSING CORPORATION OF ARLINGTON",
+      "INTERCONTINENTAL REAL ESTATE CORPORATION",
+      "IRVING FELDMAN",
+      "J. MICHELE BALNIUS",
+      "JACK COOPER",
+      "JACK EIFERMAN",
+      "JAMES A. BUTZ",
+      "JAMES DOHERTY",
+      "JAMES FRANCIS DOHERTY SR",
+      "JAMES N. DUNCAN",
+      "JAMESON BROWN",
+      "JAN BLODGETT",
+      "JANET GLIDDEN",
+      "JEFFREY DISHNER",
+      "JEFFREY K. HETTLEMAN",
+      "JENNIFER MIRAK LEACH",
+      "JEROME SILVEY",
+      "JILLIAN FLYNN",
+      "JOHN A. CARNEY",
+      "JOHN D. PAINE FAMILY TRUST",
+      "JOHN DOYLE",
+      "JOHN E. MCNAMARA",
+      "JOHN GRIFFIN",
+      "JOHN H GOSHDIGIAN",
+      "JOHN H. CHAGLASSIAN",
+      "JOHN H. GOSHDIGIAN",
+      "JOHN SAWYER",
+      "JOHN W. PEER",
+      "JOHN WEBER",
+      "JON A. SIROTOF",
+      "JONATHAN WALLACH",
+      "JOSEPH A. LOPISI, ESQ.",
+      "JOSEPH C. PETERS",
+      "JOSHUA GOULD",
+      "JULIA MIRAK KEW",
+      "KATHERINE M. VENZKE",
+      "KEVIN FLYNN",
+      "KEVIN HICKEY",
+      "KEVIN KNOBLOCH",
+      "KRIS MONTGOMERY",
+      "LAURA RIZKALLAH",
+      "LEONARD F. NOLAN",
+      "MANON PALANDJIAN",
+      "MARESHIA DONALD PHD",
+      "MARGARET B. CONNOR",
+      "MARI BADGER",
+      "MARK SAWYER",
+      "MARTIN W. HILL",
+      "MARY PHILLIPS",
+      "MARY-ANNE MORRISON",
+      "MATTHEW PEIRCE",
+      "MEAGHAN GALLAGHER",
+      "MEGAN E KOTWICKI",
+      "MEGAN L. BLOCH",
+      "MILLBROOK GP LLC",
+      "MOHSEN VESSALI",
+      "MOUHAB RIZKALLAH",
+      "NADINE BONDA",
+      "NANCI BRODY",
+      "NEAL MONGOLD",
+      "NELLIE AIKENHEAD",
+      "NICHOLAS B. BOIT",
+      "NICHOLAS MITROPOULOS",
+      "OLGA HINKEL",
+      "OS MANAGEMENT LLC",
+      "PAMELA HALLETT",
+      "PAMELA LABONTE MAKSY",
+      "PATRICIA A. PAINE",
+      "PATRICIA BOSIA",
+      "PATRICIA WORDEN",
+      "PAUL C. BIJKERSMA",
+      "PAUL CAMPBELL",
+      "PAUL CARUSO",
+      "PAUL F. KELLY",
+      "PAUL J. NASSER",
+      "PAUL NASSER",
+      "PAUL STEIN",
+      "PETER MIELE",
+      "PETER PALANDJIAN",
+      "PETER PRODROMOU",
+      "PETER S. MUGAR",
+      "PHILIP C JOHNSON",
+      "PHILIP CHEVALIER",
+      "PHILIP J PRIVITERA",
+      "PHILIP J. PRIVITERA",
+      "PHILIP M. FEARNSIDE",
+      "PHILIP W HALL",
+      "PRENTICE ZINN",
+      "REGINA CAINES",
+      "RICH BERTOLUCCI",
+      "RICHARD B. MURRAY",
+      "RICHARD R. RAMSEY JR",
+      "RICHARD S. CAMPOBASSO",
+      "ROB MIRAK",
+      "ROB RUDNICK",
+      "ROBERT BYRNE",
+      "ROBERT GASS",
+      "ROBERT INGATO",
+      "ROBERT J. RAMSEY",
+      "ROBERT MIRAK",
+      "ROBERT P. COMMONS",
+      "ROBERT SOMMA",
+      "ROBERT W. MCNAMARA",
+      "RONALD BROWN",
+      "SALLY A. STARR",
+      "SALLY E. MICHAEL",
+      "SAMI J. BAGHDADY",
+      "SARAH WHITE",
+      "SCOTT HUTCHINSON",
+      "SEAN WILDER",
+      "SEE DOCUMENT FOR ADDITIONAL NAMES",
+      "SONYA WILDER",
+      "STEPHEN BOSCO",
+      "STEVEN D. EIMERT",
+      "SUSAN LOCONTO PENTA",
+      "SUSHIL K TULI",
+      "SUSHIL K. TULI",
+      "SUZANNE M. FOLEY",
+      "TED SIEGAN",
+      "THE CLAREMONT COMPANY, INC.",
+      "THE HAMILTON COMPANY, INC.",
+      "THE MOUNT VERNON COMPANY, INC.",
+      "THOMAS NEE",
+      "THOMAS R. TARANTO JR",
+      "THOMAS TARANTO",
+      "TOM SAWYER JR",
+      "TRACY E. FEARNSIDE",
+      "U.S. REAL ESTATE INVESTMENT FUND REIT, INC.",
+      "UNKNOWN",
+      "WALTER R. ABBOTT JR",
+      "WENDY A. FEARNSIDE",
+      "WILLAIM F COPITHORNE",
+      "WILLIAM D. CHIN",
+      "WILLIAM F COPITHORNE",
+      "WILLIAM F. COPITHORNE",
+      "WILLIAM P. CROWE",
+      "WYNDHAM AYARES"
+    ]
+  }
+}
