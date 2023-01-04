@@ -8,6 +8,8 @@ We plan to publish open data information on a variety of sources.  Some data wil
 
 We will provide metadata pointers to non-machine readable data in many cases - for example, Massachusetts towns produce annual reports with many embedded bits of data.  For those cases, we may simply point to the relevant page on a PDF file, as an aid for human consumption.
 
+Please note that [town data is updated frequently](/governance/town-website-updates), so past visualizations or datasets may not reflect the current data.
+
 ## Datasets About Governance
 
 Town annual reports are published in PDF files, sometimes even as images or scans, meaning there is no simple way to machine read important data.  Here, we provide the metadata in a standardized DCAT format that allows other researchers to at least index within these files to find useful tables.

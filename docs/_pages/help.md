@@ -25,3 +25,5 @@ All of our data includes links to the source it was drawn from in corresponding 
 ## Help Improve The Site
 
 We're always looking for volunteers to help build and maintain the site.  If you're experienced with GitHub Pages/Jekyll, open data standards, or open source data visualizers, [please let us know if you can help](mailto:ArlingtonMAInfo@gmail.com?Subject=[Help] Coding Volunteer).
+
+In particular, [help in updating any changed datasets](/governance/town-website-updates) from the town over time is appreciated.

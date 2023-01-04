@@ -1,0 +1,1579 @@
+{
+	"@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+	"@type": "dcat:Catalog",
+	"conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+	"describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+	"dataset": [
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=6978e3d7c38a41709b3087caf2d49702&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/6978e3d7c38a41709b3087caf2d49702_0",
+			"title": "ArlingtonMA Assessor Database",
+			"description": "{{description}}",
+			"keyword": [
+				"assessing",
+				"assessor",
+				"property"
+			],
+			"issued": "2021-01-06T17:41:20.000Z",
+			"modified": "2022-01-10T15:48:02.012Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/6978e3d7c38a41709b3087caf2d49702_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Assess/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/6978e3d7c38a41709b3087caf2d49702_0.geojson"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/6978e3d7c38a41709b3087caf2d49702_0.csv"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=1f4e18a9a4bb45208f0c9dab265f7acf&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/1f4e18a9a4bb45208f0c9dab265f7acf_0",
+			"title": "ArlingtonMA Open Space",
+			"description": "{{description}}",
+			"keyword": [
+				"open space",
+				"boundary",
+				"parks"
+			],
+			"issued": "2018-04-19T14:31:14.000Z",
+			"modified": "2021-12-27T17:34:51.363Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2067,42.3974,-71.1321,42.4392",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/1f4e18a9a4bb45208f0c9dab265f7acf_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Open_Space/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/1f4e18a9a4bb45208f0c9dab265f7acf_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/1f4e18a9a4bb45208f0c9dab265f7acf_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/1f4e18a9a4bb45208f0c9dab265f7acf_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/1f4e18a9a4bb45208f0c9dab265f7acf_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=86cbd55fa59e402e99c029dc91fd1c94&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/86cbd55fa59e402e99c029dc91fd1c94_0",
+			"title": "ArlingtonMA Historic District",
+			"description": "",
+			"keyword": [
+				"historic",
+				"boundary",
+				"districts"
+			],
+			"issued": "2021-04-07T14:02:50.000Z",
+			"modified": "2021-04-07T14:28:13.563Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.1871,42.4060,-71.1475,42.4317",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/86cbd55fa59e402e99c029dc91fd1c94_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/Historic_District/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/86cbd55fa59e402e99c029dc91fd1c94_0.geojson?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/86cbd55fa59e402e99c029dc91fd1c94_0.csv?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/86cbd55fa59e402e99c029dc91fd1c94_0.kml?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/86cbd55fa59e402e99c029dc91fd1c94_0.zip?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=d15706d48d0049dd9ebcfbe0991567c5&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/d15706d48d0049dd9ebcfbe0991567c5_0",
+			"title": "ArlingtonMA Water Polygon",
+			"description": "{{description}}",
+			"keyword": [
+				"water",
+				"base map",
+				"environment",
+				"natural resource"
+			],
+			"issued": "2017-12-28T17:59:57.000Z",
+			"modified": "2021-01-05T16:44:47.208Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.1911,42.3964,-71.1255,42.4459",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/d15706d48d0049dd9ebcfbe0991567c5_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Water_Polygon/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/d15706d48d0049dd9ebcfbe0991567c5_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/d15706d48d0049dd9ebcfbe0991567c5_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/d15706d48d0049dd9ebcfbe0991567c5_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/d15706d48d0049dd9ebcfbe0991567c5_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=24ccb8de716c4958ad1db325272bacc2&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/24ccb8de716c4958ad1db325272bacc2_0",
+			"title": "ArlingtonMA Water line",
+			"description": "{{description}}",
+			"keyword": [
+				"water",
+				"environment"
+			],
+			"issued": "2018-03-02T17:25:23.000Z",
+			"modified": "2018-03-02T17:25:47.333Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2104,42.3977,-71.1424,42.4424",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/24ccb8de716c4958ad1db325272bacc2_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Water_line/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/24ccb8de716c4958ad1db325272bacc2_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/24ccb8de716c4958ad1db325272bacc2_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/24ccb8de716c4958ad1db325272bacc2_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/24ccb8de716c4958ad1db325272bacc2_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=8f5fe7674e614efabd74751c78838ac8&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/8f5fe7674e614efabd74751c78838ac8_0",
+			"title": "ACS 5Year Estimate",
+			"description": "{{description}}",
+			"keyword": [
+				"ACS"
+			],
+			"issued": "2018-03-02T16:49:12.000Z",
+			"modified": "2018-03-02T16:49:40.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/8f5fe7674e614efabd74751c78838ac8_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ACS_5Year_Estimate/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8f5fe7674e614efabd74751c78838ac8_0.geojson"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8f5fe7674e614efabd74751c78838ac8_0.csv"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=8610c6e77dc5409ab024f00a90c6bc8b&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/8610c6e77dc5409ab024f00a90c6bc8b_0",
+			"title": "ArlingtonMA Parcel",
+			"description": "",
+			"keyword": [
+				"assessing",
+				"assessor",
+				"parcel",
+				"property"
+			],
+			"issued": "2020-02-28T17:50:15.000Z",
+			"modified": "2021-12-27T17:36:16.275Z",
+			"publisher": {
+				"name": "Town of Arlington"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2027,42.3974,-71.1321,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/8610c6e77dc5409ab024f00a90c6bc8b_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Parcel/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8610c6e77dc5409ab024f00a90c6bc8b_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8610c6e77dc5409ab024f00a90c6bc8b_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8610c6e77dc5409ab024f00a90c6bc8b_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8610c6e77dc5409ab024f00a90c6bc8b_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=9b4448497df84a66ad5768caa3062f5e&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/9b4448497df84a66ad5768caa3062f5e_0",
+			"title": "ArlingtonMA Structure",
+			"description": "",
+			"keyword": [
+				"infrastructure",
+				"building",
+				"structure",
+				"footprint",
+				"property"
+			],
+			"issued": "2021-01-05T16:09:59.000Z",
+			"modified": "2022-01-10T15:56:48.057Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2029,42.3949,-71.1282,42.4418",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/9b4448497df84a66ad5768caa3062f5e_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Structure/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/9b4448497df84a66ad5768caa3062f5e_0.geojson?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/9b4448497df84a66ad5768caa3062f5e_0.csv?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/9b4448497df84a66ad5768caa3062f5e_0.kml?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/9b4448497df84a66ad5768caa3062f5e_0.zip?outSR=%7B%22latestWkid%22%3A2249%2C%22wkid%22%3A102686%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=8ed5bad540174d70841054ed5adba0ea&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/8ed5bad540174d70841054ed5adba0ea_0",
+			"title": "ArlingtonMA Zoning",
+			"description": "",
+			"keyword": [
+				"boundary",
+				"zoning",
+				"districts"
+			],
+			"issued": "2017-12-28T16:13:30.000Z",
+			"modified": "2021-12-27T19:04:33.118Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2027,42.3974,-71.1321,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/8ed5bad540174d70841054ed5adba0ea_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Zoning/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/8ed5bad540174d70841054ed5adba0ea_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=4e6f2bc1691e405b93c2f7e85878be7f&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/4e6f2bc1691e405b93c2f7e85878be7f_0",
+			"title": "ArlingtonMA Tree",
+			"description": "{{description}}",
+			"keyword": [
+				"open data",
+				"tree",
+				"tree inventory",
+				"environment"
+			],
+			"issued": "2021-12-27T18:50:26.000Z",
+			"modified": "2021-12-27T18:50:32.334Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2017,42.3989,-71.1327,42.4362",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/4e6f2bc1691e405b93c2f7e85878be7f_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Tree/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/4e6f2bc1691e405b93c2f7e85878be7f_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/4e6f2bc1691e405b93c2f7e85878be7f_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/4e6f2bc1691e405b93c2f7e85878be7f_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/4e6f2bc1691e405b93c2f7e85878be7f_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=689f7595316a4d7a84e8fc7b9602a945&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/689f7595316a4d7a84e8fc7b9602a945_0",
+			"title": "ArlingtonMA SchoolDistrict",
+			"description": "",
+			"keyword": [
+				"school",
+				"boundary",
+				"elementary school",
+				"adminstrative"
+			],
+			"issued": "2017-12-28T16:10:39.000Z",
+			"modified": "2021-11-09T19:28:16.981Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2027,42.3974,-71.1322,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/689f7595316a4d7a84e8fc7b9602a945_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_SchoolDistrict/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/689f7595316a4d7a84e8fc7b9602a945_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/689f7595316a4d7a84e8fc7b9602a945_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/689f7595316a4d7a84e8fc7b9602a945_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/689f7595316a4d7a84e8fc7b9602a945_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=5af772b1baee4103a6f7184da59084b2",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/5af772b1baee4103a6f7184da59084b2",
+			"title": "ArlingtonMA Parking 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"parking",
+				"open data"
+			],
+			"issued": "2021-02-08T16:42:30.000Z",
+			"modified": "2021-02-08T16:57:51.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/5af772b1baee4103a6f7184da59084b2"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=e0e91ef4833d41ccb89e47eb64f18c51",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/e0e91ef4833d41ccb89e47eb64f18c51",
+			"title": "ArlingtonMA ParksOpenSpace 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"parks",
+				"open space",
+				"open data"
+			],
+			"issued": "2021-02-08T16:44:11.000Z",
+			"modified": "2021-02-08T16:51:47.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/e0e91ef4833d41ccb89e47eb64f18c51"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=a544ba771cb74b109fab652f5904f058",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/a544ba771cb74b109fab652f5904f058",
+			"title": "ArlingtonMA Road Map 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"road",
+				"transportation",
+				"open data"
+			],
+			"issued": "2021-02-08T16:41:53.000Z",
+			"modified": "2021-02-08T16:41:57.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/a544ba771cb74b109fab652f5904f058"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=917496412c7f4a0f817cccfa9d71495b",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/917496412c7f4a0f817cccfa9d71495b",
+			"title": "ArlingtonMA School District 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"school",
+				"districts",
+				"open data"
+			],
+			"issued": "2021-02-08T16:40:58.000Z",
+			"modified": "2021-02-08T16:41:01.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/917496412c7f4a0f817cccfa9d71495b"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=4cdb7b5f6a674d6d92fc566024ab4230",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/4cdb7b5f6a674d6d92fc566024ab4230",
+			"title": "ArlingtonMA Street Sweeping 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"street sweeping",
+				"dpw",
+				"open data"
+			],
+			"issued": "2021-02-08T16:40:04.000Z",
+			"modified": "2021-02-08T16:40:08.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/4cdb7b5f6a674d6d92fc566024ab4230"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=0a43c40dfc75433fae44909b392f6e23",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/0a43c40dfc75433fae44909b392f6e23",
+			"title": "ArlingtonMA Trash Recycling 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"trash",
+				"recycling",
+				"recycle",
+				"open data"
+			],
+			"issued": "2021-02-08T16:38:53.000Z",
+			"modified": "2021-02-08T16:38:56.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/0a43c40dfc75433fae44909b392f6e23"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=b2e0bd4d4dee421e8d54768b0707299c",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/b2e0bd4d4dee421e8d54768b0707299c",
+			"title": "ArlingtonMA Polling Location 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"polling location",
+				"voting",
+				"open data"
+			],
+			"issued": "2021-02-08T16:36:52.000Z",
+			"modified": "2021-02-08T16:36:56.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/b2e0bd4d4dee421e8d54768b0707299c"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=0c87ca5a7360484893af89bed35a023b",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/0c87ca5a7360484893af89bed35a023b",
+			"title": "ArlingtonMA Wetland Floodplain 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"wetland",
+				"floodplain",
+				"open data"
+			],
+			"issued": "2021-02-08T16:36:02.000Z",
+			"modified": "2021-02-08T16:36:05.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/0c87ca5a7360484893af89bed35a023b"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=38b490c5e78c4d359bcc4f39a16433af",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/documents/38b490c5e78c4d359bcc4f39a16433af",
+			"title": "ArlingtonMA Zoning 11x17",
+			"description": "{{description}}",
+			"keyword": [
+				"pdf",
+				"zoning",
+				"open data"
+			],
+			"issued": "2021-02-08T16:35:03.000Z",
+			"modified": "2021-02-08T16:35:06.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/documents/38b490c5e78c4d359bcc4f39a16433af"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=ed93de524bbe48f1a65e454cdbf7ef97&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/ed93de524bbe48f1a65e454cdbf7ef97_0",
+			"title": "ArlingtonMA Road",
+			"description": "{{description}}",
+			"keyword": [
+				"road",
+				"infrastructure",
+				"pavement",
+				"street",
+				"transportation"
+			],
+			"issued": "2017-12-28T14:37:03.000Z",
+			"modified": "2017-12-28T16:41:01.958Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2019,42.3974,-71.1324,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/ed93de524bbe48f1a65e454cdbf7ef97_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Road/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/ed93de524bbe48f1a65e454cdbf7ef97_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/ed93de524bbe48f1a65e454cdbf7ef97_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/ed93de524bbe48f1a65e454cdbf7ef97_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/ed93de524bbe48f1a65e454cdbf7ef97_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=c86d3ea60ddf4814b34864b1fd72b3f7&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/c86d3ea60ddf4814b34864b1fd72b3f7_0",
+			"title": "ArlingtonMA VotingPrecinct",
+			"description": "{{description}}",
+			"keyword": [
+				"boundary",
+				"voter",
+				"voting",
+				"precinct",
+				"election"
+			],
+			"issued": "2017-12-28T16:16:34.000Z",
+			"modified": "2017-12-28T16:16:57.760Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2027,42.3974,-71.1321,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/c86d3ea60ddf4814b34864b1fd72b3f7_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_VotingPrecinct/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/c86d3ea60ddf4814b34864b1fd72b3f7_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/c86d3ea60ddf4814b34864b1fd72b3f7_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/c86d3ea60ddf4814b34864b1fd72b3f7_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/c86d3ea60ddf4814b34864b1fd72b3f7_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=90444f64f03a4916b88208289ecdea34&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/90444f64f03a4916b88208289ecdea34_0",
+			"title": "ArlingtonMA AddressPoint",
+			"description": "{{description}}",
+			"keyword": [
+				"property",
+				"master address database"
+			],
+			"issued": "2021-01-06T18:58:53.000Z",
+			"modified": "2022-01-12T02:03:35.079Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2019,42.3981,-71.1326,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/90444f64f03a4916b88208289ecdea34_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_AddressPoint/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/90444f64f03a4916b88208289ecdea34_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/90444f64f03a4916b88208289ecdea34_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/90444f64f03a4916b88208289ecdea34_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/90444f64f03a4916b88208289ecdea34_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=54ce6923508e4a7e8cf452857e3c22d2&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/54ce6923508e4a7e8cf452857e3c22d2_0",
+			"title": "ArlingtonMA Wetlands",
+			"description": "{{description}}",
+			"keyword": [
+				"wetland",
+				"environment"
+			],
+			"issued": "2019-09-17T20:30:21.000Z",
+			"modified": "2019-09-17T20:30:59.371Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.1948,42.3979,-71.1421,42.4362",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/54ce6923508e4a7e8cf452857e3c22d2_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_Wetlands/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/54ce6923508e4a7e8cf452857e3c22d2_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/54ce6923508e4a7e8cf452857e3c22d2_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/54ce6923508e4a7e8cf452857e3c22d2_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/54ce6923508e4a7e8cf452857e3c22d2_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=21517b4bc4054bedad12b39f6f926155",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/datasets/21517b4bc4054bedad12b39f6f926155",
+			"title": "ArlingtonMA Trees",
+			"description": "{{description}}",
+			"keyword": [
+				"tree",
+				"dpw",
+				"tree inventory",
+				"environment"
+			],
+			"issued": "2019-09-23T12:52:35.000Z",
+			"modified": "2020-02-28T18:13:54.000Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/21517b4bc4054bedad12b39f6f926155"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json"
+				}
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=87d879de28c141569f6b7d302ae0b174&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/87d879de28c141569f6b7d302ae0b174_0",
+			"title": "ArlingtonMA TownBoundary",
+			"description": "{{description}}",
+			"keyword": [
+				"boundary",
+				"town",
+				"municipal",
+				"community",
+				"administrative",
+				"political"
+			],
+			"issued": "2017-12-28T17:18:54.000Z",
+			"modified": "2017-12-28T17:19:04.006Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2027,42.3974,-71.1321,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/87d879de28c141569f6b7d302ae0b174_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_TownBoundary/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/87d879de28c141569f6b7d302ae0b174_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/87d879de28c141569f6b7d302ae0b174_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/87d879de28c141569f6b7d302ae0b174_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/87d879de28c141569f6b7d302ae0b174_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "https://www.arcgis.com/home/item.html?id=999bad5ac9234f198e4d2a5148724ac1&sublayer=0",
+			"landingPage": "https://gis-arlingtonma.opendata.arcgis.com/maps/999bad5ac9234f198e4d2a5148724ac1_0",
+			"title": "ArlingtonMA TrashDay",
+			"description": "{{description}}",
+			"keyword": [
+				"boundary",
+				"trash",
+				"recycling",
+				"dpw",
+				"public works",
+				"administrative"
+			],
+			"issued": "2017-12-28T16:26:30.000Z",
+			"modified": "2017-12-28T16:26:56.222Z",
+			"publisher": {
+				"name": "akurowski"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "akurowski"
+			},
+			"accessLevel": "public",
+			"spatial": "-71.2027,42.3974,-71.1321,42.4363",
+			"license": "",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/maps/999bad5ac9234f198e4d2a5148724ac1_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS GeoService",
+					"format": "ArcGIS GeoServices REST API",
+					"mediaType": "application/json",
+					"accessURL": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/ArlingtonMA_TrashDay/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/999bad5ac9234f198e4d2a5148724ac1_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/999bad5ac9234f198e4d2a5148724ac1_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/999bad5ac9234f198e4d2a5148724ac1_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "https://gis-arlingtonma.opendata.arcgis.com/datasets/999bad5ac9234f198e4d2a5148724ac1_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+				}
+			],
+			"theme": [
+				"geospatial"
+			]
+		}
+	]
+}
