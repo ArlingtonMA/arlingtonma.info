@@ -25,10 +25,12 @@ main:
       - title: US data.gov Portal
         url: https://www.data.gov/open-gov/
       - title: Mass.gov Open Data Portal
-        url: https://opendata.digital.mass.gov/#/
+        url: https://data.mass.gov/
       - title: Arlington GIS Maps
         url: https://www.arlingtonma.gov/departments/information-technology/geographic-information-system-gis
       - title: Arlington Finances
         url: https://www.arlingtonma.gov/departments/finance/financial-budget-information
       - title: Arlington Visual Budget
         url: http://arlingtonvisualbudget.org/
+      - title: Arlington Open Checkbook
+        url: https://www.arlingtonma.gov/departments/finance/financial-budget-information/open-checkbook
