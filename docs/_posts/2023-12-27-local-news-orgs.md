@@ -2,15 +2,16 @@
 title: Local Nonprofit News Organizations
 excerpt: Basic IRS 990 tax data of locally-owned news orgs.
 layout: newsorgs
+classes: wide
 ---
 
 The US is witnessing a rebirth of locally-owned, hyperlocal news organizations made up of journalists and volunteers reporting on happenings in their town or city.  [Your Arlington](https://yourarlington.com/) is one such local newspaper, which has recently [turned into a non-profit organization](https://yourarlington.com/about.html) with an independent board.
 
-While detailed nonprofit finances are often hard to find - volunteer-run organizations don't often post balance sheets - the IRS and [Propublica's Nonprofit Explorer](https://projects.propublica.org/nonprofits/) make it easy to at least see a high-level overview of nonprofit finances.
+While detailed nonprofit finances are often hard to find - volunteer-run organizations don't often post balance sheets - the IRS and [Propublica's Nonprofit Explorer](https://projects.propublica.org/nonprofits/) make it easy to see a high-level overview of nonprofit finances by reading their 990 tax forms.
 
 ## Locally Owned Nonprofit News Orgs
 
-Thanks to various volunteers, we have some listings of locally-owned news organizations.  Note this does not include for-profit newspapers, even if locally owned.  And we're not talking at all about the many old local newspapers that have been bought up by outside companies like Gannett or Alden Global.  For a more comprehensive list of Massachusetts based news organizations, follow [Dan Kennedy's Media Nation blog](https://dankennedy.net/2021/12/24/boston-globe-media-eyes-expanding-into-tv-films-broadcast-and-radio/).
+Thanks to various volunteers, we have some listings of locally-owned news organizations.  And we're not talking at all about the many venerable local newspaper websites that have been bought up by outside companies like Gannett or Alden Global.  For a more comprehensive list of Massachusetts based news organizations, follow [Dan Kennedy's Media Nation blog](https://dankennedy.net/2021/12/24/boston-globe-media-eyes-expanding-into-tv-films-broadcast-and-radio/).
 
 ## Selected Nonprofit News Finances
 

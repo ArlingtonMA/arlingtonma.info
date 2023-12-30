@@ -26,3 +26,4 @@ emailContact: mike@thebedfordcitizen.org
 websitecms: WP
 ---
 
+The Bedford Citizen.

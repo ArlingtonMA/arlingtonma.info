@@ -2,7 +2,15 @@
 layout: default
 ---
 
+<div id="main" role="main">
+
+<pre>
+page: {{ page | jsonify | escape }}
+layout: {{ layout | jsonify | escape }}
+content: {{ content | jsonify | escape }}
+</pre>
 <b>DEBUG: This is a test.</b>
+
 <article class="newsorg_single" itemscope itemtype="http://schema.org/Organization">
   {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: '%B %d, %Y' }}">{% endif %}
   <h1 id="name"><a href="#name" class="anchor-heading" aria-labelledby="name"></a> 
@@ -55,3 +63,5 @@ layout: default
   {{ content }}
 
 </article>
+
+</div>

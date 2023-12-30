@@ -26,3 +26,4 @@ emailContact: editor@belmontonian.com
 websitecms: WP
 ---
 
+The Belmontian is brand new.
