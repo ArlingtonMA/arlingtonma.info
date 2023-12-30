@@ -94,7 +94,7 @@ defaults:
       sidebar:
         nav: main
   - scope: # _newsorgs collection
-      path: "newsorgs"
+      path: ""
       type: newsorgs
     values:
       layout: newsorg
