@@ -58,6 +58,21 @@ footer:
 # jekyll-seo-tag
 logo: *logo
 
+collections:
+  newsorgs:
+    output: true
+    sort_by: name
+    permalink: /:collection/:path
+
+# Defaults
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "newsorgs"
+    values:
+      layout: newsorg
+
 defaults:
   - scope: # default - pages
       path: ""

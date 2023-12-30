@@ -1,0 +1,214 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://arlingtonma.info/newsorgs/yourarlington.json",
+  "type": "object",
+  "title": "News Organizations with Local focus",
+  "required": [
+    "identifier",
+    "commonName",
+    "website"
+  ],
+  "properties": {
+    "identifier": {
+      "section": "general",
+      "title": "Used as filename or fragment reference",
+      "description": "Common name; lowercased; used for lookups.",
+      "type": "string"
+    },
+    "commonName": {
+      "title": "Common Name",
+      "description": "Commonly used name in public.",
+      "type": "string"
+    },
+    "legalName": {
+      "title": "Legal Name",
+      "description": "Official name of the organization.",
+      "type": "string"
+    },
+    "description": {
+      "title": "Description",
+      "description": "One sentence brief overview of organization.",
+      "type": "string"
+    },
+    "website": {
+      "title": "Website",
+      "description": "Primary website homepage.",
+      "type": "string",
+      "format": "uri"
+    },
+    "slogan": {
+      "title": "slogan",
+      "description": "A slogan or motto associated with the organization.",
+      "type": "string"
+    },
+    "masthead": {
+      "title": "masthead",
+      "description": "Link to the masthead page or a page listing top editorial management.",
+      "type": "string",
+      "format": "url"
+    },
+    "contactPoint": {
+      "title": "Contact Point",
+      "description": "Contact point or tipline for the organization.",
+      "type": "string"
+    },
+    "location": {
+      "title": "Location",
+      "description": "Country or specific location organization is based.",
+      "type": "string"
+    },
+    "areaServed": {
+      "title": "Area Served",
+      "description": "Geographic area of news coverage or focus.",
+      "type": "string"
+    },
+    "boardSize": {
+      "title": "Board Size",
+      "description": "Number of board of director seats.",
+      "type": "number"
+    },
+    "boardType": {
+      "title": "Board Type",
+      "description": "Approximate type of board: (non-paid) member elected; (paid) sponsor elected; appointed; etc.",
+      "type": "string"
+    },
+    "membershipType": {
+      "title": "Membership Type",
+      "description": "Note if a membership corporation, or a non-member corporation nonprofit.",
+      "type": "string"
+    },
+    "boardurl": {
+      "title": "Board Website",
+      "description": "Official board information URL.",
+      "type": "string",
+      "format": "url"
+    },
+    "bylawsurl": {
+      "title": "Bylaws Website",
+      "description": "Corporate bylaws URL.",
+      "type": "string",
+      "format": "url"
+    },
+    "numberOfEmployees": {
+      "title": "Approx Number Of Paid Staff",
+      "description": "Approximate number of paid employees or equivalents.",
+      "type": "number"
+    },
+    "taxID": {
+      "title": "Tax Authority ID",
+      "description": "US IRS taxID, or other country's tax identifier (if any).",
+      "type": "string"
+    },
+    "taxIDLocal": {
+      "title": "Local Tax Authority ID",
+      "description": "Local taxID, for example MA AG Account Number (if any).",
+      "type": "string"
+    },   
+    "nonprofitStatus": {
+      "title": "Nonprofit Type",
+      "description": "Specific type of non-profit; US or other country type.",
+      "type": "string"
+    },
+    "funding": {
+      "title": "Funding Sources",
+      "description": "Primary funding sources in rough order: (corporate) sponsors; (individual) donations; grants; other.",
+      "type": "array"
+    },
+    "budgetUsd": {
+      "title": "Budget in USD",
+      "description": "Approximate annual budget in USD.",
+      "type": "string"
+    },
+    "budgetYear": {
+      "title": "Budget Year",
+      "description": "Year budgetUsd number was entered.",
+      "type": "string"
+    },
+    "budgeturl": {
+      "title": "Budget Website",
+      "description": "Official budget or other financial information URL.",
+      "type": "string",
+      "format": "url"
+    },
+    "budgetTransparent": {
+      "title": "Budget Transparency",
+      "description": "Is the official budget shared publicly and fully, or is it opaque?",
+      "type": "string"
+    },
+    "donateurl": {
+      "title": "Donation Website",
+      "description": "Donation or other giving page (typically for nonprofits).",
+      "type": "string",
+      "format": "url"
+    },
+    "sponsorurl": {
+      "title": "Sponsor List Website",
+      "description": "Official listing of sponsors, corporate supporters, or other major funders URL.",
+      "type": "string",
+      "format": "url"
+    },
+    "sponsorList": {
+      "title": "Example Sponsors",
+      "description": "Example listing of top-level annual recurring sponsors.",
+      "type": "string"
+    },
+    "ownershipFundingInfo": {
+      "title": "Ownership Structure",
+      "description": "description of organizational ownership structure; funding and grants. In a news/media setting, this is with particular reference to editorial independence.",
+      "type": "string"
+    },
+    "ethicsPolicy": {
+      "title": "Ethics/COI Policy",
+      "description": "Statement describing the personal, organizational, and corporate standards of behavior expected by the organization.",
+      "type": "string"
+    },
+    "correctionsPolicy": {
+      "title": "Corrections Policy",
+      "description": "Statement describing (in news media, the newsroom’s) disclosure and correction policy for errors.",
+      "type": "string"
+    },
+    "verificationFactCheckingPolicy": {
+      "title": "Fact Checking Policy",
+      "description": "Policies for journalistic fact checking.",
+      "type": "string"
+    },
+    "publishingPrinciples": {
+      "title": "Publishing Principles",
+      "description": "Indicates (typically via URL) a document describing the editorial principles of an Organization (or individual, e.g. a Person writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies..",
+      "type": "string"
+    },
+    "unnamedSourcesPolicy": {
+      "title": "Unnamed Sources Policy",
+      "description": "Statement about policy on use of unnamed sources and the decision process required.",
+      "type": "string"
+    },
+    "diversityPolicy": {
+      "title": "Diversity Policy Website",
+      "description": "Diversity, inclusion, or other related policies or informational page.",
+      "type": "string",
+      "format": "url"
+    },
+    "advertising": {
+      "title": "Advertising Policy",
+      "description": "Policy or other information about advertising, sponsorship, or similar.",
+      "type": "string"
+    },
+    "foundingDate": {
+      "title": "Founding Date",
+      "description": "Date organization was legally incorporated (or similar).",
+      "type": "string",
+      "format": "date"
+    },
+    "dissolutionDate": {
+      "title": "Dissolution Date",
+      "description": "Date organization was dissolved (if applicable).",
+      "type": "string",
+      "format": "date"
+    },
+    "parentOrganization": {
+      "title": "Parent Organization",
+      "description": "Legal organization or corporation this organization belongs to.",
+      "type": "string"
+    }
+  }
+}

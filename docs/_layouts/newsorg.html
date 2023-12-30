@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<b>DEBUG: This is a test.</b>
+<article class="newsorg_single" itemscope itemtype="http://schema.org/Organization">
+  {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: '%B %d, %Y' }}">{% endif %}
+  <h1 id="name"><a href="#name" class="anchor-heading" aria-labelledby="name"></a> 
+    {{ page.legalName }}
+  </h1>
+
+  {% if page.commonName %}<abbr title="Commonly used name in public.">Common Name</abbr>: <span itemprop="commonName">{{ page.commonName }}</span><br/>{% endif %}
+  {% if page.legalName %}<abbr title="Official name of the organization.">Legal Name</abbr>: <span itemprop="legalName">{{ page.legalName }}</span><br/>{% endif %}
+  {% if page.description %}<abbr title="One sentence brief overview of organization.">Description</abbr>: <span itemprop="description">{{ page.description }}</span><br/>{% endif %}
+  {% if page.website %}<abbr title="Primary website homepage.">Website</abbr>: <a itemprop="website" href="{{ page.website }}">{{ page.website }}</a><br/>{% endif %}
+  {% if page.slogan %}<abbr title="A slogan or motto associated with the organization.">slogan</abbr>: <span itemprop="slogan">{{ page.slogan }}</span><br/>{% endif %}
+  {% if page.masthead %}<abbr title="Link to the masthead page or a page listing top editorial management.">masthead</abbr>: <a itemprop="masthead" href="{{ page.masthead }}">{{ page.masthead }}</a><br/>{% endif %}
+  {% if page.contactPoint %}<abbr title="Contact point or tipline for the organization.">Contact Point</abbr>: <span itemprop="contactPoint">{{ page.contactPoint }}</span><br/>{% endif %}
+  <h2 id="governance">Governance</h2>
+  {% if page.location %}<abbr title="Country or specific location organization is based.">Location</abbr>: <span itemprop="location">{{ page.location }}</span><br/>{% endif %}
+  {% if page.areaServed %}<abbr title="Geographic area of news coverage or focus.">Area Served</abbr>: <span itemprop="areaServed">{{ page.areaServed }}</span><br/>{% endif %}
+  {% if page.boardSize %}<abbr title="Number of board of director seats.">Board Size</abbr>: <span itemprop="boardSize">{{ page.boardSize }}</span><br/>{% endif %}
+  {% if page.boardType %}<abbr title="Approximate type of board: (non-paid) member elected; (paid) sponsor elected; appointed; etc.">Board Type</abbr>: <span itemprop="boardType">{{ page.boardType }}</span><br/>{% endif %}
+  {% if page.membershipType %}<abbr title="Note if a membership corporation, or a non-member corporation nonprofit.">Membership Type</abbr>: <span itemprop="membershipType">{{ page.membershipType }}</span><br/>{% endif %}
+  {% if page.boardurl %}<abbr title="Official board information URL.">Board Website</abbr>: <a itemprop="boardurl" href="{{ page.boardurl }}">{{ page.boardurl }}</a><br/>{% endif %}
+  {% if page.bylawsurl %}<abbr title="Corporate bylaws URL.">Bylaws Website</abbr>: <a itemprop="bylawsurl" href="{{ page.bylawsurl }}">{{ page.bylawsurl }}</a><br/>{% endif %}
+  {% if page.numberOfEmployees %}<abbr title="Approximate number of paid employees or equivalents.">Approx Number Of Paid Staff</abbr>: <span itemprop="numberOfEmployees">{{ page.numberOfEmployees }}</span><br/>{% endif %}
+  <h2 id="finance">Finance</h2>
+  {% if page.taxID %}<abbr title="US IRS taxID, or other country's tax identifier (if any).">Tax Authority ID</abbr>: <span itemprop="taxID">{{ page.taxID }}</span><br/>{% endif %}
+  {% if page.taxIDLocal %}<abbr title="Local taxID, for example MA AG Account Number (if any).">Local Tax Authority ID</abbr>: <span itemprop="taxIDLocal">{{ page.taxIDLocal }}</span><br/>{% endif %}
+  {% if page.nonprofitStatus %}<abbr title="Specific type of non-profit; US or other country type.">Nonprofit Type</abbr>: <span itemprop="nonprofitStatus">{{ page.nonprofitStatus }}</span><br/>{% endif %}
+  {% if page.funding %}<abbr title="Primary funding sources in rough order: (corporate) sponsors; (individual) donations; grants; other.">Funding Sources</abbr>: <span itemprop="funding">{{ page.funding }}</span><br/>{% endif %}
+  {% if page.budgetUsd %}<abbr title="Approximate annual budget in USD.">Budget in USD</abbr>: <span itemprop="budgetUsd">{{ page.budgetUsd }}</span><br/>{% endif %}
+  {% if page.budgetYear %}<abbr title="Year budgetUsd number was entered.">Budget Year</abbr>: <span itemprop="budgetYear">{{ page.budgetYear }}</span><br/>{% endif %}
+  {% if page.budgeturl %}<abbr title="Official budget or other financial information URL.">Budget Website</abbr>: <a itemprop="budgeturl" href="{{ page.budgeturl }}">{{ page.budgeturl }}</a><br/>{% endif %}
+  {% if page.budgetTransparent %}<abbr title="Is the official budget shared publicly and fully, or is it opaque?">Budget Transparency</abbr>: <span itemprop="budgetTransparent">{{ page.budgetTransparent }}</span><br/>{% endif %}
+  {% if page.donateurl %}<abbr title="Donation or other giving page (typically for nonprofits).">Donation Website</abbr>: <a itemprop="donateurl" href="{{ page.donateurl }}">{{ page.donateurl }}</a><br/>{% endif %}
+  {% if page.sponsorurl %}<abbr title="Official listing of sponsors, corporate supporters, or other major funders URL.">Sponsor List Website</abbr>: <a itemprop="sponsorurl" href="{{ page.sponsorurl }}">{{ page.sponsorurl }}</a><br/>{% endif %}
+  {% if page.sponsorList %}<abbr title="Example listing of top-level annual recurring sponsors.">Example Sponsors</abbr>: <span itemprop="sponsorList">{{ page.sponsorList }}</span><br/>{% endif %}
+  {% if page.ownershipFundingInfo %}<abbr title="description of organizational ownership structure; funding and grants. In a news/media setting, this is with particular reference to editorial independence.">Ownership Structure</abbr>: <span itemprop="ownershipFundingInfo">{{ page.ownershipFundingInfo }}</span><br/>{% endif %}
+  <h2 id="policy">Policy</h2>
+  {% if page.ethicsPolicy %}<abbr title="Statement describing the personal, organizational, and corporate standards of behavior expected by the organization.">Ethics/COI Policy</abbr>: <span itemprop="ethicsPolicy">{{ page.ethicsPolicy }}</span><br/>{% endif %}
+  {% if page.correctionsPolicy %}<abbr title="Statement describing (in news media, the newsroom’s) disclosure and correction policy for errors.">Corrections Policy</abbr>: <span itemprop="correctionsPolicy">{{ page.correctionsPolicy }}</span><br/>{% endif %}
+  {% if page.verificationFactCheckingPolicy %}<abbr title="Policies for journalistic fact checking.">Fact Checking Policy</abbr>: <span itemprop="verificationFactCheckingPolicy">{{ page.verificationFactCheckingPolicy }}</span><br/>{% endif %}
+  {% if page.publishingPrinciples %}<abbr title="Indicates (typically via URL) a document describing the editorial principles of an Organization (or individual, e.g. a Person writing a blog) that relate to their activities as a publisher, e.g. ethics or diversity policies..">Publishing Principles</abbr>: <span itemprop="publishingPrinciples">{{ page.publishingPrinciples }}</span><br/>{% endif %}
+  {% if page.unnamedSourcesPolicy %}<abbr title="Statement about policy on use of unnamed sources and the decision process required.">Unnamed Sources Policy</abbr>: <span itemprop="unnamedSourcesPolicy">{{ page.unnamedSourcesPolicy }}</span><br/>{% endif %}
+  {% if page.diversityPolicy %}<abbr title="Diversity, inclusion, or other related policies or informational page.">Diversity Policy Website</abbr>: <a itemprop="diversityPolicy" href="{{ page.diversityPolicy }}">{{ page.diversityPolicy }}</a><br/>{% endif %}
+  {% if page.advertising %}<abbr title="Policy or other information about advertising, sponsorship, or similar.">Advertising Policy</abbr>: <span itemprop="advertising">{{ page.advertising }}</span><br/>{% endif %}
+  {% if page.foundingDate %}<abbr title="Date organization was legally incorporated (or similar).">Founding Date</abbr>: <span itemprop="foundingDate">{{ page.foundingDate }}</span><br/>{% endif %}
+  {% if page.dissolutionDate %}<abbr title="Date organization was dissolved (if applicable).">Dissolution Date</abbr>: <span itemprop="dissolutionDate">{{ page.dissolutionDate }}</span><br/>{% endif %}
+  {% if page.parentOrganization %}<abbr title="Legal organization or corporation this organization belongs to.">Parent Organization</abbr>: <span itemprop="parentOrganization">{{ page.parentOrganization }}</span><br/>{% endif %}
+
+  <hr id="details"/>
+
+  {{ content }}
+
+</article>

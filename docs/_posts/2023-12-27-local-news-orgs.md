@@ -1,9 +1,7 @@
 ---
 title: Local Nonprofit News Organizations
 excerpt: Basic IRS 990 tax data of locally-owned news orgs.
-classes: wide
-categories:
-  - News
+layout: newsorgs
 ---
 
 The US is witnessing a rebirth of locally-owned, hyperlocal news organizations made up of journalists and volunteers reporting on happenings in their town or city.  [Your Arlington](https://yourarlington.com/) is one such local newspaper, which has recently [turned into a non-profit organization](https://yourarlington.com/about.html) with an independent board.
