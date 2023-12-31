@@ -9,12 +9,12 @@ masthead: Nicco Mele, Publisher
 location: Lexington
 boardSize: '9'
 boardType:
-membershipType:
+membershipType: non-membership (Directors are only members)
 boardurl: https://lexobserver.org/our-mission/our-team/
 bylawsurl:
 numberOfEmployees:
 taxID: 87-4640985
-taxIDLocal: '81962'
+taxIDLocal: '081962'
 nonprofitStatus: Nonprofit501c3
 budgeturl: https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g27da3497263_0_0
 budgetUsd: '53769'

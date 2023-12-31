@@ -1,9 +1,10 @@
 ---
 identifier: swellesleyreport
 commonName: Swellesley Report
-legalName:
+legalName: SWELLESLEY REPORT INC
 description:
 website: https://theswellesleyreport.com/
+slogan: More than you really want to know about Wellesley, Mass.
 masthead: Deborah and Bob Brown, Co-editors
 location: Wellesley
 boardSize:
@@ -13,7 +14,7 @@ boardurl:
 bylawsurl:
 numberOfEmployees:
 taxID:
-taxIDLocal:
+taxIDLocal: '001583228'
 nonprofitStatus: forprofit
 budgeturl:
 budgetUsd:

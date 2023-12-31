@@ -2,24 +2,25 @@
 identifier: concordbridge
 commonName: Concord Bridge
 legalName: Concord Independent Foundation, Inc.
-description: Weekly print delivered free.
+description: Weekly print edition delivered free.
 website: https://theconcordbridge.org/
+slogan: Keeping Concord Connected
 masthead: Peggy Burke, Director
-location: Concordd
+location: Concord
 boardSize: '7'
 boardType:
-membershipType:
+membershipType: non-membership
 boardurl: https://theconcordbridge.org/index.php/2022/12/14/board-of-directors/
 bylawsurl:
 numberOfEmployees: '3'
 taxID: 86-3807140
-taxIDLocal: '69194'
+taxIDLocal: '069194'
 nonprofitStatus: Nonprofit501c3
 budgeturl:
 budgetUsd: '847072'
 budgetYear: '2022'
 donateurl: https://theconcordbridge.org/index.php/2022/10/27/keep-independent-local-journalism-alive/
-sponsorurl:
+sponsorurl: https://theconcordbridge.org/index.php/2022/12/11/our-donors/
 advertising: None displayed
 telephone: 855-698-1150
 emailContact: advertising@theconcordbridge.org

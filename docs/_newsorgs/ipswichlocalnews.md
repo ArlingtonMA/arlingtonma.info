@@ -4,6 +4,7 @@ commonName: Ipswich Local News
 legalName: The Ipswich Local News, Inc.
 description: 'Weekly printed paper; Income includes ads: $260K and Obits $11K.'
 website: https://thelocalnews.news/
+slogan: Reader-supported, community-driven news.
 masthead:
 location: Ipswich
 boardSize: '5'
@@ -13,7 +14,7 @@ boardurl:
 bylawsurl:
 numberOfEmployees: '10'
 taxID: 84-3780597
-taxIDLocal: '65470'
+taxIDLocal: '065470'
 nonprofitStatus: Nonprofit501c3
 budgeturl: https://s3.documentcloud.org/documents/23881033/annual-report-2022.pdf
 budgetUsd: '402321'
@@ -23,6 +24,6 @@ sponsorurl:
 advertising: https://thelocalnews.news/advertise/
 telephone:
 emailContact:
-websitecms:
+websitecms: WP
 ---
 

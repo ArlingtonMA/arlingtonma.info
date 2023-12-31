@@ -4,11 +4,12 @@ commonName: Your Arlington
 legalName: YourArlington.org, Inc.
 description:
 website: https://yourarlington.com/
+slogan: News and Views from Arlington, MA
 masthead: Bob Sprague, Founder
 location: Arlington
 boardSize: '9'
 boardType:
-membershipType:
+membershipType: non-membership
 boardurl:
 bylawsurl:
 numberOfEmployees: '5'

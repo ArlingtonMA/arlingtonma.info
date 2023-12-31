@@ -4,16 +4,17 @@ commonName: Bedford Citizen
 legalName: The Bedford Citizen, Inc.
 description:
 website: https://www.thebedfordcitizen.org/
+slogan: The Bedford Citizen informs and engages the Bedford, MA, community through reporting news of local significance, promoting local events, fostering connectivity, and encouraging participation.
 masthead: Mike Rosenberg, Reporter
 location: Bedford
 boardSize: '10'
 boardType:
-membershipType:
+membershipType: non-membership
 boardurl: https://thebedfordcitizen.org/about/
-bylawsurl:
+bylawsurl: https://cdn.thebedfordcitizen.org/wp-content/uploads/2022/04/BY-LAWS.pdf
 numberOfEmployees:
 taxID: 46-0777549
-taxIDLocal: '55117'
+taxIDLocal: '055117'
 nonprofitStatus: Nonprofit501c3
 budgeturl: https://cdn.thebedfordcitizen.org/wp-content/uploads/2023/07/ANNUAL-REPORT-2022-ONLINE-FINAL.pdf
 budgetUsd: '145596'
@@ -25,5 +26,3 @@ telephone:
 emailContact: mike@thebedfordcitizen.org
 websitecms: WP
 ---
-
-The Bedford Citizen.

@@ -1,9 +1,10 @@
 ---
 identifier: watertownnews
 commonName: Watertown News
-legalName:
+legalName: BREITROSE MEDIA LLC
 description:
 website: https://www.watertownmanews.com/
+slogan: Your local news source
 masthead: Charlie Breitrose, Founder and Editor
 location: Watertown
 boardSize:
@@ -13,7 +14,7 @@ boardurl:
 bylawsurl:
 numberOfEmployees:
 taxID:
-taxIDLocal:
+taxIDLocal: '001132899'
 nonprofitStatus: forprofit
 budgeturl:
 budgetUsd:

@@ -1,7 +1,7 @@
 ---
 identifier: cambridgeday
 commonName: Cambridge Day
-legalName: Cambridge Media Systems
+legalName: Cambridge Media Systems LLC
 description: Weekly print edition at businesses, libraries.
 website: https://www.cambridgeday.com/
 masthead: Marc Levy, Editor/publisher
@@ -13,7 +13,7 @@ boardurl:
 bylawsurl:
 numberOfEmployees:
 taxID:
-taxIDLocal:
+taxIDLocal: '001618774'
 nonprofitStatus: forprofit
 budgeturl:
 budgetUsd:
@@ -26,3 +26,4 @@ emailContact: editor@cambridgeday.com
 websitecms: WP
 ---
 
+Cambridge Day is a Web-only source for news and entertainment about Cambridge and surrounding communities. There is a Friday print edition called The Week that is distributed Fridays mainly to public places such city halls, libraries and coffee shops; no subscriptions to individual homes are immediately available, but it’s on a list of goals

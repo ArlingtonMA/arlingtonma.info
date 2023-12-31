@@ -1,9 +1,10 @@
 ---
 identifier: natickreport
 commonName: Natick Report
-legalName:
+legalName: SWELLESLEY REPORT INC
 description:
 website: https://www.natickreport.com/
+slogan: More than you really want to know about Natick, Mass.
 masthead: Deborah and Bob Brown, Co-editors
 location: Natick
 boardSize:
@@ -13,7 +14,7 @@ boardurl:
 bylawsurl:
 numberOfEmployees:
 taxID:
-taxIDLocal:
+taxIDLocal: '001583228'
 nonprofitStatus: forprofit
 budgeturl:
 budgetUsd:

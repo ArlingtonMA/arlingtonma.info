@@ -4,16 +4,17 @@ commonName: Fig City News
 legalName: Fig City News, Inc.
 description: No IRS filings yet; incorporated 10-13-2022.
 website: https://figcitynews.com/
-masthead: 'Bruce Henderson, Amy Sangiolo, '
+slogan: Community News Hub for Newton, Massachusetts
+masthead: 'Bruce Henderson, Amy Sangiolo'
 location: Newton
 boardSize: '7'
 boardType:
-membershipType:
+membershipType: non-membership
 boardurl: https://figcitynews.com/about/#board
 bylawsurl:
 numberOfEmployees: '5'
 taxID: 92-0697644
-taxIDLocal: '80969'
+taxIDLocal: '080969'
 nonprofitStatus: Nonprofit501c3
 budgeturl:
 budgetUsd:

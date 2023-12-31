@@ -4,6 +4,7 @@ commonName: Belmontonian
 legalName: The Belmontonian LLC
 description: Just getting started
 website: https://belmontonian.com/
+slogan: News in the Town of Homes.
 masthead: Franklin Tucker, Editor and Publisher
 location: Belmont
 boardSize:
@@ -13,7 +14,7 @@ boardurl:
 bylawsurl:
 numberOfEmployees:
 taxID:
-taxIDLocal:
+taxIDLocal: '001131401'
 nonprofitStatus: forprofit
 budgeturl:
 budgetUsd:
@@ -25,5 +26,3 @@ telephone: 617-932-9229
 emailContact: editor@belmontonian.com
 websitecms: WP
 ---
-
-The Belmontian is brand new.

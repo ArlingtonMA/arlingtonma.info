@@ -4,16 +4,17 @@ commonName: Newton Beacon
 legalName: Newton News Foundation, Inc.
 description:
 website: https://www.newtonbeacon.org/
-masthead: 'Joe Hunter, '
+slogan: Independent, nonprofit, and nonpartisan.
+masthead: 'Joe Hunter'
 location: Newton
 boardSize: '9'
 boardType:
-membershipType:
+membershipType: non-membership
 boardurl: https://www.newtonbeacon.org/about/board-of-directors/
 bylawsurl:
 numberOfEmployees: '9'
 taxID: 88-2058638
-taxIDLocal: '68866'
+taxIDLocal: '068866'
 nonprofitStatus: Nonprofit501c3
 budgeturl:
 budgetUsd:

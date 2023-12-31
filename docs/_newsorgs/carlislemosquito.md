@@ -2,7 +2,7 @@
 identifier: carlislemosquito
 commonName: Carlisle Mosquito
 legalName: Carlisle Communication, Inc.
-description: 'Weekly print delivered free; had 11 employees in 2021; '
+description: 'Weekly print edition delivered free; had 11 employees in 2021.'
 website: https://www.carlislemosquito.org/
 masthead: Wanda Avril, General manager
 location: Carlisle
