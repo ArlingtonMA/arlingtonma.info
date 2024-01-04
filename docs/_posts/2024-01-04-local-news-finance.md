@@ -27,10 +27,10 @@ Data below is captured from IRS 990/990-EZ forms, or in select cases from MA PC 
 ### Data Columns Notes
 
 <ul>
-  <li><span style='color = royalblue'>irsdate</span> is when the organization got 501(c)3 status</li>
-  <li><span style='color = teal'>population and *percapita</span> data come from MA DLS</li>
-  <li><span style='color = royalblue'>most data</span> comes from IRS 990 forms</li>
-  <li><span style='color = darkgreen'>computed data</span> in the last columns is computed per capita in the primary town served</li>
+  <li><span style='color: royalblue;'>irsdate</span> is when the organization got 501(c)3 status</li>
+  <li><span style='color: teal;'>population and *percapita</span> data come from MA DLS</li>
+  <li><span style='color: royalblue;'>most data</span> comes from IRS 990 forms</li>
+  <li><span style='color: darkgreen;'>computed data</span> in the last columns is computed per capita in the primary town served</li>
 </ul>
 
 You can [download this CSV data file](/data/newsorgs/finance/news-finances.csv).
@@ -54,7 +54,9 @@ You can [download this CSV data file](/data/newsorgs/finance/news-finances.csv).
   ]
   tid = '#local-news-finance-table'
   const csvpromise = addCSVTable(tid, '/data/newsorgs/finance/news-finances.csv', expenseHeaders)
-  // custom color data headers to show sources
+</script>
+<script>
+   // custom color data headers to show sources
   var theadr = d3.select(tid).select('thead').select('tr')
   theadr.selectAll('th:nth-child(n+1):nth-child(-n+1)').style('color', 'royalblue') // royalblue = irs
   theadr.selectAll('th:nth-child(n+4):nth-child(-n+4)').style('color', 'royalblue')
