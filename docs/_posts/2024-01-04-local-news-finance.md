@@ -24,6 +24,16 @@ Data below is captured from IRS 990/990-EZ forms, or in select cases from MA PC 
 
 <div id="csvtable"></div>
 
+You can [download this CSV data file](/data/newsorgs/finance/news-finances.csv).
+
+<figure>
+  <div id="local-news-finance">
+    <img src="/assets/images/local-news-finance.png">
+  </div>
+  <figcaption>Per Capita by municipality served</figcaption>
+</figure>
+
+
 <!-- Load d3/c3 tools and our visualizations -->
 <link href="/assets/css/c3.css" rel="stylesheet">
 <script src="/assets/js/d3.min.js" charset="utf-8"></script>

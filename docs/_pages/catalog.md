@@ -22,6 +22,10 @@ Similarly, many towns provide budgets as a collection of HTML pages, or in other
 
 See our [available financial and budget open data](/finance) information.
 
+## Datasets About Local News Organizations
+
+See our [basic datasets locally-owned news sites](/newsorgs) for Arlington and various other MA municipalities.
+
 ## Datasets About Policing
 
 See our [basic datasets about police department budgets and staffing](/police) for Arlington and comparable towns.
