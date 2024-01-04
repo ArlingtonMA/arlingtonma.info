@@ -19,6 +19,7 @@ Data below is captured from IRS 990/990-EZ forms, or in select cases from MA PC 
 - 990 filings are often made late, and take time to show up publicly; thus data for different orgs may be reported for different years.
 - Where 990 filings are not available, we've used the MA AGO's PC forms, or reports from the organization directly.  Thus some of these values may be subtly different from what gets put on their final 990.
 - **Contributions** is a large category; in particular, nonprofit news sites often think of grants and leading/major gifts separately from individual, sustaining, or regular subscriber donations.
+- A few nonprofit newsrooms publish weekly physical papers, with delivery either to select places, subscribers, or to all residents.  This obviously changes their finances, especially expenses as well as potential for advertising revenue.
 
 ## Comparative Financials Of Selected Local News
 
