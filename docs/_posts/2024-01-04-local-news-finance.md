@@ -22,7 +22,16 @@ Data below is captured from IRS 990/990-EZ forms, or in select cases from MA PC 
 
 ## Comparative Financials Of Selected Local News
 
-<div id="csvtable"></div>
+<div id="local-news-finance-table"></div>
+
+### Data Columns Notes
+
+<ul>
+  <li><span style='color = royalblue'>irsdate</span> is when the organization got 501(c)3 status</li>
+  <li><span style='color = teal'>population and *percapita</span> data come from MA DLS</li>
+  <li><span style='color = royalblue'>most data</span> comes from IRS 990 forms</li>
+  <li><span style='color = darkgreen'>computed data</span> in the last columns is computed per capita in the primary town served</li>
+</ul>
 
 You can [download this CSV data file](/data/newsorgs/finance/news-finances.csv).
 
@@ -43,5 +52,13 @@ You can [download this CSV data file](/data/newsorgs/finance/news-finances.csv).
     const expenseHeaders = [
     'ein', 'commonName','location','irsdate','population','incomepercapita','eqvpercapita','EIN','Tax_Year','Tax_Period_End','Form_Type_Filed','Contributions','Investment_Income','Program_Service_Revenue','Total_Revenue','Total_Expenses','Total_Assets','Total_Liabilities','Net_Assets','contribpercapita','revpercapita','expensepercapita'
   ]
-  const csvpromise = addCSVTable('#csvtable', '/data/newsorgs/finance/news-finances.csv', expenseHeaders)
+  tid = '#local-news-finance-table'
+  const csvpromise = addCSVTable(tid, '/data/newsorgs/finance/news-finances.csv', expenseHeaders)
+  // custom color data headers to show sources
+  var theadr = d3.select(tid).select('thead').select('tr')
+  theadr.selectAll('th:nth-child(n+1):nth-child(-n+1)').style('color', 'royalblue') // royalblue = irs
+  theadr.selectAll('th:nth-child(n+4):nth-child(-n+4)').style('color', 'royalblue')
+  theadr.selectAll('th:nth-child(n+5):nth-child(-n+7)').style('color', 'teal') // teal = MA DLS
+  theadr.selectAll('th:nth-child(n+8):nth-child(-n+19)').style('color', 'royalblue')
+  theadr.selectAll('th:nth-child(n+20)').style('color', 'darkgreen') // darkgreen = computed
 </script>
