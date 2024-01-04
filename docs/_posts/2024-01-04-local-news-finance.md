@@ -54,13 +54,13 @@ You can [download this CSV data file](/data/newsorgs/finance/news-finances.csv).
   ]
   tid = '#local-news-finance-table'
   const csvpromise = addCSVTable(tid, '/data/newsorgs/finance/news-finances.csv', expenseHeaders)
-</script>
-<script>
-   // custom color data headers to show sources
-  var theadr = d3.select(tid).select('thead').select('tr')
-  theadr.selectAll('th:nth-child(n+1):nth-child(-n+1)').style('color', 'royalblue') // royalblue = irs
-  theadr.selectAll('th:nth-child(n+4):nth-child(-n+4)').style('color', 'royalblue')
-  theadr.selectAll('th:nth-child(n+5):nth-child(-n+7)').style('color', 'teal') // teal = MA DLS
-  theadr.selectAll('th:nth-child(n+8):nth-child(-n+19)').style('color', 'royalblue')
-  theadr.selectAll('th:nth-child(n+20)').style('color', 'darkgreen') // darkgreen = computed
+  csvpromise.then((response) => {
+    // custom color data headers to show sources
+    var theadr = d3.select(tid).select('thead').select('tr')
+    theadr.selectAll('th:nth-child(n+1):nth-child(-n+1)').style('color', 'royalblue') // royalblue = irs
+    theadr.selectAll('th:nth-child(n+4):nth-child(-n+4)').style('color', 'royalblue')
+    theadr.selectAll('th:nth-child(n+5):nth-child(-n+7)').style('color', 'teal') // teal = MA DLS
+    theadr.selectAll('th:nth-child(n+8):nth-child(-n+19)').style('color', 'royalblue')
+    theadr.selectAll('th:nth-child(n+20)').style('color', 'darkgreen') // darkgreen = computed
+  });
 </script>
