@@ -12,7 +12,7 @@ boardType:
 membershipType: non-membership
 boardurl: https://figcitynews.com/about/#board
 bylawsurl:
-numberOfEmployees: '5'
+numberOfEmployees:
 taxID: 92-0697644
 taxIDLocal: '080969'
 nonprofitStatus: Nonprofit501c3

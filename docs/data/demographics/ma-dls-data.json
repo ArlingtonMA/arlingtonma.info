@@ -1,0 +1,35 @@
+{
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "description": "Datasets about Massachusetts from the Division Of Local Services.",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": ".",
+      "description": "MA State datasets.",
+      "describedBy": "https://www.mass.gov/info-details/municipal-databank-data-analytics",
+      "landingPage": "https://www.mass.gov/info-details/municipal-databank-data-analytics",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Commonwealth Of Massachusetts"
+      },
+      "spatial": "Massachusetts",
+      "keyword": [
+        "population",
+        "property",
+        "income"
+      ],
+      "distribution": [
+        {
+          "description": "MA DLS DOR Income And EQV Per Capita, 2023.",
+          "describedBy": "https://www.mass.gov/collections/DLS-databank-reports?topicid=91821",
+          "downloadURL": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=DOR_Income_EQV_Per_Capita",
+          "title": "ma-dls-incomepercapita-2023.csv",
+          "format": "csv",
+          "mediaType": "text/csv"
+        }
+      ]
+    }
+  ]
+}

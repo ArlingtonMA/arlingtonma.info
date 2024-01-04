@@ -50,6 +50,10 @@ layout: default
     {% if page.dissolutionDate %}<abbr title="Date organization was dissolved (if applicable).">Dissolution Date</abbr>: <span itemprop="dissolutionDate">{{ page.dissolutionDate }}</span><br/>{% endif %}
     {% if page.parentOrganization %}<abbr title="Legal organization or corporation this organization belongs to.">Parent Organization</abbr>: <span itemprop="parentOrganization">{{ page.parentOrganization }}</span><br/>{% endif %}
 
+    {% assign demographic = site.data.demographics.ma-dls-incomepercapita-2023 | where: "Municipality", page.location %}
+    {{ demographic | inspect }}
+    {% include demographic.html incdata=demographic.first %}
+
     <hr id="details"/>
     
     {{ content }}

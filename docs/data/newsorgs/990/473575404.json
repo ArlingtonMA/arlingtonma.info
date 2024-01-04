@@ -1,0 +1,47 @@
+{
+  "organization": {
+    "id": 473575404,
+    "ein": 473575404,
+    "name": "Otis Observer",
+    "careofname": "% ARLENE TOLOPKO",
+    "address": "PO BOX 533",
+    "city": "Otis",
+    "state": "MA",
+    "zipcode": "01253-0533",
+    "exemption_number": 0,
+    "subsection_code": 3,
+    "affiliation_code": 3,
+    "classification_codes": "2000",
+    "ruling_date": "2015-05-01",
+    "deductibility_code": 1,
+    "foundation_code": 15,
+    "activity_codes": "000000000",
+    "organization_code": 1,
+    "exempt_organization_status_code": 1,
+    "tax_period": "2023-06-01",
+    "asset_code": 2,
+    "income_code": 2,
+    "filing_requirement_code": 2,
+    "pf_filing_requirement_code": 0,
+    "accounting_period": 6,
+    "asset_amount": 13969,
+    "income_amount": 22715,
+    "revenue_amount": 22715,
+    "ntee_code": "A30",
+    "sort_name": "Arlene Tolopko Mbr",
+    "created_at": "2023-05-09T20:25:02.107Z",
+    "updated_at": "2023-11-28T18:32:01.023Z",
+    "data_source": "current_2023_11_28",
+    "have_extracts": null,
+    "have_pdfs": null,
+    "latest_object_id": "202312929349200501"
+  },
+  "filings_with_data": [
+
+  ],
+  "filings_without_data": [
+
+  ],
+  "data_source": "ProPublica Nonprofit Explorer API: https://projects.propublica.org/nonprofits/api/\nIRS Exempt Organizations Business Master File Extract (EO BMF): https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf\nIRS Annual Extract of Tax-Exempt Organization Financial Data: https://www.irs.gov/uac/soi-tax-stats-annual-extract-of-tax-exempt-organization-financial-data",
+  "api_version": 2
+}

@@ -1,0 +1,7 @@
+<h2 id="demographics">Demographics</h2>
+{{ incdata | inspect }} <br/>
+{{ incdata['include'] | inspect }}<br/>
+Municipality: {{ incdata.Municipality }}<br/>
+Municipality: {{ incdata['Municipality'] }}<br/>
+Population: {{ incdata.Population | integer }}<br/>
+Income per capita: {{ incdata.DORIncomePerCapita | integer }}<br/>
