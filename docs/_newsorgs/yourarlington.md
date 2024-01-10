@@ -14,7 +14,7 @@ boardurl:
 bylawsurl:
 numberOfEmployees: '5'
 taxID: 87-1248884
-taxIDLocal:
+taxIDLocal: '081781'
 nonprofitStatus: Nonprofit501c3
 budgeturl:
 budgetUsd: '60000'
