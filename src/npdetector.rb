@@ -21,10 +21,9 @@ module NPDetectpr
   # link rel="amphtml" provides AMP pages for Google?
   # Wordpress theme name: links like: (MIT) ${url}/wp-content/themes/[a-zA-z-]*/style.css
   # Many sites use yoast: <script type="application/ld+json" class="yoast-schema-graph">...
-  TEST_SITES_X = %w[ https://FigCityNews.com/ ]
+  TEST_SITES = %w[ https://www.ctmirror.org ]
   TEST_SITES_Y = %w[ https://ctmirror.org/  https://FigCityNews.com/ https://hartfordtimes.com/ https://indepthnh.org/ https://nancyonnorwalk.com/ https://newhampshirebulletin.com/ https://newhavenindependent.org/ https://pinetreewatch.org/ https://pvdeye.org/ https://tewksburycarnation.org/ https://theconcordbridge.org/ https://thelocalnews.news/ https://vtdigger.org/ https://www.amjamboafrica.com/ https://www.charlottenewsvt.org/ https://www.commonsnews.org/ https://www.CTMirror.org/ https://www.ecoRI.org/ https://www.ipswichlocalnews.com/ https://www.lexobserver.org/ https://www.oceanstatestories.org/ https://www.themainemonitor.org/ https://www.waterburyroundabout.org/ https://www.yourarlington.com/]
-  TEST_SITES = %w[
-    https://avlwatchdog.org/
+  TEST_SITES_Z = %w[ https://avlwatchdog.org/
 https://aspenjournalism.org
 https://www.baltimorebrew.com
 https://shastascout.org/
@@ -189,6 +188,27 @@ https://www.texasobserver.org
 https://www.austinvida.com
 https://tumbleweird.org
   ]
+  NORMALIZE_MAP = { # HACK normalize chars that drive me crazy
+    ' ' => ' ',
+    '’' => "'",
+    '‘' => "'",
+    '–' => '-'
+  }
+  NORMALIZE_PAT = /[ ’‘–]/
+  SOCIAL_MAP = { # TODO update to capture just id's per service
+    'twitter' => /twitter.com/i,
+    'facebook' => /facebook.com/i,
+    'instagram' => /instagram.com/i,
+    'linkedin' => /linkedin.com/i,
+    'tiktok' => /tiktok.com/i,
+    'threads' => /threads.net/i,
+    'bluesky' => /bsky.app/i,
+    'youtube' => /youtube.com/i,
+    'whatsapp' => /whatsapp.com/i,
+    'snapchat' => /snapchat.com/i,
+    'pinterest' => /pinterest.com/i,
+    'reddit' => /reddit.com/i
+  }
   CSS_MAP = {
     'slogan' => '.site-description',
     'copyright' => '.copyright',
@@ -200,24 +220,26 @@ https://tumbleweird.org
     '501c3' => /501[(\s]*[c][)\s]*[(\s]*3[)\s]*/i,
     'nonprofit' => /non[-\s]?profit/i,
      # See https://www.irs.gov/businesses/small-businesses-self-employed/how-eins-are-assigned-and-valid-ein-prefixes
-    EIN_SCAN => /ein[\w\s]+(01|02|03|04|05|06|10|11|12|13|14|15|16|20|21|22|23|24|25|26|27|30|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|46|47|48|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|71|72|73|74|75|76|77|80|81|82|83|84|85|85|86|86|87|87|88|88|90|91|92|92|93|94|95|98|99|)[-]?\d{7}/i
+    EIN_SCAN => /(tax\s+id|ein)[\D]+(01|02|03|04|05|06|10|11|12|13|14|15|16|20|21|22|23|24|25|26|27|30|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|71|72|73|74|75|76|77|80|81|82|83|84|85|86|87|88|90|91|92|93|94|95|98|99|)[-]?\d{7}/i
   }
   METAS = 'metas'
   LINKS = 'links'
   NAVLINKS = 'linksnav'
   FOOTERLINKS = 'linksfooter'
   ALLLINKS = 'alllinks'
+  SOCIALLINKS = 'social'
   ABOUT = 'aboutlinks'
   DONATE = 'donatelinks'
   LINKRX_MAP = {
     ABOUT => /\Aabout[-]?[u]?/i,
-    'boardlinks' => /\Aboard/i,
-    'teamlinks' => /\Ameet[\w\s]+team/i,
-    'missionlinks' => /[\w\s]*mission\z/i,
-    'policylinks' => /[\w\s]*polic[\w]*\z/i,
+    'boardlinks' => /\Aboard/i, # others: Advisory, Community, Editorial, Our... Board ;Staff &/And Board
+    'teamlinks' => /\Ameet[\w\s]+team/i, # others: Team, Team Bios, The|Our Team; Meet the Staff
+    'missionlinks' => /[\w\s]*mission\z/i, # others: Mission and Values
+    'policylinks' => /[\w\s]*polic[\w]*\z/i, # others: Our values
     'contactlinks' => /\Acontact[\w\s]*\z/i,
-    'adlinks' => /\Aadvertis/i,
-    'contributelinks' => /\Acontribut/i,
+    'adlinks' => /\Aadvertis/i, # others: Ads
+    'contributelinks' => /^(contribut|support)/i, # others: Support, Ways to give
+    'sponsorlinks' => /sponsor/i,
     DONATE => /\Adonat/i
   }
 
@@ -225,6 +247,18 @@ https://tumbleweird.org
   def get_first_css(node, selector)
     nodelist = node.css(selector)
     return nodelist[0].content.strip.gsub(/[\t\n]/, '') if nodelist[0]
+  end
+
+  # @return hash of data from Yoast SEO when available; nil otherwise
+  def get_yoast_graph(head)
+    node = head.at_css('.yoast-schema-graph')
+    return nil unless node
+    begin
+      yoast = JSON.parse(node.content)
+    rescue StandardError => e
+      yoast['error_get_yoast_graph'] = "#{e.message}\n\n#{e.backtrace.join("\n\t")}"
+    end
+    return yoast
   end
 
   # @return hash of various head > meta fields of interest
@@ -249,6 +283,7 @@ https://tumbleweird.org
     metas['canonical'] = nodelist[0]['href'] if nodelist[0]
     nodelist = head.xpath('link[@rel="icon"][@sizes="32x32"]')
     metas['icon32'] = nodelist[0]['href'] if nodelist[0]
+    metas['yoast'] = get_yoast_graph(head)
     return metas
   end
 
@@ -276,7 +311,7 @@ https://tumbleweird.org
     links[ALLLINKS] = []
     nodelist.map(&:content).uniq.each do | txt |
       if txt
-        t = txt.strip
+        t = txt.strip.gsub(NORMALIZE_PAT, NORMALIZE_MAP)
         links[ALLLINKS] << t if t.length > 3 # Arbitrary; ignore non-word links
       end
     end
@@ -342,7 +377,7 @@ https://tumbleweird.org
         end
       end
 
-      itemtypes = body.xpath('//*[@itemtype]') # Does site use schema.org metadata?
+      itemtypes = body.xpath('//*[@itemtype]') # Does the site use schema.org metadata?
       data['itemtypes'] = itemtypes.children.length unless itemtypes.children.empty?
     rescue StandardError => e
       MODULE_LOG << "error_parse_newsurl(#{siteurl}): #{e.message}"
@@ -383,19 +418,67 @@ https://tumbleweird.org
     File.open("#{fileroot}.json", 'w') do |f|
       f.puts JSON.pretty_generate(data)
     end
-    condense_site(fileroot)
   end
 
-  # Convenience method to condense site data and aggregate similar data
+  # Convenience method to condense some site data and aggregate data across sites
   def condense_site(fileroot, aggregate)
     begin
       data = JSON.load_file("#{fileroot}.json")
       condensed = {}
+      identifier = File.basename(fileroot)
+      # Gather some metadata first when present
+      socials = {}
+      socials['twitter'] = data[METAS].fetch('twitter', nil)
+      orgname = ''
+      yoast = data[METAS].fetch('yoast', nil)
+      if yoast
+        yoast['@graph'].each do | elem |
+          next unless 'Organization'.eql?(elem.fetch('@type', nil))
+          orgname = elem['name']
+          sameas = elem.fetch('sameAs', nil)
+          if sameas
+            SOCIAL_MAP.each do | id, regex |
+              found = sameas.select{ |s| regex.match(s)}.first
+              socials[id] = found if found
+            end
+          end
+        end
+      end
+      condensed['identifier'] = identifier
       condensed['title'] = data[METAS].fetch('title', nil)
       condensed['title'] = data[METAS].fetch('titleog', '') unless condensed['title']
+      condensed['commonName'] = ''
+      condensed['legalName'] = orgname
       condensed['description'] = data[METAS].fetch('description', nil)
       condensed['description'] = data[METAS].fetch('descriptionog', '') unless condensed['description']
-      condensed['generator'] = data[METAS].fetch('generator', []).to_s
+      condensed['website'] = data[METAS].fetch('canonical', identifier)
+      condensed['slogan'] = data.fetch('slogan', '')
+      condensed['copyright'] = data['copyright'] if data.has_key?('copyright')
+      condensed['imprint'] = data['imprint'] if data.has_key?('imprint')
+      condensed['masthead'] = nil
+      condensed['location'] = nil
+      condensed['state'] = nil
+      condensed['boardSize'] = nil
+      condensed['boardType'] = nil
+      condensed['membershipType'] = nil
+      condensed['boardurl'] = data[LINKS]['boardlinks']
+      condensed['bylawsurl'] = nil
+      condensed['policyurl'] = data[LINKS]['policylinks']
+      condensed['numberOfEmployees'] = nil
+      condensed['taxID'] = nil
+      condensed['taxIDLocal'] = nil
+      condensed['nonprofitStatus'] = nil
+      condensed['budgeturl'] = nil
+      condensed['budgetUsd'] = nil
+      condensed['budgetYear'] = nil
+      condensed['donateurl'] = data[LINKS]['donatelinks']
+      condensed['sponsorurl'] = nil
+      condensed['advertising'] = data[LINKS]['adlinks']
+      condensed['telephone'] = nil
+      condensed['contactUs'] = data[LINKS]['contactlinks']
+      condensed['icon32'] = data[METAS]['icon32']
+      condensed['webgenerator'] = data[METAS].fetch('generator', []).to_s
+      condensed[SOCIALLINKS] = socials
       eins = []
       nonprofit = []
       data['textmatch'].each do | k, v | # HACK need to figure out what we really need here
@@ -415,12 +498,12 @@ https://tumbleweird.org
       condensed[EIN_SCAN] = eins
       condensed['nonprofit'] = nonprofit
       MODULE_LOG << "condense_site(#{fileroot}): found EIN" unless eins.empty?
-      File.open("#{fileroot}.yml", 'w') do |f|
-        f.puts condensed.to_yaml(:stringify_names => true)
+
+      File.open("#{fileroot}.md", 'w') do |f|
+        f.puts condensed.to_yaml()
       end
       aggregate[NAVLINKS].merge(data[NAVLINKS][ALLLINKS]) if data[NAVLINKS].fetch(ALLLINKS, nil)
       aggregate[FOOTERLINKS].merge(data[FOOTERLINKS][ALLLINKS]) if data[FOOTERLINKS].fetch(ALLLINKS, nil)
-
     rescue StandardError => e
       MODULE_LOG << "condense_site(#{fileroot}): #{e.message}\n\n#{e.backtrace.join("\n\t")}"
     end
@@ -428,7 +511,7 @@ https://tumbleweird.org
 
   # ### #### ##### ######
   # Main method for command line use
-  def process_test(dir)
+  def process_test(dir, aggregate)
     Dir.mkdir(dir) unless Dir.exist?(dir)
     TEST_SITES.each do | siteurl |
       process_site(siteurl, dir)
@@ -447,10 +530,11 @@ https://tumbleweird.org
         f.puts JSON.pretty_generate(data)
       end
   end
+
   if __FILE__ == $PROGRAM_NAME
     dir = 'tmp'
     # process_test(dir)
-    # condense_site(...)
+    process_site('https://www.ctmirror.org', dir)
     process_condense(dir)
     puts "---- done; log of warnings:"
     puts JSON.pretty_generate(MODULE_LOG)
