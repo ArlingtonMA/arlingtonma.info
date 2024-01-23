@@ -13,6 +13,7 @@ module NPDetectpr
   require 'yaml'
   require 'optparse'
   require 'set'
+  require 'csv'
 
   MODULE_LOG = [] # Simplistic logging if needed
   ### Other parsing ideas
@@ -410,11 +411,17 @@ https://tumbleweird.org
     end
   end
 
-  # Convenience method to scrape one site and dump all data
-  def process_site(siteurl, dir)
+  # Convenience method to scrape one site and dump all data to .json
+  def process_site(siteurl, dir, org)
     fileroot = File.join(dir, url2file(siteurl))
     io = get_site(siteurl, "#{fileroot}.html", false)
     data = parse_newsurl(io, siteurl)
+    # If we are given data about the org, pass it through
+    if org
+      org.each do | k, v |
+        data[k] = v # REVIEW This may overwrite some scanned data
+      end
+    end
     File.open("#{fileroot}.json", 'w') do |f|
       f.puts JSON.pretty_generate(data)
     end
@@ -429,7 +436,7 @@ https://tumbleweird.org
       # Gather some metadata first when present
       socials = {}
       socials['twitter'] = data[METAS].fetch('twitter', nil)
-      orgname = ''
+      orgname = nil
       yoast = data[METAS].fetch('yoast', nil)
       if yoast
         yoast['@graph'].each do | elem |
@@ -445,19 +452,22 @@ https://tumbleweird.org
         end
       end
       condensed['identifier'] = identifier
+      condensed['identifier_hack'] = data.fetch('identifier', '')
       condensed['title'] = data[METAS].fetch('title', nil)
       condensed['title'] = data[METAS].fetch('titleog', '') unless condensed['title']
-      condensed['commonName'] = ''
+      condensed['commonName'] = data.fetch('commonName', '')
       condensed['legalName'] = orgname
+      condensed['legalName'] = data.fetch('legalName', '') unless condensed['legalName']
       condensed['description'] = data[METAS].fetch('description', nil)
       condensed['description'] = data[METAS].fetch('descriptionog', '') unless condensed['description']
       condensed['website'] = data[METAS].fetch('canonical', identifier)
+      condensed['website'] = data.fetch('website', '') unless
       condensed['slogan'] = data.fetch('slogan', '')
       condensed['copyright'] = data['copyright'] if data.has_key?('copyright')
       condensed['imprint'] = data['imprint'] if data.has_key?('imprint')
       condensed['masthead'] = nil
-      condensed['location'] = nil
-      condensed['state'] = nil
+      condensed['location'] = data.fetch('location', '')
+      condensed['state'] = data.fetch('state', '')
       condensed['boardSize'] = nil
       condensed['boardType'] = nil
       condensed['membershipType'] = nil
@@ -510,11 +520,20 @@ https://tumbleweird.org
   end
 
   # ### #### ##### ######
-  # Main method for command line use
+  # Main methods for command line use
   def process_test(dir, aggregate)
     Dir.mkdir(dir) unless Dir.exist?(dir)
     TEST_SITES.each do | siteurl |
       process_site(siteurl, dir)
+    end
+  end
+  def process_csv(dir, orgarray)
+    Dir.mkdir(dir) unless Dir.exist?(dir)
+    orgarray.each do | orghash |
+      puts "DEBUG #{orghash.class}  ww#{orghash['website']}ww  #{orghash.size}"
+      puts JSON.pretty_generate(orghash)
+
+      process_site(orghash['website'], dir, orghash)
     end
   end
   def process_condense(dir)
@@ -532,10 +551,12 @@ https://tumbleweird.org
   end
 
   if __FILE__ == $PROGRAM_NAME
-    dir = 'tmp'
+    dir = 'tmpdata'
+    # csv = CSV.new(File.read('npdetector.csv'), :headers => true).to_a.map {|row| row.to_hash }
+    # process_csv(dir, csv)
     # process_test(dir)
-    process_site('https://www.ctmirror.org', dir)
-    process_condense(dir)
+    # process_site('https://www.ctmirror.org', dir)
+    # process_condense(dir)
     puts "---- done; log of warnings:"
     puts JSON.pretty_generate(MODULE_LOG)
   end
