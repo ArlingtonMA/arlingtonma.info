@@ -26,5 +26,8 @@ advertising: https://theswellesleyreport.com/advertise-on-the-swellesley-report/
 telephone:
 emailContact: theswellesleyreport@gmail.com
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 29550
 ---
 

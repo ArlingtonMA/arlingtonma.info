@@ -5,7 +5,7 @@ legalName: Newton News Foundation, Inc.
 description:
 website: https://www.newtonbeacon.org/
 slogan: Independent, nonprofit, and nonpartisan.
-masthead: 'Joe Hunter'
+masthead: Joe Hunter
 location: Newton
 state: MA
 boardSize: '9'
@@ -26,5 +26,8 @@ advertising: None displayed
 telephone:
 emailContact: hello@newtonbeacon.org
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 87381
 ---
 

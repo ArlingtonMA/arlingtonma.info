@@ -25,6 +25,9 @@ advertising: https://www.cambridgeday.com/about/#advertising
 telephone: 617-230-9632
 emailContact: editor@cambridgeday.com
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 118403
 ---
 
 Cambridge Day is a Web-only source for news and entertainment about Cambridge and surrounding communities. There is a Friday print edition called The Week that is distributed Fridays mainly to public places such city halls, libraries and coffee shops; no subscriptions to individual homes are immediately available, but it’s on a list of goals

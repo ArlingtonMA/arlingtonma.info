@@ -1,10 +1,8 @@
 ---
 identifier: searchlightnm_org
-identifier_hack: searchlightnewmexico
 title: Home | Searchlight New Mexico
 commonName: Searchlight New Mexico
 legalName: Searchlight New Mexico
-legalName_hack:
 description: Featured Stories Want to see more? Click here to view our full archive.
 website: https://searchlightnm.org/
 slogan: Independent Investigative Journalism
@@ -16,8 +14,7 @@ state: NM
 boardSize:
 boardType:
 membershipType:
-boardurl:
-- https://searchlightnm.org/about/board/
+boardurl: https://searchlightnm.org/about/board/
 bylawsurl:
 policyurl:
 - https://searchlightnm.org/about/policies/
@@ -46,9 +43,8 @@ webgenerator: '["Site Kit by Google 1.118.0"]'
 social:
   twitter: https://twitter.com/SearchlightNM
   facebook: https://www.facebook.com/SearchlightNewMexico
-einscan:
-- Searchlight New Mexico is a registered 501(c)(3) organization. Our tax identification
-  number is 81-3234552. Your contribution is tax deductible.
-nonprofit:
-- Searchlight New Mexico is a registered 501(c)(3) organization. Our tax identification
-  number is 81-3234552. Your contribution is tax deductible.
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 89008
+---

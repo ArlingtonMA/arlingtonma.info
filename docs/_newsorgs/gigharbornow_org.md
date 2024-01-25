@@ -1,10 +1,8 @@
 ---
 identifier: gigharbornow_org
-identifier_hack: gigharbornow
 title: Home - Gig Harbor Now | A hyperlocal nonprofit newspaper in Gig Harbor
 commonName: Gig Harbor Now
 legalName: Gig Harbor Now
-legalName_hack:
 description: ''
 website: https://www.gigharbornow.org/
 slogan:
@@ -17,8 +15,7 @@ state: WA
 boardSize:
 boardType:
 membershipType:
-boardurl:
-- https://www.gigharbornow.org/about/board-of-directors/
+boardurl: https://www.gigharbornow.org/about/board-of-directors/
 bylawsurl:
 policyurl:
 - https://www.gigharbornow.org/about/our-policies/
@@ -39,11 +36,9 @@ donateurl:
 - http://gigharbornow.org/about/donate/
 contributeurl:
 sponsorurl:
-advertising:
-- https://www.gigharbornow.org/about/website-advertising/
+advertising: https://www.gigharbornow.org/about/website-advertising/
 telephone:
-contactUs:
-- https://www.gigharbornow.org/about/contact/
+contactUs: https://www.gigharbornow.org/about/contact/
 icon32: https://www.gigharbornow.org/wp-content/uploads/2021/08/cropped-GHN-Logo-FINAL-7.21-rgb-favicon-32x32.png
 webgenerator: '["WordPress 6.4.2", "WordPress 6.4.2"]'
 social:
@@ -52,8 +47,8 @@ social:
   instagram: https://www.instagram.com/gigharbornow
   linkedin: https://www.linkedin.com/company/74744893/
   youtube: https://www.youtube.com/channel/UCC9rMo57tOdPkMMLr9WwR9A
-einscan:
-- |2-
-
-  Federal Tax ID #86-1636609
-nonprofit: []
+websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 12484
+---

@@ -26,5 +26,8 @@ advertising: None displayed
 telephone: 855-698-1150
 emailContact: advertising@theconcordbridge.org
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 18491
 ---
 

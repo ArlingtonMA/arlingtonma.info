@@ -5,7 +5,7 @@ legalName: Fig City News, Inc.
 description: No IRS filings yet; incorporated 10-13-2022.
 website: https://figcitynews.com/
 slogan: Community News Hub for Newton, Massachusetts
-masthead: 'Bruce Henderson, Amy Sangiolo'
+masthead: Bruce Henderson, Amy Sangiolo
 location: Newton
 state: MA
 boardSize: '7'
@@ -26,5 +26,8 @@ advertising: Not currently displayed
 telephone: 617-359-3728, 617-610-1093
 emailContact: info@figcitynews.com
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 88923
 ---
 

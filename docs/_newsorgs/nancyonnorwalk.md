@@ -24,7 +24,10 @@ donateurl: https://secure.lglforms.com/form_engine/s/bYBSTaslh_3wXdEHKfFgOw
 sponsorurl:
 advertising: https://www.nancyonnorwalk.com/advertise-with-nancyonnorwalk/
 telephone:
-emailContact: 
+emailContact:
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 91401
 ---
 

@@ -1,10 +1,8 @@
 ---
 identifier: missionlocal_org
-identifier_hack: missionlocal
 title: 'Mission Local: local news for a global city | San Francisco, CA'
 commonName: Mission Local
 legalName: Mission Local
-legalName_hack:
 description: 'Reporting on San Francisco''s most critical issues: police reform, corruption,
   education, public health, housing and homelessness.'
 website: https://missionlocal.org/
@@ -31,12 +29,10 @@ nonprofitStatus:
 budgeturl:
 budgetUsd:
 budgetYear:
-donateurl:
-- "/support-our-publication"
+donateurl: "/support-our-publication"
 contributeurl:
 sponsorurl:
-advertising:
-- https://missionlocal.org/advertise/
+advertising: https://missionlocal.org/advertise/
 telephone:
 contactUs:
 icon32: https://missionloca.s3.amazonaws.com/mission/wp-content/uploads/2021/01/iconlogomap-100x100.jpg
@@ -47,5 +43,8 @@ social:
   instagram: https://www.instagram.com/missionlocal/
   linkedin: https://www.linkedin.com/company/mission-local-inc-/
   youtube: https://www.youtube.com/channel/UC80-ve90ZuX77mbrQHV2Wgg
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 808437
+---

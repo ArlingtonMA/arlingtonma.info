@@ -26,5 +26,8 @@ advertising: https://www.watertownmanews.com/advertising/
 telephone: 617-458-9561
 emailContact: WatertownMANews@gmail.com
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 35022
 ---
 

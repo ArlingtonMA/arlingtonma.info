@@ -1,10 +1,8 @@
 ---
 identifier: wausaupilotandreview_com
-identifier_hack: wausaupilotandreview
 title: Wausau Pilot & Review
 commonName: Wausau Pilot & Review
 legalName: Wausau Pilot and Review Corporation
-legalName_hack:
 description: 'Today''s Top Stories: Today''s Latest Stories: Support Wausau Pilot
   & Review, a local, nonprofit, independent news organization: Snow Report:'
 website: https://wausaupilotandreview.com/
@@ -34,16 +32,12 @@ nonprofitStatus:
 budgeturl:
 budgetUsd:
 budgetYear:
-donateurl:
-- https://wausaupilotandreview.com/support-our-publication/
-contributeurl: &1
-- https://wausaupilotandreview.com/give-a-one-time-contribution/
-sponsorurl: *1
-advertising:
-- https://wausaupilotandreview.com/advertise-with-us-2/
+donateurl: https://wausaupilotandreview.com/support-our-publication/
+contributeurl: https://wausaupilotandreview.com/give-a-one-time-contribution/
+sponsorurl: https://wausaupilotandreview.com/give-a-one-time-contribution/
+advertising: https://wausaupilotandreview.com/advertise-with-us-2/
 telephone:
-contactUs:
-- https://wausaupilotandreview.com/contact/
+contactUs: https://wausaupilotandreview.com/contact/
 icon32: https://wausaupilotandreview.com/wp-content/uploads/2019/12/cropped-Wausau-Pilot-Transparent-32x32.jpg
 webgenerator: '["Site Kit by Google 1.118.0"]'
 social:
@@ -51,5 +45,8 @@ social:
   facebook: https://www.facebook.com/wausaupilotandreview/
   instagram: http://www.instagram.com/wausaupilot
   linkedin: https://www.linkedin.com/in/shereen-siewert-669810a5/
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 39833
+---

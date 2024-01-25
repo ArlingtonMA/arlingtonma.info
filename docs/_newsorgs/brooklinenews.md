@@ -12,18 +12,21 @@ boardSize: '6'
 boardType:
 membershipType: non-membership
 boardurl: https://brookline.news/about-us/
-bylawsurl: 
+bylawsurl:
 numberOfEmployees:
 taxID: 88-4218324
 taxIDLocal: '081848'
 nonprofitStatus: Nonprofit501c3
-budgeturl: 
+budgeturl:
 budgetUsd:
 budgetYear:
 donateurl: https://brookline.news/donate-to-brookline-news/
 sponsorurl:
-advertising: 
+advertising:
 telephone:
 emailContact:
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 63191
 ---

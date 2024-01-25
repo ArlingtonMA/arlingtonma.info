@@ -26,5 +26,8 @@ advertising: https://www.natickreport.com/advertise-on-natick-report/
 telephone:
 emailContact: natickreport@gmail.com
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 32091
 ---
 

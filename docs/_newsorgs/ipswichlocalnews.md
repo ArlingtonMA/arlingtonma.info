@@ -13,6 +13,7 @@ boardType:
 membershipType:
 boardurl:
 bylawsurl:
+reporturl: https://s3.documentcloud.org/documents/23881033/annual-report-2022.pdf
 numberOfEmployees: '10'
 taxID: 84-3780597
 taxIDLocal: '065470'
@@ -26,5 +27,8 @@ advertising: https://thelocalnews.news/advertise/
 telephone:
 emailContact:
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 13785
 ---
 

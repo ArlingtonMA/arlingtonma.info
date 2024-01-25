@@ -1,10 +1,8 @@
 ---
 identifier: afrolanews_org
-identifier_hack: afrola
 title: Home - AfroLA
 commonName: AfroLA
 legalName: AfroLA
-legalName_hack:
 description: AfroLA is solutions-focused, data-driven and community-centered journalism
   for Los Angeles, told through the lens of the Black community.
 website: https://afrolanews.org/
@@ -50,8 +48,8 @@ social:
   instagram: https://www.instagram.com/afrolanews/
   linkedin: https://www.linkedin.com/company/afrolanews/
   tiktok: https://www.tiktok.com/@afrolanews
-einscan:
-- 'AfroLA Media Group is a 501(c)(3) nonprofit organization (Federal Tax ID: 88-2517496).'
-nonprofit:
-- AfroLA is a 501(c)(3) nonprofit organization; all donations are tax-deductible.
-- 'AfroLA Media Group is a 501(c)(3) nonprofit organization (Federal Tax ID: 88-2517496).'
+websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 3822238
+---

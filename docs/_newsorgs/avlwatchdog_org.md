@@ -1,10 +1,8 @@
 ---
 identifier: avlwatchdog_org
-identifier_hack: ashevillewatchdog
 title: Asheville Watchdog
 commonName: Asheville Watchdog
 legalName: Asheville Watchdog
-legalName_hack:
 description: Informing and engaging the citizens of Asheville and surrounding communities
   by providing fair, factual and reliable in-depth news stories about local government,
   institutions, issues, and people.
@@ -37,17 +35,18 @@ donateurl:
 - https://avlwatchdog.org/support-our-publication/
 - "/support-our-publication"
 - https://avlwatchdog.org/donate/
-contributeurl: &1
-- https://avlwatchdog.org/support-our-publication/
-sponsorurl: *1
+contributeurl: https://avlwatchdog.org/support-our-publication/
+sponsorurl: https://avlwatchdog.org/support-our-publication/
 advertising:
 telephone:
-contactUs:
-- https://avlwatchdog.org/contact/
+contactUs: https://avlwatchdog.org/contact/
 icon32: https://avlwatchdog.org/wp-content/uploads/2022/07/cropped-Watchdog-paw-print-100x100.png?crop=1
 webgenerator: '["Site Kit by Google 1.118.0"]'
 social:
   twitter: https://twitter.com/avlwatchdog
   facebook: https://www.facebook.com/avlwatchdog/
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 93776
+---

@@ -1,10 +1,8 @@
 ---
 identifier: carolinapublicpress_org
-identifier_hack: carolinapublicpress
 title: Home - Carolina Public Press
 commonName: Carolina Public Press
 legalName: Carolina Public Press
-legalName_hack:
 description: Read More Latest News NC Connection:Closing the News Gap A special CPP
   research project on the news needs of rural North Carolinians Read the report Keep
 website: https://carolinapublicpress.org/
@@ -32,11 +30,9 @@ nonprofitStatus:
 budgeturl:
 budgetUsd:
 budgetYear:
-donateurl:
-- https://carolinapublicpress.fundjournalism.org/donate/
-contributeurl: &1
-- https://carolinapublicpress.fundjournalism.org/donate?amount=10&frequency=monthly&campaign=123456789AB
-sponsorurl: *1
+donateurl: https://carolinapublicpress.fundjournalism.org/donate/
+contributeurl: https://carolinapublicpress.fundjournalism.org/donate?amount=10&frequency=monthly&campaign=123456789AB
+sponsorurl: https://carolinapublicpress.fundjournalism.org/donate?amount=10&frequency=monthly&campaign=123456789AB
 advertising:
 telephone:
 contactUs:
@@ -47,6 +43,8 @@ social:
   facebook: https://www.facebook.com/CarolinaPublicPress/
   instagram: https://www.instagram.com/carolinapublicpress/
   linkedin: https://www.linkedin.com/company/carolina-public-press
-einscan:
-- 'EIN: 46-0801080'
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 93776
+---

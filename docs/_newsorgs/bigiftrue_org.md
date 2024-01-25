@@ -1,10 +1,8 @@
 ---
 identifier: bigiftrue_org
-identifier_hack: bigiftrue
 title: Home - Streetlight
 commonName: Big If True
 legalName: Streetlight Inc
-legalName_hack:
 description: ''
 website: https://streetlightnews.org/
 slogan:
@@ -16,13 +14,11 @@ state: OK
 boardSize:
 boardType:
 membershipType:
-boardurl:
-- https://streetlightnews.org/about/board/
+boardurl: https://streetlightnews.org/about/board/
 bylawsurl:
 policyurl:
 teamurl:
-missionurl:
-- https://streetlightnews.org/about/
+missionurl: https://streetlightnews.org/about/
 numberOfEmployees:
 taxID: 82-5409220
 taxIDLocal:
@@ -30,8 +26,7 @@ nonprofitStatus:
 budgeturl:
 budgetUsd:
 budgetYear:
-donateurl:
-- https://streetlightnews.org/support/
+donateurl: https://streetlightnews.org/support/
 contributeurl:
 sponsorurl:
 advertising:
@@ -43,5 +38,8 @@ social:
   twitter: https://twitter.com/streetlightorg
   facebook: https://www.facebook.com/StreetlightNews
   instagram: https://www.instagram.com/streetlightnews/
-einscan: []
-nonprofit: []
+websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 694800
+---

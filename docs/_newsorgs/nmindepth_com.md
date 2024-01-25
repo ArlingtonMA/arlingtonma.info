@@ -1,10 +1,8 @@
 ---
 identifier: nmindepth_com
-identifier_hack: newmexicoindepth
 title: New Mexico In Depth - Smart. Investigative. Journalism for New Mexico.
 commonName: New Mexico In Depth
 legalName: New Mexico In Depth Inc
-legalName_hack:
 description: Smart. Investigative. Journalism for New Mexico.
 website: https://nmindepth.com/
 slogan:
@@ -16,11 +14,9 @@ state: NM
 boardSize:
 boardType:
 membershipType:
-boardurl:
-- https://nmindepth.com/board-of-directors/
+boardurl: https://nmindepth.com/board-of-directors/
 bylawsurl:
-policyurl:
-- https://nmindepth.com/new-mexico-in-depth-privacy-policy/
+policyurl: https://nmindepth.com/new-mexico-in-depth-privacy-policy/
 teamurl:
 missionurl:
 numberOfEmployees:
@@ -30,21 +26,20 @@ nonprofitStatus:
 budgeturl:
 budgetUsd:
 budgetYear:
-donateurl:
-- https://nmindepth.com/donate/
-contributeurl: &1
-- https://nmindepth.com/donate/
-sponsorurl: *1
+donateurl: https://nmindepth.com/donate/
+contributeurl: https://nmindepth.com/donate/
+sponsorurl: https://nmindepth.com/donate/
 advertising:
 telephone:
-contactUs:
-- https://nmindepth.com/contact-us/
+contactUs: https://nmindepth.com/contact-us/
 icon32:
-webgenerator: "[]"
+webgenerator:
 social:
   twitter: https://twitter.com/NMInDepth
   facebook: https://www.facebook.com/NMInDepth
   instagram: https://www.instagram.com/nmindepth/
   youtube: https://www.youtube.com/@NMInDepth/
-einscan: []
-nonprofit: []
+demographics:
+  source: uscensus2022
+  population: 108082
+---

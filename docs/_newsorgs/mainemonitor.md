@@ -2,9 +2,10 @@
 identifier: mainemonitor
 commonName: The Maine Monitor
 legalName: Maine Center for Public Interest Reporting
-description: The Maine Monitor delivers fearless, citizen-supported, nonpartisan journalism that keeps Mainers informed.
+description: The Maine Monitor delivers fearless, citizen-supported, nonpartisan journalism
+  that keeps Mainers informed.
 website: https://themainemonitor.org/
-slogan: "The Maine Monitor: A nonprofit digital newsroom"
+slogan: 'The Maine Monitor: A nonprofit digital newsroom'
 masthead:
 location: Hallowell
 state: ME
@@ -13,6 +14,7 @@ boardType:
 membershipType:
 boardurl: https://themainemonitor.org/board-of-directors-2/
 bylawsurl:
+reporturl: https://themainemonitor.org/wp-content/uploads/2023/03/2022-Maine-Monitor-MCPIR-Impact-Report.pdf
 numberOfEmployees:
 taxID: 27-2623867
 taxIDLocal: 20100365ND
@@ -28,5 +30,8 @@ policyurl: https://themainemonitor.org/ethics-and-conflicts-of-interest-policies
 telephone:
 emailContact:
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 2597
 ---
 

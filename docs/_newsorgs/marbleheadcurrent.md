@@ -25,5 +25,8 @@ advertising: https://marbleheadcurrent.org/ads/
 telephone:
 emailContact:
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 20441
 ---
 

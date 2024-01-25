@@ -1,6 +1,5 @@
 ---
 identifier: montclairlocal_news
-identifier_hack: montclairlocalnews
 title: Montclair Local News - Montclair Local
 commonName: Montclair Local News
 legalName: Montclair Local Nonprofit News Inc
@@ -34,16 +33,14 @@ donateurl:
 - "/donate"
 contributeurl:
 sponsorurl:
-advertising:
-- https://montclairlocal.news/advertising/
+advertising: https://montclairlocal.news/advertising/
 telephone:
-contactUs:
-- https://montclairlocal.news/contact-us/
+contactUs: https://montclairlocal.news/contact-us/
 icon32: https://montclairlocal.news/wp-content/uploads/2023/07/favicon-300x300-1-150x150.png?crop=1
 webgenerator: '["Site Kit by Google 1.118.0"]'
 social:
   twitter: https://twitter.com/montclairlocal
   facebook: https://www.facebook.com/montclairlocal/
   instagram: https://www.instagram.com/baristanet/
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+---

@@ -1,10 +1,8 @@
 ---
 identifier: themarjorie_org
-identifier_hack: marjorie
 title: Home - The Marjorie
 commonName: Marjorie, The
 legalName: The Marjorie
-legalName_hack:
 description: The Marjorie is Florida’s first and only reporting outlet dedicated to
   the critical intersection of social justice and the environment.
 website: https://themarjorie.org/
@@ -19,8 +17,7 @@ boardType:
 membershipType:
 boardurl:
 bylawsurl:
-policyurl:
-- https://themarjorie.org/privacy-policy/
+policyurl: https://themarjorie.org/privacy-policy/
 teamurl:
 missionurl:
 numberOfEmployees:
@@ -30,11 +27,9 @@ nonprofitStatus:
 budgeturl:
 budgetUsd:
 budgetYear:
-donateurl:
-- https://themarjorie.org/donate-today/
-contributeurl: &1
-- https://themarjorie.org/contributor-series/
-sponsorurl: *1
+donateurl: https://themarjorie.org/donate-today/
+contributeurl: https://themarjorie.org/contributor-series/
+sponsorurl: https://themarjorie.org/contributor-series/
 advertising:
 telephone:
 contactUs:
@@ -42,5 +37,8 @@ icon32: https://themarjorie.org/wp-content/uploads/2017/11/cropped-Crane_Logo-32
 webgenerator: '["Site Kit by Google 1.116.0"]'
 social:
   twitter:
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 145214
+---

@@ -23,7 +23,10 @@ budgetYear:
 donateurl: https://belmontvoice.org/donate/
 sponsorurl:
 advertising: https://belmontvoice.org/advertise/
-telephone: 
-emailContact: 
+telephone:
+emailContact:
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 26116
 ---

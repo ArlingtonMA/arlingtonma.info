@@ -2,7 +2,7 @@
 identifier: carlislemosquito
 commonName: Carlisle Mosquito
 legalName: Carlisle Communication, Inc.
-description: 'Weekly print edition delivered free; had 11 employees in 2021.'
+description: Weekly print edition delivered free; had 11 employees in 2021.
 website: https://www.carlislemosquito.org/
 masthead: Wanda Avril, General manager
 location: Carlisle
@@ -25,5 +25,8 @@ advertising: None
 telephone: 978-369-8313
 emailContact: ads@carlislemosquito.org
 websitecms: Joomla
+demographics:
+  source: uscensus2019
+  population: 5237
 ---
 

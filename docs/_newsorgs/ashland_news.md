@@ -1,11 +1,10 @@
 ---
 identifier: ashland_news
-identifier_hack: ashland
 title: Ashland News - Community-Supported, NonProfit News
 commonName: Ashland.news
 legalName: Ashland News
-legalName_hack:
-description: Ashland.news - Independent, nonprofit, community-based news informing our local residents in current events and local stories.
+description: Ashland.news - Independent, nonprofit, community-based news informing
+  our local residents in current events and local stories.
 website: https://ashland.news/
 slogan:
 copyright:
@@ -41,5 +40,8 @@ webgenerator: '["WordPress 6.4.2", "Elementor 3.18.3; features: e_dom_optimizati
   google_font-enabled, font_display-auto"]'
 social:
   twitter:
-einscan: []
-nonprofit: []
+websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 21285
+---

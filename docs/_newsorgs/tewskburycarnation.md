@@ -5,7 +5,7 @@ legalName: Tewskbury Carnation
 description:
 website: https://tewksburycarnation.org/
 slogan: Local news, insights and events from Tewksbury, Massachusetts
-masthead: 'Lorna'
+masthead: Lorna
 location: Tewksbury
 state: MA
 boardSize:
@@ -26,5 +26,8 @@ advertising: None displayed
 telephone:
 emailContact: editor@tewksburycarnation.org
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 31342
 ---
 

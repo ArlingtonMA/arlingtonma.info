@@ -13,6 +13,7 @@ boardType:
 membershipType:
 boardurl:
 bylawsurl:
+reporturl: https://vtdigger.org/2021-annual-report/
 numberOfEmployees:
 taxID: 27-1553931
 taxIDLocal: '0087066'
@@ -26,5 +27,8 @@ advertising: https://vtdigger.org/advertise/
 telephone:
 emailContact:
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 44595
 ---
 

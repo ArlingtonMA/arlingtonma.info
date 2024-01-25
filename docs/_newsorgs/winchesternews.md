@@ -13,6 +13,7 @@ boardType:
 membershipType: non-membership
 boardurl: https://www.winchesternews.org/about/board-of-directors
 bylawsurl: https://www.winchesternews.org/about/bylaws
+reporturl: https://winchesternews.org/content/files/2023/12/Business-Plan.pdf
 numberOfEmployees:
 taxID:
 taxIDLocal: '001649954'
@@ -26,5 +27,8 @@ advertising:
 telephone:
 emailContact:
 websitecms:
+demographics:
+  source: uscensus2019
+  population: 22970
 ---
 

@@ -13,6 +13,7 @@ boardType:
 membershipType: non-membership (Directors are only members)
 boardurl: https://lexobserver.org/our-mission/our-team/
 bylawsurl:
+reporturl: https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g27da3497263_0_0
 numberOfEmployees:
 taxID: 87-4640985
 taxIDLocal: '081962'
@@ -26,5 +27,8 @@ advertising: Lists local corporate sponsors
 telephone:
 emailContact: nicco@lexobserver.org
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 34454
 ---
 

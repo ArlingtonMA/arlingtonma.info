@@ -1,10 +1,8 @@
 ---
 identifier: fresnoland_org
-identifier_hack: fresnoland
 title: Fresnoland - Central San Joaquin Valley Policy News
 commonName: Fresnoland
 legalName: Fresnoland
-legalName_hack:
 description: Fresnoland is a nonprofit news organization in California's central San
   Joaquin Valley dedicated to making policy public.
 website: https://fresnoland.org/
@@ -17,8 +15,7 @@ state: CA
 boardSize:
 boardType:
 membershipType:
-boardurl:
-- https://fresnoland.org/board-of-directors/
+boardurl: https://fresnoland.org/board-of-directors/
 bylawsurl:
 policyurl:
 teamurl:
@@ -49,5 +46,8 @@ social:
   facebook: https://facebook.com/thefresnoland
   instagram: https://instagram.com/fresnoland
   linkedin: https://linkedin.com/company/fresnoland
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 545567
+---

@@ -1,10 +1,8 @@
 ---
 identifier: investigatemidwest_org
-identifier_hack: investigatemidwest
-title: Home - Investigate Midwest
+title: Investigate Midwest
 commonName: Investigate Midwest
 legalName: Investigate Midwest
-legalName_hack:
 description: Investigate Midwest is an independent, nonprofit newsroom. Our mission
   is to serve the public interest by exposing dangerous and costly practices of influential
   agricultural corporations and institutions through in-depth and data-driven investigative
@@ -19,11 +17,9 @@ state: IL
 boardSize:
 boardType:
 membershipType:
-boardurl:
-- https://investigatemidwest.org/board-of-directors-2/
+boardurl: https://investigatemidwest.org/board-of-directors-2/
 bylawsurl:
-policyurl:
-- https://investigatemidwest.org/user-agreement-and-privacy-policy/
+policyurl: https://investigatemidwest.org/user-agreement-and-privacy-policy/
 teamurl:
 missionurl:
 numberOfEmployees:
@@ -34,16 +30,17 @@ budgeturl:
 budgetUsd:
 budgetYear:
 donateurl:
-contributeurl: &1
-- https://investigatemidwest.org/donate-3/
-sponsorurl: *1
+contributeurl: https://investigatemidwest.org/donate-3/
+sponsorurl: https://investigatemidwest.org/donate-3/
 advertising:
 telephone:
-contactUs:
-- https://investigatemidwest.org/contact-us/
+contactUs: https://investigatemidwest.org/contact-us/
 icon32:
 webgenerator: '["Site Kit by Google 1.118.0"]'
 social:
   twitter:
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 89241
+---

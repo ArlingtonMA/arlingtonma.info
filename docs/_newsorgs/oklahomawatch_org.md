@@ -1,10 +1,8 @@
 ---
 identifier: oklahomawatch_org
-identifier_hack: oklahomawatch
 title: Home - Oklahoma Watch
 commonName: Oklahoma Watch
 legalName: Oklahoma Watch Inc
-legalName_hack:
 description: Support Oklahoma Watch Democracy Criminal Justice Race & Equity Education
   The Vulnerable Podcasts
 website: https://oklahomawatch.org/
@@ -17,8 +15,7 @@ state: OK
 boardSize:
 boardType:
 membershipType:
-boardurl:
-- https://oklahomawatch.org/board-of-directors/
+boardurl: https://oklahomawatch.org/board-of-directors/
 bylawsurl:
 policyurl:
 - https://oklahomawatch.org/privacy-policy/
@@ -34,13 +31,11 @@ budgeturl:
 budgetUsd:
 budgetYear:
 donateurl:
-contributeurl: &1
-- https://oklahomawatch.org/help-us-make-a-difference/
-sponsorurl: *1
+contributeurl: https://oklahomawatch.org/help-us-make-a-difference/
+sponsorurl: https://oklahomawatch.org/help-us-make-a-difference/
 advertising:
 telephone:
-contactUs:
-- https://oklahomawatch.org/contact-us/
+contactUs: https://oklahomawatch.org/contact-us/
 icon32: https://oklahomawatch.org/wp-content/uploads/2019/10/okwatch-icon-100x100.png
 webgenerator: '["Site Kit by Google 1.118.0"]'
 social:
@@ -48,5 +43,8 @@ social:
   facebook: https://www.facebook.com/OklahomaWatch
   instagram: https://www.instagram.com/oklahoma_watch/
   linkedin: https://www.linkedin.com/company/10175470/admin/
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 694800
+---

@@ -26,4 +26,7 @@ advertising: http://belmontonian.com/advertising/
 telephone: 617-932-9229
 emailContact: editor@belmontonian.com
 websitecms: WP
+demographics:
+  source: uscensus2019
+  population: 26116
 ---

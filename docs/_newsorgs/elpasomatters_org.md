@@ -1,10 +1,8 @@
 ---
 identifier: elpasomatters_org
-identifier_hack: elpasomatters
 title: Homepage - El Paso Matters
 commonName: El Paso Matters
 legalName: El Paso Matters
-legalName_hack:
 description: El Paso Matters is an independent, member-supported nonprofit news organization
   focusing on in-depth and investigative journalism covering the El Paso, Juarez border
   region
@@ -39,8 +37,7 @@ donateurl:
 - https://elpasomatters.fundjournalism.org/donate/?campaign=7018Z000001uDkPQAU
 contributeurl:
 sponsorurl:
-advertising:
-- https://elpasomatters.org/advertising/
+advertising: https://elpasomatters.org/advertising/
 telephone:
 contactUs:
 icon32: https://elpasomatters.org/wp-content/uploads/2020/01/cropped-epmatters-favicon2-32x32.png
@@ -49,5 +46,8 @@ social:
   twitter: https://twitter.com/elpasomatters
   facebook: https://www.facebook.com/elpasomatters
   instagram: https://www.instagram.com/elpasomatters/
-einscan: []
-nonprofit: []
+websitecms: WP,SiteKit
+demographics:
+  source: uscensus2022
+  population: 677456
+---

@@ -17,7 +17,7 @@ numberOfEmployees: '6'
 taxID: 86-2407296
 taxIDLocal: '080183'
 nonprofitStatus: Nonprofit501c3
-budgeturl:
+budgeturl: https://newbedfordlight.org/wp-content/uploads/2024/01/2022-Audited-Financial-Statements-New-Bedford-Light-Inc.pdf
 budgetUsd: '993896'
 budgetYear: '2021'
 donateurl: https://newbedfordlight.org/support-our-publication/
@@ -26,5 +26,8 @@ advertising:
 telephone:
 emailContact: info@newbedfordlight.org
 websitecms: WP
+demographics:
+  source: uscensus2022
+  population: 100682
 ---
 

@@ -26,5 +26,9 @@ advertising:
 telephone: 781-641-4490
 emailContact: sprague.bob@gmail.com
 websitecms: Joomla
+demographics:
+  source: uscensus2019
+  population: 46308
 ---
 
+Your Arlington is a long-running hyperlocal newspaper turned into a nonprofit.
