@@ -29,6 +29,7 @@ layout: default
     {% if page.taxID %}<abbr title="US IRS taxID, or other country's tax identifier (if any).">Tax Authority ID</abbr>: <span itemprop="taxID">{{ page.taxID }}</span><br/>{% endif %}
     {% if page.taxIDLocal %}<abbr title="Local taxID, for example MA AG Account Number (if any).">Local Tax Authority ID</abbr>: <span itemprop="taxIDLocal">{{ page.taxIDLocal }}</span><br/>{% endif %}
     {% if page.nonprofitStatus %}<abbr title="Specific type of non-profit; US or other country type.">Nonprofit Type</abbr>: <span itemprop="nonprofitStatus">{{ page.nonprofitStatus }}</span><br/>{% endif %}
+    {% if page.reporturl %}<abbr title="Annual or other overview report.">Annual Report (or other overview presentation)</abbr>: <a itemprop="reporturl" href="{{ page.reporturl }}">{{ page.reporturl }}</a><br/>{% endif %}
     {% if page.funding %}<abbr title="Primary funding sources in rough order: (corporate) sponsors; (individual) donations; grants; other.">Funding Sources</abbr>: <span itemprop="funding">{{ page.funding }}</span><br/>{% endif %}
     {% if page.budgetUsd %}<abbr title="Approximate annual budget in USD.">Budget in USD</abbr>: <span itemprop="budgetUsd">{{ page.budgetUsd }}</span><br/>{% endif %}
     {% if page.budgetYear %}<abbr title="Year budgetUsd number was entered.">Budget Year</abbr>: <span itemprop="budgetYear">{{ page.budgetYear }}</span><br/>{% endif %}
