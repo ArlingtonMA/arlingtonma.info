@@ -17,7 +17,7 @@ layout: default
     {% if page.masthead %}<abbr title="Link to the masthead page or a page listing top editorial management.">masthead</abbr>: <a itemprop="masthead" href="{{ page.masthead }}">{{ page.masthead }}</a><br/>{% endif %}
     {% if page.contactPoint %}<abbr title="Contact point or tipline for the organization.">Contact Point</abbr>: <span itemprop="contactPoint">{{ page.contactPoint }}</span><br/>{% endif %}
     <h2 id="governance">Governance</h2>
-    {% if page.location %}<abbr title="Country or specific location organization is based.">Location</abbr>: <span itemprop="location">{{ page.location }}</span><br/>{% endif %}
+    {% if page.location %}<abbr title="Specific location organization is based.">Location</abbr>: <span itemprop="location">{{ page.location }}, {{ page.state }}</span><br/>{% endif %}
     {% if page.areaServed %}<abbr title="Geographic area of news coverage or focus.">Area Served</abbr>: <span itemprop="areaServed">{{ page.areaServed }}</span><br/>{% endif %}
     {% if page.boardSize %}<abbr title="Number of board of director seats.">Board Size</abbr>: <span itemprop="boardSize">{{ page.boardSize }}</span><br/>{% endif %}
     {% if page.boardType %}<abbr title="Approximate type of board: (non-paid) member elected; (paid) sponsor elected; appointed; etc.">Board Type</abbr>: <span itemprop="boardType">{{ page.boardType }}</span><br/>{% endif %}
@@ -49,11 +49,6 @@ layout: default
     {% if page.foundingDate %}<abbr title="Date organization was legally incorporated (or similar).">Founding Date</abbr>: <span itemprop="foundingDate">{{ page.foundingDate }}</span><br/>{% endif %}
     {% if page.dissolutionDate %}<abbr title="Date organization was dissolved (if applicable).">Dissolution Date</abbr>: <span itemprop="dissolutionDate">{{ page.dissolutionDate }}</span><br/>{% endif %}
     {% if page.parentOrganization %}<abbr title="Legal organization or corporation this organization belongs to.">Parent Organization</abbr>: <span itemprop="parentOrganization">{{ page.parentOrganization }}</span><br/>{% endif %}
-
-    {% assign demographic = site.data.demographics.ma-dls-incomepercapita-2023 | where: "Municipality", page.location %}
-    {{ demographic | inspect }}
-    {% include demographic.html incdata=demographic.first %}
-
     <hr id="details"/>
     
     {{ content }}

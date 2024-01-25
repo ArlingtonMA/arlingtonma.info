@@ -4,5 +4,6 @@
     </h2>
     <abbr title="Primary website homepage.">Website</abbr>: <a href="{{ newsorg.website }}">{{ newsorg.website }}</a><br/>
     <abbr title="Specific type of non-profit; US or other country type.">Nonprofit Type</abbr>: {{ newsorg.nonprofitStatus }}<br/>
+    <abbr title="Specific location organization is based.">Location</abbr>: <span itemprop="location">{{ page.location }}, {{ page.state }}</span><br/>
     {{ newsorg.description }}
   </li>
