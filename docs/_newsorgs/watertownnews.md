@@ -7,6 +7,7 @@ website: https://www.watertownmanews.com/
 slogan: Your local news source
 masthead: Charlie Breitrose, Founder and Editor
 location: Watertown
+state: MA
 boardSize:
 boardType:
 membershipType:

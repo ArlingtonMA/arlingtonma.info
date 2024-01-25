@@ -7,6 +7,7 @@ website: https://www.natickreport.com/
 slogan: More than you really want to know about Natick, Mass.
 masthead: Deborah and Bob Brown, Co-editors
 location: Natick
+state: MA
 boardSize:
 boardType:
 membershipType:

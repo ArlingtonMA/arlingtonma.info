@@ -7,6 +7,7 @@ website: https://www.sheffieldtimes.org/
 slogan: 
 masthead: Kathy Orlando & Andrea Scott
 location: Sheffield
+state: MA
 boardSize: 10
 boardType:
 membershipType:

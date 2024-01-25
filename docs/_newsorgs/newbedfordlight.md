@@ -7,6 +7,7 @@ website: https://newbedfordlight.org/
 slogan: Illuminating our community with public service journalism.
 masthead:
 location: New Bedford
+state: MA
 boardSize: '12'
 boardType:
 membershipType: non-membership

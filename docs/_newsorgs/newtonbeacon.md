@@ -7,6 +7,7 @@ website: https://www.newtonbeacon.org/
 slogan: Independent, nonprofit, and nonpartisan.
 masthead: 'Joe Hunter'
 location: Newton
+state: MA
 boardSize: '9'
 boardType:
 membershipType: non-membership

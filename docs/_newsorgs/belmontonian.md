@@ -7,6 +7,7 @@ website: https://belmontonian.com/
 slogan: News in the Town of Homes.
 masthead: Franklin Tucker, Editor and Publisher
 location: Belmont
+state: MA
 boardSize:
 boardType:
 membershipType:

@@ -7,6 +7,7 @@ description: 'No IRS filings yet; formed in 2021; 2022 revenue from board minute
 website: https://lexobserver.org/
 masthead: Nicco Mele, Publisher
 location: Lexington
+state: MA
 boardSize: '9'
 boardType:
 membershipType: non-membership (Directors are only members)

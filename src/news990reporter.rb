@@ -7,6 +7,7 @@ module News990Reporter
   require 'json'
   require 'csv'
   require 'yaml'
+  require 'faraday' # open-uri does not work in this script, which is quite a mystery
   require '../../propublica990/propublica990'
 
   # Read markdown orgs
@@ -173,21 +174,85 @@ module News990Reporter
     return report
   end
 
+  # @return hash structure from Propublica's nonprofit explorer, based on corporate name and state
+  def search_propublica(name, state)
+    begin
+      propublica = Faraday.new(url: 'https://projects.propublica.org/')
+      urlbase = "nonprofits/api/v2/search.json?q=#{name.gsub(' ', '+')}&state[id]=#{state}"
+      # Actual working URL: https://projects.propublica.org/nonprofits/api/v2/search.json?q=canopy+atlanta&state%5Bid%5D=GA
+      # 500 error url:      https://projects.propublica.org/nonprofits/api/v2/search.json?q=AfroLA&state=%5Bid%5D%3DCA
+      # query = "?q=#{name.gsub(' ', '+')}&state[id]=#{state}" # Using this in Faraday encodes the state[id]=GA part wrong
+      #query = name
+      #querystate = "[id]=#{state}"
+      #response = propublica.get(urlbase, { q: query })
+      response = propublica.get(urlbase)
+      puts "DEBUG: requested URL: #{response.env.url.to_s}"
+      return JSON.load(response.body)
+    rescue StandardError => e
+      puts "ERROR: search_propublica(#{name}): #{e.message}\n\n#{e.backtrace.join("\n\t")}"
+      return nil
+    end
+  end
+
+  # Printout likely match status
+  def print_propublica_match(name, data)
+    results = data['total_results']
+    if results == 0
+      puts "XNo org found: #{name}"
+    elsif results == 1
+      org = data['organizations'].first
+      puts "Likely org found: #{name} maybe: EIN: #{org['strein']} for: #{org['name']}"
+    else
+      puts "Multiple orgs found for: #{name}"
+      data['organizations'].each do | org |
+        puts "  EIN: #{org['strein']} for: #{org['name']}"
+      end
+    end
+  end
+
+  # Lookup all orgs in Propublica's nonprofit explorer and return lists of potential EINs
+  def lookup_propublica(dir)
+    matches = {}
+    Dir["#{dir}/**/*.md"].each do |f|
+      identifier = File.basename(f, '.md')
+      org = YAML.load(File.read(f), aliases: true)
+      tid = org.fetch('taxID', '')
+      state = org.fetch('state', '')
+      legalName = org.fetch('legalName', '')
+      # puts "lookup_propublica(): #{tid}, #{state}, #{legalName} -- -- --"
+      next if tid && tid.length > 2
+      next if state.nil?
+      next if state.length < 1
+      next if legalName.nil?
+      next if legalName.length < 2
+      p = search_propublica(legalName, state)
+      if p
+        matches[identifier] = p
+        print_propublica_match(identifier, p)
+      end
+    end
+    return matches
+  end
+
   # ### #### ##### ######
   # Main method for command line use
   if __FILE__ == $PROGRAM_NAME
-    fn = DEM_CSV
-    demographics = read_demographics(fn)
-    dir = NEWSORGS_DIR
-    orgs = read_newsorgs(dir)
-    dir = P990_DIR
-    p990s = Propublica990.get_orgs(NEWS_EINS, dir)
-    report = generate_report(orgs, p990s, demographics)
-    CSV.open("../docs/data/newsorgs/finance/news-finances.csv", "w") do |csv|
-      csv << REPORT_HEADERS
-      report.each do | r |
-        csv << r.values
-      end
+    dir = '../../npdetector'
+    # fn = DEM_CSV
+    # demographics = read_demographics(fn)
+    # orgs = read_newsorgs(dir)
+    # dir = P990_DIR
+    # p990s = Propublica990.get_orgs(NEWS_EINS, dir)
+    # report = generate_report(orgs, p990s, demographics)
+    # CSV.open("../docs/data/newsorgs/finance/news-finances.csv", "w") do |csv|
+    #   csv << REPORT_HEADERS
+    #   report.each do | r |
+    #     csv << r.values
+    #   end
+    # end
+    matches = lookup_propublica(dir)
+    File.open("news990reporter.json", 'w') do |f|
+      f.puts JSON.pretty_generate(matches)
     end
   end
 end

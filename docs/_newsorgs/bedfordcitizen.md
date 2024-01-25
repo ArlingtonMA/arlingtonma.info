@@ -7,6 +7,7 @@ website: https://www.thebedfordcitizen.org/
 slogan: The Bedford Citizen informs and engages the Bedford, MA, community through reporting news of local significance, promoting local events, fostering connectivity, and encouraging participation.
 masthead: Mike Rosenberg, Reporter
 location: Bedford
+state: MA
 boardSize: '10'
 boardType:
 membershipType: non-membership

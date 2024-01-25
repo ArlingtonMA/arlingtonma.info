@@ -7,6 +7,7 @@ website: https://yourarlington.com/
 slogan: News and Views from Arlington, MA
 masthead: Bob Sprague, Founder
 location: Arlington
+state: MA
 boardSize: '9'
 boardType:
 membershipType: non-membership

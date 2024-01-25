@@ -7,6 +7,7 @@ website: https://theswellesleyreport.com/
 slogan: More than you really want to know about Wellesley, Mass.
 masthead: Deborah and Bob Brown, Co-editors
 location: Wellesley
+state: MA
 boardSize:
 boardType:
 membershipType:

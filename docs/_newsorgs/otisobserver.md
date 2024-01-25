@@ -7,6 +7,7 @@ website: https://otisobserver.com/
 slogan: 
 masthead: Arlene Tolopko
 location: Otis
+state: MA
 boardSize: 4
 boardType:
 membershipType: non-membership

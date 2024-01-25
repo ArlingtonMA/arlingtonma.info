@@ -6,7 +6,8 @@ description:
 website: https://www.nancyonnorwalk.com/
 slogan:
 masthead: Nancy Guenther Chapman, Founder
-location: Norwalk, CT
+location: Norwalk
+state: CT
 boardSize: 11
 boardType:
 membershipType:

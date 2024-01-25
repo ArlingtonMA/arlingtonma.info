@@ -7,6 +7,7 @@ website: https://theconcordbridge.org/
 slogan: Keeping Concord Connected
 masthead: Peggy Burke, Director
 location: Concord
+state: MA
 boardSize: '7'
 boardType:
 membershipType: non-membership

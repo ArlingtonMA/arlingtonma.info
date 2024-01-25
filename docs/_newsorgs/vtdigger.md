@@ -6,7 +6,8 @@ description:
 website: https://vtdigger.com/
 slogan: Member-supported journalism. Informing and engaging Vermont.
 masthead: Anne Galloway, Founder
-location: Burlington, VT
+location: Burlington
+state: VT
 boardSize: '15'
 boardType:
 membershipType:

@@ -7,6 +7,7 @@ website: https://belmontvoice.org/
 slogan: News in the Town of Homes.
 masthead: Jessie Floyd, editor
 location: Belmont
+state: MA
 boardSize: 8
 boardType:
 membershipType: non-membership

@@ -7,6 +7,7 @@ website: https://thelocalnews.news/
 slogan: Reader-supported, community-driven news.
 masthead:
 location: Ipswich
+state: MA
 boardSize: '5'
 boardType:
 membershipType:

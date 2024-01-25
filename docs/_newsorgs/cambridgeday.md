@@ -6,6 +6,7 @@ description: Weekly print edition at businesses, libraries.
 website: https://www.cambridgeday.com/
 masthead: Marc Levy, Editor/publisher
 location: Cambridge
+state: MA
 boardSize:
 boardType:
 membershipType:

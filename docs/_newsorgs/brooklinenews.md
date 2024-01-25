@@ -7,6 +7,7 @@ website: https://brookline.news/about-us/
 slogan:
 masthead: Sam Mintz, founding editor
 location: Brookline
+state: MA
 boardSize: '6'
 boardType:
 membershipType: non-membership

@@ -1,12 +1,13 @@
 ---
 identifier: tewskburycarnation
 commonName: Tewskbury Carnation
-legalName:
+legalName: Tewskbury Carnation
 description:
 website: https://tewksburycarnation.org/
 slogan: Local news, insights and events from Tewksbury, Massachusetts
 masthead: 'Lorna'
 location: Tewksbury
+state: MA
 boardSize:
 boardType:
 membershipType:

@@ -6,6 +6,7 @@ description: 'Weekly print edition delivered free; had 11 employees in 2021.'
 website: https://www.carlislemosquito.org/
 masthead: Wanda Avril, General manager
 location: Carlisle
+state: MA
 boardSize: '15'
 boardType:
 membershipType:

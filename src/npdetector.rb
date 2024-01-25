@@ -15,6 +15,8 @@ module NPDetectpr
   require 'set'
   require 'csv'
 
+  HACK_DO_ABOUT = false
+
   MODULE_LOG = [] # Simplistic logging if needed
   ### Other parsing ideas
   # link rel="alternate" type="application/rss+xml" multiple URLS to feeds
@@ -22,173 +24,6 @@ module NPDetectpr
   # link rel="amphtml" provides AMP pages for Google?
   # Wordpress theme name: links like: (MIT) ${url}/wp-content/themes/[a-zA-z-]*/style.css
   # Many sites use yoast: <script type="application/ld+json" class="yoast-schema-graph">...
-  TEST_SITES = %w[ https://www.ctmirror.org ]
-  TEST_SITES_Y = %w[ https://ctmirror.org/  https://FigCityNews.com/ https://hartfordtimes.com/ https://indepthnh.org/ https://nancyonnorwalk.com/ https://newhampshirebulletin.com/ https://newhavenindependent.org/ https://pinetreewatch.org/ https://pvdeye.org/ https://tewksburycarnation.org/ https://theconcordbridge.org/ https://thelocalnews.news/ https://vtdigger.org/ https://www.amjamboafrica.com/ https://www.charlottenewsvt.org/ https://www.commonsnews.org/ https://www.CTMirror.org/ https://www.ecoRI.org/ https://www.ipswichlocalnews.com/ https://www.lexobserver.org/ https://www.oceanstatestories.org/ https://www.themainemonitor.org/ https://www.waterburyroundabout.org/ https://www.yourarlington.com/]
-  TEST_SITES_Z = %w[ https://avlwatchdog.org/
-https://aspenjournalism.org
-https://www.baltimorebrew.com
-https://shastascout.org/
-https://beltmag.com
-https://austonia.com
-https://carolinapublicpress.org
-https://nowkalamazoo.com
-https://chicosol.org
-https://www.civicstory.org
-https://www.coastalreview.org
-https://codastory.com
-https://dcist.com
-https://eastlansinginfo.news
-https://www.bayoubrief.com
-https://www.floridabulldog.org
-https://www.greensourcedfw.org
-https://www.hcn.org
-https://www.thedailycatch.org
-https://marylandreporter.com
-https://matternews.org
-https://mountainjournal.org
-https://www.midstory.org
-https://minnpost.com
-https://Mississippitoday.org
-https://montanafreepress.org
-https://www.mymcmedia.org
-https://www.njspotlight.com
-https://oklahomawatch.org
-https://voiceofoc.org
-https://www.Calo.org
-https://www.searchlightnm.org
-https://www.TucsonSentinel.com
-https://missionlocal.org
-https://www.sdnewswatch.org
-https://tarbell.org
-https://boulderreportinglab.org
-https://theaustinbulldog.org
-https://latinorebels.com
-https://boyleheightsbeat.com
-https://breckenridgetexan.com
-https://thecity.nyc
-https://www.thecurrentla.com
-https://www.daggerpress.com
-https://thedcline.org
-https://thefern.org/donate
-https://kycir.org
-https://thelensnola.org
-https://www.thelundreport.org/
-https://investigatemidwest.org
-https://thetylerloop.com
-https://nkytribune.com
-https://wisconsinwatch.org
-https://nuvo.net
-https://billypenn.com
-https://chicagoreporter.com
-https://therivardreport.com
-https://rochesterbeacon.com
-https://sammamish.news
-https://sierranevadaally.org
-https://southsideweekly.com
-https://utahinvestigative.org
-https://www.localnewsmatters.org
-https://www.tonemadison.com
-https://iowacapitaldispatch.com/
-https://voicesofmontereybay.org
-https://thenevadaindependent.com
-https://www.spotlightpa.org
-https://www.marylandmatters.org
-https://witnessla.com
-https://www.wyofile.com
-https://www.inewsource.org
-https://SanJoseInside.com
-https://xtown.la
-https://eltimpano.org
-https://berkeleyside.com
-https://coloradonewsline.com/
-https://coloradofoic.org/
-https://ljidelaware.org
-https://jaxtoday.org
-https://verocommunique.com
-https://thecurrentga.org
-https://austintalks.org/
-https://hoptownchronicle.org/
-https://eplocalnews.org
-https://webbcity.net
-https://thebeacon.media
-https://thelocalreporter.press
-https://NorthCarolinaHealthNews.org
-https://nmindepth.com
-https://chalkbeat.org
-https://documentedny.com/about-us
-https://www.nysfocus.com
-https://www.austinmonitor.com
-https://theaustinbulldog.org
-https://www.virginiamercury.com
-https://cardinalnews.org
-https://www.gigharbornow.org
-https://www.spokanefavs.com
-https://www.wausaupilotandreview.com
-https://www.mountainstatespotlight.org
-https://mountainstatespotlight.org/
-https://www.cinespeak.org/
-https://azluminaria.org
-https://grist.org
-https://www.conectaarizona.com
-https://www.catchlight.io
-https://fresnoland.org
-https://openvallejo.org
-https://RiversideRecord.org
-https://edsource.org
-https://lookoutlocal.com
-https://www.afrolanews.org
-https://www.berkeleyside.com
-https://spotlightschools.com
-https://thefrisc.com
-https://westsideobserver.com
-https://theyappie.com
-https://www.themarjorie.org
-https://www.oviedocommunitynews.org
-https://jaxtrib.org
-https://www.theatlantavoice.com
-https://canopyatlanta.org
-https://macon-newsroom.com
-https://www.objectivejournalism.org
-https://www.therecordnorthshore.org
-https://illinoisanswers.org
-https://harveyworld.org
-https://civiclex.org
-https://thebaltimorebanner.com
-https://cecil.tv
-https://tostadamagazine.com
-https://theuptake.org
-https://join.theoptimist.mn
-https://www.kansascitydefender.com
-https://www.mississippifreepress.org
-https://ashevillefreepress.com
-https://nebraskajournalismtrust.org
-https://jerseybee.org
-https://www.montclairlocal.news
-https://atlanticcityfocus.tinynewsco.org
-https://bloomfieldinfo.org
-https://www.publicsq.org
-https://questanews.com
-https://www.doublescoop.art
-https://thedailycatch.org
-https://nyc.streetsblog.org
-https://www.TheBuckeyeFlame.com
-https://eyeonohio.com
-https://www.thelandcle.org
-https://www.Blackgirlincle.com
-https://www.thereportingproject.org
-https://www.bigiftrue.org
-https://ashland.news
-https://www.underscore.news
-https://www.tubecityonline.com
-https://www.thegburgvoice.org
-https://www.thegreencities.com
-https://elpasomatters.org
-https://www.islandmatters.org/
-https://nowcastsa.com
-https://www.texasobserver.org
-https://www.austinvida.com
-https://tumbleweird.org
-  ]
   NORMALIZE_MAP = { # HACK normalize chars that drive me crazy
     ' ' => ' ',
     '’' => "'",
@@ -241,7 +76,8 @@ https://tumbleweird.org
     'adlinks' => /\Aadvertis/i, # others: Ads
     'contributelinks' => /^(contribut|support)/i, # others: Support, Ways to give
     'sponsorlinks' => /sponsor/i,
-    DONATE => /\Adonat/i
+    DONATE => /\Adonat/i,
+    'statesnewsroom' => /states[\s]?newsroom/i # Common fiscal host
   }
 
   # @return text content of first node.css(selector) found; nil if none
@@ -342,41 +178,43 @@ https://tumbleweird.org
       data[NAVLINKS] = get_links_all(doc.css('nav a'), LINKRX_MAP)
       data[FOOTERLINKS] = get_links_all(doc.css('footer a'), LINKRX_MAP)
       data[TEXT_MATCHES] = scan_text(doc.xpath('/html/body//text()'), TEXTRX_MAP)
-      if data[TEXT_MATCHES][EIN_SCAN].empty?
-        # If we didn't find any EINs, then also parse about pages to scan text
-        abouts = data[LINKS][ABOUT]
-        if abouts
-          abouts.each do | u |
-            next if u.nil?
-            next if u.start_with?('#') # Don't bother parsing links that are just fragments
-            url = URI(u)
-            if !url.absolute?
-              url = URI(siteurl).merge(u).to_s
-             end
-            # Read the about url (no caching) and do partial scan
-            MODULE_LOG << "Parsing about link: #{url}"
-            aio = URI.open(url).read
-            adoc = Nokogiri::HTML(aio)
-            data[TEXT_MATCHES][url] = scan_text(adoc.xpath('/html/body//text()'), TEXTRX_MAP)
+      if HACK_DO_ABOUT ### HACK excess network reads
+        if data[TEXT_MATCHES][EIN_SCAN].empty?
+          # If we didn't find any EINs, then also parse about pages to scan text
+          abouts = data[LINKS][ABOUT]
+          if abouts
+            abouts.each do | u |
+              next if u.nil?
+              next if u.start_with?('#') # Don't bother parsing links that are just fragments
+              url = URI(u)
+              if !url.absolute?
+                url = URI(siteurl).merge(u).to_s
+              end
+              # Read the about url (no caching) and do partial scan
+              MODULE_LOG << "Parsing about link: #{url}"
+              aio = URI.open(url).read
+              adoc = Nokogiri::HTML(aio)
+              data[TEXT_MATCHES][url] = scan_text(adoc.xpath('/html/body//text()'), TEXTRX_MAP)
+            end
+          end
+          donates = data[LINKS][DONATE]
+          if donates
+            donates.each do | u |
+              next if u.nil?
+              next if u.start_with?('#') # Don't bother parsing links that are just fragments
+              url = URI(u)
+              if !url.absolute?
+                url = URI(siteurl).merge(u).to_s
+              end
+              # Read the about url (no caching) and do partial scan
+              MODULE_LOG << "Parsing donate link: #{url}"
+              aio = URI.open(url).read
+              adoc = Nokogiri::HTML(aio)
+              data[TEXT_MATCHES][url] = scan_text(adoc.xpath('/html/body//text()'), TEXTRX_MAP)
+            end
           end
         end
-        donates = data[LINKS][DONATE]
-        if donates
-          donates.each do | u |
-            next if u.nil?
-            next if u.start_with?('#') # Don't bother parsing links that are just fragments
-            url = URI(u)
-            if !url.absolute?
-              url = URI(siteurl).merge(u).to_s
-             end
-            # Read the about url (no caching) and do partial scan
-            MODULE_LOG << "Parsing donate link: #{url}"
-            aio = URI.open(url).read
-            adoc = Nokogiri::HTML(aio)
-            data[TEXT_MATCHES][url] = scan_text(adoc.xpath('/html/body//text()'), TEXTRX_MAP)
-          end
-        end
-      end
+      end ### HACK_DO_ABOUT
 
       itemtypes = body.xpath('//*[@itemtype]') # Does the site use schema.org metadata?
       data['itemtypes'] = itemtypes.children.length unless itemtypes.children.empty?
@@ -433,6 +271,7 @@ https://tumbleweird.org
       data = JSON.load_file("#{fileroot}.json")
       condensed = {}
       identifier = File.basename(fileroot)
+      aggregate['sites'] << identifier
       # Gather some metadata first when present
       socials = {}
       socials['twitter'] = data[METAS].fetch('twitter', nil)
@@ -457,11 +296,11 @@ https://tumbleweird.org
       condensed['title'] = data[METAS].fetch('titleog', '') unless condensed['title']
       condensed['commonName'] = data.fetch('commonName', '')
       condensed['legalName'] = orgname
-      condensed['legalName'] = data.fetch('legalName', '') unless condensed['legalName']
+      condensed['legalName_hack'] = data.fetch('legalName', '')
       condensed['description'] = data[METAS].fetch('description', nil)
       condensed['description'] = data[METAS].fetch('descriptionog', '') unless condensed['description']
-      condensed['website'] = data[METAS].fetch('canonical', identifier)
-      condensed['website'] = data.fetch('website', '') unless
+      condensed['website'] = data[METAS].fetch('canonical', nil)
+      condensed['website'] = data.fetch('website', '') unless condensed['website']
       condensed['slogan'] = data.fetch('slogan', '')
       condensed['copyright'] = data['copyright'] if data.has_key?('copyright')
       condensed['imprint'] = data['imprint'] if data.has_key?('imprint')
@@ -474,15 +313,18 @@ https://tumbleweird.org
       condensed['boardurl'] = data[LINKS]['boardlinks']
       condensed['bylawsurl'] = nil
       condensed['policyurl'] = data[LINKS]['policylinks']
+      condensed['teamurl'] = data[LINKS]['teamlinks']
+      condensed['missionurl'] = data[LINKS]['missionlinks']
       condensed['numberOfEmployees'] = nil
-      condensed['taxID'] = nil
+      condensed['taxID'] = data.fetch('taxID', nil)
       condensed['taxIDLocal'] = nil
       condensed['nonprofitStatus'] = nil
       condensed['budgeturl'] = nil
       condensed['budgetUsd'] = nil
       condensed['budgetYear'] = nil
       condensed['donateurl'] = data[LINKS]['donatelinks']
-      condensed['sponsorurl'] = nil
+      condensed['contributeurl'] = data[LINKS]['contributelinks']
+      condensed['sponsorurl'] = data[LINKS]['contributelinks']
       condensed['advertising'] = data[LINKS]['adlinks']
       condensed['telephone'] = nil
       condensed['contactUs'] = data[LINKS]['contactlinks']
@@ -507,13 +349,21 @@ https://tumbleweird.org
       end
       condensed[EIN_SCAN] = eins
       condensed['nonprofit'] = nonprofit
-      MODULE_LOG << "condense_site(#{fileroot}): found EIN" unless eins.empty?
+      MODULE_LOG << "condense_site(#{fileroot}): found possible EIN(s)" unless eins.empty?
 
       File.open("#{fileroot}.md", 'w') do |f|
         f.puts condensed.to_yaml()
       end
-      aggregate[NAVLINKS].merge(data[NAVLINKS][ALLLINKS]) if data[NAVLINKS].fetch(ALLLINKS, nil)
-      aggregate[FOOTERLINKS].merge(data[FOOTERLINKS][ALLLINKS]) if data[FOOTERLINKS].fetch(ALLLINKS, nil)
+      if data[NAVLINKS].has_key?(ALLLINKS)
+        data[NAVLINKS][ALLLINKS].each do | l |
+          aggregate[NAVLINKS][l] += 1
+        end
+      end
+      if data[FOOTERLINKS].has_key?(ALLLINKS)
+        data[FOOTERLINKS][ALLLINKS].each do | l |
+          aggregate[FOOTERLINKS][l] += 1
+        end
+      end
     rescue StandardError => e
       MODULE_LOG << "condense_site(#{fileroot}): #{e.message}\n\n#{e.backtrace.join("\n\t")}"
     end
@@ -521,42 +371,34 @@ https://tumbleweird.org
 
   # ### #### ##### ######
   # Main methods for command line use
-  def process_test(dir, aggregate)
-    Dir.mkdir(dir) unless Dir.exist?(dir)
-    TEST_SITES.each do | siteurl |
-      process_site(siteurl, dir)
-    end
-  end
   def process_csv(dir, orgarray)
     Dir.mkdir(dir) unless Dir.exist?(dir)
     orgarray.each do | orghash |
-      puts "DEBUG #{orghash.class}  ww#{orghash['website']}ww  #{orghash.size}"
-      puts JSON.pretty_generate(orghash)
-
       process_site(orghash['website'], dir, orghash)
     end
   end
   def process_condense(dir)
     data = {} # Aggregate lists of common link names
-    data[NAVLINKS] = Set.new()
-    data[FOOTERLINKS] = Set.new()
+    data[NAVLINKS] = Hash.new(0)
+    data[FOOTERLINKS] = Hash.new(0)
+    data['sites'] = []
     Dir["#{dir}/*.json"].each do |f|
       condense_site(f.sub('.json', ''), data)
     end
-    data[NAVLINKS] = data[NAVLINKS].to_a.sort
-    data[FOOTERLINKS] = data[FOOTERLINKS].to_a.sort
+    data[NAVLINKS] = data[NAVLINKS].reject { |k,v| v < 2 }
+    data[FOOTERLINKS] = data[FOOTERLINKS].reject { |k,v| v < 2 }
+    data[NAVLINKS] = Hash[data[NAVLINKS].sort_by { |k, v| -v }]
+    data[FOOTERLINKS] = Hash[data[FOOTERLINKS].sort_by { |k, v| -v }]
     File.open("npdetector.json", 'w') do |f|
-        f.puts JSON.pretty_generate(data)
-      end
+      f.puts JSON.pretty_generate(data)
+    end
   end
 
   if __FILE__ == $PROGRAM_NAME
-    dir = 'tmpdata'
-    # csv = CSV.new(File.read('npdetector.csv'), :headers => true).to_a.map {|row| row.to_hash }
-    # process_csv(dir, csv)
-    # process_test(dir)
-    # process_site('https://www.ctmirror.org', dir)
-    # process_condense(dir)
+    dir = '../../npdetector'
+    csv = CSV.new(File.read('npdetector.csv'), :headers => true).to_a.map {|row| row.to_hash }
+    process_csv(dir, csv)
+    process_condense(dir)
     puts "---- done; log of warnings:"
     puts JSON.pretty_generate(MODULE_LOG)
   end

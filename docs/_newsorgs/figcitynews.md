@@ -7,6 +7,7 @@ website: https://figcitynews.com/
 slogan: Community News Hub for Newton, Massachusetts
 masthead: 'Bruce Henderson, Amy Sangiolo'
 location: Newton
+state: MA
 boardSize: '7'
 boardType:
 membershipType: non-membership

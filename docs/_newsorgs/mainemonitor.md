@@ -4,9 +4,10 @@ commonName: The Maine Monitor
 legalName: Maine Center for Public Interest Reporting
 description: The Maine Monitor delivers fearless, citizen-supported, nonpartisan journalism that keeps Mainers informed.
 website: https://themainemonitor.org/
-slogan: The Maine Monitor: A nonprofit digital newsroom
+slogan: "The Maine Monitor: A nonprofit digital newsroom"
 masthead:
-location: Hallowell, ME
+location: Hallowell
+state: ME
 boardSize: '8'
 boardType:
 membershipType:

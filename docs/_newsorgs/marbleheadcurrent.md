@@ -6,6 +6,7 @@ description: Formed summer 2022; Approx gross budget taken from their Donate pag
 website: https://marbleheadcurrent.org/
 masthead:
 location: Marblehead
+state: MA
 boardSize: '9'
 boardType:
 membershipType: Incorporation specifies members

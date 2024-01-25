@@ -7,6 +7,7 @@ website: https://www.winchesternews.org/
 slogan:
 masthead: Joyce Westner, Editor and Founder
 location: Winchester
+state: MA
 boardSize: '6'
 boardType:
 membershipType: non-membership
