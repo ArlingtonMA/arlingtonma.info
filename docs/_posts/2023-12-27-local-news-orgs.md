@@ -12,7 +12,7 @@ While detailed nonprofit finances are often hard to find - volunteer-run organiz
 
 We've built a metadata listing of locally-owned news organizations in eastern MA and in select other places in the US - read on below!  As an open source project, we'd love additions and corrections to the data, as well as people to help organize the data and tie it more directly into other data sources.  If you're familiar with GitHub, submit a PR.  If GitHub is a mystery, ask us for help: I'd love to teach any local journalists how to use the simpler web-based features of GitHub to build super-simple and zero maintenance websites.
 
-See an [alphabetical listing of news sites](/newsorgs/), or see [news sites by state](/newsorgs/bystate).
+See an [alphabetical listing of news sites](/newsorgs/), or see [news sites by state](/newsorgs/bystate), or [download a CSV](https://github.com/ArlingtonMA/arlingtonma.info/tree/master/docs/data/newsorgs/newsorgslint.csv) of just some of the data columns we capture.
 
 For a more comprehensive list of Massachusetts based news organizations, follow [Dan Kennedy's Media Nation blog](https://dankennedy.net/2021/12/24/boston-globe-media-eyes-expanding-into-tv-films-broadcast-and-radio/).
 
