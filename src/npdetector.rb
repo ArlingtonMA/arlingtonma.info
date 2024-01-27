@@ -12,18 +12,14 @@ module NPDetectpr
   require 'json'
   require 'yaml'
   require 'optparse'
-  require 'set'
   require 'csv'
 
-  HACK_DO_ABOUT = false
+  HACK_DO_ABOUT = true
 
   MODULE_LOG = [] # Simplistic logging if needed
+  CACHE_SUBDIR = 'cache'
   ### Other parsing ideas
-  # link rel="alternate" type="application/rss+xml" multiple URLS to feeds
-  # link rel="https://api.w.org/" signals Wordpress hosting?
   # link rel="amphtml" provides AMP pages for Google?
-  # Wordpress theme name: links like: (MIT) ${url}/wp-content/themes/[a-zA-z-]*/style.css
-  # Many sites use yoast: <script type="application/ld+json" class="yoast-schema-graph">...
   NORMALIZE_MAP = { # HACK normalize chars that drive me crazy
     ' ' => ' ',
     '’' => "'",
@@ -56,7 +52,7 @@ module NPDetectpr
     '501c3' => /501[(\s]*[c][)\s]*[(\s]*3[)\s]*/i,
     'nonprofit' => /non[-\s]?profit/i,
      # See https://www.irs.gov/businesses/small-businesses-self-employed/how-eins-are-assigned-and-valid-ein-prefixes
-    EIN_SCAN => /(tax\s+id|ein)[\D]+(01|02|03|04|05|06|10|11|12|13|14|15|16|20|21|22|23|24|25|26|27|30|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|71|72|73|74|75|76|77|80|81|82|83|84|85|86|87|88|90|91|92|93|94|95|98|99|)[-]?\d{7}/i
+    EIN_SCAN => /(tax\s+id:?|ein:?)[\D]+(01|02|03|04|05|06|10|11|12|13|14|15|16|20|21|22|23|24|25|26|27|30|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|71|72|73|74|75|76|77|80|81|82|83|84|85|86|87|88|90|91|92|93|94|95|98|99|)[-]?\d{7}/i
   }
   METAS = 'metas'
   LINKS = 'links'
@@ -69,12 +65,12 @@ module NPDetectpr
   LINKRX_MAP = {
     ABOUT => /\Aabout[-]?[u]?/i,
     'boardlinks' => /\Aboard/i, # others: Advisory, Community, Editorial, Our... Board ;Staff &/And Board
-    'teamlinks' => /\Ameet[\w\s]+team/i, # others: Team, Team Bios, The|Our Team; Meet the Staff
+    'teamlinks' => /\A(meet|our|the)[\w\s]+(team|staff)/i, # others: Team, Team Bios
     'missionlinks' => /[\w\s]*mission\z/i, # others: Mission and Values
     'policylinks' => /[\w\s]*polic[\w]*\z/i, # others: Our values
     'contactlinks' => /\Acontact[\w\s]*\z/i,
     'adlinks' => /\Aadvertis/i, # others: Ads
-    'contributelinks' => /^(contribut|support)/i, # others: Support, Ways to give
+    'contributelinks' => /^(contribut|support)/i, # others:  Ways to give
     'sponsorlinks' => /sponsor/i,
     DONATE => /\Adonat/i,
     'statesnewsroom' => /states[\s]?newsroom/i # Common fiscal host
@@ -124,14 +120,23 @@ module NPDetectpr
     return metas
   end
 
-  # @return hash of various potentially interesting unique link hrefs
-  def get_links(nodelist, lookfor)
+  # @return absolute url, or nil if non-useful (i.e. just a # fragment or blank href)
+  def absolute_href(base, href)
+    return nil if href.nil?
+    return nil if /\/?#\z/.match(href) # Skip bare fragments
+    url = URI(href)
+    return url.absolute? ? url.to_s : URI(base).merge(href).to_s
+  end
+
+  # @return hash of interesting unique hrefs
+  def get_links(siteurl, nodelist, lookfor)
     tmp = Hash.new { | h, k | h[k] = [] }
     nodelist.each do | node | # FIXME horribly inefficient
       txt = node.content
       lookfor.each do | id, regex |
         if regex.match(txt)
-          tmp[id] << node['href']
+          abshref = absolute_href(siteurl, node['href'])
+          tmp[id] << abshref if abshref
         end
       end
     end
@@ -142,9 +147,9 @@ module NPDetectpr
     return links
   end
 
-  # @return hash of interesting link hrefs, plus all link contents
-  def get_links_all(nodelist, lookfor)
-    links = get_links(nodelist, lookfor)
+  # @return hash of interesting unique hrefs, plus all links text separately
+  def get_links_all(siteurl, nodelist, lookfor)
+    links = get_links(siteurl, nodelist, lookfor)
     links[ALLLINKS] = []
     nodelist.map(&:content).uniq.each do | txt |
       if txt
@@ -174,9 +179,9 @@ module NPDetectpr
         data[id] = get_first_css(body, selector)
       end
       data[METAS] = get_metas(doc.xpath('/html/head'))
-      data[LINKS] = get_links(doc.css('a'), LINKRX_MAP)
-      data[NAVLINKS] = get_links_all(doc.css('nav a'), LINKRX_MAP)
-      data[FOOTERLINKS] = get_links_all(doc.css('footer a'), LINKRX_MAP)
+      data[LINKS] = get_links(siteurl, doc.css('a'), LINKRX_MAP)
+      data[NAVLINKS] = get_links_all(siteurl, doc.css('nav a'), LINKRX_MAP)
+      data[FOOTERLINKS] = get_links_all(siteurl, doc.css('footer a'), LINKRX_MAP)
       data[TEXT_MATCHES] = scan_text(doc.xpath('/html/body//text()'), TEXTRX_MAP)
       if HACK_DO_ABOUT ### HACK excess network reads
         if data[TEXT_MATCHES][EIN_SCAN].empty?
@@ -230,12 +235,16 @@ module NPDetectpr
     return URI(url.downcase).host.sub('www.','').gsub('.', '_')
   end
 
-  # Get the plain html of a news website, aggressively caching
+  # Get the plain html of a news website, aggressively caching in CACHE_SUBDIR
   # @param url as string of site to grab
+  # @param dir as local directory for cache
   # @param filename as local file to cache
   # @param refresh if true, force a lookup from site
   # @return filepath/name of the site's .html content, bare
-  def get_site(url, filename, refresh = false)
+  def get_site(url, dir, file, refresh = false)
+    cache_dir = File.join(dir, CACHE_SUBDIR)
+    Dir.mkdir(cache_dir) unless Dir.exist?(cache_dir)
+    filename = File.join(cache_dir, file)
     begin
       if refresh or !File.exist?(filename)
         File.open(filename, 'w') do |f|
@@ -251,16 +260,16 @@ module NPDetectpr
 
   # Convenience method to scrape one site and dump all data to .json
   def process_site(siteurl, dir, org)
-    fileroot = File.join(dir, url2file(siteurl))
-    io = get_site(siteurl, "#{fileroot}.html", false)
+    filename = url2file(siteurl)
+    io = get_site(siteurl, dir, "#{filename}.html", false)
     data = parse_newsurl(io, siteurl)
-    # If we are given data about the org, pass it through
+    # If we are given manual data about the org, pass it through
     if org
       org.each do | k, v |
         data[k] = v # REVIEW This may overwrite some scanned data
       end
     end
-    File.open("#{fileroot}.json", 'w') do |f|
+    File.open(File.join(dir, "#{filename}.json"), 'w') do |f|
       f.puts JSON.pretty_generate(data)
     end
   end
@@ -310,11 +319,11 @@ module NPDetectpr
       condensed['boardSize'] = nil
       condensed['boardType'] = nil
       condensed['membershipType'] = nil
-      condensed['boardurl'] = data[LINKS]['boardlinks']
+      condensed['boardurl'] = data[LINKS].fetch('boardlinks', nil)
       condensed['bylawsurl'] = nil
-      condensed['policyurl'] = data[LINKS]['policylinks']
-      condensed['teamurl'] = data[LINKS]['teamlinks']
-      condensed['missionurl'] = data[LINKS]['missionlinks']
+      condensed['policyurl'] = data[LINKS].fetch('policylinks', nil)
+      condensed['teamurl'] = data[LINKS].fetch('teamlinks', nil)
+      condensed['missionurl'] = data[LINKS].fetch('missionlinks', nil)
       condensed['numberOfEmployees'] = nil
       condensed['taxID'] = data.fetch('taxID', nil)
       condensed['taxIDLocal'] = nil
@@ -322,14 +331,15 @@ module NPDetectpr
       condensed['budgeturl'] = nil
       condensed['budgetUsd'] = nil
       condensed['budgetYear'] = nil
-      condensed['donateurl'] = data[LINKS]['donatelinks']
-      condensed['contributeurl'] = data[LINKS]['contributelinks']
-      condensed['sponsorurl'] = data[LINKS]['contributelinks']
-      condensed['advertising'] = data[LINKS]['adlinks']
+      condensed['donateurl'] = data[LINKS].fetch('donatelinks', nil)
+      condensed['contributeurl'] = data[LINKS].fetch('contributelinks', nil)
+      condensed['sponsorurl'] = data[LINKS].fetch('sponsorlinks', nil)
+      condensed['advertising'] = data[LINKS].fetch('adlinks', nil)
       condensed['telephone'] = nil
-      condensed['contactUs'] = data[LINKS]['contactlinks']
+      condensed['contactUs'] = data[LINKS].fetch('contactlinks', nil)
       condensed['icon32'] = data[METAS]['icon32']
-      condensed['webgenerator'] = data[METAS].fetch('generator', []).to_s
+      generator = data[METAS].fetch('generator', [])
+      condensed['webgenerator'] = generator.to_s unless generator.empty?
       condensed[SOCIALLINKS] = socials
       eins = []
       nonprofit = []
@@ -377,7 +387,7 @@ module NPDetectpr
       process_site(orghash['website'], dir, orghash)
     end
   end
-  def process_condense(dir)
+  def process_condense(dir, outfile)
     data = {} # Aggregate lists of common link names
     data[NAVLINKS] = Hash.new(0)
     data[FOOTERLINKS] = Hash.new(0)
@@ -389,17 +399,19 @@ module NPDetectpr
     data[FOOTERLINKS] = data[FOOTERLINKS].reject { |k,v| v < 2 }
     data[NAVLINKS] = Hash[data[NAVLINKS].sort_by { |k, v| -v }]
     data[FOOTERLINKS] = Hash[data[FOOTERLINKS].sort_by { |k, v| -v }]
-    File.open("npdetector.json", 'w') do |f|
+    data['npdetectorlog'] = MODULE_LOG
+    File.open(outfile, 'w') do |f|
       f.puts JSON.pretty_generate(data)
     end
   end
 
   if __FILE__ == $PROGRAM_NAME
-    dir = '../../npdetector'
-    csv = CSV.new(File.read('npdetector.csv'), :headers => true).to_a.map {|row| row.to_hash }
+    dir = '../../anpdetector'
+    infile = 'npdetector.csv'
+    outfile = 'npdetector.json'
+    csv = CSV.new(File.read(infile), :headers => true).to_a.map {|row| row.to_hash }
     process_csv(dir, csv)
-    process_condense(dir)
-    puts "---- done; log of warnings:"
-    puts JSON.pretty_generate(MODULE_LOG)
+    process_condense(dir, outfile)
+    puts "#{self.name} done, see: #{outfile}"
   end
 end
