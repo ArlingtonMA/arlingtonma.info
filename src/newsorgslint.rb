@@ -6,17 +6,19 @@ module NewsorgsLint
   module_function
   require 'yaml'
   require 'json'
+  require 'csv'
 
+  YAML_SEP = '---'
   NEWSORGS_DIR = '../docs/_newsorgs'
+  OUTPUT_FIELDS = %w[identifier commonName legalName description slogan website location state taxID webgenerator]
 
   # Normalize a newsorgs file's yaml, leaving markdown content as-is
   # Side effect: writes file back to same location; may lose comments or formatting data
   # @return a string describing what we did, or error string
   def normalize_md(filename)
     begin
-      yaml_sep = '---'
       data = File.read(filename)
-      _unused, frontmatter, markdown = data.split(yaml_sep, 3) # YAML data separator
+      _unused, frontmatter, markdown = data.split(YAML_SEP, 3) # YAML data separator
       markdown = '' if markdown.nil?
       yaml = YAML.safe_load(frontmatter, aliases: true)
       yaml.delete('identifier_hack')
@@ -76,11 +78,35 @@ module NewsorgsLint
     return report
   end
 
+  # Dump all newsorgs to csv
+  def newsorgs2csv(dir, csvfile, fields)
+    rows = []
+    Dir["#{dir}/**/*.md"].each do |f|
+      data = File.read(f)
+      _unused, frontmatter, _also_unused = data.split(YAML_SEP, 3)
+      yaml = YAML.safe_load(frontmatter, aliases: true)
+      row = []
+      fields.each do | field |
+        row << yaml.fetch(field, '')
+      end
+      rows << row
+    end
+    # Write array with predefined headers to CSV
+    CSV.open(File.join("#{csvfile}"), "w", headers: fields, write_headers: true) do |csv|
+      rows.each do |r|
+        csv << r
+      end
+    end
+  end
+
   # ### #### ##### ######
   # Main method for command line use
   if __FILE__ == $PROGRAM_NAME
     dir = NEWSORGS_DIR
-    report = normalize_mds(dir)
-    puts JSON.pretty_generate(report)
+    csvfile = "newsorgslint.csv"
+    fields = OUTPUT_FIELDS
+    #report = normalize_mds(dir)
+    #puts JSON.pretty_generate(report)
+    newsorgs2csv(dir, csvfile, fields)
   end
 end
