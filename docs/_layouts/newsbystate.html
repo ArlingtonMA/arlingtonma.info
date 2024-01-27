@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign grouping = site.newsorgs | group_by: 'state' | sort: 'name' %}
+<nav class="states">
+{% for group in grouping %}<a href="#{{ group.name }}">{{ group.name }}</a> {% endfor %}
+</nav>
+{% for group in grouping %}
+<h3 id="{{ group.name }}">{{ group.name }}</h3>
+<ul class="newsorglist">
+  {% assign newsorgs = group.items | sort: 'commonName' %}
+  {% for newsorg in newsorgs %}
+    <li>
+      <a href="{{ newsorg.url }}">{{ newsorg.commonName }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endfor %}

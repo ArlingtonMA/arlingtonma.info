@@ -1,7 +1,6 @@
 ---
 title: Local Nonprofit News Organizations
 excerpt: Basic IRS 990 tax data of locally-owned news orgs.
-layout: newsorgs
 classes: wide
 ---
 
@@ -13,11 +12,13 @@ While detailed nonprofit finances are often hard to find - volunteer-run organiz
 
 We've built a metadata listing of locally-owned news organizations in eastern MA and in select other places in the US - read on below!  As an open source project, we'd love additions and corrections to the data, as well as people to help organize the data and tie it more directly into other data sources.  If you're familiar with GitHub, submit a PR.  If GitHub is a mystery, ask us for help: I'd love to teach any local journalists how to use the simpler web-based features of GitHub to build super-simple and zero maintenance websites.
 
- For a more comprehensive list of Massachusetts based news organizations, follow [Dan Kennedy's Media Nation blog](https://dankennedy.net/2021/12/24/boston-globe-media-eyes-expanding-into-tv-films-broadcast-and-radio/).
+See an [alphabetical listing of news sites](/newsorgs/), or see [news sites by state](/newsorgs/bystate).
+
+For a more comprehensive list of Massachusetts based news organizations, follow [Dan Kennedy's Media Nation blog](https://dankennedy.net/2021/12/24/boston-globe-media-eyes-expanding-into-tv-films-broadcast-and-radio/).
 
 ## Other Data Available: Nonprofit Finances
 
-Along with the below listing of organizational data, we've collected basic IRS 990 and 990-EZ data from Propublica for all of the non-profit organizations below.  The raw data is [available as a CSV file](https://github.com/ArlingtonMA/arlingtonma.info/tree/master/docs/data/localnews/localnews-990s.csv).  Note that Propublica's data extracts may have occasional errors, like on the Carlisle Mosquito's 2019 filing, which erroneously showed 0's for all finances (we've manually typed in the correct numbers).
+Along with the below listing of organizational data, we've collected basic IRS 990 and 990-EZ data from Propublica for all of the non-profit organizations below.  Partial raw data for selected orgs [available as a CSV file](https://github.com/ArlingtonMA/arlingtonma.info/tree/master/docs/data/localnews/localnews-990s.csv).  Note that Propublica's data extracts may have occasional errors, like on the Carlisle Mosquito's 2019 filing, which erroneously showed 0's for all finances (we've manually typed in the correct numbers).
 
 If you're a data vis wizard and would like to help, I'd love to learn how to create better charts.  I'm happy to use any low-maintenance, permissively licensed software that can display and export charts to deploy on at static GitHub Pages website.  One specific example of a visualization we'd like to show:
 
