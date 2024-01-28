@@ -14,3 +14,6 @@ Current datasets - and we are always [looking for submissions](/help)!
 - [Metadata listing of various local news sites](/local-news-orgs/)
 - [High-level IRS 990 form data via Propublica](/data/newsorgs/990/)
 - [Comparative nonprofit news financials](/data/newsorgs/finance/news-finances.csv)
+- The [Institute For Nonprofit News](https://findyournews.org/campaign/inn-network-directory/) helps local sites with resource
+- [LION Publishers](https://www.lionpublishers.com/members/) provides fiscal and other help
+- The [NASCONET directory of state AGO offices & nonprofit lookups](https://www.nasconet.org/resources/state-government/) can help with researching corporate records

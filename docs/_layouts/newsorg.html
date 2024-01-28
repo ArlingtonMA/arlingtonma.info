@@ -26,7 +26,10 @@ layout: default
     {% if page.bylawsurl %}<abbr title="Corporate bylaws URL.">Bylaws Website</abbr>: <a itemprop="bylawsurl" href="{{ page.bylawsurl }}">{{ page.bylawsurl }}</a><br/>{% endif %}
     {% if page.numberOfEmployees %}<abbr title="Approximate number of paid employees or equivalents.">Approx Number Of Paid Staff</abbr>: <span itemprop="numberOfEmployees">{{ page.numberOfEmployees }}</span><br/>{% endif %}
     <h2 id="finance">Finance</h2>
-    {% if page.taxID %}<abbr title="US IRS taxID, or other country's tax identifier (if any).">Tax Authority ID</abbr>: <span itemprop="taxID">{{ page.taxID }}</span><br/>{% endif %}
+    {% if page.taxID %}
+      <abbr title="US IRS taxID, or other country's tax identifier (if any).">Tax Authority ID</abbr>: <span itemprop="taxID">{{ page.taxID }}</span><br/>
+      {% include corplookup.html %}
+    {% endif %}
     {% if page.taxIDLocal %}<abbr title="Local taxID, for example MA AG Account Number (if any).">Local Tax Authority ID</abbr>: <span itemprop="taxIDLocal">{{ page.taxIDLocal }}</span><br/>{% endif %}
     {% if page.nonprofitStatus %}<abbr title="Specific type of non-profit; US or other country type.">Nonprofit Type</abbr>: <span itemprop="nonprofitStatus">{{ page.nonprofitStatus }}</span><br/>{% endif %}
     {% if page.reporturl %}<abbr title="Annual or other overview report.">Annual Report (or other overview presentation)</abbr>: <a itemprop="reporturl" href="{{ page.reporturl }}">{{ page.reporturl }}</a><br/>{% endif %}
