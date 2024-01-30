@@ -54,9 +54,11 @@ module NewsorgsLint
         yaml['websitecms'] = 'WP' if generator.include?('WordPress')
         yaml['websitecms'] = 'WP,SiteKit' if generator.include?('Site Kit by Google')
       end
+      # Add a hack field for YA use
+      yaml['yanoncomp'] = 'y'
       # Dump our normalized data back to a file; note this removes # comments
       output = yaml.to_yaml
-      output << yaml_sep # Note: newline provided by shovel operator below
+      output << YAML_SEP # Note: newline provided by shovel operator below
       output << markdown
       outputfilename = filename
       File.open(outputfilename, 'w') do |f|
@@ -102,11 +104,11 @@ module NewsorgsLint
   # ### #### ##### ######
   # Main method for command line use
   if __FILE__ == $PROGRAM_NAME
-    dir = NEWSORGS_DIR
-    csvfile = "newsorgslint.csv"
+    dir = '../../cnpdetector' # NEWSORGS_DIR
+    csvfile = "newsorgslint3.csv"
     fields = OUTPUT_FIELDS
-    #report = normalize_mds(dir)
-    #puts JSON.pretty_generate(report)
-    newsorgs2csv(dir, csvfile, fields)
+    report = normalize_mds(dir)
+    puts JSON.pretty_generate(report)
+    #newsorgs2csv(dir, csvfile, fields)
   end
 end
