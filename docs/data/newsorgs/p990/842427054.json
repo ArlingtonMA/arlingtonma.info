@@ -1,0 +1,47 @@
+{
+  "organization": {
+    "id": 842427054,
+    "ein": 842427054,
+    "name": "Open Campus Media Inc",
+    "careofname": "% SCOTT SMALLWOOD",
+    "address": "1 THOMAS CIRCLE NW 700",
+    "city": "Washington",
+    "state": "DC",
+    "zipcode": "20005-0000",
+    "exemption_number": 0,
+    "subsection_code": 3,
+    "affiliation_code": 3,
+    "classification_codes": "1000",
+    "ruling_date": "2022-07-01",
+    "deductibility_code": 1,
+    "foundation_code": 15,
+    "activity_codes": "000000000",
+    "organization_code": 1,
+    "exempt_organization_status_code": 1,
+    "tax_period": "2022-12-01",
+    "asset_code": 5,
+    "income_code": 6,
+    "filing_requirement_code": 1,
+    "pf_filing_requirement_code": 0,
+    "accounting_period": 12,
+    "asset_amount": 734145,
+    "income_amount": 2158979,
+    "revenue_amount": 2158979,
+    "ntee_code": "A30",
+    "sort_name": null,
+    "created_at": "2023-05-09T20:34:12.233Z",
+    "updated_at": "2024-01-04T01:32:57.976Z",
+    "data_source": "current_2024_01_04",
+    "have_extracts": null,
+    "have_pdfs": null,
+    "latest_object_id": "202323199349301717"
+  },
+  "filings_with_data": [
+
+  ],
+  "filings_without_data": [
+
+  ],
+  "data_source": "ProPublica Nonprofit Explorer API: https://projects.propublica.org/nonprofits/api/\nIRS Exempt Organizations Business Master File Extract (EO BMF): https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf\nIRS Annual Extract of Tax-Exempt Organization Financial Data: https://www.irs.gov/uac/soi-tax-stats-annual-extract-of-tax-exempt-organization-financial-data",
+  "api_version": 2
+}

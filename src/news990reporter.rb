@@ -10,7 +10,7 @@ module News990Reporter
   require 'faraday' # open-uri does not work in this script, which is quite a mystery
   require '../../propublica990/propublica990'
 
-  P990_DIR = '../docs/data/newsorgs/990' # HACK, assumes run from script dir
+  P990_DIR = '../docs/data/newsorgs/p990' # HACK, assumes run from script dir
   NEWSORGS_DIR = '../docs/_newsorgs'
   DEM_CSV = '../docs/data/demographics/ma-dls-incomepercapita-2023.csv'
   DEMOGRAPHIC_FIELDS = {
@@ -279,27 +279,27 @@ module News990Reporter
     # demographics = read_demographics(fn)
 
     # Forall eins available, download propublica data
-    # orgs = read_newsorgs(NEWSORGS_DIR)
-    # p990s = Propublica990.get_orgs(orgs.keys, P990_DIR)
-    # p990s.each do | k, v |
-    #   if k.is_a?(String) # get_orgs returns errors as strings, not hashes
-    #     puts k
-    #   end
-    # end
-    # puts "Done!"
-    # For all orgs we have data for, create CSV
-    csvfile = 'news-finances-all.csv'
+    orgs = read_newsorgs(NEWSORGS_DIR)
     p990s = Propublica990.get_orgs(orgs.keys, P990_DIR)
-    # Propublica990.orgs2csv_common(p990s, csvfile)
-    report = generate_report_all(orgs, p990s)
-    puts JSON.pretty_generate(report[3])
-    puts JSON.pretty_generate(report[4])
-    CSV.open("news-finances-all.csv", "w") do |csv|
-      csv << REPORT_HEADERS_ALL
-      report.each do | r |
-        csv << r.values
+    p990s.each do | k, v |
+      if k.is_a?(String) # get_orgs returns errors as strings, not hashes
+        puts k
       end
     end
+    puts "Done!"
+    # For all orgs we have data for, create CSV
+    # csvfile = 'news-finances-all.csv'
+    # p990s = Propublica990.get_orgs(orgs.keys, P990_DIR)
+    # # Propublica990.orgs2csv_common(p990s, csvfile)
+    # report = generate_report_all(orgs, p990s)
+    # puts JSON.pretty_generate(report[3])
+    # puts JSON.pretty_generate(report[4])
+    # CSV.open(csvfile, "w") do |csv|
+    #   csv << REPORT_HEADERS_ALL
+    #   report.each do | r |
+    #     csv << r.values
+    #   end
+    # end
     # matches = lookup_propublica(dir)
     # File.open("news990reporter.json", 'w') do |f|
     #   f.puts JSON.pretty_generate(matches)

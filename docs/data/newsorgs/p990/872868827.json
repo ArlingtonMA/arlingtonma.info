@@ -1,0 +1,47 @@
+{
+  "organization": {
+    "id": 872868827,
+    "ein": 872868827,
+    "name": "Jolt News Organization",
+    "careofname": "% DANIEL IRWIN STUSSER",
+    "address": "PO BOX 4008",
+    "city": "Tumwater",
+    "state": "WA",
+    "zipcode": "98501-0008",
+    "exemption_number": 0,
+    "subsection_code": 3,
+    "affiliation_code": 3,
+    "classification_codes": "1200",
+    "ruling_date": "2023-03-01",
+    "deductibility_code": 1,
+    "foundation_code": 15,
+    "activity_codes": "000000000",
+    "organization_code": 1,
+    "exempt_organization_status_code": 1,
+    "tax_period": null,
+    "asset_code": 0,
+    "income_code": 0,
+    "filing_requirement_code": 1,
+    "pf_filing_requirement_code": 0,
+    "accounting_period": 12,
+    "asset_amount": null,
+    "income_amount": null,
+    "revenue_amount": null,
+    "ntee_code": "A30",
+    "sort_name": null,
+    "created_at": "2023-05-09T20:45:11.923Z",
+    "updated_at": "2024-01-04T01:39:24.617Z",
+    "data_source": "current_2024_01_04",
+    "have_extracts": null,
+    "have_pdfs": null,
+    "latest_object_id": null
+  },
+  "filings_with_data": [
+
+  ],
+  "filings_without_data": [
+
+  ],
+  "data_source": "ProPublica Nonprofit Explorer API: https://projects.propublica.org/nonprofits/api/\nIRS Exempt Organizations Business Master File Extract (EO BMF): https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf\nIRS Annual Extract of Tax-Exempt Organization Financial Data: https://www.irs.gov/uac/soi-tax-stats-annual-extract-of-tax-exempt-organization-financial-data",
+  "api_version": 2
+}
