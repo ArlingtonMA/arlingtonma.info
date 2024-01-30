@@ -13,7 +13,7 @@ author:
   twitter   : ArlingtonMAInfo
     
 # Build, theme, style settings
-data_source: data # Override standard location
+data_dir: data # Override standard location
 url: https://arlingtonma.info # jekyll-sitemap
 repository: ArlingtonMA/arligntonma.info
 branch: master

@@ -1,0 +1,4 @@
+<div class="asidefiscalhost">
+  {% assign fhost = site.data.newsorgs.fiscalhosts | where: "ein", page.fiscalHost | first %}
+  {% if fhost %}<abbr title="Fiscal hosts are nonprofit organizations that accept donations and manage funds on behalf of another org.">Fiscally hosted by</abbr>: <a itemprop="fiscalHost" href="{{ fhost.website }}">{{ fhost.commonName }}</a><br/>{% endif %}
+</div>

@@ -2,7 +2,7 @@
 identifier: objectivejournalism_org
 title: The Objective
 commonName: Objective, The
-legalName: Institute for Nonprofit News
+legalName: Institute for Nonprofit News - fiscal host
 description: The Objective is a nonprofit publication examining systems of power and
   inequity in journalism.
 website: https://objectivejournalism.org/
@@ -24,7 +24,8 @@ policyurl:
 teamurl:
 missionurl:
 numberOfEmployees:
-taxID: 27-2614911
+taxID:
+fiscalHost: 27-2614911
 taxIDLocal:
 nonprofitStatus:
 budgeturl:

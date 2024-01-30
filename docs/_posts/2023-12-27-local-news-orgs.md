@@ -23,7 +23,7 @@ Along with the below listing of organizational data, we've collected basic IRS 9
 If you're a data vis wizard and would like to help, I'd love to learn how to create better charts.  I'm happy to use any low-maintenance, permissively licensed software that can display and export charts to deploy on at static GitHub Pages website.  One specific example of a visualization we'd like to show:
 
 ```pseudocode
-for all *.json in data/newsorgs/990
+for all *.json in data/newsorgs/p990
   read all [organization][ein] fields and [organization][name] fields
   allow user to select two EINs by selecting their NAME
   display a chart comparing finances of the two NAMEs:

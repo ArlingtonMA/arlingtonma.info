@@ -16,8 +16,9 @@ bylawsurl: https://www.winchesternews.org/about/bylaws
 reporturl: https://winchesternews.org/content/files/2023/12/Business-Plan.pdf
 numberOfEmployees:
 taxID:
+fiscalHost: 27-2614911
 taxIDLocal: '001649954'
-nonprofitStatus: INN hosted Nonprofit501c3 as EIN 27-2614911
+nonprofitStatus: Nonprofit501c3 via fiscal host
 budgeturl:
 budgetUsd:
 budgetYear:
