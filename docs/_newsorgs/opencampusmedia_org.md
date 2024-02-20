@@ -12,26 +12,24 @@ imprint: Proudly powered by Newspack by Automattic
 masthead:
 location: Washington
 state: DC
-boardSize:
+boardSize: 5
 boardType:
 membershipType:
-boardurl:
+boardurl: https://www.opencampusmedia.org/about-us/team/
 bylawsurl:
-policyurl:
-teamurl:
-missionurl:
-numberOfEmployees:
+policyurl: https://www.opencampusmedia.org/about-us/editorial-independence/
+teamurl: https://www.opencampusmedia.org/about-us/team/
+missionurl: https://www.opencampusmedia.org/about-us/team/
+numberOfEmployees: 10
 taxID: 84-2427054
 taxIDLocal:
-nonprofitStatus:
-budgeturl:
-budgetUsd:
-budgetYear:
-donateurl:
-- https://donorbox.org/open-campus
-- https://donorbox.com/open-campus
+nonprofitStatus: Nonprofit501c3
+budgeturl: https://projects.propublica.org/nonprofits/organizations/842427054/202323199349301717/full
+budgetUsd: 2096414
+budgetYear: 2022
+donateurl: https://donorbox.org/open-campus
 contributeurl:
-sponsorurl:
+sponsorurl: https://www.opencampusmedia.org/about-us/funding/
 advertising:
 telephone:
 contactUs: https://www.opencampusmedia.org/contact-us/
