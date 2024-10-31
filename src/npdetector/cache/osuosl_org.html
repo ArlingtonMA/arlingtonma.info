@@ -1,0 +1,580 @@
+<!DOCTYPE HTML>
+<html class="doug_fir" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<link rel="shortcut icon" href="https://osuosl.org/theme/img/newosl_favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (https://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="OSU Open Source Lab RSS" href="http://osuosl.org/rss.xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OSU Open Source Lab | Oregon State University</title>
+
+<link type="text/css" rel="stylesheet" href="https://osuosl.org/theme/css/main.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://osuosl.org/theme/js/slick/slick.css"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!-- Gudea Font -->
+<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'></head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node " >
+<div id='osu-top-hat'>
+  <!--<div class='container'>-->
+    <a href='https://oregonstate.edu' class='tag'>
+      <img src='https://osuosl.org/theme/img/osu-top-hat/OSU_newlogo.png' class='logo' alt='Oregon State University'>
+      <span class='mobile-header'>OREGON STATE UNIVERSITY</span>
+    </a>
+    <form class="search" role="search" action="/search" method="get" id="osu-search-top-hat-form" accept-charset="UTF-8">
+      <div>
+        <div class="form-item form-type-textfield form-item-term">
+          <label class="element-invisible" for="edit-term">Search Field </label>
+          <input class="search-terms form-text" placeholder="Search this site" type="text" id="edit-term" name="q" value="" size="60" maxlength="128" />
+        </div>
+        <input class="icon-search word-hide form-submit" type="submit" id="edit-submit--2" name="op" value="Search"><i class="fa fa-search"></i></input>
+      </div>
+    </form>
+    <!--<ul class='menu' style="margin-top:19.05px; text-align:left">
+      <a href='https://calendar.oregonstate.edu/'><i class='fa fa-calendar' aria-hidden='true'></i> Calendar</a>
+      <a href='https://library.oregonstate.edu/' style="padding-left:20px"><i class='fa fa-book' aria-hidden='true'></i> Library</a>
+      <a href='https://oregonstate.edu/campusmap/' style="padding-left:20px"><i class='fa fa-map-marker' aria-hidden='true'></i> Maps</a>
+      <a href='https://main.oregonstate.edu/' style="padding-left:20px"><i class='fa fa-cogs'></i> Online Services</a>
+      <a href='https://osuosl.org/donate' style="padding-left:20px"><i class='fa fa-gift' aria-hidden='true'></i> Make a Gift</a>
+    </ul>-->
+  <!--</div>-->
+</div>
+<div id="mobile-icon-menu">
+  <a href='#' id="toggle-mobile-menu" class="m-icon-link"><i class="fa fa-bars"></i></a>
+  <!-- <a href='/search' id="mobile-search-link" class="m-icon-link"><i class="fa fa-search"></i></a> -->
+</div><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<div style="background: #000; color: #fff; font-family: 'Open sans',sans-serif">
+  <a style="display: inline-block; margin-left: -300px;" class="parent title-" href=https://cass.oregonstate.edu/>Center for Applied Systems & Software</a>
+  »
+  <h1 style="display: inline-block; font-size: 25px">
+      <a class="title-" href='/'>OSU Open Source Lab</a>
+  </h1>
+</div>
+
+<div id='page-wrapper' class='container'>
+<!--<div id='header' class='row-fluid'>-->
+<!--    <a class="parent title-" href=https://cass.oregonstate.edu/>Center for Applied Systems & Software</a>
+    <h1><a class="title-" href='/'>OSU Open Source Lab</a></h1>-->
+<!--</div>-->
+<!-- Read the Pelican page list and create menu structure -->
+
+
+<ul id="mobile-menu" role="navigation">
+    <li id="mobile-main-menu">
+        <ul class="menu">
+            <li class="first leaf"><a href="/" class="active">Home</a></li>
+            <li class="expanded"><a href=/about>About</a>
+                <ul>
+                    <li class="leaf"><a href=/about>About OSL</a></li>
+                    <li class="leaf"><a href=/donate/faq>FAQ</a></li>
+                    <li class="leaf"><a href=/contact>Contact Us</a></li>
+                    <li class="leaf"><a href=/about/people>Staff</a></li>
+                    <li class="leaf"><a href=/about/logos>Logos</a></li>
+                    <li class="leaf"><a href=/donate>Donate</a></li>
+                </ul>
+            </li>
+            <li class="expanded"><a href=/services>Services</a>
+                <ul>
+                    <li class="leaf"><a href=/services/hosting>Hosting</a></li>
+                    <li class="leaf"><a href=/services/aarch64>AARCH64 Development Hosting</a></li>
+                    <li class="leaf"><a href=/services/powerdev>POWERLinux/OpenPOWER Development Hosting</a></li>
+                    <li class="leaf"><a href=/services/ibm-z>IBM Z Development Hosting</a></li>
+                </ul>
+            </li>
+            <li class="expanded"><a href=/students>Student Experience</a>
+                <ul>
+                    <li class="leaf"><a href=/about/employment>Employment</a></li>
+                    <li class="leaf"><a href=/about/education>Education</a></li>
+                    <li class="leaf"><a href=/student-stories>Student Stories</a></li>
+                </ul>
+            </li>
+            <li><a href=/blog>Blog</a></li>
+        </ul>
+    </li>
+    <li id="mobile-osu-top-hat">
+        <ul class="menu">
+            <li class="first leaf"><a href="https://calendar.oregonstate.edu">Calendar</a></li>
+            <li class="leaf"><a href="https://osulibrary.oregonstate.edu">Library</a></li>
+            <li class="leaf"><a href="https://oregonstate.edu/campusmap">Maps</a></li>
+            <li class="leaf"><a href="https://oregonstate.edu/main/online-services">Online Services</a></li>
+            <li class="last leaf"><a href="https://securelb.imodules.com/s/359/campaign/index.aspx?sid=359&amp;gid=34&amp;pgid=1982&amp;cid=3007" class="campaign">Make a Gift</a></li>
+        </ul>
+    </li>
+</ul>
+<!-- Main menu navbar -->
+<div id='main-menu' role='navigation'>
+    <div class="region region-nav">
+        <div id="block-nice-menus-1" class="block block-nice-menus">
+            <div class="content">
+                <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1">
+                    <li class="menu-217 menu-path-front first odd"><a href='/' class="active">Home</a></li>
+                    <li class="menuparent"><a href=/about>About</a>
+                        <ul>
+                            <li><a style="color: #fff; text-transform: none" href=/about>About OSL</a></li>
+                            <li><a style="color: #fff; text-transform: none" href=/donate/faq>FAQ</a></li>
+                            <li><a style="color: #fff; text-transform: none" href=/contact>Contact Us</a></li>
+                            <li><a style="color: #fff; text-transform: none" href=/about/people>Staff</a></li>
+                            <li><a style="color: #fff; text-transform: none" href=/about/logos>Logos</a></li>
+                            <li class="menuparent"><a style="color: #fff; text-transform: none" href=/donate>Donate</a>
+                                <ul>
+                                    <li><a style="color: #fff; text-transform: none" href=/donate/hardware>Hardware Donations</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/sponsors>Sponsors</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menuparent"><a href=/services>Services</a>
+                        <ul>
+                            <li class="menuparent"><a style="color: #fff; text-transform: none" href=/services/hosting>Hosting</a>
+                                <ul>
+                                    <li><a style="color: #fff; text-transform: none" href=/communities>Hosted Projects</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/hosting/details>Hosting Details</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/hosting/policy>Hosting Policy</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/request-hosting>Request Hosting</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuparent"><a style="color: #fff; text-transform: none" href=/services/aarch64>AARCH64 Development Hosting</a>
+                                <ul>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/aarch64/current-projects>Current Projects</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/aarch64/former-projects>Former Projects</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/aarch64/request_hosting>AARCH64 OpenStack Request Form</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuparent"><a style="color: #fff; text-transform: none" href=/services/powerdev>POWERLinux/OpenPOWER Development Hosting</a>
+                                <ul>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/powerdev/current-projects>Current Projects</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/powerdev/former-projects>Former Projects</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/powerdev/request_gpu>OpenPOWER GPU Request Form</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/powerdev/request_hosting>OpenPOWER OpenStack Request Form</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/powerdev/request_powerci>POWER CI Request Form</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/powerdev/opence>Open-CE</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/powerdev/cyro-em>Cryo-EM</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuparent"><a style="color: #fff; text-transform: none" href=/services/ibm-z>IBM Z Development Hosting</a>
+                                <ul>
+                                    <li><a style="color: #fff; text-transform: none" href=/services/ibm-z/request_ci>IBM Z CI Request Form</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menuparent"><a href=/students>Student Experience</a>
+                        <ul>
+                            <li><a style="color: #fff; text-transform: none" href=/about/employment>Employment</a></li>
+                            <li class="menuparent"><a style="color: #fff; text-transform: none" href=/about/education>Education</a>
+                                <ul>
+                                    <li><a style="color: #fff; text-transform: none" href=/about/beaverbarcamp.rst>Beaver Barcamp</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/devops-bootcamp>DevOps BootCamp</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/about/gsoc>GSOC</a></li>
+                                    <li><a style="color: #fff; text-transform: none" href=/students/cs312>CS312</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="color: #fff; text-transform: none" href=/student-stories>Student Stories</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=/blog>Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /#main-menu --><div id="skip-link">
+    <a href="#content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div class='row'>
+        <div class='row span9 nosidebar'>
+  <div class="mobile-title"><h3><a href="blog/student-story-doublej472/">On Leaving the Open Source Lab, Jonathan Frederick</a></h3></div>
+<div id="features">
+    <div class='region region-features'>
+      <div class="mobile-content">
+        <img class='summary-image' alt="" src="https://osuosl.org/images/doublej472-story.jpg "></img>
+      </div>
+
+        <div id="block-views-feature-story-block" class="block block-views">
+            <div class="content">
+                <div class="view view-feature-story view-id-feature_story view-display-id-block">
+                    <div class='view-content front-page-story'>
+                                <div class='fs-row'>
+                                    <a href="blog/student-story-doublej472/">
+                                        <img class='summary-image' alt="" src="https://osuosl.org/images/doublej472-story.jpg "></img>
+                                    </a>
+                                    <div class="views-field-field-caption">
+                                        <h3 class="fs-title">
+                                            <a href="blog/student-story-doublej472/">
+                                                On Leaving the Open Source Lab, Jonathan Frederick
+                                            </a>
+                                        </h3>
+                                        <p class="fs-caption">
+                                        <p>My first Linux operating system was Ubuntu 10.04, when I was still young. It was my first experience with open-source
+software, which I didn't fully appreciate at the time. I just wanted an operating system to work on my Dell hand-me-down
+computer and didn't want to pay for windows. So, Linux was the first thing I found. Over the next few years I started to
+really appreciate open-source...</p>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class='fs-row'>
+                                    <a href="blog/student-story-whitehet/">
+                                        <img class='summary-image' alt="" src="https://osuosl.org/images/twhitehead_wide.jpg "></img>
+                                    </a>
+                                    <div class="views-field-field-caption">
+                                        <h3 class="fs-title">
+                                            <a href="blog/student-story-whitehet/">
+                                                Reflections on My Time at the Open Source Lab, Travis Whitehead
+                                            </a>
+                                        </h3>
+                                        <p class="fs-caption">
+                                        <p>Reflections on My Time at the Open Source Lab
+by Travis Whitehead</p>
+<p>Working at the Open Source Lab has been the highlight of my computer science experience at Oregon State University. It
+was just by chance that I came across a job listing for the OSL. I had never heard of the organization, and it certainly
+was not a factor in my decision to pursue computer science at Oregon State...</p>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class='fs-row'>
+                                    <a href="blog/osl-alumni-matthew-johnson/">
+                                        <img class='summary-image' alt="" src="https://osuosl.org/images/matthew.jpg "></img>
+                                    </a>
+                                    <div class="views-field-field-caption">
+                                        <h3 class="fs-title">
+                                            <a href="blog/osl-alumni-matthew-johnson/">
+                                                OSL Alumnus Matthew Johnson on working at Tesla
+                                            </a>
+                                        </h3>
+                                        <p class="fs-caption">
+                                        <p>Matthew Johnson is an OSU alumnus who now works at Tesla as a senior software engineer.  He is a veteran of the U.S
+Marine Corps Infantry and served as a law enforcement officer.  At Oregon State University, he worked for the Open Source Lab and
+received a scholarship from CBT Nuggets.  He recently sat down with College of Engineering to talk about his experience
+working at...</p>
+                                        </p>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <a id='prev' class="side-controls previous slick-prev">
+                        <span class='icon-chevron-left'>&#8249;</span>
+                    </a>
+                    <a id='next' class="side-controls next slick-next">
+                        <span class='icon-chevron-left'>&#8250;</span>
+                    </a>
+                    <div class='more-link'>
+                        <a href=>
+                            All stories
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="mobile-content">
+                  <img class='summary-image' alt="" src="https://osuosl.org/images/doublej472-story.jpg "></img>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            <p>The Open Source Lab is a nonprofit organization working for the advancement of
+open source technologies.</p>
+<p>The lab, in partnership with the School of Electrical Engineering and Computer
+Science at Oregon State University, provides hosting for more than 160 projects,
+including those of worldwide leaders like the Apache Software Foundation, the
+Linux Foundation and Drupal. Together, the OSL’s hosted sites deliver nearly 430
+terabytes of information to people around the world every month. The most active
+organization of its kind, the OSL offers world-class hosting services,
+professional software development and on-the-ground training for promising
+students interested in open source management and programming.</p>
+<!-- .. image:: /images/edray.jpg
+:scale: 100%
+:align: center
+:alt: OSU President Ed Ray -->
+<p>By enabling innovative projects and distributing software to millions of users
+globally, the lab is working to accelerate the growth of high-impact open source
+software projects and promote an open source culture of accessibility and
+increased productivity around the world. The lab partners with industry leaders
+and policy makers to bring open source technologies to new sectors, including
+education, health and government.</p>
+<p>Under the school of EECS, the OSL and the Oregon State Business Solutions Group
+have joined together to create the Center for Applied Systems and Software
+(CASS). CASS provides clients with services for every stage of a project:
+designing, developing, testing and hosting. This partnership allows each group
+to maintain its unique brand while combining their expertise and giving them the
+ability and resources to take on bigger and better projects.</p>
+<p>To learn more about obtaining services from the lab and explore our active
+projects, please visit our Hosting page. A list of our hosted projects can be
+found on our Hosted Communities page. To get updates on the Open Source Lab,
+read our Blog page. If you are interested in contributing to the success of our
+projects or sponsoring our students' progress, please visit our Donate page.</p>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+        </div>
+</div>
+</div>
+<div id='footer'>
+  <div class='container'>
+    <div class='row'>
+      <div class='span2 contact'>
+          <h3>Contact Info</h3>
+        <div class="content">
+          <p>
+              OSU Open Source Lab<br />
+              224 Milne Computer Center<br />
+              1800 SW Campus Way<br />
+              Corvallis, OR 97331<br />
+              <span style="color: #C34500;"><a href="mailto:info@osuosl.org">info@osuosl.org</a></span><br />
+              Phone: 541-737-9900
+              <p><a href="https://www.google.com/maps/place/Milne+Computer+Center,+1800+SW+Campus+Way,+Corvallis,+OR+97331"><img src="https://osuosl.org/images/milne_street.png" /></a></p>
+          </p>
+        </div>
+        <a href="https://oregonstate.edu/copyright">Copyright</a>
+        &copy;2016 Oregon State University<br />
+        <a href="https://oregonstate.edu/disclaimer">Disclaimer</a>
+        </div
+        <!-- Read the Pelican page list and create menu structure -->
+        <div class='span10'>
+          <div class="region region-footer">
+            <div id="block-menu-menu-footer-menu" class="block block-menu">
+              <div class="content">
+                <ul class="menu">
+                  <li class="first leaf"><a href="/" title="Go to homepage" class="active">Home</a></li>
+                  <li class="expanded"><a href=/about>About</a>
+                    <ul>
+                      <li class='leaf'><a href=/about>About OSL</a></li>
+                      <li class='leaf'><a href=/donate/faq>FAQ</a></li>
+                      <li class='leaf'><a href=/contact>Contact Us</a></li>
+                      <li class='leaf'><a href=/about/people>Staff</a></li>
+                      <li class='leaf'><a href=/about/logos>Logos</a></li>
+                      <li class='leaf'><a href=/donate>Donate</a></li>
+                    </ul>
+                  </li>
+                  <li class="expanded"><a href=/services>Services</a>
+                    <ul>
+                      <li class='leaf'><a href=/services/hosting>Hosting</a></li>
+                      <li class='leaf'><a href=/services/aarch64>AARCH64 Development Hosting</a></li>
+                      <li class='leaf'><a href=/services/powerdev>POWERLinux/OpenPOWER Development Hosting</a></li>
+                      <li class='leaf'><a href=/services/ibm-z>IBM Z Development Hosting</a></li>
+                    </ul>
+                  </li>
+                  <li class="expanded"><a href=/students>Student Experience</a>
+                    <ul>
+                      <li class='leaf'><a href=/about/employment>Employment</a></li>
+                      <li class='leaf'><a href=/about/education>Education</a></li>
+                      <li class='leaf'><a href=/student-stories>Student Stories</a></li>
+                    </ul>
+                  </li>
+                  <li class='leaf'><a href=/blog>Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-537692-1");
+        pageTracker._trackPageview();
+        pageTracker._trackPageLoadTime();
+    } catch(err) {}</script>
+
+<script type="text/javascript" src="https://osuosl.org/theme/js/js-old/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://osuosl.org/theme/js/slick/slick.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-537692-1"]);_gaq.push(["_setDomainName", "none"]);_gaq.push(["_setAllowLinker", true]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js"></script>
+<script type="text/javascript" src="https://osuosl.org/theme/js/js-old/jquery-1.3.1.js"></script>    <script>
+    $(document).ready(function(){
+      $('.front-page-story, .responsive').slick({
+        dots: false,  /* So that "dots" are hidden beneath the slideshow */
+        autoplay: true,
+        autoplaySpeed: 5000,
+        ease: true,
+        prevArrow: $('#prev'),
+        nextArrow: $('#next'),
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: "unslick"
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+    });
+
+    </script>
+    <script>
+    $(document).ready(function(){
+      $('#mobile-menu').css("display", "none");
+    });
+    </script>
+
+</body>
+</html>

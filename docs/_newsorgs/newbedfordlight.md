@@ -22,6 +22,7 @@ budgetUsd: '993896'
 budgetYear: '2021'
 donateurl: https://newbedfordlight.org/support-our-publication/
 sponsorurl: https://newbedfordlight.org/thank-you-to-our-donors/
+policyurl: https://newbedfordlight.org/ethics-practices-policies/
 advertising:
 telephone:
 emailContact: info@newbedfordlight.org

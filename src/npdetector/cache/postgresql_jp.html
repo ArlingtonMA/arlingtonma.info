@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr" prefix="og: https://ogp.me/ns#" style="--color--primary-hue:202;--color--primary-saturation:79%;--color--primary-lightness:50">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.postgresql.jp/" />
+<link rel="shortlink" href="https://www.postgresql.jp/" />
+<meta property="og:site_name" content="日本PostgreSQLユーザ会" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.postgresql.jp/top" />
+<meta property="og:title" content="日本PostgreSQLユーザ会" />
+<meta property="og:description" content="日本PostgreSQLユーザ会 （略称 JPUG）の Webサイトです。 PostgreSQL の日本語訳マニュアル、PostgreSQL ダウンロードへのリンク、各種イベントのお知らせ、ユーザ会各組織の情報を掲載しています。 毎年 カンファレンス を開催しています。 PostgreSQLに関するご質問・ご相談は、当会のメーリングリストや ワークスペース(の #beginners や #general チャンネル) に投稿ください。 他の PostgreSQLユーザからのコメントを貰えると思います。 ［JPUG メーリングリスト／Slackワークスペース］ https://www.postgresql.jp/npo/mailinglist" />
+<meta property="og:image:url" content="https://www.postgresql.jp/sites/default/files/2022-10/JPUG-ShareLogo1-1200x630_0.png" />
+<meta property="og:image:url" content="https://www.postgresql.jp/sites/default/files/2022-10/JPUG-ShareLogo2-1200x630.png" />
+<meta property="og:image:url" content="https://www.postgresql.jp/sites/default/files/2022-10/JPUG-ShareLogo1-1200x630_0.png" />
+<meta property="og:image:url" content="https://www.postgresql.jp/sites/default/files/2022-10/JPUG-ShareLogo2-1200x630.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="日本PostgreSQLユーザ会 （略称 JPUG）の Webサイトです。 PostgreSQL の日本語訳マニュアル、PostgreSQL ダウンロードへのリンク、各種イベントのお知らせ、ユーザ会各組織の情報を掲載しています。 毎年 カンファレンス を開催しています。 PostgreSQLに関するご質問・ご相談は、当会のメーリングリストや ワークスペース(の #beginners や #general チャンネル) に投稿ください。 他の PostgreSQLユーザからのコメントを貰えると思います。 ［JPUG メーリングリスト／Slackワークスペース］ https://www.postgresql.jp/npo/mailinglist" />
+<meta name="twitter:title" content="日本PostgreSQLユーザ会" />
+<meta name="twitter:url" content="https://www.postgresql.jp/top" />
+<meta name="twitter:image" content="https://www.postgresql.jp/sites/default/files/2022-10/JPUG-ShareLogo1-1200x630_0.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>日本PostgreSQLユーザ会 | 日本PostgreSQLユーザ会</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_ferZRxZxS7H0_mraS4kttG8xowaFJ6CoD1QCKGc9PDk.css?delta=0&amp;language=ja&amp;theme=olivero&amp;include=eJxdjFEKgCAQRC9keaY1RxNWF3ZN6fZFHwX9DG8ewyRpnSZMKnz6eLWRnZ3WUX0ggxMuAyo-swTixfrJpeVXJyC-xUpEIHWjYJp_cq0SD_5uDKTbvsx7-XeNVGVe2e87aQ" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_O0P0lxeZQCzlZGJbeY9iqCGcBM_05y-lUE2gL2r1r2w.css?delta=1&amp;language=ja&amp;theme=olivero&amp;include=eJxdjFEKgCAQRC9keaY1RxNWF3ZN6fZFHwX9DG8ewyRpnSZMKnz6eLWRnZ3WUX0ggxMuAyo-swTixfrJpeVXJyC-xUpEIHWjYJp_cq0SD_5uDKTbvsx7-XeNVGVe2e87aQ" />
+
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+
+    
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/lora/lora-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <noscript><link rel="stylesheet" href="/core/themes/olivero/css/components/navigation/nav-primary-no-js.css?s7jh8a" />
+</noscript>
+  </head>
+  <body class="path-frontpage page-node-type-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      メインコンテンツに移動
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper" class="page-wrapper">
+  <div id="page">
+
+          <header id="header" class="site-header" data-drupal-selector="site-header" role="banner">
+
+                <div class="site-header__fixable" data-drupal-selector="site-header-fixable">
+          <div class="site-header__initial">
+            <button class="sticky-header-toggle" data-drupal-selector="sticky-header-toggle" role="switch" aria-controls="site-header__inner" aria-label="Sticky header" aria-checked="false">
+              <span class="sticky-header-toggle__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+          </div>
+
+                    <div id="site-header__inner" class="site-header__inner" data-drupal-selector="site-header-inner">
+            <div class="container site-header__inner__container">
+
+              
+
+
+<div id="block-olivero-site-branding" class="site-branding--bg-white site-branding block block-system block-system-branding-block">
+  
+    
+    <div class="site-branding__inner">
+          <a href="/index.php/" rel="home" class="site-branding__logo">
+        <img src="/sites/default/files/JpugKame-logo_0.png" alt="ホーム" fetchpriority="high" />
+      </a>
+              <div class="site-branding__text">
+        <div class="site-branding__name">
+          <a href="/index.php/" title="ホーム" rel="home">日本PostgreSQLユーザ会</a>
+        </div>
+      </div>
+      </div>
+</div>
+
+<div class="header-nav-overlay" data-drupal-selector="header-nav-overlay"></div>
+
+
+                              <div class="mobile-buttons" data-drupal-selector="mobile-buttons">
+                  <button class="mobile-nav-button" data-drupal-selector="mobile-nav-button" aria-label="Main Menu" aria-controls="header-nav" aria-expanded="false">
+                    <span class="mobile-nav-button__label">メニュー</span>
+                    <span class="mobile-nav-button__icon"></span>
+                  </button>
+                </div>
+
+                <div id="header-nav" class="header-nav" data-drupal-selector="header-nav">
+                  
+<div class="search-block-form block block-search-narrow" data-drupal-selector="search-block-form" id="block-olivero-search-form-narrow" role="search">
+  
+    
+      <div class="content">
+      <form action="/index.php/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="form-item__label visually-hidden">検索</label>
+        <input title="検索したいキーワードを入力してください。" placeholder="Search by keyword or phrase." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search form-element form-element--type-search form-element--api-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><button class="button--primary search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="検索">
+    <span class="icon--search"></span>
+    <span class="visually-hidden">検索</span>
+</button>
+
+</div>
+
+</form>
+
+    </div>
+  </div>
+<nav  id="block-olivero-main-menu" class="primary-nav block block-menu navigation menu--main" aria-labelledby="block-olivero-main-menu-menu" role="navigation">
+            
+  <h2 class="visually-hidden block__title" id="block-olivero-main-menu-menu">メインナビゲーション</h2>
+  
+        
+
+
+          
+        
+    <ul  class="menu primary-nav__menu primary-nav__menu--level-1" data-drupal-selector="primary-nav-menu--level-1">
+            
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1 is-active" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="&lt;front&gt;">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">ホーム</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1 primary-nav__menu-item--has-children" data-drupal-selector="primary-nav-menu-item-has-children">
+                              
+                      <a href="/index.php/npo" title="日本PostgreSQLユーザ会" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1 primary-nav__menu-link--has-children" data-drupal-selector="primary-nav-menu-link-has-children">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">ユーザ会</span>
+          </a>
+
+                                                        
+                <button class="primary-nav__button-toggle" data-drupal-selector="primary-nav-submenu-toggle-button" aria-controls="primary-menu-item-12" aria-expanded="false" aria-hidden="true" tabindex="-1">
+                  <span class="visually-hidden">ユーザ会 sub-navigation</span>
+                  <span class="icon--menu-toggle"></span>
+                </button>
+              
+                                      
+              <span data-drupal-selector="primary-nav-menu-🥕" class="primary-nav__menu-🥕"></span>
+    
+    <ul  class="menu primary-nav__menu primary-nav__menu--level-2" data-drupal-selector="primary-nav-menu--level-2" id="primary-menu-item-12">
+            
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/index.php/npo/mailinglist" title="日本PostgreSQLユーザ会では、PostgreSQLに関する情報交換や交流を目的とした複数のメーリングリストを運営しています。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="node/9">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">メーリングリスト等</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/index.php/npo/kyousan" title="ユーザ会の財政はすべて、協賛会員様の協賛会費および有志の方々の寄付、イベント時の臨時のご協賛により支えられております。協賛会員の募集は随時行っておりますので、ぜひ協賛会員へご入会の上当ユーザ会へご支援くださいますようお願い申し上げます。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="node/12">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">協賛会員</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/index.php/npo/about" title="特定非営利活動法人日本PostgreSQLユーザ会の活動目的、設立の経緯について。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="node/6">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">日本PostgreSQLユーザ会の目的</span>
+          </a>
+
+            
+                  </li>
+          </ul>
+  
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/branch" title="日本PostgreSQLユーザ会には各地に支部があります。お近くの支部に、ぜひコンタクトを取ってみて下さい。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">支部</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/wg" title="JPUGには、分科会および委員会制度があります。 委員会は、大きなイベントを実行したり、会員以外の力もかりて活動する組織が委員会の位置づけになります。 各委員会はJPUG理事会の直轄組織で、実行委員会のメンバーはユーザ会の会員でなくとも参加が可能です。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">分科会・委員会</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/download" title="PostgreSQLのパッケージダウンロードに関するページ" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">ダウンロード</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/docupage" title="PostgreSQL日本語マニュアルはこちらです。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">ドキュメント</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/event" title="イベントに関する記事です。「カレンダー」も参照ください。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">イベント</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/news" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="news">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">ニュース</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/recent_events" title="PostgreSQLに関するイベントのカレンダーです。" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="node/14">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">カレンダー</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/index.php/about" title="このウェブサイトについて" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="node/205">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">サイトについて</span>
+          </a>
+
+            
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+
+                  
+
+  <div class="region region--secondary-menu">
+    <div class="search-block-form block block-search-wide" data-drupal-selector="search-block-form-2" id="block-olivero-search-form-wide" role="search">
+  
+    
+      <button class="block-search-wide__button" aria-label="Search Form" data-drupal-selector="block-search-wide-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23">
+  <path fill="currentColor" d="M21.7,21.3l-4.4-4.4C19,15.1,20,12.7,20,10c0-5.5-4.5-10-10-10S0,4.5,0,10s4.5,10,10,10c2.1,0,4.1-0.7,5.8-1.8l4.5,4.5c0.4,0.4,1,0.4,1.4,0S22.1,21.7,21.7,21.3z M10,18c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S14.4,18,10,18z"/>
+</svg>
+      <span class="block-search-wide__button-close"></span>
+    </button>
+
+        <div class="block-search-wide__wrapper" data-drupal-selector="block-search-wide-wrapper" tabindex="-1">
+      <div class="block-search-wide__container">
+        <div class="block-search-wide__grid">
+          <form action="/index.php/search/node" method="get" id="search-block-form--2" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys--2" class="form-item__label visually-hidden">検索</label>
+        <input title="検索したいキーワードを入力してください。" placeholder="Search by keyword or phrase." data-drupal-selector="edit-keys" type="search" id="edit-keys--2" name="keys" value="" size="15" maxlength="128" class="form-search form-element form-element--type-search form-element--api-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><button class="button--primary search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="検索">
+    <span class="icon--search"></span>
+    <span class="visually-hidden">検索</span>
+</button>
+
+</div>
+
+</form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+                </div>
+                          </div>
+          </div>
+        </div>
+      </header>
+    
+    <div id="main-wrapper" class="layout-main-wrapper layout-container">
+      <div id="main" class="layout-main">
+        <div class="main-content">
+          <a id="main-content" tabindex="-1"></a>
+          
+          <div class="main-content__container container">
+            
+
+  <div class="region region--highlighted grid-full layout--pass--content-medium">
+    <div data-drupal-messages-fallback class="hidden messages-list"></div>
+
+  </div>
+
+            
+
+
+
+                          <div class="sidebar-grid grid-full">
+                <main role="main" class="site-main">
+                  
+
+  <div class="region region--content-above grid-full layout--pass--content-medium">
+    
+
+<div id="block-olivero-page-title" class="block block-core block-page-title-block">
+  
+  
+
+  <h1 class="title page-title">
+<span>日本PostgreSQLユーザ会</span>
+</h1>
+
+
+  
+</div>
+
+
+<div id="block-jpughuiyihanapostgresqlconferencejapan" class="block block-block-content block-block-content27b1b0bf-bcb3-44d2-8ece-9c220e6abcc7">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><p style="font-weight: bold; font-size: 15pt; font-family: san-seirf; border-left: 10px solid #7FC32B; border-right: 10px solid #7FC32B; padding: 5px; text-align: center;"><a href="/jpug-pgcon2023">PostgreSQL Conference Japan 2023</a></p>
+
+<p>2023 年 11 月 24 日（金）に東京の AP日本橋にてカンファレンスを開催いたしました。</p>
+
+<p align="right"><a href="/jpug-pgcon2023">» 詳細</a></p>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                  
+
+  <div class="region region--content grid-full layout--pass--content-medium" id="content">
+    
+
+<div id="block-olivero-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="block__content">
+      
+
+<article data-history-node-id="72" class="node node--type-page node--view-mode-full">
+  <header class="">
+    
+          
+      </header>
+  <div class="node__content">
+        
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="/npo">日本PostgreSQLユーザ会</a> （略称 JPUG）の Webサイトです。</p>
+
+<p><a href="/docupage">PostgreSQL の日本語訳マニュアル</a>、<a href="/download">PostgreSQL ダウンロードへのリンク</a>、<a href="/event">各種イベントのお知らせ</a>、ユーザ会各組織の情報を掲載しています。</p>
+
+<p>毎年 <a href="/taxonomy/term/17">カンファレンス</a> を開催しています。</p>
+
+<p>PostgreSQLに関するご質問・ご相談は、当会のメーリングリストや ワークスペース(の #beginners や #general チャンネル) に投稿ください。 他の PostgreSQLユーザからのコメントを貰えると思います。<br>
+［JPUG メーリングリスト／Slackワークスペース］<a href="https://www.postgresql.jp/npo/mailinglist"> https://www.postgresql.jp/npo/mailinglist</a></p>
+
+<p>また、姉妹サイトで PostgreSQL の各種記事を集積している <a href="http://lets.postgresql.jp/">Let's Postgres </a> もご参照ください。<br>
+<a href="http://lets.postgresql.jp/"><img alt="Lets Postgres" data-entity-type="file" data-entity-uuid="eabaceae-9894-4b57-8719-50be62aff6b2" src="/sites/default/files/inline-images/let_postgres.png" width="120" height="90" loading="lazy"></a></p>
+
+<p>&nbsp;</p></div>
+      
+  </div>
+  </article>
+
+    </div>
+  </div>
+
+  </div>
+
+                </main>
+
+                
+
+
+  <aside class="region region--sidebar">
+    
+
+<div class="views-element-container block block-views block-views-blockozhirase-block-1" id="block-views-block-ozhirase-block-1-2">
+  
+      <h2 class="block__title">お知らせ</h2>
+    
+      <div class="block__content">
+      <div><div class="view view-ozhirase view-id-ozhirase view-display-id-block_1 js-view-dom-id-a0ed3250d2c879eb2055b5837f8adb4d080b91ff893f1f6566bc055bd028b2f2">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/jpug-pgcon2023" hreflang="ja"> PostgreSQL Conference Japan 2023 (2023-11-24)</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/npo/soukai/2023soukai" hreflang="ja">2023年度 第18回総会</a></span></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/node/406" hreflang="ja">メンテナンス予定(1/21)</a></span></div></div>
+
+    </div>
+  
+        <nav class="pager layout--content-medium" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">ページ送り</h4>
+    <ul class="pager__items js-pager__items">
+            
+            
+            
+                    <li class="pager__item pager__item--active pager__item--number"><span class="visually-hidden">
+              カレントページ
+            </span>
+            1
+                      </li>      
+                    <li class="pager__item pager__item--ellipsis" role="presentation">&hellip;</li>
+      
+                    <li class="pager__item pager__item--control pager__item--next"><a href="?page=1" title="次のページへ" rel="next" class="pager__link"><span class="visually-hidden">次ページ</span><svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 11 16"><path d="M1.11201 7.19126L9.41183 1.15503C10.0728 0.674329 11 1.14648 11 1.96377V14.0362C11 14.8535 10.0728 15.3257 9.41183 14.845L1.11201 8.80874C0.562908 8.40939 0.562907 7.59061 1.11201 7.19126Z"/></svg></a></li>      
+                    <li class="pager__item pager__item--control pager__item--last"><a href="?page=4" title="最終ページへ" class="pager__link"><span class="visually-hidden">最終ページ</span><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="16px" viewBox="0 0 15 16"><path d="M5.1,7.2l8.3-6C14.1,0.7,15,1.1,15,2V14c0,0.8-0.9,1.3-1.6,0.8l-8.3-6C4.6,8.4,4.6,7.6,5.1,7.2z M0,0h2v16H0V0z"/></svg></a></li>          </ul>
+  </nav>
+
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container block block-views block-views-blockxinshiini-yusu-block-1" id="block-views-block-xinshiini-yusu-block-1-2">
+  
+      <h2 class="block__title">新しいニュース</h2>
+    
+      <div class="block__content">
+      <div><div class="view view-xinshiini-yusu view-id-xinshiini_yusu view-display-id-block_1 js-view-dom-id-f854d2504a5f38edbc893ba8d21d3cb4b715dd6d3e7f9df9beff715eb274317b">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/index.php/node/440" hreflang="ja">PostgreSQL 16.2、15.6、14.11、13.14、12.18 リリース (2024-02-08)</a></span></div><div class="views-field views-field-created"><span class="field-content"><time datetime="2024-02-09T18:05:13+09:00">2024/02/09 (金) - 18:05</time>
+</span></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/node/433" hreflang="ja">PostgreSQL 16.1、15.5、14.10、13.13、12.17、11.22 がリリースされました</a></span></div><div class="views-field views-field-created"><span class="field-content"><time datetime="2023-11-09T17:01:07+09:00">2023/11/09 (木) - 17:01</time>
+</span></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/node/431" hreflang="ja">2023-09-30 Open Source Conference 2023 Online/Fall</a></span></div><div class="views-field views-field-created"><span class="field-content"><time datetime="2023-10-03T14:54:19+09:00">2023/10/03 (火) - 14:54</time>
+</span></div></div>
+
+    </div>
+  
+        <nav class="pager layout--content-medium" role="navigation" aria-labelledby="pagination-heading--2">
+    <h4 id="pagination-heading--2" class="visually-hidden">ページ送り</h4>
+    <ul class="pager__items js-pager__items">
+            
+            
+            
+                    <li class="pager__item pager__item--active pager__item--number"><span class="visually-hidden">
+              カレントページ
+            </span>
+            1
+                      </li>      
+                    <li class="pager__item pager__item--ellipsis" role="presentation">&hellip;</li>
+      
+                    <li class="pager__item pager__item--control pager__item--next"><a href="?page=1" title="次のページへ" rel="next" class="pager__link"><span class="visually-hidden">次ページ</span><svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 11 16"><path d="M1.11201 7.19126L9.41183 1.15503C10.0728 0.674329 11 1.14648 11 1.96377V14.0362C11 14.8535 10.0728 15.3257 9.41183 14.845L1.11201 8.80874C0.562908 8.40939 0.562907 7.59061 1.11201 7.19126Z"/></svg></a></li>      
+                    <li class="pager__item pager__item--control pager__item--last"><a href="?page=26" title="最終ページへ" class="pager__link"><span class="visually-hidden">最終ページ</span><svg xmlns="http://www.w3.org/2000/svg" width="15px" height="16px" viewBox="0 0 15 16"><path d="M5.1,7.2l8.3-6C14.1,0.7,15,1.1,15,2V14c0,0.8-0.9,1.3-1.6,0.8l-8.3-6C4.6,8.4,4.6,7.6,5.1,7.2z M0,0h2v16H0V0z"/></svg></a></li>          </ul>
+  </nav>
+
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div id="block-danghuinoxiezanhuiyuanyilan" class="block block-block-content block-block-contente40da974-001d-4e0d-87d3-253fb25e35c4">
+  
+      <h2 class="block__title">協賛会員一覧</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><style type="text/css">table, td, th {
+    border: 0px #dbdbdb solid;
+    padding: 0px 0px;
+}
+tr.banner {
+    padding: 0px 0px;
+    #visibility: collapse;
+}
+.image-90 {
+    horiz-align: center;
+    width: 240px;
+    height: 90px;
+}
+</style>
+<table border="0" class="image-90">
+	<tbody>
+		<tr class="banner">
+			<td><a href="http://www.sraoss.co.jp/"><img alt="SRA OSS LLC" src="/sites/default/files/2022-08/SRA%20OSS_logo_rgb_horizontal_M.png"></a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="http://www.nec-solutioninnovators.co.jp/">NECソリューションイノベータ株式会社 様</a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="http://www.ntt.co.jp/">日本電信電話株式会社 様</a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="http://jp.fujitsu.com/">富士通株式会社 様</a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="http://www.nttcom.co.jp/">NTTコムウェア株式会社 様</a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="https://www.ashisuto.co.jp/"><img alt="株式会社アシスト" data-entity-type="file" data-entity-uuid="d8aa14d9-b3e8-41a9-89c8-f7705eb01c6c" src="/sites/default/files/inline-images/ashisuto_s_touka-240.png" width="240" height="90" loading="lazy"></a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="http://www.insight-ltd.co.jp/"><img alt="株式会社インサイト" data-entity-type="file" data-entity-uuid="77cfafa4-0b00-46b6-91d6-28bdda784ffe" src="/sites/default/files/inline-images/insight_D-1.gif" width="1791" height="689" loading="lazy"></a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="http://www.lpi.or.jp/"><img alt="LPI-Japan 様" src="/sites/default/files/2019-09/OSS_DB_PLUS_DBKUN_A1.gif"></a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="https://www.enterprisedb.com/ja/"><img alt="エンタープライズDB株式会社" src="https://www.postgresql.jp/sites/default/files/2020-10/EDB_LOGO_p2p_s.PNG"></a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="https://www.biprogy.com">BIPROGY 株式会社（旧日本ユニシス株式会社）</a><a href="http://www.unisys.co.jp/"> </a><a href="https://www.biprogy.com">様</a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="http://www.pgecons.org/"><img alt="PostgreSQLエンタープライズ・コンソーシアム" data-entity-type="file" data-entity-uuid="ad443468-b0f7-4069-ab0a-3bfedb075ab6" src="/sites/default/files/inline-images/pgecons_image.jpg" width="1181" height="350" loading="lazy"></a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="https://pleasanter.org/"><img alt="株式会社インプリム 様" data-entity-type="file" data-entity-uuid="71c9adef-9a1c-423c-8a2d-5cd7b3a6f7e8" src="/sites/default/files/inline-images/%E3%83%AD%E3%82%B4_%E3%82%A4%E3%83%B3%E3%83%97%E3%83%AA%E3%83%A0%E6%A7%98_1.png" width="2756" height="610" loading="lazy"></a></td>
+		</tr>
+		<tr class="banner">
+			<td><a href="https://jp.navicat.com/"><img alt="PremiumSoft CyberTech Ltd. 様" data-entity-type="file" data-entity-uuid="a3e2c03a-a12c-4f4e-bac5-5d8fd7860dcb" src="/sites/default/files/inline-images/Navicat_Landscape.jpg" width="2230" height="902" loading="lazy"></a></td>
+		</tr>
+	</tbody>
+</table>
+
+<p align="right"><a href="/npo/kyousan">» 協賛会員について</a></p>
+</div>
+      
+    </div>
+  </div>
+
+
+<div id="block-waiburinkuyonghana" class="block block-block-content block-block-content3e1f96ce-50cd-4584-bc4c-49bc1e16fd43">
+  
+      <h2 class="block__title">外部リンク</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="https://www.postgresql.org/">PostgreSQL 本家</a><br>
+<a href="https://postgresql.tw/">PostgreSQL 台灣</a></p></div>
+      
+    </div>
+  </div>
+
+  </aside>
+
+              </div>
+                        
+          </div>
+        </div>
+        <div class="social-bar">
+          
+<div class="social-bar__inner fixable">
+  <div class="rotate">
+    
+
+<div id="block-olivero-syndicate" role="complementary" class="block block-node block-node-syndicate-block">
+  
+    
+      <div class="block__content">
+      
+
+
+<a href="/index.php/rss.xml" class="feed-icon">
+  <span class="feed-icon__label">
+    RSS feed
+  </span>
+  <span class="feed-icon__icon" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14.2" height="14.2" viewBox="0 0 14.2 14.2">
+  <path d="M4,12.2c0-2.5-3.9-2.4-3.9,0C0.1,14.7,4,14.6,4,12.2z M9.1,13.4C8.7,9,5.2,5.5,0.8,5.1c-1,0-1,2.7-0.1,2.7c3.1,0.3,5.5,2.7,5.8,5.8c0,0.7,2.1,0.7,2.5,0.3C9.1,13.7,9.1,13.6,9.1,13.4z M14.2,13.5c-0.1-3.5-1.6-6.9-4.1-9.3C7.6,1.7,4.3,0.2,0.8,0c-1,0-1,2.6-0.1,2.6c5.8,0.3,10.5,5,10.8,10.8C11.5,14.5,14.3,14.4,14.2,13.5z"/>
+</svg>
+  </span>
+</a>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        
+
+  <div class="region region--footer-top grid-full layout--pass--content-medium">
+    <div class="region--footer_top__inner">
+      
+
+<div id="block-futsutameniyux-2" class="block block-block-content block-block-content00b11e8a-03d6-4bc8-bfaf-7e2c81649d1d">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><table border="0" cellpadding="1" cellspacing="1" style="margin:0;width:100%;">
+	<tbody>
+		<tr style="vertical-align: top;">
+			<td style="width: 25%;border-color: transparent;"><a href="https://www.postgresql.jp/">ホーム</a><br>
+			<a href="https://www.postgresql.jp/wg">分科会・委員会</a><br>
+			<a href="https://www.postgresql.jp/download">ダウンロード</a><br>
+			<a href="https://www.postgresql.jp/docupage">ドキュメント</a><br>
+			<a href="https://www.postgresql.jp/event">イベント</a><br>
+			<a href="https://www.postgresql.jp/news">ニュース</a><br>
+			<a href="https://www.postgresql.jp/recent_events">カレンダー</a></td>
+			<td style="width: 25%;border-color: transparent;"><a href="https://www.postgresql.jp/npo/about">ユーザ会の目的</a><br>
+			<a href="https://www.postgresql.jp/npo/registration">ウェブ会員登録</a><br>
+			<a href="https://www.postgresql.jp/npo/member">会員制度について</a><br>
+			<a href="https://www.postgresql.jp/npo/kyousan">協賛会員</a><br>
+			<a href="https://www.postgresql.jp/npo/director">理事会</a><br>
+			<a href="https://www.postgresql.jp/npo/soukai">総会</a><br>
+			<a href="https://www.postgresql.jp/npo/thankyu">JPUG感謝賞</a><br>
+			<a href="https://www.postgresql.jp/npo/mailinglist">メーリングリスト</a></td>
+			<td style="width: 25%;border-color: transparent;"><a href="https://www.postgresql.jp/branch/hokkaido">北海道支部</a><br>
+			<a href="https://www.postgresql.jp/branch/tohoku">東北支部</a><br>
+			<a href="https://www.postgresql.jp/branch/niigata">新潟支部</a><br>
+			<a href="https://jpug-kansai.connpass.com/">関西支部</a><br>
+			<a href="https://www.postgresql.jp/branch/chugoku">中国支部</a><br>
+			<a href="https://www.postgresql.jp/branch/kyushu">九州支部</a><br>
+			<a href="https://www.postgresql.jp/branch/okinawa">沖縄支部</a></td>
+			<td style="width: 25%;border-color: transparent;"><a href="https://www.postgresql.jp/contact">コンタクト</a><br>
+			<a href="https://www.postgresql.jp/npo/privacypolicy">プライバシーポリシー</a><br>
+			<br>
+			<a href="https://www.postgresql.jp/node/188">各種コミュニティ</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+        
+
+  <div class="region region--footer-bottom grid-full layout--pass--content-medium">
+    
+
+<div id="block-letssaitomao" class="block block-block-content block-block-content42991c1c-8ec1-4ca9-9a96-cfe5390e49a8">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><a href="http://lets.postgresql.jp/"><img alt="Lets Postgres" data-entity-type="file" data-entity-uuid="eabaceae-9894-4b57-8719-50be62aff6b2" src="/sites/default/files/inline-images/let_postgres.png" width="120" height="90" loading="lazy"></a></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+      </div>
+    </footer>
+
+    <div class="overlay" data-drupal-selector="overlay"></div>
+
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/72","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"ja"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"\/index.php\/search\/node":true},"user":{"uid":0,"permissionsHash":"125e855a207ddff1d40644e3fd9116028ddabb44f68e0e6a72257b0538d6f5f5"}}</script>
+<script src="/sites/default/files/js/js__HW_PJN2iu8E_apRntTJ64MMYRlsmYyTgnThb9zAKgY.js?scope=footer&amp;delta=0&amp;language=ja&amp;theme=olivero&amp;include=eJxdjFEKgCAQRC9keaY1RxNWF3ZN6fZFHwX9DG8ewyRpnSZMKnz6eLWRnZ3WUX0ggxMuAyo-swTixfrJpeVXJyC-xUpEIHWjYJp_cq0SD_5uDKTbvsx7-XeNVGVe2e87aQ"></script>
+
+  </body>
+</html>

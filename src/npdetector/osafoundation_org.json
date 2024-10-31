@@ -1,0 +1,46 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Open Source Applications Foundation - Welcome",
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+    "contactlinks": [
+      "https://osafoundation.org/contact.html"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "OSAF is a non-profit organization working on Chandler Project, a Note-to-Self Organizer designed for personal and small-group task management and calendaring. Chandler consists of a cross-platform desktop application (Windows, Mac OS X, Linux), the Chandler Hub Sharing Service and Chandler Server. "
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "osaf",
+  "website": "https://osafoundation.org",
+  "commonName": "Open Source Applications Foundation",
+  "legalName": "Open Source Applications Foundation",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "5929bbe0bf"
+}

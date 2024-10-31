@@ -1,0 +1,42 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "opendocsociety",
+  "website": "https://opendocsociety.org",
+  "commonName": "OpenDoc Society",
+  "legalName": "OpenDoc Society",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "c87e82b7b4"
+}

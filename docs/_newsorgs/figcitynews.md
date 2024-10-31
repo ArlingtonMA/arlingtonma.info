@@ -22,6 +22,7 @@ budgetUsd:
 budgetYear:
 donateurl: https://givebutter.com/599GYN
 sponsorurl: https://figcitynews.com/sources-of-funds/
+policyurl: https://figcitynews.com/about/#policies
 advertising: Not currently displayed
 telephone: 617-359-3728, 617-610-1093
 emailContact: info@figcitynews.com

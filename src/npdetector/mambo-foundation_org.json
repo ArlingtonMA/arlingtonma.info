@@ -1,0 +1,97 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "MamboServer - A hub for hosting comparisons, reviews and alternatives",
+    "titleog": "MamboServer - A hub for hosting comparisons, reviews and alternatives",
+    "descriptionog": "MamboServer is a project that aims to provide insightful hosting comparisons, reviews and guides to help webmasters.",
+    "description": "MamboServer is a project that aims to provide insightful hosting comparisons, reviews and guides to help webmasters.",
+    "twitter": "@MamboServer",
+    "generator": [
+
+    ],
+    "canonical": "https://www.mamboserver.com/",
+    "icon32": "https://www.mamboserver.com/wp-content/uploads/favicon.png",
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://www.mamboserver.com/about-us/"
+    ],
+    "contactlinks": [
+      "https://www.mamboserver.com/contact/"
+    ],
+    "policylinks": [
+      "https://www.mamboserver.com/privacy-policy/"
+    ],
+    "contributelinks": [
+      "https://www.mamboserver.com/advertise/"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+      ".cls-1{fill:#fff}",
+      "Web Hosting",
+      "Gaming Servers",
+      "Review Process",
+      "Search"
+    ]
+  },
+  "linksfooter": {
+    "aboutlinks": [
+      "https://www.mamboserver.com/about-us/"
+    ],
+    "contactlinks": [
+      "https://www.mamboserver.com/contact/"
+    ],
+    "policylinks": [
+      "https://www.mamboserver.com/privacy-policy/"
+    ],
+    "contributelinks": [
+      "https://www.mamboserver.com/advertise/"
+    ],
+    "alllinks": [
+      "About Us",
+      "Contact",
+      "Privacy Policy",
+      "Terms of Use",
+      "Affiliate Disclosure",
+      "Contribute to Mamboserver",
+      "WordPress vs. Bluehost",
+      "Namecheap vs. Bluehost",
+      "GoDaddy vs. Bluehost",
+      "Bluehost vs Squarespace: A Complete Comparison for 2022",
+      "SiteGround vs. Bluehost",
+      "10 Best DigitalOcean Alternatives",
+      "10 Best Bluehost Alternatives",
+      "10 Best Namecheap Alternatives",
+      "10 Best HostGator Alternatives",
+      "6 Best SiteGound Alternatives",
+      "10 Best GoDaddy Alternatives",
+      "Bluehost Review",
+      "Read More",
+      "contact@mamboserver.com",
+      "MamboServer"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "mambo",
+  "website": "https://mambo-foundation.org",
+  "commonName": "Mambo Foundation  Inc.",
+  "legalName": "Mambo Foundation  Inc.",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "13c527e060"
+}

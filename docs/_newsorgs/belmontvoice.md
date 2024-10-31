@@ -22,6 +22,7 @@ budgetUsd:
 budgetYear:
 donateurl: https://belmontvoice.org/donate/
 sponsorurl:
+policyurl: https://belmontvoice.org/ethics-and-policies/
 advertising: https://belmontvoice.org/advertise/
 telephone:
 emailContact:

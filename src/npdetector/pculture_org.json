@@ -1,0 +1,76 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Participatory Culture Foundation",
+    "titleog": "Participatory Culture Foundation",
+    "descriptionog": "A truly democratic society enables everyone to participate, engage, and benefit. PCF is dedicated to creating decentralized media technologies and services to ensure a more collaborative, inclusive world",
+    "description": "",
+    "twitter": "",
+    "generator": [
+
+    ],
+    "icon32": "/favicon-32x32.png",
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://pculture.org/about-pcf"
+    ],
+    "contactlinks": [
+      "https://pculture.org/contact-pcf"
+    ],
+    "securitylinks": [
+      "https://pculture.org/security"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://pculture.org/about-pcf"
+    ],
+    "contactlinks": [
+      "https://pculture.org/contact-pcf"
+    ],
+    "securitylinks": [
+      "https://pculture.org/security"
+    ],
+    "alllinks": [
+      "About",
+      "Careers",
+      "Contact",
+      "Terms",
+      "Privacy",
+      "Security"
+    ]
+  },
+  "linksfooter": {
+    "securitylinks": [
+      "https://pculture.org/security"
+    ],
+    "alllinks": [
+      "Terms",
+      "Privacy",
+      "Security"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "Since 2006, PCF has been a nonprofit dedicated to creating technologies, services, and communities that enable everyone to contribute to the peaceful and abundant culture they want to live in."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "pculture",
+  "website": "https://pculture.org/",
+  "commonName": "Participatory Culture Foundation",
+  "legalName": "Participatory Culture Foundation",
+  "location": "US",
+  "state": "MA",
+  "taxID": "20-2630593",
+  "newEngland": "f250a918a5"
+}

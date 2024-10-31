@@ -25,6 +25,7 @@ budgetUsd: '145596'
 budgetYear: '2022'
 donateurl: https://thebedfordcitizen.org/donate/
 sponsorurl:
+policyurl: https://thebedfordcitizen.org/policies-and-guidelines/
 advertising: No policy; has some corporate sponsors listed
 telephone:
 emailContact: mike@thebedfordcitizen.org

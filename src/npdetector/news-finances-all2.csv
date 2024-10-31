@@ -1,0 +1,45 @@
+commonName,website,irsdate,population,location,state,EIN,Tax_Year,Tax_Period_End,Form_Type_Filed,Contributions,Investment_Income,Program_Service_Revenue,Total_Revenue,Total_Expenses,Total_Assets,Net_Assets,contribpercapita,revpercapita,expensepercapita
+VT Digger,https://vtdigger.com/,2/1/11,44595,Montpelier,VT,271553931,2021,202112,0,2784738,4110,584088,3372936,2766167,3627259,3430468,62.445,75.635,62.029
+Montana Free Press,https://montanafreepress.org/,5/1/19,33885,Helena,MT,475237719,2021,202112,0,925155,58,0,925213,936289,1395111,1346831,27.303,27.305,27.631
+Berkeleyside,https://www.berkeleyside.org/,1/1/20,118950,Berkeley,CA,843448887,2021,202112,0,3080193,0,569090,3671033,3718600,1452372,1305273,25.895,30.862,31.262
+Mountain State Spotlight,https://mountainstatespotlight.org/,11/1/21,47129,Charleston,WV,851154363,2021,202112,0,1166792,0,0,1166792,591695,714001,678441,24.757,24.757,12.555
+Billy Penn at WHYY,https://billypenn.com/,2/1/59,1567258,Philadelphia,PA,231438083,2021,202106,0,31813729,354575,14744042,48783739,37584084,67419873,57110425,20.299,31.127,23.981
+Carlisle Mosquito,https://www.carlislemosquito.org/,4/1/73,5237,Carlisle,MA,237246801,2021,202107,0,81487,317,0,211614,213948,143354,121825,15.56,40.407,40.853
+Otis Observer,https://otisobserver.com/,5/1/15,1634,Otis,MA,473575404,2022,MA AGO PC form,https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001CLpOAUA1,22715,0,0,22715,23375,N/D,13969,13.901,13.901,14.305
+Ipswich Local News,https://thelocalnews.news/,2/1/20,13785,Ipswich,MA,843780597,2021,202112,0,181324,288,242447,424985,299518,182231,180619,13.154,30.83,21.728
+Searchlight New Mexico,https://searchlightnm.org/,4/1/18,89008,Santa Fe,NM,813234552,2021,202112,0,1079860,859,0,1080972,1052847,846961,786709,12.132,12.145,11.829
+New Bedford Light,https://newbedfordlight.org/,6/1/21,100682,New Bedford,MA,862407296,2021,202112,0,993896,0,0,993896,313326,680570,680570,9.872,9.872,3.112
+Carolina Public Press,https://carolinapublicpress.org/,4/1/14,93776,Asheville,NC,460801080,2021,202112,0,779056,754,2000,794749,625517,504941,497341,8.308,8.475,6.67
+Gig Harbor Now,https://www.gigharbornow.org/,10/1/21,12484,Gig Harbor,WA,861636609,2021,202112,0,93715,0,0,93715,24315,69400,69400,7.507,7.507,1.948
+Sheffield Times,https://www.sheffieldtimes.org/,12/1/08,3327,Sheffield,MA,43568232,2020,202012,1,24481,3,6314,37398,35108,10030,10030,7.358,11.241,10.552
+Bedford Citizen,https://www.thebedfordcitizen.org/,7/1/14,14123,Bedford,MA,460777549,2021,202112,1,101046,0,34220,135266,127219,76827,76827,7.155,9.578,9.008
+Investigate Midwest,https://investigatemidwest.org/,8/1/10,89241,Champaign,IL,271652830,2021,202112,0,625127,0,70201,695328,586736,266323,248407,7.005,7.792,6.575
+Cardinal News,https://cardinalnews.org/,2/1/22,97847,Roanoke,VA,871532828,2021,202112,0,470063,0,0,470063,150432,337065,319631,4.804,4.804,1.537
+MinnPost,https://minnpost.com,12/1/07,425096,Minneapolis,MN,260573427,2021,202112,0,1552823,270,294846,1954386,1720834,1303702,1252593,3.653,4.598,4.048
+East Lansing Info,https://eastlansinginfo.news/,9/1/14,47340,East Lansing,MI,465444564,2021,202106,1,171638,14,0,171696,175752,54575,51037,3.626,3.627,3.713
+Wausau Pilot & Review,https://wausaupilotandreview.com/,1/1/17,39833,Wausau,WI,814399324,2021,202112,1,142778,0,0,196724,185092,23530,23530,3.584,4.939,4.647
+New Mexico In Depth,https://nmindepth.com/,10/1/14,108082,Rio Rancho,NM,454011138,2021,202112,0,334485,0,0,334485,347185,361171,373871,3.095,3.095,3.212
+"Record North Shore, The",https://www.therecordnorthshore.org/,8/1/21,27264,Lombard,IL,851425791,2021,202112,1,83514,0,47609,131123,139804,4472,4322,3.063,4.809,5.128
+The Nevada Independent,https://thenevadaindependent.com/,6/1/13,656274,Las Vegas,NV,273192716,2021,202112,0,1838005,0,0,1892475,2236098,811335,726544,2.801,2.884,3.407
+Boulder Reporting Lab,https://boulderreportinglab.org/,4/1/22,105485,Boulder,CO,871232586,2021,202112,0,237053,0,0,237053,33268,203785,203785,2.247,2.247,0.315
+El Paso Matters,https://elpasomatters.org/,4/1/20,677456,El Paso,TX,834301968,2021,202112,0,1147241,0,0,1147241,233987,902101,897454,1.693,1.693,0.345
+Oklahoma Watch,https://oklahomawatch.org/,11/1/13,694800,Oklahoma City,OK,273721498,2021,202112,0,1088176,0,0,1089252,812887,563397,560221,1.566,1.568,1.17
+Marblehead Current,https://marbleheadcurrent.org/,6/1/22,20441,Marblehead,MA,882367192,2022,N/A estimates,https://marbleheadcurrent.org/wp-content/uploads/2023/11/2022-Current-Annual-Report-7.pdf,31077,N/D,17207,153348,76314,N/D,N/D,1.52,7.502,3.733
+Hoptown Chronicle,https://hoptownchronicle.org/,6/1/19,30927,Hopkinsville,KY,841736647,2021,202112,1,42434,0,0,42434,24977,46056,43759,1.372,1.372,0.808
+Canopy Atlanta,https://canopyatlanta.org/,11/1/20,499127,Atlanta,GA,850694979,2022,202206,0,680288,310,0,680598,159572,675873,675873,1.363,1.364,0.32
+Lexington Observer,https://lexobserver.org/,6/1/22,34454,Lexington,MA,874640985,2023,N/A estimates,https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g11a7a6660d9_0_17,43564,N/D,N/D,157032,156981,N/D,N/D,1.264,4.558,4.556
+The Lens NOLA,https://thelensnola.org/,12/1/12,369749,New Orleans,LA,272072772,2021,202112,0,437647,0,6000,443647,434953,72767,72767,1.184,1.2,1.176
+ecoRI News,https://ecori.org/,11/1/09,189563,Providence,RI,264267233,2021,202112,0,216499,498,22345,242910,238650,337789,337789,1.142,1.281,1.259
+Asheville Watchdog,https://avlwatchdog.org/,5/1/20,93776,Asheville,NC,850614521,2021,202112,1,98833,0,0,98833,26488,90419,90419,1.054,1.054,0.282
+"Eden Prairie Local News, Inc.",https://www.eplocalnews.org/,11/1/21,52476,Eden Prairie,MN,854248265,2022,202206,1,55140,3,22336,77479,60497,62477,56256,1.051,1.476,1.153
+Your Arlington,https://yourarlington.com/,10/1/21,46308,Arlington,MA,871248884,2023,N/A estimates,Google Drive,45000,500,0,75000,67000,N/D,30000,0.972,1.62,1.447
+Florida Bulldog,https://www.floridabulldog.org/,5/1/10,183146,Ft Lauderdale,FL,270318157,2021,202112,1,153765,0,0,153765,115870,146807,143793,0.84,0.84,0.633
+Nancy On Norwalk,https://www.nancyonnorwalk.com/,11/1/14,91401,Norwalk,CT,465509772,2021,202112,1,56670,0,10588,67258,78193,21997,21997,0.62,0.736,0.855
+"Uptake, The",https://theuptake.org/,2/1/09,303176,Saint Paul,MN,263781377,2021,202112,1,119490,0,0,119490,110749,54132,54132,0.394,0.394,0.365
+Arizona Luminaria,https://azluminaria.org/,1/1/22,546574,Tucson,AZ,872217945,2021,202112,1,173470,0,0,174320,70131,104189,104189,0.317,0.319,0.128
+Fresnoland,https://fresnoland.org/,8/1/18,545567,Fresno,CA,830696156,2021,202112,0,167437,0,401000,568437,241763,390560,380538,0.307,1.042,0.443
+Belt Magazine,https://beltmag.com/,6/1/18,361607,Cleveland,OH,475386846,2021,202112,1,110778,0,30880,141658,126575,48120,48120,0.306,0.392,0.35
+Austin Monitor,https://www.austinmonitor.com/,12/1/14,947447,Austin,TX,463398438,2021,202112,0,277259,0,172660,450078,433148,119637,85597,0.293,0.475,0.457
+Rochester Beacon,https://rochesterbeacon.com/,8/1/19,209352,Rochester,NY,831431746,2021,202112,1,55991,0,0,55991,78682,34522,34522,0.267,0.267,0.376
+Fig City News,https://figcitynews.com/,11/1/22,88923,Auburndale,MA,920697644,2022,MA AGO PC form,https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001ANpmkUAD,6624,0,0,9013,2994,N/D,6019,0.074,0.101,0.034
+"Austin Bulldog, The",https://theaustinbulldog.org/,9/1/09,974447,Austin,TX,270231463,2021,202112,1,69347,0,0,69347,69258,18450,18450,0.071,0.071,0.071

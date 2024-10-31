@@ -1,0 +1,67 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Open Robotics",
+    "titleog": "Open Robotics",
+    "descriptionog": "We are the home for ROS, Gazebo, and Open-RMF. We build open source robot software and help others to apply it.",
+    "description": "We are the home for ROS, Gazebo, and Open-RMF. We build open source robot \nsoftware and help others to apply it.",
+    "generator": [
+
+    ],
+    "canonical": "https://www.openrobotics.org",
+    "yoast": null
+  },
+  "links": {
+    "contactlinks": [
+      "https://openrobotics.org/contact"
+    ],
+    "donatelinks": [
+      "https://openrobotics.org/donate"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+      "Donate",
+      "Leadership",
+      "News",
+      "Donate",
+      "Leadership",
+      "News"
+    ]
+  },
+  "linksfooter": {
+    "contactlinks": [
+      "https://openrobotics.org/contact"
+    ],
+    "donatelinks": [
+      "https://openrobotics.org/donate"
+    ],
+    "alllinks": [
+      "Contact",
+      "Press",
+      "Donate",
+      "News"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "openrobotics",
+  "website": "https://openrobotics.org",
+  "commonName": "Open Source Robotics Foundation Inc",
+  "legalName": null,
+  "location": "US",
+  "state": null,
+  "taxID": "45-5230545",
+  "newEngland": "c3"
+}

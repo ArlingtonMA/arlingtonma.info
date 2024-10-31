@@ -21,6 +21,7 @@ budgetUsd: '370000'
 budgetYear: '2022'
 donateurl: https://marbleheadcurrent.org/donate/
 sponsorurl: https://marbleheadcurrent.org/donate/
+policyurl: https://marbleheadcurrent.org/policies/
 advertising: https://marbleheadcurrent.org/ads/
 telephone:
 emailContact:

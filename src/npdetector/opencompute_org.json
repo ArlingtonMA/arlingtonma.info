@@ -1,0 +1,322 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Home » Open Compute Project",
+    "titleog": "Open Compute Project",
+    "descriptionog": "",
+    "description": "Open Compute Project",
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+    "contactlinks": [
+      "https://www.opencompute.org/contact"
+    ],
+    "aboutlinks": [
+      "https://www.opencompute.org/about"
+    ],
+    "missionlinks": [
+      "https://www.opencompute.org/about"
+    ],
+    "boardlinks": [
+      "https://www.opencompute.org/about/board"
+    ],
+    "projectlinks": [
+      "https://www.opencompute.org/about/project-leads",
+      "https://www.opencompute.org/projects",
+      "https://www.opencompute.org/projects/project-and-steering-meetings-calendar",
+      "https://opencompute.org/projects/time-appliances-project-tap",
+      "https://opencompute.org/projects/regional-project-community-apac",
+      "https://opencompute.org/projects/regional-project-community-PRC",
+      "https://opencompute.org/projects/regional-project-community-europe",
+      "https://opencompute.org/projects/regional-project-community-japan",
+      "https://opencompute.org/projects/regional-project-community-korea",
+      "https://opencompute.org/projects/regional-project-community-taiwan",
+      "https://www.opencompute.org/projects/time-appliances-project-tap",
+      "https://www.opencompute.org/projects/regional-project-community-apac",
+      "https://www.opencompute.org/projects/regional-project-community-PRC",
+      "https://www.opencompute.org/projects/regional-project-community-europe",
+      "https://www.opencompute.org/projects/regional-project-community-japan",
+      "https://www.opencompute.org/projects/regional-project-community-korea",
+      "https://www.opencompute.org/projects/regional-project-community-taiwan"
+    ],
+    "policylinks": [
+      "https://www.opencompute.org/about/ocp-policies",
+      "https://www.opencompute.org/privacy"
+    ],
+    "contributelinks": [
+      "https://www.opencompute.org/contributions/welcome"
+    ],
+    "securitylinks": [
+      "https://www.opencompute.org/projects/operation-technology-security",
+      "https://opencompute.org/projects/security",
+      "https://www.opencompute.org/projects/security"
+    ],
+    "eventlinks": [
+      "https://www.opencompute.org/events/upcoming-events",
+      "https://www.opencompute.org/events/past-events"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://www.opencompute.org/about"
+    ],
+    "missionlinks": [
+      "https://www.opencompute.org/about"
+    ],
+    "boardlinks": [
+      "https://www.opencompute.org/about/board"
+    ],
+    "projectlinks": [
+      "https://www.opencompute.org/about/project-leads",
+      "https://www.opencompute.org/projects",
+      "https://www.opencompute.org/projects/project-and-steering-meetings-calendar",
+      "https://opencompute.org/projects/time-appliances-project-tap",
+      "https://opencompute.org/projects/regional-project-community-apac",
+      "https://opencompute.org/projects/regional-project-community-PRC",
+      "https://opencompute.org/projects/regional-project-community-europe",
+      "https://opencompute.org/projects/regional-project-community-japan",
+      "https://opencompute.org/projects/regional-project-community-korea",
+      "https://opencompute.org/projects/regional-project-community-taiwan"
+    ],
+    "policylinks": [
+      "https://www.opencompute.org/about/ocp-policies"
+    ],
+    "contributelinks": [
+      "https://www.opencompute.org/contributions/welcome"
+    ],
+    "securitylinks": [
+      "https://www.opencompute.org/projects/operation-technology-security",
+      "https://opencompute.org/projects/security"
+    ],
+    "eventlinks": [
+      "https://www.opencompute.org/events/upcoming-events",
+      "https://www.opencompute.org/events/past-events"
+    ],
+    "contactlinks": [
+      "https://www.opencompute.org/contact"
+    ],
+    "alllinks": [
+      "About",
+      "History & Mission",
+      "Foundation Staff",
+      "Board",
+      "Advisory Board",
+      "Steering Committee",
+      "Project Leads",
+      "Media and Press Guidelines",
+      "OCP Policies",
+      "OCP Adoption",
+      "Marketplace",
+      "Integrated Solutions",
+      "Facilities & Services",
+      "Telecom & Edge",
+      "Products",
+      "Solution Providers",
+      "Solution Provider Programs & Fees",
+      "Solution Provider Agreements",
+      "Solution Providers Directory",
+      "How to Become a Solution Provider",
+      "Product Recognition Program",
+      "Facility Recognition Program",
+      "SP Portal",
+      "Contributions",
+      "Welcome",
+      "Database",
+      "How to Contribute",
+      "Portal",
+      "Agreements",
+      "Projects",
+      "Overview",
+      "Project & Steering Meetings Calendar",
+      "Cooling Environments",
+      "Immersion",
+      "Cold Plate",
+      "Door Heat Exchanger",
+      "Advanced Cooling Facilities",
+      "Heat Reuse",
+      "Data Center Facility",
+      "Modular Data Center",
+      "OCP Ready™ Facility Recognition Program",
+      "Operation Technology Security (Maintenance Mode)",
+      "DCF Sustainability",
+      "Hardware Management",
+      "Hardware Management Module",
+      "Hardware Fault Management - Incubation",
+      "Cloud Service Model Workstream",
+      "OpenRMC-DM",
+      "Networking",
+      "ONIE",
+      "SONiC",
+      "Enterprise Connectivity Solutions (ECS)",
+      "Open Network Linux (ONL) [Maintenance Mode]",
+      "Open System Firmware",
+      "Rack & Power",
+      "Security",
+      "OCP S.A.F.E. Program",
+      "Server",
+      "High Performance Computing - Incubation",
+      "Open Accelerator Infrastructure",
+      "Open Domain-Specific Architecture",
+      "Composable Memory System",
+      "DC-MHS",
+      "Storage",
+      "Sustainability",
+      "Telco",
+      "Edge",
+      "Time Appliances Project (TAP)",
+      "OCP Strategic Initiatives",
+      "Test and Validation Enablement Initiative",
+      "Evenstar",
+      "Future Technologies Initiative",
+      "AI HW SW CoDesign Workstream",
+      "Data Centric Computing",
+      "Short Reach Optical Interconnect",
+      "Regional Project Community - APAC",
+      "Regional Project Community - China Mainland",
+      "Regional Project Community - EMEA",
+      "Regional Project Community - Japan",
+      "Regional Project Community - Korea",
+      "Regional Project Community - Taiwan",
+      "Events",
+      "2024 OCP Global Summit",
+      "2024 OCP Regional Summit",
+      "OCP Future Technologies Symposium",
+      "OCP Educational Webinar Program",
+      "Upcoming Events",
+      "Past Events",
+      "Membership",
+      "Overview & Fees",
+      "Membership Directory",
+      "Startup Program",
+      "Startup Directory",
+      "How to Join",
+      "Membership Agreements",
+      "Blog",
+      "Contact",
+      "Career Center"
+    ]
+  },
+  "linksfooter": {
+    "aboutlinks": [
+      "https://www.opencompute.org/about"
+    ],
+    "missionlinks": [
+      "https://www.opencompute.org/about"
+    ],
+    "boardlinks": [
+      "https://www.opencompute.org/about/board"
+    ],
+    "projectlinks": [
+      "https://www.opencompute.org/about/project-leads",
+      "https://www.opencompute.org/projects",
+      "https://www.opencompute.org/projects/time-appliances-project-tap",
+      "https://www.opencompute.org/projects/regional-project-community-apac",
+      "https://www.opencompute.org/projects/regional-project-community-PRC",
+      "https://www.opencompute.org/projects/regional-project-community-europe",
+      "https://www.opencompute.org/projects/regional-project-community-japan",
+      "https://www.opencompute.org/projects/regional-project-community-korea",
+      "https://www.opencompute.org/projects/regional-project-community-taiwan"
+    ],
+    "policylinks": [
+      "https://www.opencompute.org/about/ocp-policies",
+      "https://www.opencompute.org/privacy"
+    ],
+    "securitylinks": [
+      "https://www.opencompute.org/projects/security"
+    ],
+    "eventlinks": [
+      "https://www.opencompute.org/events/upcoming-events",
+      "https://www.opencompute.org/events/past-events"
+    ],
+    "alllinks": [
+      "About",
+      "History & Mission",
+      "Foundation Staff",
+      "Board",
+      "Advisory Board",
+      "Steering Committee",
+      "Project Leads",
+      "Media and Press Guidelines",
+      "OCP Policies",
+      "OCP Adoption",
+      "Marketplace",
+      "Integrated Solutions",
+      "Facilities & Services",
+      "Telecom & Edge",
+      "Products",
+      "Solution Providers",
+      "Solution Provider Programs & Fees",
+      "Solution Provider Agreements",
+      "Solution Providers Directory",
+      "How to Become a Solution Provider",
+      "Product Recognition Program",
+      "Facility Recognition Program",
+      "SP Portal",
+      "Projects",
+      "Overview",
+      "Cooling Environments",
+      "Data Center Facility",
+      "Hardware Management",
+      "Networking",
+      "Open System Firmware",
+      "Rack & Power",
+      "Security",
+      "Server",
+      "Storage",
+      "Sustainability",
+      "Telco",
+      "Time Appliances Project (TAP)",
+      "OCP Strategic Initiatives",
+      "Future Technologies Initiative",
+      "Regional Project Community - APAC",
+      "Regional Project Community - China Mainland",
+      "Regional Project Community - EMEA",
+      "Regional Project Community - Japan",
+      "Regional Project Community - Korea",
+      "Regional Project Community - Taiwan",
+      "Events",
+      "2024 OCP Global Summit",
+      "2024 OCP Regional Summit",
+      "OCP Future Technologies Symposium",
+      "OCP Educational Webinar Program",
+      "Upcoming Events",
+      "Past Events",
+      "Membership",
+      "Overview & Fees",
+      "Membership Directory",
+      "Startup Program",
+      "Startup Directory",
+      "How to Join",
+      "Membership Agreements",
+      "Blog",
+      "Privacy Policy",
+      "Terms of Service",
+      "Rackspace",
+      "Hahn Agency"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "opencompute",
+  "website": "https://opencompute.org",
+  "commonName": "Open Compute Project Foundation",
+  "legalName": null,
+  "location": "US",
+  "state": null,
+  "taxID": "45-3630872",
+  "newEngland": "c6"
+}

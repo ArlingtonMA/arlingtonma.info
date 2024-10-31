@@ -1,0 +1,71 @@
+{
+  "slogan": null,
+  "copyright": "© 2015-2024 United States PostgreSQL Association Postgres, PostgreSQL and the Slonik Logo are trademarks or registered trademarks of the PostgreSQL Community Association of Canada, and used with their permission.",
+  "imprint": null,
+  "metas": {
+    "title": "PgUS - Welcome",
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://postgresql.us/aboutus"
+    ],
+    "sponsorlinks": [
+      "https://postgresql.us/sponsors"
+    ],
+    "contactlinks": [
+      "https://postgresql.us/contactus"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://postgresql.us/aboutus"
+    ],
+    "sponsorlinks": [
+      "https://postgresql.us/sponsors"
+    ],
+    "contactlinks": [
+      "https://postgresql.us/contactus"
+    ],
+    "alllinks": [
+      "PgUS",
+      "about us",
+      "sponsors",
+      "financial support",
+      "diversity",
+      "corporate",
+      "become a member",
+      "contact us",
+      "your membership"
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+      "More",
+      "Twitter"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+      "\n          The United States PostgreSQL Association, affectionately known as PgUS, is a IRS 501(c)(3) public charity. Our purpose is\n          to support the growth and education of PostgreSQL, The World's Most Advanced Open Source Database.\n        "
+    ],
+    "nonprofit": [
+      "\n\t\t\t\tStacey Haysler is the CFO and COO of PostgreSQL Experts, Inc. She\n\t\t\t\tfirst became involved in the Postgres community in 2010, and\n\t\t\t\thas worked as an organizer and conference staff for a number of\n\t\t\t\tconferences, both in North America and Europe, as well as being\n\t\t\t\tpart of the start up team for PgDay San Francisco. She founded\n\t\t\t\tthe Django Events Foundation North America (DEFNA), a nonprofit\n\t\t\t\tassociated with the Django Software Foundation, and was a\n\t\t\t\tprincipal organizer of DjangoConUS for three years. She also\n\t\t\t\tserved as Treasurer of the DSF for a year while starting DEFNA. She\n\t\t\t\tis a PostgreSQL contributor.\n              ",
+      "\n\t\t\t  Jonathan S. Katz is a Principal Product Manager - Technical at\n\t\t\t  Amazon on the Amazon RDS team. Jonathan is also a Core Team\n\t\t\t  Member of the PostgreSQL Project, responsible for advocacy,\n\t\t\t  release and governance efforts and is Secretary and a board\n\t\t\t  member for the nonprofit PostgreSQL Community Association of\n\t\t\t  Canada.\n              "
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "postgresql",
+  "website": "https://postgresql.us",
+  "commonName": "PostgreSQL.US",
+  "legalName": "United States Postgresql Association",
+  "location": "US",
+  "state": "OR",
+  "taxID": "26-2194507",
+  "newEngland": "ce0892df2a"
+}

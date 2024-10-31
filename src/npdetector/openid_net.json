@@ -1,0 +1,158 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Foundation - OpenID Foundation",
+    "titleog": "Foundation - OpenID Foundation",
+    "descriptionog": "About OpenID The OpenID Foundation's vision is to help people assert their identity wherever they choose. And our mission is to lead the global community in creating identity standards that are secure, interoperable, and privacy-preserving. Founded in 2007, the OpenID Foundation (OIDF) is a non-profit open standards body developing identity and security specifications that serve billions",
+    "description": "About OpenID The OpenID Foundation's vision is to help people assert their identity wherever they choose. And our mission is to lead the global community in creating identity standards that are secure, interoperable, and privacy-preserving. Founded in 2007, the OpenID Foundation (OIDF) is a non-profit open standards body developing identity and security specifications that serve billions",
+    "twitter": "@openid",
+    "generator": [
+      "All in One SEO (AIOSEO) 4.5.6",
+      "WordPress 6.4.3",
+      "Site Kit by Google 1.119.0",
+      "Elementor 3.19.2; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap"
+    ],
+    "canonical": "https://openid.net/foundation/",
+    "icon32": "https://openid.net/wp-content/uploads/2022/11/favicon_23-150x150.jpg",
+    "yoast": null
+  },
+  "links": {
+    "boardlinks": [
+      "https://openid.net/foundation/board/"
+    ],
+    "sponsorlinks": [
+      "https://openid.net/foundation/sponsoring-members/"
+    ],
+    "policylinks": [
+      "https://openid.net/policies/",
+      "https://openid.net/certification/certification-conformance-testing-disclosure-and-reporting-policy/",
+      "https://openid.net/certification/open-source-project-certification-policy/",
+      "https://openid.net/certification/third-party-support-certification-policy/"
+    ],
+    "aboutlinks": [
+      "https://openid.net/mark/"
+    ],
+    "projectlinks": [
+      "https://openid.net/certification/open-source-project-certification-policy/"
+    ],
+    "contributelinks": [
+      "https://openid.net/intellectual-property/openid-foundation-contribution-agreements/"
+    ]
+  },
+  "linksnav": {
+    "boardlinks": [
+      "https://openid.net/foundation/board/"
+    ],
+    "sponsorlinks": [
+      "https://openid.net/foundation/sponsoring-members/"
+    ],
+    "policylinks": [
+      "https://openid.net/policies/",
+      "https://openid.net/certification/certification-conformance-testing-disclosure-and-reporting-policy/",
+      "https://openid.net/certification/open-source-project-certification-policy/",
+      "https://openid.net/certification/third-party-support-certification-policy/"
+    ],
+    "aboutlinks": [
+      "https://openid.net/mark/"
+    ],
+    "projectlinks": [
+      "https://openid.net/certification/open-source-project-certification-policy/"
+    ],
+    "alllinks": [
+      "FOUNDATION",
+      "Join the OpenID Foundation",
+      "Board of Directors",
+      "Sponsoring Members",
+      "Foundation Leadership",
+      "Intellectual Property",
+      "OpenID Foundation Contribution Agreements",
+      "Software Grant and Contribution License Agreements",
+      "Community Group Participation Agreements",
+      "Organizational Documents and Policies",
+      "SPECIFICATIONS",
+      "Discover OpenID and OpenID Connect",
+      "How OpenID Connect Works",
+      "Explore All Specifications",
+      "JWT, JWS, JWE, JWK, and JWA Implementations",
+      "Certified OpenID Connect Implementations",
+      "Uncertified OpenID Connect Implementations",
+      "CERTIFICATION",
+      "OpenID Certification Frequently Asked Questions",
+      "About the OpenID Certified Mark",
+      "How to Certify Your Implementation",
+      "Fee Schedule to Certify Your Implementation",
+      "Certified OpenID Developer Tools",
+      "Certification Program Policies",
+      "Certification Conformance Testing Disclosure and Reporting Policy",
+      "Open-Source Project Certification Policy",
+      "Third-Party Support Certification Policy",
+      "GROUPS",
+      "Working Groups",
+      "AB/Connect Working Group",
+      "Overview",
+      "Charter",
+      "Specifications",
+      "AuthZEN Working Group",
+      "Digital Credentials Protocols (DCP) Working Group",
+      "Repositories",
+      "EAP Working Group",
+      "eKYC & IDA Working Group",
+      "FAPI Working Group",
+      "FastFed Working Group",
+      "HEART Working Group",
+      "iGov Working Group",
+      "MODRNA Working Group",
+      "R&E Working Group",
+      "Shared Signals Working Group",
+      "Community Groups",
+      "GAIN POC",
+      "Proof of Concept",
+      "Related Specifications",
+      "Participation Agreements",
+      "Special Topic Groups",
+      "OpenID for Verifiable Credentials",
+      "Libraries",
+      "Working Group Resources",
+      "CALENDAR"
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+      "Email: help@oidf.org",
+      "About the Foundation",
+      "Board of Directors",
+      "Policies and Guidelines",
+      "Member Benefits, Why Join?",
+      "What is OpenID and OpenID Connect?",
+      "How does OpenID Connect Work?",
+      "How do Working Groups Work?",
+      "What is Self-certification?",
+      "Download a Whitepaper",
+      "View a Presentation",
+      "OpenID News Archive"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "Founded in 2007, the OpenID Foundation (OIDF) is a non-profit open standards body developing identity and security specifications that serve billions of consumers across millions of applications.",
+      "The Foundation will develop a liaison with a particular global, regional, or national partner, such as a standards body or governance entity. These liaisons and partnerships with other standards bodies, non-profits, and private entities help the Foundation deliver on its mission.",
+      "Participants can join as private entities, governments, non-profits, and as individuals with accessible member dues. With this structure, the Foundation seeks to ensure a sustainable, and accessible model for the global community. For noting, the Foundation is funded roughly one-third by membership, one-third by certification fees, and one-third by directed funding projects requested by members."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "openid",
+  "website": "https://openid.net/foundation/",
+  "commonName": "OpenID Foundation",
+  "legalName": "OpenID Foundation",
+  "location": "US",
+  "state": "CA",
+  "taxID": "26-0447503",
+  "newEngland": "3b04fc4e6d"
+}

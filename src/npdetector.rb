@@ -14,7 +14,7 @@ module NPDetectpr
   require 'optparse'
   require 'csv'
 
-  HACK_DO_ABOUT = true
+  HACK_DO_ABOUT = false
 
   MODULE_LOG = [] # Simplistic logging if needed
   CACHE_SUBDIR = 'cache'
@@ -65,6 +65,23 @@ module NPDetectpr
   LINKRX_MAP = {
     ABOUT => /\Aabout[-]?[u]?/i,
     'boardlinks' => /\Aboard/i, # others: Advisory, Community, Editorial, Our... Board ;Staff &/And Board
+    'bylawlinks' => /bylaws/i,
+    'teamlinks' => /\A(meet|our|the)[\w\s]+(team|staff)/i, # others: Team, Team Bios
+    'missionlinks' => /[\w\s]*mission\z/i, # others: Mission and Values
+    'policylinks' => /[\w\s]*polic[\w]*\z/i, # others: Our values
+    'brandlinks' => /\A(brand|trademark)[\w\s]*\z/i,
+    'projectlinks' => /project/i,
+    'eventlinks' => /event/i,
+    'securitylinks' => /security/i,
+    'coclinks' => /\Acode of[\w\s]*\z/i,
+    'contactlinks' => /\Acontact[\w\s]*\z/i,
+    'contributelinks' => /^(contribut|support)/i, # others:  Ways to give
+    'sponsorlinks' => /sponsor/i,
+    DONATE => /\Adonat/i
+  }
+  LINKRX_MAP_NEWS = {
+    ABOUT => /\Aabout[-]?[u]?/i,
+    'boardlinks' => /\Aboard/i, # others: Advisory, Community, Editorial, Our... Board ;Staff &/And Board
     'teamlinks' => /\A(meet|our|the)[\w\s]+(team|staff)/i, # others: Team, Team Bios
     'missionlinks' => /[\w\s]*mission\z/i, # others: Mission and Values
     'policylinks' => /[\w\s]*polic[\w]*\z/i, # others: Our values
@@ -75,7 +92,6 @@ module NPDetectpr
     DONATE => /\Adonat/i,
     'statesnewsroom' => /states[\s]?newsroom/i # Common fiscal host
   }
-
   # @return text content of first node.css(selector) found; nil if none
   def get_first_css(node, selector)
     nodelist = node.css(selector)
@@ -320,8 +336,14 @@ module NPDetectpr
       condensed['boardType'] = nil
       condensed['membershipType'] = nil
       condensed['boardurl'] = data[LINKS].fetch('boardlinks', nil)
-      condensed['bylawsurl'] = nil
+      condensed['bylawsurl'] = data[LINKS].fetch('bylawlinks', nil)
       condensed['policyurl'] = data[LINKS].fetch('policylinks', nil)
+      condensed['brandPolicy'] = data[LINKS].fetch('brandlinks', nil)
+      condensed['conducturl'] = data[LINKS].fetch('coclinks', nil)
+      condensed['securityurl'] = data[LINKS].fetch('securityurl', nil)
+      condensed['projectlinks'] = data[LINKS].fetch('projectsList', nil)
+      condensed['eventlinks'] = data[LINKS].fetch('eventurl', nil)
+
       condensed['teamurl'] = data[LINKS].fetch('teamlinks', nil)
       condensed['missionurl'] = data[LINKS].fetch('missionlinks', nil)
       condensed['numberOfEmployees'] = nil
@@ -406,7 +428,7 @@ module NPDetectpr
   end
 
   if __FILE__ == $PROGRAM_NAME
-    dir = '../../anpdetector'
+    dir = 'npdetector'
     infile = 'npdetector.csv'
     outfile = 'npdetector.json'
     csv = CSV.new(File.read(infile), :headers => true).to_a.map {|row| row.to_hash }

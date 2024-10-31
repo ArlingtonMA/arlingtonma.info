@@ -22,6 +22,7 @@ budgetUsd:
 budgetYear:
 donateurl: https://www.newtonbeacon.org/give/
 sponsorurl: https://www.newtonbeacon.org/about/donors/
+policyurl: https://www.newtonbeacon.org/about/ethics-policies/
 advertising: None displayed
 telephone:
 emailContact: hello@newtonbeacon.org

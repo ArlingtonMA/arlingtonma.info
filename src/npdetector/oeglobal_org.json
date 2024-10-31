@@ -1,0 +1,134 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "OEGlobal – Open Education Global",
+    "titleog": "Home",
+    "descriptionog": "News and Updates\n    View more\n\n\n\n\n\n\n\n\n\n\n OE Global on Mastodon",
+    "twitter": "@OpenEdGlobal",
+    "generator": [
+
+    ],
+    "canonical": "https://www.oeglobal.org/",
+    "icon32": "/favicon-32x32.png",
+    "yoast": null
+  },
+  "links": {
+    "eventlinks": [
+      "https://www.oeglobal.org/activities/global/",
+      "https://oeweek.oeglobal.org/activities/"
+    ],
+    "projectlinks": [
+      "https://www.oeglobal.org/activities/special-projects/"
+    ],
+    "contactlinks": [
+      "https://oeglobal.org/about-us/contact-us/",
+      "https://www.oeglobal.org/about-us/contact-us/"
+    ],
+    "aboutlinks": [
+      "https://www.oeglobal.org/about-us/"
+    ],
+    "donatelinks": [
+      "https://www.oeglobal.org/donate/"
+    ]
+  },
+  "linksnav": {
+    "eventlinks": [
+      "https://www.oeglobal.org/activities/global/"
+    ],
+    "projectlinks": [
+      "https://www.oeglobal.org/activities/special-projects/"
+    ],
+    "alllinks": [
+      "About OEGlobal",
+      "What We Do",
+      "Strategic Plan",
+      "People of OEG",
+      "OE Global Members",
+      "History of OEG",
+      "Contact Us",
+      "OE Global Activities",
+      "OE Global Events",
+      "Building Communities",
+      "Open Education Resources",
+      "Special Projects",
+      "News & Views",
+      "OEGlobal News",
+      "OEG World",
+      "Hear Open Educators in Action",
+      "Open Education Newsletter",
+      "OEG Job Opportunities",
+      "Join",
+      "Donate",
+      "Become an OEGlobal Member",
+      "OEG Connect",
+      "icons/magnify\n    Created with Sketch."
+    ]
+  },
+  "linksfooter": {
+    "contactlinks": [
+      "https://oeglobal.org/about-us/contact-us/",
+      "https://www.oeglobal.org/about-us/contact-us/"
+    ],
+    "aboutlinks": [
+      "https://www.oeglobal.org/about-us/"
+    ],
+    "eventlinks": [
+      "https://www.oeglobal.org/activities/global/"
+    ],
+    "projectlinks": [
+      "https://www.oeglobal.org/activities/special-projects/"
+    ],
+    "donatelinks": [
+      "https://www.oeglobal.org/donate/"
+    ],
+    "alllinks": [
+      "Contact",
+      "Twitter",
+      "About OEGlobal",
+      "What We Do",
+      "Strategic Plan",
+      "People of OEG",
+      "OE Global Members",
+      "History of OEG",
+      "Contact Us",
+      "OE Global Activities",
+      "OE Global Events",
+      "Building Communities",
+      "Open Education Resources",
+      "Special Projects",
+      "News & Views",
+      "OEGlobal News",
+      "OEG World",
+      "Hear Open Educators in Action",
+      "Open Education Newsletter",
+      "OEG Job Opportunities",
+      "Join",
+      "Donate",
+      "Become an OEGlobal Member",
+      "OEG Connect",
+      "Creative Commons Attribution 4.0 International License",
+      "Terms of Use and Privacy Policies."
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "oeglobal",
+  "website": "https://oeglobal.org",
+  "commonName": "Open Education Global Inc",
+  "legalName": null,
+  "location": "US",
+  "state": "MA",
+  "taxID": "01-0908761",
+  "newEngland": null
+}

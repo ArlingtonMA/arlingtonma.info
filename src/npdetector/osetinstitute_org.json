@@ -1,0 +1,143 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "OSET Institute | Open Source Election Technology",
+    "titleog": "OSET Institute | Open Source Election Technology",
+    "descriptionog": "OSET's nonpartisan, nonprofit mission is to defend democracy and re-build public confidence in our elections with more transparency in voting systems design.",
+    "description": "OSET's nonpartisan, nonprofit mission is to defend democracy and re-build \npublic confidence in our elections with more transparency in voting systems \ndesign.",
+    "generator": [
+
+    ],
+    "canonical": "https://www.osetinstitute.org",
+    "yoast": null
+  },
+  "links": {
+    "securitylinks": [
+      "https://osetinstitute.org/cybersecurity-advisory"
+    ],
+    "projectlinks": [
+      "https://osetinstitute.org/trust-the-vote-project"
+    ],
+    "policylinks": [
+      "https://osetinstitute.org/technology-policy",
+      "https://osetinstitute.org/privacy-policy"
+    ],
+    "missionlinks": [
+      "https://osetinstitute.org/our-mission"
+    ],
+    "donatelinks": [
+      "https://secure.anedot.com/the-trustthevote-project/donate"
+    ],
+    "contactlinks": [
+      "https://osetinstitute.org/contact"
+    ]
+  },
+  "linksnav": {
+    "securitylinks": [
+      "https://osetinstitute.org/cybersecurity-advisory"
+    ],
+    "projectlinks": [
+      "https://osetinstitute.org/trust-the-vote-project"
+    ],
+    "alllinks": [
+      "The Work",
+      "Technology R&D",
+      "Cybersecurity Advisory",
+      "Technology Policy",
+      "Trust the Vote Project",
+      "About",
+      "Our Mission",
+      "Our Theory of Change",
+      "The Problem We're Addressing",
+      "Who We Are",
+      "Resources",
+      "Insights Blog",
+      "Press & Media",
+      "Research Papers",
+      "Public Documents",
+      "Public License",
+      "Sitewide Search",
+      "Folder:\n                The Work",
+      "Back",
+      "Technology R&D",
+      "Cybersecurity Advisory",
+      "Technology Policy",
+      "Trust the Vote Project",
+      "Folder:\n                About",
+      "Our Mission",
+      "Our Theory of Change",
+      "The Problem We're Addressing",
+      "Who We Are",
+      "Folder:\n                Resources",
+      "Insights Blog",
+      "Press & Media",
+      "Research Papers",
+      "Public Documents",
+      "Public License",
+      "DONATE"
+    ]
+  },
+  "linksfooter": {
+    "securitylinks": [
+      "https://osetinstitute.org/cybersecurity-advisory"
+    ],
+    "policylinks": [
+      "https://osetinstitute.org/technology-policy",
+      "https://osetinstitute.org/privacy-policy"
+    ],
+    "projectlinks": [
+      "https://osetinstitute.org/trust-the-vote-project"
+    ],
+    "missionlinks": [
+      "https://osetinstitute.org/our-mission"
+    ],
+    "donatelinks": [
+      "https://secure.anedot.com/the-trustthevote-project/donate"
+    ],
+    "contactlinks": [
+      "https://osetinstitute.org/contact"
+    ],
+    "alllinks": [
+      "JOIN US",
+      "TECHNOLOGY R&D",
+      "CYBERSECURITY ADVISORY",
+      "TECHNOLOGY POLICY",
+      "TrustTheVote® Project",
+      "OUR MISSION",
+      "THE PROBLEM",
+      "THEORY OF CHANGE",
+      "WHO WE ARE",
+      "INSIGHTS BLOG",
+      "PRESS & MEDIA",
+      "RESEARCH PAPERS",
+      "PUBLIC DOCUMENTS",
+      "JOIN US",
+      "DONATE",
+      "VOLUNTEER",
+      "CONTACT",
+      "PRIVACY POLICY",
+      "LEGAL NOTES"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+      "OSET Institute is a tax-exempt 501(c)(3) non-profit California public benefit corporation."
+    ],
+    "nonprofit": [
+      "OSET Institute is a tax-exempt 501(c)(3) non-profit California public benefit corporation."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "oset",
+  "website": "https://osetinstitute.org",
+  "commonName": "Open Source Election Technology Institute",
+  "legalName": null,
+  "location": "US",
+  "state": "OR",
+  "taxID": "20-8743186",
+  "newEngland": "c3"
+}

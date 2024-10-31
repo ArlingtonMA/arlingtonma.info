@@ -22,6 +22,7 @@ budgetUsd:
 budgetYear:
 donateurl: https://brookline.news/donate-to-brookline-news/
 sponsorurl:
+policyurl: https://brookline.news/about-us/#editorialpolicies
 advertising:
 telephone:
 emailContact:

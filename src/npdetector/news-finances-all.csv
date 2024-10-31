@@ -1,0 +1,65 @@
+commonName,website,irsdate,population,location,state,EIN,Tax_Year,Tax_Period_End,Form_Type_Filed,Contributions,Investment_Income,Program_Service_Revenue,Total_Revenue,Total_Expenses,Total_Assets,Net_Assets,contribpercapita,revpercapita,expensepercapita
+AfroLA,https://afrolanews.org/,2023-05-01,3822238,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+Ashland.news,https://ashland.news/,2022-08-01,21285,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+ecoRI News,https://ecori.org/,2009-11-01,189563,Providence,RI,264267233,2021,202112,0,216499,498,22345,242910,238650,337789,337789,1.066,0.003,0.118
+Austin Monitor,https://www.austinmonitor.com/,2014-12-01,947447,Austin,TX,463398438,2021,202112,0,277259,0,172660,450078,433148,119637,85597,0.213,0.0,0.182
+Asheville Watchdog,https://avlwatchdog.org/,2020-05-01,93776,Asheville,NC,850614521,2021,202112,1,98833,0,0,98833,26488,90419,90419,2.155,0.0,0.0
+Arizona Luminaria,https://azluminaria.org/,2022-01-01,546574,Tucson,AZ,872217945,2021,202112,1,173470,0,0,174320,70131,104189,104189,0.37,0.0,0.0
+Bedford Citizen,https://www.thebedfordcitizen.org/,2014-07-01,14123,Bedford,MA,460777549,2021,202112,1,101046,0,34220,135266,127219,76827,76827,14.311,0.0,2.423
+Belt Magazine,https://beltmag.com/,2018-06-01,361607,Cleveland,OH,475386846,2021,202112,1,110778,0,30880,141658,126575,48120,48120,0.559,0.0,0.085
+Berkeleyside,https://www.berkeleyside.org/,2020-01-01,118950,Berkeley,CA,843448887,2021,202112,0,3080193,0,569090,3671033,3718600,1452372,1305273,1.699,0.0,4.784
+Big If True,https://streetlightnews.org/,2018-11-01,694800,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+Billy Penn at WHYY,https://billypenn.com/,1959-02-01,1567258,Philadelphia,PA,231438083,2021,202106,0,31813729,354575,14744042,48783739,37584084,67419873,57110425,0.129,0.226,9.408
+Boulder Reporting Lab,https://boulderreportinglab.org/,2022-04-01,105485,Boulder,CO,871232586,2021,202112,0,237053,0,0,237053,33268,203785,203785,1.916,0.0,0.0
+Brookline.news,https://brookline.news/about-us/,2023-06-01,63191,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+Canopy Atlanta,https://canopyatlanta.org/,2020-11-01,499127,Atlanta,GA,850694979,2022,202206,0,680288,310,0,680598,159572,675873,675873,0.405,0.001,0.0
+Cardinal News,https://cardinalnews.org/,2022-02-01,97847,Roanoke,VA,871532828,2021,202112,0,470063,0,0,470063,150432,337065,319631,2.066,0.0,0.0
+Carlisle Mosquito,https://www.carlislemosquito.org/,1973-04-01,5237,Carlisle,MA,237246801,2021,202107,0,81487,317,0,211614,213948,143354,121825,38.592,0.061,0.0
+Carolina Public Press,https://carolinapublicpress.org/,2014-04-01,93776,Asheville,NC,460801080,2021,202112,0,779056,754,2000,794749,625517,504941,497341,2.155,0.008,0.021
+Concord Bridge,https://theconcordbridge.org/,2022-03-01,18491,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+East Lansing Info,https://eastlansinginfo.news/,2014-09-01,47340,East Lansing,MI,465444564,2021,202106,1,171638,14,0,171696,175752,54575,51037,4.269,0.0,0.0
+El Paso Matters,https://elpasomatters.org/,2020-04-01,677456,El Paso,TX,834301968,2021,202112,0,1147241,0,0,1147241,233987,902101,897454,0.298,0.0,0.0
+"Eden Prairie Local News, Inc.",https://www.eplocalnews.org/,2021-11-01,52476,Eden Prairie,MN,854248265,2022,202206,1,55140,3,22336,77479,60497,62477,56256,3.853,0.0,0.426
+Fig City News,https://figcitynews.com/,2022-11-01,88923,Auburndale,MA,920697644,2022,MA AGO PC form,https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001ANpmkUAD,6624,0,0,9013,2994,N/D,6019,0.0,0.0,0.0
+Florida Bulldog,https://www.floridabulldog.org/,2010-05-01,183146,Ft Lauderdale,FL,270318157,2021,202112,1,153765,0,0,153765,115870,146807,143793,1.104,0.0,0.0
+Fresnoland,https://fresnoland.org/,2018-08-01,545567,Fresno,CA,830696156,2021,202112,0,167437,0,401000,568437,241763,390560,380538,0.37,0.0,0.735
+Gig Harbor Now,https://www.gigharbornow.org/,2021-10-01,12484,Gig Harbor,WA,861636609,2021,202112,0,93715,0,0,93715,24315,69400,69400,16.19,0.0,0.0
+High Country News,https://www.hcn.org,1969-08-01,1462,Paonia,CO,237015336,2021,202109,0,4208140,4941,856711,5357816,4061537,2812447,1964713,138.241,3.38,585.986
+Hoptown Chronicle,https://hoptownchronicle.org/,2019-06-01,30927,Hopkinsville,KY,841736647,2021,202112,1,42434,0,0,42434,24977,46056,43759,6.535,0.0,0.0
+Investigate Midwest,https://investigatemidwest.org/,2010-08-01,89241,Champaign,IL,271652830,2021,202112,0,625127,0,70201,695328,586736,266323,248407,2.265,0.0,0.787
+Ipswich Local News,https://thelocalnews.news/,2020-02-01,13785,Ipswich,MA,843780597,2021,202112,0,181324,288,242447,424985,299518,182231,180619,14.662,0.021,17.588
+Lexington Observer,https://lexobserver.org/,2022-06-01,34454,Lexington,MA,874640985,2023,N/A estimates,https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g11a7a6660d9_0_17,43564,N/D,N/D,157032,156981,N/D,N/D,0.0,0.0,0.0
+The Maine Monitor,https://themainemonitor.org/,2012-01-01,2597,Hallowell,ME,272623867,2021,202112,0,440168,0,0,440168,488253,59010,59010,77.825,0.0,0.0
+Marblehead Current,https://marbleheadcurrent.org/,2022-06-01,20441,Marblehead,MA,882367192,2022,N/A estimates,https://marbleheadcurrent.org/wp-content/uploads/2023/11/2022-Current-Annual-Report-7.pdf,31077,N/D,17207,153348,76314,N/D,N/D,0.0,0.0,0.842
+Matter News,https://www.matternews.org/,2021-02-01,907971,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+MinnPost,https://minnpost.com,2007-12-01,425096,Minneapolis,MN,260573427,2021,202112,0,1552823,270,294846,1954386,1720834,1303702,1252593,0.475,0.001,0.694
+Mission Local,https://missionlocal.org/,2022-10-01,808437,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+Montana Free Press,https://montanafreepress.org/,2019-05-01,33885,Helena,MT,475237719,2021,202112,0,925155,58,0,925213,936289,1395111,1346831,5.965,0.002,0.0
+Mountain State Spotlight,https://mountainstatespotlight.org/,2021-11-01,47129,Charleston,WV,851154363,2021,202112,0,1166792,0,0,1166792,591695,714001,678441,4.288,0.0,0.0
+Nancy On Norwalk,https://www.nancyonnorwalk.com/,2014-11-01,91401,Norwalk,CT,465509772,2021,202112,1,56670,0,10588,67258,78193,21997,21997,2.211,0.0,0.116
+New Bedford Light,https://newbedfordlight.org/,2021-06-01,100682,New Bedford,MA,862407296,2021,202112,0,993896,0,0,993896,313326,680570,680570,2.007,0.0,0.0
+Newton Beacon,https://www.newtonbeacon.org/,2022-10-01,87381,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+New Mexico In Depth,https://nmindepth.com/,2014-10-01,108082,Rio Rancho,NM,454011138,2021,202112,0,334485,0,0,334485,347185,361171,373871,1.87,0.0,0.0
+NowKalamazoo,https://nowkalamazoo.org/,2023-08-01,72873,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+"Objective, The",https://objectivejournalism.org/,2012-03-01,66950,Beverly Hills,CA,272614911,2021,202112,0,6443954,1908,0,6971216,6014963,6852788,6538339,3.019,0.028,0.0
+Oklahoma Watch,https://oklahomawatch.org/,2013-11-01,694800,Oklahoma City,OK,273721498,2021,202112,0,1088176,0,0,1089252,812887,563397,560221,0.291,0.0,0.0
+Otis Observer,https://otisobserver.com/,2015-05-01,1634,Otis,MA,473575404,2022,MA AGO PC form,https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001CLpOAUA1,22715,0,0,22715,23375,N/D,13969,0.0,0.0,0.0
+Rochester Beacon,https://rochesterbeacon.com/,2019-08-01,209352,Rochester,NY,831431746,2021,202112,1,55991,0,0,55991,78682,34522,34522,0.965,0.0,0.0
+Searchlight New Mexico,https://searchlightnm.org/,2018-04-01,89008,Santa Fe,NM,813234552,2021,202112,0,1079860,859,0,1080972,1052847,846961,786709,2.271,0.01,0.0
+Sheffield Times,https://www.sheffieldtimes.org/,2008-12-01,3327,Sheffield,MA,43568232,2020,202012,1,24481,3,6314,37398,35108,10030,10030,60.719,0.001,1.898
+The Sierra Nevada Ally,https://sierranevadaally.org/,2020-05-01,273448,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+South Side Weekly,https://southsideweekly.com/,2023-01-01,2665039,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+"Austin Bulldog, The",https://theaustinbulldog.org/,2009-09-01,974447,Austin,TX,270231463,2021,202112,1,69347,0,0,69347,69258,18450,18450,0.207,0.0,0.0
+"Buckeye Flame, The",https://thebuckeyeflame.com/,2020-09-01,361607,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+"Red Hook Daily Catch, The",https://www.thedailycatch.org/,2022-07-01,1963,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+The Lens NOLA,https://thelensnola.org/,2012-12-01,369749,New Orleans,LA,272072772,2021,202112,0,437647,0,6000,443647,434953,72767,72767,0.547,0.0,0.016
+The Local Reporter,https://thelocalreporter.press/,2019-05-01,62098,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+"Marjorie, The",https://themarjorie.org/,2021-11-01,145214,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+The Nevada Independent,https://thenevadaindependent.com/,2013-06-01,656274,Las Vegas,NV,273192716,2021,202112,0,1838005,0,0,1892475,2236098,811335,726544,0.308,0.0,0.0
+"Record North Shore, The",https://www.therecordnorthshore.org/,2021-08-01,27264,Lombard,IL,851425791,2021,202112,1,83514,0,47609,131123,139804,4472,4322,7.413,0.0,1.746
+"Uptake, The",https://theuptake.org/,2009-02-01,303176,Saint Paul,MN,263781377,2021,202112,1,119490,0,0,119490,110749,54132,54132,0.667,0.0,0.0
+Tucson Sentinel,https://www.tucsonsentinel.com/,2020-01-01,546574,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+VT Digger,https://vtdigger.com/,2011-02-01,44595,Montpelier,VT,271553931,2021,202112,0,2784738,4110,584088,3372936,2766167,3627259,3430468,4.532,0.092,13.098
+Wausau Pilot & Review,https://wausaupilotandreview.com/,2017-01-01,39833,Wausau,WI,814399324,2021,202112,1,142778,0,0,196724,185092,23530,23530,5.074,0.0,0.0
+Webb City Sentinel,https://webbcity.net/,2021-11-01,13165,ERROR: could not fetch latest filing data,0.0,0.0,0.0
+Your Arlington,https://yourarlington.com/,2021-10-01,46308,Arlington,MA,871248884,2023,N/A estimates,Google Drive,45000,500,0,75000,67000,N/D,30000,0.0,0.011,0.0

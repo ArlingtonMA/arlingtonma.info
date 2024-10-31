@@ -21,6 +21,7 @@ budgetUsd:
 budgetYear:
 donateurl: Has a donate page (not tax deductible)
 sponsorurl:
+policyurl: 
 advertising: https://www.cambridgeday.com/about/#advertising
 telephone: 617-230-9632
 emailContact: editor@cambridgeday.com

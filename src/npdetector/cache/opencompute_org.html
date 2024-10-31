@@ -1,0 +1,1116 @@
+<!doctype html>
+<html lang="en" ng-app="App">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Home » Open Compute Project</title>
+    <meta name="keywords" content="Open Compute Project">
+    <meta name="description" content="Open Compute Project">
+    <meta name="theme-color" content="#aa181f" />
+
+    
+    <!-- Social Data: Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Open Compute Project" />
+    <meta property="og:title" content="Open Compute Project">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://www.opencompute.org">
+    <meta property="og:image" content="https://www.opencompute.org/images/og-image.png">
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="144" />
+    <meta property="og:image:height" content="144" />
+    <meta property="og:image:alt" content="Open Compute Project Logo" />
+
+    <!-- Social Data: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Open Compute Project">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="https://www.opencompute.org">
+    <meta name="twitter:image" content="https://www.opencompute.org/images/og-image.png">
+
+    <!-- DNS Prefetching -->
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://stats.g.doubleclick.net">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M3K5NX2');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WRSZLKB');
+    </script>
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="https://www.opencompute.org/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.opencompute.org/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.opencompute.org/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.opencompute.org/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.opencompute.org/images/apple-touch-icon-144x144.png">
+
+    <!-- Fonts -->
+    <link rel="preload" href="https://use.typekit.net/jej4yav.css" as="style">
+    <link rel="stylesheet" href="https://use.typekit.net/jej4yav.css">
+
+    <!-- Styles -->
+        <link rel="preload" href="https://www.opencompute.org/build/assets/global.db13bf81.css" as="style">
+    <link href="https://www.opencompute.org/build/assets/global.db13bf81.css" rel="stylesheet" type="text/css">
+    
+    <!-- Scripts -->
+        <script>
+        window.Laravel = {"csrfToken":"1VS8r54WzUGmFq0imiwNFcYTBA8s3jYUO5uAXCCQ"};
+    </script>
+        <script>
+            </script>
+        <script>
+        (function() {
+            var zi = document.createElement('script');
+            zi.type = 'text/javascript';
+            zi.async = true;
+            zi.src = 'https://ws.zoominfo.com/pixel/TaRHcK2PHRhe4Yw32pQs';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(zi, s);
+        })();
+    </script>
+    <noscript>
+        <img src="https://ws.zoominfo.com/pixel/TaRHcK2PHRhe4Yw32pQs" width="1" height="1" style="display: none;" />
+    </noscript>
+    </head>
+<!--[if lte IE 9]> <body class="ie9"> <![endif]-->
+<!--[if gt IE 9]>-->
+
+<body> <!--<![endif]-->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3K5NX2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRSZLKB "
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="header">
+    <section class="header__top">
+        <div class="container">
+            <div class="grid grid--gapless grid--halign-right grid--valign-center">
+                <div class="grid__col-auto">
+                                        <form class="header__search-form" action="https://www.opencompute.org/search" method="get">
+                        <input type="text" name="site_search[query]" class="header__search-input form__input form__input--xs form__input--round" aria-label="Search field" placeholder="Search...">
+                        <button type="submit" aria-label="Search button" class="header__search-submit"></button>
+                    </form>
+                    <a href="https://www.opencompute.org/contact" class="btn btn--xs btn--green btn--round u--margin-left-2">Contact</a>
+                    <a href="https://ocpcareercenter.mysmartjobboard.com/" class="btn btn--xs btn--green btn--round u--margin-left-5" target="_blank">Career Center</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header__bottom">
+        <div class="container">
+            <div class="grid grid--gapless grid--halign-between grid--valign-center">
+                <div class="grid__col-auto">
+                                            <span class="logo"></span>
+                                    </div>
+                <div class="grid__col-auto">
+                    <nav role="navigation" class="desktop-nav">
+                        <ul class="desktop-nav__list">
+                                                        <li class="desktop-nav__item desktop-nav__item--has-sub-list">
+                                    <a href="https://www.opencompute.org/about">About</a>
+                                                                            <ul class="desktop-nav__sub-list">
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about">History &amp; Mission</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/foundation-staff">Foundation Staff</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/board">Board</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/advisory-board">Advisory Board</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/ocp-steering-committee">Steering Committee</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/project-leads">Project Leads</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/media-and-press-guidelines">Media and Press Guidelines</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/ocp-policies">OCP Policies</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/about/ocp-adoption">OCP Adoption</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                        <li class="desktop-nav__item desktop-nav__item--has-sub-list">
+                                    <a href="https://www.opencompute.org/marketplace">Marketplace</a>
+                                                                            <ul class="desktop-nav__sub-list">
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/solutions">Integrated Solutions</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/facilities-services">Facilities &amp; Services</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/telecom-edge">Telecom &amp; Edge</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/products">Products</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                        <li class="desktop-nav__item desktop-nav__item--has-sub-list">
+                                    <a href="https://www.opencompute.org/sp">Solution Providers</a>
+                                                                            <ul class="desktop-nav__sub-list">
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/sp">Solution Provider Programs &amp; Fees</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/sp/agreements">Solution Provider Agreements</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/membership/sp/open-compute-project-solution-providers">Solution Providers Directory</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/sp/how-to-become-a-solution-provider">How to Become a Solution Provider</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/sp/product-recognition-program">Product Recognition Program</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/sp/facility-recognition-program">Facility Recognition Program</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/login?portal=provider">SP Portal</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                        <li class="desktop-nav__item desktop-nav__item--has-sub-list">
+                                    <a href="https://www.opencompute.org/contributions/welcome">Contributions</a>
+                                                                            <ul class="desktop-nav__sub-list">
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/contributions/welcome">Welcome</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/contributions">Database</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/contributions/how-to-contribute">How to Contribute</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/login?portal=contributor">Portal</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/contributions/agreements">Agreements</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                        <li class="desktop-nav__item desktop-nav__item--has-sub-list">
+                                    <a href="https://www.opencompute.org/projects">Projects</a>
+                                                                            <ul class="desktop-nav__sub-list">
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/projects">Overview</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/projects/project-and-steering-meetings-calendar">Project &amp; Steering Meetings Calendar</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/cooling-environments">Cooling Environments</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/immersion">Immersion</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/cold-plate">Cold Plate</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/door-heat-exchanger">Door Heat Exchanger</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/advanced-cooling-facilities">Advanced Cooling Facilities</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/heat-reuse">Heat Reuse</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/data-center-facility">Data Center Facility</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/modular-data-center">Modular Data Center</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/ocp-readytm-facility-recognition-program">OCP Ready™ Facility Recognition Program</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/operation-technology-security">Operation Technology Security (Maintenance Mode)</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/dcf-sustainability">DCF Sustainability</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/hardware-management">Hardware Management</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/hardware-management-module-incubation">Hardware Management Module</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/hardware-fault-management-incubation">Hardware Fault Management - Incubation</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/cloud-service-model-workstream">Cloud Service Model Workstream</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/openrmc-dm">OpenRMC-DM</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/networking">Networking</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/onie">ONIE</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/sai">SAI</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/sonic">SONiC</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/enterprise-connectivity-solutions-ecs-incubation">Enterprise Connectivity Solutions (ECS)</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/open-network-linux-onl">Open Network Linux (ONL) [Maintenance Mode]</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/open-system-firmware">Open System Firmware</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/rack-and-power">Rack &amp; Power</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/security">Security</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/ocp-safe-program">OCP S.A.F.E. Program</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/server">Server</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/high-performance-computing-incubation">High Performance Computing - Incubation</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/mezz-nic">NIC</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/open-accelerator-infrastructure">Open Accelerator Infrastructure</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/open-domain-specific-architecture">Open Domain-Specific Architecture</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/composable-memory-system">Composable Memory System</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/dc-mhs">DC-MHS</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/storage">Storage</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/sustainability">Sustainability</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/telco">Telco</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/edge">Edge</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/time-appliances-project-tap">Time Appliances Project (TAP)</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/ocp-2021-strategic-initiatives">OCP Strategic Initiatives</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/test-and-validation-enablement-initiative">Test and Validation Enablement Initiative</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/evenstar">Evenstar</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item desktop-nav__sub-item--has-sub-list">
+                                                    <a href="/projects/future-technologies-initiative">Future Technologies Initiative</a>
+                                                                                                            <ul class="desktop-nav__sub-list--sub">
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/ai-hw-sw-codesign">AI HW SW CoDesign Workstream</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/data-centric-computing">Data Centric Computing</a>
+                                                                </li>
+                                                                                                                            <li class="desktop-nav__sub-item">
+                                                                    <a href="https://www.opencompute.org/projects/short-reach-optical-interconnect">Short Reach Optical Interconnect</a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/regional-project-community-apac">Regional Project Community - APAC</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/regional-project-community-PRC">Regional Project Community - China Mainland</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/regional-project-community-europe">Regional Project Community - EMEA</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/regional-project-community-japan">Regional Project Community - Japan</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/regional-project-community-korea">Regional Project Community - Korea</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="/projects/regional-project-community-taiwan">Regional Project Community - Taiwan</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                        <li class="desktop-nav__item desktop-nav__item--has-sub-list">
+                                    <a href="https://www.opencompute.org/events/upcoming-events">Events</a>
+                                                                            <ul class="desktop-nav__sub-list">
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/summit/global-summit">2024 OCP Global Summit</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/summit/regional-summit">2024 OCP Regional Summit</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/summit/ocp-future-technologies-symposium">OCP Future Technologies Symposium</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/summit/ocp-educational-webinar-program">OCP Educational Webinar Program</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/events/upcoming-events">Upcoming Events</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/events/past-events">Past Events</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                        <li class="desktop-nav__item desktop-nav__item--has-sub-list">
+                                    <a href="https://www.opencompute.org/membership">Membership</a>
+                                                                            <ul class="desktop-nav__sub-list">
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/membership">Overview &amp; Fees</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/membership/membership-directory">Membership Directory</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/membership/startup-program">Startup Program</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/membership/startup-directory">Startup Directory</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/membership/how-to-join">How to Join</a>
+                                                                                                    </li>
+                                                                                            <li class="desktop-nav__sub-item">
+                                                    <a href="https://www.opencompute.org/membership/agreements">Membership Agreements</a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                                                    </li>
+                                                        <li class="desktop-nav__item">
+                                    <a href="https://www.opencompute.org/blog">Blog</a>
+                                                                    </li>
+                                                    </ul>
+                    </nav>
+                    <button class="hamburger" aria-label="Mobile Menu" data-toggle-mobile-menu>
+                        <div class="hamburger__icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<aside class="flyout">
+    <form class="mobile__search-form" action="https://www.opencompute.org/search" method="get">
+        <div class="form__input-group form__input-group--sm">
+            <input type="text" name="query" class="form__input form__input--round" aria-label="Search input" placeholder="Search..." />
+            <button class="btn btn--green btn--round" aria-label="Search button"><i class="fa fa-search"></i></button>
+        </div>
+    </form>
+    <nav class="mobile-nav" role="navigation">
+        <ul class="mobile-nav__list">
+                            <li class="mobile-nav__item mobile-nav__item--has-sub-list">
+                    <a href="https://www.opencompute.org/about">About</a>
+                                            <ul class="mobile-nav__sub-list">
+                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about">History &amp; Mission</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/foundation-staff">Foundation Staff</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/board">Board</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/advisory-board">Advisory Board</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/ocp-steering-committee">Steering Committee</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/project-leads">Project Leads</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/media-and-press-guidelines">Media and Press Guidelines</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/ocp-policies">OCP Policies</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/about/ocp-adoption">OCP Adoption</a>
+                                                                            </li>
+                                                                                    </ul>
+                                    </li>
+                            <li class="mobile-nav__item mobile-nav__item--has-sub-list">
+                    <a href="https://www.opencompute.org/marketplace">Marketplace</a>
+                                            <ul class="mobile-nav__sub-list">
+                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/solutions">Integrated Solutions</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/facilities-services">Facilities &amp; Services</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/telecom-edge">Telecom &amp; Edge</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/products">Products</a>
+                                                                            </li>
+                                                                                    </ul>
+                                    </li>
+                            <li class="mobile-nav__item mobile-nav__item--has-sub-list">
+                    <a href="https://www.opencompute.org/sp">Solution Providers</a>
+                                            <ul class="mobile-nav__sub-list">
+                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/sp">Solution Provider Programs &amp; Fees</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/sp/agreements">Solution Provider Agreements</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/membership/sp/open-compute-project-solution-providers">Solution Providers Directory</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/sp/how-to-become-a-solution-provider">How to Become a Solution Provider</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/sp/product-recognition-program">Product Recognition Program</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/sp/facility-recognition-program">Facility Recognition Program</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/login?portal=provider">SP Portal</a>
+                                                                            </li>
+                                                                                    </ul>
+                                    </li>
+                            <li class="mobile-nav__item mobile-nav__item--has-sub-list">
+                    <a href="https://www.opencompute.org/contributions/welcome">Contributions</a>
+                                            <ul class="mobile-nav__sub-list">
+                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/contributions/welcome">Welcome</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/contributions">Database</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/contributions/how-to-contribute">How to Contribute</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/login?portal=contributor">Portal</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/contributions/agreements">Agreements</a>
+                                                                            </li>
+                                                                                    </ul>
+                                    </li>
+                            <li class="mobile-nav__item mobile-nav__item--has-sub-list">
+                    <a href="https://www.opencompute.org/projects">Projects</a>
+                                            <ul class="mobile-nav__sub-list">
+                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/projects">Overview</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/projects/project-and-steering-meetings-calendar">Project &amp; Steering Meetings Calendar</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/cooling-environments">Cooling Environments</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/immersion">Immersion</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/cold-plate">Cold Plate</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/door-heat-exchanger">Door Heat Exchanger</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/advanced-cooling-facilities">Advanced Cooling Facilities</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/heat-reuse">Heat Reuse</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/data-center-facility">Data Center Facility</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/modular-data-center">Modular Data Center</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/ocp-readytm-facility-recognition-program">OCP Ready™ Facility Recognition Program</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/operation-technology-security">Operation Technology Security (Maintenance Mode)</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/dcf-sustainability">DCF Sustainability</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/hardware-management">Hardware Management</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/hardware-management-module-incubation">Hardware Management Module</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/hardware-fault-management-incubation">Hardware Fault Management - Incubation</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/cloud-service-model-workstream">Cloud Service Model Workstream</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/openrmc-dm">OpenRMC-DM</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/networking">Networking</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/onie">ONIE</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/sai">SAI</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/sonic">SONiC</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/enterprise-connectivity-solutions-ecs-incubation">Enterprise Connectivity Solutions (ECS)</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/open-network-linux-onl">Open Network Linux (ONL) [Maintenance Mode]</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/open-system-firmware">Open System Firmware</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/rack-and-power">Rack &amp; Power</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/security">Security</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/ocp-safe-program">OCP S.A.F.E. Program</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/server">Server</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/high-performance-computing-incubation">High Performance Computing - Incubation</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/mezz-nic">NIC</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/open-accelerator-infrastructure">Open Accelerator Infrastructure</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/open-domain-specific-architecture">Open Domain-Specific Architecture</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/composable-memory-system">Composable Memory System</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/dc-mhs">DC-MHS</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/storage">Storage</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/sustainability">Sustainability</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/telco">Telco</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/edge">Edge</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/time-appliances-project-tap">Time Appliances Project (TAP)</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/ocp-2021-strategic-initiatives">OCP Strategic Initiatives</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/test-and-validation-enablement-initiative">Test and Validation Enablement Initiative</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/evenstar">Evenstar</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item mobile-nav__sub-item--has-sub-list">
+                                        <a href="/projects/future-technologies-initiative">Future Technologies Initiative</a>
+                                                                                    <ul class="mobile-nav__sub-list">
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/ai-hw-sw-codesign">AI HW SW CoDesign Workstream</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/data-centric-computing">Data Centric Computing</a>
+                                                    </li>
+                                                                                                    <li class="mobile-nav__sub-item">
+                                                        <a href="https://www.opencompute.org/projects/short-reach-optical-interconnect">Short Reach Optical Interconnect</a>
+                                                    </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/regional-project-community-apac">Regional Project Community - APAC</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/regional-project-community-PRC">Regional Project Community - China Mainland</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/regional-project-community-europe">Regional Project Community - EMEA</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/regional-project-community-japan">Regional Project Community - Japan</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/regional-project-community-korea">Regional Project Community - Korea</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="/projects/regional-project-community-taiwan">Regional Project Community - Taiwan</a>
+                                                                            </li>
+                                                                                    </ul>
+                                    </li>
+                            <li class="mobile-nav__item mobile-nav__item--has-sub-list">
+                    <a href="https://www.opencompute.org/events/upcoming-events">Events</a>
+                                            <ul class="mobile-nav__sub-list">
+                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/summit/global-summit">2024 OCP Global Summit</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/summit/regional-summit">2024 OCP Regional Summit</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/summit/ocp-future-technologies-symposium">OCP Future Technologies Symposium</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/summit/ocp-educational-webinar-program">OCP Educational Webinar Program</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/events/upcoming-events">Upcoming Events</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/events/past-events">Past Events</a>
+                                                                            </li>
+                                                                                    </ul>
+                                    </li>
+                            <li class="mobile-nav__item mobile-nav__item--has-sub-list">
+                    <a href="https://www.opencompute.org/membership">Membership</a>
+                                            <ul class="mobile-nav__sub-list">
+                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/membership">Overview &amp; Fees</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/membership/membership-directory">Membership Directory</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/membership/startup-program">Startup Program</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/membership/startup-directory">Startup Directory</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/membership/how-to-join">How to Join</a>
+                                                                            </li>
+                                                                                                                                <li class="mobile-nav__sub-item">
+                                        <a href="https://www.opencompute.org/membership/agreements">Membership Agreements</a>
+                                                                            </li>
+                                                                                    </ul>
+                                    </li>
+                            <li class="mobile-nav__item">
+                    <a href="https://www.opencompute.org/blog">Blog</a>
+                                    </li>
+                        <li class="mobile-nav__item">
+                <a href="https://www.opencompute.org/contact">Contact</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="https://ocpcareercenter.mysmartjobboard.com/" target="_blank">Career Center</a>
+            </li>
+
+                    </ul>
+    </nav>
+</aside>
+
+    <main class="indexable-content">
+
+            <header class="page-header page-header--home">
+    <div class="container">
+        <div class="page-header__left">
+            <h1 class="page-header__title">Scaling Innovation Through Collaboration!</h1>
+            <div class="page-header__description">
+                <img class="page-header__logo" src="https://www.opencompute.org/images/hero-banner-mobile.jpg" alt="Scaling Innovation Through Collaboration!" />
+                <h2 class="h4 u--margin-top-0"><em>The Open Compute Project is a vibrant Community that spans the data center IT infrastructure worldwide.</em></h2>
+            </div>
+        </div>
+    </div>
+    <div class="page-header__banner" style="background-image: url(https://www.opencompute.org/images/logo-banner-desktop.jpg);"></div>
+</header>
+
+    <section class="section section u--overflow-hidden">
+        <div class="container">
+            <p>Though not a standards body, the OCP Community forges new technology norms, fostering an ecosystem where industry players collaborate in a safe framework, shaping a versatile and diverse supply chain.</p>
+            <p>From startups to hyperscalers as well as research, academia and investors, the OCP Community is able to reduce procurement time, research efforts, expenses, development time, and even legal complexity for your projects.</p>
+            <div class="grid">
+                <div class="grid__col-xs-12 grid__col-md-6">
+                    <h2 class="u--color-green u--text-transform-uppercase u--margin-top-0">Shaping the Future</h2>
+                    <p>The OCP Foundation is responsible for fostering, serving and seeding the OCP Community to develop new open solutions that can meet the market and shape the future. In shaping the future, OCP will continue to invest in strategic initiatives that prepare the IT ecosystem for major changes, such as AI & ML, optics, sustainable data center solutions, advanced power management and cooling techniques, composable silicon and sustainability.</p>
+                </div>
+                <div class="grid__col-xs-12 grid__col-md-6 u--text-align-center">
+                    <a href="#ocp-video-modal" data-modal-show="ocp-video-modal" data-video-modal-yt-id="HgcRirF4-UU" data-modal-title="The Open Compute Project" class="video-screen-link__container">
+                        <img src="https://www.opencompute.org/images/shaping-the-future-video-thumbnail.jpg" alt="The Open Compute Project" class="video-screen-link__image" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section u--background-color-gray-lightest u--overflow-hidden">
+        <div class="container">
+            <h2 class="h3 u--color-green u--text-transform-uppercase u--margin-top-0">Latest</h2>
+            <div class="carousel carousel--pager" data-carousel="carousel-pager">
+                                    <div class="carousel__slide">
+                        <div class="pager">
+                            <h5 class="article-title">OCP SP Spotlight, an interview with Joe Knepp, Co-founder &amp; CTO, Jtec Industries</h5>
+                            <div class="p--lead u--font-style-italic u--squash"><p>One of the most interesting and exciting growth areas in the OCP supply chain has been those solutions which enable the deployment of OCP recognized hardware.
+
+Data center automation has been an increasing focus for the Community and we&rsquo;re very fortunate to have Jtec, one of the leaders in the (...)</p></div>
+                            <a href="https://www.opencompute.org/blog/ocp-sp-spotlight-an-interview-with-joe-knepp-co-founder-and-cto-jtec-industries"><i class="fa fa-angle-right"></i> Read more</a>
+                        </div>
+                    </div>
+                                    <div class="carousel__slide">
+                        <div class="pager">
+                            <h5 class="article-title">AI Driven Threat Mitigation and RoT Help DC Operators Defend Against Bad Actors</h5>
+                            <div class="p--lead u--font-style-italic u--squash"><p>The rise of sophisticated ransomware threats has transformed the cybersecurity landscape, posing ever-increasing threats to governments and organizations around the world. In 2022, for example, a major ransomware attack evaded detection for 324 days. The daily occurrence of an estimated 4,000 attack (...)</p></div>
+                            <a href="https://www.opencompute.org/blog/ai-driven-threat-mitigation-and-rot-help-dc-operators-defend-against-bad-actors"><i class="fa fa-angle-right"></i> Read more</a>
+                        </div>
+                    </div>
+                                    <div class="carousel__slide">
+                        <div class="pager">
+                            <h5 class="article-title">Join us for a FREE tutorial session on Building the Chiplet Economy at the upcoming Chiplet Summit in Santa Clara!</h5>
+                            <div class="p--lead u--font-style-italic u--squash"><p>The Open Chiplet Economy Takes Shape
+
+Tuesday, February 6, 2024, 1-5PM
+
+Organizers:
+
+
+	Cliff Grossner, Chief Innovation Officer, Open Compute Project
+	Bapi Vinnakota, Engineer, Lawrence Berkeley Laboratory; Head Open Domain-Specific Architecture Project (ODSA); Open Compute Project
+
+
+Moderator:
+
+
+	C (...)</p></div>
+                            <a href="https://www.opencompute.org/blog/join-us-for-a-free-tutorial-session-on-building-the-chiplet-economy-at-the-upcoming-chiplet-summit-in-santa-clara"><i class="fa fa-angle-right"></i> Read more</a>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="grid grid--gapless">
+            <div class="grid__col-xs-12 grid__col-md-4">
+                <div class="callout callout--dark" style="background-image: url(https://www.opencompute.org/images/callouts-learn.jpg);">
+                    <div class="callout__content">
+                        <h2 class="h3 callout__title">Learn about OCP</h2>
+                        <p class="callout__description">Learn how and why OCP is disrupting the infrastructure industry.</p>
+                        <a href="https://www.opencompute.org/about" class="btn btn--green btn--round">About OCP</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__col-xs-12 grid__col-md-4">
+                <div class="callout" style="background-image: url(https://www.opencompute.org/images/callouts-buy.jpg);">
+                    <div class="callout__content">
+                        <h2 class="h3 callout__title">The OCP Marketplace</h2>
+                        <p class="callout__description">A comprehensive set of OCP offerings from our certified OCP Solution Providers.</p>
+                        <a href="https://www.opencompute.org/marketplace" class="btn btn--green btn--round">Explore Marketplace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__col-xs-12 grid__col-md-4">
+                <div class="callout callout--dark" style="background-image: url(https://www.opencompute.org/images/callouts-participate.jpg);">
+                    <div class="callout__content">
+                        <h2 class="h3 callout__title">Participate in OCP</h2>
+                        <p class="callout__description">Pick a project and join us. It's free and open to anyone.</p>
+                        <a href="https://www.opencompute.org/projects" class="btn btn--green btn--round">Get Involved</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--xl u--background-color-gray-lightest">
+        <div class="container u--text-align-center">
+            <div class="grid grid--halign-center">
+                <div class="grid__col-xs-12 grid__col-sm-8 grid__col-lg-6 u--squash">
+                    <h2 class="h3">2024 OCP Regional Summit</h2>
+                    <p>The 2024 OCP Regional Summit will be held in-person on April 24-25, 2024 in Lisbon, Portugal. <a href="https://www.opencompute.org/summit/regional-summit">Learn more about the OCP Regional Summit</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--xl">
+        <div class="container">
+            <div class="grid grid--halign-center">
+                <div class="grid__col-xs-12 grid__col-sm-8 grid__col-lg-6 u--squash">
+                    <blockquote class="blockquote--testimonial">
+                        <p>The Open Compute Project is reinventing cloud hardware development, manufacturing, and procurement everywhere. By deploying these community-contributed innovations, Microsoft Azure is helping the OCP ecosystem grow and thrive across the globe.</p>
+                        <cite>Bill Laing, Microsoft Corporation and Open Compute Project Board Member</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="ocp-video-modal" class="modal--lg videomodal modal--valign-center" data-modal="ocp-video-modal">
+    <div class="modal__dialog">
+        <div class="modal__content">
+            <span class="modal__close" data-modal-close></span>
+            <header class="modal__header">
+                <h4 class="modal__title"></h4>
+            </header>
+            <section class="modal__body">
+                <div class="u--embed-responsive u--embed-responsive--16x9 u--margin-bottom-30">
+                    <iframe width="560" height="315" src="" allowFullScreen frameborder="0"></iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <footer class="footer">
+    <section class="footer__top">
+        <div class="container">
+            <div class="grid grid--gapless-vertical">
+                                    <div class="grid__col-xs-12 grid__col-sm-4 grid__col-md-2">
+                        <h5 class="footer__nav-title h6 u--margin-top-0 u--text-transform-uppercase"><a href="https://www.opencompute.org/about">About</a></h5>
+                                                    <ul class="footer__nav-list">
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about">History &amp; Mission</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/foundation-staff">Foundation Staff</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/board">Board</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/advisory-board">Advisory Board</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/ocp-steering-committee">Steering Committee</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/project-leads">Project Leads</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/media-and-press-guidelines">Media and Press Guidelines</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/ocp-policies">OCP Policies</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/about/ocp-adoption">OCP Adoption</a></li>
+                                                            </ul>
+                                            </div>
+                                    <div class="grid__col-xs-12 grid__col-sm-4 grid__col-md-2">
+                        <h5 class="footer__nav-title h6 u--margin-top-0 u--text-transform-uppercase"><a href="https://www.opencompute.org/marketplace">Marketplace</a></h5>
+                                                    <ul class="footer__nav-list">
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/solutions">Integrated Solutions</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/facilities-services">Facilities &amp; Services</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/telecom-edge">Telecom &amp; Edge</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/products">Products</a></li>
+                                                            </ul>
+                                            </div>
+                                    <div class="grid__col-xs-12 grid__col-sm-4 grid__col-md-2">
+                        <h5 class="footer__nav-title h6 u--margin-top-0 u--text-transform-uppercase"><a href="https://www.opencompute.org/sp">Solution Providers</a></h5>
+                                                    <ul class="footer__nav-list">
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/sp">Solution Provider Programs &amp; Fees</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/sp/agreements">Solution Provider Agreements</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/membership/sp/open-compute-project-solution-providers">Solution Providers Directory</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/sp/how-to-become-a-solution-provider">How to Become a Solution Provider</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/sp/product-recognition-program">Product Recognition Program</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/sp/facility-recognition-program">Facility Recognition Program</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/login?portal=provider">SP Portal</a></li>
+                                                            </ul>
+                                            </div>
+                                    <div class="grid__col-xs-12 grid__col-sm-4 grid__col-md-2">
+                        <h5 class="footer__nav-title h6 u--margin-top-0 u--text-transform-uppercase"><a href="https://www.opencompute.org/projects">Projects</a></h5>
+                                                    <ul class="footer__nav-list">
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects">Overview</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/cooling-environments">Cooling Environments</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/data-center-facility">Data Center Facility</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/hardware-management">Hardware Management</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/networking">Networking</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/open-system-firmware">Open System Firmware</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/rack-and-power">Rack &amp; Power</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/security">Security</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/server">Server</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/storage">Storage</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/sustainability">Sustainability</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/telco">Telco</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/time-appliances-project-tap">Time Appliances Project (TAP)</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/ocp-2021-strategic-initiatives">OCP Strategic Initiatives</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/future-technologies-initiative">Future Technologies Initiative</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/regional-project-community-apac">Regional Project Community - APAC</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/regional-project-community-PRC">Regional Project Community - China Mainland</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/regional-project-community-europe">Regional Project Community - EMEA</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/regional-project-community-japan">Regional Project Community - Japan</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/regional-project-community-korea">Regional Project Community - Korea</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/projects/regional-project-community-taiwan">Regional Project Community - Taiwan</a></li>
+                                                            </ul>
+                                            </div>
+                                    <div class="grid__col-xs-12 grid__col-sm-4 grid__col-md-2">
+                        <h5 class="footer__nav-title h6 u--margin-top-0 u--text-transform-uppercase"><a href="https://www.opencompute.org/events/upcoming-events">Events</a></h5>
+                                                    <ul class="footer__nav-list">
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/summit/global-summit">2024 OCP Global Summit</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/summit/regional-summit">2024 OCP Regional Summit</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/summit/ocp-future-technologies-symposium">OCP Future Technologies Symposium</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/summit/ocp-educational-webinar-program">OCP Educational Webinar Program</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/events/upcoming-events">Upcoming Events</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/events/past-events">Past Events</a></li>
+                                                            </ul>
+                                            </div>
+                                    <div class="grid__col-xs-12 grid__col-sm-4 grid__col-md-2">
+                        <h5 class="footer__nav-title h6 u--margin-top-0 u--text-transform-uppercase"><a href="https://www.opencompute.org/membership">Membership</a></h5>
+                                                    <ul class="footer__nav-list">
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/membership">Overview &amp; Fees</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/membership/membership-directory">Membership Directory</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/membership/startup-program">Startup Program</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/membership/startup-directory">Startup Directory</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/membership/how-to-join">How to Join</a></li>
+                                                                    <li class="footer__nav-item"><a href="https://www.opencompute.org/membership/agreements">Membership Agreements</a></li>
+                                                            </ul>
+                                            </div>
+                                    <div class="grid__col-xs-12 grid__col-sm-4 grid__col-md-2">
+                        <h5 class="footer__nav-title h6 u--margin-top-0 u--text-transform-uppercase"><a href="https://www.opencompute.org/blog">Blog</a></h5>
+                                            </div>
+                            </div>
+        </div>
+    </section>
+    <section class="footer__bottom">
+        <div class="container">
+            <div class="grid grid--gapless-vertical grid--valign-bottom grid--halign-between">
+                <div class="grid__col-sm-6">
+                    <p>The Open Compute Project was first initiated by Facebook, now Meta, in 2011.</p>
+                    <ul class="footer__legal-list">
+                        <li class="footer__legal-item"><a href="https://www.opencompute.org/privacy">Privacy Policy</a></li>
+                        <li class="footer__legal-item"><a href="https://www.opencompute.org/terms-of-service">Terms of Service</a></li>
+                        <li class="footer__legal-item"><a href="https://www.opencompute.org/about/ocp-policies">OCP Policies</a></li>
+                    </ul>
+                    <p class="u--margin-bottom-0">Thanks to <a href="https://www.rackspace.com/" target="_blank" rel="noopener">Rackspace</a> for hosting. Site by <a href="https://hahn.agency" title="Site by Hahn Agency" rel="nofollow">Hahn Agency</a>.</p>
+                </div>
+                <div class="grid__col-auto">
+                    <ul class="follow u--margin-bottom-0 u--margin-top-30">
+    <li class="follow__item follow__item--facebook"><a href="http://www.facebook.com/groups/opencompute/" aria-label="OCP Facebook"></a></li>
+    <li class="follow__item follow__item--youtube"><a href="https://www.youtube.com/user/OpenComputeProject" aria-label="OCP Youtube"></i></a></li>
+    <li class="follow__item follow__item--twitter"><a href="https://twitter.com/Opencomputeprj/" aria-label="OCP Twitter"></a></li>
+    <li class="follow__item follow__item--linkedin"><a href="https://www.linkedin.com/groups/4152886/" aria-label="OCP LinkedIn"></a></li>
+    <li class="follow__item follow__item--rss"><a href="https://www.opencompute.org/blog/rss" target="_blank"  aria-label="OCP Blog RSS Feed"></a></li>
+    <li class="follow__item follow__item--email"><a href="https://ocp-all.groups.io/g/main" target="_blank" rel="noopener" aria-label="OCP Mailing List" data-mailing-list-privacy-popup></a></li>
+</ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+    <div class="backdrop"></div>
+
+            <script src="https://www.opencompute.org/build/assets/polyfills.f064cfbf.js"></script>
+    <script src="https://www.opencompute.org/build/assets/global.db13bf81.js"></script>
+        <script src="https://www.opencompute.org/build/assets/home.9f5e3891.js"></script>
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+        { (i[r].q=i[r].q||[]).push(arguments)}
+        ,i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-46385116-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

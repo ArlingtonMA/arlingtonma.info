@@ -1,0 +1,84 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "BioBricks Foundation | Biotechnology in the public interest",
+    "generator": [
+      "BBF 2016 v.1.0.0",
+      "Powered by Slider Revolution 6.6.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."
+    ],
+    "canonical": "https://biobricks.org/",
+    "yoast": null
+  },
+  "links": {
+    "contributelinks": [
+      "https://biobricks.org/donate/"
+    ],
+    "contactlinks": [
+      "https://biobricks.org/contact/"
+    ],
+    "policylinks": [
+      "https://biobricks.org/privacy-policy/"
+    ]
+  },
+  "linksnav": {
+    "contributelinks": [
+      "https://biobricks.org/donate/"
+    ],
+    "contactlinks": [
+      "https://biobricks.org/contact/"
+    ],
+    "alllinks": [
+      "ABOUT",
+      "TEAM & BOARD",
+      "PROGRAMS HISTORY",
+      "PRESS RELEASES",
+      "PROGRAMS",
+      "BIONET",
+      "OPENMTA",
+      "FREE GENES",
+      "BIOBRICK PUBLIC AGREEMENT",
+      "SBX.0 CONFERENCES",
+      "SUPPORT",
+      "CONTACT"
+    ]
+  },
+  "linksfooter": {
+    "policylinks": [
+      "https://biobricks.org/privacy-policy/"
+    ],
+    "alllinks": [
+      "bionet",
+      "Open MTA",
+      "FREE GENES",
+      "BioBrick Public Agreement",
+      "SBX.0 Conferences",
+      "TEAM & BOARD",
+      "PROGRAMS HISTORY",
+      "PRESS RELEASES",
+      "PRIVACY POLICY",
+      "TERMS OF USE",
+      "DMCA TAKEDOWN"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "biobricks",
+  "website": "https://biobricks.org",
+  "commonName": "Biobricks",
+  "legalName": "Biobricks Foundation Incorporated",
+  "location": "US",
+  "state": null,
+  "taxID": "20-3310501",
+  "newEngland": "2bac52fc1b"
+}

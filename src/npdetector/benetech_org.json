@@ -1,0 +1,178 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Homepage | Benetech | Software for Social Good",
+    "titleog": "Home",
+    "descriptionog": "Benetech’s nonprofit software empowers communities with software for social good. Learn how all humanity can benefit from the technology we’re developing.",
+    "description": "Benetech’s nonprofit software empowers communities with software for social good. Learn how all humanity can benefit from the technology we’re developing.",
+    "twitter": "@Benetech",
+    "generator": [
+      "Site Kit by Google 1.120.0"
+    ],
+    "canonical": "https://benetech.org/",
+    "yoast": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://benetech.org/",
+          "url": "https://benetech.org/",
+          "name": "Nonprofit Software for Good | Benetech",
+          "isPartOf": {
+            "@id": "https://benetech.org/#website"
+          },
+          "datePublished": "2017-05-24T21:52:21+00:00",
+          "dateModified": "2024-01-25T23:29:33+00:00",
+          "description": "Benetech’s nonprofit software empowers communities with software for social good. Learn how all humanity can benefit from the technology we’re developing.",
+          "breadcrumb": {
+            "@id": "https://benetech.org/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://benetech.org/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://benetech.org/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://benetech.org/#website",
+          "url": "https://benetech.org/",
+          "name": "Benetech | Software for Social Good",
+          "description": "",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://benetech.org/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  },
+  "links": {
+    "eventlinks": [
+      "https://benetech.org/about/events/"
+    ],
+    "aboutlinks": [
+      "https://benetech.org/about/"
+    ],
+    "policylinks": [
+      "https://benetech.org/about/privacy-policy/"
+    ],
+    "contactlinks": [
+      "https://benetech.org/about/contact/"
+    ]
+  },
+  "linksnav": {
+    "eventlinks": [
+      "https://benetech.org/about/events/"
+    ],
+    "aboutlinks": [
+      "https://benetech.org/about/"
+    ],
+    "alllinks": [
+      "Who We Are",
+      "Our Story",
+      "Our Approach",
+      "Leadership",
+      "Careers",
+      "Financials",
+      "Events",
+      "What We do",
+      "Work Overview",
+      "Overview",
+      "Bookshare",
+      "Training Resources",
+      "Content Services",
+      "Communities We Serve",
+      "U.S. Education",
+      "Communities We Serve: U.S.",
+      "International Education",
+      "Communities We Serve: International",
+      "Inclusive EdTech Working Group",
+      "Our Impact",
+      "Approach Overview",
+      "News",
+      "Blog",
+      "Give",
+      "Get Involved",
+      "Benetech",
+      "About",
+      "Work",
+      "Impact",
+      "Approach",
+      "Partner",
+      "Volunteer"
+    ]
+  },
+  "linksfooter": {
+    "aboutlinks": [
+      "https://benetech.org/about/"
+    ],
+    "policylinks": [
+      "https://benetech.org/about/privacy-policy/"
+    ],
+    "contactlinks": [
+      "https://benetech.org/about/contact/"
+    ],
+    "alllinks": [
+      "GIVE",
+      "BECOME A PARTNER",
+      "Contact Us",
+      "Benetech",
+      "About",
+      "Work",
+      "Impact",
+      "Approach",
+      "Get Involved",
+      "Give",
+      "Partner",
+      "Volunteer",
+      "Privacy Policy",
+      "Accessibility",
+      "Site Map",
+      "Contact"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "\n\t\t\t\t\t\t\t\t\tBenetech’s credibility as a nonprofit focused on empowering social change is unique among the tech community. Their scalable technology solutions are recognized as driving real, sustainable social impact.\t\t\t\t\t\t\t\t"
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "benetech",
+  "website": "https://benetech.org",
+  "commonName": "Benetech",
+  "legalName": "Benetech",
+  "location": "US",
+  "state": null,
+  "taxID": "20-3310501",
+  "newEngland": "91cc091b0e"
+}

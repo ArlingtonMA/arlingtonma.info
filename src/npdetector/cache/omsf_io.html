@@ -1,0 +1,160 @@
+<!doctype html><html lang=en-us><head><title>OMSF</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="The Open Molecular Software Foundation"><meta name=author content><link rel=alternate type=application/rss+xml href=https://omsf.io/index.xml title=OMSF><meta property="og:title" content="OMSF"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://omsf.io/"><meta name=twitter:card content="summary"><meta name=twitter:title content="OMSF"><meta name=twitter:description content><meta name=generator content="Hugo 0.85.0"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin=anonymous><link rel=stylesheet href=https://omsf.io/fontawesome/css/all.min.css><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;900&display=swap" rel=stylesheet><link rel=stylesheet type=text/css href=/css/style.css><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><script type=text/javascript>var _paq=window._paq=window._paq||[];_paq.push(['trackPageView']),_paq.push(['enableLinkTracking']),function(){var d="https://omsf.matomo.cloud/",b,a,c;_paq.push(['setTrackerUrl',d+'matomo.php']),_paq.push(['setSiteId','1']),b=document,a=b.createElement('script'),c=b.getElementsByTagName('script')[0],a.type='text/javascript',a.async=!0,a.src='//cdn.matomo.cloud/omsf.matomo.cloud/matomo.js',c.parentNode.insertBefore(a,c)}()</script></head><body><div id=container><header><a class=logo href=/><img src=/images/logo-web.png alt=OMSF></a><nav><ul><li><a href=/about/mission>About</a></li><li><a href=/services/fiscal-sponsorship/>Services</a></li><li><a href=/projects/host-project>Projects</a></li><li><a href=https://news.omsf.io>News</a></li><li><a href=/support/how-to>Support</a></li></ul></nav><button onclick=myFunction() id=toggle-main-menu-mobile class="hamburger hamburger--slider" type=button>
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><div id=mobile-submenu style=display:none class=mobile-submenu><a href=/about/mission>About</a>
+<a href=/services/fiscal-sponsorship/>Services</a>
+<a href=/projects/host-project>Projects</a>
+<a href=https://news.omsf.io>News</a>
+<a href=/support/how-to>Support</a></div><script>function myFunction(){var a=document.getElementById("mobile-submenu");a.style.display==="none"?a.style.display="block":a.style.display="none"}</script></header><main><section id=home><h1 id=making-bonds>Making bonds</h1><p>Building open source software and communities in molecular sciences.</p><img class=background-home src=https://dawnofman.nl/omsf/background.png></section><script type=text/javascript src=https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js></script><script type=text/paperscript canvas=myCanvas>
+
+
+// Line 1
+var from = new Point(1200, 150);
+var to = new Point(900, 500);
+var straightLine1 = new Path.Line(from, to);
+straightLine1.strokeColor = '#E7E7E7';
+
+// Line 2
+var from = new Point(1200, 150);
+var to = new Point(300, 300);
+var straightLine2 = new Path.Line(from, to);
+straightLine2.strokeColor = '#E7E7E7';
+
+// Line 3
+var from = new Point(300, 300);
+var to = new Point(300, 600);
+var straightLine3 = new Path.Line(from, to);
+straightLine3.strokeColor = '#E7E7E7';
+
+// Line 4
+var from = new Point(300,600);
+var to = new Point(-400, 0);
+var straightLine4 = new Path.Line(from, to);
+straightLine4.strokeColor = '#E7E7E7';
+
+// Line 5
+var from = new Point(300,600);
+var to = new Point(-100, 800);
+var straightLine5 = new Path.Line(from, to);
+straightLine5.strokeColor = '#E7E7E7';
+
+// Line 6
+var from = new Point(300,600);
+var to = new Point(0, 2200);
+var straightLine6 = new Path.Line(from, to);
+straightLine6.strokeColor = '#E7E7E7';
+
+// Line 7
+var from = new Point(300,300);
+var to = new Point(250, 0);
+var straightLine7 = new Path.Line(from, to);
+straightLine7.strokeColor = '#E7E7E7';
+
+// Line 8
+var from = new Point(300,300);
+var to = new Point(500, 500);
+var straightLine8 = new Path.Line(from, to);
+straightLine8.strokeColor = '#E7E7E7';
+
+// PINK circle line 1
+var img1 = document.createElement("img");
+img1.src = "images/circle-pink.png";
+img1.id = "pink-circle-bg"
+document.body.appendChild(img1);
+
+var raster1 = new Raster('pink-circle-bg');
+raster1.position = new Point(900, 500);
+raster1.scale(0.2);
+
+
+// GREEN circle line 1 & 2
+var img2 = document.createElement("img");
+img2.src = "images/circle-green.png";
+img2.id = "green-circle-bg"
+document.body.appendChild(img2);
+
+var raster2 = new Raster('green-circle-bg');
+raster2.position = new Point(1200, 150);
+raster2.scale(0.21);
+
+
+// BLUE circle line 2
+var img3 = document.createElement("img");
+img3.src = "images/circle-blue.png";
+img3.id = "blue-circle-bg"
+document.body.appendChild(img3);
+
+var raster3 = new Raster('blue-circle-bg');
+raster3.position = new Point(300, 300);
+raster3.scale(0.22);
+
+
+// PINK circle line 2 & 3
+var img4 = document.createElement("img");
+img4.src = "images/circle-pink.png";
+img4.id = "pink-circle-bg"
+document.body.appendChild(img4);
+
+var raster4 = new Raster('pink-circle-bg');
+raster4.position = new Point(300, 600);
+raster4.scale(0.15);
+
+
+// GREEN circle line 8
+var img5 = document.createElement("img");
+img5.src = "images/circle-green.png";
+img5.id = "green-circle-bg"
+document.body.appendChild(img5);
+
+var raster5 = new Raster('green-circle-bg');
+raster5.position = new Point(500, 500);
+raster5.scale(0.13);
+
+
+// PINK circle line 8
+var img6 = document.createElement("img");
+img6.src = "images/circle-pink.png";
+img6.id = "pink-circle-bg"
+document.body.appendChild(img6);
+
+var raster6 = new Raster('pink-circle-bg');
+raster6.position = new Point(250, 0);
+raster6.scale(0.15);
+
+// GREEN circle line 8
+var img7 = document.createElement("img");
+img7.src = "images/circle-green.png";
+img7.id = "green-circle-bg"
+document.body.appendChild(img7);
+
+var raster7 = new Raster('green-circle-bg');
+raster7.position = new Point(-100, 800);
+raster7.scale(0.16);
+
+// PINK circle line 8
+var img8 = document.createElement("img");
+img8.src = "images/circle-pink.png";
+img8.id = "pink-circle-bg"
+document.body.appendChild(img7);
+
+var raster8 = new Raster('pink-circle-bg');
+raster8.position = new Point(-400, 0);
+raster8.scale(0.16);
+
+
+function onFrame(event) {
+	// Each frame, rotate the path by 3 degrees:
+	group2.rotate(3);
+}
+
+var group2 = new Group({
+    children: [straightLine1, straightLine2, straightLine3, straightLine4, straightLine5, straightLine6, straightLine7, straightLine8, raster1, raster2, raster3, raster4, raster5, raster6, raster7, raster8],
+});
+
+
+function onFrame(event) {
+	// Each frame, rotate the path by 3 degrees:
+	group2.rotate(0.01);
+}
+
+</script><canvas id=myCanvas resize></canvas></main><footer class=footer-blue><div class="column-1 column"><img class=logo-footer src=/images/logo-white.png><p>Unless otherwise noted, all content is licensed under the <a style=text-decoration:underline href=https://creativecommons.org/licenses/by/4.0/>CC BY 4.0 license.</a></p></div><div class="column-2 column"><a href=/about/mission>About</a><br><a href=/services/fiscal-sponsorship/>Services</a><br><a href=/projects/host-project>Projects</a><br><a href=https://news.omsf.io>News</a><br><a href=/support/how-to>Support</a><br></div><div class="column-3 column"><a href=https://twitter.com/openmsf><img class=logo-footer src=/images/twitter-icon.png></a>
+<a href=mailto:info@omsf.io><img class=logo-footer src=/images/mail-icon.png></a>
+<a href=https://www.linkedin.com/company/><img class=logo-footer src=/images/linkedin-icon.png></a></div><div class="column-4 column"><a href=/privacy-policy>Privacy Policy</a><br><a href=/bylaws>Bylaws</a><br><a href=/good-standing-policy>Good Standing Policy</a><br><a href=/antitrust-policy>Antitrust Policy</a></div></footer></div></body></html>

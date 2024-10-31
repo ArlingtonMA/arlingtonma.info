@@ -1,0 +1,202 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Cloud Foundry Foundation – Who We Are | Cloud Foundry",
+    "titleog": "Cloud Foundry Foundation – Who We Are | Cloud Foundry",
+    "descriptionog": "The Cloud Foundry Foundation exists to drive global awareness and adoption of the Cloud Foundry open source project. Learn more here.",
+    "description": "The Cloud Foundry Foundation exists to drive global awareness and adoption of the Cloud Foundry open source project. Learn more here.",
+    "twitter": "@cloudfoundry",
+    "generator": [
+
+    ],
+    "canonical": "https://www.cloudfoundry.org/foundation/",
+    "yoast": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.cloudfoundry.org/#organization",
+          "name": "Cloud Foundry",
+          "url": "https://www.cloudfoundry.org/",
+          "sameAs": [
+            "https://www.facebook.com/cloudfoundry",
+            "https://www.linkedin.com/company/cloud-foundry",
+            "https://www.youtube.com/user/CloudFoundry",
+            "https://twitter.com/cloudfoundry"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.cloudfoundry.org/#logo",
+            "inLanguage": "en-US",
+            "url": "https://www.cloudfoundry.org/wp-content/uploads/2017/01/CF-logo.png",
+            "width": 500,
+            "height": 66,
+            "caption": "Cloud Foundry"
+          },
+          "image": {
+            "@id": "https://www.cloudfoundry.org/#logo"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.cloudfoundry.org/#website",
+          "url": "https://www.cloudfoundry.org/",
+          "name": "Cloud Foundry",
+          "description": "The industry standard cloud application platform",
+          "publisher": {
+            "@id": "https://www.cloudfoundry.org/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": "https://www.cloudfoundry.org/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.cloudfoundry.org/foundation/#webpage",
+          "url": "https://www.cloudfoundry.org/foundation/",
+          "name": "Cloud Foundry Foundation – Who We Are | Cloud Foundry",
+          "isPartOf": {
+            "@id": "https://www.cloudfoundry.org/#website"
+          },
+          "datePublished": "2017-01-21T03:40:15+00:00",
+          "dateModified": "2023-10-04T20:14:08+00:00",
+          "description": "The Cloud Foundry Foundation exists to drive global awareness and adoption of the Cloud Foundry open source project. Learn more here.",
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://www.cloudfoundry.org/foundation/"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "links": {
+    "securitylinks": [
+      "https://cloudfoundry.org/security/"
+    ],
+    "eventlinks": [
+      "https://cloudfoundry.org/events/",
+      "https://cloudfoundry.org/events-archive/"
+    ],
+    "contactlinks": [
+      "https://cloudfoundry.org/contact/"
+    ],
+    "brandlinks": [
+      "https://cloudfoundry.org/logo/",
+      "https://www.linuxfoundation.org/trademark-usage"
+    ],
+    "boardlinks": [
+      "https://www.cloudfoundry.org/governing-board/"
+    ],
+    "policylinks": [
+      "https://www.linuxfoundation.org/privacy",
+      "http://www.linuxfoundation.org/privacy"
+    ]
+  },
+  "linksnav": {
+    "securitylinks": [
+      "https://cloudfoundry.org/security/"
+    ],
+    "eventlinks": [
+      "https://cloudfoundry.org/events/",
+      "https://cloudfoundry.org/events-archive/"
+    ],
+    "contactlinks": [
+      "https://cloudfoundry.org/contact/"
+    ],
+    "brandlinks": [
+      "https://cloudfoundry.org/logo/"
+    ],
+    "alllinks": [
+      "Get Started",
+      "Join the Foundation",
+      "Read the Blog",
+      "Why Cloud Foundry",
+      "Resources",
+      "Industry Research",
+      "User Stories",
+      "Technology",
+      "Cloud Foundry Korifi",
+      "Paketo",
+      "Open Service Broker API",
+      "Working Groups",
+      "Documentation",
+      "Security Advisories",
+      "Community",
+      "Community Hub",
+      "Community Calendar",
+      "Events",
+      "Events Home",
+      "Webinars",
+      "Hands-on Labs",
+      "Live Streams",
+      "Meetups",
+      "Past Events",
+      "Marketplace",
+      "The Foundry",
+      "Certified Distributions",
+      "Infrastructure Providers",
+      "Services & Integrations",
+      "Authorized Training Partners",
+      "Consulting & Integrators",
+      "About",
+      "The Foundation",
+      "Culture",
+      "Governing Board",
+      "Leadership",
+      "Members",
+      "Governance",
+      "Contact",
+      "Newsroom",
+      "Newsletter",
+      "Branding",
+      "Swag Shop"
+    ]
+  },
+  "linksfooter": {
+    "policylinks": [
+      "https://www.linuxfoundation.org/privacy",
+      "http://www.linuxfoundation.org/privacy"
+    ],
+    "brandlinks": [
+      "https://www.linuxfoundation.org/trademark-usage"
+    ],
+    "alllinks": [
+      "Membership",
+      "Terms of Use",
+      "Privacy Policy",
+      "Trademark",
+      "Trademark Usage"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "cloudfoundry",
+  "website": "https://cloudfoundry.org/foundation/",
+  "commonName": "Cloud Foundry Foundation",
+  "legalName": "Cloud Foundry Foundation",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "b02a583005"
+}

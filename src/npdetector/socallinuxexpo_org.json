@@ -1,0 +1,135 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Home | SCALE 21x",
+    "generator": [
+      "Drupal 7 (https://www.drupal.org)"
+    ],
+    "canonical": "https://www.socallinuxexpo.org/",
+    "yoast": null
+  },
+  "links": {
+    "eventlinks": [
+      "https://www.socallinuxexpo.org/scale/21x/events"
+    ],
+    "securitylinks": [
+      "https://www.socallinuxexpo.org/scale/21x/capture-flag-security-competitions"
+    ],
+    "sponsorlinks": [
+      "https://www.socallinuxexpo.org/scale/21x/sponsors",
+      "mailto:sponsorship@socallinuxexpo.org"
+    ],
+    "aboutlinks": [
+      "https://socallinuxexpo.org/scale/21x/about-scale"
+    ],
+    "coclinks": [
+      "https://socallinuxexpo.org/scale/21x/code-conduct"
+    ],
+    "contactlinks": [
+      "https://socallinuxexpo.org/scale/21x/contact-us"
+    ],
+    "policylinks": [
+      "https://socallinuxexpo.org/scale/21x/policies"
+    ]
+  },
+  "linksnav": {
+    "eventlinks": [
+      "https://www.socallinuxexpo.org/scale/21x/events"
+    ],
+    "securitylinks": [
+      "https://www.socallinuxexpo.org/scale/21x/capture-flag-security-competitions"
+    ],
+    "sponsorlinks": [
+      "https://www.socallinuxexpo.org/scale/21x/sponsors"
+    ],
+    "alllinks": [
+      "Previous SCALEs",
+      "SCALE 20x",
+      "SCALE 19x",
+      "SCALE 18x",
+      "SCALE 17x",
+      "SCALE 16x",
+      "SCALE 15x",
+      "SCALE 14x",
+      "SCALE 13x",
+      "SCALE 12x",
+      "SCALE 11x",
+      "SCALE 10x",
+      "SCALE 9x",
+      "SCALE 8x",
+      "SCALE 7x",
+      "SCALE 6x",
+      "SCALE 5x",
+      "SCALE 4x",
+      "SCALE 3x",
+      "SCALE 2x",
+      "SCALE 1x",
+      "Register",
+      "Venue",
+      "Co-Located Events",
+      "Capture the Flag Security Competitions",
+      "DevOpsDay LA",
+      "Data on Kubernetes",
+      "Kubernetes Community Day",
+      "Kwaai Personal AI Summit",
+      "MySQL Day LA",
+      "NixCon North America",
+      "Open Source Career Day",
+      "PostgreSQL @ SCALE",
+      "SCALE Kids",
+      "UbuCon",
+      "Birds of a Feather Sessions",
+      "Presentations",
+      "Speakers",
+      "Exhibitors",
+      "Sponsors",
+      "Schedule",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+  "linksfooter": {
+    "aboutlinks": [
+      "https://socallinuxexpo.org/scale/21x/about-scale"
+    ],
+    "coclinks": [
+      "https://socallinuxexpo.org/scale/21x/code-conduct"
+    ],
+    "contactlinks": [
+      "https://socallinuxexpo.org/scale/21x/contact-us"
+    ],
+    "policylinks": [
+      "https://socallinuxexpo.org/scale/21x/policies"
+    ],
+    "alllinks": [
+      "Read more about SCALE 21x",
+      "About SCALE",
+      "Code of Conduct",
+      "Contact Us",
+      "Policies"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      " Sponsorship and exhibitor opportunities are available for commercial and non-profit exhibitors. "
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "scale",
+  "website": "https://socallinuxexpo.org",
+  "commonName": "Linux Expo of Southern California",
+  "legalName": "Linux Expo of Southern California",
+  "location": "US",
+  "state": "CA",
+  "taxID": "30-0109876",
+  "newEngland": "7448590e2f"
+}

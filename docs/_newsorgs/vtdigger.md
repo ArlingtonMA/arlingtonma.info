@@ -23,6 +23,7 @@ budgetUsd: 3375616
 budgetYear: 2021
 donateurl: https://vtdigger.org/become-a-member/?campaign=701PQ000003URU5YAO
 sponsorurl:
+policyurl: https://vtdigger.org/policies/
 advertising: https://vtdigger.org/advertise/
 telephone:
 emailContact:

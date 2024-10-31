@@ -1,0 +1,126 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "\n        OBF        Open Bioinformatics Foundation            ",
+    "description": "Open Bioinformatics Foundation Homepage",
+    "generator": [
+      "WordPress 6.4.3"
+    ],
+    "canonical": "https://www.open-bio.org/",
+    "icon32": "https://www.open-bio.org/wp-content/uploads/2018/12/cropped-obf_logo_icon-circle-tr-32x32.png",
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://www.open-bio.org/about/"
+    ],
+    "donatelinks": [
+      "https://www.open-bio.org/donate/"
+    ],
+    "boardlinks": [
+      "https://www.open-bio.org/board/"
+    ],
+    "projectlinks": [
+      "https://www.open-bio.org/wp/projects#member-projects",
+      "https://www.open-bio.org/wp/projects#affiliated-projects",
+      "https://www.open-bio.org/wp/projects#related-projects",
+      "https://www.open-bio.org/wp/projects#retired-projects",
+      "https://www.open-bio.org/projects/",
+      "https://www.open-bio.org/adding-projects/",
+      "https://open-bio.org/projects"
+    ],
+    "coclinks": [
+      "https://open-bio.org/code-of-conduct"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://www.open-bio.org/about/"
+    ],
+    "donatelinks": [
+      "https://www.open-bio.org/donate/"
+    ],
+    "boardlinks": [
+      "https://www.open-bio.org/board/"
+    ],
+    "projectlinks": [
+      "https://www.open-bio.org/wp/projects#member-projects",
+      "https://www.open-bio.org/wp/projects#affiliated-projects",
+      "https://www.open-bio.org/wp/projects#related-projects",
+      "https://www.open-bio.org/wp/projects#retired-projects",
+      "https://www.open-bio.org/projects/",
+      "https://www.open-bio.org/adding-projects/"
+    ],
+    "alllinks": [
+      "About",
+      "Membership",
+      "Donate",
+      "Board",
+      "Meeting Minutes",
+      "Events",
+      "Calendar",
+      "BOSC 2024",
+      "BOSC 2023",
+      "BOSC 2022",
+      "BOSC 2021",
+      "BOSC 2020 (BCC2020)",
+      "Projects",
+      "Member Projects",
+      "Affiliated Projects",
+      "Other Related Projects",
+      "Ontologies and Definitions",
+      "Retired Projects",
+      "See all Projects",
+      "Adding Projects",
+      "Event Fellowships",
+      "What are the selection criteria?",
+      "What does the fellowship cover?",
+      "Requirements",
+      "Applications",
+      "See all details",
+      "News"
+    ]
+  },
+  "linksfooter": {
+    "coclinks": [
+      "https://open-bio.org/code-of-conduct"
+    ],
+    "alllinks": [
+      "By-Laws",
+      "Code of Conduct",
+      "Calendar",
+      "Deepashree Deshmukh",
+      "Outreachy 2018-19.",
+      "Bérénice Batut",
+      "Anisha Keshavan.",
+      "Freepik",
+      "Nhor Phai",
+      "itim2101",
+      "srip",
+      "www.flaticon.com",
+      "CC 3.0 BY"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "The Open Bioinformatics Foundation (OBF) is a non-profit, volunteer-run group that promotes open source software development and Open Science within the biological research community. "
+    ],
+    "einscan": [
+
+    ]
+  },
+  "itemtypes": 42,
+  "identifier": "openbioinformatics",
+  "website": "https://open-bio.org",
+  "commonName": "Open Bioinformatics Foundation",
+  "legalName": "Open Bioinformatics Foundation",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "276ed911f7"
+}

@@ -1,0 +1,103 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "OMSF",
+    "titleog": "OMSF",
+    "descriptionog": "",
+    "description": "The Open Molecular Software Foundation",
+    "generator": [
+      "Hugo 0.85.0"
+    ],
+    "icon32": "/favicon-32x32.png",
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://omsf.io/about/mission"
+    ],
+    "projectlinks": [
+      "https://omsf.io/projects/host-project"
+    ],
+    "contributelinks": [
+      "https://omsf.io/support/how-to"
+    ],
+    "policylinks": [
+      "https://omsf.io/privacy-policy",
+      "https://omsf.io/good-standing-policy",
+      "https://omsf.io/antitrust-policy"
+    ],
+    "bylawlinks": [
+      "https://omsf.io/bylaws"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://omsf.io/about/mission"
+    ],
+    "projectlinks": [
+      "https://omsf.io/projects/host-project"
+    ],
+    "contributelinks": [
+      "https://omsf.io/support/how-to"
+    ],
+    "alllinks": [
+      "About",
+      "Services",
+      "Projects",
+      "News",
+      "Support"
+    ]
+  },
+  "linksfooter": {
+    "aboutlinks": [
+      "https://omsf.io/about/mission"
+    ],
+    "projectlinks": [
+      "https://omsf.io/projects/host-project"
+    ],
+    "contributelinks": [
+      "https://omsf.io/support/how-to"
+    ],
+    "policylinks": [
+      "https://omsf.io/privacy-policy",
+      "https://omsf.io/good-standing-policy",
+      "https://omsf.io/antitrust-policy"
+    ],
+    "bylawlinks": [
+      "https://omsf.io/bylaws"
+    ],
+    "alllinks": [
+      "CC BY 4.0 license.",
+      "About",
+      "Services",
+      "Projects",
+      "News",
+      "Support",
+      "Privacy Policy",
+      "Bylaws",
+      "Good Standing Policy",
+      "Antitrust Policy"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "omsf",
+  "website": "https://omsf.io",
+  "commonName": "Open Molecular Software Foundation",
+  "legalName": null,
+  "location": "US",
+  "state": "CA",
+  "taxID": "86-2536664",
+  "newEngland": "c3"
+}

@@ -1,0 +1,55 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Xiph.org",
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://xiph.org/about/"
+    ],
+    "donatelinks": [
+      "https://xiph.org/donate/"
+    ],
+    "contactlinks": [
+      "https://xiph.org/contact/"
+    ],
+    "projectlinks": [
+      "https://xiph.org/#resources"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      " is a non-profit corporation dedicated to protecting the foundations of Internet multimedia from control by private interests. Our purpose is to support and develop free, open protocols and software to serve the public, developer and business markets."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "xiph",
+  "website": "https://xiph.org",
+  "commonName": "Xiph.org",
+  "legalName": "XIPH ORG Foundation",
+  "location": "US",
+  "state": "MA",
+  "taxID": "65-1145050",
+  "newEngland": "08349b9008"
+}

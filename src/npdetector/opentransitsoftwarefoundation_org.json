@@ -1,0 +1,84 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Open Transit Software Foundation",
+    "titleog": "Open Transit Software Foundation",
+    "generator": [
+      "WordPress 6.4.3"
+    ],
+    "canonical": "https://opentransitsoftwarefoundation.org/",
+    "icon32": "https://opentransitsoftwarefoundation.org/wp-content/uploads/OneBusAway_Logo_OAuth-100x100.png",
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://opentransitsoftwarefoundation.org/overview/"
+    ],
+    "contactlinks": [
+      "https://opentransitsoftwarefoundation.org/contact-us/"
+    ],
+    "donatelinks": [
+      "https://opentransitsoftwarefoundation.org/donate/"
+    ],
+    "missionlinks": [
+      "https://opentransitsoftwarefoundation.org/overview/"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://opentransitsoftwarefoundation.org/overview/"
+    ],
+    "contactlinks": [
+      "https://opentransitsoftwarefoundation.org/contact-us/"
+    ],
+    "donatelinks": [
+      "https://opentransitsoftwarefoundation.org/donate/"
+    ],
+    "alllinks": [
+      "Home",
+      "About OTSF",
+      "Overview",
+      "Vision",
+      "History",
+      "In the News & Research Papers",
+      "Members",
+      "Voluntary Licensing Fee",
+      "Executive Director and Board of Directors",
+      "Governance",
+      "Contact",
+      "Blog",
+      "Donate",
+      "OneBusAway"
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+      "OTSF is a 501(c)(3) non-profit organization, and all U.S. donations are tax-deductible. We rely on support from donations and voluntary license fees for operational expenses."
+    ],
+    "nonprofit": [
+      "The Open Transit Software Foundation (OTSF) is a non-profit organization dedicated to open source transit software and technology, initially formed in order to provide governance for the OneBusAway project. ",
+      "Our members include government agencies, educational institutions, companies, non-profits, and individual contributors. A stable governance system ensures the reliability and longevity of our projects.",
+      "OTSF is a 501(c)(3) non-profit organization, and all U.S. donations are tax-deductible. We rely on support from donations and voluntary license fees for operational expenses.",
+      ", and could benefit from a formal governance structure and non-profit status."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "itemtypes": 34,
+  "identifier": "opentransit",
+  "website": "https://opentransitsoftwarefoundation.org",
+  "commonName": "Open Transit Software Foundation",
+  "legalName": null,
+  "location": "US",
+  "state": "WA",
+  "taxID": "84-1786969",
+  "newEngland": "WA ID: 2009445 "
+}

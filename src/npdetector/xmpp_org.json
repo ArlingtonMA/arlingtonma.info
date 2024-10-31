@@ -1,0 +1,44 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "https://xmpp.org/about/xmpp-standards-foundation/",
+    "generator": [
+
+    ],
+    "canonical": "https://xmpp.org/about/xmpp-standards-foundation/",
+    "yoast": null
+  },
+  "links": {
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "xmpp",
+  "website": "https://xmpp.org",
+  "commonName": "Jabber XMPP",
+  "legalName": "XMPP Standards Foundation",
+  "location": "US",
+  "state": "CO",
+  "taxID": "84-1611178",
+  "newEngland": "c879ac3725"
+}

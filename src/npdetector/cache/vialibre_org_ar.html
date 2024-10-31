@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.vialibre.org.ar/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&#038;subset=cyrillic,cyrillic-ext,latin,latin-ext,vietnamese&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aXw.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw9.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew9.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew9.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew9.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew9&skey=7bc19f711c0de8f&v=v26) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w9.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w9.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w9.woff) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w9.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7.woff2) format('woff2');}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="https://www.vialibre.org.ar/" hreflang="es" />
+<link rel="alternate" href="https://www.vialibre.org.ar/en/home/" hreflang="en" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Inicio - FUNDACIÓN VÍA LIBRE</title>
+	<link rel="canonical" href="https://www.vialibre.org.ar/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:locale:alternate" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Inicio - FUNDACIÓN VÍA LIBRE" />
+	<meta property="og:url" content="https://www.vialibre.org.ar/" />
+	<meta property="og:site_name" content="FUNDACIÓN VÍA LIBRE" />
+	<meta property="article:modified_time" content="2023-02-14T19:52:03+00:00" />
+	<meta property="og:image" content="https://www.vialibre.org.ar/wp-content/uploads/2020/11/og-vialibre.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@fvialibre" />
+	<meta name="twitter:label1" content="Tiempo de lectura" />
+	<meta name="twitter:data1" content="6 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.vialibre.org.ar/#organization","name":"Fundación Via Libre","url":"https://www.vialibre.org.ar/","sameAs":["https://www.youtube.com/channel/UCGLGjejhwZflQtaCb4RSHLQ","https://twitter.com/fvialibre"],"logo":{"@type":"ImageObject","inLanguage":"es-AR","@id":"https://www.vialibre.org.ar/#/schema/logo/image/","url":"https://www.vialibre.org.ar/wp-content/uploads/2020/10/via-libre_1.svg","contentUrl":"https://www.vialibre.org.ar/wp-content/uploads/2020/10/via-libre_1.svg","width":"1024","height":"1024","caption":"Fundación Via Libre"},"image":{"@id":"https://www.vialibre.org.ar/#/schema/logo/image/"}},{"@type":"WebSite","@id":"https://www.vialibre.org.ar/#website","url":"https://www.vialibre.org.ar/","name":"FUNDACIÓN VÍA LIBRE","description":"Defendemos derechos fundamentales en el entorno digital","publisher":{"@id":"https://www.vialibre.org.ar/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.vialibre.org.ar/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es-AR"},{"@type":"WebPage","@id":"https://www.vialibre.org.ar/","url":"https://www.vialibre.org.ar/","name":"Inicio - FUNDACIÓN VÍA LIBRE","isPartOf":{"@id":"https://www.vialibre.org.ar/#website"},"about":{"@id":"https://www.vialibre.org.ar/#organization"},"datePublished":"2020-10-28T16:32:53+00:00","dateModified":"2023-02-14T19:52:03+00:00","breadcrumb":{"@id":"https://www.vialibre.org.ar/#breadcrumb"},"inLanguage":"es-AR","potentialAction":[{"@type":"ReadAction","target":["https://www.vialibre.org.ar/"]}]},{"@type":"BreadcrumbList","@id":"https://www.vialibre.org.ar/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="FUNDACIÓN VÍA LIBRE &raquo; Feed" href="https://www.vialibre.org.ar/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FUNDACIÓN VÍA LIBRE &raquo; RSS de los comentarios" href="https://www.vialibre.org.ar/comments/feed/" />
+<meta content="Divi Child Theme v.1.0.0" name="generator"/><link rel='stylesheet' id='mci-footnotes-jquery-tooltips-pagelayout-none-css'  href='https://www.vialibre.org.ar/wp-content/plugins/footnotes/css/footnotes-jqttbrpl0.min.css?ver=2.7.3' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
+<link rel='stylesheet' id='et_monarch-css-css'  href='https://www.vialibre.org.ar/wp-content/plugins/monarch/css/style.css?ver=1.4.14' type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='ivory-search-styles-css'  href='https://www.vialibre.org.ar/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-parent-css'  href='https://www.vialibre.org.ar/wp-content/themes/Divi/style-static.min.css?ver=4.19.4' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='https://www.vialibre.org.ar/wp-content/themes/Divi-Child-Theme/style.css?ver=4.19.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/plugins/footnotes/js/jquery.tools.min.js?ver=1.2.7.redacted.2' id='mci-footnotes-jquery-tools-js'></script>
+<link rel="https://api.w.org/" href="https://www.vialibre.org.ar/wp-json/" /><link rel="alternate" type="application/json" href="https://www.vialibre.org.ar/wp-json/wp/v2/pages/24" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.vialibre.org.ar/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.vialibre.org.ar/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.9" />
+<link rel='shortlink' href='https://www.vialibre.org.ar/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.vialibre.org.ar/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vialibre.org.ar%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.vialibre.org.ar/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vialibre.org.ar%2F&#038;format=xml" />
+		<style type="text/css">
+						ol.footnotes li {list-style-type:decimal;}
+								</style>
+		<style type="text/css" id="et-social-custom-css">
+				 
+			</style>		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script>
+	$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 1) {
+        $(".is-menu-wrapper").addClass("is-menu-wrapper-scroll");
+    } else {
+		$(".is-menu-wrapper").removeClass("is-menu-wrapper-scroll");
+	}
+});
+	
+</script>
+<style id="et-divi-customizer-global-cached-inline-styles">body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url,body .et_pb_bg_layout_light .et_pb_post p,body .et_pb_bg_layout_dark .et_pb_post p{font-size:16px}.et_pb_slide_content,.et_pb_best_value{font-size:18px}body{color:#505050}h1,h2,h3,h4,h5,h6{color:#505050}body{line-height:1.5em}#et_search_icon:hover,.mobile_menu_bar:before,.mobile_menu_bar:after,.et_toggle_slide_menu:after,.et-social-icon a:hover,.et_pb_sum,.et_pb_pricing li a,.et_pb_pricing_table_button,.et_overlay:before,.entry-summary p.price ins,.et_pb_member_social_links a:hover,.et_pb_widget li a:hover,.et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active,.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active,.et_pb_gallery .et_pb_gallery_pagination ul li a.active,.wp-pagenavi span.current,.wp-pagenavi a:hover,.nav-single a,.tagged_as a,.posted_in a{color:#9935cd}.et_pb_contact_submit,.et_password_protected_form .et_submit_button,.et_pb_bg_layout_light .et_pb_newsletter_button,.comment-reply-link,.form-submit .et_pb_button,.et_pb_bg_layout_light .et_pb_promo_button,.et_pb_bg_layout_light .et_pb_more_button,.et_pb_contact p input[type="checkbox"]:checked+label i:before,.et_pb_bg_layout_light.et_pb_module.et_pb_button{color:#9935cd}.footer-widget h4{color:#9935cd}.et-search-form,.nav li ul,.et_mobile_menu,.footer-widget li:before,.et_pb_pricing li:before,blockquote{border-color:#9935cd}.et_pb_counter_amount,.et_pb_featured_table .et_pb_pricing_heading,.et_quote_content,.et_link_content,.et_audio_content,.et_pb_post_slider.et_pb_bg_layout_dark,.et_slide_in_menu_container,.et_pb_contact p input[type="radio"]:checked+label i:before{background-color:#9935cd}.container,.et_pb_row,.et_pb_slider .et_pb_container,.et_pb_fullwidth_section .et_pb_title_container,.et_pb_fullwidth_section .et_pb_title_featured_container,.et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{max-width:1085px}.et_boxed_layout #page-container,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #main-header,.et_fixed_nav.et_boxed_layout #page-container #top-header,.et_fixed_nav.et_boxed_layout #page-container #main-header,.et_boxed_layout #page-container .container,.et_boxed_layout #page-container .et_pb_row{max-width:1245px}a{color:#9935cd}#main-header,#main-header .nav li ul,.et-search-form,#main-header .et_mobile_menu{background-color:#f7f7f8}.nav li ul{border-color:#d3cfd5}.et_secondary_nav_enabled #page-container #top-header{background-color:#9935cd!important}#et-secondary-nav li ul{background-color:#9935cd}.et_header_style_centered .mobile_nav .select_page,.et_header_style_split .mobile_nav .select_page,.et_nav_text_color_light #top-menu>li>a,.et_nav_text_color_dark #top-menu>li>a,#top-menu a,.et_mobile_menu li a,.et_nav_text_color_light .et_mobile_menu li a,.et_nav_text_color_dark .et_mobile_menu li a,#et_search_icon:before,.et_search_form_container input,span.et_close_search_field:after,#et-top-navigation .et-cart-info{color:#505050}.et_search_form_container input::-moz-placeholder{color:#505050}.et_search_form_container input::-webkit-input-placeholder{color:#505050}.et_search_form_container input:-ms-input-placeholder{color:#505050}#top-header,#top-header a,#et-secondary-nav li li a,#top-header .et-social-icon a:before{font-size:14px}#top-menu li a{font-size:15px}body.et_vertical_nav .container.et_search_form_container .et-search-form input{font-size:15px!important}#top-menu li.current-menu-ancestor>a,#top-menu li.current-menu-item>a,#top-menu li.current_page_item>a{color:#9935cd}#main-footer .footer-widget h4,#main-footer .widget_block h1,#main-footer .widget_block h2,#main-footer .widget_block h3,#main-footer .widget_block h4,#main-footer .widget_block h5,#main-footer .widget_block h6{color:#9935cd}.footer-widget li:before{border-color:#9935cd}.footer-widget .et_pb_widget div,.footer-widget .et_pb_widget ul,.footer-widget .et_pb_widget ol,.footer-widget .et_pb_widget label{line-height:1.7em}#footer-widgets .footer-widget li:before{top:10.6px}#et-footer-nav .bottom-nav li.current-menu-item a{color:#9935cd}body .et_pb_button{font-size:18px;border-width:3px!important;border-color:#9935cd;border-radius:0px;font-weight:bold;font-style:normal;text-transform:none;text-decoration:none;}body.et_pb_button_helper_class .et_pb_button,body.et_pb_button_helper_class .et_pb_module.et_pb_button{color:#9935cd}body .et_pb_button:after{content:'$';font-size:18px}body .et_pb_bg_layout_light.et_pb_button:hover,body .et_pb_bg_layout_light .et_pb_button:hover,body .et_pb_button:hover{color:#ffffff!important;background-color:#9935cd;border-color:#9935cd!important;border-radius:0px}h1,h2,h3,h4,h5,h6,.et_quote_content blockquote p,.et_pb_slide_description .et_pb_slide_title{font-weight:bold;font-style:normal;text-transform:none;text-decoration:none}@media only screen and (min-width:981px){#logo{max-height:87%}.et_pb_svg_logo #logo{height:87%}.et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container,.et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container{height:11.88px}.et_fixed_nav #page-container .et-fixed-header#top-header{background-color:#9935cd!important}.et_fixed_nav #page-container .et-fixed-header#top-header #et-secondary-nav li ul{background-color:#9935cd}.et-fixed-header #top-menu a,.et-fixed-header #et_search_icon:before,.et-fixed-header #et_top_search .et-search-form input,.et-fixed-header .et_search_form_container input,.et-fixed-header .et_close_search_field:after,.et-fixed-header #et-top-navigation .et-cart-info{color:#505050!important}.et-fixed-header .et_search_form_container input::-moz-placeholder{color:#505050!important}.et-fixed-header .et_search_form_container input::-webkit-input-placeholder{color:#505050!important}.et-fixed-header .et_search_form_container input:-ms-input-placeholder{color:#505050!important}.et-fixed-header #top-menu li.current-menu-ancestor>a,.et-fixed-header #top-menu li.current-menu-item>a,.et-fixed-header #top-menu li.current_page_item>a{color:#9935cd!important}.et-fixed-header#top-header a{color:#f7f7f8}}@media only screen and (min-width:1356px){.et_pb_row{padding:27px 0}.et_pb_section{padding:54px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:81px}.et_pb_fullwidth_section{padding:0}}h1,h1.et_pb_contact_main_title,.et_pb_title_container h1{font-size:45px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:38px}h3{font-size:32px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:27px}h5{font-size:23px}h6{font-size:21px}.et_pb_slide_description .et_pb_slide_title{font-size:68px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:23px}@media only screen and (max-width:980px){h1{font-size:35px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:30px}h3{font-size:25px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:21px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:53px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:18px}h5{font-size:18px}h6{font-size:16px}}@media only screen and (max-width:767px){h1{font-size:28px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:24px}h3{font-size:20px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:16px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:42px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:14px}h5{font-size:14px}h6{font-size:13px}}	h1,h2,h3,h4,h5,h6{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif}body,input,textarea,select{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif}html[lang="es-AR"] .lang-en{display:none;visibility:hidden}html[lang="en-GB"] .lang-es{display:none;visibility:hidden}.is-form-style{display:none}.navigation.pagination span,.navigation.pagination a{display:inline-flex}.navigation.pagination .nav-links .page-numbers:not(.next):not(.prev){width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;margin-right:0.5rem;color:#9935cd}.navigation.pagination .nav-links .page-numbers:not(.current):not(.dots):hover,.navigation.pagination .nav-links .page-numbers:not(.current):not(.dots):focus{background:#eee}.navigation.pagination .nav-links .page-numbers.current{background:#9935cd;color:white!important}.navigation.pagination .nav-links .next,.navigation.pagination .nav-links .prev{padding:0.5rem 1rem}.cpt-alm-wrapper .cpt-alm-item{margin-bottom:3rem!important}.nav-links{margin-top:1rem}.no-results{text-align:center;color:#039966}.no-results h3{margin-top:2rem;color:#039966}.section-searc{padding-top:0}.top-search{padding-bottom:0}.grid-search{padding-left:0!important}.content-fvl-single img{width:100%}.container-embed-externo{position:relative;height:0;width:100%;padding-top:56%;border:solid 1px #eee;overflow:hidden}.container-embed-externo .embed{position:absolute;top:1rem;left:0.5rem;width:calc(100% - 1rem)}</style><div class="astm-search-menu-wrapper is-menu-wrapper"><div><span class=" astm-search-menu is-menu sliding"><a title="" href="#"><svg width="20" height="20" class="search-icon" role="img" viewBox="2 9 20 5" focusable="false" aria-label="Search">
+					<path class="search-icon-path" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a><form data-min-no-for-search=1 data-result-box-max-height=400 data-form-id=1197 class="is-search-form is-form-style is-form-style-3 is-form-id-1197 is-ajax-search" action="https://www.vialibre.org.ar/" method="get" role="search" ><label for="is-search-input-1197"><span class="is-screen-reader-text">Search for:</span><input  type="search" id="is-search-input-1197" name="s" value="" class="is-search-input" placeholder="Buscar..." autocomplete=off /><span class="is-loader-image" style="display: none;background-image:url(https://vialibre.org.ar/wp-content/plugins/add-search-to-menu/public/images/spinner.gif);" ></span></label><button type="submit" class="is-search-submit"><span class="is-screen-reader-text">Search Button</span><span class="is-search-icon"><svg focusable="false" aria-label="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></span></button><input type="hidden" name="id" value="1197" /></form><div class="search-close"></div></span></div></div><style type="text/css" media="screen">.is-menu path.search-icon-path { fill: #848484;}body .popup-search-close:after, body .search-close:after { border-color: #848484;}body .popup-search-close:before, body .search-close:before { border-color: #848484;}</style>			<style type="text/css">
+						#is-ajax-search-result-11404 a,
+                #is-ajax-search-details-11404 a:not(.button) {
+					color: #9935cd !important;
+				}
+                #is-ajax-search-details-11404 .is-ajax-woocommerce-actions a.button {
+                	background-color: #9935cd !important;
+                }
+                        			.is-form-id-11404 .is-search-submit:focus,
+			.is-form-id-11404 .is-search-submit:hover,
+			.is-form-id-11404 .is-search-submit,
+            .is-form-id-11404 .is-search-icon {
+			color: #ffffff !important;            background-color: #fe9904 !important;            border-color: #e8e3dc !important;			}
+                        	.is-form-id-11404 .is-search-submit path {
+					fill: #ffffff !important;            	}
+            			.is-form-style-1.is-form-id-11404 .is-search-input:focus,
+			.is-form-style-1.is-form-id-11404 .is-search-input:hover,
+			.is-form-style-1.is-form-id-11404 .is-search-input,
+			.is-form-style-2.is-form-id-11404 .is-search-input:focus,
+			.is-form-style-2.is-form-id-11404 .is-search-input:hover,
+			.is-form-style-2.is-form-id-11404 .is-search-input,
+			.is-form-style-3.is-form-id-11404 .is-search-input:focus,
+			.is-form-style-3.is-form-id-11404 .is-search-input:hover,
+			.is-form-style-3.is-form-id-11404 .is-search-input,
+			.is-form-id-11404 .is-search-input:focus,
+			.is-form-id-11404 .is-search-input:hover,
+			.is-form-id-11404 .is-search-input {
+                                                                border-color: #e8e3dc !important;                                background-color: #ffffff !important;			}
+                        			</style>
+					<style type="text/css">
+						#is-ajax-search-result-11213 a,
+                #is-ajax-search-details-11213 a:not(.button) {
+					color: #9935cd !important;
+				}
+                #is-ajax-search-details-11213 .is-ajax-woocommerce-actions a.button {
+                	background-color: #9935cd !important;
+                }
+                        				#is-ajax-search-result-11213 .is-ajax-search-post,
+				#is-ajax-search-details-11213 .is-ajax-search-post-details {
+				    border-color: #eeeeee !important;
+				}
+                #is-ajax-search-result-11213,
+                #is-ajax-search-details-11213 {
+                    background-color: #eeeeee !important;
+                }
+						.is-form-id-11213 .is-search-submit:focus,
+			.is-form-id-11213 .is-search-submit:hover,
+			.is-form-id-11213 .is-search-submit,
+            .is-form-id-11213 .is-search-icon {
+			            background-color: #9935cd !important;            border-color: #9935cd !important;			}
+            			</style>
+					<style type="text/css">
+						#is-ajax-search-result-1198 .is-ajax-search-post,                        
+	            #is-ajax-search-result-1198 .is-show-more-results,
+	            #is-ajax-search-details-1198 .is-ajax-search-items > div {
+					background-color: #ffffff !important;
+				}
+            				#is-ajax-search-result-1198 a,
+                #is-ajax-search-details-1198 a:not(.button) {
+					color: #9935cd !important;
+				}
+                #is-ajax-search-details-1198 .is-ajax-woocommerce-actions a.button {
+                	background-color: #9935cd !important;
+                }
+                        				#is-ajax-search-result-1198 .is-ajax-search-post,
+				#is-ajax-search-details-1198 .is-ajax-search-post-details {
+				    border-color: #f9f9f9 !important;
+				}
+                #is-ajax-search-result-1198,
+                #is-ajax-search-details-1198 {
+                    background-color: #f9f9f9 !important;
+                }
+						.is-form-id-1198 .is-search-submit:focus,
+			.is-form-id-1198 .is-search-submit:hover,
+			.is-form-id-1198 .is-search-submit,
+            .is-form-id-1198 .is-search-icon {
+			color: #ffffff !important;            background-color: #039966 !important;            border-color: #e8e8e8 !important;			}
+                        	.is-form-id-1198 .is-search-submit path {
+					fill: #ffffff !important;            	}
+            			.is-form-id-1198 .is-search-input::-webkit-input-placeholder {
+			    color: #939393 !important;
+			}
+			.is-form-id-1198 .is-search-input:-moz-placeholder {
+			    color: #939393 !important;
+			    opacity: 1;
+			}
+			.is-form-id-1198 .is-search-input::-moz-placeholder {
+			    color: #939393 !important;
+			    opacity: 1;
+			}
+			.is-form-id-1198 .is-search-input:-ms-input-placeholder {
+			    color: #939393 !important;
+			}
+                        			.is-form-style-1.is-form-id-1198 .is-search-input:focus,
+			.is-form-style-1.is-form-id-1198 .is-search-input:hover,
+			.is-form-style-1.is-form-id-1198 .is-search-input,
+			.is-form-style-2.is-form-id-1198 .is-search-input:focus,
+			.is-form-style-2.is-form-id-1198 .is-search-input:hover,
+			.is-form-style-2.is-form-id-1198 .is-search-input,
+			.is-form-style-3.is-form-id-1198 .is-search-input:focus,
+			.is-form-style-3.is-form-id-1198 .is-search-input:hover,
+			.is-form-style-3.is-form-id-1198 .is-search-input,
+			.is-form-id-1198 .is-search-input:focus,
+			.is-form-id-1198 .is-search-input:hover,
+			.is-form-id-1198 .is-search-input {
+                                color: #939393 !important;                                border-color: #e8e8e8 !important;                                background-color: #ffffff !important;			}
+                        			</style>
+					<style type="text/css">
+						#is-ajax-search-result-1197 .is-ajax-search-post:hover,
+	            #is-ajax-search-result-1197 .is-show-more-results:hover,
+	            #is-ajax-search-details-1197 .is-ajax-search-tags-details > div:hover,
+	            #is-ajax-search-details-1197 .is-ajax-search-categories-details > div:hover {
+					background-color: #efefef !important;
+				}
+                        				#is-ajax-search-result-1197 a,
+                #is-ajax-search-details-1197 a:not(.button) {
+					color: #9935cd !important;
+				}
+                #is-ajax-search-details-1197 .is-ajax-woocommerce-actions a.button {
+                	background-color: #9935cd !important;
+                }
+                        			.is-form-id-1197 .is-search-submit:focus,
+			.is-form-id-1197 .is-search-submit:hover,
+			.is-form-id-1197 .is-search-submit,
+            .is-form-id-1197 .is-search-icon {
+			            background-color: #ffffff !important;            border-color: #ffffff !important;			}
+            			.is-form-style-1.is-form-id-1197 .is-search-input:focus,
+			.is-form-style-1.is-form-id-1197 .is-search-input:hover,
+			.is-form-style-1.is-form-id-1197 .is-search-input,
+			.is-form-style-2.is-form-id-1197 .is-search-input:focus,
+			.is-form-style-2.is-form-id-1197 .is-search-input:hover,
+			.is-form-style-2.is-form-id-1197 .is-search-input,
+			.is-form-style-3.is-form-id-1197 .is-search-input:focus,
+			.is-form-style-3.is-form-id-1197 .is-search-input:hover,
+			.is-form-style-3.is-form-id-1197 .is-search-input,
+			.is-form-id-1197 .is-search-input:focus,
+			.is-form-id-1197 .is-search-input:hover,
+			.is-form-id-1197 .is-search-input {
+                                                                border-color: #ffffff !important;                                			}
+                        			</style>
+		<form data-min-no-for-search=1 data-result-box-max-height=400 data-form-id=1197 class="is-search-form is-form-style is-form-style-3 is-form-id-1197 is-ajax-search" action="https://www.vialibre.org.ar/" method="get" role="search" ><label for="is-search-input-1197"><span class="is-screen-reader-text">Search for:</span><input  type="search" id="is-search-input-1197" name="s" value="" class="is-search-input" placeholder="Buscar..." autocomplete=off /><span class="is-loader-image" style="display: none;background-image:url(https://vialibre.org.ar/wp-content/plugins/add-search-to-menu/public/images/spinner.gif);" ></span></label><button type="submit" class="is-search-submit"><span class="is-screen-reader-text">Search Button</span><span class="is-search-icon"><svg focusable="false" aria-label="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></span></button><input type="hidden" name="id" value="1197" /></form>
+<style type="text/css" media="all">
+.footnotes_reference_container {margin-top: 24px !important; margin-bottom: 0px !important;}
+.footnote_container_prepare > p {border-bottom: 1px solid #aaaaaa !important;}
+.footnote_tooltip { font-size: 13px !important; color: #000000 !important; background-color: #ffffff !important; border-width: 1px !important; border-style: solid !important; border-color: #cccc99 !important; -webkit-box-shadow: 2px 2px 11px #666666; -moz-box-shadow: 2px 2px 11px #666666; box-shadow: 2px 2px 11px #666666; max-width: 450px !important;}
+
+
+</style>
+</head>
+<body data-rsssl=1 class="home page-template-default page page-id-24 et-tb-has-template et-tb-has-footer et_monarch Divi et_button_custom_icon et_pb_button_helper_class et_fullwidth_nav et_fullwidth_secondary_nav et_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_expand et_secondary_nav_dropdown_animation_expand et_header_style_left et_pb_svg_logo et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db">
+	<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+				<div id="top-header">
+		<div class="container clearfix">
+
+		
+			<div id="et-secondary-menu">
+			<ul id="et-secondary-nav" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11285"><a href="https://www.vialibre.org.ar/nosotros/">Nosotros</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11294"><a href="https://www.vialibre.org.ar/como-contribuir/">¿Cómo contribuir?</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11295"><a href="https://www.vialibre.org.ar/contacto/">Contacto</a></li>
+<li class="redes-header header-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-11291"><a target="_blank" rel="noopener" href="https://twitter.com/fvialibre">Twitter</a></li>
+<li class="redes-header header-youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-11292"><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCGLGjejhwZflQtaCb4RSHLQ">Youtube</a></li>
+<li class="lang-item lang-item-239 lang-item-en lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-11300-en"><a href="https://www.vialibre.org.ar/en/home/" hreflang="en-GB" lang="en-GB"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg==" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
+</ul>			</div>
+
+		</div>
+	</div>
+
+
+	<header id="main-header" data-height-onload="66">
+		<div class="container clearfix et_menu_container">
+					<div class="logo_container">
+				<span class="logo_helper"></span>
+				<a href="https://www.vialibre.org.ar/">
+				<img  width="93" height="43" alt="FUNDACIÓN VÍA LIBRE" id="logo" data-height-percentage="87" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/via-libre_1.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/via-libre_1.svg" width="93" height="43" alt="FUNDACIÓN VÍA LIBRE" id="logo" data-height-percentage="87" /></noscript>
+				</a>
+			</div>
+					<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+									<nav id="top-menu-nav">
+					<ul id="top-menu" class="nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11281"><a href="https://www.vialibre.org.ar/publicaciones/">Publicaciones</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11299"><a href="https://www.vialibre.org.ar/proyectos/">Proyectos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11298"><a href="https://www.vialibre.org.ar/material-de-divulgacion/">Material de divulgación</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11278"><a href="https://www.vialibre.org.ar/agenda/">Agenda</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11297"><a href="https://www.vialibre.org.ar/fvl-en-los-medios/">FVL en los medios</a></li>
+</ul>					</nav>
+				
+				
+				
+				
+				<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>			</div> <!-- #et-top-navigation -->
+		</div> <!-- .container -->
+			</header> <!-- #main-header -->
+<div id="et-main-area">
+	
+<div id="main-content">
+
+
+			
+				<article id="post-24" class="post-24 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0 top-home et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h1>Defendemos derechos fundamentales en el <strong>entorno digital</strong></h1></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h4>Quienes integramos Fundación Vía Libre tenemos un compromiso con la construcción colectiva de conocimiento, la cultura libre y el desarrollo de una sociedad más justa basada en el respeto y avance de los Derechos Humanos</h4></div>
+			</div><div class="et_pb_module et_pb_image et_pb_image_0 scrolldown">
+				
+				
+				
+				
+				<a href="#publicaciones-destacadas"><span class="et_pb_image_wrap "><img  alt="Scroll" title="Scrolldown" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_scrolldown.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_scrolldown.svg" alt="Scroll" title="Scrolldown" /></noscript></span></a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div id="publicaciones-destacadas" class="et_pb_section et_pb_section_1 publicaciones-home et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1 row-destacadas-title">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Publicaciones<br /><strong>destacadas</strong></h2></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_right et_pb_button_alignment_tablet_left et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 btn-orange et_pb_bg_layout_light" href="https://www.vialibre.org.ar/publicaciones/">VER TODAS</a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_2">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_code et_pb_code_0">
+				
+				
+				
+				
+				<div class="et_pb_code_inner">    	    	<div class="container-publicaciones">
+	        <ul class="publicaciones-list publicaciones-slick">
+	            		            <li id="post-13538">
+		                <a href="https://www.vialibre.org.ar/comunicado-de-prensa-el-reconocimiento-facial-sigue-suspendido-en-buenos-aires/">
+		                	<div class="container-imagen-noticia">
+		                		<div class="imagen-noticia" style="background: url(https://www.vialibre.org.ar/wp-content/uploads/2024/02/comunicado-conjunto-reconocimiento-facial.png) no-repeat center; background-size: cover;"></div>
+		                	</div>
+
+		                	<div class="title-date-post">
+                                <p class="categoria">
+                                    <span>
+                                        Libertad de Expresión | Privacidad                                    </span>
+                                </p>
+                                <p class="post-date"><small>22 de febrero de 2024</small></p>
+		                    	<h4>Comunicado de prensa: El reconocimiento facial sigue suspendido en Buenos Aires</h4>
+		                    </div>
+                        
+		                </a>
+		            </li>
+	            		            <li id="post-13521">
+		                <a href="https://www.vialibre.org.ar/la-justicia-define-si-vuelve-el-reconocimiento-facial-en-las-calles-de-buenos-aires-como-auditar-al-vigilante-artificial/">
+		                	<div class="container-imagen-noticia">
+		                		<div class="imagen-noticia" style="background: url(https://www.vialibre.org.ar/wp-content/uploads/2024/02/985d4be2-ad42-4088-8649-5ce09a0b404b_16-9-discover-aspect-ratio_default_0.webp) no-repeat center; background-size: cover;"></div>
+		                	</div>
+
+		                	<div class="title-date-post">
+                                <p class="categoria">
+                                    <span>
+                                        Libertad de Expresión | Privacidad                                    </span>
+                                </p>
+                                <p class="post-date"><small>19 de febrero de 2024</small></p>
+		                    	<h4>La Justicia define si vuelve el reconocimiento facial en las calles de Buenos Aires: ¿cómo auditar al vigilante artificial?</h4>
+		                    </div>
+                        
+		                </a>
+		            </li>
+	            		            <li id="post-13503">
+		                <a href="https://www.vialibre.org.ar/via-libre-se-presenta-como-amigos-del-tribunal-en-la-causa-contra-el-renaper/">
+		                	<div class="container-imagen-noticia">
+		                		<div class="imagen-noticia" style="background: url(https://www.vialibre.org.ar/wp-content/uploads/2024/02/Mesa-de-trabajo-1quienes-1.jpg) no-repeat center; background-size: cover;"></div>
+		                	</div>
+
+		                	<div class="title-date-post">
+                                <p class="categoria">
+                                    <span>
+                                        Privacidad | Seguridad de la información                                    </span>
+                                </p>
+                                <p class="post-date"><small>7 de febrero de 2024</small></p>
+		                    	<h4>Vía Libre se presenta como &#8216;amigos del tribunal&#8217; en la causa contra el RENAPER</h4>
+		                    </div>
+                        
+		                </a>
+		            </li>
+	            	        </ul>
+	    </div>
+    </div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_3">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_3 titulo-lineas-de-accion  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong>Líneas de acción</strong></h2></div>
+			</div><div class="et_pb_module et_pb_code et_pb_code_1">
+				
+				
+				
+				
+				<div class="et_pb_code_inner">    <div class="container-categorias">
+        <ul class="category-list">
+                            <li>
+                    <a href="https://www.vialibre.org.ar/lineas-de-accion/ia/">
+                        <img  data-src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_ai.svg" class="img-category lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="img-category" src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_ai.svg" /></noscript>
+                        <p class="category-name"><a href="https://www.vialibre.org.ar/lineas-de-accion/ia/" alt="Ver todas las publicaciones en Inteligencia Artificial">Inteligencia Artificial</a></p>
+                     </a>
+                </li>
+                            <li>
+                    <a href="https://www.vialibre.org.ar/lineas-de-accion/libertad-de-expresion/">
+                        <img  data-src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_libertad.svg" class="img-category lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="img-category" src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_libertad.svg" /></noscript>
+                        <p class="category-name"><a href="https://www.vialibre.org.ar/lineas-de-accion/libertad-de-expresion/" alt="Ver todas las publicaciones en Libertad de Expresión">Libertad de Expresión</a></p>
+                     </a>
+                </li>
+                            <li>
+                    <a href="https://www.vialibre.org.ar/lineas-de-accion/privacidad/">
+                        <img  data-src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_privacidad.svg" class="img-category lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="img-category" src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_privacidad.svg" /></noscript>
+                        <p class="category-name"><a href="https://www.vialibre.org.ar/lineas-de-accion/privacidad/" alt="Ver todas las publicaciones en Privacidad">Privacidad</a></p>
+                     </a>
+                </li>
+                            <li>
+                    <a href="https://www.vialibre.org.ar/lineas-de-accion/propiedad-intelectual-y-acceso-a-la-cultura/">
+                        <img  data-src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_propiedad_intelectual.svg" class="img-category lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="img-category" src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_propiedad_intelectual.svg" /></noscript>
+                        <p class="category-name"><a href="https://www.vialibre.org.ar/lineas-de-accion/propiedad-intelectual-y-acceso-a-la-cultura/" alt="Ver todas las publicaciones en Propiedad Intelectual y acceso a la cultura">Propiedad Intelectual y acceso a la cultura</a></p>
+                     </a>
+                </li>
+                            <li>
+                    <a href="https://www.vialibre.org.ar/lineas-de-accion/infosec/">
+                        <img  data-src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_seguridad-info.svg" class="img-category lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="img-category" src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_seguridad-info.svg" /></noscript>
+                        <p class="category-name"><a href="https://www.vialibre.org.ar/lineas-de-accion/infosec/" alt="Ver todas las publicaciones en Seguridad de la información">Seguridad de la información</a></p>
+                     </a>
+                </li>
+                            <li>
+                    <a href="https://www.vialibre.org.ar/lineas-de-accion/voto-electronico/">
+                        <img  data-src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_voto.svg" class="img-category lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="img-category" src="https://www.vialibre.org.ar/wp-content/uploads/2020/10/icono_voto.svg" /></noscript>
+                        <p class="category-name"><a href="https://www.vialibre.org.ar/lineas-de-accion/voto-electronico/" alt="Ver todas las publicaciones en Voto electrónico">Voto electrónico</a></p>
+                     </a>
+                </li>
+                    </ul>
+    </div>
+    
+    </div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_2 container-podcast et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_4">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4 titulo-podcast  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Nuestro<br /><strong>podcast</strong></h2></div>
+			</div><div class="et_pb_module et_pb_image et_pb_image_1 img-podcast">
+				
+				
+				
+				
+				<span class="et_pb_image_wrap "><img  alt="Podcast" title="" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_podcast.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_podcast.svg" alt="Podcast" title="" /></noscript></span>
+			</div><div class="et_pb_module et_pb_text et_pb_text_5 el-bestiario  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2><strong>El bestiario de internet</strong></h2></div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_1_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_button_1 btn-black btn-podcast et_pb_bg_layout_light" href="https://wetoker.com/category/el-bestiario-de-internet/%20" target="_blank">ESCUCHAR</a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_3 section-divulgacion-destacadas et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_5">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_6 col-divulgacion  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_6  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>Material de<br /><strong>divulgación</strong></h2></div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_2_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_button_2 btn-green et_pb_bg_layout_light" href="https://www.vialibre.org.ar/material-de-divulgacion/">VER TODOS</a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_3_4 et_pb_column_7 col-divulgacion-destacada  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_code et_pb_code_2">
+				
+				
+				
+				
+				<div class="et_pb_code_inner">        <div class="container-divulgacion">
+            <ul class="divulgacion-list divulgacion-slick">
+                                    <li id="post-13498">
+                        <a href="https://www.vialibre.org.ar/divulgacion/eldesafiodestriparlaiaenlasaulas/">
+                            <div class="container-imagen-divulgacion">
+                                <div class="imagen-divulgacion" style="background:#F2F1F3 url(https://www.vialibre.org.ar/wp-content/uploads/2023/12/eldesafiodestriparlaIA-scaled.jpg) no-repeat center; background-size: cover;"></div>
+                            </div>
+                            <div class="divulgacion-title">
+                                <h4>El desafío: destripar la IA en las aulas</h4>
+                            </div>
+                        
+                        </a>
+                    </li>
+                                    <li id="post-13185">
+                        <a href="https://www.vialibre.org.ar/divulgacion/informe-proteccion-legal-de-datos-personales-inferidos/">
+                            <div class="container-imagen-divulgacion">
+                                <div class="imagen-divulgacion" style="background:#F2F1F3 url(https://www.vialibre.org.ar/wp-content/uploads/2023/07/Portada-1-.png) no-repeat center; background-size: cover;"></div>
+                            </div>
+                            <div class="divulgacion-title">
+                                <h4>Informe: Protección legal de datos personales inferidos</h4>
+                            </div>
+                        
+                        </a>
+                    </li>
+                                    <li id="post-12938">
+                        <a href="https://www.vialibre.org.ar/divulgacion/a-methodology-to-characterize-bias-and-harmful-stereotypes-in-natural-language-processing-in-latin-america/">
+                            <div class="container-imagen-divulgacion">
+                                <div class="imagen-divulgacion" style="background:#F2F1F3 url(https://www.vialibre.org.ar/wp-content/uploads/2023/02/Portada-paper-NotreDame.png) no-repeat center; background-size: cover;"></div>
+                            </div>
+                            <div class="divulgacion-title">
+                                <h4>A methodology to characterize bias and harmful stereotypes in natural language processing in Latin America</h4>
+                            </div>
+                        
+                        </a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_4 agenda-section et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_6">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_7  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong>Agenda</strong></h2></div>
+			</div><div class="et_pb_module et_pb_code et_pb_code_3">
+				
+				
+				
+				
+				<div class="et_pb_code_inner">                <div class="container-agenda-destacadas">
+            <ul class="agenda-list agenda-slick">
+                                    <li id="post-13419">
+                        <a href="https://www.vialibre.org.ar/agenda/1er-encuentro-federal-cyberciruja/">
+                            <p class="date-agenda">25 noviembre 2023 | 09:00</p>
+                            <h4>1er Encuentro Federal Cyberciruja</h4>
+                            <p class="resumen-agenda">Se reúne la comunidad cyberciruja en Córdoba</p>
+                            <div class="container-btn-agenda">
+                                <button  class="ver-mas-agenda">
+									
+									Ver más								</button>
+                            </div>
+                        </a>
+                    </li>
+                                    <li id="post-13403">
+                        <a href="https://www.vialibre.org.ar/agenda/herramientas-para-explorar-sesgos-y-estereotipos-de-la-inteligencia-artificial-en-las-aulas/">
+                            <p class="date-agenda">1 diciembre 2023 | 15:30</p>
+                            <h4>JADICC 2023</h4>
+                            <p class="resumen-agenda">Workshop: Herramientas para explorar sesgos y estereotipos de la inteligencia artificial en las aulas</p>
+                            <div class="container-btn-agenda">
+                                <button  class="ver-mas-agenda">
+									
+									Ver más								</button>
+                            </div>
+                        </a>
+                    </li>
+                                    <li id="post-13389">
+                        <a href="https://www.vialibre.org.ar/agenda/asamblea-csirt/">
+                            <p class="date-agenda">14 noviembre 2023 | 11:00</p>
+                            <h4>Asamblea CSIRT</h4>
+                            <p class="resumen-agenda">Se presenta: Quien Avisa No Traiciona (QANT)</p>
+                            <div class="container-btn-agenda">
+                                <button  class="ver-mas-agenda">
+									
+									Ver más								</button>
+                            </div>
+                        </a>
+                    </li>
+                            </ul>
+        </div>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+<script>
+   $('.publicaciones-slick').slick({
+			dots: false,
+     	arrows: false,
+    	infinite: true,
+    	slidesToShow: 3,
+    	slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          variableWidth: true,
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }
+
+    ]
+});
+  
+$('.divulgacion-list').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        variableWidth: true
+      }
+    },
+  ]
+});
+$('.agenda-slick').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        variableWidth: true
+      }
+    },
+  ]
+});
+  
+</script></div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
+				<a class="et_pb_button et_pb_button_3 btn-violet btn-agenda-completa et_pb_bg_layout_light" href="https://www.vialibre.org.ar/agenda">AGENDA COMPLETA</a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</div>
+						</div>
+
+				
+				</article>
+
+			
+
+</div>
+
+	<footer class="et-l et-l--footer">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_1_tb_footer">
+				<div class="et_pb_column et_pb_column_3_4 et_pb_column_0_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0_tb_footer">
+				
+				
+				
+				
+				<span class="et_pb_image_wrap "><img width="300" height="115"  alt="" title="ngos_ed_on_file_widget"  data-src="https://www.vialibre.org.ar/wp-content/uploads/2023/02/ngos_ed_on_file_widget.png" class="wp-image-12951 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="115" src="https://www.vialibre.org.ar/wp-content/uploads/2023/02/ngos_ed_on_file_widget.png" alt="" title="ngos_ed_on_file_widget" class="wp-image-12951" /></noscript></span>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_1_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
+				
+				
+				
+				
+				
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_1_tb_footer et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_2_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_2_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_1_tb_footer">
+				
+				
+				
+				
+				<a href="https://www.vialibre.org.ar/"><span class="et_pb_image_wrap "><img  alt="Fundación Via Libre" title="Fundación Via Libre" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/via-libre_1.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/via-libre_1.svg" alt="Fundación Via Libre" title="Fundación Via Libre" /></noscript></span></a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_3_tb_footer row-footer-contacto">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_3_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_footer lang-en  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>write</h2></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_1_tb_footer lang-es  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>escribinos</h2></div>
+			</div><div class="et_pb_module et_pb_image et_pb_image_2_tb_footer icono-footer footer-escribinos">
+				
+				
+				
+				
+				<a href="mailto:info@vialibre.org.ar"><span class="et_pb_image_wrap "><img  alt="Email" title="icono_escribinos" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_escribinos.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_escribinos.svg" alt="Email" title="icono_escribinos" /></noscript></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_4_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2_tb_footer lang-en  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>listen</h2></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3_tb_footer lang-es  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>escuchanos</h2></div>
+			</div><div class="et_pb_module et_pb_image et_pb_image_3_tb_footer icono-footer footer-escuchanos">
+				
+				
+				
+				
+				<a href="https://wetoker.com/author/fundacion-via-libre/" target="_blank"><span class="et_pb_image_wrap "><img  alt="Escuchanos" title="icono_escuchanos" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_escuchanos.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_escuchanos.svg" alt="Escuchanos" title="icono_escuchanos" /></noscript></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_5_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4_tb_footer lang-en  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>follow</h2></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_5_tb_footer lang-es  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>seguinos</h2></div>
+			</div><div class="et_pb_module et_pb_image et_pb_image_4_tb_footer icono-footer  footer-seguinos footer-seguinos-tw">
+				
+				
+				
+				
+				<a href="https://twitter.com/fvialibre" target="_blank"><span class="et_pb_image_wrap "><img  alt="Twitter" title="icono_twitter" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_twitter.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_twitter.svg" alt="Twitter" title="icono_twitter" /></noscript></span></a>
+			</div><div class="et_pb_module et_pb_image et_pb_image_5_tb_footer icono-footer  footer-seguinos footer-seguinos-yt">
+				
+				
+				
+				
+				<a href="https://www.youtube.com/channel/UCGLGjejhwZflQtaCb4RSHLQ" target="_blank"><span class="et_pb_image_wrap "><img  alt="Youtube" title="Youtube" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_youtube.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_youtube.svg" alt="Youtube" title="Youtube" /></noscript></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_6_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_6_tb_footer lang-en  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>suscribe</h2></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_7_tb_footer lang-es  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2>suscribite</h2></div>
+			</div><div class="et_pb_module et_pb_image et_pb_image_6_tb_footer icono-footer footer-suscribite">
+				
+				
+				
+				
+				<a href="https://anuncios.vialibre.org.ar/lists/?p=subscribe" target="_blank"><span class="et_pb_image_wrap "><img  alt="Suscribite" title="icono_suscribite" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_suscribite.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/icono_suscribite.svg" alt="Suscribite" title="icono_suscribite" /></noscript></span></a>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_4_tb_footer container-firma-footer et_pb_equal_columns">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_7_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_8_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Vía libre 2024</p>
+<p>
+<script type="text/javascript" id="ngos-ed-on-file-widget-script-17336c1f-917d-492b-bc53-225c95e103da"></p>
+<p> (function() {</p>
+<p> function async_load()</p>
+<p> { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; var theUrl = 'http://www.ngosource.org/sites/default/files/ngos_ed_on_file_widget.js'; s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + 'ref=' + encodeURIComponent(window.location.href); var embedder = document.getElementById('ngos-ed-on-file-widget-script-17336c1f-917d-492b-bc53-225c95e103da'); embedder.parentNode.insertBefore(s, embedder); }</p>
+<p> if (window.attachEvent)</p>
+<p> window.attachEvent('onload', async_load);</p>
+<p> else</p>
+<p> window.addEventListener('load', async_load, false);</p>
+<p> })();</p>
+<p> </script>
+</p>
+<p><span class="lang-es">Diseño y desarrollo: </span><span class="lang-en">Design &amp; development: </span><a href="https://rayoestudio.com/" target="_blank" rel="noopener noreferrer"><img  alt="Rayo estudio"  width="75.661" height="27.129" data-src="https://vialibre.org.ar/wp-content/uploads/2020/10/rayo_estudio.svg" class="wp-image-168 alignnone size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="https://vialibre.org.ar/wp-content/uploads/2020/10/rayo_estudio.svg" alt="Rayo estudio" class="wp-image-168 alignnone size-full" width="75.661" height="27.129" /></noscript></a></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_2_tb_footer et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_5_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_8_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_9_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="text-align: center;">Excepto indicación de lo contrario, todos los textos e imágenes originales publicadas en este sitio están disponibles bajo una licencia Creative Commons Atribución 2.5 Argentina</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</footer>
+		</div>
+
+			
+		</div>
+		</div>
+
+			<link rel='stylesheet' id='ivory-ajax-search-styles-css'  href='https://www.vialibre.org.ar/wp-content/plugins/add-search-to-menu/public/css/ivory-ajax-search.min.css?ver=5.5.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.12.1' id='jquery-ui-tooltip-js'></script>
+<script type='text/javascript' id='cpt-alm-script-js-extra'>
+/* <![CDATA[ */
+var cpt_ala_params = {"ajaxurl":"https:\/\/www.vialibre.org.ar\/wp-admin\/admin-ajax.php","current_page":"1","nonce":"1b94f66efe"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/plugins/cpt-ajax-load-more/assets/js/app.js?ver=1.0.0' id='cpt-alm-script-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.4.14' id='et_monarch-idle-js'></script>
+<script type='text/javascript' id='et_monarch-custom-js-js-extra'>
+/* <![CDATA[ */
+var monarchSettings = {"ajaxurl":"https:\/\/www.vialibre.org.ar\/wp-admin\/admin-ajax.php","pageurl":"https:\/\/www.vialibre.org.ar\/","stats_nonce":"6d017a6b59","share_counts":"f58de95d80","follow_counts":"3c26200831","total_counts":"1e9d7e6a61","media_single":"b2d0c7260e","media_total":"7111c257b4","generate_all_window_nonce":"444b6abb15","no_img_message":"No images available for sharing on this page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/plugins/monarch/js/custom.js?ver=1.4.14' id='et_monarch-custom-js-js'></script>
+<script type='text/javascript' id='divi-custom-script-js-extra'>
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/www.vialibre.org.ar\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/www.vialibre.org.ar\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/www.vialibre.org.ar\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"f1b2bfde91","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"d4d10ef2dc","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"24","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":"https:\/\/www.vialibre.org.ar\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors","accent_color":"#9935cd","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/themes/Divi/js/scripts.min.js?ver=4.19.4' id='divi-custom-script-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/themes/Divi/core/admin/js/common.js?ver=4.19.4' id='et-core-common-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.15.0' id='smush-lazy-load-js'></script>
+<script type='text/javascript' id='smush-lazy-load-js-after'>
+function rw() { Waypoint.refreshAll(); } window.addEventListener( 'lazybeforeunveil', rw, false); window.addEventListener( 'lazyloaded', rw, false);
+</script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js?ver=5.5.4' id='ivory-search-scripts-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-includes/js/wp-embed.min.js?ver=5.8.9' id='wp-embed-js'></script>
+<script type='text/javascript' id='ivory-ajax-search-scripts-js-extra'>
+/* <![CDATA[ */
+var IvoryAjaxVars = {"ajaxurl":"https:\/\/www.vialibre.org.ar\/wp-admin\/admin-ajax.php","ajax_nonce":"ff9918aff0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/plugins/add-search-to-menu/public/js/ivory-ajax-search.min.js?ver=5.5.4' id='ivory-ajax-search-scripts-js'></script>
+<script type='text/javascript' src='https://www.vialibre.org.ar/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.19.4' id='fitvids-js'></script>
+<style id="et-builder-module-design-tb-11227-deferred-24-cached-inline-styles">.et_pb_section_0_tb_footer.et_pb_section{padding-top:2px;padding-bottom:4px;background-color:#F5F5F5!important}.et_pb_row_1_tb_footer{filter:saturate(27%);backface-visibility:hidden;filter:saturate(27%);backface-visibility:hidden}html:not(.et_fb_edit_enabled) #et-fb-app .et_pb_row_1_tb_footer:hover{filter:saturate(27%);filter:saturate(27%)}.et_pb_row_1_tb_footer.et_pb_row{padding-top:0px!important;padding-top:0px}.et_pb_image_0_tb_footer{width:224px;text-align:left;margin-left:0}.et_pb_section_1_tb_footer{min-height:334px;z-index:10;box-shadow:0px 1px 7px 0px rgba(0,0,0,0.2)}.et_pb_section_1_tb_footer.et_pb_section{padding-bottom:0px;margin-top:1rem;margin-bottom:1rem}.et_pb_image_1_tb_footer{width:180px;text-align:center}.et_pb_image_3_tb_footer .et_pb_image_wrap,.et_pb_image_6_tb_footer .et_pb_image_wrap,.et_pb_image_5_tb_footer .et_pb_image_wrap,.et_pb_image_4_tb_footer .et_pb_image_wrap,.et_pb_image_2_tb_footer .et_pb_image_wrap,.et_pb_image_1_tb_footer .et_pb_image_wrap{display:block}.et_pb_text_7_tb_footer h2,.et_pb_text_6_tb_footer h2,.et_pb_text_5_tb_footer h2,.et_pb_text_4_tb_footer h2,.et_pb_text_3_tb_footer h2,.et_pb_text_0_tb_footer h2,.et_pb_text_2_tb_footer h2,.et_pb_text_1_tb_footer h2{font-weight:800;font-size:32px}.et_pb_text_3_tb_footer,.et_pb_text_1_tb_footer,.et_pb_text_7_tb_footer,.et_pb_text_0_tb_footer,.et_pb_text_6_tb_footer,.et_pb_text_5_tb_footer,.et_pb_text_4_tb_footer,.et_pb_text_2_tb_footer{margin-bottom:16px!important}.et_pb_image_5_tb_footer,.et_pb_image_2_tb_footer,.et_pb_image_4_tb_footer,.et_pb_image_3_tb_footer,.et_pb_image_6_tb_footer{width:97px;text-align:left;margin-left:0}.et_pb_row_4_tb_footer{background-color:#F5F5F5}.et_pb_row_4_tb_footer.et_pb_row{padding-top:0.5rem!important;padding-right:1rem!important;padding-bottom:0.5rem!important;padding-left:1rem!important;margin-top:0px!important;margin-right:auto!important;margin-bottom:0px!important;margin-left:auto!important;padding-top:0.5rem;padding-right:1rem;padding-bottom:0.5rem;padding-left:1rem}.et_pb_row_4_tb_footer,body #page-container .et-db #et-boc .et-l .et_pb_row_4_tb_footer.et_pb_row,body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_4_tb_footer.et_pb_row,body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_4_tb_footer.et_pb_row{width:100%;max-width:2560px}.et_pb_section_2_tb_footer.et_pb_section{padding-top:0px;padding-bottom:0px;margin-top:0px}.et_pb_row_5_tb_footer.et_pb_row{padding-top:0px!important;padding-bottom:0px!important;margin-top:-6px!important;margin-right:auto!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}.et_pb_text_9_tb_footer.et_pb_text{color:#9C9C9C!important}.et_pb_text_9_tb_footer{line-height:14px;font-size:12px;line-height:14px}@media only screen and (max-width:980px){.et_pb_image_0_tb_footer .et_pb_image_wrap img,.et_pb_image_1_tb_footer .et_pb_image_wrap img,.et_pb_image_2_tb_footer .et_pb_image_wrap img,.et_pb_image_3_tb_footer .et_pb_image_wrap img,.et_pb_image_4_tb_footer .et_pb_image_wrap img,.et_pb_image_5_tb_footer .et_pb_image_wrap img,.et_pb_image_6_tb_footer .et_pb_image_wrap img{width:auto}.et_pb_text_0_tb_footer h2,.et_pb_text_1_tb_footer h2,.et_pb_text_2_tb_footer h2,.et_pb_text_3_tb_footer h2,.et_pb_text_4_tb_footer h2,.et_pb_text_5_tb_footer h2,.et_pb_text_6_tb_footer h2,.et_pb_text_7_tb_footer h2{font-size:28px}}@media only screen and (max-width:767px){.et_pb_image_0_tb_footer .et_pb_image_wrap img,.et_pb_image_1_tb_footer .et_pb_image_wrap img,.et_pb_image_2_tb_footer .et_pb_image_wrap img,.et_pb_image_3_tb_footer .et_pb_image_wrap img,.et_pb_image_4_tb_footer .et_pb_image_wrap img,.et_pb_image_5_tb_footer .et_pb_image_wrap img,.et_pb_image_6_tb_footer .et_pb_image_wrap img{width:auto}}.et_pb_section_0.et_pb_section{padding-top:0px;padding-bottom:0px}.et_pb_row_6.et_pb_row,.et_pb_row_0.et_pb_row{padding-top:0px!important;padding-bottom:0px!important;padding-top:0px;padding-bottom:0px}.et_pb_text_0 h1,.et_pb_text_1 h3,.et_pb_text_1 h4,.et_pb_text_4 h2{font-weight:300}.et_pb_image_0{text-align:center}.et_pb_image_1 .et_pb_image_wrap,.et_pb_image_0 .et_pb_image_wrap{display:block}body #page-container .et_pb_section .et_pb_button_0{color:#fe9904!important;border-color:#fe9904}.et_pb_button_2,.et_pb_button_2:after,.et_pb_button_1,.et_pb_button_1:after,.et_pb_button_3,.et_pb_button_3:after,.et_pb_button_0,.et_pb_button_0:after{transition:all 300ms ease 0ms}.et_pb_row_2{z-index:2!important;position:relative}.et_pb_row_3{z-index:1!important;position:relative}.et_pb_section_2.et_pb_section{background-color:rgba(0,0,0,0)!important}.et_pb_image_1{text-align:left;margin-left:0}.et_pb_text_5 h2{color:#039966!important}.et_pb_text_5{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}body #page-container .et_pb_section .et_pb_button_1{color:#505050!important;border-color:#505050;font-size:24px}body #page-container .et_pb_section .et_pb_button_3:after,body #page-container .et_pb_section .et_pb_button_1:after,body #page-container .et_pb_section .et_pb_button_2:after{font-size:1.6em}body.et_button_custom_icon #page-container .et_pb_button_1:after{font-size:24px}.et_pb_text_6 h2{font-weight:300;font-size:40px}.et_pb_text_6{margin-bottom:0px!important}body #page-container .et_pb_section .et_pb_button_2{font-size:14px}body.et_button_custom_icon #page-container .et_pb_button_2:after,body.et_button_custom_icon #page-container .et_pb_button_3:after{font-size:14px}.et_pb_section_4.et_pb_section{padding-top:0px;padding-bottom:0px;margin-bottom:6rem;background-color:#E0DDE1!important}.et_pb_row_6,body #page-container .et-db #et-boc .et-l .et_pb_row_6.et_pb_row,body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_6.et_pb_row,body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_6.et_pb_row{max-width:2560px}.et_pb_text_7 h2{font-size:60px}body #page-container .et_pb_section .et_pb_button_3{color:#ffffff!important;border-color:#9935cd;font-size:14px;background-color:#9935cd}@media only screen and (max-width:980px){.et_pb_image_0 .et_pb_image_wrap img,.et_pb_image_1 .et_pb_image_wrap img{width:auto}body #page-container .et_pb_section .et_pb_button_0{font-size:16px!important}body #page-container .et_pb_section .et_pb_button_1:after,body #page-container .et_pb_section .et_pb_button_0:after{display:inline-block;opacity:0;font-size:1.6em}body #page-container .et_pb_section .et_pb_button_0:hover:after,body #page-container .et_pb_section .et_pb_button_1:hover:after,body #page-container .et_pb_section .et_pb_button_2:hover:after,body #page-container .et_pb_section .et_pb_button_3:hover:after{opacity:1}body.et_button_custom_icon #page-container .et_pb_button_0:after{font-size:16px}.et_pb_row_2.et_pb_row{padding-right:0px!important;padding-left:0px!important;padding-right:0px!important;padding-left:0px!important}.et_pb_row_2,body #page-container .et-db #et-boc .et-l .et_pb_row_2.et_pb_row,body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_2.et_pb_row,body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_2.et_pb_row,.et_pb_row_6,body #page-container .et-db #et-boc .et-l .et_pb_row_6.et_pb_row,body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_6.et_pb_row,body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_6.et_pb_row{width:100%}body #page-container .et_pb_section .et_pb_button_1{font-size:20px!important}body.et_button_custom_icon #page-container .et_pb_button_1:after{font-size:20px}.et_pb_text_6 h2{font-size:32px}body #page-container .et_pb_section .et_pb_button_2:after,body #page-container .et_pb_section .et_pb_button_3:after{display:inline-block;opacity:0}.et_pb_text_7 h2{font-size:40px}}@media only screen and (min-width:768px) and (max-width:980px){.et_pb_image_0{display:none!important}}@media only screen and (max-width:767px){.et_pb_image_0{display:none!important}.et_pb_image_1 .et_pb_image_wrap img,.et_pb_image_0 .et_pb_image_wrap img{width:auto}body #page-container .et_pb_section .et_pb_button_0{font-size:14px!important}body #page-container .et_pb_section .et_pb_button_1:after,body #page-container .et_pb_section .et_pb_button_0:after{display:inline-block;opacity:0;font-size:1.6em}body #page-container .et_pb_section .et_pb_button_0:hover:after,body #page-container .et_pb_section .et_pb_button_1:hover:after,body #page-container .et_pb_section .et_pb_button_2:hover:after,body #page-container .et_pb_section .et_pb_button_3:hover:after{opacity:1}body.et_button_custom_icon #page-container .et_pb_button_0:after{font-size:14px}.et_pb_row_3,body #page-container .et-db #et-boc .et-l .et_pb_row_3.et_pb_row,body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_3.et_pb_row,body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_3.et_pb_row{width:100%}body #page-container .et_pb_section .et_pb_button_1{font-size:18px!important}body.et_button_custom_icon #page-container .et_pb_button_1:after{font-size:18px}.et_pb_row_5,body #page-container .et-db #et-boc .et-l .et_pb_row_5.et_pb_row,body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_5.et_pb_row,body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_5.et_pb_row{width:100%;max-width:100%}.et_pb_text_6 h2{font-size:28px}body #page-container .et_pb_section .et_pb_button_2:after,body #page-container .et_pb_section .et_pb_button_3:after{display:inline-block;opacity:0}.et_pb_text_7 h2{font-size:35px}}</style>	
+			<span class="et_pb_scroll_top et-pb-icon"></span>
+	</body>
+</html>

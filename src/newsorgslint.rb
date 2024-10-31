@@ -9,7 +9,7 @@ module NewsorgsLint
   require 'csv'
 
   YAML_SEP = '---'
-  NEWSORGS_DIR = '../docs/_newsorgs'
+  NEWSORGS_DIR = 'npdetector'
   OUTPUT_FIELDS = %w[identifier commonName legalName description slogan website location state taxID webgenerator]
 
   # Normalize a newsorgs file's yaml, leaving markdown content as-is
@@ -104,8 +104,8 @@ module NewsorgsLint
   # ### #### ##### ######
   # Main method for command line use
   if __FILE__ == $PROGRAM_NAME
-    dir = '../../cnpdetector' # NEWSORGS_DIR
-    csvfile = "newsorgslint3.csv"
+    dir = 'npdetector' # NEWSORGS_DIR
+    csvfile = "newsorgslint4.csv"
     fields = OUTPUT_FIELDS
     report = normalize_mds(dir)
     puts JSON.pretty_generate(report)

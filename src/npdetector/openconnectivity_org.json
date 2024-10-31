@@ -1,0 +1,207 @@
+{
+  "slogan": "Open Connectivity Foundation (OCF)",
+  "copyright": "Copyright © 2024 - All rights reserved  |  Sitemap  |  Privacy Policy  |  Terms of Use  |  Site by",
+  "imprint": null,
+  "metas": {
+    "title": "OPEN CONNECTIVITY FOUNDATION (OCF)",
+    "titleog": "OPEN CONNECTIVITY FOUNDATION (OCF)",
+    "descriptionog": "The Open Connectivity Foundation (OCF) create a specification and sponsors an open source project to unlock the massive opportunity in the IoT market, accelerating industry innovation and helping developers and companies create solutions that map to a single open specification. The OCF’s vision for IoT is that billions of connected devices (devices, phones, computers and sensors) will communicate with one another regardless of manufacturer, operating system, chipset or transport. With the OCF fulfilling this promise, anyone – from a large technology company to a maker in their garage – can adopt the open standards of OCF to innovate and compete, helping ensure secure interoperability for consumers, business, and industry.",
+    "description": "The Open Connectivity Foundation (OCF) create a specification and sponsors an open source project to unlock the massive opportunity in the IoT market, accelerating industry innovation and helping developers and companies create solutions that map to a single open specification. The OCF’s vision for IoT is that billions of connected devices (devices, phones, computers and sensors) will communicate with one another regardless of manufacturer, operating system, chipset or transport. With the OCF fulfilling this promise, anyone – from a large technology company to a maker in their garage – can adopt the open standards of OCF to innovate and compete, helping ensure secure interoperability for consumers, business, and industry.",
+    "twitter": "@UPnP_Forum",
+    "generator": [
+
+    ],
+    "canonical": "https://openconnectivity.org/",
+    "yoast": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://openconnectivity.org/",
+          "url": "https://openconnectivity.org/",
+          "name": "OPEN CONNECTIVITY FOUNDATION (OCF)",
+          "isPartOf": {
+            "@id": "https://openconnectivity.org/#website"
+          },
+          "datePublished": "2015-09-16T18:08:59+00:00",
+          "dateModified": "2022-02-07T14:11:13+00:00",
+          "description": "The Open Connectivity Foundation (OCF) create a specification and sponsors an open source project to unlock the massive opportunity in the IoT market, accelerating industry innovation and helping developers and companies create solutions that map to a single open specification. The OCF’s vision for IoT is that billions of connected devices (devices, phones, computers and sensors) will communicate with one another regardless of manufacturer, operating system, chipset or transport. With the OCF fulfilling this promise, anyone – from a large technology company to a maker in their garage – can adopt the open standards of OCF to innovate and compete, helping ensure secure interoperability for consumers, business, and industry.",
+          "breadcrumb": {
+            "@id": "https://openconnectivity.org/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://openconnectivity.org/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://openconnectivity.org/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://openconnectivity.org/#website",
+          "url": "https://openconnectivity.org/",
+          "name": "Open Connectivity Foundation (OCF)",
+          "description": "Open Connectivity Foundation (OCF)",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://openconnectivity.org/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  },
+  "links": {
+    "contactlinks": [
+      "https://openconnectivity.org/join/contact-us"
+    ],
+    "aboutlinks": [
+      "https://openconnectivity.org/foundation/"
+    ],
+    "boardlinks": [
+      "https://openconnectivity.org/foundation/organizational-structure/board-of-directors/"
+    ],
+    "securitylinks": [
+      "https://openconnectivity.org/ocf-security/",
+      "https://openconnectivity.org/ocf-security/ocf-security-faq/"
+    ],
+    "contributelinks": [
+      "https://openconnectivity.org/technology/iotivity/"
+    ],
+    "eventlinks": [
+      "https://openconnectivity.org/news-events/",
+      "https://openconnectivity.org/events/"
+    ],
+    "projectlinks": [
+      "https://openconnectivity.org/dpc-enturi-wind-energy-data-transparency-project-adopts-ocf-standard/"
+    ],
+    "policylinks": [
+      "https://openconnectivity.org/privacy-policy/"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://openconnectivity.org/foundation/"
+    ],
+    "boardlinks": [
+      "https://openconnectivity.org/foundation/organizational-structure/board-of-directors/"
+    ],
+    "securitylinks": [
+      "https://openconnectivity.org/ocf-security/",
+      "https://openconnectivity.org/ocf-security/ocf-security-faq/"
+    ],
+    "contributelinks": [
+      "https://openconnectivity.org/technology/iotivity/"
+    ],
+    "eventlinks": [
+      "https://openconnectivity.org/news-events/",
+      "https://openconnectivity.org/events/"
+    ],
+    "alllinks": [
+      "About Us",
+      "Membership List",
+      "Organizational Structure",
+      "Board of Directors",
+      "OCF中国论坛 (OCF China Forum)",
+      "OCF India Forum",
+      "OCF 코리아포럼 (OCF Korea Forum)",
+      "Join",
+      "UPnP FAQ",
+      "Liaisons",
+      "IP-BLiS",
+      "Our Partners",
+      "Business",
+      "Consumer",
+      "Enabling Internet of Things",
+      "Automotive",
+      "Automotive FAQ",
+      "Healthcare",
+      "Healthcare FAQ",
+      "Smart Commercial Building",
+      "Smart Home",
+      "Smart Home FAQ",
+      "Case Studies",
+      "Collateral",
+      "Security",
+      "Security FAQ",
+      "Technology",
+      "OCF Developer Program",
+      "Contribute Code",
+      "Reference Implementation",
+      "OCF Secure IP Device Framework",
+      "OCF Secure IP Device Framework FAQ",
+      "OCF Specifications",
+      "International Standards",
+      "Draft specifications",
+      "Other Specifications",
+      "Fairhair",
+      "UPnP Specifications & Architecture",
+      "UPnP Developer Resources",
+      "AllJoyn",
+      "Certification",
+      "Certified Products",
+      "OCF Certification",
+      "Authorized Test Labs",
+      "UPnP Certification",
+      "News & Events",
+      "Announcements",
+      "Blog",
+      "Member Announcements",
+      "News",
+      "Events",
+      "Technical Articles",
+      "Webinars and Podcasts"
+    ]
+  },
+  "linksfooter": {
+    "policylinks": [
+      "https://openconnectivity.org/privacy-policy/"
+    ],
+    "alllinks": [
+      "1.503.619.0673",
+      "Sitemap",
+      "Privacy Policy",
+      "Terms of Use",
+      "Log in"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "openconnectivity",
+  "website": "https://openconnectivity.org",
+  "commonName": "Open Connectivity Foundation Inc",
+  "legalName": null,
+  "location": "US",
+  "state": "OR",
+  "taxID": "47-1709705",
+  "newEngland": "c6"
+}

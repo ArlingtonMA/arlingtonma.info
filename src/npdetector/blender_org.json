@@ -1,0 +1,76 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "  Blender Foundation annual report 2020 — blender.org",
+    "titleog": "  Blender Foundation annual report 2020 — blender.org",
+    "descriptionog": "The annual report of the activities Blender Foundation could do in 2020 thanks to donations and Development Fund membership support.",
+    "description": "The annual report of the activities Blender Foundation could do in 2020 thanks to donations and Development Fund membership support.",
+    "twitter": "@blender",
+    "generator": [
+      "WordPress 6.4.3"
+    ],
+    "canonical": "https://www.blender.org/news/blender-foundation-annual-report-2020/",
+    "icon32": "https://www.blender.org/wp-content/themes/bthree/assets/icons/favicon-32x32.png",
+    "yoast": null
+  },
+  "links": {
+    "contributelinks": [
+      "https://www.blender.org/support/"
+    ],
+    "aboutlinks": [
+      "https://www.blender.org/about/"
+    ],
+    "policylinks": [
+      "https://www.blender.org/privacy-policy/"
+    ],
+    "donatelinks": [
+      "https://fund.blender.org/?utm_medium=www-footer"
+    ],
+    "projectlinks": [
+      "https://projects.blender.org/?utm_medium=www-footer"
+    ]
+  },
+  "linksnav": {
+    "contributelinks": [
+      "https://www.blender.org/support/"
+    ],
+    "aboutlinks": [
+      "https://www.blender.org/about/"
+    ],
+    "alllinks": [
+      "Features",
+      "Download",
+      "Support",
+      "Get Involved",
+      "About",
+      "Jobs",
+      "Donate"
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "blender",
+  "website": "https://blender.org/blenderorg/blender-foundation/",
+  "commonName": "Blender Foundation",
+  "legalName": "Blender Foundation",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "a46a74dd96"
+}

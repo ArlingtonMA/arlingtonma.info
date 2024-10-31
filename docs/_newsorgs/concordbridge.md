@@ -22,6 +22,7 @@ budgetUsd: '847072'
 budgetYear: '2022'
 donateurl: https://theconcordbridge.org/index.php/2022/10/27/keep-independent-local-journalism-alive/
 sponsorurl: https://theconcordbridge.org/index.php/2022/12/11/our-donors/
+policyurl: https://concordbridge.org/index.php/2022/12/14/ethics-and-policies/
 advertising: None displayed
 telephone: 855-698-1150
 emailContact: advertising@theconcordbridge.org

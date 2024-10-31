@@ -1,0 +1,5114 @@
+DEBUG1 {
+  "commonName": "AfroLA",
+  "website": "https://afrolanews.org/",
+  "irsdate": "2023-05-01",
+  "population": 3822238
+}
+DEBUG2 {
+  "commonName": "AfroLA",
+  "website": "https://afrolanews.org/",
+  "irsdate": "2023-05-01",
+  "population": 3822238,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "AfroLA",
+  "website": "https://afrolanews.org/",
+  "irsdate": "2023-05-01",
+  "population": 3822238,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "AfroLA",
+  "website": "https://afrolanews.org/",
+  "irsdate": "2023-05-01",
+  "population": 3822238,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Ashland.news",
+  "website": "https://ashland.news/",
+  "irsdate": "2022-08-01",
+  "population": 21285
+}
+DEBUG2 {
+  "commonName": "Ashland.news",
+  "website": "https://ashland.news/",
+  "irsdate": "2022-08-01",
+  "population": 21285,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Ashland.news",
+  "website": "https://ashland.news/",
+  "irsdate": "2022-08-01",
+  "population": 21285,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Ashland.news",
+  "website": "https://ashland.news/",
+  "irsdate": "2022-08-01",
+  "population": 21285,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "ecoRI News",
+  "website": "https://ecori.org/",
+  "irsdate": "2009-11-01",
+  "population": 189563
+}
+ -f- [
+  "Ecori Inc",
+  "Providence",
+  "RI",
+  264267233,
+  2021,
+  202112,
+  0,
+  216499,
+  498,
+  22345,
+  242910,
+  238650,
+  337789,
+  0,
+  337789
+]
+     row:EIN = Providence
+     row:Tax Year = RI
+     row:Tax Period End = 264267233
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 216499
+     row:Total Revenue = 498
+     row:Total Expenses = 22345
+     row:Total Assets = 242910
+     row:Total Liabilities = 238650
+     row:Net Assets = 337789
+     row: = 0
+     row: = 337789
+DEBUG2 {
+  "commonName": "ecoRI News",
+  "website": "https://ecori.org/",
+  "irsdate": "2009-11-01",
+  "population": 189563,
+  "EIN": "Providence",
+  "Tax Year": "RI",
+  "Tax Period End": 264267233,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 216499,
+  "Total Revenue": 498,
+  "Total Expenses": 22345,
+  "Total Assets": 242910,
+  "Total Liabilities": 238650,
+  "Net Assets": 337789,
+  "": 337789
+}
+DEBUGx {
+  "commonName": "ecoRI News",
+  "website": "https://ecori.org/",
+  "irsdate": "2009-11-01",
+  "population": 189563,
+  "EIN": "Providence",
+  "Tax Year": "RI",
+  "Tax Period End": 264267233,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 216499,
+  "Total Revenue": 498,
+  "Total Expenses": 22345,
+  "Total Assets": 242910,
+  "Total Liabilities": 238650,
+  "Net Assets": 337789,
+  "": 337789
+}
+DEBUG3 {
+  "commonName": "ecoRI News",
+  "website": "https://ecori.org/",
+  "irsdate": "2009-11-01",
+  "population": 189563,
+  "EIN": "Providence",
+  "Tax Year": "RI",
+  "Tax Period End": 264267233,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 216499,
+  "Total Revenue": 498,
+  "Total Expenses": 22345,
+  "Total Assets": 242910,
+  "Total Liabilities": 238650,
+  "Net Assets": 337789,
+  "": 337789,
+  "contribpercapita": 1.07,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.12
+}
+DEBUG1 {
+  "commonName": "Austin Monitor",
+  "website": "https://www.austinmonitor.com/",
+  "irsdate": "2014-12-01",
+  "population": 947447
+}
+ -f- [
+  "Capital Of Texas Media Foundation",
+  "Austin",
+  "TX",
+  463398438,
+  2021,
+  202112,
+  0,
+  277259,
+  0,
+  172660,
+  450078,
+  433148,
+  119637,
+  34040,
+  85597
+]
+     row:EIN = Austin
+     row:Tax Year = TX
+     row:Tax Period End = 463398438
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 277259
+     row:Total Revenue = 0
+     row:Total Expenses = 172660
+     row:Total Assets = 450078
+     row:Total Liabilities = 433148
+     row:Net Assets = 119637
+     row: = 34040
+     row: = 85597
+DEBUG2 {
+  "commonName": "Austin Monitor",
+  "website": "https://www.austinmonitor.com/",
+  "irsdate": "2014-12-01",
+  "population": 947447,
+  "EIN": "Austin",
+  "Tax Year": "TX",
+  "Tax Period End": 463398438,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 277259,
+  "Total Revenue": 0,
+  "Total Expenses": 172660,
+  "Total Assets": 450078,
+  "Total Liabilities": 433148,
+  "Net Assets": 119637,
+  "": 85597
+}
+DEBUGx {
+  "commonName": "Austin Monitor",
+  "website": "https://www.austinmonitor.com/",
+  "irsdate": "2014-12-01",
+  "population": 947447,
+  "EIN": "Austin",
+  "Tax Year": "TX",
+  "Tax Period End": 463398438,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 277259,
+  "Total Revenue": 0,
+  "Total Expenses": 172660,
+  "Total Assets": 450078,
+  "Total Liabilities": 433148,
+  "Net Assets": 119637,
+  "": 85597
+}
+DEBUG3 {
+  "commonName": "Austin Monitor",
+  "website": "https://www.austinmonitor.com/",
+  "irsdate": "2014-12-01",
+  "population": 947447,
+  "EIN": "Austin",
+  "Tax Year": "TX",
+  "Tax Period End": 463398438,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 277259,
+  "Total Revenue": 0,
+  "Total Expenses": 172660,
+  "Total Assets": 450078,
+  "Total Liabilities": 433148,
+  "Net Assets": 119637,
+  "": 85597,
+  "contribpercapita": 0.21,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.18
+}
+DEBUG1 {
+  "commonName": "Asheville Watchdog",
+  "website": "https://avlwatchdog.org/",
+  "irsdate": "2020-05-01",
+  "population": 93776
+}
+ -f- [
+  "Asheville Watchdog",
+  "Asheville",
+  "NC",
+  850614521,
+  2021,
+  202112,
+  1,
+  98833,
+  0,
+  0,
+  98833,
+  26488,
+  90419,
+  0,
+  90419
+]
+     row:EIN = Asheville
+     row:Tax Year = NC
+     row:Tax Period End = 850614521
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 98833
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 98833
+     row:Total Liabilities = 26488
+     row:Net Assets = 90419
+     row: = 0
+     row: = 90419
+DEBUG2 {
+  "commonName": "Asheville Watchdog",
+  "website": "https://avlwatchdog.org/",
+  "irsdate": "2020-05-01",
+  "population": 93776,
+  "EIN": "Asheville",
+  "Tax Year": "NC",
+  "Tax Period End": 850614521,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 98833,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 98833,
+  "Total Liabilities": 26488,
+  "Net Assets": 90419,
+  "": 90419
+}
+DEBUGx {
+  "commonName": "Asheville Watchdog",
+  "website": "https://avlwatchdog.org/",
+  "irsdate": "2020-05-01",
+  "population": 93776,
+  "EIN": "Asheville",
+  "Tax Year": "NC",
+  "Tax Period End": 850614521,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 98833,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 98833,
+  "Total Liabilities": 26488,
+  "Net Assets": 90419,
+  "": 90419
+}
+DEBUG3 {
+  "commonName": "Asheville Watchdog",
+  "website": "https://avlwatchdog.org/",
+  "irsdate": "2020-05-01",
+  "population": 93776,
+  "EIN": "Asheville",
+  "Tax Year": "NC",
+  "Tax Period End": 850614521,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 98833,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 98833,
+  "Total Liabilities": 26488,
+  "Net Assets": 90419,
+  "": 90419,
+  "contribpercapita": 2.16,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Arizona Luminaria",
+  "website": "https://azluminaria.org/",
+  "irsdate": "2022-01-01",
+  "population": 546574
+}
+ -f- [
+  "Arizona Local Post",
+  "Tucson",
+  "AZ",
+  872217945,
+  2021,
+  202112,
+  1,
+  173470,
+  0,
+  0,
+  174320,
+  70131,
+  104189,
+  0,
+  104189
+]
+     row:EIN = Tucson
+     row:Tax Year = AZ
+     row:Tax Period End = 872217945
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 173470
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 174320
+     row:Total Liabilities = 70131
+     row:Net Assets = 104189
+     row: = 0
+     row: = 104189
+DEBUG2 {
+  "commonName": "Arizona Luminaria",
+  "website": "https://azluminaria.org/",
+  "irsdate": "2022-01-01",
+  "population": 546574,
+  "EIN": "Tucson",
+  "Tax Year": "AZ",
+  "Tax Period End": 872217945,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 173470,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 174320,
+  "Total Liabilities": 70131,
+  "Net Assets": 104189,
+  "": 104189
+}
+DEBUGx {
+  "commonName": "Arizona Luminaria",
+  "website": "https://azluminaria.org/",
+  "irsdate": "2022-01-01",
+  "population": 546574,
+  "EIN": "Tucson",
+  "Tax Year": "AZ",
+  "Tax Period End": 872217945,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 173470,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 174320,
+  "Total Liabilities": 70131,
+  "Net Assets": 104189,
+  "": 104189
+}
+DEBUG3 {
+  "commonName": "Arizona Luminaria",
+  "website": "https://azluminaria.org/",
+  "irsdate": "2022-01-01",
+  "population": 546574,
+  "EIN": "Tucson",
+  "Tax Year": "AZ",
+  "Tax Period End": 872217945,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 173470,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 174320,
+  "Total Liabilities": 70131,
+  "Net Assets": 104189,
+  "": 104189,
+  "contribpercapita": 0.37,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Bedford Citizen",
+  "website": "https://www.thebedfordcitizen.org/",
+  "irsdate": "2014-07-01",
+  "population": 14123
+}
+ -f- [
+  "Bedford Citizen",
+  "Bedford",
+  "MA",
+  460777549,
+  2021,
+  202112,
+  1,
+  101046,
+  0,
+  34220,
+  135266,
+  127219,
+  76827,
+  0,
+  76827
+]
+     row:EIN = Bedford
+     row:Tax Year = MA
+     row:Tax Period End = 460777549
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 101046
+     row:Total Revenue = 0
+     row:Total Expenses = 34220
+     row:Total Assets = 135266
+     row:Total Liabilities = 127219
+     row:Net Assets = 76827
+     row: = 0
+     row: = 76827
+DEBUG2 {
+  "commonName": "Bedford Citizen",
+  "website": "https://www.thebedfordcitizen.org/",
+  "irsdate": "2014-07-01",
+  "population": 14123,
+  "EIN": "Bedford",
+  "Tax Year": "MA",
+  "Tax Period End": 460777549,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 101046,
+  "Total Revenue": 0,
+  "Total Expenses": 34220,
+  "Total Assets": 135266,
+  "Total Liabilities": 127219,
+  "Net Assets": 76827,
+  "": 76827
+}
+DEBUGx {
+  "commonName": "Bedford Citizen",
+  "website": "https://www.thebedfordcitizen.org/",
+  "irsdate": "2014-07-01",
+  "population": 14123,
+  "EIN": "Bedford",
+  "Tax Year": "MA",
+  "Tax Period End": 460777549,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 101046,
+  "Total Revenue": 0,
+  "Total Expenses": 34220,
+  "Total Assets": 135266,
+  "Total Liabilities": 127219,
+  "Net Assets": 76827,
+  "": 76827
+}
+DEBUG3 {
+  "commonName": "Bedford Citizen",
+  "website": "https://www.thebedfordcitizen.org/",
+  "irsdate": "2014-07-01",
+  "population": 14123,
+  "EIN": "Bedford",
+  "Tax Year": "MA",
+  "Tax Period End": 460777549,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 101046,
+  "Total Revenue": 0,
+  "Total Expenses": 34220,
+  "Total Assets": 135266,
+  "Total Liabilities": 127219,
+  "Net Assets": 76827,
+  "": 76827,
+  "contribpercapita": 14.31,
+  "revpercapita": 0.0,
+  "expensepercapita": 2.42
+}
+DEBUG1 {
+  "commonName": "Belt Magazine",
+  "website": "https://beltmag.com/",
+  "irsdate": "2018-06-01",
+  "population": 361607
+}
+ -f- [
+  "Belt Media Collaborative",
+  "Cleveland",
+  "OH",
+  475386846,
+  2021,
+  202112,
+  1,
+  110778,
+  0,
+  30880,
+  141658,
+  126575,
+  48120,
+  0,
+  48120
+]
+     row:EIN = Cleveland
+     row:Tax Year = OH
+     row:Tax Period End = 475386846
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 110778
+     row:Total Revenue = 0
+     row:Total Expenses = 30880
+     row:Total Assets = 141658
+     row:Total Liabilities = 126575
+     row:Net Assets = 48120
+     row: = 0
+     row: = 48120
+DEBUG2 {
+  "commonName": "Belt Magazine",
+  "website": "https://beltmag.com/",
+  "irsdate": "2018-06-01",
+  "population": 361607,
+  "EIN": "Cleveland",
+  "Tax Year": "OH",
+  "Tax Period End": 475386846,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 110778,
+  "Total Revenue": 0,
+  "Total Expenses": 30880,
+  "Total Assets": 141658,
+  "Total Liabilities": 126575,
+  "Net Assets": 48120,
+  "": 48120
+}
+DEBUGx {
+  "commonName": "Belt Magazine",
+  "website": "https://beltmag.com/",
+  "irsdate": "2018-06-01",
+  "population": 361607,
+  "EIN": "Cleveland",
+  "Tax Year": "OH",
+  "Tax Period End": 475386846,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 110778,
+  "Total Revenue": 0,
+  "Total Expenses": 30880,
+  "Total Assets": 141658,
+  "Total Liabilities": 126575,
+  "Net Assets": 48120,
+  "": 48120
+}
+DEBUG3 {
+  "commonName": "Belt Magazine",
+  "website": "https://beltmag.com/",
+  "irsdate": "2018-06-01",
+  "population": 361607,
+  "EIN": "Cleveland",
+  "Tax Year": "OH",
+  "Tax Period End": 475386846,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 110778,
+  "Total Revenue": 0,
+  "Total Expenses": 30880,
+  "Total Assets": 141658,
+  "Total Liabilities": 126575,
+  "Net Assets": 48120,
+  "": 48120,
+  "contribpercapita": 0.56,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.09
+}
+DEBUG1 {
+  "commonName": "Berkeleyside",
+  "website": "https://www.berkeleyside.org/",
+  "irsdate": "2020-01-01",
+  "population": 118950
+}
+ -f- [
+  "Cityside Journalism Initiative",
+  "Berkeley",
+  "CA",
+  843448887,
+  2021,
+  202112,
+  0,
+  3080193,
+  0,
+  569090,
+  3671033,
+  3718600,
+  1452372,
+  147099,
+  1305273
+]
+     row:EIN = Berkeley
+     row:Tax Year = CA
+     row:Tax Period End = 843448887
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 3080193
+     row:Total Revenue = 0
+     row:Total Expenses = 569090
+     row:Total Assets = 3671033
+     row:Total Liabilities = 3718600
+     row:Net Assets = 1452372
+     row: = 147099
+     row: = 1305273
+DEBUG2 {
+  "commonName": "Berkeleyside",
+  "website": "https://www.berkeleyside.org/",
+  "irsdate": "2020-01-01",
+  "population": 118950,
+  "EIN": "Berkeley",
+  "Tax Year": "CA",
+  "Tax Period End": 843448887,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 3080193,
+  "Total Revenue": 0,
+  "Total Expenses": 569090,
+  "Total Assets": 3671033,
+  "Total Liabilities": 3718600,
+  "Net Assets": 1452372,
+  "": 1305273
+}
+DEBUGx {
+  "commonName": "Berkeleyside",
+  "website": "https://www.berkeleyside.org/",
+  "irsdate": "2020-01-01",
+  "population": 118950,
+  "EIN": "Berkeley",
+  "Tax Year": "CA",
+  "Tax Period End": 843448887,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 3080193,
+  "Total Revenue": 0,
+  "Total Expenses": 569090,
+  "Total Assets": 3671033,
+  "Total Liabilities": 3718600,
+  "Net Assets": 1452372,
+  "": 1305273
+}
+DEBUG3 {
+  "commonName": "Berkeleyside",
+  "website": "https://www.berkeleyside.org/",
+  "irsdate": "2020-01-01",
+  "population": 118950,
+  "EIN": "Berkeley",
+  "Tax Year": "CA",
+  "Tax Period End": 843448887,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 3080193,
+  "Total Revenue": 0,
+  "Total Expenses": 569090,
+  "Total Assets": 3671033,
+  "Total Liabilities": 3718600,
+  "Net Assets": 1452372,
+  "": 1305273,
+  "contribpercapita": 1.7,
+  "revpercapita": 0.0,
+  "expensepercapita": 4.78
+}
+DEBUG1 {
+  "commonName": "Big If True",
+  "website": "https://streetlightnews.org/",
+  "irsdate": "2018-11-01",
+  "population": 694800
+}
+DEBUG2 {
+  "commonName": "Big If True",
+  "website": "https://streetlightnews.org/",
+  "irsdate": "2018-11-01",
+  "population": 694800,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Big If True",
+  "website": "https://streetlightnews.org/",
+  "irsdate": "2018-11-01",
+  "population": 694800,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Big If True",
+  "website": "https://streetlightnews.org/",
+  "irsdate": "2018-11-01",
+  "population": 694800,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Billy Penn at WHYY",
+  "website": "https://billypenn.com/",
+  "irsdate": "1959-02-01",
+  "population": 1567258
+}
+ -f- [
+  "Whyy Inc",
+  "Philadelphia",
+  "PA",
+  231438083,
+  2021,
+  202106,
+  0,
+  31813729,
+  354575,
+  14744042,
+  48783739,
+  37584084,
+  67419873,
+  10309448,
+  57110425
+]
+     row:EIN = Philadelphia
+     row:Tax Year = PA
+     row:Tax Period End = 231438083
+     row:Form Type Filed = 2021
+     row:Contributions = 202106
+     row:Investment Income = 0
+     row:Program Service Revenue = 31813729
+     row:Total Revenue = 354575
+     row:Total Expenses = 14744042
+     row:Total Assets = 48783739
+     row:Total Liabilities = 37584084
+     row:Net Assets = 67419873
+     row: = 10309448
+     row: = 57110425
+DEBUG2 {
+  "commonName": "Billy Penn at WHYY",
+  "website": "https://billypenn.com/",
+  "irsdate": "1959-02-01",
+  "population": 1567258,
+  "EIN": "Philadelphia",
+  "Tax Year": "PA",
+  "Tax Period End": 231438083,
+  "Form Type Filed": 2021,
+  "Contributions": 202106,
+  "Investment Income": 0,
+  "Program Service Revenue": 31813729,
+  "Total Revenue": 354575,
+  "Total Expenses": 14744042,
+  "Total Assets": 48783739,
+  "Total Liabilities": 37584084,
+  "Net Assets": 67419873,
+  "": 57110425
+}
+DEBUGx {
+  "commonName": "Billy Penn at WHYY",
+  "website": "https://billypenn.com/",
+  "irsdate": "1959-02-01",
+  "population": 1567258,
+  "EIN": "Philadelphia",
+  "Tax Year": "PA",
+  "Tax Period End": 231438083,
+  "Form Type Filed": 2021,
+  "Contributions": 202106,
+  "Investment Income": 0,
+  "Program Service Revenue": 31813729,
+  "Total Revenue": 354575,
+  "Total Expenses": 14744042,
+  "Total Assets": 48783739,
+  "Total Liabilities": 37584084,
+  "Net Assets": 67419873,
+  "": 57110425
+}
+DEBUG3 {
+  "commonName": "Billy Penn at WHYY",
+  "website": "https://billypenn.com/",
+  "irsdate": "1959-02-01",
+  "population": 1567258,
+  "EIN": "Philadelphia",
+  "Tax Year": "PA",
+  "Tax Period End": 231438083,
+  "Form Type Filed": 2021,
+  "Contributions": 202106,
+  "Investment Income": 0,
+  "Program Service Revenue": 31813729,
+  "Total Revenue": 354575,
+  "Total Expenses": 14744042,
+  "Total Assets": 48783739,
+  "Total Liabilities": 37584084,
+  "Net Assets": 67419873,
+  "": 57110425,
+  "contribpercapita": 0.13,
+  "revpercapita": 0.23,
+  "expensepercapita": 9.41
+}
+DEBUG1 {
+  "commonName": "Boulder Reporting Lab",
+  "website": "https://boulderreportinglab.org/",
+  "irsdate": "2022-04-01",
+  "population": 105485
+}
+ -f- [
+  "Local Reporting Lab Initiative Inc",
+  "Boulder",
+  "CO",
+  871232586,
+  2021,
+  202112,
+  0,
+  237053,
+  0,
+  0,
+  237053,
+  33268,
+  203785,
+  0,
+  203785
+]
+     row:EIN = Boulder
+     row:Tax Year = CO
+     row:Tax Period End = 871232586
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 237053
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 237053
+     row:Total Liabilities = 33268
+     row:Net Assets = 203785
+     row: = 0
+     row: = 203785
+DEBUG2 {
+  "commonName": "Boulder Reporting Lab",
+  "website": "https://boulderreportinglab.org/",
+  "irsdate": "2022-04-01",
+  "population": 105485,
+  "EIN": "Boulder",
+  "Tax Year": "CO",
+  "Tax Period End": 871232586,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 237053,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 237053,
+  "Total Liabilities": 33268,
+  "Net Assets": 203785,
+  "": 203785
+}
+DEBUGx {
+  "commonName": "Boulder Reporting Lab",
+  "website": "https://boulderreportinglab.org/",
+  "irsdate": "2022-04-01",
+  "population": 105485,
+  "EIN": "Boulder",
+  "Tax Year": "CO",
+  "Tax Period End": 871232586,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 237053,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 237053,
+  "Total Liabilities": 33268,
+  "Net Assets": 203785,
+  "": 203785
+}
+DEBUG3 {
+  "commonName": "Boulder Reporting Lab",
+  "website": "https://boulderreportinglab.org/",
+  "irsdate": "2022-04-01",
+  "population": 105485,
+  "EIN": "Boulder",
+  "Tax Year": "CO",
+  "Tax Period End": 871232586,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 237053,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 237053,
+  "Total Liabilities": 33268,
+  "Net Assets": 203785,
+  "": 203785,
+  "contribpercapita": 1.92,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Brookline.news",
+  "website": "https://brookline.news/about-us/",
+  "irsdate": "2023-06-01",
+  "population": 63191
+}
+DEBUG2 {
+  "commonName": "Brookline.news",
+  "website": "https://brookline.news/about-us/",
+  "irsdate": "2023-06-01",
+  "population": 63191,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Brookline.news",
+  "website": "https://brookline.news/about-us/",
+  "irsdate": "2023-06-01",
+  "population": 63191,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Brookline.news",
+  "website": "https://brookline.news/about-us/",
+  "irsdate": "2023-06-01",
+  "population": 63191,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Canopy Atlanta",
+  "website": "https://canopyatlanta.org/",
+  "irsdate": "2020-11-01",
+  "population": 499127
+}
+ -f- [
+  "Canopy Atlanta",
+  "Atlanta",
+  "GA",
+  850694979,
+  2022,
+  202206,
+  0,
+  680288,
+  310,
+  0,
+  680598,
+  159572,
+  675873,
+  0,
+  675873
+]
+     row:EIN = Atlanta
+     row:Tax Year = GA
+     row:Tax Period End = 850694979
+     row:Form Type Filed = 2022
+     row:Contributions = 202206
+     row:Investment Income = 0
+     row:Program Service Revenue = 680288
+     row:Total Revenue = 310
+     row:Total Expenses = 0
+     row:Total Assets = 680598
+     row:Total Liabilities = 159572
+     row:Net Assets = 675873
+     row: = 0
+     row: = 675873
+DEBUG2 {
+  "commonName": "Canopy Atlanta",
+  "website": "https://canopyatlanta.org/",
+  "irsdate": "2020-11-01",
+  "population": 499127,
+  "EIN": "Atlanta",
+  "Tax Year": "GA",
+  "Tax Period End": 850694979,
+  "Form Type Filed": 2022,
+  "Contributions": 202206,
+  "Investment Income": 0,
+  "Program Service Revenue": 680288,
+  "Total Revenue": 310,
+  "Total Expenses": 0,
+  "Total Assets": 680598,
+  "Total Liabilities": 159572,
+  "Net Assets": 675873,
+  "": 675873
+}
+DEBUGx {
+  "commonName": "Canopy Atlanta",
+  "website": "https://canopyatlanta.org/",
+  "irsdate": "2020-11-01",
+  "population": 499127,
+  "EIN": "Atlanta",
+  "Tax Year": "GA",
+  "Tax Period End": 850694979,
+  "Form Type Filed": 2022,
+  "Contributions": 202206,
+  "Investment Income": 0,
+  "Program Service Revenue": 680288,
+  "Total Revenue": 310,
+  "Total Expenses": 0,
+  "Total Assets": 680598,
+  "Total Liabilities": 159572,
+  "Net Assets": 675873,
+  "": 675873
+}
+DEBUG3 {
+  "commonName": "Canopy Atlanta",
+  "website": "https://canopyatlanta.org/",
+  "irsdate": "2020-11-01",
+  "population": 499127,
+  "EIN": "Atlanta",
+  "Tax Year": "GA",
+  "Tax Period End": 850694979,
+  "Form Type Filed": 2022,
+  "Contributions": 202206,
+  "Investment Income": 0,
+  "Program Service Revenue": 680288,
+  "Total Revenue": 310,
+  "Total Expenses": 0,
+  "Total Assets": 680598,
+  "Total Liabilities": 159572,
+  "Net Assets": 675873,
+  "": 675873,
+  "contribpercapita": 0.41,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Cardinal News",
+  "website": "https://cardinalnews.org/",
+  "irsdate": "2022-02-01",
+  "population": 97847
+}
+ -f- [
+  "Cardinal Productions",
+  "Roanoke",
+  "VA",
+  871532828,
+  2021,
+  202112,
+  0,
+  470063,
+  0,
+  0,
+  470063,
+  150432,
+  337065,
+  17434,
+  319631
+]
+     row:EIN = Roanoke
+     row:Tax Year = VA
+     row:Tax Period End = 871532828
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 470063
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 470063
+     row:Total Liabilities = 150432
+     row:Net Assets = 337065
+     row: = 17434
+     row: = 319631
+DEBUG2 {
+  "commonName": "Cardinal News",
+  "website": "https://cardinalnews.org/",
+  "irsdate": "2022-02-01",
+  "population": 97847,
+  "EIN": "Roanoke",
+  "Tax Year": "VA",
+  "Tax Period End": 871532828,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 470063,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 470063,
+  "Total Liabilities": 150432,
+  "Net Assets": 337065,
+  "": 319631
+}
+DEBUGx {
+  "commonName": "Cardinal News",
+  "website": "https://cardinalnews.org/",
+  "irsdate": "2022-02-01",
+  "population": 97847,
+  "EIN": "Roanoke",
+  "Tax Year": "VA",
+  "Tax Period End": 871532828,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 470063,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 470063,
+  "Total Liabilities": 150432,
+  "Net Assets": 337065,
+  "": 319631
+}
+DEBUG3 {
+  "commonName": "Cardinal News",
+  "website": "https://cardinalnews.org/",
+  "irsdate": "2022-02-01",
+  "population": 97847,
+  "EIN": "Roanoke",
+  "Tax Year": "VA",
+  "Tax Period End": 871532828,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 470063,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 470063,
+  "Total Liabilities": 150432,
+  "Net Assets": 337065,
+  "": 319631,
+  "contribpercapita": 2.07,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Carlisle Mosquito",
+  "website": "https://www.carlislemosquito.org/",
+  "irsdate": "1973-04-01",
+  "population": 5237
+}
+ -f- [
+  "Carlisle Communications Inc",
+  "Carlisle",
+  "MA",
+  237246801,
+  2021,
+  202107,
+  0,
+  81487,
+  317,
+  0,
+  211614,
+  213948,
+  143354,
+  21529,
+  121825
+]
+     row:EIN = Carlisle
+     row:Tax Year = MA
+     row:Tax Period End = 237246801
+     row:Form Type Filed = 2021
+     row:Contributions = 202107
+     row:Investment Income = 0
+     row:Program Service Revenue = 81487
+     row:Total Revenue = 317
+     row:Total Expenses = 0
+     row:Total Assets = 211614
+     row:Total Liabilities = 213948
+     row:Net Assets = 143354
+     row: = 21529
+     row: = 121825
+DEBUG2 {
+  "commonName": "Carlisle Mosquito",
+  "website": "https://www.carlislemosquito.org/",
+  "irsdate": "1973-04-01",
+  "population": 5237,
+  "EIN": "Carlisle",
+  "Tax Year": "MA",
+  "Tax Period End": 237246801,
+  "Form Type Filed": 2021,
+  "Contributions": 202107,
+  "Investment Income": 0,
+  "Program Service Revenue": 81487,
+  "Total Revenue": 317,
+  "Total Expenses": 0,
+  "Total Assets": 211614,
+  "Total Liabilities": 213948,
+  "Net Assets": 143354,
+  "": 121825
+}
+DEBUGx {
+  "commonName": "Carlisle Mosquito",
+  "website": "https://www.carlislemosquito.org/",
+  "irsdate": "1973-04-01",
+  "population": 5237,
+  "EIN": "Carlisle",
+  "Tax Year": "MA",
+  "Tax Period End": 237246801,
+  "Form Type Filed": 2021,
+  "Contributions": 202107,
+  "Investment Income": 0,
+  "Program Service Revenue": 81487,
+  "Total Revenue": 317,
+  "Total Expenses": 0,
+  "Total Assets": 211614,
+  "Total Liabilities": 213948,
+  "Net Assets": 143354,
+  "": 121825
+}
+DEBUG3 {
+  "commonName": "Carlisle Mosquito",
+  "website": "https://www.carlislemosquito.org/",
+  "irsdate": "1973-04-01",
+  "population": 5237,
+  "EIN": "Carlisle",
+  "Tax Year": "MA",
+  "Tax Period End": 237246801,
+  "Form Type Filed": 2021,
+  "Contributions": 202107,
+  "Investment Income": 0,
+  "Program Service Revenue": 81487,
+  "Total Revenue": 317,
+  "Total Expenses": 0,
+  "Total Assets": 211614,
+  "Total Liabilities": 213948,
+  "Net Assets": 143354,
+  "": 121825,
+  "contribpercapita": 38.59,
+  "revpercapita": 0.06,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Carolina Public Press",
+  "website": "https://carolinapublicpress.org/",
+  "irsdate": "2014-04-01",
+  "population": 93776
+}
+ -f- [
+  "Carolina Public Press Inc",
+  "Asheville",
+  "NC",
+  460801080,
+  2021,
+  202112,
+  0,
+  779056,
+  754,
+  2000,
+  794749,
+  625517,
+  504941,
+  7600,
+  497341
+]
+     row:EIN = Asheville
+     row:Tax Year = NC
+     row:Tax Period End = 460801080
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 779056
+     row:Total Revenue = 754
+     row:Total Expenses = 2000
+     row:Total Assets = 794749
+     row:Total Liabilities = 625517
+     row:Net Assets = 504941
+     row: = 7600
+     row: = 497341
+DEBUG2 {
+  "commonName": "Carolina Public Press",
+  "website": "https://carolinapublicpress.org/",
+  "irsdate": "2014-04-01",
+  "population": 93776,
+  "EIN": "Asheville",
+  "Tax Year": "NC",
+  "Tax Period End": 460801080,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 779056,
+  "Total Revenue": 754,
+  "Total Expenses": 2000,
+  "Total Assets": 794749,
+  "Total Liabilities": 625517,
+  "Net Assets": 504941,
+  "": 497341
+}
+DEBUGx {
+  "commonName": "Carolina Public Press",
+  "website": "https://carolinapublicpress.org/",
+  "irsdate": "2014-04-01",
+  "population": 93776,
+  "EIN": "Asheville",
+  "Tax Year": "NC",
+  "Tax Period End": 460801080,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 779056,
+  "Total Revenue": 754,
+  "Total Expenses": 2000,
+  "Total Assets": 794749,
+  "Total Liabilities": 625517,
+  "Net Assets": 504941,
+  "": 497341
+}
+DEBUG3 {
+  "commonName": "Carolina Public Press",
+  "website": "https://carolinapublicpress.org/",
+  "irsdate": "2014-04-01",
+  "population": 93776,
+  "EIN": "Asheville",
+  "Tax Year": "NC",
+  "Tax Period End": 460801080,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 779056,
+  "Total Revenue": 754,
+  "Total Expenses": 2000,
+  "Total Assets": 794749,
+  "Total Liabilities": 625517,
+  "Net Assets": 504941,
+  "": 497341,
+  "contribpercapita": 2.16,
+  "revpercapita": 0.01,
+  "expensepercapita": 0.02
+}
+DEBUG1 {
+  "commonName": "Concord Bridge",
+  "website": "https://theconcordbridge.org/",
+  "irsdate": "2022-03-01",
+  "population": 18491
+}
+DEBUG2 {
+  "commonName": "Concord Bridge",
+  "website": "https://theconcordbridge.org/",
+  "irsdate": "2022-03-01",
+  "population": 18491,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Concord Bridge",
+  "website": "https://theconcordbridge.org/",
+  "irsdate": "2022-03-01",
+  "population": 18491,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Concord Bridge",
+  "website": "https://theconcordbridge.org/",
+  "irsdate": "2022-03-01",
+  "population": 18491,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "East Lansing Info",
+  "website": "https://eastlansinginfo.news/",
+  "irsdate": "2014-09-01",
+  "population": 47340
+}
+ -f- [
+  "East Lansing Info",
+  "East Lansing",
+  "MI",
+  465444564,
+  2021,
+  202106,
+  1,
+  171638,
+  14,
+  0,
+  171696,
+  175752,
+  54575,
+  3539,
+  51037
+]
+     row:EIN = East Lansing
+     row:Tax Year = MI
+     row:Tax Period End = 465444564
+     row:Form Type Filed = 2021
+     row:Contributions = 202106
+     row:Investment Income = 1
+     row:Program Service Revenue = 171638
+     row:Total Revenue = 14
+     row:Total Expenses = 0
+     row:Total Assets = 171696
+     row:Total Liabilities = 175752
+     row:Net Assets = 54575
+     row: = 3539
+     row: = 51037
+DEBUG2 {
+  "commonName": "East Lansing Info",
+  "website": "https://eastlansinginfo.news/",
+  "irsdate": "2014-09-01",
+  "population": 47340,
+  "EIN": "East Lansing",
+  "Tax Year": "MI",
+  "Tax Period End": 465444564,
+  "Form Type Filed": 2021,
+  "Contributions": 202106,
+  "Investment Income": 1,
+  "Program Service Revenue": 171638,
+  "Total Revenue": 14,
+  "Total Expenses": 0,
+  "Total Assets": 171696,
+  "Total Liabilities": 175752,
+  "Net Assets": 54575,
+  "": 51037
+}
+DEBUGx {
+  "commonName": "East Lansing Info",
+  "website": "https://eastlansinginfo.news/",
+  "irsdate": "2014-09-01",
+  "population": 47340,
+  "EIN": "East Lansing",
+  "Tax Year": "MI",
+  "Tax Period End": 465444564,
+  "Form Type Filed": 2021,
+  "Contributions": 202106,
+  "Investment Income": 1,
+  "Program Service Revenue": 171638,
+  "Total Revenue": 14,
+  "Total Expenses": 0,
+  "Total Assets": 171696,
+  "Total Liabilities": 175752,
+  "Net Assets": 54575,
+  "": 51037
+}
+DEBUG3 {
+  "commonName": "East Lansing Info",
+  "website": "https://eastlansinginfo.news/",
+  "irsdate": "2014-09-01",
+  "population": 47340,
+  "EIN": "East Lansing",
+  "Tax Year": "MI",
+  "Tax Period End": 465444564,
+  "Form Type Filed": 2021,
+  "Contributions": 202106,
+  "Investment Income": 1,
+  "Program Service Revenue": 171638,
+  "Total Revenue": 14,
+  "Total Expenses": 0,
+  "Total Assets": 171696,
+  "Total Liabilities": 175752,
+  "Net Assets": 54575,
+  "": 51037,
+  "contribpercapita": 4.27,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "El Paso Matters",
+  "website": "https://elpasomatters.org/",
+  "irsdate": "2020-04-01",
+  "population": 677456
+}
+ -f- [
+  "El Paso Matters Inc",
+  "El Paso",
+  "TX",
+  834301968,
+  2021,
+  202112,
+  0,
+  1147241,
+  0,
+  0,
+  1147241,
+  233987,
+  902101,
+  4647,
+  897454
+]
+     row:EIN = El Paso
+     row:Tax Year = TX
+     row:Tax Period End = 834301968
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 1147241
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 1147241
+     row:Total Liabilities = 233987
+     row:Net Assets = 902101
+     row: = 4647
+     row: = 897454
+DEBUG2 {
+  "commonName": "El Paso Matters",
+  "website": "https://elpasomatters.org/",
+  "irsdate": "2020-04-01",
+  "population": 677456,
+  "EIN": "El Paso",
+  "Tax Year": "TX",
+  "Tax Period End": 834301968,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1147241,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1147241,
+  "Total Liabilities": 233987,
+  "Net Assets": 902101,
+  "": 897454
+}
+DEBUGx {
+  "commonName": "El Paso Matters",
+  "website": "https://elpasomatters.org/",
+  "irsdate": "2020-04-01",
+  "population": 677456,
+  "EIN": "El Paso",
+  "Tax Year": "TX",
+  "Tax Period End": 834301968,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1147241,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1147241,
+  "Total Liabilities": 233987,
+  "Net Assets": 902101,
+  "": 897454
+}
+DEBUG3 {
+  "commonName": "El Paso Matters",
+  "website": "https://elpasomatters.org/",
+  "irsdate": "2020-04-01",
+  "population": 677456,
+  "EIN": "El Paso",
+  "Tax Year": "TX",
+  "Tax Period End": 834301968,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1147241,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1147241,
+  "Total Liabilities": 233987,
+  "Net Assets": 902101,
+  "": 897454,
+  "contribpercapita": 0.3,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Eden Prairie Local News, Inc.",
+  "website": "https://www.eplocalnews.org/",
+  "irsdate": "2021-11-01",
+  "population": 52476
+}
+ -f- [
+  "Eden Prairie Local News",
+  "Eden Prairie",
+  "MN",
+  854248265,
+  2022,
+  202206,
+  1,
+  55140,
+  3,
+  22336,
+  77479,
+  60497,
+  62477,
+  6221,
+  56256
+]
+     row:EIN = Eden Prairie
+     row:Tax Year = MN
+     row:Tax Period End = 854248265
+     row:Form Type Filed = 2022
+     row:Contributions = 202206
+     row:Investment Income = 1
+     row:Program Service Revenue = 55140
+     row:Total Revenue = 3
+     row:Total Expenses = 22336
+     row:Total Assets = 77479
+     row:Total Liabilities = 60497
+     row:Net Assets = 62477
+     row: = 6221
+     row: = 56256
+DEBUG2 {
+  "commonName": "Eden Prairie Local News, Inc.",
+  "website": "https://www.eplocalnews.org/",
+  "irsdate": "2021-11-01",
+  "population": 52476,
+  "EIN": "Eden Prairie",
+  "Tax Year": "MN",
+  "Tax Period End": 854248265,
+  "Form Type Filed": 2022,
+  "Contributions": 202206,
+  "Investment Income": 1,
+  "Program Service Revenue": 55140,
+  "Total Revenue": 3,
+  "Total Expenses": 22336,
+  "Total Assets": 77479,
+  "Total Liabilities": 60497,
+  "Net Assets": 62477,
+  "": 56256
+}
+DEBUGx {
+  "commonName": "Eden Prairie Local News, Inc.",
+  "website": "https://www.eplocalnews.org/",
+  "irsdate": "2021-11-01",
+  "population": 52476,
+  "EIN": "Eden Prairie",
+  "Tax Year": "MN",
+  "Tax Period End": 854248265,
+  "Form Type Filed": 2022,
+  "Contributions": 202206,
+  "Investment Income": 1,
+  "Program Service Revenue": 55140,
+  "Total Revenue": 3,
+  "Total Expenses": 22336,
+  "Total Assets": 77479,
+  "Total Liabilities": 60497,
+  "Net Assets": 62477,
+  "": 56256
+}
+DEBUG3 {
+  "commonName": "Eden Prairie Local News, Inc.",
+  "website": "https://www.eplocalnews.org/",
+  "irsdate": "2021-11-01",
+  "population": 52476,
+  "EIN": "Eden Prairie",
+  "Tax Year": "MN",
+  "Tax Period End": 854248265,
+  "Form Type Filed": 2022,
+  "Contributions": 202206,
+  "Investment Income": 1,
+  "Program Service Revenue": 55140,
+  "Total Revenue": 3,
+  "Total Expenses": 22336,
+  "Total Assets": 77479,
+  "Total Liabilities": 60497,
+  "Net Assets": 62477,
+  "": 56256,
+  "contribpercapita": 3.85,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.43
+}
+DEBUG1 {
+  "commonName": "Fig City News",
+  "website": "https://figcitynews.com/",
+  "irsdate": "2022-11-01",
+  "population": 88923
+}
+ -f- [
+  "Fig City News",
+  "Auburndale",
+  "MA",
+  "920697644",
+  "2022",
+  "MA AGO PC form",
+  "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001ANpmkUAD",
+  6624,
+  0,
+  0,
+  9013,
+  2994,
+  "N/D",
+  "N/D",
+  6019
+]
+     row:EIN = Auburndale
+     row:Tax Year = MA
+     row:Tax Period End = 920697644
+     row:Form Type Filed = 2022
+     row:Contributions = MA AGO PC form
+     row:Investment Income = https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001ANpmkUAD
+     row:Program Service Revenue = 6624
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 9013
+     row:Total Liabilities = 2994
+     row:Net Assets = N/D
+     row: = N/D
+     row: = 6019
+DEBUG2 {
+  "commonName": "Fig City News",
+  "website": "https://figcitynews.com/",
+  "irsdate": "2022-11-01",
+  "population": 88923,
+  "EIN": "Auburndale",
+  "Tax Year": "MA",
+  "Tax Period End": "920697644",
+  "Form Type Filed": "2022",
+  "Contributions": "MA AGO PC form",
+  "Investment Income": "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001ANpmkUAD",
+  "Program Service Revenue": 6624,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 9013,
+  "Total Liabilities": 2994,
+  "Net Assets": "N/D",
+  "": 6019
+}
+DEBUGx {
+  "commonName": "Fig City News",
+  "website": "https://figcitynews.com/",
+  "irsdate": "2022-11-01",
+  "population": 88923,
+  "EIN": "Auburndale",
+  "Tax Year": "MA",
+  "Tax Period End": "920697644",
+  "Form Type Filed": "2022",
+  "Contributions": "MA AGO PC form",
+  "Investment Income": "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001ANpmkUAD",
+  "Program Service Revenue": 6624,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 9013,
+  "Total Liabilities": 2994,
+  "Net Assets": "N/D",
+  "": 6019
+}
+DEBUG3 {
+  "commonName": "Fig City News",
+  "website": "https://figcitynews.com/",
+  "irsdate": "2022-11-01",
+  "population": 88923,
+  "EIN": "Auburndale",
+  "Tax Year": "MA",
+  "Tax Period End": "920697644",
+  "Form Type Filed": "2022",
+  "Contributions": "MA AGO PC form",
+  "Investment Income": "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001ANpmkUAD",
+  "Program Service Revenue": 6624,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 9013,
+  "Total Liabilities": 2994,
+  "Net Assets": "N/D",
+  "": 6019,
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Florida Bulldog",
+  "website": "https://www.floridabulldog.org/",
+  "irsdate": "2010-05-01",
+  "population": 183146
+}
+ -f- [
+  "Broward Bulldog Inc",
+  "Ft Lauderdale",
+  "FL",
+  270318157,
+  2021,
+  202112,
+  1,
+  153765,
+  0,
+  0,
+  153765,
+  115870,
+  146807,
+  3014,
+  143793
+]
+     row:EIN = Ft Lauderdale
+     row:Tax Year = FL
+     row:Tax Period End = 270318157
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 153765
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 153765
+     row:Total Liabilities = 115870
+     row:Net Assets = 146807
+     row: = 3014
+     row: = 143793
+DEBUG2 {
+  "commonName": "Florida Bulldog",
+  "website": "https://www.floridabulldog.org/",
+  "irsdate": "2010-05-01",
+  "population": 183146,
+  "EIN": "Ft Lauderdale",
+  "Tax Year": "FL",
+  "Tax Period End": 270318157,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 153765,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 153765,
+  "Total Liabilities": 115870,
+  "Net Assets": 146807,
+  "": 143793
+}
+DEBUGx {
+  "commonName": "Florida Bulldog",
+  "website": "https://www.floridabulldog.org/",
+  "irsdate": "2010-05-01",
+  "population": 183146,
+  "EIN": "Ft Lauderdale",
+  "Tax Year": "FL",
+  "Tax Period End": 270318157,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 153765,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 153765,
+  "Total Liabilities": 115870,
+  "Net Assets": 146807,
+  "": 143793
+}
+DEBUG3 {
+  "commonName": "Florida Bulldog",
+  "website": "https://www.floridabulldog.org/",
+  "irsdate": "2010-05-01",
+  "population": 183146,
+  "EIN": "Ft Lauderdale",
+  "Tax Year": "FL",
+  "Tax Period End": 270318157,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 153765,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 153765,
+  "Total Liabilities": 115870,
+  "Net Assets": 146807,
+  "": 143793,
+  "contribpercapita": 1.1,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Fresnoland",
+  "website": "https://fresnoland.org/",
+  "irsdate": "2018-08-01",
+  "population": 545567
+}
+ -f- [
+  "Fresnoland Media",
+  "Fresno",
+  "CA",
+  830696156,
+  2021,
+  202112,
+  0,
+  167437,
+  0,
+  401000,
+  568437,
+  241763,
+  390560,
+  10022,
+  380538
+]
+     row:EIN = Fresno
+     row:Tax Year = CA
+     row:Tax Period End = 830696156
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 167437
+     row:Total Revenue = 0
+     row:Total Expenses = 401000
+     row:Total Assets = 568437
+     row:Total Liabilities = 241763
+     row:Net Assets = 390560
+     row: = 10022
+     row: = 380538
+DEBUG2 {
+  "commonName": "Fresnoland",
+  "website": "https://fresnoland.org/",
+  "irsdate": "2018-08-01",
+  "population": 545567,
+  "EIN": "Fresno",
+  "Tax Year": "CA",
+  "Tax Period End": 830696156,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 167437,
+  "Total Revenue": 0,
+  "Total Expenses": 401000,
+  "Total Assets": 568437,
+  "Total Liabilities": 241763,
+  "Net Assets": 390560,
+  "": 380538
+}
+DEBUGx {
+  "commonName": "Fresnoland",
+  "website": "https://fresnoland.org/",
+  "irsdate": "2018-08-01",
+  "population": 545567,
+  "EIN": "Fresno",
+  "Tax Year": "CA",
+  "Tax Period End": 830696156,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 167437,
+  "Total Revenue": 0,
+  "Total Expenses": 401000,
+  "Total Assets": 568437,
+  "Total Liabilities": 241763,
+  "Net Assets": 390560,
+  "": 380538
+}
+DEBUG3 {
+  "commonName": "Fresnoland",
+  "website": "https://fresnoland.org/",
+  "irsdate": "2018-08-01",
+  "population": 545567,
+  "EIN": "Fresno",
+  "Tax Year": "CA",
+  "Tax Period End": 830696156,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 167437,
+  "Total Revenue": 0,
+  "Total Expenses": 401000,
+  "Total Assets": 568437,
+  "Total Liabilities": 241763,
+  "Net Assets": 390560,
+  "": 380538,
+  "contribpercapita": 0.37,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.74
+}
+DEBUG1 {
+  "commonName": "Gig Harbor Now",
+  "website": "https://www.gigharbornow.org/",
+  "irsdate": "2021-10-01",
+  "population": 12484
+}
+ -f- [
+  "Gig Harbor Now",
+  "Gig Harbor",
+  "WA",
+  861636609,
+  2021,
+  202112,
+  0,
+  93715,
+  0,
+  0,
+  93715,
+  24315,
+  69400,
+  0,
+  69400
+]
+     row:EIN = Gig Harbor
+     row:Tax Year = WA
+     row:Tax Period End = 861636609
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 93715
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 93715
+     row:Total Liabilities = 24315
+     row:Net Assets = 69400
+     row: = 0
+     row: = 69400
+DEBUG2 {
+  "commonName": "Gig Harbor Now",
+  "website": "https://www.gigharbornow.org/",
+  "irsdate": "2021-10-01",
+  "population": 12484,
+  "EIN": "Gig Harbor",
+  "Tax Year": "WA",
+  "Tax Period End": 861636609,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 93715,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 93715,
+  "Total Liabilities": 24315,
+  "Net Assets": 69400,
+  "": 69400
+}
+DEBUGx {
+  "commonName": "Gig Harbor Now",
+  "website": "https://www.gigharbornow.org/",
+  "irsdate": "2021-10-01",
+  "population": 12484,
+  "EIN": "Gig Harbor",
+  "Tax Year": "WA",
+  "Tax Period End": 861636609,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 93715,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 93715,
+  "Total Liabilities": 24315,
+  "Net Assets": 69400,
+  "": 69400
+}
+DEBUG3 {
+  "commonName": "Gig Harbor Now",
+  "website": "https://www.gigharbornow.org/",
+  "irsdate": "2021-10-01",
+  "population": 12484,
+  "EIN": "Gig Harbor",
+  "Tax Year": "WA",
+  "Tax Period End": 861636609,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 93715,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 93715,
+  "Total Liabilities": 24315,
+  "Net Assets": 69400,
+  "": 69400,
+  "contribpercapita": 16.19,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "High Country News",
+  "website": "https://www.hcn.org",
+  "irsdate": "1969-08-01",
+  "population": 1462
+}
+ -f- [
+  "High Country News",
+  "Paonia",
+  "CO",
+  237015336,
+  2021,
+  202109,
+  0,
+  4208140,
+  4941,
+  856711,
+  5357816,
+  4061537,
+  2812447,
+  847734,
+  1964713
+]
+     row:EIN = Paonia
+     row:Tax Year = CO
+     row:Tax Period End = 237015336
+     row:Form Type Filed = 2021
+     row:Contributions = 202109
+     row:Investment Income = 0
+     row:Program Service Revenue = 4208140
+     row:Total Revenue = 4941
+     row:Total Expenses = 856711
+     row:Total Assets = 5357816
+     row:Total Liabilities = 4061537
+     row:Net Assets = 2812447
+     row: = 847734
+     row: = 1964713
+DEBUG2 {
+  "commonName": "High Country News",
+  "website": "https://www.hcn.org",
+  "irsdate": "1969-08-01",
+  "population": 1462,
+  "EIN": "Paonia",
+  "Tax Year": "CO",
+  "Tax Period End": 237015336,
+  "Form Type Filed": 2021,
+  "Contributions": 202109,
+  "Investment Income": 0,
+  "Program Service Revenue": 4208140,
+  "Total Revenue": 4941,
+  "Total Expenses": 856711,
+  "Total Assets": 5357816,
+  "Total Liabilities": 4061537,
+  "Net Assets": 2812447,
+  "": 1964713
+}
+DEBUGx {
+  "commonName": "High Country News",
+  "website": "https://www.hcn.org",
+  "irsdate": "1969-08-01",
+  "population": 1462,
+  "EIN": "Paonia",
+  "Tax Year": "CO",
+  "Tax Period End": 237015336,
+  "Form Type Filed": 2021,
+  "Contributions": 202109,
+  "Investment Income": 0,
+  "Program Service Revenue": 4208140,
+  "Total Revenue": 4941,
+  "Total Expenses": 856711,
+  "Total Assets": 5357816,
+  "Total Liabilities": 4061537,
+  "Net Assets": 2812447,
+  "": 1964713
+}
+DEBUG3 {
+  "commonName": "High Country News",
+  "website": "https://www.hcn.org",
+  "irsdate": "1969-08-01",
+  "population": 1462,
+  "EIN": "Paonia",
+  "Tax Year": "CO",
+  "Tax Period End": 237015336,
+  "Form Type Filed": 2021,
+  "Contributions": 202109,
+  "Investment Income": 0,
+  "Program Service Revenue": 4208140,
+  "Total Revenue": 4941,
+  "Total Expenses": 856711,
+  "Total Assets": 5357816,
+  "Total Liabilities": 4061537,
+  "Net Assets": 2812447,
+  "": 1964713,
+  "contribpercapita": 138.24,
+  "revpercapita": 3.38,
+  "expensepercapita": 585.99
+}
+DEBUG1 {
+  "commonName": "Hoptown Chronicle",
+  "website": "https://hoptownchronicle.org/",
+  "irsdate": "2019-06-01",
+  "population": 30927
+}
+ -f- [
+  "Hoptown Chronicle Inc",
+  "Hopkinsville",
+  "KY",
+  841736647,
+  2021,
+  202112,
+  1,
+  42434,
+  0,
+  0,
+  42434,
+  24977,
+  46056,
+  2297,
+  43759
+]
+     row:EIN = Hopkinsville
+     row:Tax Year = KY
+     row:Tax Period End = 841736647
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 42434
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 42434
+     row:Total Liabilities = 24977
+     row:Net Assets = 46056
+     row: = 2297
+     row: = 43759
+DEBUG2 {
+  "commonName": "Hoptown Chronicle",
+  "website": "https://hoptownchronicle.org/",
+  "irsdate": "2019-06-01",
+  "population": 30927,
+  "EIN": "Hopkinsville",
+  "Tax Year": "KY",
+  "Tax Period End": 841736647,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 42434,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 42434,
+  "Total Liabilities": 24977,
+  "Net Assets": 46056,
+  "": 43759
+}
+DEBUGx {
+  "commonName": "Hoptown Chronicle",
+  "website": "https://hoptownchronicle.org/",
+  "irsdate": "2019-06-01",
+  "population": 30927,
+  "EIN": "Hopkinsville",
+  "Tax Year": "KY",
+  "Tax Period End": 841736647,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 42434,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 42434,
+  "Total Liabilities": 24977,
+  "Net Assets": 46056,
+  "": 43759
+}
+DEBUG3 {
+  "commonName": "Hoptown Chronicle",
+  "website": "https://hoptownchronicle.org/",
+  "irsdate": "2019-06-01",
+  "population": 30927,
+  "EIN": "Hopkinsville",
+  "Tax Year": "KY",
+  "Tax Period End": 841736647,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 42434,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 42434,
+  "Total Liabilities": 24977,
+  "Net Assets": 46056,
+  "": 43759,
+  "contribpercapita": 6.54,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Investigate Midwest",
+  "website": "https://investigatemidwest.org/",
+  "irsdate": "2010-08-01",
+  "population": 89241
+}
+ -f- [
+  "Midwest Center For Investigative Reporting Inc",
+  "Champaign",
+  "IL",
+  271652830,
+  2021,
+  202112,
+  0,
+  625127,
+  0,
+  70201,
+  695328,
+  586736,
+  266323,
+  17916,
+  248407
+]
+     row:EIN = Champaign
+     row:Tax Year = IL
+     row:Tax Period End = 271652830
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 625127
+     row:Total Revenue = 0
+     row:Total Expenses = 70201
+     row:Total Assets = 695328
+     row:Total Liabilities = 586736
+     row:Net Assets = 266323
+     row: = 17916
+     row: = 248407
+DEBUG2 {
+  "commonName": "Investigate Midwest",
+  "website": "https://investigatemidwest.org/",
+  "irsdate": "2010-08-01",
+  "population": 89241,
+  "EIN": "Champaign",
+  "Tax Year": "IL",
+  "Tax Period End": 271652830,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 625127,
+  "Total Revenue": 0,
+  "Total Expenses": 70201,
+  "Total Assets": 695328,
+  "Total Liabilities": 586736,
+  "Net Assets": 266323,
+  "": 248407
+}
+DEBUGx {
+  "commonName": "Investigate Midwest",
+  "website": "https://investigatemidwest.org/",
+  "irsdate": "2010-08-01",
+  "population": 89241,
+  "EIN": "Champaign",
+  "Tax Year": "IL",
+  "Tax Period End": 271652830,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 625127,
+  "Total Revenue": 0,
+  "Total Expenses": 70201,
+  "Total Assets": 695328,
+  "Total Liabilities": 586736,
+  "Net Assets": 266323,
+  "": 248407
+}
+DEBUG3 {
+  "commonName": "Investigate Midwest",
+  "website": "https://investigatemidwest.org/",
+  "irsdate": "2010-08-01",
+  "population": 89241,
+  "EIN": "Champaign",
+  "Tax Year": "IL",
+  "Tax Period End": 271652830,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 625127,
+  "Total Revenue": 0,
+  "Total Expenses": 70201,
+  "Total Assets": 695328,
+  "Total Liabilities": 586736,
+  "Net Assets": 266323,
+  "": 248407,
+  "contribpercapita": 2.26,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.79
+}
+DEBUG1 {
+  "commonName": "Ipswich Local News",
+  "website": "https://thelocalnews.news/",
+  "irsdate": "2020-02-01",
+  "population": 13785
+}
+ -f- [
+  "Ipswich Local News Inc",
+  "Ipswich",
+  "MA",
+  843780597,
+  2021,
+  202112,
+  0,
+  181324,
+  288,
+  242447,
+  424985,
+  299518,
+  182231,
+  1612,
+  180619
+]
+     row:EIN = Ipswich
+     row:Tax Year = MA
+     row:Tax Period End = 843780597
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 181324
+     row:Total Revenue = 288
+     row:Total Expenses = 242447
+     row:Total Assets = 424985
+     row:Total Liabilities = 299518
+     row:Net Assets = 182231
+     row: = 1612
+     row: = 180619
+DEBUG2 {
+  "commonName": "Ipswich Local News",
+  "website": "https://thelocalnews.news/",
+  "irsdate": "2020-02-01",
+  "population": 13785,
+  "EIN": "Ipswich",
+  "Tax Year": "MA",
+  "Tax Period End": 843780597,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 181324,
+  "Total Revenue": 288,
+  "Total Expenses": 242447,
+  "Total Assets": 424985,
+  "Total Liabilities": 299518,
+  "Net Assets": 182231,
+  "": 180619
+}
+DEBUGx {
+  "commonName": "Ipswich Local News",
+  "website": "https://thelocalnews.news/",
+  "irsdate": "2020-02-01",
+  "population": 13785,
+  "EIN": "Ipswich",
+  "Tax Year": "MA",
+  "Tax Period End": 843780597,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 181324,
+  "Total Revenue": 288,
+  "Total Expenses": 242447,
+  "Total Assets": 424985,
+  "Total Liabilities": 299518,
+  "Net Assets": 182231,
+  "": 180619
+}
+DEBUG3 {
+  "commonName": "Ipswich Local News",
+  "website": "https://thelocalnews.news/",
+  "irsdate": "2020-02-01",
+  "population": 13785,
+  "EIN": "Ipswich",
+  "Tax Year": "MA",
+  "Tax Period End": 843780597,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 181324,
+  "Total Revenue": 288,
+  "Total Expenses": 242447,
+  "Total Assets": 424985,
+  "Total Liabilities": 299518,
+  "Net Assets": 182231,
+  "": 180619,
+  "contribpercapita": 14.66,
+  "revpercapita": 0.02,
+  "expensepercapita": 17.59
+}
+DEBUG1 {
+  "commonName": "Lexington Observer",
+  "website": "https://lexobserver.org/",
+  "irsdate": "2022-06-01",
+  "population": 34454
+}
+ -f- [
+  "Lexington Observer Inc",
+  "Lexington",
+  "MA",
+  "874640985",
+  "2023",
+  "N/A estimates",
+  "https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g11a7a6660d9_0_17",
+  43564,
+  "N/D",
+  "N/D",
+  157032,
+  156981,
+  "N/D",
+  "N/D",
+  "N/D"
+]
+     row:EIN = Lexington
+     row:Tax Year = MA
+     row:Tax Period End = 874640985
+     row:Form Type Filed = 2023
+     row:Contributions = N/A estimates
+     row:Investment Income = https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g11a7a6660d9_0_17
+     row:Program Service Revenue = 43564
+     row:Total Revenue = N/D
+     row:Total Expenses = N/D
+     row:Total Assets = 157032
+     row:Total Liabilities = 156981
+     row:Net Assets = N/D
+     row: = N/D
+     row: = N/D
+DEBUG2 {
+  "commonName": "Lexington Observer",
+  "website": "https://lexobserver.org/",
+  "irsdate": "2022-06-01",
+  "population": 34454,
+  "EIN": "Lexington",
+  "Tax Year": "MA",
+  "Tax Period End": "874640985",
+  "Form Type Filed": "2023",
+  "Contributions": "N/A estimates",
+  "Investment Income": "https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g11a7a6660d9_0_17",
+  "Program Service Revenue": 43564,
+  "Total Revenue": "N/D",
+  "Total Expenses": "N/D",
+  "Total Assets": 157032,
+  "Total Liabilities": 156981,
+  "Net Assets": "N/D",
+  "": "N/D"
+}
+DEBUGx {
+  "commonName": "Lexington Observer",
+  "website": "https://lexobserver.org/",
+  "irsdate": "2022-06-01",
+  "population": 34454,
+  "EIN": "Lexington",
+  "Tax Year": "MA",
+  "Tax Period End": "874640985",
+  "Form Type Filed": "2023",
+  "Contributions": "N/A estimates",
+  "Investment Income": "https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g11a7a6660d9_0_17",
+  "Program Service Revenue": 43564,
+  "Total Revenue": "N/D",
+  "Total Expenses": "N/D",
+  "Total Assets": 157032,
+  "Total Liabilities": 156981,
+  "Net Assets": "N/D",
+  "": "N/D"
+}
+DEBUG3 {
+  "commonName": "Lexington Observer",
+  "website": "https://lexobserver.org/",
+  "irsdate": "2022-06-01",
+  "population": 34454,
+  "EIN": "Lexington",
+  "Tax Year": "MA",
+  "Tax Period End": "874640985",
+  "Form Type Filed": "2023",
+  "Contributions": "N/A estimates",
+  "Investment Income": "https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0Bq6zQJy8_8-Qd0/edit#slide=id.g11a7a6660d9_0_17",
+  "Program Service Revenue": 43564,
+  "Total Revenue": "N/D",
+  "Total Expenses": "N/D",
+  "Total Assets": 157032,
+  "Total Liabilities": 156981,
+  "Net Assets": "N/D",
+  "": "N/D",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "The Maine Monitor",
+  "website": "https://themainemonitor.org/",
+  "irsdate": "2012-01-01",
+  "population": 2597
+}
+ -f- [
+  "Maine Center For Public Interest Reporting",
+  "Hallowell",
+  "ME",
+  272623867,
+  2021,
+  202112,
+  0,
+  440168,
+  0,
+  0,
+  440168,
+  488253,
+  59010,
+  0,
+  59010
+]
+     row:EIN = Hallowell
+     row:Tax Year = ME
+     row:Tax Period End = 272623867
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 440168
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 440168
+     row:Total Liabilities = 488253
+     row:Net Assets = 59010
+     row: = 0
+     row: = 59010
+DEBUG2 {
+  "commonName": "The Maine Monitor",
+  "website": "https://themainemonitor.org/",
+  "irsdate": "2012-01-01",
+  "population": 2597,
+  "EIN": "Hallowell",
+  "Tax Year": "ME",
+  "Tax Period End": 272623867,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 440168,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 440168,
+  "Total Liabilities": 488253,
+  "Net Assets": 59010,
+  "": 59010
+}
+DEBUGx {
+  "commonName": "The Maine Monitor",
+  "website": "https://themainemonitor.org/",
+  "irsdate": "2012-01-01",
+  "population": 2597,
+  "EIN": "Hallowell",
+  "Tax Year": "ME",
+  "Tax Period End": 272623867,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 440168,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 440168,
+  "Total Liabilities": 488253,
+  "Net Assets": 59010,
+  "": 59010
+}
+DEBUG3 {
+  "commonName": "The Maine Monitor",
+  "website": "https://themainemonitor.org/",
+  "irsdate": "2012-01-01",
+  "population": 2597,
+  "EIN": "Hallowell",
+  "Tax Year": "ME",
+  "Tax Period End": 272623867,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 440168,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 440168,
+  "Total Liabilities": 488253,
+  "Net Assets": 59010,
+  "": 59010,
+  "contribpercapita": 77.83,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Marblehead Current",
+  "website": "https://marbleheadcurrent.org/",
+  "irsdate": "2022-06-01",
+  "population": 20441
+}
+ -f- [
+  "Marblehead News Group Inc",
+  "Marblehead",
+  "MA",
+  "882367192",
+  "2022",
+  "N/A estimates",
+  "https://marbleheadcurrent.org/wp-content/uploads/2023/11/2022-Current-Annual-Report-7.pdf",
+  31077,
+  "N/D",
+  17207,
+  153348,
+  76314,
+  "N/D",
+  "N/D",
+  "N/D"
+]
+     row:EIN = Marblehead
+     row:Tax Year = MA
+     row:Tax Period End = 882367192
+     row:Form Type Filed = 2022
+     row:Contributions = N/A estimates
+     row:Investment Income = https://marbleheadcurrent.org/wp-content/uploads/2023/11/2022-Current-Annual-Report-7.pdf
+     row:Program Service Revenue = 31077
+     row:Total Revenue = N/D
+     row:Total Expenses = 17207
+     row:Total Assets = 153348
+     row:Total Liabilities = 76314
+     row:Net Assets = N/D
+     row: = N/D
+     row: = N/D
+DEBUG2 {
+  "commonName": "Marblehead Current",
+  "website": "https://marbleheadcurrent.org/",
+  "irsdate": "2022-06-01",
+  "population": 20441,
+  "EIN": "Marblehead",
+  "Tax Year": "MA",
+  "Tax Period End": "882367192",
+  "Form Type Filed": "2022",
+  "Contributions": "N/A estimates",
+  "Investment Income": "https://marbleheadcurrent.org/wp-content/uploads/2023/11/2022-Current-Annual-Report-7.pdf",
+  "Program Service Revenue": 31077,
+  "Total Revenue": "N/D",
+  "Total Expenses": 17207,
+  "Total Assets": 153348,
+  "Total Liabilities": 76314,
+  "Net Assets": "N/D",
+  "": "N/D"
+}
+DEBUGx {
+  "commonName": "Marblehead Current",
+  "website": "https://marbleheadcurrent.org/",
+  "irsdate": "2022-06-01",
+  "population": 20441,
+  "EIN": "Marblehead",
+  "Tax Year": "MA",
+  "Tax Period End": "882367192",
+  "Form Type Filed": "2022",
+  "Contributions": "N/A estimates",
+  "Investment Income": "https://marbleheadcurrent.org/wp-content/uploads/2023/11/2022-Current-Annual-Report-7.pdf",
+  "Program Service Revenue": 31077,
+  "Total Revenue": "N/D",
+  "Total Expenses": 17207,
+  "Total Assets": 153348,
+  "Total Liabilities": 76314,
+  "Net Assets": "N/D",
+  "": "N/D"
+}
+DEBUG3 {
+  "commonName": "Marblehead Current",
+  "website": "https://marbleheadcurrent.org/",
+  "irsdate": "2022-06-01",
+  "population": 20441,
+  "EIN": "Marblehead",
+  "Tax Year": "MA",
+  "Tax Period End": "882367192",
+  "Form Type Filed": "2022",
+  "Contributions": "N/A estimates",
+  "Investment Income": "https://marbleheadcurrent.org/wp-content/uploads/2023/11/2022-Current-Annual-Report-7.pdf",
+  "Program Service Revenue": 31077,
+  "Total Revenue": "N/D",
+  "Total Expenses": 17207,
+  "Total Assets": 153348,
+  "Total Liabilities": 76314,
+  "Net Assets": "N/D",
+  "": "N/D",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.84
+}
+DEBUG1 {
+  "commonName": "Matter News",
+  "website": "https://www.matternews.org/",
+  "irsdate": "2021-02-01",
+  "population": 907971
+}
+DEBUG2 {
+  "commonName": "Matter News",
+  "website": "https://www.matternews.org/",
+  "irsdate": "2021-02-01",
+  "population": 907971,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Matter News",
+  "website": "https://www.matternews.org/",
+  "irsdate": "2021-02-01",
+  "population": 907971,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Matter News",
+  "website": "https://www.matternews.org/",
+  "irsdate": "2021-02-01",
+  "population": 907971,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "MinnPost",
+  "website": "https://minnpost.com",
+  "irsdate": "2007-12-01",
+  "population": 425096
+}
+ -f- [
+  "Minnpost",
+  "Minneapolis",
+  "MN",
+  260573427,
+  2021,
+  202112,
+  0,
+  1552823,
+  270,
+  294846,
+  1954386,
+  1720834,
+  1303702,
+  51109,
+  1252593
+]
+     row:EIN = Minneapolis
+     row:Tax Year = MN
+     row:Tax Period End = 260573427
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 1552823
+     row:Total Revenue = 270
+     row:Total Expenses = 294846
+     row:Total Assets = 1954386
+     row:Total Liabilities = 1720834
+     row:Net Assets = 1303702
+     row: = 51109
+     row: = 1252593
+DEBUG2 {
+  "commonName": "MinnPost",
+  "website": "https://minnpost.com",
+  "irsdate": "2007-12-01",
+  "population": 425096,
+  "EIN": "Minneapolis",
+  "Tax Year": "MN",
+  "Tax Period End": 260573427,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1552823,
+  "Total Revenue": 270,
+  "Total Expenses": 294846,
+  "Total Assets": 1954386,
+  "Total Liabilities": 1720834,
+  "Net Assets": 1303702,
+  "": 1252593
+}
+DEBUGx {
+  "commonName": "MinnPost",
+  "website": "https://minnpost.com",
+  "irsdate": "2007-12-01",
+  "population": 425096,
+  "EIN": "Minneapolis",
+  "Tax Year": "MN",
+  "Tax Period End": 260573427,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1552823,
+  "Total Revenue": 270,
+  "Total Expenses": 294846,
+  "Total Assets": 1954386,
+  "Total Liabilities": 1720834,
+  "Net Assets": 1303702,
+  "": 1252593
+}
+DEBUG3 {
+  "commonName": "MinnPost",
+  "website": "https://minnpost.com",
+  "irsdate": "2007-12-01",
+  "population": 425096,
+  "EIN": "Minneapolis",
+  "Tax Year": "MN",
+  "Tax Period End": 260573427,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1552823,
+  "Total Revenue": 270,
+  "Total Expenses": 294846,
+  "Total Assets": 1954386,
+  "Total Liabilities": 1720834,
+  "Net Assets": 1303702,
+  "": 1252593,
+  "contribpercapita": 0.48,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.69
+}
+DEBUG1 {
+  "commonName": "Mission Local",
+  "website": "https://missionlocal.org/",
+  "irsdate": "2022-10-01",
+  "population": 808437
+}
+DEBUG2 {
+  "commonName": "Mission Local",
+  "website": "https://missionlocal.org/",
+  "irsdate": "2022-10-01",
+  "population": 808437,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Mission Local",
+  "website": "https://missionlocal.org/",
+  "irsdate": "2022-10-01",
+  "population": 808437,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Mission Local",
+  "website": "https://missionlocal.org/",
+  "irsdate": "2022-10-01",
+  "population": 808437,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Montana Free Press",
+  "website": "https://montanafreepress.org/",
+  "irsdate": "2019-05-01",
+  "population": 33885
+}
+ -f- [
+  "Montana Free Press",
+  "Helena",
+  "MT",
+  475237719,
+  2021,
+  202112,
+  0,
+  925155,
+  58,
+  0,
+  925213,
+  936289,
+  1395111,
+  48280,
+  1346831
+]
+     row:EIN = Helena
+     row:Tax Year = MT
+     row:Tax Period End = 475237719
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 925155
+     row:Total Revenue = 58
+     row:Total Expenses = 0
+     row:Total Assets = 925213
+     row:Total Liabilities = 936289
+     row:Net Assets = 1395111
+     row: = 48280
+     row: = 1346831
+DEBUG2 {
+  "commonName": "Montana Free Press",
+  "website": "https://montanafreepress.org/",
+  "irsdate": "2019-05-01",
+  "population": 33885,
+  "EIN": "Helena",
+  "Tax Year": "MT",
+  "Tax Period End": 475237719,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 925155,
+  "Total Revenue": 58,
+  "Total Expenses": 0,
+  "Total Assets": 925213,
+  "Total Liabilities": 936289,
+  "Net Assets": 1395111,
+  "": 1346831
+}
+DEBUGx {
+  "commonName": "Montana Free Press",
+  "website": "https://montanafreepress.org/",
+  "irsdate": "2019-05-01",
+  "population": 33885,
+  "EIN": "Helena",
+  "Tax Year": "MT",
+  "Tax Period End": 475237719,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 925155,
+  "Total Revenue": 58,
+  "Total Expenses": 0,
+  "Total Assets": 925213,
+  "Total Liabilities": 936289,
+  "Net Assets": 1395111,
+  "": 1346831
+}
+DEBUG3 {
+  "commonName": "Montana Free Press",
+  "website": "https://montanafreepress.org/",
+  "irsdate": "2019-05-01",
+  "population": 33885,
+  "EIN": "Helena",
+  "Tax Year": "MT",
+  "Tax Period End": 475237719,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 925155,
+  "Total Revenue": 58,
+  "Total Expenses": 0,
+  "Total Assets": 925213,
+  "Total Liabilities": 936289,
+  "Net Assets": 1395111,
+  "": 1346831,
+  "contribpercapita": 5.96,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Mountain State Spotlight",
+  "website": "https://mountainstatespotlight.org/",
+  "irsdate": "2021-11-01",
+  "population": 47129
+}
+ -f- [
+  "Mountain State Spotlight Inc",
+  "Charleston",
+  "WV",
+  851154363,
+  2021,
+  202112,
+  0,
+  1166792,
+  0,
+  0,
+  1166792,
+  591695,
+  714001,
+  35560,
+  678441
+]
+     row:EIN = Charleston
+     row:Tax Year = WV
+     row:Tax Period End = 851154363
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 1166792
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 1166792
+     row:Total Liabilities = 591695
+     row:Net Assets = 714001
+     row: = 35560
+     row: = 678441
+DEBUG2 {
+  "commonName": "Mountain State Spotlight",
+  "website": "https://mountainstatespotlight.org/",
+  "irsdate": "2021-11-01",
+  "population": 47129,
+  "EIN": "Charleston",
+  "Tax Year": "WV",
+  "Tax Period End": 851154363,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1166792,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1166792,
+  "Total Liabilities": 591695,
+  "Net Assets": 714001,
+  "": 678441
+}
+DEBUGx {
+  "commonName": "Mountain State Spotlight",
+  "website": "https://mountainstatespotlight.org/",
+  "irsdate": "2021-11-01",
+  "population": 47129,
+  "EIN": "Charleston",
+  "Tax Year": "WV",
+  "Tax Period End": 851154363,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1166792,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1166792,
+  "Total Liabilities": 591695,
+  "Net Assets": 714001,
+  "": 678441
+}
+DEBUG3 {
+  "commonName": "Mountain State Spotlight",
+  "website": "https://mountainstatespotlight.org/",
+  "irsdate": "2021-11-01",
+  "population": 47129,
+  "EIN": "Charleston",
+  "Tax Year": "WV",
+  "Tax Period End": 851154363,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1166792,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1166792,
+  "Total Liabilities": 591695,
+  "Net Assets": 714001,
+  "": 678441,
+  "contribpercapita": 4.29,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Nancy On Norwalk",
+  "website": "https://www.nancyonnorwalk.com/",
+  "irsdate": "2014-11-01",
+  "population": 91401
+}
+ -f- [
+  "Chapman Hyperlocal Media Inc",
+  "Norwalk",
+  "CT",
+  465509772,
+  2021,
+  202112,
+  1,
+  56670,
+  0,
+  10588,
+  67258,
+  78193,
+  21997,
+  0,
+  21997
+]
+     row:EIN = Norwalk
+     row:Tax Year = CT
+     row:Tax Period End = 465509772
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 56670
+     row:Total Revenue = 0
+     row:Total Expenses = 10588
+     row:Total Assets = 67258
+     row:Total Liabilities = 78193
+     row:Net Assets = 21997
+     row: = 0
+     row: = 21997
+DEBUG2 {
+  "commonName": "Nancy On Norwalk",
+  "website": "https://www.nancyonnorwalk.com/",
+  "irsdate": "2014-11-01",
+  "population": 91401,
+  "EIN": "Norwalk",
+  "Tax Year": "CT",
+  "Tax Period End": 465509772,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 56670,
+  "Total Revenue": 0,
+  "Total Expenses": 10588,
+  "Total Assets": 67258,
+  "Total Liabilities": 78193,
+  "Net Assets": 21997,
+  "": 21997
+}
+DEBUGx {
+  "commonName": "Nancy On Norwalk",
+  "website": "https://www.nancyonnorwalk.com/",
+  "irsdate": "2014-11-01",
+  "population": 91401,
+  "EIN": "Norwalk",
+  "Tax Year": "CT",
+  "Tax Period End": 465509772,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 56670,
+  "Total Revenue": 0,
+  "Total Expenses": 10588,
+  "Total Assets": 67258,
+  "Total Liabilities": 78193,
+  "Net Assets": 21997,
+  "": 21997
+}
+DEBUG3 {
+  "commonName": "Nancy On Norwalk",
+  "website": "https://www.nancyonnorwalk.com/",
+  "irsdate": "2014-11-01",
+  "population": 91401,
+  "EIN": "Norwalk",
+  "Tax Year": "CT",
+  "Tax Period End": 465509772,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 56670,
+  "Total Revenue": 0,
+  "Total Expenses": 10588,
+  "Total Assets": 67258,
+  "Total Liabilities": 78193,
+  "Net Assets": 21997,
+  "": 21997,
+  "contribpercapita": 2.21,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.12
+}
+DEBUG1 {
+  "commonName": "New Bedford Light",
+  "website": "https://newbedfordlight.org/",
+  "irsdate": "2021-06-01",
+  "population": 100682
+}
+ -f- [
+  "New Bedford Light",
+  "New Bedford",
+  "MA",
+  862407296,
+  2021,
+  202112,
+  0,
+  993896,
+  0,
+  0,
+  993896,
+  313326,
+  680570,
+  0,
+  680570
+]
+     row:EIN = New Bedford
+     row:Tax Year = MA
+     row:Tax Period End = 862407296
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 993896
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 993896
+     row:Total Liabilities = 313326
+     row:Net Assets = 680570
+     row: = 0
+     row: = 680570
+DEBUG2 {
+  "commonName": "New Bedford Light",
+  "website": "https://newbedfordlight.org/",
+  "irsdate": "2021-06-01",
+  "population": 100682,
+  "EIN": "New Bedford",
+  "Tax Year": "MA",
+  "Tax Period End": 862407296,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 993896,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 993896,
+  "Total Liabilities": 313326,
+  "Net Assets": 680570,
+  "": 680570
+}
+DEBUGx {
+  "commonName": "New Bedford Light",
+  "website": "https://newbedfordlight.org/",
+  "irsdate": "2021-06-01",
+  "population": 100682,
+  "EIN": "New Bedford",
+  "Tax Year": "MA",
+  "Tax Period End": 862407296,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 993896,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 993896,
+  "Total Liabilities": 313326,
+  "Net Assets": 680570,
+  "": 680570
+}
+DEBUG3 {
+  "commonName": "New Bedford Light",
+  "website": "https://newbedfordlight.org/",
+  "irsdate": "2021-06-01",
+  "population": 100682,
+  "EIN": "New Bedford",
+  "Tax Year": "MA",
+  "Tax Period End": 862407296,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 993896,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 993896,
+  "Total Liabilities": 313326,
+  "Net Assets": 680570,
+  "": 680570,
+  "contribpercapita": 2.01,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Newton Beacon",
+  "website": "https://www.newtonbeacon.org/",
+  "irsdate": "2022-10-01",
+  "population": 87381
+}
+DEBUG2 {
+  "commonName": "Newton Beacon",
+  "website": "https://www.newtonbeacon.org/",
+  "irsdate": "2022-10-01",
+  "population": 87381,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Newton Beacon",
+  "website": "https://www.newtonbeacon.org/",
+  "irsdate": "2022-10-01",
+  "population": 87381,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Newton Beacon",
+  "website": "https://www.newtonbeacon.org/",
+  "irsdate": "2022-10-01",
+  "population": 87381,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "New Mexico In Depth",
+  "website": "https://nmindepth.com/",
+  "irsdate": "2014-10-01",
+  "population": 108082
+}
+ -f- [
+  "New Mexico In Depth Inc",
+  "Rio Rancho",
+  "NM",
+  454011138,
+  2021,
+  202112,
+  0,
+  334485,
+  0,
+  0,
+  334485,
+  347185,
+  361171,
+  -12700,
+  373871
+]
+     row:EIN = Rio Rancho
+     row:Tax Year = NM
+     row:Tax Period End = 454011138
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 334485
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 334485
+     row:Total Liabilities = 347185
+     row:Net Assets = 361171
+     row: = -12700
+     row: = 373871
+DEBUG2 {
+  "commonName": "New Mexico In Depth",
+  "website": "https://nmindepth.com/",
+  "irsdate": "2014-10-01",
+  "population": 108082,
+  "EIN": "Rio Rancho",
+  "Tax Year": "NM",
+  "Tax Period End": 454011138,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 334485,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 334485,
+  "Total Liabilities": 347185,
+  "Net Assets": 361171,
+  "": 373871
+}
+DEBUGx {
+  "commonName": "New Mexico In Depth",
+  "website": "https://nmindepth.com/",
+  "irsdate": "2014-10-01",
+  "population": 108082,
+  "EIN": "Rio Rancho",
+  "Tax Year": "NM",
+  "Tax Period End": 454011138,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 334485,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 334485,
+  "Total Liabilities": 347185,
+  "Net Assets": 361171,
+  "": 373871
+}
+DEBUG3 {
+  "commonName": "New Mexico In Depth",
+  "website": "https://nmindepth.com/",
+  "irsdate": "2014-10-01",
+  "population": 108082,
+  "EIN": "Rio Rancho",
+  "Tax Year": "NM",
+  "Tax Period End": 454011138,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 334485,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 334485,
+  "Total Liabilities": 347185,
+  "Net Assets": 361171,
+  "": 373871,
+  "contribpercapita": 1.87,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "NowKalamazoo",
+  "website": "https://nowkalamazoo.org/",
+  "irsdate": "2023-08-01",
+  "population": 72873
+}
+DEBUG2 {
+  "commonName": "NowKalamazoo",
+  "website": "https://nowkalamazoo.org/",
+  "irsdate": "2023-08-01",
+  "population": 72873,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "NowKalamazoo",
+  "website": "https://nowkalamazoo.org/",
+  "irsdate": "2023-08-01",
+  "population": 72873,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "NowKalamazoo",
+  "website": "https://nowkalamazoo.org/",
+  "irsdate": "2023-08-01",
+  "population": 72873,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Objective, The",
+  "website": "https://objectivejournalism.org/",
+  "irsdate": "2012-03-01",
+  "population": 66950
+}
+ -f- [
+  "Institute For Nonprofit News",
+  "Beverly Hills",
+  "CA",
+  272614911,
+  2021,
+  202112,
+  0,
+  6443954,
+  1908,
+  0,
+  6971216,
+  6014963,
+  6852788,
+  314449,
+  6538339
+]
+     row:EIN = Beverly Hills
+     row:Tax Year = CA
+     row:Tax Period End = 272614911
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 6443954
+     row:Total Revenue = 1908
+     row:Total Expenses = 0
+     row:Total Assets = 6971216
+     row:Total Liabilities = 6014963
+     row:Net Assets = 6852788
+     row: = 314449
+     row: = 6538339
+DEBUG2 {
+  "commonName": "Objective, The",
+  "website": "https://objectivejournalism.org/",
+  "irsdate": "2012-03-01",
+  "population": 66950,
+  "EIN": "Beverly Hills",
+  "Tax Year": "CA",
+  "Tax Period End": 272614911,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 6443954,
+  "Total Revenue": 1908,
+  "Total Expenses": 0,
+  "Total Assets": 6971216,
+  "Total Liabilities": 6014963,
+  "Net Assets": 6852788,
+  "": 6538339
+}
+DEBUGx {
+  "commonName": "Objective, The",
+  "website": "https://objectivejournalism.org/",
+  "irsdate": "2012-03-01",
+  "population": 66950,
+  "EIN": "Beverly Hills",
+  "Tax Year": "CA",
+  "Tax Period End": 272614911,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 6443954,
+  "Total Revenue": 1908,
+  "Total Expenses": 0,
+  "Total Assets": 6971216,
+  "Total Liabilities": 6014963,
+  "Net Assets": 6852788,
+  "": 6538339
+}
+DEBUG3 {
+  "commonName": "Objective, The",
+  "website": "https://objectivejournalism.org/",
+  "irsdate": "2012-03-01",
+  "population": 66950,
+  "EIN": "Beverly Hills",
+  "Tax Year": "CA",
+  "Tax Period End": 272614911,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 6443954,
+  "Total Revenue": 1908,
+  "Total Expenses": 0,
+  "Total Assets": 6971216,
+  "Total Liabilities": 6014963,
+  "Net Assets": 6852788,
+  "": 6538339,
+  "contribpercapita": 3.02,
+  "revpercapita": 0.03,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Oklahoma Watch",
+  "website": "https://oklahomawatch.org/",
+  "irsdate": "2013-11-01",
+  "population": 694800
+}
+ -f- [
+  "Oklahoma Watch Inc",
+  "Oklahoma City",
+  "OK",
+  273721498,
+  2021,
+  202112,
+  0,
+  1088176,
+  0,
+  0,
+  1089252,
+  812887,
+  563397,
+  3176,
+  560221
+]
+     row:EIN = Oklahoma City
+     row:Tax Year = OK
+     row:Tax Period End = 273721498
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 1088176
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 1089252
+     row:Total Liabilities = 812887
+     row:Net Assets = 563397
+     row: = 3176
+     row: = 560221
+DEBUG2 {
+  "commonName": "Oklahoma Watch",
+  "website": "https://oklahomawatch.org/",
+  "irsdate": "2013-11-01",
+  "population": 694800,
+  "EIN": "Oklahoma City",
+  "Tax Year": "OK",
+  "Tax Period End": 273721498,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1088176,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1089252,
+  "Total Liabilities": 812887,
+  "Net Assets": 563397,
+  "": 560221
+}
+DEBUGx {
+  "commonName": "Oklahoma Watch",
+  "website": "https://oklahomawatch.org/",
+  "irsdate": "2013-11-01",
+  "population": 694800,
+  "EIN": "Oklahoma City",
+  "Tax Year": "OK",
+  "Tax Period End": 273721498,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1088176,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1089252,
+  "Total Liabilities": 812887,
+  "Net Assets": 563397,
+  "": 560221
+}
+DEBUG3 {
+  "commonName": "Oklahoma Watch",
+  "website": "https://oklahomawatch.org/",
+  "irsdate": "2013-11-01",
+  "population": 694800,
+  "EIN": "Oklahoma City",
+  "Tax Year": "OK",
+  "Tax Period End": 273721498,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1088176,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1089252,
+  "Total Liabilities": 812887,
+  "Net Assets": 563397,
+  "": 560221,
+  "contribpercapita": 0.29,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Otis Observer",
+  "website": "https://otisobserver.com/",
+  "irsdate": "2015-05-01",
+  "population": 1634
+}
+ -f- [
+  "Otis Observer",
+  "Otis",
+  "MA",
+  "473575404",
+  "2022",
+  "MA AGO PC form",
+  "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001CLpOAUA1",
+  22715,
+  0,
+  0,
+  22715,
+  23375,
+  "N/D",
+  "N/D",
+  13969
+]
+     row:EIN = Otis
+     row:Tax Year = MA
+     row:Tax Period End = 473575404
+     row:Form Type Filed = 2022
+     row:Contributions = MA AGO PC form
+     row:Investment Income = https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001CLpOAUA1
+     row:Program Service Revenue = 22715
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 22715
+     row:Total Liabilities = 23375
+     row:Net Assets = N/D
+     row: = N/D
+     row: = 13969
+DEBUG2 {
+  "commonName": "Otis Observer",
+  "website": "https://otisobserver.com/",
+  "irsdate": "2015-05-01",
+  "population": 1634,
+  "EIN": "Otis",
+  "Tax Year": "MA",
+  "Tax Period End": "473575404",
+  "Form Type Filed": "2022",
+  "Contributions": "MA AGO PC form",
+  "Investment Income": "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001CLpOAUA1",
+  "Program Service Revenue": 22715,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 22715,
+  "Total Liabilities": 23375,
+  "Net Assets": "N/D",
+  "": 13969
+}
+DEBUGx {
+  "commonName": "Otis Observer",
+  "website": "https://otisobserver.com/",
+  "irsdate": "2015-05-01",
+  "population": 1634,
+  "EIN": "Otis",
+  "Tax Year": "MA",
+  "Tax Period End": "473575404",
+  "Form Type Filed": "2022",
+  "Contributions": "MA AGO PC form",
+  "Investment Income": "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001CLpOAUA1",
+  "Program Service Revenue": 22715,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 22715,
+  "Total Liabilities": 23375,
+  "Net Assets": "N/D",
+  "": 13969
+}
+DEBUG3 {
+  "commonName": "Otis Observer",
+  "website": "https://otisobserver.com/",
+  "irsdate": "2015-05-01",
+  "population": 1634,
+  "EIN": "Otis",
+  "Tax Year": "MA",
+  "Tax Period End": "473575404",
+  "Form Type Filed": "2022",
+  "Contributions": "MA AGO PC form",
+  "Investment Income": "https://masscharities.my.site.com/FilingSearch/s/detail/a0B4U00001CLpOAUA1",
+  "Program Service Revenue": 22715,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 22715,
+  "Total Liabilities": 23375,
+  "Net Assets": "N/D",
+  "": 13969,
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Rochester Beacon",
+  "website": "https://rochesterbeacon.com/",
+  "irsdate": "2019-08-01",
+  "population": 209352
+}
+ -f- [
+  "Rochester Beacon Inc",
+  "Rochester",
+  "NY",
+  831431746,
+  2021,
+  202112,
+  1,
+  55991,
+  0,
+  0,
+  55991,
+  78682,
+  34522,
+  0,
+  34522
+]
+     row:EIN = Rochester
+     row:Tax Year = NY
+     row:Tax Period End = 831431746
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 55991
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 55991
+     row:Total Liabilities = 78682
+     row:Net Assets = 34522
+     row: = 0
+     row: = 34522
+DEBUG2 {
+  "commonName": "Rochester Beacon",
+  "website": "https://rochesterbeacon.com/",
+  "irsdate": "2019-08-01",
+  "population": 209352,
+  "EIN": "Rochester",
+  "Tax Year": "NY",
+  "Tax Period End": 831431746,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 55991,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 55991,
+  "Total Liabilities": 78682,
+  "Net Assets": 34522,
+  "": 34522
+}
+DEBUGx {
+  "commonName": "Rochester Beacon",
+  "website": "https://rochesterbeacon.com/",
+  "irsdate": "2019-08-01",
+  "population": 209352,
+  "EIN": "Rochester",
+  "Tax Year": "NY",
+  "Tax Period End": 831431746,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 55991,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 55991,
+  "Total Liabilities": 78682,
+  "Net Assets": 34522,
+  "": 34522
+}
+DEBUG3 {
+  "commonName": "Rochester Beacon",
+  "website": "https://rochesterbeacon.com/",
+  "irsdate": "2019-08-01",
+  "population": 209352,
+  "EIN": "Rochester",
+  "Tax Year": "NY",
+  "Tax Period End": 831431746,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 55991,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 55991,
+  "Total Liabilities": 78682,
+  "Net Assets": 34522,
+  "": 34522,
+  "contribpercapita": 0.97,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Searchlight New Mexico",
+  "website": "https://searchlightnm.org/",
+  "irsdate": "2018-04-01",
+  "population": 89008
+}
+ -f- [
+  "Searchlight New Mexico",
+  "Santa Fe",
+  "NM",
+  813234552,
+  2021,
+  202112,
+  0,
+  1079860,
+  859,
+  0,
+  1080972,
+  1052847,
+  846961,
+  60252,
+  786709
+]
+     row:EIN = Santa Fe
+     row:Tax Year = NM
+     row:Tax Period End = 813234552
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 1079860
+     row:Total Revenue = 859
+     row:Total Expenses = 0
+     row:Total Assets = 1080972
+     row:Total Liabilities = 1052847
+     row:Net Assets = 846961
+     row: = 60252
+     row: = 786709
+DEBUG2 {
+  "commonName": "Searchlight New Mexico",
+  "website": "https://searchlightnm.org/",
+  "irsdate": "2018-04-01",
+  "population": 89008,
+  "EIN": "Santa Fe",
+  "Tax Year": "NM",
+  "Tax Period End": 813234552,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1079860,
+  "Total Revenue": 859,
+  "Total Expenses": 0,
+  "Total Assets": 1080972,
+  "Total Liabilities": 1052847,
+  "Net Assets": 846961,
+  "": 786709
+}
+DEBUGx {
+  "commonName": "Searchlight New Mexico",
+  "website": "https://searchlightnm.org/",
+  "irsdate": "2018-04-01",
+  "population": 89008,
+  "EIN": "Santa Fe",
+  "Tax Year": "NM",
+  "Tax Period End": 813234552,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1079860,
+  "Total Revenue": 859,
+  "Total Expenses": 0,
+  "Total Assets": 1080972,
+  "Total Liabilities": 1052847,
+  "Net Assets": 846961,
+  "": 786709
+}
+DEBUG3 {
+  "commonName": "Searchlight New Mexico",
+  "website": "https://searchlightnm.org/",
+  "irsdate": "2018-04-01",
+  "population": 89008,
+  "EIN": "Santa Fe",
+  "Tax Year": "NM",
+  "Tax Period End": 813234552,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1079860,
+  "Total Revenue": 859,
+  "Total Expenses": 0,
+  "Total Assets": 1080972,
+  "Total Liabilities": 1052847,
+  "Net Assets": 846961,
+  "": 786709,
+  "contribpercapita": 2.27,
+  "revpercapita": 0.01,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Sheffield Times",
+  "website": "https://www.sheffieldtimes.org/",
+  "irsdate": "2008-12-01",
+  "population": 3327
+}
+ -f- [
+  "Sheffield Association Inc",
+  "Sheffield",
+  "MA",
+  43568232,
+  2020,
+  202012,
+  1,
+  24481,
+  3,
+  6314,
+  37398,
+  35108,
+  10030,
+  0,
+  10030
+]
+     row:EIN = Sheffield
+     row:Tax Year = MA
+     row:Tax Period End = 43568232
+     row:Form Type Filed = 2020
+     row:Contributions = 202012
+     row:Investment Income = 1
+     row:Program Service Revenue = 24481
+     row:Total Revenue = 3
+     row:Total Expenses = 6314
+     row:Total Assets = 37398
+     row:Total Liabilities = 35108
+     row:Net Assets = 10030
+     row: = 0
+     row: = 10030
+DEBUG2 {
+  "commonName": "Sheffield Times",
+  "website": "https://www.sheffieldtimes.org/",
+  "irsdate": "2008-12-01",
+  "population": 3327,
+  "EIN": "Sheffield",
+  "Tax Year": "MA",
+  "Tax Period End": 43568232,
+  "Form Type Filed": 2020,
+  "Contributions": 202012,
+  "Investment Income": 1,
+  "Program Service Revenue": 24481,
+  "Total Revenue": 3,
+  "Total Expenses": 6314,
+  "Total Assets": 37398,
+  "Total Liabilities": 35108,
+  "Net Assets": 10030,
+  "": 10030
+}
+DEBUGx {
+  "commonName": "Sheffield Times",
+  "website": "https://www.sheffieldtimes.org/",
+  "irsdate": "2008-12-01",
+  "population": 3327,
+  "EIN": "Sheffield",
+  "Tax Year": "MA",
+  "Tax Period End": 43568232,
+  "Form Type Filed": 2020,
+  "Contributions": 202012,
+  "Investment Income": 1,
+  "Program Service Revenue": 24481,
+  "Total Revenue": 3,
+  "Total Expenses": 6314,
+  "Total Assets": 37398,
+  "Total Liabilities": 35108,
+  "Net Assets": 10030,
+  "": 10030
+}
+DEBUG3 {
+  "commonName": "Sheffield Times",
+  "website": "https://www.sheffieldtimes.org/",
+  "irsdate": "2008-12-01",
+  "population": 3327,
+  "EIN": "Sheffield",
+  "Tax Year": "MA",
+  "Tax Period End": 43568232,
+  "Form Type Filed": 2020,
+  "Contributions": 202012,
+  "Investment Income": 1,
+  "Program Service Revenue": 24481,
+  "Total Revenue": 3,
+  "Total Expenses": 6314,
+  "Total Assets": 37398,
+  "Total Liabilities": 35108,
+  "Net Assets": 10030,
+  "": 10030,
+  "contribpercapita": 60.72,
+  "revpercapita": 0.0,
+  "expensepercapita": 1.9
+}
+DEBUG1 {
+  "commonName": "The Sierra Nevada Ally",
+  "website": "https://sierranevadaally.org/",
+  "irsdate": "2020-05-01",
+  "population": 273448
+}
+DEBUG2 {
+  "commonName": "The Sierra Nevada Ally",
+  "website": "https://sierranevadaally.org/",
+  "irsdate": "2020-05-01",
+  "population": 273448,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "The Sierra Nevada Ally",
+  "website": "https://sierranevadaally.org/",
+  "irsdate": "2020-05-01",
+  "population": 273448,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "The Sierra Nevada Ally",
+  "website": "https://sierranevadaally.org/",
+  "irsdate": "2020-05-01",
+  "population": 273448,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "South Side Weekly",
+  "website": "https://southsideweekly.com/",
+  "irsdate": "2023-01-01",
+  "population": 2665039
+}
+DEBUG2 {
+  "commonName": "South Side Weekly",
+  "website": "https://southsideweekly.com/",
+  "irsdate": "2023-01-01",
+  "population": 2665039,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "South Side Weekly",
+  "website": "https://southsideweekly.com/",
+  "irsdate": "2023-01-01",
+  "population": 2665039,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "South Side Weekly",
+  "website": "https://southsideweekly.com/",
+  "irsdate": "2023-01-01",
+  "population": 2665039,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Austin Bulldog, The",
+  "website": "https://theaustinbulldog.org/",
+  "irsdate": "2009-09-01",
+  "population": 974447
+}
+ -f- [
+  "Austin Investigative Reporting Project",
+  "Austin",
+  "TX",
+  270231463,
+  2021,
+  202112,
+  1,
+  69347,
+  0,
+  0,
+  69347,
+  69258,
+  18450,
+  0,
+  18450
+]
+     row:EIN = Austin
+     row:Tax Year = TX
+     row:Tax Period End = 270231463
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 69347
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 69347
+     row:Total Liabilities = 69258
+     row:Net Assets = 18450
+     row: = 0
+     row: = 18450
+DEBUG2 {
+  "commonName": "Austin Bulldog, The",
+  "website": "https://theaustinbulldog.org/",
+  "irsdate": "2009-09-01",
+  "population": 974447,
+  "EIN": "Austin",
+  "Tax Year": "TX",
+  "Tax Period End": 270231463,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 69347,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 69347,
+  "Total Liabilities": 69258,
+  "Net Assets": 18450,
+  "": 18450
+}
+DEBUGx {
+  "commonName": "Austin Bulldog, The",
+  "website": "https://theaustinbulldog.org/",
+  "irsdate": "2009-09-01",
+  "population": 974447,
+  "EIN": "Austin",
+  "Tax Year": "TX",
+  "Tax Period End": 270231463,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 69347,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 69347,
+  "Total Liabilities": 69258,
+  "Net Assets": 18450,
+  "": 18450
+}
+DEBUG3 {
+  "commonName": "Austin Bulldog, The",
+  "website": "https://theaustinbulldog.org/",
+  "irsdate": "2009-09-01",
+  "population": 974447,
+  "EIN": "Austin",
+  "Tax Year": "TX",
+  "Tax Period End": 270231463,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 69347,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 69347,
+  "Total Liabilities": 69258,
+  "Net Assets": 18450,
+  "": 18450,
+  "contribpercapita": 0.21,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Buckeye Flame, The",
+  "website": "https://thebuckeyeflame.com/",
+  "irsdate": "2020-09-01",
+  "population": 361607
+}
+DEBUG2 {
+  "commonName": "Buckeye Flame, The",
+  "website": "https://thebuckeyeflame.com/",
+  "irsdate": "2020-09-01",
+  "population": 361607,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Buckeye Flame, The",
+  "website": "https://thebuckeyeflame.com/",
+  "irsdate": "2020-09-01",
+  "population": 361607,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Buckeye Flame, The",
+  "website": "https://thebuckeyeflame.com/",
+  "irsdate": "2020-09-01",
+  "population": 361607,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Red Hook Daily Catch, The",
+  "website": "https://www.thedailycatch.org/",
+  "irsdate": "2022-07-01",
+  "population": 1963
+}
+DEBUG2 {
+  "commonName": "Red Hook Daily Catch, The",
+  "website": "https://www.thedailycatch.org/",
+  "irsdate": "2022-07-01",
+  "population": 1963,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Red Hook Daily Catch, The",
+  "website": "https://www.thedailycatch.org/",
+  "irsdate": "2022-07-01",
+  "population": 1963,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Red Hook Daily Catch, The",
+  "website": "https://www.thedailycatch.org/",
+  "irsdate": "2022-07-01",
+  "population": 1963,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "The Lens NOLA",
+  "website": "https://thelensnola.org/",
+  "irsdate": "2012-12-01",
+  "population": 369749
+}
+ -f- [
+  "The Lens",
+  "New Orleans",
+  "LA",
+  272072772,
+  2021,
+  202112,
+  0,
+  437647,
+  0,
+  6000,
+  443647,
+  434953,
+  72767,
+  0,
+  72767
+]
+     row:EIN = New Orleans
+     row:Tax Year = LA
+     row:Tax Period End = 272072772
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 437647
+     row:Total Revenue = 0
+     row:Total Expenses = 6000
+     row:Total Assets = 443647
+     row:Total Liabilities = 434953
+     row:Net Assets = 72767
+     row: = 0
+     row: = 72767
+DEBUG2 {
+  "commonName": "The Lens NOLA",
+  "website": "https://thelensnola.org/",
+  "irsdate": "2012-12-01",
+  "population": 369749,
+  "EIN": "New Orleans",
+  "Tax Year": "LA",
+  "Tax Period End": 272072772,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 437647,
+  "Total Revenue": 0,
+  "Total Expenses": 6000,
+  "Total Assets": 443647,
+  "Total Liabilities": 434953,
+  "Net Assets": 72767,
+  "": 72767
+}
+DEBUGx {
+  "commonName": "The Lens NOLA",
+  "website": "https://thelensnola.org/",
+  "irsdate": "2012-12-01",
+  "population": 369749,
+  "EIN": "New Orleans",
+  "Tax Year": "LA",
+  "Tax Period End": 272072772,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 437647,
+  "Total Revenue": 0,
+  "Total Expenses": 6000,
+  "Total Assets": 443647,
+  "Total Liabilities": 434953,
+  "Net Assets": 72767,
+  "": 72767
+}
+DEBUG3 {
+  "commonName": "The Lens NOLA",
+  "website": "https://thelensnola.org/",
+  "irsdate": "2012-12-01",
+  "population": 369749,
+  "EIN": "New Orleans",
+  "Tax Year": "LA",
+  "Tax Period End": 272072772,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 437647,
+  "Total Revenue": 0,
+  "Total Expenses": 6000,
+  "Total Assets": 443647,
+  "Total Liabilities": 434953,
+  "Net Assets": 72767,
+  "": 72767,
+  "contribpercapita": 0.55,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.02
+}
+DEBUG1 {
+  "commonName": "The Local Reporter",
+  "website": "https://thelocalreporter.press/",
+  "irsdate": "2019-05-01",
+  "population": 62098
+}
+DEBUG2 {
+  "commonName": "The Local Reporter",
+  "website": "https://thelocalreporter.press/",
+  "irsdate": "2019-05-01",
+  "population": 62098,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "The Local Reporter",
+  "website": "https://thelocalreporter.press/",
+  "irsdate": "2019-05-01",
+  "population": 62098,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "The Local Reporter",
+  "website": "https://thelocalreporter.press/",
+  "irsdate": "2019-05-01",
+  "population": 62098,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Marjorie, The",
+  "website": "https://themarjorie.org/",
+  "irsdate": "2021-11-01",
+  "population": 145214
+}
+DEBUG2 {
+  "commonName": "Marjorie, The",
+  "website": "https://themarjorie.org/",
+  "irsdate": "2021-11-01",
+  "population": 145214,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Marjorie, The",
+  "website": "https://themarjorie.org/",
+  "irsdate": "2021-11-01",
+  "population": 145214,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Marjorie, The",
+  "website": "https://themarjorie.org/",
+  "irsdate": "2021-11-01",
+  "population": 145214,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "The Nevada Independent",
+  "website": "https://thenevadaindependent.com/",
+  "irsdate": "2013-06-01",
+  "population": 656274
+}
+ -f- [
+  "Nevada News Bureau Inc",
+  "Las Vegas",
+  "NV",
+  273192716,
+  2021,
+  202112,
+  0,
+  1838005,
+  0,
+  0,
+  1892475,
+  2236098,
+  811335,
+  84791,
+  726544
+]
+     row:EIN = Las Vegas
+     row:Tax Year = NV
+     row:Tax Period End = 273192716
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 1838005
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 1892475
+     row:Total Liabilities = 2236098
+     row:Net Assets = 811335
+     row: = 84791
+     row: = 726544
+DEBUG2 {
+  "commonName": "The Nevada Independent",
+  "website": "https://thenevadaindependent.com/",
+  "irsdate": "2013-06-01",
+  "population": 656274,
+  "EIN": "Las Vegas",
+  "Tax Year": "NV",
+  "Tax Period End": 273192716,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1838005,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1892475,
+  "Total Liabilities": 2236098,
+  "Net Assets": 811335,
+  "": 726544
+}
+DEBUGx {
+  "commonName": "The Nevada Independent",
+  "website": "https://thenevadaindependent.com/",
+  "irsdate": "2013-06-01",
+  "population": 656274,
+  "EIN": "Las Vegas",
+  "Tax Year": "NV",
+  "Tax Period End": 273192716,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1838005,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1892475,
+  "Total Liabilities": 2236098,
+  "Net Assets": 811335,
+  "": 726544
+}
+DEBUG3 {
+  "commonName": "The Nevada Independent",
+  "website": "https://thenevadaindependent.com/",
+  "irsdate": "2013-06-01",
+  "population": 656274,
+  "EIN": "Las Vegas",
+  "Tax Year": "NV",
+  "Tax Period End": 273192716,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 1838005,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 1892475,
+  "Total Liabilities": 2236098,
+  "Net Assets": 811335,
+  "": 726544,
+  "contribpercapita": 0.31,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Record North Shore, The",
+  "website": "https://www.therecordnorthshore.org/",
+  "irsdate": "2021-08-01",
+  "population": 27264
+}
+ -f- [
+  "Record Community News Group",
+  "Lombard",
+  "IL",
+  851425791,
+  2021,
+  202112,
+  1,
+  83514,
+  0,
+  47609,
+  131123,
+  139804,
+  4472,
+  150,
+  4322
+]
+     row:EIN = Lombard
+     row:Tax Year = IL
+     row:Tax Period End = 851425791
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 83514
+     row:Total Revenue = 0
+     row:Total Expenses = 47609
+     row:Total Assets = 131123
+     row:Total Liabilities = 139804
+     row:Net Assets = 4472
+     row: = 150
+     row: = 4322
+DEBUG2 {
+  "commonName": "Record North Shore, The",
+  "website": "https://www.therecordnorthshore.org/",
+  "irsdate": "2021-08-01",
+  "population": 27264,
+  "EIN": "Lombard",
+  "Tax Year": "IL",
+  "Tax Period End": 851425791,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 83514,
+  "Total Revenue": 0,
+  "Total Expenses": 47609,
+  "Total Assets": 131123,
+  "Total Liabilities": 139804,
+  "Net Assets": 4472,
+  "": 4322
+}
+DEBUGx {
+  "commonName": "Record North Shore, The",
+  "website": "https://www.therecordnorthshore.org/",
+  "irsdate": "2021-08-01",
+  "population": 27264,
+  "EIN": "Lombard",
+  "Tax Year": "IL",
+  "Tax Period End": 851425791,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 83514,
+  "Total Revenue": 0,
+  "Total Expenses": 47609,
+  "Total Assets": 131123,
+  "Total Liabilities": 139804,
+  "Net Assets": 4472,
+  "": 4322
+}
+DEBUG3 {
+  "commonName": "Record North Shore, The",
+  "website": "https://www.therecordnorthshore.org/",
+  "irsdate": "2021-08-01",
+  "population": 27264,
+  "EIN": "Lombard",
+  "Tax Year": "IL",
+  "Tax Period End": 851425791,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 83514,
+  "Total Revenue": 0,
+  "Total Expenses": 47609,
+  "Total Assets": 131123,
+  "Total Liabilities": 139804,
+  "Net Assets": 4472,
+  "": 4322,
+  "contribpercapita": 7.41,
+  "revpercapita": 0.0,
+  "expensepercapita": 1.75
+}
+DEBUG1 {
+  "commonName": "Uptake, The",
+  "website": "https://theuptake.org/",
+  "irsdate": "2009-02-01",
+  "population": 303176
+}
+ -f- [
+  "Uptake Institute",
+  "Saint Paul",
+  "MN",
+  263781377,
+  2021,
+  202112,
+  1,
+  119490,
+  0,
+  0,
+  119490,
+  110749,
+  54132,
+  0,
+  54132
+]
+     row:EIN = Saint Paul
+     row:Tax Year = MN
+     row:Tax Period End = 263781377
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 119490
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 119490
+     row:Total Liabilities = 110749
+     row:Net Assets = 54132
+     row: = 0
+     row: = 54132
+DEBUG2 {
+  "commonName": "Uptake, The",
+  "website": "https://theuptake.org/",
+  "irsdate": "2009-02-01",
+  "population": 303176,
+  "EIN": "Saint Paul",
+  "Tax Year": "MN",
+  "Tax Period End": 263781377,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 119490,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 119490,
+  "Total Liabilities": 110749,
+  "Net Assets": 54132,
+  "": 54132
+}
+DEBUGx {
+  "commonName": "Uptake, The",
+  "website": "https://theuptake.org/",
+  "irsdate": "2009-02-01",
+  "population": 303176,
+  "EIN": "Saint Paul",
+  "Tax Year": "MN",
+  "Tax Period End": 263781377,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 119490,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 119490,
+  "Total Liabilities": 110749,
+  "Net Assets": 54132,
+  "": 54132
+}
+DEBUG3 {
+  "commonName": "Uptake, The",
+  "website": "https://theuptake.org/",
+  "irsdate": "2009-02-01",
+  "population": 303176,
+  "EIN": "Saint Paul",
+  "Tax Year": "MN",
+  "Tax Period End": 263781377,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 119490,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 119490,
+  "Total Liabilities": 110749,
+  "Net Assets": 54132,
+  "": 54132,
+  "contribpercapita": 0.67,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Tucson Sentinel",
+  "website": "https://www.tucsonsentinel.com/",
+  "irsdate": "2020-01-01",
+  "population": 546574
+}
+DEBUG2 {
+  "commonName": "Tucson Sentinel",
+  "website": "https://www.tucsonsentinel.com/",
+  "irsdate": "2020-01-01",
+  "population": 546574,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Tucson Sentinel",
+  "website": "https://www.tucsonsentinel.com/",
+  "irsdate": "2020-01-01",
+  "population": 546574,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Tucson Sentinel",
+  "website": "https://www.tucsonsentinel.com/",
+  "irsdate": "2020-01-01",
+  "population": 546574,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "VT Digger",
+  "website": "https://vtdigger.com/",
+  "irsdate": "2011-02-01",
+  "population": 44595
+}
+ -f- [
+  "Vermont Journalism Trust",
+  "Montpelier",
+  "VT",
+  271553931,
+  2021,
+  202112,
+  0,
+  2784738,
+  4110,
+  584088,
+  3372936,
+  2766167,
+  3627259,
+  196791,
+  3430468
+]
+     row:EIN = Montpelier
+     row:Tax Year = VT
+     row:Tax Period End = 271553931
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 0
+     row:Program Service Revenue = 2784738
+     row:Total Revenue = 4110
+     row:Total Expenses = 584088
+     row:Total Assets = 3372936
+     row:Total Liabilities = 2766167
+     row:Net Assets = 3627259
+     row: = 196791
+     row: = 3430468
+DEBUG2 {
+  "commonName": "VT Digger",
+  "website": "https://vtdigger.com/",
+  "irsdate": "2011-02-01",
+  "population": 44595,
+  "EIN": "Montpelier",
+  "Tax Year": "VT",
+  "Tax Period End": 271553931,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 2784738,
+  "Total Revenue": 4110,
+  "Total Expenses": 584088,
+  "Total Assets": 3372936,
+  "Total Liabilities": 2766167,
+  "Net Assets": 3627259,
+  "": 3430468
+}
+DEBUGx {
+  "commonName": "VT Digger",
+  "website": "https://vtdigger.com/",
+  "irsdate": "2011-02-01",
+  "population": 44595,
+  "EIN": "Montpelier",
+  "Tax Year": "VT",
+  "Tax Period End": 271553931,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 2784738,
+  "Total Revenue": 4110,
+  "Total Expenses": 584088,
+  "Total Assets": 3372936,
+  "Total Liabilities": 2766167,
+  "Net Assets": 3627259,
+  "": 3430468
+}
+DEBUG3 {
+  "commonName": "VT Digger",
+  "website": "https://vtdigger.com/",
+  "irsdate": "2011-02-01",
+  "population": 44595,
+  "EIN": "Montpelier",
+  "Tax Year": "VT",
+  "Tax Period End": 271553931,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 2784738,
+  "Total Revenue": 4110,
+  "Total Expenses": 584088,
+  "Total Assets": 3372936,
+  "Total Liabilities": 2766167,
+  "Net Assets": 3627259,
+  "": 3430468,
+  "contribpercapita": 4.53,
+  "revpercapita": 0.09,
+  "expensepercapita": 13.1
+}
+DEBUG1 {
+  "commonName": "Wausau Pilot & Review",
+  "website": "https://wausaupilotandreview.com/",
+  "irsdate": "2017-01-01",
+  "population": 39833
+}
+ -f- [
+  "Wausau Pilot And Review Corporation",
+  "Wausau",
+  "WI",
+  814399324,
+  2021,
+  202112,
+  1,
+  142778,
+  0,
+  0,
+  196724,
+  185092,
+  23530,
+  0,
+  23530
+]
+     row:EIN = Wausau
+     row:Tax Year = WI
+     row:Tax Period End = 814399324
+     row:Form Type Filed = 2021
+     row:Contributions = 202112
+     row:Investment Income = 1
+     row:Program Service Revenue = 142778
+     row:Total Revenue = 0
+     row:Total Expenses = 0
+     row:Total Assets = 196724
+     row:Total Liabilities = 185092
+     row:Net Assets = 23530
+     row: = 0
+     row: = 23530
+DEBUG2 {
+  "commonName": "Wausau Pilot & Review",
+  "website": "https://wausaupilotandreview.com/",
+  "irsdate": "2017-01-01",
+  "population": 39833,
+  "EIN": "Wausau",
+  "Tax Year": "WI",
+  "Tax Period End": 814399324,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 142778,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 196724,
+  "Total Liabilities": 185092,
+  "Net Assets": 23530,
+  "": 23530
+}
+DEBUGx {
+  "commonName": "Wausau Pilot & Review",
+  "website": "https://wausaupilotandreview.com/",
+  "irsdate": "2017-01-01",
+  "population": 39833,
+  "EIN": "Wausau",
+  "Tax Year": "WI",
+  "Tax Period End": 814399324,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 142778,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 196724,
+  "Total Liabilities": 185092,
+  "Net Assets": 23530,
+  "": 23530
+}
+DEBUG3 {
+  "commonName": "Wausau Pilot & Review",
+  "website": "https://wausaupilotandreview.com/",
+  "irsdate": "2017-01-01",
+  "population": 39833,
+  "EIN": "Wausau",
+  "Tax Year": "WI",
+  "Tax Period End": 814399324,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 142778,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 196724,
+  "Total Liabilities": 185092,
+  "Net Assets": 23530,
+  "": 23530,
+  "contribpercapita": 5.07,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Webb City Sentinel",
+  "website": "https://webbcity.net/",
+  "irsdate": "2021-11-01",
+  "population": 13165
+}
+DEBUG2 {
+  "commonName": "Webb City Sentinel",
+  "website": "https://webbcity.net/",
+  "irsdate": "2021-11-01",
+  "population": 13165,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUGx {
+  "commonName": "Webb City Sentinel",
+  "website": "https://webbcity.net/",
+  "irsdate": "2021-11-01",
+  "population": 13165,
+  "totfuncexpns": "ERROR: could not fetch latest filing data"
+}
+DEBUG3 {
+  "commonName": "Webb City Sentinel",
+  "website": "https://webbcity.net/",
+  "irsdate": "2021-11-01",
+  "population": 13165,
+  "totfuncexpns": "ERROR: could not fetch latest filing data",
+  "contribpercapita": 0.0,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}
+DEBUG1 {
+  "commonName": "Your Arlington",
+  "website": "https://yourarlington.com/",
+  "irsdate": "2021-10-01",
+  "population": 46308
+}
+ -f- [
+  "Yourarlington Org Inc",
+  "Arlington",
+  "MA",
+  "871248884",
+  "2023",
+  "N/A estimates",
+  "Google Drive",
+  45000,
+  500,
+  0,
+  75000,
+  67000,
+  "N/D",
+  "N/D",
+  30000
+]
+     row:EIN = Arlington
+     row:Tax Year = MA
+     row:Tax Period End = 871248884
+     row:Form Type Filed = 2023
+     row:Contributions = N/A estimates
+     row:Investment Income = Google Drive
+     row:Program Service Revenue = 45000
+     row:Total Revenue = 500
+     row:Total Expenses = 0
+     row:Total Assets = 75000
+     row:Total Liabilities = 67000
+     row:Net Assets = N/D
+     row: = N/D
+     row: = 30000
+DEBUG2 {
+  "commonName": "Your Arlington",
+  "website": "https://yourarlington.com/",
+  "irsdate": "2021-10-01",
+  "population": 46308,
+  "EIN": "Arlington",
+  "Tax Year": "MA",
+  "Tax Period End": "871248884",
+  "Form Type Filed": "2023",
+  "Contributions": "N/A estimates",
+  "Investment Income": "Google Drive",
+  "Program Service Revenue": 45000,
+  "Total Revenue": 500,
+  "Total Expenses": 0,
+  "Total Assets": 75000,
+  "Total Liabilities": 67000,
+  "Net Assets": "N/D",
+  "": 30000
+}
+DEBUGx {
+  "commonName": "Your Arlington",
+  "website": "https://yourarlington.com/",
+  "irsdate": "2021-10-01",
+  "population": 46308,
+  "EIN": "Arlington",
+  "Tax Year": "MA",
+  "Tax Period End": "871248884",
+  "Form Type Filed": "2023",
+  "Contributions": "N/A estimates",
+  "Investment Income": "Google Drive",
+  "Program Service Revenue": 45000,
+  "Total Revenue": 500,
+  "Total Expenses": 0,
+  "Total Assets": 75000,
+  "Total Liabilities": 67000,
+  "Net Assets": "N/D",
+  "": 30000
+}
+DEBUG3 {
+  "commonName": "Your Arlington",
+  "website": "https://yourarlington.com/",
+  "irsdate": "2021-10-01",
+  "population": 46308,
+  "EIN": "Arlington",
+  "Tax Year": "MA",
+  "Tax Period End": "871248884",
+  "Form Type Filed": "2023",
+  "Contributions": "N/A estimates",
+  "Investment Income": "Google Drive",
+  "Program Service Revenue": 45000,
+  "Total Revenue": 500,
+  "Total Expenses": 0,
+  "Total Assets": 75000,
+  "Total Liabilities": 67000,
+  "Net Assets": "N/D",
+  "": 30000,
+  "contribpercapita": 0.0,
+  "revpercapita": 0.01,
+  "expensepercapita": 0.0
+}
+DEBUG ----
+{
+  "commonName": "Austin Monitor",
+  "website": "https://www.austinmonitor.com/",
+  "irsdate": "2014-12-01",
+  "population": 947447,
+  "EIN": "Austin",
+  "Tax Year": "TX",
+  "Tax Period End": 463398438,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 0,
+  "Program Service Revenue": 277259,
+  "Total Revenue": 0,
+  "Total Expenses": 172660,
+  "Total Assets": 450078,
+  "Total Liabilities": 433148,
+  "Net Assets": 119637,
+  "": 85597,
+  "contribpercapita": 0.21,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.18
+}
+{
+  "commonName": "Asheville Watchdog",
+  "website": "https://avlwatchdog.org/",
+  "irsdate": "2020-05-01",
+  "population": 93776,
+  "EIN": "Asheville",
+  "Tax Year": "NC",
+  "Tax Period End": 850614521,
+  "Form Type Filed": 2021,
+  "Contributions": 202112,
+  "Investment Income": 1,
+  "Program Service Revenue": 98833,
+  "Total Revenue": 0,
+  "Total Expenses": 0,
+  "Total Assets": 98833,
+  "Total Liabilities": 26488,
+  "Net Assets": 90419,
+  "": 90419,
+  "contribpercapita": 2.16,
+  "revpercapita": 0.0,
+  "expensepercapita": 0.0
+}

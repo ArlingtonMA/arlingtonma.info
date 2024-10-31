@@ -1,0 +1,42 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "twistedsoftware",
+  "website": "https://twistedmatrix.com/trac/wiki/TwistedSoftwareFoundation",
+  "commonName": "Twisted Software Foundation",
+  "legalName": "Twisted Software Foundation",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "4e595e1db9"
+}

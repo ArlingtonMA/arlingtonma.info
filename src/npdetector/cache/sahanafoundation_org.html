@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8" />
+<title>Sahana Foundation &#8211; Open Source Disaster Management Solutions</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Stargazer 4.0.0" />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Sahana Foundation &raquo; Feed" href="https://sahanafoundation.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sahana Foundation &raquo; Comments Feed" href="https://sahanafoundation.org/comments/feed/" />
+<link rel="pingback" href="https://sahanafoundation.org/xmlrpc.php" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/sahanafoundation.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='pt-cv-public-style-css' href='https://sahanafoundation.org/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pt-cv-public-pro-style-css' href='https://sahanafoundation.org/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='material-sahana-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C400italic%2C500%2C700%7CRoboto+Condensed%3A400&#038;ver=4872' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://sahanafoundation.org/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='stargazer-font-css' href='https://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700%2C400italic%2C700italic%7COpen+Sans%3A300%2C400%2C600%2C700&#038;ver=4872#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-one-five-css' href='https://sahanafoundation.org/wp-content/themes/stargazer/library/css/one-five.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-gallery-css' href='https://sahanafoundation.org/wp-content/themes/stargazer/library/css/gallery.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stargazer-mediaelement-css' href='https://sahanafoundation.org/wp-content/themes/stargazer/css/mediaelement.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stargazer-media-css' href='https://sahanafoundation.org/wp-content/themes/stargazer/css/media.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-parent-css' href='https://sahanafoundation.org/wp-content/themes/stargazer/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hybrid-style-css' href='https://sahanafoundation.org/wp-content/themes/material-sahana/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mm-compiled-options-mobmenu-css' href='https://sahanafoundation.org/wp-content/uploads/dynamic-mobmenu.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mm-google-webfont-dosis-css' href='//fonts.googleapis.com/css?family=Dosis%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=4872' type='text/css' media='all' />
+<link rel='stylesheet' id='bfa-font-awesome-css' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bfa-font-awesome-v4-shim-css' href='https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css' type='text/css' media='all' />
+<style id='bfa-font-awesome-v4-shim-inline-css' type='text/css'>
+
+			@font-face {
+				font-family: 'FontAwesome';
+				src: url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.eot'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.woff2') format('woff2'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.woff') format('woff'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.ttf') format('truetype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-brands-400.svg#fontawesome') format('svg');
+			}
+
+			@font-face {
+				font-family: 'FontAwesome';
+				src: url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.eot'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.woff2') format('woff2'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.woff') format('woff'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.ttf') format('truetype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-solid-900.svg#fontawesome') format('svg');
+			}
+
+			@font-face {
+				font-family: 'FontAwesome';
+				src: url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.eot'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.woff2') format('woff2'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.woff') format('woff'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.ttf') format('truetype'),
+				url('https://use.fontawesome.com/releases/v5.15.4/webfonts/fa-regular-400.svg#fontawesome') format('svg');
+				unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+			}
+		
+</style>
+<link rel='stylesheet' id='cssmobmenu-icons-css' href='https://sahanafoundation.org/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cssmobmenu-css' href='https://sahanafoundation.org/wp-content/plugins/mobile-menu/includes/css/mobmenu.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css' href='https://sahanafoundation.org/wp-content/plugins/jetpack/css/jetpack.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://sahanafoundation.org/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://sahanafoundation.org/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://sahanafoundation.org/wp-content/plugins/mobile-menu/includes/js/mobmenu.js' id='mobmenujs-js'></script>
+<link rel="https://api.w.org/" href="https://sahanafoundation.org/wp-json/" /><link rel="alternate" type="application/json" href="https://sahanafoundation.org/wp-json/wp/v2/pages/23373" /><link rel="canonical" href="https://sahanafoundation.org/" />
+<link rel='shortlink' href='https://wp.me/P7ALPr-64Z' />
+<link rel="alternate" type="application/json+oembed" href="https://sahanafoundation.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsahanafoundation.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://sahanafoundation.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsahanafoundation.org%2F&#038;format=xml" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70919159-3', 'auto');
+  ga('send', 'pageview');
+
+</script>	<style>img#wpstats{display:none}</style>
+		
+<style type="text/css">#menu-primary .search-form .search-toggle, .display-header-text #header { background: #2196F3; } input[type='date']:focus, input[type='datetime']:focus, input[type='datetime-local']:focus, input[type='email']:focus, input[type='month']:focus, input[type='number']:focus, input[type='password']:focus, input[type='search']:focus, input[type='tel']:focus, input[type='text']:focus, input[type='time']:focus, input[type='url']:focus, input[type='week']:focus,
+textarea:focus, select:focus { border-bottom-color: #2196F3; box-shadow: 0 1px 0 0 #2196F3; }</style>
+
+<style type="text/css" id="custom-colors-css">a, .wp-playlist-light .wp-playlist-playing, .wp-embed-comments a,.wp-embed-share-dialog-open, .wp-embed a { color: rgba( 33, 150, 243, 0.75 ); } a:hover, a:focus, legend, mark, .comment-respond .required, pre,.form-allowed-tags code, pre code,.wp-playlist-light .wp-playlist-item:hover,.wp-playlist-light .wp-playlist-item:focus,.mejs-button button:hover::after, .mejs-button button:focus::after,.mejs-overlay-button:hover::after, .mejs-overlay-button:focus::after,.wp-embed-comments a:hover, .wp-embed-comments a:focus,.wp-embed-share-dialog-open:hover, .wp-embed-share-dialog-open:focus,.wp-embed a:hover, .wp-embed a:focus{ color: #2196F3; } input[type='submit'], input[type='reset'], input[type='button'], button, .page-links a,.comment-reply-link, .comment-reply-login, .wp-calendar td.has-posts a, #menu-sub-terms li a{ background-color: rgba( 33, 150, 243, 0.8 ); } legend, mark, pre, .form-allowed-tags code { background-color: rgba( 33, 150, 243, 0.1 ); } input[type='submit']:hover, input[type='submit']:focus,input[type='reset']:hover, input[type='reset']:focus,input[type='button']:hover, input[type='button']:focus,button:hover, button:focus,.page-links a:hover, .page-links a:focus,.wp-calendar td.has-posts a:hover, .wp-calendar td.has-posts a:focus,.widget-title > .wrap,#comments-number > .wrap, #reply-title > .wrap, .attachment-meta-title > .wrap,.widget_search > .search-form,#menu-sub-terms li a:hover, #menu-sub-terms li a:focus,.comment-reply-link:hover, .comment-reply-link:focus,.comment-reply-login:hover, .comment-reply-login:focus,.mejs-time-rail .mejs-time-loaded, .skip-link .screen-reader-text{ background-color: #2196F3; } ::selection { background-color: #2196F3; } legend { border-color: rgba( 33, 150, 243, 0.15 ); } body { border-top-color: #2196F3; } .entry-content a, .entry-summary a, .comment-content a { border-bottom-color: rgba( 33, 150, 243, 0.15 ); } .entry-content a:hover, .entry-content a:focus,           .entry-summary a:hover, .entry-summary a:focus,           .comment-content a:hover, .comment-content a:focus           { border-bottom-color: rgba( 33, 150, 243, 0.75 ); } body, .widget-title, #comments-number, #reply-title,.attachment-meta-title { border-bottom-color: #2196F3; } blockquote { background-color: rgba( 33, 150, 243, 0.85 ); } blockquote blockquote { background-color: rgba( 33, 150, 243, 0.9 ); } blockquote { outline-color: rgba( 33, 150, 243, 0.85); }</style>
+
+<style type="text/css" id="custom-header-css">body.custom-header #branding, #site-title { color: #ffffff; }</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("https://sahanafoundation.org/wp-content/uploads/2016/05/background.jpg"); background-position: center top; background-size: auto; background-repeat: no-repeat; background-attachment: fixed; }
+</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sahana Foundation" />
+<meta property="og:description" content="Open Source Disaster Management Solutions" />
+<meta property="og:url" content="https://sahanafoundation.org/" />
+<meta property="og:site_name" content="Sahana Foundation" />
+<meta property="og:image" content="https://sahanafoundation.org/wp-content/uploads/2016/08/pictographs-image-two.jpg" />
+<meta property="og:image:width" content="2747" />
+<meta property="og:image:height" content="1650" />
+<meta property="og:image:alt" content="Pictographs for Disaster Communication Logo" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@SahanaFOSS" />
+<meta name="twitter:text:title" content="Sahana Foundation" />
+<meta name="twitter:image" content="https://sahanafoundation.org/wp-content/uploads/2016/08/pictographs-image-two.jpg?w=640" />
+<meta name="twitter:image:alt" content="Pictographs for Disaster Communication Logo" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/07/cropped-Sahana_Emblem-Medium-Transparent.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/07/cropped-Sahana_Emblem-Medium-Transparent.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/07/cropped-Sahana_Emblem-Medium-Transparent.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/07/cropped-Sahana_Emblem-Medium-Transparent.png?fit=270%2C270&#038;ssl=1" />
+<style type="text/css" id="wp-custom-css">@media only screen and (max-width: 767px){
+	
+#menu-primary li a,  #menu-secondary li a {
+    color: rgba(255,255,255,.75);
+    background: #1f1f1f;
+    border-color: #1c1c1c;
+	}
+}
+@media only screen and (max-width: 540px){
+
+/* 	 #menu-primary .menu-toggle button , #menu-primary .menu-toggle button:hover, #menu-primary .menu-toggle button:focus  { color:#000;} */
+	
+	#menu-secondary .menu-toggle button {    font-size: 17px;
+    text-transform: capitalize;color:#000;}
+	#menu-primary .menu-items a {
+    color: #ffffff;
+}
+	
+	.custom-background #container>.wrap {float: left;
+    width: 100%;
+	}
+	.font-secondary.label-search { display:block !important;}
+	
+	
+}
+
+.menu ul ul {    z-index: 100;}</style></head>
+
+<body data-rsssl=1 class="wordpress ltr en en-us child-theme y2024 m02 d21 h14 wednesday logged-out custom-background custom-header wp-custom-logo display-header-text home singular singular-page singular-page-23373 page-template-default layout-1c custom-colors mob-menu-slideout-over" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+	<div id="container">
+
+		<div class="skip-link">
+			<a href="#content" class="screen-reader-text">Skip to content</a>
+		</div><!-- .skip-link -->
+
+		
+	<nav class="menu menu-primary" role="navigation" id="menu-primary" aria-label="Primary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+		<h3 id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text">Top Menu</button>
+		</h3><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-23539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23539 menu-item-parent-archive"><a href="https://sahanafoundation.org/contact/">Contact</a></li>
+<li id="menu-item-21836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21836 menu-item-parent-archive"><a href="https://sahanafoundation.org/resources/">Resources</a></li>
+<li id="menu-item-19833" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19833"><a target="_blank" rel="noopener" href="https://www.mightycause.com/organization/Sahana-Software-Foundation">Donate</a></li>
+</ul><form role="search" method="get" class="search-form" action="https://sahanafoundation.org/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></div>
+	</nav><!-- #menu-primary -->
+
+
+		<div class="wrap">
+
+			<header class="site-header" id="header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+				
+					<div id="branding">
+						<a href="https://sahanafoundation.org/" class="custom-logo-link" rel="home" aria-current="page"><img width="78" height="78" src="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2018/02/cropped-Sahana-circle_drop-out.png?fit=78%2C78&amp;ssl=1" class="custom-logo" alt="Sahana Foundation" decoding="async" /></a>
+													<h1 class="site-title" id="site-title" itemprop="headline"><a href="https://sahanafoundation.org" rel="home">Sahana Foundation</a></h1>							<h2 class="site-description" id="site-description" itemprop="description">Open Source Disaster Management Solutions</h2>											</div><!-- #branding -->
+
+				
+				
+	<nav class="menu menu-secondary" role="navigation" id="menu-secondary" aria-label="Secondary Menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+		<h3 id="menu-primary-title" class="menu-toggle">
+			<button class="screen-reader-text">Main Menu</button>
+		</h3><!-- .menu-toggle -->
+
+		<div class="wrap"><ul id="menu-secondary-items" class="menu-items"><li id="menu-item-19173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19173"><a href="#">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-23282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23282 menu-item-parent-archive"><a href="https://sahanafoundation.org/share/">SHARE &#8211; Relief and Rehabilitation</a></li>
+	<li id="menu-item-23283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23283 menu-item-parent-archive"><a href="https://sahanafoundation.org/safire/">SAFIRE &#8211; Incident Management</a></li>
+	<li id="menu-item-23284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23284 menu-item-parent-archive"><a href="https://sahanafoundation.org/sambro/">SAMBRO &#8211; Multi-hazard Early Warning</a></li>
+</ul>
+</li>
+<li id="menu-item-19179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19179"><a href="https://sahanafoundation.org/eden">EDEN Software</a>
+<ul class="sub-menu">
+	<li id="menu-item-19221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19221 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/features/">Features</a></li>
+	<li id="menu-item-23393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23393 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/deployments/">Deployments</a></li>
+	<li id="menu-item-23400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23400 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/providers/">Providers</a></li>
+	<li id="menu-item-23407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23407 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/support/">Support</a></li>
+	<li id="menu-item-19245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19245"><a target="_blank" rel="noopener" href="http://github.com/sahana/eden">Code</a></li>
+	<li id="menu-item-19257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19257"><a target="_blank" rel="noopener" href="http://demo.sahanafoundation.org">Demo</a></li>
+	<li id="menu-item-21876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21876"><a target="_blank" rel="noopener" href="https://github.com/sahana/eden/wiki/Installation-Guides">Install</a></li>
+</ul>
+</li>
+<li id="menu-item-21877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21877 menu-item-parent-archive"><a href="https://sahanafoundation.org/sahana-research-action/">Research &#038; Action</a>
+<ul class="sub-menu">
+	<li id="menu-item-21880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21880 menu-item-parent-archive"><a href="https://sahanafoundation.org/pictographs/">Mobile Pictographs for Disaster Communication</a></li>
+	<li id="menu-item-21879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21879 menu-item-parent-archive"><a href="https://sahanafoundation.org/sambro/">Sahana Alerting and Messaging Broker</a></li>
+	<li id="menu-item-21878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21878 menu-item-parent-archive"><a href="https://sahanafoundation.org/sahana-research-action/cap-on-a-map/">CAP on a Map</a></li>
+	<li id="menu-item-23165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23165 menu-item-parent-archive"><a href="https://sahanafoundation.org/safire/">Sahana First Response</a></li>
+</ul>
+</li>
+<li id="menu-item-19215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19215 menu-item-parent-archive"><a href="https://sahanafoundation.org/blog/">Blog</a></li>
+<li id="menu-item-19311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19311 menu-item-parent-archive"><a href="https://sahanafoundation.org/about/">About</a></li>
+</ul></div>
+	</nav><!-- #menu-secondary -->
+
+
+			</header><!-- #header -->
+
+			
+			<div id="main" class="main">
+
+				
+	
+
+<main class="content" id="content" role="main" itemprop="mainContentOfPage">
+
+	
+	
+		
+			
+			<article class="entry author-devin post-23373 page type-page status-publish" id="post-23373" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+
+	
+		<header class="entry-header">
+			<h1 class="entry-title" itemprop="headline"></h1>
+		</header><!-- .entry-header -->
+
+		<div class="entry-content" itemprop="text">
+			
+<h1 class="has-text-align-center wp-block-heading">Open Source Disaster Management Solutions</h1>
+
+
+
+<p class="has-text-align-center">Sahana makes high quality information management systems for emergency&nbsp;preparedness, response, recovery and resilience-building accessible to all.</p>
+
+
+<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.9.9 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-19317" method="post" data-id="19317" data-name="Newsletter" ><div class="mc4wp-form-fields"><p>
+	<label>Email address: </label>
+	<input type="email" name="EMAIL" placeholder="Your email address" required />
+</p>
+
+<p>
+	<input type="submit" value="Sign up" />
+</p></div><label style="display: none !important;">Leave this field empty if you&#8217;re human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1708527430" /><input type="hidden" name="_mc4wp_form_id" value="19317" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->
+
+<div class="pt-cv-wrapper"><div class="pt-cv-view pt-cv-pinterest pt-cv-colsys pt-cv-shadow pt-cv-bb pt-cv-left pt-cv-mobile pt-cv-mobile-tablet" id="pt-cv-view-5413f363e4"><div data-id="pt-cv-page-1" class="pt-cv-page" data-cvc="3"><div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="23440"><div class='pt-cv-pinmas'><div class="pt-cv-meta-fields"><span class="author"> <a href="https://sahanafoundation.org/author/nuwan/" rel="author">Nuwan Waidyanatha</a></span><span> / </span><span class="entry-date"> <time datetime="2021-11-24T13:42:41+00:00">November 24, 2021</time></span></div>
+<a href="https://sahanafoundation.org/bhutan-workshop/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default cvplbd" target="_self" ><img width="284" height="300" src="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2021/11/data_mapping.png?fit=284%2C300&amp;ssl=1" class="pt-cv-thumbnail img-none no-lazyload " alt="Bhutan Evaluated Sahana Eden as a replacement and enhancement for their Disaster Information System" decoding="async" loading="lazy" data-no-lazy="1" /></a>
+<h4 class="pt-cv-title"><a href="https://sahanafoundation.org/bhutan-workshop/" class="_self cvplbd" target="_self" >Bhutan Evaluated Sahana Eden as a replacement and enhancement for their Disaster Information System</a></h4>
+<div class="pt-cv-content">Bhutan’s Design and Action Plan of the Multi-hazard Risk Assessment Virtual Study Workshop SlidesDownload The Royal Government of Bhutan&#8217;s Department ...</div></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="23298"><div class='pt-cv-pinmas'><div class="pt-cv-meta-fields"><span class="author"> <a href="https://sahanafoundation.org/author/devin/" rel="author">Devin Balkind</a></span><span> / </span><span class="entry-date"> <time datetime="2020-04-23T01:39:28+00:00">April 23, 2020</time></span></div>
+<a href="https://sahanafoundation.org/sahana-eden-used-for-covid-19-responses/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default cvplbd" target="_self" ><img width="300" height="100" src="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2020/04/2871-2560x852-1.png?fit=300%2C100&amp;ssl=1" class="pt-cv-thumbnail img-none no-lazyload " alt="Sahana EDEN Used for COVID-19 Responses" decoding="async" loading="lazy" data-no-lazy="1" /></a>
+<h4 class="pt-cv-title"><a href="https://sahanafoundation.org/sahana-eden-used-for-covid-19-responses/" class="_self cvplbd" target="_self" >Sahana EDEN Used for COVID-19 Responses</a></h4>
+<div class="pt-cv-content">Sahana EDEN is an open source disaster management application enabling effective coordination and resource management, particularly in a coordinated multi-agency ...</div></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="22827"><div class='pt-cv-pinmas'><div class="pt-cv-meta-fields"><span class="author"> <a href="https://sahanafoundation.org/author/devin/" rel="author">Devin Balkind</a></span><span> / </span><span class="entry-date"> <time datetime="2019-01-23T21:38:55+00:00">January 23, 2019</time></span></div>
+<a href="https://sahanafoundation.org/2018-end-of-year-update/" class="_self pt-cv-href-thumbnail pt-cv-thumb-default cvplbd" target="_self" ><img width="300" height="225" src="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2019/01/Untitled-drawing-12.png?fit=300%2C225&amp;ssl=1" class="pt-cv-thumbnail img-none no-lazyload " alt="2018 End of Year Update" decoding="async" loading="lazy" data-no-lazy="1" /></a>
+<h4 class="pt-cv-title"><a href="https://sahanafoundation.org/2018-end-of-year-update/" class="_self cvplbd" target="_self" >2018 End of Year Update</a></h4>
+<div class="pt-cv-content">Sahana Software Foundation had its Annual General Meeting (AGM) on December 5th, 2018 via a 3-hour long conference call. Approximately ...</div></div></div></div></div></div>			<style type="text/css" id="pt-cv-inline-style-25659888xa">#pt-cv-view-5413f363e4.pt-cv-post-border { margin: 0; border-top-width: 1px; border-left-width: 1px }
+#pt-cv-view-5413f363e4.pt-cv-post-border { margin: 0; border-top-style: solid; border-left-style: solid }
+#pt-cv-view-5413f363e4.pt-cv-post-border { margin: 0; border-top-color: #ececec; border-left-color: #ececec }
+#pt-cv-view-5413f363e4.pt-cv-post-border .pt-cv-content-item   { border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; border-right-color: #ececec; border-bottom-color: #ececec; }
+#pt-cv-view-5413f363e4 .pt-cv-title a, #pt-cv-view-5413f363e4  .panel-title { font-weight: 600 !important; }
+#pt-cv-gls-5413f363e4 li a   { font-weight: 600 !important; }
+#pt-cv-gls-5413f363e4 li a.pt-active   { color: #fff !important; background-color: #ff5a5f !important; }
+#pt-cv-view-5413f363e4 { text-align: left; }</style>
+			
+
+
+
+<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="https://sahanafoundation.org/blog/">More News</a></div>
+</div>
+
+
+
+<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="has-text-align-center wp-block-heading">EDEN Software</h2>
+
+
+
+<h4 class="has-text-align-center wp-block-heading">Sahana EDEN is the world&#8217;s most popular open-source information management system for disaster and humanitarian aid management. With over 20 modules, it can support all phases of the emergency cycle.</h4>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-6 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h3 class="has-text-align-center wp-block-heading">Directories</h3>
+
+
+
+<p class="has-text-align-center">Manage details about organizations, offices, facilities, contacts and more.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h3 class="has-text-align-center wp-block-heading">Resources</h3>
+
+
+
+<p class="has-text-align-center">Manage staff, volunteers, physical assets and inventories and supply catalogs.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h3 class="has-text-align-center wp-block-heading">Projects/4W</h3>
+
+
+
+<p class="has-text-align-center">Visualize Who is doing What Where (4W) and with charts, graphs and maps.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<h3 class="has-text-align-center wp-block-heading">Logistics</h3>
+
+
+
+<p class="has-text-align-center">Manage assets, inventories, warehouses and requests for supplies.</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-7 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="https://sahanafoundation.org/eden/">Learn More</a></div>
+</div>
+
+
+
+<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="has-text-align-center wp-block-heading">Research &amp; Action</h2>
+
+
+
+<h4 class="has-text-align-center wp-block-heading">We&nbsp;research methods for&nbsp;reducing the loss of life and property during disasters and turn our insights into open source software solutions&nbsp;for disaster risk reduction and disaster resource management.</h4>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-11 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/pictographs-image-two.jpg?ssl=1"><img decoding="async" width="150" height="150" src="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/pictographs-image-two.jpg?resize=150%2C150&#038;ssl=1" alt="Pictographs for Disaster Communication Logo" class="wp-image-21404" srcset="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/pictographs-image-two.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/pictographs-image-two.jpg?zoom=2&amp;resize=150%2C150&amp;ssl=1 300w, https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/pictographs-image-two.jpg?zoom=3&amp;resize=150%2C150&amp;ssl=1 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a></figure></div>
+
+
+<h3 class="has-text-align-center wp-block-heading"><a href="https://sahanafoundation.org/pictographs/">Mobile Pictographs for Alerting</a></h3>
+
+
+
+<p class="has-text-align-center">Imagery for communicating disaster-related messages to the linguistically challenged.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/09/com_alert_pic_20160929.png?ssl=1"><img decoding="async" width="300" height="129" src="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/09/com_alert_pic_20160929.png?resize=300%2C129&#038;ssl=1" alt="com_alert_pic_20160929" class="wp-image-21638" srcset="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/09/com_alert_pic_20160929.png?resize=300%2C129&amp;ssl=1 300w, https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/09/com_alert_pic_20160929.png?resize=768%2C330&amp;ssl=1 768w, https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/09/com_alert_pic_20160929.png?resize=1024%2C441&amp;ssl=1 1024w, https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/09/com_alert_pic_20160929.png?resize=1025%2C441&amp;ssl=1 1025w, https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/09/com_alert_pic_20160929.png?w=1325&amp;ssl=1 1325w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></figure></div>
+
+
+<h3 class="has-text-align-center wp-block-heading"><a href="https://sahanafoundation.org/sambro">Sahana Alert and Messaging Broker (SAMBRO)</a></h3>
+
+
+
+<p class="has-text-align-center">Warning and situation-awareness system built using the Common Alerting Protocol (CAP) international standard.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image">
+<figure class="aligncenter"><a href="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/ph_geocodes_and_polygons.png?ssl=1"><img decoding="async" width="150" height="150" src="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/ph_geocodes_and_polygons.png?resize=150%2C150&#038;ssl=1" alt="ph_geocodes_and_polygons" class="wp-image-21459" srcset="https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/ph_geocodes_and_polygons.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/08/ph_geocodes_and_polygons.png?zoom=2&amp;resize=150%2C150&amp;ssl=1 300w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a></figure></div>
+
+
+<h3 class="has-text-align-center wp-block-heading"><a href="https://sahanafoundation.org/sahana-research-action/cap-on-a-map/">CAP on a Map</a></h3>
+
+
+
+<p class="has-text-align-center">Improving coastal resilience through a cross-agency situatioanal-awareness platform in Myanmar, Philippines, and Maldives</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-12 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="https://sahanafoundation.org/sahana-research-action/">Learn More</a></div>
+</div>
+
+
+
+<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="has-text-align-center wp-block-heading">About</h2>
+
+
+
+<h4 class="has-text-align-center wp-block-heading">Our community builds open source tools to help people prepare for and respond to disasters.</h4>
+
+
+
+<p class="has-text-align-center">The first version of Sahana was created in Sri Lanka to help coordinate the response to the 2004 Tsunami. Since then&nbsp;it has been&nbsp;deployed in over 30&nbsp;countries by dozens of groups ranging from&nbsp;large international NGOs such as Internal Federation of&nbsp;Red Cross (IFRC) to grassroots networks such as Occupy Sandy.</p>
+
+
+
+<p class="has-text-align-center">As a nonprofit, community-driven&nbsp;free/libre/open-source software project, Sahana&#8217;s success&nbsp;is dependent on a vibrant community of&nbsp;passionate and enthusiastic people.</p>
+
+
+
+<p class="has-text-align-center">To get involved, follow us on <a href="http://twitter.com/sahanafoss">Twitter</a>, join the Sahana EDEN <a href="https://groups.google.com/forum/#!forum/sahana-eden">listserv</a>&nbsp;and read&nbsp;<a href="https://sahanafoundation.org/blog/">our blog</a>.</p>
+
+
+
+<div class="wp-block-buttons has-custom-font-size has-medium-font-size is-horizontal is-content-justification-center is-layout-flex wp-container-13 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="https://sahanafoundation.org/about-us/">Learn More</a></div>
+</div>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+
+	
+</article><!-- .entry -->
+			
+				
+			
+		
+		
+	
+</main><!-- #content -->
+
+				
+			</div><!-- #main -->
+
+			
+		</div><!-- .wrap -->
+
+		<footer class="site-footer" id="footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+
+			<div class="wrap">
+
+				
+				<p class="credit">
+					Copyright &#169; 2024 <a class="site-link" href="https://sahanafoundation.org" rel="home">Sahana Foundation</a>. Powered by <a class="wp-link" href="https://wordpress.org">WordPress</a> and <a class="theme-link" href="https://themehybrid.com/themes/stargazer">Stargazer</a>.				</p><!-- .credit -->
+
+			</div><!-- .wrap -->
+
+		</footer><!-- #footer -->
+
+	</div><!-- #container -->
+
+	<script>(function() {function maybePrefixUrlField () {
+  const value = this.value.trim()
+  if (value !== '' && value.indexOf('http') !== 0) {
+    this.value = 'http://' + value
+  }
+}
+
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+  urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();</script><div class="mobmenu-overlay"></div><div class="mob-menu-header-holder mobmenu"  data-menu-display="mob-menu-slideout-over" data-open-icon="down-open" data-close-icon="up-open"><div class="mob-menu-logo-holder"><a href="https://sahanafoundation.org" class="headertext"><span>Sahana Foundation</span></a></div><div class="mobmenur-container"><a href="#" class="mobmenu-right-bt mobmenu-trigger-action" data-panel-target="mobmenu-right-panel" aria-label="Right Menu Button"><i class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a></div></div>				<div class="mobmenu-right-alignment mobmenu-panel mobmenu-right-panel mobmenu-parent-link ">
+				<a href="#" class="mobmenu-right-bt" aria-label="Right Menu Button"><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+					<div class="mobmenu-content">
+			<div class="menu-mobile-menu-container"><ul id="mobmenuright" class="wp-mobile-menu" role="menubar" aria-label="Main navigation for mobile devices"><li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-23584"><a href="https://sahanafoundation.org/" role="menuitem" class="">Home</a></li><li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23561"><a href="#" role="menuitem" class="">Solutions</a>
+<ul  role='menu' class="sub-menu ">
+	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23569 menu-item-parent-archive"><a href="https://sahanafoundation.org/share/" role="menuitem" class="">Relief</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23570 menu-item-parent-archive"><a href="https://sahanafoundation.org/safire/" role="menuitem" class="">Response</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23571 menu-item-parent-archive"><a href="https://sahanafoundation.org/sambro/" role="menuitem" class="">Alerting</a></li></ul>
+</li><li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23562"><a href="https://sahanafoundation.org/eden" role="menuitem" class="">EDEN Software</a>
+<ul  role='menu' class="sub-menu ">
+	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23572 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/features/" role="menuitem" class="">Features</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23574 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/deployments/" role="menuitem" class="">Deployments</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23573 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/providers/" role="menuitem" class="">Providers</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23575 menu-item-parent-archive"><a href="https://sahanafoundation.org/eden/support/" role="menuitem" class="">Support</a></li>	<li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23579"><a href="http://github.com/sahana/eden" role="menuitem" class="">Code</a></li>	<li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23578"><a href="http://demo.sahanafoundation.org" role="menuitem" class="">Demo</a></li>	<li role="none"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23577"><a href="https://github.com/sahana/eden/wiki/Installation-Guides" role="menuitem" class="">Install</a></li></ul>
+</li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-23563 menu-item-parent-archive"><a href="https://sahanafoundation.org/sahana-research-action/" role="menuitem" class="">Research &#038; Action</a>
+<ul  role='menu' class="sub-menu ">
+	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23582 menu-item-parent-archive"><a href="https://sahanafoundation.org/pictographs/" role="menuitem" class="">Mobile Pictographs</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23581 menu-item-parent-archive"><a href="https://sahanafoundation.org/sambro/" role="menuitem" class="">Alerting and Messaging</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23583 menu-item-parent-archive"><a href="https://sahanafoundation.org/sahana-research-action/cap-on-a-map/" role="menuitem" class="">CAP on a Map</a></li>	<li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23580 menu-item-parent-archive"><a href="https://sahanafoundation.org/safire/" role="menuitem" class="">First Response</a></li></ul>
+</li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23564 menu-item-parent-archive"><a href="https://sahanafoundation.org/blog/" role="menuitem" class="">Blog</a></li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23568 menu-item-parent-archive"><a href="https://sahanafoundation.org/about/" role="menuitem" class="">About</a></li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23565 menu-item-parent-archive"><a href="https://sahanafoundation.org/resources/" role="menuitem" class="">Resources</a></li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23567 menu-item-parent-archive"><a href="https://sahanafoundation.org/donate/" role="menuitem" class="">Donate</a></li><li role="none"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23566 menu-item-parent-archive"><a href="https://sahanafoundation.org/contact/" role="menuitem" class="">Contact Us</a></li></ul></div>
+			</div><div class="mob-menu-right-bg-holder"></div></div>
+
+		<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-1.wp-container-1,.wp-container-7.wp-container-7,.wp-container-12.wp-container-12,.wp-container-13.wp-container-13{justify-content:center;}.wp-container-6.wp-container-6,.wp-container-11.wp-container-11,.wp-container-16.wp-container-16,.wp-container-19.wp-container-19,.wp-container-22.wp-container-22,.wp-container-25.wp-container-25{flex-wrap:nowrap;}
+</style>
+<script type='text/javascript' src='https://sahanafoundation.org/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-image-cdn/dist/image-cdn.js?minify=false&#038;ver=132249e245926ae3e188' id='jetpack-photon-js'></script>
+<script type='text/javascript' id='pt-cv-content-views-script-js-extra'>
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"1c3a1cf318","is_admin":"","is_mobile":"1","ajaxurl":"https:\/\/sahanafoundation.org\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"1","sf_no_post_found":"No posts found."};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sahanafoundation.org/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js' id='pt-cv-content-views-script-js'></script>
+<script type='text/javascript' src='https://sahanafoundation.org/wp-content/plugins/pt-content-views-pro/public/assets/js/cvpro.min.js' id='pt-cv-public-pro-script-js'></script>
+<script type='text/javascript' id='stargazer-js-extra'>
+/* <![CDATA[ */
+var stargazer_i18n = {"search_toggle":"Expand Search Form"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sahanafoundation.org/wp-content/themes/stargazer/js/stargazer.min.js' id='stargazer-js'></script>
+<script defer type='text/javascript' src='https://stats.wp.com/e-202408.js' id='jetpack-stats-js'></script>
+<script id="jetpack-stats-js-after" type="text/javascript">
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'112198017',post:'23373',tz:'0',srv:'sahanafoundation.org',j:'1:12.7.1'} ]);
+_stq.push([ "clickTrackerInit", "112198017", "23373" ]);
+</script>
+<script type='text/javascript' src='https://sahanafoundation.org/wp-includes/blocks/file/view.min.js' id='wp-block-file-view-js'></script>
+<script type='text/javascript' defer src='https://sahanafoundation.org/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js' id='mc4wp-forms-api-js'></script>
+
+</body>
+</html>
+
+<!-- Page cached by LiteSpeed Cache 5.7.0.1 on 2024-02-21 14:57:10 -->

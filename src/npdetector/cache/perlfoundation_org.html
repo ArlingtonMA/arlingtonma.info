@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Perl and Raku Foundation - Home</title><meta property="og:site_name" content="The Perl and Raku Foundation" />
+<meta property="og:title" content="The Perl and Raku Foundation" />
+<meta property="og:description" content="The Perl Foundation is dedicated to the advancement of the Perl and Raku programming language. We seek to do this through open discussion, collaboration, design, and code." />
+<meta property="og:image" content="https://www.perlfoundation.org/uploads/1/0/6/6/106663517/2023-prospectus-cover_orig.png" />
+<meta property="og:image" content="https://www.perlfoundation.org/uploads/1/0/6/6/106663517/tprf-lolo.png" />
+<meta property="og:url" content="https://www.perlfoundation.org/" />
+
+<meta name="description" content="The Perl Foundation is dedicated to the advancement of the Perl and Raku programming language. We seek to do this through open discussion, collaboration, design, and code." />
+<meta name="keywords" content="Perl, Raku, Perl Foundation, perl.com, PerlMonks, Perl Mongers, perl, RakuLang, CPAN, CPAN Testers" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+
+		<meta name="google-site-verification" content="P4O_PWMaK0-GhWVDvGXJFY9AeYP2CiBNgpzIrVgsj9U" />
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/sites.css?buildTime=1708642126" />
+<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/old/fancybox.css?1708642126" />
+<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/social-icons.css?buildtime=1708642126" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="/files/main_style.css?1708644444" title="wsite-theme-css" />
+<link href='//cdn2.editmysite.com/fonts/Roboto/font.css?2' rel='stylesheet' type='text/css' />
+
+<link href='//cdn2.editmysite.com/fonts/Droid_Serif/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Lato/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Lato/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Lato/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Lato/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Lato/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Lato/font.css?2' rel='stylesheet' type='text/css' />
+<link href='//cdn2.editmysite.com/fonts/Lato/font.css?2' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Droid Serif" !important;font-weight:400 !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#6b6767 !important;}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{font-family:"Lato" !important;}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Lato" !important;text-transform:  uppercase !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {color:#2b2b2b !important;}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{font-family:"Lato" !important;font-weight:700 !important;color:#2a2a2a !important;text-transform:  uppercase !important;letter-spacing: 5px !important;}
+#wsite-title {font-family:"Lato" !important;color:#2a2a2a !important;letter-spacing: 5px !important;}
+.wsite-menu-default a {font-family:"Lato" !important;font-weight:700 !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Lato" !important;font-weight:700 !important;font-style:normal !important;text-transform:  uppercase !important;letter-spacing: 5px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Lato" !important;font-weight:700 !important;text-transform:  uppercase !important;letter-spacing: 5px !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:16px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{font-size:16px !important;}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:39px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{font-size:25px !important;}
+#wsite-title {font-size:22px !important;}
+.wsite-menu-default a {font-size:12px !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-size:56px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-size:16px !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+<style>
+.wsite-background {background-image: url("/uploads/1/0/6/6/106663517/background-images/1955191062.png") !important;background-repeat: no-repeat !important;background-position: 50.00% 76.08% !important;background-size: 100% !important;background-color: transparent !important;}
+body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
+</style>
+		<script src='/files/templateArtifacts.js?1708644444'></script>
+<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://cdn2.editmysite.com/js/jquery-1.8.3.min.js'></script>
+
+<script type="text/javascript" src="//cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1708642126&"></script>
+<script src="//cdn2.editmysite.com/js/site/main.js?buildTime=1708642126"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='www.perlfoundation.org'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.isCheckoutReskin = false;
+			_W.storeCountry = "US";
+			_W.storeCurrency = "USD";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "267847062289563896";
+			com_userID = "106663517";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="//cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1708642126&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+	
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"632516864137612917","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"441770730136854695","title":"About","url":"about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"141229480777642703","title":"Donate","url":"donate.html","target":"","nav_menu":false,"nonclickable":false},{"id":"593617131839025872","title":"Grants","url":"grants.html","target":"","nav_menu":false,"nonclickable":false},{"id":"919835917833688242","title":"Events","url":"events.html","target":"","nav_menu":false,"nonclickable":true},{"id":"523642763829665946","title":"Legal","url":"legal.html","target":"","nav_menu":false,"nonclickable":false},{"id":"131049953426404418","title":"Charters","url":"charters.html","target":"","nav_menu":false,"nonclickable":true},{"id":"338362002881054111","title":"Project Support","url":"project-support.html","target":"","nav_menu":false,"nonclickable":false},{"id":"241978056148874506","title":"Download","url":"download.html","target":"","nav_menu":false,"nonclickable":false},{"id":"346255931368235237","title":"Perl Merchandise","url":"https:\/\/the-perl-store.creator-spring.com\/","target":"_blank","nav_menu":false,"nonclickable":false}],
+			"632516864137612917",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		<script type="text/javascript">(function(d,s,id){var z=d.createElement(s);z.type="text/javascript";z.id=id;z.async=true;z.src="//static.zotabox.com/6/9/6972ea4fe8e76a20caa3b853ee786fd5/widgets.js";var sz=d.getElementsByTagName(s)[0];sz.parentNode.insertBefore(z,sz)}(document,"script","zb-embed-code"));</script>
+	</head>
+	<body class="header-page  wsite-theme-light  wsite-page-index full-width-on "><div id="banner-wrap">
+		<div id="header-wrap">
+			<div id="header" class="container">
+				<label id="nav-trigger" class="hamburger" for="mobile-input"><span></span></label>
+				<h1 id="logo"><span class="wsite-logo">
+
+	<a href="/">
+		<img src="/uploads/1/0/6/6/106663517/tprf-lolo.png" alt="The Perl and Raku Foundation" />
+	</a>
+
+</span></h1>
+				<div id="nav"><ul class="wsite-menu-default">
+		<li id="active" class="wsite-menu-item-wrap">
+			<a
+						href="/"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg441770730136854695" class="wsite-menu-item-wrap">
+			<a
+						href="/about.html"
+				class="wsite-menu-item"
+				>
+				About
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-696881807871332297"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="http://news.perlfoundation.org/"
+			target="_blank"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			News
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-999243058279707623"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/the-board.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			The Board
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-798663671140485593"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/advisory_board.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Advisory Board
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-825097680248478158"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/committees.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Committees
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-786403911205519100"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/get-involved.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Get Involved
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg141229480777642703" class="wsite-menu-item-wrap">
+			<a
+						href="/donate.html"
+				class="wsite-menu-item"
+				>
+				Donate
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-853293644700131044"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/our-donors.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Our Donors
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-480682936755249017"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/payments.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Payments
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-359709388143155080"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/how-do-sponsors-benefit.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			How Do Sponsors Benefit?
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg593617131839025872" class="wsite-menu-item-wrap">
+			<a
+						href="/grants.html"
+				class="wsite-menu-item"
+				>
+				Grants
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-623554429996206129"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/running-grants.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Running Grants
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-426576390751414541"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grants-committee1.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grants Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-647551349346688432"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grant-benefits.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grant Benefits
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-484787220911669659"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grant-ideas.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grant Ideas
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-870533988372697600"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/how-to-write-a-proposal.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			How to Write a Proposal
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-406698474504002071"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/perl-core-development-fund.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Perl Core Development Fund
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-915459475536365959"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/raku-development-fund.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Raku Development Fund
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg919835917833688242" class="wsite-menu-item-wrap">
+			<a
+				class="wsite-menu-item"
+				>
+				Events
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-865724749848427498"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/the-perl--raku-conference.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			The Perl & Raku Conference
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-573692452243131943"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="http://www.yapceurope.org/"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			YAPC Europe
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg523642763829665946" class="wsite-menu-item-wrap">
+			<a
+						href="/legal.html"
+				class="wsite-menu-item"
+				>
+				Legal
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-139991432270523999"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/articles.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Articles
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-138169345397324593"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/trademarks.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Trademarks
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-333256959930786957"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/license-faq.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			License FAQ
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-448640062263022242"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/artistic-license-20.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Artistic License 2.0
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-498750000400869298"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/artistic-notes-20.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Artistic Notes 2.0
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-951640468742356676"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/artistic-license-10.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Artistic License 1.0
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-385659537331327326"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/cpan-licensing-guidelines.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			CPAN Licensing Guidelines
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-597189720547374027"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/contributor-license-agreement.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Contributor License Agreement
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-606381174153017735"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/conflict-of-interest-policy.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Conflict of Interest Policy
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-544648756838580743"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/irs-filings.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			IRS Filings
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg131049953426404418" class="wsite-menu-item-wrap">
+			<a
+				class="wsite-menu-item"
+				>
+				Charters
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-362730510105530197"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/marketing-committee.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Marketing Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-937603049741354764"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grants-committee.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grants Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-808067506104718532"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/community-advocacy-committee.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Community Advocacy Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-295725319501646212"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/bylaws.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Bylaws
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg338362002881054111" class="wsite-menu-item-wrap">
+			<a
+						href="/project-support.html"
+				class="wsite-menu-item"
+				>
+				Project Support
+			</a>
+			
+		</li>
+		<li id="pg241978056148874506" class="wsite-menu-item-wrap">
+			<a
+						href="/download.html"
+				class="wsite-menu-item"
+				>
+				Download
+			</a>
+			
+		</li>
+		<li id="pg346255931368235237" class="wsite-menu-item-wrap">
+			<a
+						href="https://the-perl-store.creator-spring.com/"
+					target="_blank"
+				class="wsite-menu-item"
+				>
+				Perl Merchandise
+			</a>
+			
+		</li>
+</ul>
+</div>
+			</div>
+			<div id="mobile-nav" class="container">
+				<ul class="wsite-menu-default">
+						<li id="active" class="wsite-menu-item-wrap">
+							<a
+										href="/"
+								class="wsite-menu-item"
+								>
+								Home
+							</a>
+							
+						</li>
+						<li id="pg441770730136854695" class="wsite-menu-item-wrap">
+							<a
+										href="/about.html"
+								class="wsite-menu-item"
+								>
+								About
+							</a>
+							<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-696881807871332297"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="http://news.perlfoundation.org/"
+			target="_blank"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			News
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-999243058279707623"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/the-board.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			The Board
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-798663671140485593"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/advisory_board.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Advisory Board
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-825097680248478158"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/committees.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Committees
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-786403911205519100"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/get-involved.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Get Involved
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+						</li>
+						<li id="pg141229480777642703" class="wsite-menu-item-wrap">
+							<a
+										href="/donate.html"
+								class="wsite-menu-item"
+								>
+								Donate
+							</a>
+							<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-853293644700131044"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/our-donors.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Our Donors
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-480682936755249017"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/payments.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Payments
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-359709388143155080"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/how-do-sponsors-benefit.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			How Do Sponsors Benefit?
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+						</li>
+						<li id="pg593617131839025872" class="wsite-menu-item-wrap">
+							<a
+										href="/grants.html"
+								class="wsite-menu-item"
+								>
+								Grants
+							</a>
+							<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-623554429996206129"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/running-grants.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Running Grants
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-426576390751414541"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grants-committee1.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grants Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-647551349346688432"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grant-benefits.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grant Benefits
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-484787220911669659"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grant-ideas.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grant Ideas
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-870533988372697600"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/how-to-write-a-proposal.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			How to Write a Proposal
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-406698474504002071"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/perl-core-development-fund.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Perl Core Development Fund
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-915459475536365959"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/raku-development-fund.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Raku Development Fund
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+						</li>
+						<li id="pg919835917833688242" class="wsite-menu-item-wrap">
+							<a
+								class="wsite-menu-item"
+								>
+								Events
+							</a>
+							<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-865724749848427498"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/the-perl--raku-conference.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			The Perl & Raku Conference
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-573692452243131943"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="http://www.yapceurope.org/"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			YAPC Europe
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+						</li>
+						<li id="pg523642763829665946" class="wsite-menu-item-wrap">
+							<a
+										href="/legal.html"
+								class="wsite-menu-item"
+								>
+								Legal
+							</a>
+							<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-139991432270523999"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/articles.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Articles
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-138169345397324593"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/trademarks.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Trademarks
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-333256959930786957"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/license-faq.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			License FAQ
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-448640062263022242"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/artistic-license-20.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Artistic License 2.0
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-498750000400869298"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/artistic-notes-20.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Artistic Notes 2.0
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-951640468742356676"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/artistic-license-10.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Artistic License 1.0
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-385659537331327326"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/cpan-licensing-guidelines.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			CPAN Licensing Guidelines
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-597189720547374027"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/contributor-license-agreement.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Contributor License Agreement
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-606381174153017735"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/conflict-of-interest-policy.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Conflict of Interest Policy
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-544648756838580743"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/irs-filings.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			IRS Filings
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+						</li>
+						<li id="pg131049953426404418" class="wsite-menu-item-wrap">
+							<a
+								class="wsite-menu-item"
+								>
+								Charters
+							</a>
+							<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-362730510105530197"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/marketing-committee.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Marketing Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-937603049741354764"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/grants-committee.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Grants Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-808067506104718532"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/community-advocacy-committee.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Community Advocacy Committee
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-295725319501646212"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="/bylaws.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Bylaws
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+						</li>
+						<li id="pg338362002881054111" class="wsite-menu-item-wrap">
+							<a
+										href="/project-support.html"
+								class="wsite-menu-item"
+								>
+								Project Support
+							</a>
+							
+						</li>
+						<li id="pg241978056148874506" class="wsite-menu-item-wrap">
+							<a
+										href="/download.html"
+								class="wsite-menu-item"
+								>
+								Download
+							</a>
+							
+						</li>
+						<li id="pg346255931368235237" class="wsite-menu-item-wrap">
+							<a
+										href="https://the-perl-store.creator-spring.com/"
+									target="_blank"
+								class="wsite-menu-item"
+								>
+								Perl Merchandise
+							</a>
+							
+						</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="wsite-elements wsite-not-footer wsite-header-elements">
+	<div class="wsite-section-wrap">
+	<div  class="wsite-section wsite-header-section wsite-section-bg-image wsite-section-effect-parallax" style="vertical-align: middle;height: 370px;background-image: url(&quot;/uploads/1/0/6/6/106663517/background-images/816209396.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50.00% 8.33% ;background-size: 100% ;background-color: transparent ;background-size: cover;background-attachment: fixed;" >
+		<div class="wsite-section-content">
+			
+			<div id="banner" class="container">
+				<div class="wsite-section-elements">
+					<h2 class="wsite-content-title">The Perl &amp; Raku Foundation</h2>
+
+<div class="wsite-spacer" style="height:28px;"></div>
+
+<div class="paragraph">&#8203;THE PERL &amp; Raku FOUNDATION IS DEDICATED TO THE ADVANCEMENT OF THE PERL and Raku PROGRAMMING LANGUAGEs. THROUGH OPEN DISCUSSION, COLLABORATION, DESIGN, AND CODE.</div>
+
+<div style="text-align:inherit;"><div style="height:10px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-twitter' href='https://twitter.com/perlfoundation' target='_blank' alt='Twitter' aria-label='Twitter'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-facebook' href='https://www.facebook.com/tpf.perl/' target='_blank' alt='Facebook' aria-label='Facebook'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-instagram' href='https://www.instagram.com/perl_events/' target='_blank' alt='Instagram' aria-label='Instagram'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-youtube' href='https://www.youtube.com/channel/UCd9Fs_oZBMmTUWKJKuR_qdg/videos' target='_blank' alt='Youtube' aria-label='Youtube'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-linkedin' href='https://www.linkedin.com/groups/39178/' target='_blank' alt='Linkedin' aria-label='Linkedin'><span class='wsite-social-item-inner'></span></a></span>
+<div style="height:10px;overflow:hidden"></div></div>
+				</div>
+			</div>
+		
+		</div>
+		<div class=""></div>
+	</div>
+</div>
+
+</div>
+
+	</div>
+
+	<div id="main-wrap">
+		<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-background-107 wsite-custom-background" style="height: auto;" >
+		<div class="wsite-section-content">
+			<div class="container">
+			<div class="wsite-section-elements">
+				<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:20.30303030303%; padding:0 15px;">
+					
+						
+
+<h2 class="wsite-content-title" style="text-align:center;"><font size="5"><strong>get STARTED</strong></font><br /><font size="4">&#8203;</font><span style="color:rgb(107, 103, 103)">&#8203;</span><font size="4"><a href="https://perl.org/get.html" target="_blank">Perl</a><br /><a href="https://www.raku.org/" target="_blank">RAKU</a></font></h2>
+
+<div style="text-align:center;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="https://www.z2systems.com/np/clients/perlfoundation/donation.jsp" target="_blank">
+<span class="wsite-button-inner">Donate</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;">&#8203;<strong><font size="5">Affiliates</font></strong><br /><font size="4"><a href="https://www.perl.com" target="_blank">Perl.com</a><br /><a href="https://www.perl.org/" target="_blank">Perl.org</a><br /><a href="https://the-perl-store.creator-spring.com/" target="_blank">Perl Merch</a><br /><a href="https://www.raku.org" target="_blank">RAKU</a><br /><a href="https://www.freewear.org/PerlandRaku" target="_blank">Raku Merch</a><br /><a href="https://jobs.perl.org/" target="_blank">Perl Jobs</a><br /><a href="https://www.pm.org" target="_blank">Perl Mongers</a><br /><a href="https://www.perlmonks.org" target="_blank">PerlMonks</a><br /><a href="https://www.cpan.org/" target="_blank">CPAN</a></font></h2>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:79.69696969697%; padding:0 15px;">
+					
+						
+
+<h2 class="wsite-content-title"><font size="5">Latest News</font></h2>
+
+<div><div id="575431160844922286" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="85484/"></script> <!-- end feedwind code --></div>
+
+
+
+</div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><font size="5">&#8203;Funding Perl and Raku development - check out the brand new prospectus</font></h2>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<a href='https://drive.google.com/file/d/1iqY75HfJXKAJk7GorahpohFkj1biJ8nX/view?usp=sharing' target='_blank'>
+<img src="/uploads/1/0/6/6/106663517/2023-prospectus-cover_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph" style="text-align:left;">The Perl Foundation accepts donations from organizations that depend on Perl or Raku, and from individuals who love programming with the Perl or Raku languages.&nbsp;Our desire is to build a strong, healthy and sustainable language ecosystem and community.<br /><br />If you use Perl or Raku to support your business, or as a hobby, your donation will help fund projects and events that support continued development.</div>
+
+<div style="text-align:right;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="/donate.html" >
+<span class="wsite-button-inner">Donate</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><font size="5">Grants</font></h2>
+
+<div class="paragraph" style="text-align:left;">Our grant programs help fund development of open source projects to benefit Perl, Raku and the broader Community. These grants are funded by donations and help support open source developers.&nbsp;</div>
+
+<div style="text-align:right;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="/grants.html" >
+<span class="wsite-button-inner">TPF Grants</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;"><font size="5">Events</font></h2>
+
+<div class="paragraph" style="text-align:left;">Open source development is driven by in-person events where developers share ideas, code, and have fun.<br /><br />The Foundation helps to sponsor many events, worldwide, each year. Take a look at the schedule and join us at an event soon.</div>
+
+<div style="text-align:right;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="/the-perl--raku-conference.html" >
+<span class="wsite-button-inner">TPF Events</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+
+</div>
+
+	</div>
+
+	<div id="footer-wrap">
+		<div class="container"><div class='wsite-elements wsite-footer'>
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:49.190938511327%; padding:0 15px;">
+					
+						
+
+<h2 class="wsite-content-title"><span style="color:rgb(85, 85, 85)"><font size="2">Yet Another Society</font><br /><font size="1">(DBA) The Perl And Raku Foundation</font></span><br /><span style="color:rgb(85, 85, 85)"><font size="1">440 N Barranca Ave<br />#6055 Covina, CA<br />91723 UNITED STATES<br /><br />email:<a href="mailto:hello@perlfoundation.org"> hello@perlfoundation.org</a></font></span></h2>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50.809061488672%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;">Donations keep the Perl &amp; Raku Foundation alive and we appreciate all of our donors, past, present, and future.<br /><br />&#8203;You can donate online or send a check with your contribution.<br />&#8203;Click Donate to get started.</div>
+
+<div style="text-align:right;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-highlight" href="https://www.z2systems.com/np/clients/perlfoundation/donation.jsp" target="_blank">
+<span class="wsite-button-inner"><font size="3">Donate</font></span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div id="818395516432445510"><div><style type="text/css">
+	
+</style><div id="element-0691ad0d-3fcf-44a7-9165-88312e4d152f" data-platform-element-id="155433481699324443-1.2.1" class="platform-element-contents">
+	<div class='powr-social-media-icons' label='weebly_'></div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement818395516432445510() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "155433481699324443-1.2.1";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = /**
+ * This is required for element rendering to be possible
+ * @type {PlatformElement}
+ */
+(function(){
+	var debug_mode = false;
+	var env = 'production'; // local, staging, production
+	function debug(){
+	    if(debug_mode){
+				return console.log.bind(window.console);
+			}else{
+				return function(){}
+			}
+	}
+	var MyElement = PlatformElement.extend({
+		initialize: function(){
+			//ee = this;
+
+			//Set the label
+			var label = 'weebly_'+this.site_id+'_'+this.element_id; //Set label using element id
+			jQuery('#element-'+this.element_id+' div').each(function(){
+                var powr_class = jQuery(this).data('class'); //Get the class
+                jQuery(this).attr('label',label).addClass(powr_class);
+            });
+
+			//Write script
+	        var powr_token = 'weebly_'+this.site_id;
+					switch(env){
+						case 'local':
+							var js_url = 'https://localhost:3000/powr_local.js'; break;
+						case 'staging':
+							var js_url = '//www.powr-staging.io/powr_staging.js'; break;
+						case 'production':
+							var js_url = '//www.powr.io/powr.js'; break;
+					}
+	        var d = document;
+	        var js, id = 'powr-js', ref = d.getElementsByTagName('script')[0];
+	        if (!d.getElementById(id)){
+	          js = d.createElement('script'); js.id = id; js.async = true;
+	          js.src = js_url;
+	          js.setAttribute('powr-token',powr_token);
+	          js.setAttribute('external-type','weebly-integrated');
+	          ref.parentNode.insertBefore(js, ref);
+	        }
+	        //Load POWR
+	        if( typeof loadPowr != 'undefined' ){
+		      loadPowr();
+            }
+		}
+	});
+	if (debug_mode){
+		if(typeof POWR_ELEMENTS == 'undefined'){
+			POWR_ELEMENTS = [];
+		}
+		POWR_ELEMENTS.push(MyElement);
+	}
+	return MyElement;
+})();
+;
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"user_label":"Enter a Label"});
+			_Element.prototype.settings.page_element_id = "818395516432445510";
+
+			_Element.prototype.element_id = "0691ad0d-3fcf-44a7-9165-88312e4d152f";
+			_Element.prototype.user_id = "106663517";
+			_Element.prototype.site_id = "267847062289563896";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/uploads/b/marketplace-elements-155433481699324443-1.2.1/assets/";
+			new _Element({
+				el: '#element-0691ad0d-3fcf-44a7-9165-88312e4d152f'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement818395516432445510();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement818395516432445510, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement818395516432445510();
+		}
+	});
+}
+
+</script></div></div></div></div>
+	</div>
+
+	<script type="text/javascript" src="/files/theme/plugins.js?1544037231"></script>
+	<script type="text/javascript" src="/files/theme/custom.js?1544037231"></script>
+
+    <div id="customer-accounts-app"></div>
+    <script src="//cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1708642126"></script>
+
+		<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-7870337-1']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		// NOTE: keep the [1] if you replace this code. Otherwise cookie banner scripts won't be first on the page
+		var s = document.getElementsByTagName('script')[1]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	_W.Analytics = _W.Analytics || {'trackers': {}};
+	_W.Analytics.trackers.wGA = '_gaq';
+</script>
+
+<script type="text/javascript" async=1>
+	// NOTE: keep the getElementsByTagName(o)**[1]** if you replace this code. Otherwise cookie banner scripts won't be first on the page
+	;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[1];n.async=1;
+			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
+
+	var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
+	var snPlObR = function(arr) {
+		var s = '';
+		for (var i = 0 ; i < arr.length ; i++){
+			s = s + String.fromCharCode(arr[i]);
+		}
+		return s;
+	};
+	var s = snPlObR(r);
+
+	var regEx = new RegExp(s);
+
+	_W.Analytics = _W.Analytics || {'trackers': {}};
+	_W.Analytics.trackers.wSP = 'snowday';
+	_W.Analytics.user_id = '106663517';
+	_W.Analytics.site_id = '267847062289563896';
+
+	var drSegmentsTag = document.getElementById('drSegments');
+	if (drSegmentsTag) {
+		_W.Analytics.spContexts = _W.Analytics.spContexts || [];
+
+		var segmentData = JSON.parse(drSegmentsTag.innerText);
+		segmentData.forEach(function(test) {
+			_W.Analytics.spContexts.push({
+				schema: "iglu:com.weebly/context_ab_segment/jsonschema/1-0-0",
+				data: {
+					test_id: test.name,
+					segment: test.variant,
+				}
+			});
+		});
+	}
+
+
+	(function(app_id, ec_hostname, discover_root_domain) {
+		var track = window[_W.Analytics.trackers.wSP];
+		if (!track) return;
+		track('newTracker', app_id, ec_hostname, {
+			appId: app_id,
+			post: true,
+			platform: 'web',
+			discoverRootDomain: discover_root_domain,
+			cookieName: '_snow_',
+			contexts: {
+				webPage: true,
+				performanceTiming: true,
+				gaCookies: true
+			},
+			crossDomainLinker: function (linkElement) {
+				return regEx.test(linkElement.href);
+			},
+			respectDoNotTrack: true
+		});
+		track('trackPageView', _W.Analytics.user_id+':'+_W.Analytics.site_id, _W.Analytics.spContexts);
+		track('crossDomainLinker', function (linkElement) {
+			return regEx.test(linkElement.href);
+		});
+	})(
+		'_wn',
+		'ec.editmysite.com',
+		true
+	);
+</script>
+
+
+
+
+
+<script>
+	(function(jQuery) {
+		try {
+			if (jQuery) {
+				jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
+				var $commentFrame = jQuery('#commentArea iframe');
+				if ($commentFrame.length > 0) {
+					var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
+					$commentFrame.css('min-height', frameHeight + 'px');
+				}
+				if (jQuery('.product-button').length > 0){
+					jQuery(document).ready(function(){
+						jQuery('.product-button').parent().each(function(index, product){
+							if(jQuery(product).attr('target') == 'paypal'){
+								if (!jQuery(product).find('> [name="bn"]').length){
+									jQuery('<input>').attr({
+										type: 'hidden',
+										name: 'bn',
+										value: 'DragAndDropBuil_SP_EC'
+									}).appendTo(product);
+								}
+							}
+						});
+					});
+				}
+			}
+			else {
+				// Prototype
+				$$('div.blog-social div.fb-like').each(function(div) {
+					div.className = 'blog-social-item blog-fb-like';
+				});
+				$$('#commentArea iframe').each(function(iframe) {
+					iframe.style.minHeight = '410px';
+				});
+			}
+		}
+		catch(ex) {}
+	})(window._W && _W.jQuery);
+</script>
+
+<script>
+	window._W.isEUUser = false;
+	window._W.showCookieToAll = "";
+</script>
+
+<script>
+	(function(jQuery) {
+		try {
+			function forceShowCcLinks() {
+				var ccLinks = document.querySelector('.cc_links');
+				if (!ccLinks) {
+					return;
+				}
+
+				var ccLinksVisible = jQuery(ccLinks).is(':visible');
+				if (ccLinksVisible) {
+					return;
+				}
+
+
+				ccLinks.style.display = 'block';
+
+				var ccParent = ccLinks.parentElement;
+
+				var ccParentVisible = jQuery(ccParent).is(':visible');
+				if (ccParentVisible) {
+					return;
+				}
+
+				ccParent.style.display = 'block';
+
+				var ccGrandparent = ccParent.parentElement;
+				var ccGrandparentVisible = jQuery(ccGrandparent).is(':visible');
+				if (ccGrandparentVisible) {
+					return;
+				}
+				ccGrandparent.style.display = 'block';
+
+			}
+
+			function forceShowCcLinksForever() {
+				var tenSeconds = 10000;
+				forceShowCcLinks();
+				setTimeout(forceShowCcLinksForever, tenSeconds);
+			}
+
+			jQuery(document).ready(forceShowCcLinksForever);
+		}
+		catch(ex) {}
+	})(window._W && _W.jQuery);
+</script>
+
+
+	</body>
+</html>

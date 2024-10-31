@@ -4,6 +4,19 @@ title: Comparable Town Expenses By Department (prototype)
 classes: wide
 ---
 
+<!-- Debugging various dataset where clauses using GH pages versions -->
+{% assign town = 'Bedford' %}
+{{ town | inspect }}
+{% assign table = site.data.demographics.ma-dls-incomepercapita-2023 %}
+{% assign row = table | where: "Municipality", town %}
+{{ row | inspect }}
+{% assign population = table[0]["Population"] %}
+DEBUG1: {{ population | inspect }}
+DEBUG2: {{ population | plus: 0 }}
+DEBUG3: {{ population | to_i }}
+DEBUG2: {{ population | integer }}
+DEBUG2: {{ population | decimal }}
+
 <!-- Load d3/c3 resources TODO: move to header -->
 <link href="/assets/css/c3.css" rel="stylesheet">
 <script src="/assets/js/d3.min.js" charset="utf-8"></script>

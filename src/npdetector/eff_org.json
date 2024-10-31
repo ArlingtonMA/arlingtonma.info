@@ -1,0 +1,73 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Electronic Frontier Foundation | Defending your rights in the digital world",
+    "titleog": "Electronic Frontier Foundation",
+    "descriptionog": "Defending your rights in the digital world",
+    "twitter": "@eff",
+    "generator": [
+      "Drupal 7 (http://drupal.org)"
+    ],
+    "canonical": "https://www.eff.org/",
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://eff.org/about"
+    ],
+    "contactlinks": [
+      "https://eff.org/about/contact"
+    ],
+    "securitylinks": [
+      "https://eff.org/issues/security",
+      "https://eff.org/security"
+    ],
+    "eventlinks": [
+      "https://eff.org/updates?type=event"
+    ],
+    "donatelinks": [
+      "https://supporters.eff.org/donate/join-eff-today",
+      "https://supporters.eff.org/donate/site-m--h",
+      "https://supporters.eff.org/donate/site-m--m",
+      "https://supporters.eff.org/donate/button"
+    ],
+    "brandlinks": [
+      "https://eff.org/pages/trademark-and-brand-usage-policy"
+    ],
+    "policylinks": [
+      "https://eff.org/policy"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "The leading nonprofit defending",
+      "The leading nonprofit defending digital privacy, free speech, and innovation."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "eff",
+  "website": "https://eff.org",
+  "commonName": "Electronic Frontier Foundation",
+  "legalName": "Electronic Frontier Foundation",
+  "location": "US",
+  "state": "CA",
+  "taxID": "04-3091431",
+  "newEngland": "fb936b7368"
+}

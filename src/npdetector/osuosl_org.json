@@ -1,0 +1,65 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "OSU Open Source Lab | Oregon State University",
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://osuosl.org/about"
+    ],
+    "contactlinks": [
+      "https://osuosl.org/contact"
+    ],
+    "donatelinks": [
+      "https://osuosl.org/donate"
+    ],
+    "sponsorlinks": [
+      "https://osuosl.org/sponsors"
+    ],
+    "projectlinks": [
+      "https://osuosl.org/communities",
+      "https://osuosl.org/services/aarch64/current-projects",
+      "https://osuosl.org/services/aarch64/former-projects",
+      "https://osuosl.org/services/powerdev/current-projects",
+      "https://osuosl.org/services/powerdev/former-projects"
+    ],
+    "policylinks": [
+      "https://osuosl.org/services/hosting/policy"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "The Open Source Lab is a nonprofit organization working for the advancement of\nopen source technologies."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "osuosl",
+  "website": "https://osuosl.org",
+  "commonName": "Oregon State University Open Source Lab Alliance",
+  "legalName": "Oregon State University Open Source Lab Alliance",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "2b7a01b874"
+}

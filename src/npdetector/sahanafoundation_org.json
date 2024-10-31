@@ -1,0 +1,97 @@
+{
+  "slogan": "Open Source Disaster Management Solutions",
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Sahana Foundation – Open Source Disaster Management Solutions",
+    "titleog": "Sahana Foundation",
+    "descriptionog": "Open Source Disaster Management Solutions",
+    "twitter": "@SahanaFOSS",
+    "generator": [
+      "Stargazer 4.0.0"
+    ],
+    "canonical": "https://sahanafoundation.org/",
+    "icon32": "https://i0.wp.com/sahanafoundation.org/wp-content/uploads/2016/07/cropped-Sahana_Emblem-Medium-Transparent.png?fit=32%2C32&ssl=1",
+    "yoast": null
+  },
+  "links": {
+    "contactlinks": [
+      "https://sahanafoundation.org/contact/"
+    ],
+    "donatelinks": [
+      "https://www.mightycause.com/organization/Sahana-Software-Foundation",
+      "https://sahanafoundation.org/donate/"
+    ],
+    "contributelinks": [
+      "https://sahanafoundation.org/eden/support/"
+    ],
+    "aboutlinks": [
+      "https://sahanafoundation.org/about/"
+    ]
+  },
+  "linksnav": {
+    "contactlinks": [
+      "https://sahanafoundation.org/contact/"
+    ],
+    "donatelinks": [
+      "https://www.mightycause.com/organization/Sahana-Software-Foundation"
+    ],
+    "contributelinks": [
+      "https://sahanafoundation.org/eden/support/"
+    ],
+    "aboutlinks": [
+      "https://sahanafoundation.org/about/"
+    ],
+    "alllinks": [
+      "Contact",
+      "Resources",
+      "Donate",
+      "Solutions",
+      "SHARE - Relief and Rehabilitation",
+      "SAFIRE - Incident Management",
+      "SAMBRO - Multi-hazard Early Warning",
+      "EDEN Software",
+      "Features",
+      "Deployments",
+      "Providers",
+      "Support",
+      "Code",
+      "Demo",
+      "Install",
+      "Research & Action",
+      "Mobile Pictographs for Disaster Communication",
+      "Sahana Alerting and Messaging Broker",
+      "CAP on a Map",
+      "Sahana First Response",
+      "Blog",
+      "About"
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+      "Sahana Foundation",
+      "WordPress",
+      "Stargazer"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "As a nonprofit, community-driven free/libre/open-source software project, Sahana’s success is dependent on a vibrant community of passionate and enthusiastic people."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "itemtypes": 65,
+  "identifier": "sahana",
+  "website": "https://sahanafoundation.org",
+  "commonName": "Sahana Foundation",
+  "legalName": "Sahana Foundation",
+  "location": "US",
+  "state": "CA",
+  "taxID": "27-0596562",
+  "newEngland": "82a472fcbb"
+}

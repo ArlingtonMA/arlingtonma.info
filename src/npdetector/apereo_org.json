@@ -1,0 +1,42 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "apereo",
+  "website": "https://apereo.org",
+  "commonName": "Apereo",
+  "legalName": "Apereo Foundation Inc",
+  "location": "US",
+  "state": "OR",
+  "taxID": "46-2060554",
+  "newEngland": null
+}

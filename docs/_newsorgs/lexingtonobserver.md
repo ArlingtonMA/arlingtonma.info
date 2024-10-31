@@ -22,7 +22,8 @@ budgeturl: https://docs.google.com/presentation/d/1yS2ydBaYr8r4NOdxLFud7sX5ud6B0
 budgetUsd: '53769'
 budgetYear: '2022'
 donateurl: https://lexobserver.org/support-our-publication/
-sponsorurl:
+sponsorurl: https://lexobserver.org/our-mission/our-donor-transparency-policy/
+policyurl: https://lexobserver.org/our-mission/our-ethics-and-standards/
 advertising: Lists local corporate sponsors
 telephone:
 emailContact: nicco@lexobserver.org

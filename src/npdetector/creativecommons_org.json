@@ -1,0 +1,178 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Homepage - Creative Commons",
+    "titleog": "Homepage - Creative Commons",
+    "generator": [
+
+    ],
+    "canonical": "https://creativecommons.org/",
+    "yoast": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://creativecommons.org/",
+          "url": "https://creativecommons.org/",
+          "name": "Homepage - Creative Commons",
+          "isPartOf": {
+            "@id": "https://creativecommons.org/#website"
+          },
+          "datePublished": "2023-09-27T17:38:02+00:00",
+          "dateModified": "2023-11-16T20:42:03+00:00",
+          "breadcrumb": {
+            "@id": "https://creativecommons.org/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://creativecommons.org/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://creativecommons.org/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://creativecommons.org/#website",
+          "url": "https://creativecommons.org/",
+          "name": "Creative Commons",
+          "description": "",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://creativecommons.org/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+  },
+  "links": {
+    "contributelinks": [
+      "https://creativecommons.org/about/support-cc/"
+    ],
+    "donatelinks": [
+      "https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&c_src2=top-of-page-banner"
+    ],
+    "policylinks": [
+      "https://creativecommons.org/category/policy/",
+      "https://creativecommons.org/policies"
+    ],
+    "contactlinks": [
+      "https://creativecommons.org/about/contact"
+    ]
+  },
+  "linksnav": {
+    "contributelinks": [
+      "https://creativecommons.org/about/support-cc/"
+    ],
+    "donatelinks": [
+      "https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&c_src2=top-of-page-banner"
+    ],
+    "contactlinks": [
+      "https://creativecommons.org/about/contact"
+    ],
+    "policylinks": [
+      "https://creativecommons.org/policies"
+    ],
+    "alllinks": [
+      "Who We Are",
+      "What We Do",
+      "Licenses and Tools",
+      "Blog",
+      "Support Us",
+      "Search",
+      "Donate",
+      "Global Network",
+      "Certificate",
+      "Global Summit",
+      "Chooser",
+      "Search Portal",
+      "Open Source",
+      "Contact",
+      "Newsletter",
+      "Privacy",
+      "Policies",
+      "Terms",
+      "Twitter",
+      "Mastodon",
+      "Facebook",
+      "LinkedIn"
+    ]
+  },
+  "linksfooter": {
+    "contactlinks": [
+      "https://creativecommons.org/about/contact"
+    ],
+    "policylinks": [
+      "https://creativecommons.org/policies"
+    ],
+    "donatelinks": [
+      "https://www.classy.org/give/313412/#!/donation/checkout?c_src=website&c_src2=top-of-page-banner"
+    ],
+    "alllinks": [
+      "more posts",
+      "Somos El Bien Común",
+      "Eréndira Derbez",
+      "CC BY 4.0",
+      "The Electric Boots",
+      "Andean Textile Fragment",
+      "Creative Commons",
+      "Contact",
+      "Newsletter",
+      "Privacy",
+      "Policies",
+      "Terms",
+      "info@creativecommons.org",
+      "+1-415-429-6753",
+      "Twitter",
+      "Mastodon",
+      "Facebook",
+      "LinkedIn",
+      "Donate Now",
+      "noted",
+      "Creative Commons Attribution 4.0 International license",
+      "Font Awesome"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "Creative Commons is an international nonprofit organization that empowers people to grow and sustain the thriving commons of shared knowledge and culture we need to address the world's most pressing challenges and create a brighter future for all.",
+      "The nonprofit behind the licenses and tools the world uses to share"
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "creativecommons",
+  "website": "https://creativecommons.org",
+  "commonName": "Creative Commons",
+  "legalName": "Creative Commons Corporation",
+  "location": "US",
+  "state": "CA",
+  "taxID": "04-3585301",
+  "newEngland": "bd69a17960"
+}

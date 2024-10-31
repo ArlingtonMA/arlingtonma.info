@@ -1,0 +1,162 @@
+{
+  "slogan": "",
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "Home Page - P2P Foundation",
+    "titleog": "Home Page - P2P Foundation",
+    "descriptionog": "The P2P Foundation is a non-profit organization and global network dedicated to advocacy and research of commons-oriented peer to peer dynamics solutions.",
+    "description": "The P2P Foundation is a non-profit organization and global network dedicated to advocacy and research of commons-oriented peer to peer dynamics solutions.",
+    "generator": [
+      "WordPress 5.7.11"
+    ],
+    "canonical": "https://p2pfoundation.net/",
+    "yoast": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://p2pfoundation.net/#website",
+          "url": "https://p2pfoundation.net/",
+          "name": "P2P Foundation",
+          "description": "",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://p2pfoundation.net/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://p2pfoundation.net/#primaryimage",
+          "inLanguage": "en-US",
+          "url": "https://p2pfoundation.net/wp-content/uploads/2017/08/Homepage.png",
+          "contentUrl": "https://p2pfoundation.net/wp-content/uploads/2017/08/Homepage.png",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://p2pfoundation.net/#webpage",
+          "url": "https://p2pfoundation.net/",
+          "name": "Home Page - P2P Foundation",
+          "isPartOf": {
+            "@id": "https://p2pfoundation.net/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://p2pfoundation.net/#primaryimage"
+          },
+          "datePublished": "2017-08-08T21:49:24+00:00",
+          "dateModified": "2017-09-06T11:35:22+00:00",
+          "description": "The P2P Foundation is a non-profit organization and global network dedicated to advocacy and research of commons-oriented peer to peer dynamics solutions.",
+          "breadcrumb": {
+            "@id": "https://p2pfoundation.net/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://p2pfoundation.net/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://p2pfoundation.net/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "links": {
+    "aboutlinks": [
+      "https://p2pfoundation.net/the-p2p-foundation",
+      "https://p2pfoundation.net/the-p2p-foundation/about-the-p2p-foundation"
+    ],
+    "donatelinks": [
+      "https://p2pfoundation.net/infrastructure/donate"
+    ],
+    "contactlinks": [
+      "https://p2pfoundation.net/home-page/contact-us"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://p2pfoundation.net/the-p2p-foundation",
+      "https://p2pfoundation.net/the-p2p-foundation/about-the-p2p-foundation"
+    ],
+    "donatelinks": [
+      "https://p2pfoundation.net/infrastructure/donate"
+    ],
+    "contactlinks": [
+      "https://p2pfoundation.net/home-page/contact-us"
+    ],
+    "alllinks": [
+      "Home",
+      "About",
+      "Who we are",
+      "Structure and Governance",
+      "The P2PF Network",
+      "Wiki",
+      "Websites",
+      "P2P Foundation Blog",
+      "P2P Lab",
+      "Commons Transition",
+      "Commons Transition Primer",
+      "Commons Transition Stories",
+      "Commons Transition Wiki",
+      "PROJECTS",
+      "Phygital",
+      "Open Design & Manufacturing",
+      "Distributed Design Market Platform",
+      "Guerrilla Translation",
+      "P2Pvalue",
+      "Infrastructure",
+      "Our Guiding Principles",
+      "Financial support",
+      "P2PF International Social Charter",
+      "Donate",
+      "Contact"
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+      "Peer Production, P2P Attribution-ConditionalNonCommercial-ShareAlikeLicense",
+      "here",
+      "Click here for more information"
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "The P2P Foundation is a registered non-profit with ANBI status based in the Netherlands. "
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "openhardware",
+  "website": "https://p2pfoundation.net",
+  "commonName": "Open Hardware Foundation",
+  "legalName": "Open Hardware Foundation",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "4da7e00709"
+}

@@ -23,6 +23,7 @@ budgetUsd: '402321'
 budgetYear: '2022'
 donateurl: https://thelocalnews.news/donate/
 sponsorurl:
+policyurl: https://thelocalnews.news/about-the-local-ne-ws/#editorial-independence-policy
 advertising: https://thelocalnews.news/advertise/
 telephone:
 emailContact:

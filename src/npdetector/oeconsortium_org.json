@@ -1,0 +1,118 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "About The Open Education Consortium | The Open Education Consortium",
+    "generator": [
+
+    ],
+    "canonical": "https://www.oeconsortium.org/about-oec/",
+    "yoast": null
+  },
+  "links": {
+    "aboutlinks": [
+      "https://www.oeconsortium.org/about-oec/"
+    ],
+    "projectlinks": [
+      "https://www.oeconsortium.org/oec-activities/",
+      "https://www.oeconsortium.org/projects/",
+      "https://www.oeconsortium.org/?page_id=2423"
+    ],
+    "boardlinks": [
+      "https://www.oeconsortium.org/about-oec/board-of-directors/"
+    ],
+    "contactlinks": [
+      "https://www.oeconsortium.org/about-oec/contact-us/"
+    ],
+    "eventlinks": [
+      "https://www.oeconsortium.org/events/",
+      "https://www.oeconsortium.org/?page_id=2414"
+    ],
+    "bylawlinks": [
+      "http://www.oeconsortium.org/wp-content/uploads/2013/07/Bylaws_Open-Education_Consortium_Incorporated_-_March-1-2017.pdf"
+    ],
+    "policylinks": [
+      "https://www.oeconsortium.org/terms-of-use-and-privacy-policies/"
+    ]
+  },
+  "linksnav": {
+    "aboutlinks": [
+      "https://www.oeconsortium.org/about-oec/"
+    ],
+    "projectlinks": [
+      "https://www.oeconsortium.org/oec-activities/"
+    ],
+    "boardlinks": [
+      "https://www.oeconsortium.org/about-oec/board-of-directors/"
+    ],
+    "contactlinks": [
+      "https://www.oeconsortium.org/about-oec/contact-us/"
+    ],
+    "eventlinks": [
+      "https://www.oeconsortium.org/events/"
+    ],
+    "alllinks": [
+      "About Us",
+      "About The Open Education Consortium",
+      "OEC Special Projects",
+      "Board of Directors",
+      "Staff",
+      "Elections for Board of Directors",
+      "OEC Committees",
+      "Community Colleges",
+      "OE LATAM Regional Node",
+      "Membership",
+      "Contact us",
+      "News & Events",
+      "News",
+      "OEC Webinar",
+      "Newsletter",
+      "ED Insights",
+      "Media",
+      "Events",
+      "Open Education Global Conference",
+      "Open Education Week",
+      "Projects",
+      "CCCOER Showcases",
+      "Open Education Awards for Excellence",
+      "Impact of  Openness on Institutions",
+      "User Feedback Survey",
+      "Humans of OER",
+      "Resources",
+      "Find OER",
+      "Webinars",
+      "Courses in STEM",
+      "Infographics",
+      "Membership",
+      "OEC Members",
+      "Become a Member",
+      "Members Portal",
+      "Courses"
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+      "The Open Education Consortium (OEC) is a non-profit, global, members-based network of open education institutions and organizations. OEC represents its members and provides advocacy and leadership around advancement of open education globally. OEC works with its members to build capacity to find, reuse, create and share Open Educational Resources (OER), develop open policy, create sustainable open education models, and enable international collaboration and innovation. OEC annually coordinates and hosts Open Education Week, the Open Education Global conference, and Open Education Awards for Excellence. Collectively these efforts aim to bring high quality, inclusive education to all learners around the world."
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "openeducationconsortium",
+  "website": "https://oeconsortium.org",
+  "commonName": "Open Education Consortium",
+  "legalName": "Open Education Consortium",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "e3b7a6a3ff"
+}

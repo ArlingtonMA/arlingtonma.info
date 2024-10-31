@@ -1,0 +1,52 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "TeX Users Group (TUG)",
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+    "donatelinks": [
+      "https://tug.org/donate.html"
+    ],
+    "boardlinks": [
+      "https://tug.org/board.html"
+    ],
+    "projectlinks": [
+      "https://tug.org/tc/devfund/"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "tug",
+  "website": "https://tug.org",
+  "commonName": "TeX Userrs Group",
+  "legalName": null,
+  "location": "US",
+  "state": "OR",
+  "taxID": "22-2868942",
+  "newEngland": "f8f07d00be"
+}

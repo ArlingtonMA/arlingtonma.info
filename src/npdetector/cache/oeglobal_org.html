@@ -1,0 +1,1389 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" class="font-sans antialiased">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+  <meta name="theme-color" content="#ffffff">
+
+      <!--meta property="og:image" content="https://www.oeglobal.org/wp-content/uploads/2020/09/oeglobal.png"-->
+  
+  <title>OEGlobal &#8211; Open Education Global</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//kit.fontawesome.com' />
+  <style>
+    :root {
+      --include-mastodon-feed-bg-light: rgba(100, 100, 100, 0.15);
+      --include-mastodon-feed-bg-dark: rgba(155, 155, 155, 0.15);
+      --include-mastodon-feed-accent-color: rgb(99, 100, 255);
+      --include-mastodon-feed-accent-font-color: rgb(255, 255, 255);
+      --include-mastodon-feed-border-radius: 0.25rem;
+    }
+
+    .include-mastodon-feed .status {
+      margin: 0.5rem 0 1.5rem;
+      border-radius: var(--include-mastodon-feed-border-radius);
+      padding: 0.5rem;
+      background: var(--include-mastodon-feed-bg-light);
+    }
+    .include-mastodon-feed .status a {
+      color: var(--include-mastodon-feed-accent-color);
+      text-decoration: none;
+      word-wrap: break-word;
+    }
+    .include-mastodon-feed .status a:hover {
+      text-decoration: underline;
+    }
+    .include-mastodon-feed .avatar {
+      height: 1.25rem;
+      border-radius: var(--include-mastodon-feed-border-radius);
+      vertical-align: top;
+    }
+    .include-mastodon-feed .account {
+      font-size: 0.8rem;
+    }
+    .include-mastodon-feed .account a {
+      display: inline-block;
+    }
+    .include-mastodon-feed .account .booster {
+      float: right;
+      font-style: italic;
+    }
+    .include-mastodon-feed .boosted .account > a:first-child,
+    .include-mastodon-feed .contentWarning a {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      padding: 0.15rem 0.5rem;
+      background: var(--include-mastodon-feed-accent-color);
+      color: var(--include-mastodon-feed-accent-font-color);
+    }
+    .include-mastodon-feed .boosted .account > a:first-child:hover,
+    .include-mastodon-feed .contentWarning a:hover {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      padding: 0.15rem 0.5rem;
+      background: var(--include-mastodon-feed-accent-font-color);
+      color: var(--include-mastodon-feed-accent-color);
+      text-decoration: none;
+    }
+    .include-mastodon-feed .contentWrapper.boosted {
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      background: var(--include-mastodon-feed-bg-light);
+    }
+    .include-mastodon-feed .contentWarning {
+      text-align: center;
+      margin: 1rem;
+      padding: 1rem;
+    }
+    .include-mastodon-feed .contentWarning .title {
+      font-weight: bold;
+    }
+    .include-mastodon-feed img.emoji {
+      height: 1rem;
+    }
+    .include-mastodon-feed .content .invisible {
+      display: none;
+    }
+    .include-mastodon-feed .media {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1rem;
+    }
+    .include-mastodon-feed .media > div {
+      flex-basis: calc(50% - 0.5rem);
+      flex-grow: 1;
+    }
+    .include-mastodon-feed .media > .image {
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .include-mastodon-feed .media > .image a { 
+      border-radius: var(--include-mastodon-feed-border-radius);
+      display: block;
+      aspect-ratio: 1.618;                                                      
+      background-size: cover;
+      background-position: center;
+    }   
+    .include-mastodon-feed .media > .image a:hover {
+      filter: contrast(110%) brightness(130%) saturate(130%);
+    }
+
+    .include-mastodon-feed .media > .gifv video {
+      max-width: 100%;
+    }
+
+    .include-mastodon-feed .card {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      margin: 1rem 0.5rem;
+    }
+    .include-mastodon-feed .card iframe {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 2 / 1.25;
+    }
+    .include-mastodon-feed .card a {
+      border-radius: var(--include-mastodon-feed-border-radius);
+      display: block;
+      text-decoration: none;
+      color: #000;
+    }
+    .include-mastodon-feed.dark .card a {
+      color: #fff;
+    }
+    .include-mastodon-feed .card a:hover {
+      text-decoration: none;
+      background: var(--include-mastodon-feed-accent-color);
+      color: var(--include-mastodon-feed-accent-font-color);
+    }
+    .include-mastodon-feed .card .meta {
+      background: var(--include-mastodon-feed-bg-light);
+      font-size: 0.8rem;
+      padding: 1rem;
+    }
+    .include-mastodon-feed .card .image {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    .include-mastodon-feed .card .image img {
+      max-width: 75%;
+    }
+    .include-mastodon-feed .card .title {
+      font-weight: bold;
+    }
+    .include-mastodon-feed.dark .status,
+    .include-mastodon-feed.dark .contentWrapper.boosted,
+    .include-mastodon-feed.dark .card {
+      background: var(--include-mastodon-feed-bg-dark);
+    }
+  </style>
+<link rel="stylesheet" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.3.3">
+<link rel="stylesheet" href="/wp-content/plugins/coblocks/dist/style-coblocks-1.css?ver=3.1.5">
+<link rel="stylesheet" href="/wp-content/plugins/coblocks/dist/style-coblocks-extensions.css?ver=3.1.5">
+<link rel="stylesheet" href="/wp-content/plugins/coblocks/dist/style-coblocks-animation.css?ver=d9b2b27566e6a2a85d1b">
+<link rel="stylesheet" href="/wp-content/plugins/oeg-blocks-acf-1.2.3/assets/css/oegblocks.css?ver=1.3.0" media="screen">
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" href="/wp-content/plugins/wp-discourse/lib/../css/comments.css?ver=1679063002">
+<link rel="stylesheet" href="/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70">
+<link rel="stylesheet" href="/wp-includes/css/dist/components/style.min.css?ver=6.3.3">
+<link rel="stylesheet" href="/wp-content/plugins/coblocks/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2">
+<link rel="stylesheet" href="/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.14">
+<link rel="stylesheet" href="/wp-content/themes/oeglobal/dist/styles/main_55ebb40e.css">
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type='text/javascript' id='search-filter-plugin-build-js-extra'>
+/* <![CDATA[ */
+var SF_LDATA = {"ajax_url":"https:\/\/www.oeglobal.org\/wp-admin\/admin-ajax.php","home_url":"https:\/\/www.oeglobal.org\/","extensions":[]};
+/* ]]> */
+</script>
+<script src="/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.5.14" id="search-filter-plugin-build-js"></script>
+<script src="/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.14" id="search-filter-plugin-chosen-js"></script>
+<script defer crossorigin="anonymous" src="https://kit.fontawesome.com/99fcecbc40.js" id="font-awesome-official-js"></script>
+<link rel="canonical" href="https://www.oeglobal.org/" />
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LT6BBT8JDB"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-LT6BBT8JDB');
+		</script>
+
+	
+		<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:1066667,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		<style id="sccss">/* Enter Your Custom CSS Here */
+/* global nav */
+.global-header__item {
+	padding: 0 0.5rem;
+}
+
+.page-template-template-members-detail .content>.container {
+	padding-left: 0;
+	padding-right: 0;
+}
+a.oeg-featured {
+	background-position: center;
+}
+.center-block {
+	max-width: 54rem;
+	margin: 0 auto;
+}
+.max-col {
+	max-width: 54rem;
+}
+/* resize smaller text in columns */
+article .wp-block-columns .wp-block-column p {
+	font-size: inherit;
+}
+article p {
+	font-family: inherit;
+}
+
+article.hentry {
+	font-family: Georgia,Cambria,Times New Roman,Times,serif	
+}
+
+/* Fix SVG mask by coblocks plugin */
+
+.banner .menu-item__icon,
+.banner .nav-logo,
+.banner .icon.menu,
+.oeg-spotlight__item .icon{
+	-webkit-mask: none;
+		mask: none;
+}
+.banner .nav-logo {
+    width: 100%;
+}
+.banner .icon.menu{
+	width:64px;
+	height:64px;
+}
+.oeg-spotlight__item svg {
+	height: 1.5em;
+}
+/* all headers to sans */
+article h3, article h4, article h5, article h6 {
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-weight: 700;
+}
+
+.members-list{
+	padding-left: 0;
+}
+
+body.category .contentheader-attribution {
+	display: none;
+}
+/* filter form */
+.filter-form {
+	/*background-color: var(--color-gray-100);
+	padding: 1em 1em 2em;*/
+	color: #333;
+}
+.filter-form input[type="submit"] {
+ 	background-color:#ff5547;
+	background-image:none;
+	padding: 0.25rem 0.75rem;
+	color: #fff;
+	border-radius: 0.15rem;
+	cursor: pointer;
+}
+
+.filter-form input[type="text"] {
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+	color: var(--color-gray-700);
+	appearance: none;
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.25rem;	
+}
+
+/* Mailchimp form */
+#mc_embed_signup .form-control {
+	border: 1px solid var(--color-gray-300);
+}
+
+/* Filter form */
+
+.filter-form input[type="submit"] {
+ 	background-color:#ff5547;
+	background-image:none;
+	padding: 0.25rem 0.75rem;
+	color: #fff;
+	border-radius: 0.15rem;
+	cursor: pointer;
+}
+
+.filter-form input[type="text"] {
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+	color: var(--color-gray-700);
+	appearance: none;
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.25rem;	
+}
+
+.searchandfilter ul {
+	display: flex;
+	gap: 0.5rem;
+	flex-flow: column;
+	flex-wrap: wrap!important;
+	max-width: 100%;
+	width: auto;
+}
+@media (min-width: 700px) {
+    .searchandfilter ul {
+			flex-flow: row;
+			align-items: center;
+	}
+}
+.searchandfilter ul li {
+	padding: 0!important;
+}
+select.sf-input-select {
+	width: auto;
+	max-width: 200px;
+	padding: 4px 10px;
+	box-shadow: 2px 1px 4px rgba(0,0,0,0.2);
+	border-radius: 2px;
+}
+a.search-filter-reset {
+	font-size: 0.75em;
+}
+
+a.view-more {
+	background-image: none!important;
+	font-size: 1rem;
+}
+
+/* Pagination */
+.wp-pagenavi {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content:center;
+}
+
+/* Fix menu items in custumizer */
+#customize-theme-controls .customize-pane-child.menu li {
+  padding: 0;
+  display: block;
+}
+
+/* News items */
+.news-block {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+	background-color: transparent!important;
+	padding: 0!important;
+	margin: 0!important;
+	border: none;
+	gap: 2%;
+}
+
+.news-block > li {
+	background: white;
+	border-radius: 0.25rem;
+	overflow: hidden;
+	border: 1 solid gray;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+	padding-bottom: 1em;
+	flex: 1 1 auto;
+	flex-basis: 48%;
+	
+}
+.news-block .wp-block-latest-posts__featured-image img {
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+.news-block .wp-block-latest-posts__post-excerpt,
+.news-block .wp-block-latest-posts__post-date,
+.news-block .wp-block-latest-posts__post-title {
+	margin: 0.5rem 1rem;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.2;
+		
+}
+.news-block a {
+	font-weight: 700;
+	display: inline-block;
+	line-height: 1.2;
+	margin-top: 0.5rem;
+	font-size: 1.25rem;
+	background-image: none;
+}
+.news-block a:hover {
+	background-image: none;
+}
+
+.news-block .wp-block-latest-posts__post-excerpt {
+	font-size: 0.9rem;
+	line-height: 1.5;
+}
+
+
+span.oeg-featured__title:empty {
+	display: none;
+	visibility: hidden;
+}
+
+/* Mastodon Feed */
+.include-mastodon-feed {
+	font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+	font-size: 80%;
+}
+.include-mastodon-feed a {
+	background-image: none;
+}
+
+
+/* Connect RSS Feed */
+ul.connect-rss {
+	margin-left: 0;
+  padding-left: 0;
+	margin-bottom: 2em;
+}
+
+ul.connect-rss li {
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 1em;
+}</style>
+<!-- START - Open Graph and Twitter Card Tags 3.3.0 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="OEGlobal"/>
+  <meta property="og:title" content="Home"/>
+  <meta property="og:url" content="https://www.oeglobal.org"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="News and Updates
+    View more
+
+
+
+
+
+
+
+
+
+
+ OE Global on Mastodon"/>
+  <meta property="og:image" content="https://www.oeglobal.org/wp-content/uploads/2020/09/oeglobal.png"/>
+  <meta property="og:image:url" content="https://www.oeglobal.org/wp-content/uploads/2020/09/oeglobal.png"/>
+  <meta property="og:image:secure_url" content="https://www.oeglobal.org/wp-content/uploads/2020/09/oeglobal.png"/>
+  <meta property="article:publisher" content="https://www.facebook.com/OpenEducationGlobal"/>
+ <!-- Google+ / Schema.org -->
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Home"/>
+  <meta name="twitter:url" content="https://www.oeglobal.org"/>
+  <meta name="twitter:description" content="News and Updates
+    View more
+
+
+
+
+
+
+
+
+
+
+ OE Global on Mastodon"/>
+  <meta name="twitter:image" content="https://www.oeglobal.org/wp-content/uploads/2020/09/oeglobal.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@OpenEdGlobal"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+ <!-- is_singular -->
+<!-- END - Open Graph and Twitter Card Tags 3.3.0 -->
+	
+	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1a209e9010b861e3abfd5c609/36e35431b90b02664feb272e4.js");</script>
+</head>
+
+<body class="home page-template page-template-template-oeg-home template-oeg-home page wp-embed-responsive oeg app-data index-data singular-data page-data page-8-data page-home-data template-oeg-home-data front-page-data">
+
+  <header class="header shadow-md z-50 bg-white">
+  <div class="global-header bg-blue-400
+            w-full hidden md:flex flex-row items-center align-center justify-end
+            lg:h-6
+            uppercase text-2xs lg:text-xs leading-loose font-sans text-right">
+  <div class="container">
+    <a class="global-header__item  active " href="https://www.oeglobal.org">OEGlobal</a><a class="global-header__item " href="https://www.oelatam.org">OELATAM</a><a class="global-header__item  " href="https://www.cccoer.org">CCCOER</a><a class="global-header__item" href="https://conference.oeconsortium.org">Conference</a><a class="global-header__item" href="https://www.openeducationweek.org">OEWeek</a><a class="global-header__item  " href="https://awards.oeglobal.org">OEAwards</a><a class="global-header__item" href="https://connect.oeglobal.org/">Connect</a><a class="global-header__item" href="https://podcast.oeglobal.org/">Voices</a>
+  </div>
+</div>
+
+
+  <div class="container pr-0 lg:p-4">
+    <header class="banner">
+  <div class="flex items-center justify-between h-full">
+    <a class="brand" href="https://www.oeglobal.org/" alt="Home">
+              <svg class="icon nav-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 328.21 98"><defs><style>.cls-1{fill:#333;}.cls-2{fill:#0d6ae5;}</style><symbol id="Type_2" data-name="Type 2" viewBox="0 0 203.27 60.1"><path class="cls-1" d="M17.2,60.1A17.24,17.24,0,0,1,4.9,55.49,15.39,15.39,0,0,1,0,43.75v-.09A15.72,15.72,0,0,1,4.85,32,16.72,16.72,0,0,1,17,27.23a19,19,0,0,1,12.82,4.61L24.69,38a11.67,11.67,0,0,0-7.63-3,7.49,7.49,0,0,0-5.75,2.53A8.75,8.75,0,0,0,9,43.71v.09a8.62,8.62,0,0,0,2.42,6.3,8.26,8.26,0,0,0,6.16,2.46,9.06,9.06,0,0,0,5.06-1.31V47.41H16.39V41H30.92V55.22A20.92,20.92,0,0,1,17.2,60.1Z"/><path class="cls-1" d="M39.37,55.88v-28h8.75V51.79H63.43v7.67H43A3.58,3.58,0,0,1,39.37,55.88Z"/><path class="cls-1" d="M96.05,55.31A16.72,16.72,0,0,1,83.88,60.1a16.67,16.67,0,0,1-12.12-4.74,15.62,15.62,0,0,1-4.85-11.61v-.09A15.65,15.65,0,0,1,71.81,32,16.71,16.71,0,0,1,84,27.23,16.67,16.67,0,0,1,96.1,32,15.61,15.61,0,0,1,101,43.57v.09A15.65,15.65,0,0,1,96.05,55.31ZM78.17,49.69a8,8,0,0,0,11.58.05,8.52,8.52,0,0,0,2.26-6v-.09a8.61,8.61,0,0,0-2.3-6,7.59,7.59,0,0,0-5.83-2.51,7.42,7.42,0,0,0-5.75,2.46,8.59,8.59,0,0,0-2.24,6v.09A8.64,8.64,0,0,0,78.17,49.69Z"/><path class="cls-1" d="M107.58,59.46V27.86h16.21c3.85,0,6.73.95,8.62,2.85a6.89,6.89,0,0,1,2,5.1v.09q0,4.92-4.88,7a10.19,10.19,0,0,1,4.67,2.82,7.16,7.16,0,0,1,1.61,4.9v.09a7.52,7.52,0,0,1-3.16,6.39q-3.16,2.32-8.81,2.32Zm8.54-19h5.5q4.16,0,4.16-2.76v-.09c0-1.8-1.33-2.7-4-2.7h-5.69Zm0,12h6.77a5.56,5.56,0,0,0,3.09-.74,2.43,2.43,0,0,0,1.11-2.15v-.09q0-2.84-4.29-2.84h-6.68Z"/><path class="cls-1" d="M139.22,59.46l13.45-31.82h8.45l13.45,31.82h-9.39l-2.3-5.64H150.69l-2.26,5.64Zm14-12.46h7.09l-3.52-9Z"/><path class="cls-1" d="M179.21,55.88v-28H188V51.79h15.3v7.67H182.79A3.58,3.58,0,0,1,179.21,55.88Z"/><path class="cls-1" d="M17.35,16.22A9.29,9.29,0,0,1,10.48,19a9.26,9.26,0,0,1-6.85-2.72A9,9,0,0,1,.91,9.59V9.54A9.06,9.06,0,0,1,3.66,2.86,9.32,9.32,0,0,1,10.53.11a9.32,9.32,0,0,1,6.85,2.72A9.09,9.09,0,0,1,20.1,9.49v0A9.09,9.09,0,0,1,17.35,16.22ZM6.61,13.61a5.12,5.12,0,0,0,3.92,1.66,5,5,0,0,0,3.89-1.64,5.69,5.69,0,0,0,1.53-4V9.54A5.75,5.75,0,0,0,14.4,5.48a5.12,5.12,0,0,0-3.92-1.67,5.1,5.1,0,0,0-3.9,1.64,5.75,5.75,0,0,0-1.52,4v0A5.77,5.77,0,0,0,6.61,13.61Z"/><path class="cls-1" d="M23.14,21.79V3.84h3.92v2a5.13,5.13,0,0,1,4.31-2.24A6,6,0,0,1,35.81,5.5a7.22,7.22,0,0,1,1.85,5.22v0A7.24,7.24,0,0,1,35.82,16a5.94,5.94,0,0,1-4.45,1.92,5.39,5.39,0,0,1-4.31-2.07v5.94ZM28,13.52a3.09,3.09,0,0,0,2.38,1.07,3.12,3.12,0,0,0,2.4-1.06,3.85,3.85,0,0,0,1-2.76v0a3.85,3.85,0,0,0-1-2.74,3.11,3.11,0,0,0-2.4-1.08A3.07,3.07,0,0,0,28,8a3.89,3.89,0,0,0-1,2.74v0A3.92,3.92,0,0,0,28,13.52Z"/><path class="cls-1" d="M47,18a7.12,7.12,0,0,1-5.19-2,6.89,6.89,0,0,1-2-5.14v-.06a7.22,7.22,0,0,1,1.94-5.1,6.36,6.36,0,0,1,4.9-2.09,6,6,0,0,1,5,2.16,8.33,8.33,0,0,1,1.73,5.34c0,.21,0,.55,0,1H43.7a3.38,3.38,0,0,0,1.16,2,3.46,3.46,0,0,0,2.22.69,4.79,4.79,0,0,0,3.35-1.42l2.24,2A6.87,6.87,0,0,1,47,18ZM43.65,9.66h5.9a3.74,3.74,0,0,0-.94-2.14,2.61,2.61,0,0,0-2-.8,2.68,2.68,0,0,0-2,.79A3.81,3.81,0,0,0,43.65,9.66Z"/><path class="cls-1" d="M56.18,17.66V3.84H60.1v2a5,5,0,0,1,4.05-2.22,4.44,4.44,0,0,1,3.46,1.36,5.45,5.45,0,0,1,1.24,3.77v9H64.93V10a3.14,3.14,0,0,0-.62-2.09,2.21,2.21,0,0,0-1.76-.72,2.31,2.31,0,0,0-1.79.72A3,3,0,0,0,60.1,10v7.71Z"/><path class="cls-1" d="M78.41,17.66V.73H91.18V4H82.11V7.48h8v3.31h-8v3.56H91.3v3.31Z"/><path class="cls-1" d="M99.65,17.9a5.57,5.57,0,0,1-4.16-1.8,6.75,6.75,0,0,1-1.75-4.9v0a6.82,6.82,0,0,1,1.73-4.9,5.6,5.6,0,0,1,4.18-1.8,5.07,5.07,0,0,1,4,1.94V0h3.67V17.66h-3.67V15.8A4.8,4.8,0,0,1,99.65,17.9Zm-1.31-4.12a3,3,0,0,0,4.49,0,3.73,3.73,0,0,0,.91-2.58v0a3.7,3.7,0,0,0-.91-2.57,2.91,2.91,0,0,0-2.24-1,2.94,2.94,0,0,0-2.25,1,3.7,3.7,0,0,0-.92,2.59v0A3.69,3.69,0,0,0,98.34,13.78Z"/><path class="cls-1" d="M115.3,17.9a4.12,4.12,0,0,1-3.24-1.28,5,5,0,0,1-1.16-3.53V4.69h3.67v7.24a3,3,0,0,0,.58,2,2.06,2.06,0,0,0,1.65.67,2.16,2.16,0,0,0,1.68-.67,2.83,2.83,0,0,0,.62-2V4.69h3.68v13H119.1V15.82A4.73,4.73,0,0,1,115.3,17.9Z"/><path class="cls-1" d="M132.52,18a6.63,6.63,0,0,1-6.75-6.7V11.2a6.93,6.93,0,0,1,12-4.57L135.5,9.05a4,4,0,0,0-2.95-1.43,2.84,2.84,0,0,0-2.25,1,3.68,3.68,0,0,0-.9,2.49v0a3.67,3.67,0,0,0,.91,2.55,3,3,0,0,0,2.38,1,4.34,4.34,0,0,0,3-1.38l2.15,2.18a8.19,8.19,0,0,1-2.27,1.77A6.82,6.82,0,0,1,132.52,18Z"/><path class="cls-1" d="M144.23,17.9a4.84,4.84,0,0,1-3.18-1,3.57,3.57,0,0,1-1.27-2.92v0a3.59,3.59,0,0,1,1.42-3.1,6.31,6.31,0,0,1,3.81-1,9.85,9.85,0,0,1,3.17.53v-.22q0-2.37-2.79-2.37a10.64,10.64,0,0,0-3.58.7l-.92-2.8a12.46,12.46,0,0,1,5-1A5.91,5.91,0,0,1,150.3,6a5.6,5.6,0,0,1,1.41,4.14v7.52h-3.56v-1.4A5,5,0,0,1,144.23,17.9Zm1.11-2.54a3.24,3.24,0,0,0,2.09-.64,2,2,0,0,0,.79-1.63v-.66a5.5,5.5,0,0,0-2.34-.48,3.3,3.3,0,0,0-1.87.46,1.51,1.51,0,0,0-.67,1.33v0a1.37,1.37,0,0,0,.55,1.15A2.35,2.35,0,0,0,145.34,15.36Z"/><path class="cls-1" d="M159.47,17.88a4.06,4.06,0,0,1-2.79-.88,3.94,3.94,0,0,1-1-3V7.84h-1.55V4.69h1.55V1.38h3.68V4.69h3.05V7.84h-3.05v5.54c0,.84.39,1.26,1.18,1.26a3.84,3.84,0,0,0,1.82-.46v2.95A5.58,5.58,0,0,1,159.47,17.88Z"/><path class="cls-1" d="M166,3.27V0h3.87V3.27Zm.1,14.39v-13h3.67v13Z"/><path class="cls-1" d="M184.72,16a7.4,7.4,0,0,1-10,0,6.37,6.37,0,0,1-2-4.75V11.2a6.41,6.41,0,0,1,2-4.79,7.38,7.38,0,0,1,10,0,6.39,6.39,0,0,1,2,4.75v0A6.44,6.44,0,0,1,184.72,16Zm-5-1.21a3.15,3.15,0,0,0,2.44-1,3.64,3.64,0,0,0,.92-2.52V11.2a3.63,3.63,0,0,0-1-2.53,3.42,3.42,0,0,0-4.9,0,3.6,3.6,0,0,0-.92,2.51v0a3.61,3.61,0,0,0,1,2.53A3.18,3.18,0,0,0,179.75,14.78Z"/><path class="cls-1" d="M189.42,17.66v-13h3.68V6.53a4.75,4.75,0,0,1,3.8-2.08,4.18,4.18,0,0,1,3.24,1.28,5.12,5.12,0,0,1,1.16,3.54v8.39h-3.68V10.43a2.9,2.9,0,0,0-.58-2,2,2,0,0,0-1.64-.68,2.16,2.16,0,0,0-1.68.68,2.76,2.76,0,0,0-.62,2v7.23Z"/></symbol></defs><title>oeg-mainH-RGB</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-2" d="M58.56,14.87"/><path class="cls-2" d="M58.56,14.87"/><path class="cls-2" d="M90.22,18.41"/><path class="cls-2" d="M90.22,18.41"/><path class="cls-2" d="M74.43,97.76c-8.22,0-15.74-5.42-21.18-15.26-5-9-7.73-20.93-7.73-33.53s2.75-24.49,7.73-33.52C58.69,5.61,66.21.19,74.43.19a4.33,4.33,0,1,1,0,8.65c-4.91,0-9.73,3.83-13.57,10.78C56.57,27.39,54.2,37.81,54.2,49s2.37,21.59,6.66,29.36c3.84,7,8.66,10.78,13.57,10.78S84.16,85.28,88,78.33c4.3-7.77,6.66-18.2,6.66-29.36a4.34,4.34,0,0,1,8.68,0c0,12.6-2.74,24.5-7.73,33.53C90.17,92.34,82.65,97.76,74.43,97.76Z"/><path class="cls-2" d="M11.39,71.05a.25.25,0,0,1,.16-.37,239.27,239.27,0,0,1,48.45-8c4.82-.29,9.72-.44,14.57-.44a241.73,241.73,0,0,1,37,2.85l4.29.66-1.34,8.55-4.29-.66a231.93,231.93,0,0,0-35.61-2.75c-4.67,0-9.39.14-14,.43a229.65,229.65,0,0,0-45.06,7.28.36.36,0,0,1-.4-.18Z"/><path class="cls-2" d="M0,53.47a.25.25,0,0,1,.14-.35c3.25-1,6.57-2,9.91-3h0l1.36-.38a239.85,239.85,0,0,1,48.68-7.93c4.56-.27,9.2-.4,13.8-.4,6.54,0,13.19.27,19.76.81l.83.07,1.89.16h.14c4.13.39,8.4.9,12.7,1.53l2.62.37v0q1.48.23,3,.48h.06c1.55.27,3.1.55,4.59.83l3.5.52a.7.7,0,0,1,.55.74l-.6,8.18-5.09-.94c-1.45-.28-3-.55-4.67-.84l-2.9-.46c-1.36-.21-2.8-.43-4.54-.67l-4-.52-2.93-.31A231.46,231.46,0,0,0,74,50.1a234,234,0,0,0-25,1.35A230.34,230.34,0,0,0,4.57,60.8a.39.39,0,0,1-.46-.18Z"/><path class="cls-2" d="M85.53,22.47a.32.32,0,0,0-.3-.35c-3.77-.17-7.57-.26-11.32-.26-4.62,0-9.29.13-13.88.4a239.06,239.06,0,0,0-48.52,7.89.14.14,0,0,0-.09.2L15.26,38a.19.19,0,0,0,.21.09A230.3,230.3,0,0,1,60.54,30.9c4.42-.26,8.91-.39,13.36-.39,2,0,7.17.1,9.89.16a.87.87,0,0,0,.89-.78Z"/><path class="cls-2" d="M78.48,97.83A49,49,0,1,1,74.35,0a49.22,49.22,0,0,1,41.09,22,.51.51,0,0,1-.15.71L108.62,27a.53.53,0,0,1-.73-.15A40.39,40.39,0,0,0,40,28.1,36.8,36.8,0,0,0,35.2,39.57,40,40,0,0,0,45.91,77.32,40.42,40.42,0,0,0,83.82,88a37,37,0,0,0,11.53-4.75A40.11,40.11,0,0,0,114.58,49V46.32l6.6-.35,2.19.32a.24.24,0,0,1,.2.23V49A49.09,49.09,0,0,1,78.48,97.83Z"/><use width="203.27" height="60.1" transform="translate(135.71 25.34) scale(0.95 0.95)" xlink:href="#Type_2"/></g></g></svg>          </a>
+    <nav role="navigation"
+         class="nav-primary
+                hidden lg:block flex">
+      <ul class="nav nav-dropdown flex">
+          <li class="menu-item has-children ">
+        <a href="https://www.oeglobal.org/about-us/">
+          About OEGlobal
+        </a>
+
+                  <ul class="sub-menu lg:hidden">
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/about-us/what-we-do/">
+                  What We Do
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/open-education-global-strategic-plan/">
+                  Strategic Plan
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/about-us/people-of-oeg/">
+                  People of OEG
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/about-us/members-list/">
+                  OE Global Members
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/about-us/history-of-oeg/">
+                  History of OEG
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/about-us/contact-us/">
+                  Contact Us
+                </a>
+              </li>
+                      </ul>
+              </li>
+          <li class="menu-item has-children ">
+        <a href="https://www.oeglobal.org/activities/">
+          OE Global Activities
+        </a>
+
+                  <ul class="sub-menu lg:hidden">
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/activities/global/">
+                  OE Global Events
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/activities/regional/">
+                  Building Communities
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/oe-resource/">
+                  Open Education Resources
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/activities/special-projects/">
+                  Special Projects
+                </a>
+              </li>
+                      </ul>
+              </li>
+          <li class="menu-item has-children ">
+        <a href="https://www.oeglobal.org/communication/">
+          News &amp; Views
+        </a>
+
+                  <ul class="sub-menu lg:hidden">
+                          <li class="menu-item-child ">
+                <a href="/category/news/">
+                  OEGlobal News
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="/category/oeg-world/">
+                  OEG World
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://podcast.oeglobal.org/">
+                  Hear Open Educators in Action
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/communication/oeg-newsletter/">
+                  Open Education Newsletter
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/oeg-job-opportunity/">
+                  OEG Job Opportunities
+                </a>
+              </li>
+                      </ul>
+              </li>
+          <li class="menu-item has-children ">
+        <a href="https://www.oeglobal.org/get-involved/">
+          Join
+        </a>
+
+                  <ul class="sub-menu lg:hidden">
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/donate/">
+                  Donate
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/get-involved/become-oeglobal-member/">
+                  Become an OEGlobal Member
+                </a>
+              </li>
+                          <li class="menu-item-child ">
+                <a href="https://www.oeglobal.org/oeg-connect/">
+                  OEG Connect
+                </a>
+              </li>
+                      </ul>
+              </li>
+    
+    <li class="menu-item menu-item-search pr-3">
+      <a class="px-1" href="/search/"><?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon menu-item__icon" width="16px" height="16px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/magnify</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home-Page-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="oeg_desktop" transform="translate(-957.000000, -40.000000)">
+            <g id="Padding-Group-18" transform="translate(947.000000, 30.000000)" fill-rule="nonzero">
+                <g id="icons/magnify" transform="translate(10.000000, 10.000000)" fill="#4D4D4D">
+                    <path d="M7,16.6666667 L7,11.3333333 L7.33333333,11.3333333 L7.33365451,10.6254442 C4.70262464,10.2975214 2.66666667,8.05318911 2.66666667,5.33333333 C2.66666667,2.38781467 5.05448133,0 8,0 C10.9455187,0 13.3333333,2.38781467 13.3333333,5.33333333 C13.3333333,8.05273137 11.2980606,10.296766 8.6676738,10.6252785 L8.66666667,11.3333333 L9,11.3333333 L9,16.6666667 L7,16.6666667 Z M8,1.33333333 C5.790861,1.33333333 4,3.12419433 4,5.33333333 C4,7.54247233 5.790861,9.33333333 8,9.33333333 C10.209139,9.33333333 12,7.54247233 12,5.33333333 C12,3.12419433 10.209139,1.33333333 8,1.33333333 Z" id="Shape" transform="translate(8.000000, 8.333333) rotate(-45.000000) translate(-8.000000, -8.333333) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg></a>
+    </li>
+
+    <li class="menu-item menu-item-search-mobile lg:hidden">
+      <form action="/" method="get" class="w-full">
+                <input type="search" name="s" id="search" value="" placeholder="Search ..." class="h-20 pl-4 pr-20" />
+      </form>
+    </li>
+  </ul>
+    </nav>
+    <button class="js-toggle-menu toggle-menu flex items-center justify-center lg:hidden"><?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon menu" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>nav/toggle-button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav/toggle-button" transform="translate(0.000000, 1.000000)" fill-rule="nonzero">
+            <g transform="translate(0.000000, -1.000000)">
+                <polygon id="background" fill="none" points="0 0 64 1 64 65 0 65"></polygon>
+                <path d="M16.25,20.8 L47.75,20.8 L47.75,24.328 L16.25,24.328 L16.25,20.8 Z M16.25,33.022 L16.25,29.578 L47.75,29.578 L47.75,33.022 L16.25,33.022 Z M16.25,42.8 L16.25,39.272 L47.75,39.272 L47.75,42.8 L16.25,42.8 Z" id="menu-path" fill="currentColor"></path>
+            </g>
+        </g>
+    </g>
+</svg></button>
+  </div>
+</header>
+  </div>
+</header>
+
+
+	<div class="container my-8 hidden md:block">
+        <ul class="list-none m-0 p-0 flex justify-end gap-4 text-blue-500 md:col-span-1 w-full">
+            <li><a href="https://twitter.com/OpenEdGlobal" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i><span class="hidden">Twitter</span></a></li>
+            <li><a href="https://www.facebook.com/OpenEducationGlobal" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i> <span class="hidden">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/openedglobal/" title="Instagram"><i class="fab fa-instagram-square fa-2x"></i> <span class="hidden">Instagram</span></a></li>
+            <li><a href="https://connect.oeglobal.org/" title="OEG Connect"><i class="fak fa-connect-icon fa-2x"></i> <span class="hidden">Connect</span></a></li>
+            <li><a href="https://www.youtube.com/channel/UC-jcvZ6z94387QDu52g9VNA" title="YouTube Chanel"><i class="fa-brands fa-square-youtube fa-2x"></i> <span class="hidden">Youtube Channel</span></a></li>
+			<li><a href="https://www.linkedin.com/company/openeducationglobal/" title="LinkedIn"><i class="fa-brands fa-linkedin fa-2x"></i> <span class="hidden">LinkedIn</span></a></li>
+            <li><a href="http://eepurl.com/gQfIHr" title="Newsletter"><i class="fas fa-envelope fa-2x"></i> <span class="hidden">Subscribe</span></a></li>
+        </ul>
+    </div>
+
+       <!--2021-11-18 -- fix hero content positioning-->
+<style type="text/css">
+  .page-template-template-members-detail .content>.container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  a.oeg-featured {
+    background-position: center;
+  }
+</style>
+
+<div class="container px-0 md:px-4 mt-6 md:mt-12 mb-0">
+  <h2 class="text-black-200 border-b border-gray-400 text-xl font-bold font-sans pb-2 mb-6 mx-4 md:mx-0 md:pl-0">Happening now!</h2>
+
+  <div class="grid grid-rows-auto grid-cols-auto
+                md:grid-rows-2 md:grid-cols-3 gap-0 md:gap-4
+                ">
+        <a class="
+        oeg-featured oeg-featured-1
+                  md:row-span-2 md:col-span-2
+                          flex items-end" style="background-image: url('/wp-content/uploads/2024/01/Facebook-post_Join-1024x538.png');" href="https://oeweek.oeglobal.org/activities/">
+      <span class="oeg-featured__title">
+        100 OEWeek24 Events And Counting
+      </span>
+    </a>
+        <a class="
+        oeg-featured oeg-featured-2
+                   col-auto row-auto
+                          flex items-end" style="background-image: url('/wp-content/uploads/2024/02/Screenshot-2024-02-21-at-15.23.48-1024x654.png');" href="https://podcast.oeglobal.org/2024/02/15/voices-064/">
+      <span class="oeg-featured__title">
+        Listen: Board Viewpoints with Martin Dougiamas and Paola Corti
+      </span>
+    </a>
+        <a class="
+        oeg-featured oeg-featured-3
+                   col-auto row-auto
+                          flex items-end" style="background-image: url('/wp-content/uploads/2024/02/2024-CCCOER-spring-webinars-1024x576.png');" href="https://www.cccoer.org/2024/02/07/2024-spring-webinar-series/">
+      <span class="oeg-featured__title">
+        Save the Date: CCCOER's Spring Webinars
+      </span>
+    </a>
+    
+  </div>
+</div>
+
+<div class="oeg-spotlight relative overflow-hidden lg:overflow-visible pt-8 md:pt-20">
+  <div class="container">
+    <div class="oeg-spotlight__container relative">
+      <div class="flex w-full border-b bg-blue-400 border-gray-900 pb-2 mb-6 justify-between items-end">
+        <h2 class="text-gray-900 text-xl font-bold font-sans">Open education spotlight</h2>
+        <a class="text-gray-900"
+          href="https://connect.oeglobal.org/c/oeg-plaza/spotlight/14">
+          View more
+        </a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <a class="oeg-spotlight__item block bg-white text-black-300 rounded overflow-hidden shadow-md" 
+          href="https://www.cccoer.org/edi/resource-curation-project-update-advancing-edi-in-open-education/">
+          <span class="oeg-spotlight__image block"
+                style="background-image: url('/wp-content/uploads/2024/02/edson-rosas-R2GAnaP8fEk-unsplash-800x533.jpg');"></span>
+
+          <span class="block p-6">
+            <h2 class="h2 mb-4">Resource Curation: Advancing EDI in Open Education</h2>
+            <span class="block mb-6"><?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon h-auto inline-block" width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/badge-sm</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blocks/featured-page" transform="translate(-16.000000, -248.000000)">
+            <g id="Member-line" transform="translate(16.000000, 248.000000)">
+                <g id="icons/badge-sm">
+                    <g>
+                        <polygon id="Star" fill="#26D7B2" fill-rule="nonzero" points="9.5 17.575 6.56433855 18.5350369 4.75363409 16.0328122 1.81433855 15.0839599 1.82021863 11.9953122 0 9.5 1.82021863 7.00468777 1.81433855 3.9160401 4.75363409 2.96718777 6.56433855 0.464963095 9.5 1.425 12.4356614 0.464963095 14.2463659 2.96718777 17.1856614 3.9160401 17.1797814 7.00468777 19 9.5 17.1797814 11.9953122 17.1856614 15.0839599 14.2463659 16.0328122 12.4356614 18.5350369"></polygon>
+                        <polyline id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="5 9.67260742 7.13989258 12.9846191 14.8076172 7"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><span class="ml-2">CCCOER</span></span>
+            <span class="block font-serif">Starting last autumn, CCCOER’s EDI Committee began developing a crowd-sourced list of open and freely available resources that advance EDI in teaching and learning through open educational resources (OER) and open education practices (OEP). Check it out and learn how you can contribute.</span>
+          </span>
+        </a>
+                <a class="oeg-spotlight__item block bg-white text-black-300 rounded overflow-hidden shadow-md" 
+          href="https://oeweek.oeglobal.org/2024/we-like-sharing-oeglobal/">
+          <span class="oeg-spotlight__image block"
+                style="background-image: url('/wp-content/uploads/2024/02/52150319966_74bd21c927_o-1536x864-1-800x450.jpg');"></span>
+
+          <span class="block p-6">
+            <h2 class="h2 mb-4">We <3 Sharing: We Like Sharing Open Photo Collection</h2>
+            <span class="block mb-6"><?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon h-auto inline-block" width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/badge-sm</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blocks/featured-page" transform="translate(-16.000000, -248.000000)">
+            <g id="Member-line" transform="translate(16.000000, 248.000000)">
+                <g id="icons/badge-sm">
+                    <g>
+                        <polygon id="Star" fill="#26D7B2" fill-rule="nonzero" points="9.5 17.575 6.56433855 18.5350369 4.75363409 16.0328122 1.81433855 15.0839599 1.82021863 11.9953122 0 9.5 1.82021863 7.00468777 1.81433855 3.9160401 4.75363409 2.96718777 6.56433855 0.464963095 9.5 1.425 12.4356614 0.464963095 14.2463659 2.96718777 17.1856614 3.9160401 17.1797814 7.00468777 19 9.5 17.1797814 11.9953122 17.1856614 15.0839599 14.2463659 16.0328122 12.4356614 18.5350369"></polygon>
+                        <polyline id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="5 9.67260742 7.13989258 12.9846191 14.8076172 7"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><span class="ml-2">OEWeek</span></span>
+            <span class="block font-serif">Organize your own version! We Like Sharing @ OEGlobal invites anyone to share a photograph from anywhere in the world that communicates a visual metaphor for the potential, benefits, characteristics of openly sharing.</span>
+          </span>
+        </a>
+                <a class="oeg-spotlight__item block bg-white text-black-300 rounded overflow-hidden shadow-md" 
+          href="https://www.oeglobal.org/2023/12/01/call-for-proposals-for-oe-global-2025-2026-conference-locations/">
+          <span class="oeg-spotlight__image block"
+                style="background-image: url('/wp-content/uploads/2023/12/Happening-Now-800x540.png');"></span>
+
+          <span class="block p-6">
+            <h2 class="h2 mb-4">Apply: Call for Proposals – host the OEGlobal Conference!</h2>
+            <span class="block mb-6"><?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon h-auto inline-block" width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/badge-sm</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blocks/featured-page" transform="translate(-16.000000, -248.000000)">
+            <g id="Member-line" transform="translate(16.000000, 248.000000)">
+                <g id="icons/badge-sm">
+                    <g>
+                        <polygon id="Star" fill="#26D7B2" fill-rule="nonzero" points="9.5 17.575 6.56433855 18.5350369 4.75363409 16.0328122 1.81433855 15.0839599 1.82021863 11.9953122 0 9.5 1.82021863 7.00468777 1.81433855 3.9160401 4.75363409 2.96718777 6.56433855 0.464963095 9.5 1.425 12.4356614 0.464963095 14.2463659 2.96718777 17.1856614 3.9160401 17.1797814 7.00468777 19 9.5 17.1797814 11.9953122 17.1856614 15.0839599 14.2463659 16.0328122 12.4356614 18.5350369"></polygon>
+                        <polyline id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="5 9.67260742 7.13989258 12.9846191 14.8076172 7"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><span class="ml-2">OEGlobal Conference</span></span>
+            <span class="block font-serif">The call for organisations to apply to host OEGlobal Annual Conference in 2025 or 2026 is now open. Read more!</span>
+          </span>
+        </a>
+              </div>
+    </div>
+  </div>
+  <div class="hidden xl:block">
+    <div class="container relative overflow-hidden xl:overflow-visible -mt-8 pb-40">
+      <div class="oeg-spotlight__triangle"></div>
+    </div>
+  </div>
+  <div class="block xl:hidden">
+    <div class="relative overflow-x-hidden overflow-y-visible -mt-12 pb-48">
+      <div class="oeg-spotlight__triangle"></div>
+    </div>
+  </div>
+</div>
+  
+    <main class="main">
+                 <article class="container post-8 page type-page status-publish hentry">
+  <div class="content lg:mb-6 lg:p-0 w-full">
+    
+<div class="flex w-full border-b border-gray-400 pb-2 mb-6 justify-between items-end">
+    <h2 class="text-xl font-bold font-sans mt-0 mb-0">News and Updates</h2>
+    <a class="flex font-sans view-more" href="/category/news/">View more</a>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%"><ul class="wp-block-latest-posts__list has-dates news-block wp-block-latest-posts"><li><div class="wp-block-latest-posts__featured-image"><img fetchpriority="high" width="800" height="480" src="/wp-content/uploads/2024/01/OEG-Board-Views-20234-800x480.gif" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" style="max-height:500px;" srcset="/wp-content/uploads/2024/01/OEG-Board-Views-20234-800x480.gif 800w, /wp-content/uploads/2024/01/OEG-Board-Views-20234-768x461.gif 768w" sizes="(max-width: 800px) 100vw, 800px"></div><a class="wp-block-latest-posts__post-title" href="https://www.oeglobal.org/2024/01/10/oeg-board-views/">OEG Board Views</a><time datetime="2024-01-10T12:49:00+00:00" class="wp-block-latest-posts__post-date">January 10, 2024</time><div class="wp-block-latest-posts__post-excerpt">Open Education is a movement and a philosophy that seeks to eliminate barriers to learning and make education freely accessible to all. What … <a href="https://www.oeglobal.org/2024/01/10/oeg-board-views/" rel="noopener noreferrer">Read more</a></div></li>
+<li><div class="wp-block-latest-posts__featured-image"><img width="800" height="534" src="/wp-content/uploads/2023/12/49132496147_7695e3027b_k-800x534.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" style="max-height:500px;" srcset="/wp-content/uploads/2023/12/49132496147_7695e3027b_k-800x534.jpg 800w, /wp-content/uploads/2023/12/49132496147_7695e3027b_k-1024x684.jpg 1024w, /wp-content/uploads/2023/12/49132496147_7695e3027b_k-768x513.jpg 768w, /wp-content/uploads/2023/12/49132496147_7695e3027b_k-1536x1026.jpg 1536w, /wp-content/uploads/2023/12/49132496147_7695e3027b_k.jpg 2047w" sizes="(max-width: 800px) 100vw, 800px"></div><a class="wp-block-latest-posts__post-title" href="https://www.oeglobal.org/2023/12/28/celebrating-una-daly-as-she-looks-towards-her-rewirement/">Celebrating Una Daly as she looks towards her &#8220;rewirement&#8221;</a><time datetime="2023-12-28T11:44:09+00:00" class="wp-block-latest-posts__post-date">December 28, 2023</time><div class="wp-block-latest-posts__post-excerpt">After 12 years of dedication to OE Global and specifically as the Director of CCCOER, Una Daly is embarking on a personal and well-earned &#8220;re-wiring&#8221; (Una&#8217;s term for it).  Una Daly has directed the Community College Consortium for Open Educational Resources (CCCOER), since 2011. CCCOER is a regional Open Education Global (OEGlobal) hub that promotes open educational policies, practices, and resources.</div></li>
+<li><div class="wp-block-latest-posts__featured-image"><img width="668" height="522" src="/wp-content/uploads/2023/12/Screenshot-2023-12-20-at-16.46.41-e1703085685384.png" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" style="max-height:500px;"></div><a class="wp-block-latest-posts__post-title" href="https://www.oeglobal.org/2023/12/20/oeglobal-2023-conference-is-certified-carbon-neutral/">OEGlobal 2023 Conference is certified CARBON NEUTRAL</a><time datetime="2023-12-20T14:37:45+00:00" class="wp-block-latest-posts__post-date">December 20, 2023</time><div class="wp-block-latest-posts__post-excerpt">The Open Education Global 2023 conference is a carbon-neutral event. When planning our event, we made conscious choices to keep our emissions low. … <a href="https://www.oeglobal.org/2023/12/20/oeglobal-2023-conference-is-certified-carbon-neutral/" rel="noopener noreferrer">Read more</a></div></li>
+<li><div class="wp-block-latest-posts__featured-image"><img loading="lazy" width="800" height="531" src="/wp-content/uploads/2023/12/53265639650_e6d22eec8c_k-800x531.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" style="max-height:500px;" srcset="/wp-content/uploads/2023/12/53265639650_e6d22eec8c_k-800x531.jpg 800w, /wp-content/uploads/2023/12/53265639650_e6d22eec8c_k-1024x680.jpg 1024w, /wp-content/uploads/2023/12/53265639650_e6d22eec8c_k-768x510.jpg 768w, /wp-content/uploads/2023/12/53265639650_e6d22eec8c_k-1536x1020.jpg 1536w, /wp-content/uploads/2023/12/53265639650_e6d22eec8c_k.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px"></div><a class="wp-block-latest-posts__post-title" href="https://www.oeglobal.org/2023/12/14/oeglobal-2023-a-gift-of-multiple-perspectives/">OEGlobal 2023 : A Gift of Multiple Perspectives</a><time datetime="2023-12-14T13:57:51+00:00" class="wp-block-latest-posts__post-date">December 14, 2023</time><div class="wp-block-latest-posts__post-excerpt">OEGlobal 2023 in Edmonton / Amiskwacîwâskahikan, Canada, took place in October 2023. There has been so much to digest and process from an exceptional conference. Here&#8217;s a recap through the eyes of the attendees.</div></li>
+</ul></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
+<h3 class="wp-block-heading mt-0"><i class="fab fa-mastodon"></i> <a href="https://social.fossdle.org/@oeglobal">OE Global on Mastodon</a></h3>
+
+
+
+  <script>
+    window.addEventListener("load", () => {
+      mastodonFeedLoad(
+        "https://social.fossdle.org/api/v1/accounts/109365829223385884/statuses?limit=3",
+        "include-mastodon-feed-65d9128842f11",
+        {
+          linkTarget: "_self",
+          showPreviewCards: true,
+          excludeConversationStarters: false,
+          text: {
+            boosted: "boosted 🚀",
+            noStatuses: "No statuses availablae",
+            viewOnInstance: "view on instance",
+            showContent: "Show content",
+            permalinkPre: "on",
+            permalinkPost: "",
+            edited: "(edited)",
+          },
+          localization: {
+            date: {
+              locale: "en-US",
+              options: {},
+            }
+          }
+        }
+      );
+    });
+  </script>
+  <div class="include-mastodon-feed" id="include-mastodon-feed-65d9128842f11">Loading Mastodon feed...</div>
+
+</div>
+</div>
+  </div>
+</article>
+            </main>
+
+    <footer class="bg-blue-300 text-blue-900">
+  <div class="container">
+    <div class="flex flex-wrap lg:flex-no-wrap items-start pb-6">
+              <div class="flex flex-col items-center
+                  w-full lg:w-1/4
+                  p-4
+                  mx-4 md:mx-0">
+          <img src="https://www.oeglobal.org/wp-content/themes/oeglobal/dist/images/logos/oeglobal-white_ad7aa00c.svg" class="w-full h-auto max-h-20 mb-4 oeg-logo-shadow"
+               alt="OE Global Logo" />
+          <p class="text-white text-center text-sm mt-4">
+            <a href="/about-us/contact-us/">Contact</a>
+            <span class="px-1">|</span>
+            <a href="https://twitter.com/OpenEdGlobal">Twitter</a>
+          </p>
+        </div>
+            <div class="w-full lg:w-1/12 pb-8"></div>
+
+      <div class="flex
+                w-1/2 md:w-1/3
+                pr-4 last:pr-0
+                lg:w-1/4 pb-4 last:pb-0">
+      <ul>
+        <li class="mb-4">
+                      <a class="h4" href="https://www.oeglobal.org/about-us/">About OEGlobal</a>
+                  </li>
+
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/about-us/what-we-do/">What We Do</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/open-education-global-strategic-plan/">Strategic Plan</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/about-us/people-of-oeg/">People of OEG</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/about-us/members-list/">OE Global Members</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/about-us/history-of-oeg/">History of OEG</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/about-us/contact-us/">Contact Us</a>
+          </li>
+              </ul>
+    </div>
+      <div class="flex
+                w-1/2 md:w-1/3
+                pr-4 last:pr-0
+                lg:w-1/4 pb-4 last:pb-0">
+      <ul>
+        <li class="mb-4">
+                      <a class="h4" href="https://www.oeglobal.org/activities/">OE Global Activities</a>
+                  </li>
+
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/activities/global/">OE Global Events</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/activities/regional/">Building Communities</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/oe-resource/">Open Education Resources</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/activities/special-projects/">Special Projects</a>
+          </li>
+              </ul>
+    </div>
+      <div class="flex
+                w-1/2 md:w-1/3
+                pr-4 last:pr-0
+                lg:w-1/4 pb-4 last:pb-0">
+      <ul>
+        <li class="mb-4">
+                      <a class="h4" href="https://www.oeglobal.org/communication/">News &amp; Views</a>
+                  </li>
+
+                  <li>
+            <a class="text-sm" href="/category/news/">OEGlobal News</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="/category/oeg-world/">OEG World</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://podcast.oeglobal.org/">Hear Open Educators in Action</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/communication/oeg-newsletter/">Open Education Newsletter</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/oeg-job-opportunity/">OEG Job Opportunities</a>
+          </li>
+              </ul>
+    </div>
+      <div class="flex
+                w-1/2 md:w-1/3
+                pr-4 last:pr-0
+                lg:w-1/4 pb-4 last:pb-0">
+      <ul>
+        <li class="mb-4">
+                      <a class="h4" href="https://www.oeglobal.org/get-involved/">Join</a>
+                  </li>
+
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/donate/">Donate</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/get-involved/become-oeglobal-member/">Become an OEGlobal Member</a>
+          </li>
+                  <li>
+            <a class="text-sm" href="https://www.oeglobal.org/oeg-connect/">OEG Connect</a>
+          </li>
+              </ul>
+    </div>
+      </div>
+        <div class="flex flex-col lg:flex-row
+                border-t border-white pt-8
+                small">
+      <div class="w-full lg:w-8/12
+                  pb-4 lg:pb-0">
+        Content on this site is licensed under a <a class="underline" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, <br class="hidden md:block" />except where otherwise noted.
+      </div>
+      <div class="flex lg:justify-end lg:items-start
+                  w-full lg:w-1/3 lg:pl-10">
+        <a class="mb-0! underline" href="https://www.oeglobal.org/terms-of-use-and-privacy-policy/"
+           target="_blank"
+           rel="noopener">Terms of Use and Privacy Policies.</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="gtranslate_wrapper" id="gt-wrapper-77287993"></div>  <script>
+
+    const mastodonFeedCreateElement = function(type, className = null) {
+      let element = document.createElement(type);
+      if(null !== className) {
+        element.className = className;
+      }
+      return element;
+    }
+
+    const mastodonFeedCreateElementAccountLink = function(account) {
+      let accountLinkElem = mastodonFeedCreateElement('a');
+      accountLinkElem.href = account.url;
+
+      let accountImageElem = mastodonFeedCreateElement('img', 'avatar');
+      accountImageElem.src = account.avatar_static;
+
+      accountLinkElem.addEventListener('mouseover', (event) => {
+        accountLinkElem.querySelector('.avatar').src = account.avatar;
+      });
+      accountLinkElem.addEventListener('mouseout', (event) => {
+        accountLinkElem.querySelector('.avatar').src = account.avatar_static;
+      });
+
+      accountLinkElem.appendChild(accountImageElem);
+      // inject emojis
+      let displayName = account.display_name;
+      if(account.emojis.length > 0) {
+        account.emojis.forEach(function(emoji) {
+          displayName = mastodonFeedInjectEmoji(displayName, emoji);
+        });
+      }
+      accountLinkElem.innerHTML += ' ' + displayName;
+      return accountLinkElem;
+    }
+
+    const mastodonFeedCreateElementPermalink = function(status, label) {
+      let linkElem = mastodonFeedCreateElement('a');
+      linkElem.href = status.url;
+      linkElem.appendChild(document.createTextNode(label));
+      return linkElem;
+    }
+
+    const mastodonFeedCreateElementMediaAttachments = function(status, options) {
+      let attachments = status.media_attachments;
+      let mediaWrapperElem = mastodonFeedCreateElement('div', 'media');
+      for(let mediaIndex = 0; mediaIndex < attachments.length; mediaIndex++) {
+        let media = attachments[mediaIndex];
+        let mediaElem = mastodonFeedCreateElement('div', media.type);
+        if('image' == media.type) {
+          let mediaElemImgLink = mastodonFeedCreateElement('a');
+          mediaElemImgLink.href = status.url;
+          if(null === media.remote_url) {
+            mediaElemImgLink.style.backgroundImage = 'url("' + media.preview_url + '")';
+          }
+          else {
+            mediaElemImgLink.style.backgroundImage = 'url("' + media.remote_url + '")';
+          }
+          if(null !== media.description) {
+            mediaElem.title = media.description;
+          }
+          mediaElem.appendChild(mediaElemImgLink);
+        }
+        else if('gifv' == media.type) {
+          let mediaElemGifvLink = mastodonFeedCreateElement('a');
+          mediaElemGifvLink.href = status.url;
+          let mediaElemGifv = mastodonFeedCreateElement('video', 'requiresInteraction');
+          if(null === media.remote_url) {
+            mediaElemGifv.src = media.url;
+          }
+          else {
+            mediaElemGifv.src = media.remote_url;
+          }
+          mediaElemGifv.loop = true;
+          mediaElemGifv.muted = 'muted';
+          if(null !== media.description) {
+            mediaElemGifv.title = media.description;
+          }
+          mediaElemGifvLink.appendChild(mediaElemGifv);
+          mediaElem.appendChild(mediaElemGifvLink);
+
+          mediaElemGifv.addEventListener('mouseover', (event) => {
+            mediaElemGifv.play();
+          });
+          mediaElemGifv.addEventListener('mouseout', (event) => {
+            mediaElemGifv.pause();
+            mediaElemGifv.currentTime = 0;
+          });
+        }
+        else {
+          // TODO implement support for other media types
+          //      currently only image and gifv support implemented
+          mediaElem.innerHTML = 'Stripped ' + media.type + ' - only available on instance<br />';
+          let permalinkElem = mastodonFeedCreateElement('span', 'permalink');
+          permalinkElem.appendChild(mastodonFeedCreateElementPermalink(status, options.text.viewOnInstance));
+          mediaElem.appendChild(permalinkElem);
+        }
+        mediaWrapperElem.appendChild(mediaElem);
+      }
+      return mediaWrapperElem;
+    }
+
+    const mastodonFeedCreateElementPreviewCard = function(card)  {
+      let cardElem = mastodonFeedCreateElement('div', 'card');
+          
+      if(null === card.html || card.html.length < 1) {
+        let cardElemMeta = mastodonFeedCreateElement('div', 'meta');
+
+        if(null !== card.image) {
+          let cardElemImageWrapper = mastodonFeedCreateElement('div', 'image');
+          let cardElemImage = mastodonFeedCreateElement('img');
+          cardElemImage.src = card.image;
+          cardElemImageWrapper.appendChild(cardElemImage);
+          cardElemMeta.appendChild(cardElemImageWrapper);
+        }
+
+        let cardElemTitle = mastodonFeedCreateElement('div', 'title');
+        cardElemTitle.innerHTML = card.title;
+        cardElemMeta.appendChild(cardElemTitle);
+
+        let cardElemDescription = mastodonFeedCreateElement('div', 'description');
+        cardElemDescription.innerHTML = card.description;
+        cardElemMeta.appendChild(cardElemDescription);
+        
+        if(card.url === null) {
+          cardElem.appendChild(cardElemMeta);
+        }
+        else {
+          let cardElemLink = mastodonFeedCreateElement('a');
+          cardElemLink.href = card.url;
+          cardElemLink.appendChild(cardElemMeta);
+          cardElem.appendChild(cardElemLink);
+        }
+      }
+      else {
+        cardElem.innerHTML = card.html;
+      }
+      return cardElem;
+    }
+
+    const mastodonFeedCreateElementTimeinfo = function(status, options, url = false) {
+      let createdInfo = mastodonFeedCreateElement('span', 'permalink');
+      createdInfo.innerHTML = ' ' + options.text.permalinkPre + ' ';
+      if(false === url) {
+        createdInfo.innerHTML += new Date(status.created_at).toLocaleString(options.localization.date.locale, options.localization.date.options);
+      }
+      else {
+        createdInfo.appendChild(mastodonFeedCreateElementPermalink(status, new Date(status.created_at).toLocaleString(options.localization.date.locale, options.localization.date.options)));
+      }
+      createdInfo.innerHTML += ' ' + options.text.permalinkPost + ' ';
+      if(null !== status.edited_at) {
+        createdInfo.innerHTML += ' ' + options.text.edited;
+      }
+      return createdInfo;
+    }
+
+    const mastodonFeedInjectEmoji = function(string, emoji) {
+      return string.replace(':' + emoji.shortcode + ':', '<img class="emoji" src="' + emoji.url + '" title="' + emoji.shortcode + '" />');
+    }
+
+    const mastodonFeedRenderStatuses = function(statuses, rootElem, options) {
+      if(statuses.length < 1) {
+        console.log(options);
+        rootElem.innerHTML = options.text.noStatuses;
+      }
+      else {
+        for(let i = 0; i < statuses.length; i++) {
+          let status = statuses[i];
+          let isEdited = (null === status.edited_at ? true : false);
+          let isReblog = (null === status.reblog ? false : true);
+
+          let statusElem = mastodonFeedCreateElement('div', 'status');
+
+          // add account meta info
+          let accountElem = mastodonFeedCreateElement('div', 'account');
+
+          if(isReblog) {
+            let boosterElem = mastodonFeedCreateElement('span', 'booster');
+            boosterElem.appendChild(document.createTextNode( options.text.boosted ));
+            accountElem.appendChild(boosterElem);
+          }
+          accountElem.appendChild(mastodonFeedCreateElementAccountLink(status.account));
+          accountElem.appendChild(mastodonFeedCreateElementTimeinfo(status, options, (isReblog ? false : status.url)));
+          
+          statusElem.appendChild(accountElem);
+
+          // prepare content rendering
+          let showStatus = status;
+          if(isReblog) {
+            showStatus = status.reblog;
+          }
+          let contentWrapperElem = mastodonFeedCreateElement('div', 'contentWrapper' + (isReblog ? ' boosted' : ''));
+
+          // add boosted post meta info
+          if(isReblog) {
+            let boostElem = mastodonFeedCreateElement('div', 'account');
+            let boostAccountLink = mastodonFeedCreateElementAccountLink(showStatus.account);
+            boostElem.appendChild(boostAccountLink);
+            boostElem.appendChild(mastodonFeedCreateElementTimeinfo(showStatus, options, showStatus.url));
+
+            contentWrapperElem.appendChild(boostElem);
+          }
+
+          let contentElem = mastodonFeedCreateElement('div', 'content');
+
+          // handle content warnings
+          if(showStatus.sensitive || showStatus.spoiler_text.length > 0) {
+            let cwElem = mastodonFeedCreateElement('div', 'contentWarning');
+
+            if(showStatus.spoiler_text.length > 0) {
+              let cwTitleElem = mastodonFeedCreateElement('div', 'title');
+              cwTitleElem.innerHTML = showStatus.spoiler_text;
+              cwElem.appendChild(cwTitleElem);
+            }
+
+            let cwLinkElem = mastodonFeedCreateElement('a');
+            cwLinkElem.href = '#';
+            cwLinkElem.onclick = function() {
+              this.parentElement.style = 'display: none;';
+              this.parentElement.nextSibling.style = 'display: block;';
+              return false;
+            }
+            cwLinkElem.innerHTML = options.text.showContent;
+            cwElem.appendChild(cwLinkElem);
+
+            contentWrapperElem.appendChild(cwElem);
+            contentElem.style = 'display: none;';
+          }
+
+          // add regular content
+          let renderContent = showStatus.content;
+          // inject emojis
+          if(showStatus.emojis.length > 0) {
+            showStatus.emojis.forEach(function(emoji) {
+              renderContent = mastodonFeedInjectEmoji(renderContent, emoji);
+            });
+          }
+          contentElem.innerHTML += renderContent;
+
+          // handle media attachments
+          if(showStatus.media_attachments.length > 0) {
+            let mediaAttachmentsElem = mastodonFeedCreateElementMediaAttachments(showStatus, options);
+            contentElem.appendChild(mediaAttachmentsElem);
+          }
+
+          // handle preview card
+          if(options.showPreviewCards && showStatus.card != null) {
+            let cardElem = mastodonFeedCreateElementPreviewCard(showStatus.card);
+            contentElem.appendChild(cardElem);
+          }
+
+          contentWrapperElem.appendChild(contentElem);
+          statusElem.appendChild(contentWrapperElem);
+          rootElem.appendChild(statusElem);
+        }
+      }
+      if('_self' != options.linkTarget) {
+        rootElem.querySelectorAll('a').forEach(function(e) {
+          e.target = options.linkTarget;
+        });
+      }
+    }
+
+    const mastodonFeedLoad = function(url, elementId, options) {
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', url, true);
+      xhr.responseType = 'json';
+      xhr.onload = function() {
+        const statuses = xhr.response;
+        const rootElem = document.getElementById(elementId);
+        rootElem.innerHTML = '';
+                if (xhr.status === 200) {
+                    if(options.excludeConversationStarters && statuses.length > 0) {
+            const filteredStatuses = [];
+            for(let i = 0; i < statuses.length; i++) {
+              let includeStatus = true;
+              if(statuses[i].mentions.length > 0) {
+                const statusContent = document.createElement('div');
+                statusContent.innerHTML = statuses[i].content;
+                const plainTextContent = statusContent.textContent || statusContent.innerText;
+                if(plainTextContent.substring(1, ('@' + statuses[i].mentions[0].acct).length) == statuses[i].mentions[0].acct) {
+                  includeStatus = false;
+                }
+              }
+              if(includeStatus) {
+                filteredStatuses.push(statuses[i]);
+              }
+            }
+            mastodonFeedRenderStatuses(filteredStatuses, rootElem, options);
+          }
+          else  {
+            mastodonFeedRenderStatuses(statuses, rootElem, options);
+          }
+        }
+        else {
+                    rootElem.appendChild(document.createTextNode(xhr.response.error));
+        }
+      };
+      xhr.send();
+    }
+  </script>
+<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-3.wp-container-3{flex-wrap:nowrap;}
+</style>
+<script src="/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=3.1.5" id="coblocks-animation-js"></script>
+<script src="/wp-content/plugins/coblocks/dist/js/vendors/tiny-swiper.js?ver=3.1.5" id="coblocks-tiny-swiper-js"></script>
+<script type='text/javascript' id='coblocks-tinyswiper-initializer-js-extra'>
+/* <![CDATA[ */
+var coblocksTinyswiper = {"carouselPrevButtonAriaLabel":"Previous","carouselNextButtonAriaLabel":"Next","sliderImageAriaLabel":"Image"};
+/* ]]> */
+</script>
+<script src="/wp-content/plugins/coblocks/dist/js/coblocks-tinyswiper-initializer.js?ver=3.1.5" id="coblocks-tinyswiper-initializer-js"></script>
+<script src="/wp-content/plugins/fitvids-for-wordpress/jquery.fitvids.js?ver=1.1" id="fitvids-js"></script>
+<script src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script src="/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.2" id="jquery-ui-datepicker-js"></script>
+<script id="jquery-ui-datepicker-js-after" type="text/javascript">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script src="/wp-content/themes/oeglobal/dist/scripts/main_55ebb40e.js" id="sage/main.js-js"></script>
+<script id="gt_widget_script_77287993-js-before" type="text/javascript">
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings["77287993"] = {"default_language":"en","languages":["ar","zh-CN","en","fr","de","it","pt","ru","es"],"url_structure":"none","native_language_names":1,"flag_style":"2d","flag_size":16,"wrapper_selector":"#gt-wrapper-77287993","alt_flags":{"en":"usa","pt":"brazil"},"switcher_open_direction":"top","switcher_horizontal_position":"right","switcher_vertical_position":"bottom","switcher_text_color":"#d8e7fd","switcher_arrow_color":"#ffffff","switcher_border_color":"#1a52b2","switcher_background_color":"#1c2b5a","switcher_background_shadow_color":"#1c2b5a","switcher_background_hover_color":"#1c2b5a","dropdown_text_color":"#d8e7fd","dropdown_hover_color":"#3b80f7","dropdown_background_color":"#1f377a","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+</script><script src="/wp-content/plugins/gtranslate/js/dwf.js?ver=6.3.3" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/" data-gt-orig-domain="www.oeglobal.org" data-gt-widget-id="77287993" defer></script>		<script type="text/javascript">
+		jQuery(document).ready(function () {
+			jQuery('.main').fitVids();
+		});
+		</script>  <script>
+          window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-4248822-14','auto');
+        ga('send','pageview')
+  </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </body>
+</html>

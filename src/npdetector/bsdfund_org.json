@@ -1,0 +1,55 @@
+{
+  "slogan": null,
+  "copyright": null,
+  "imprint": null,
+  "metas": {
+    "title": "BSD Fund",
+    "generator": [
+
+    ],
+    "yoast": null
+  },
+  "links": {
+    "sponsorlinks": [
+      "https://bsdfund.org/sponsor/",
+      "https://bsdfund.org/sponsors/",
+      "https://www.bsdcan.org/2024/sponsorship.php",
+      "https://2023.eurobsdcon.org/sponsors/"
+    ],
+    "eventlinks": [
+      "mailto:victoria@vgfevents.com"
+    ],
+    "contributelinks": [
+      "https://bsdfund.org/sponsor/"
+    ]
+  },
+  "linksnav": {
+    "alllinks": [
+
+    ]
+  },
+  "linksfooter": {
+    "alllinks": [
+
+    ]
+  },
+  "textmatch": {
+    "501c3": [
+
+    ],
+    "nonprofit": [
+
+    ],
+    "einscan": [
+
+    ]
+  },
+  "identifier": "bsdfund",
+  "website": "https://bsdfund.org",
+  "commonName": "BSD Fund",
+  "legalName": "BSD Fund",
+  "location": "US",
+  "state": null,
+  "taxID": null,
+  "newEngland": "845e0d9486"
+}
