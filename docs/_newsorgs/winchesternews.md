@@ -24,6 +24,7 @@ budgetUsd:
 budgetYear:
 donateurl: https://www.winchesternews.org/donate
 sponsorurl:
+policyurl: https://winchesternews.org/ethics-and-policy/
 advertising:
 telephone:
 emailContact:
